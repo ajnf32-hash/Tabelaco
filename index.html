@@ -27,7 +27,7 @@
   /* ---------------- CAPA ---------------- */
   #capa{position:absolute;inset:0;z-index:80;background:var(--verde);
         display:flex;flex-direction:column;align-items:center;justify-content:center;
-        padding:7% 0 0;transition:opacity .5s ease, transform .5s ease;overflow:hidden;text-align:center}
+        padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease;overflow:hidden;text-align:center}
   #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
   #capa .topo{position:absolute;top:7%;width:100%;font-weight:800;color:var(--amarelo);
         letter-spacing:3px;font-size:14px}
@@ -42,7 +42,7 @@
         animation:pulso 1.8s infinite}
   #capa .entrar:active{transform:translateY(4px);box-shadow:0 2px 0 #001a4d}
   @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
-  #mascote{position:absolute;left:0;bottom:0;width:62%;max-width:240px;z-index:1;pointer-events:none;
+  #mascote{position:absolute;left:-4px;bottom:-2px;width:48%;max-width:185px;z-index:1;pointer-events:none;
         filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
 
   /* ---------------- APP ---------------- */
@@ -445,70 +445,6 @@ async function autoFill(){
   save();render();
   st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');botoes.forEach(b=>b.disabled=false);
 }
-
-/* ---------- som de torcida (Web Audio, sem arquivo) ---------- */
-let ACTX=null;
-function torcida(){
-  try{
-    ACTX=ACTX||new (window.AudioContext||window.webkitAudioContext)();
-    const ctx=ACTX; if(ctx.state==='suspended') ctx.resume();
-    const t=ctx.currentTime+0.06,dur=6.5;
-    const master=ctx.createGain(); master.gain.value=0.9; master.connect(ctx.destination);
-
-    /* 1) RUGIDO da torcida — ruído MARROM (grave/quente, não chiado) com ondulação */
-    const N=Math.floor(ctx.sampleRate*dur), buf=ctx.createBuffer(1,N,ctx.sampleRate), d=buf.getChannelData(0);
-    let last=0;
-    for(let i=0;i<N;i++){ const w=Math.random()*2-1; last=(last+0.02*w)/1.02; d[i]=last*3.2; }
-    const roar=ctx.createBufferSource(); roar.buffer=buf;
-    const lp=ctx.createBiquadFilter(); lp.type='lowpass'; lp.frequency.value=1100;
-    const voz=ctx.createBiquadFilter(); voz.type='peaking'; voz.frequency.value=500; voz.Q.value=1.1; voz.gain.value=7;
-    const rg=ctx.createGain();
-    rg.gain.setValueAtTime(0.0001,t);
-    rg.gain.exponentialRampToValueAtTime(0.5,t+0.7);
-    rg.gain.linearRampToValueAtTime(0.42,t+3.5);
-    rg.gain.exponentialRampToValueAtTime(0.0001,t+dur);
-    const lfo=ctx.createOscillator(); lfo.type='sine'; lfo.frequency.value=3.8;
-    const lfoG=ctx.createGain(); lfoG.gain.value=0.13;
-    lfo.connect(lfoG); lfoG.connect(rg.gain); lfo.start(t); lfo.stop(t+dur);
-    roar.connect(voz); voz.connect(lp); lp.connect(rg); rg.connect(master);
-    roar.start(t); roar.stop(t+dur);
-
-    /* 2) APLAUSOS — muitas palminhas curtas espalhadas (o "som de gente") */
-    const cN=Math.floor(ctx.sampleRate*0.05), cBuf=ctx.createBuffer(1,cN,ctx.sampleRate), cd=cBuf.getChannelData(0);
-    for(let i=0;i<cN;i++) cd[i]=(Math.random()*2-1)*Math.pow(1-i/cN,2.5);
-    for(let k=0;k<320;k++){
-      const ct=t+Math.random()*(dur-0.6);
-      const dens=Math.min(1,(ct-t)/1.3);            // aplausos crescem no começo
-      if(Math.random()>0.25+dens*0.7) continue;
-      const cs=ctx.createBufferSource(); cs.buffer=cBuf;
-      const cf=ctx.createBiquadFilter(); cf.type='bandpass'; cf.frequency.value=1400+Math.random()*1400; cf.Q.value=0.7;
-      const cg=ctx.createGain(); cg.gain.value=0.04+Math.random()*0.05;
-      cs.connect(cf); cf.connect(cg); cg.connect(master); cs.start(ct);
-    }
-
-    /* 3) APITOS de torcedor */
-    [0.9,1.9,3.0,4.1].forEach((dl,k)=>{
-      const o=ctx.createOscillator(); o.type='sine';
-      o.frequency.setValueAtTime(1850+k*110,t+dl);
-      o.frequency.linearRampToValueAtTime(2150+k*110,t+dl+0.16);
-      const og=ctx.createGain(); og.gain.setValueAtTime(0,t+dl);
-      og.gain.linearRampToValueAtTime(0.05,t+dl+0.05);
-      og.gain.linearRampToValueAtTime(0,t+dl+0.32);
-      o.connect(og); og.connect(master); o.start(t+dl); o.stop(t+dl+0.36);
-    });
-  }catch(e){}
-}
-/* Igual ao Smart Stock: tenta tocar quando a capa surge (mount) e garante no 1º gesto.
-   Agenda o som UMA vez; se o navegador bloquear (mobile), o 1º toque retoma o contexto. */
-let SOM_OK=false;
-function dispararSom(){
-  if(!SOM_OK){ SOM_OK=true; torcida(); }
-  else if(ACTX && ACTX.state!=='running'){ try{ACTX.resume();}catch(e){} }
-}
-if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',dispararSom);
-else dispararSom();
-['pointerdown','touchstart','mousedown','keydown','click'].forEach(ev=>
-  document.addEventListener(ev,dispararSom));
 
 /* ---------- capa ---------- */
 document.getElementById('entrar').onclick=()=>{
