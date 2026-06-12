@@ -1,0 +1,15 @@
+# logs e temporários do servidor/túnel local
+lt.log
+*.log
+
+# arquivos temporários de screenshot/preview
+_*.html
+_*.png
+
+# dependências (caso algum dia use)
+node_modules/
+
+# sistema
+Thumbs.db
+desktop.ini
+.DS_Store

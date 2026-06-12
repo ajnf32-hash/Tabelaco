@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no">
+<meta name="theme-color" content="#FFD400">
+<title>Copa do Mundo FIFA 2026</title>
+<style>
+  :root{
+    --amarelo:#FFD400; --amarelo2:#FFC400; --verde:#009C3B; --verde2:#009C3B;
+    --azul:#002776; --txt:#0b2e16; --mut:#4a6b00; --linha:rgba(0,156,59,.45);
+    --win:#009C3B; --draw:#b8860b;
+  }
+  *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+  html,body{margin:0;height:100%}
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--txt);
+       background:radial-gradient(circle at 50% 30%,#22262b,#0d0f12);overflow:hidden;
+       display:flex;align-items:center;justify-content:center}
+  /* moldura de celular: sempre formato vertical de telefone */
+  #device{position:relative;width:100%;max-width:430px;height:min(940px,100vh);
+       height:min(940px,100dvh);
+       background:var(--verde);overflow:hidden;border-radius:20px;
+       box-shadow:0 24px 70px rgba(0,0,0,.55)}
+  /* moldura em volta da "tela" */
+  #frame{position:absolute;inset:0;border:9px solid var(--verde2);pointer-events:none;z-index:90;border-radius:20px}
+
+  /* ---------------- CAPA ---------------- */
+  #capa{position:absolute;inset:0;z-index:80;background:var(--verde);
+        display:flex;flex-direction:column;align-items:center;justify-content:center;
+        padding:7% 0 0;transition:opacity .5s ease, transform .5s ease;overflow:hidden;text-align:center}
+  #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
+  #capa .topo{position:absolute;top:7%;width:100%;font-weight:800;color:var(--amarelo);
+        letter-spacing:3px;font-size:14px}
+  #capa .emblema{height:34%;max-height:320px;width:auto;max-width:88%;object-fit:contain;
+        filter:drop-shadow(0 8px 14px rgba(0,0,0,.3))}
+  #capa h1{margin:14px 0 2px;font-size:30px;color:var(--amarelo);
+        font-weight:900;letter-spacing:1px;text-shadow:0 2px 0 rgba(0,0,0,.28)}
+  #capa .host{color:#eafff0;font-weight:700;letter-spacing:1.5px;font-size:12px}
+  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--azul);color:#fff;border:none;
+        padding:15px 34px;border-radius:40px;font-size:17px;font-weight:900;letter-spacing:.5px;
+        box-shadow:0 6px 0 #001a4d, 0 10px 18px rgba(0,0,0,.35);cursor:pointer;
+        animation:pulso 1.8s infinite}
+  #capa .entrar:active{transform:translateY(4px);box-shadow:0 2px 0 #001a4d}
+  @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+  #mascote{position:absolute;left:0;bottom:0;width:62%;max-width:240px;z-index:1;pointer-events:none;
+        filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+
+  /* ---------------- APP ---------------- */
+  #app{height:100%;display:flex;flex-direction:column}
+  header{padding:12px 14px 8px;text-align:center;flex:0 0 auto}
+  header h2{margin:0;font-size:17px;font-weight:900;color:var(--verde)}
+  header .sub{font-size:11px;color:var(--mut);margin-top:2px}
+  .barra{display:flex;gap:7px;justify-content:center;padding:0 10px 8px;flex-wrap:wrap;flex:0 0 auto}
+  .barra button{font-size:12px;font-weight:700;border:none;border-radius:20px;padding:8px 13px;
+        background:#fff;color:var(--verde);box-shadow:0 2px 5px rgba(0,0,0,.12);cursor:pointer}
+  .barra button.pri{background:var(--verde);color:#fff}
+  .barra .st{font-size:11px;color:var(--mut);align-self:center}
+
+  /* carrossel de páginas */
+  #carrossel{flex:1 1 auto;display:flex;overflow-x:auto;overflow-y:hidden;
+        scroll-snap-type:x mandatory;scroll-behavior:smooth;
+        -webkit-overflow-scrolling:touch;scrollbar-width:none}
+  #carrossel::-webkit-scrollbar{display:none}
+  .pagina{flex:0 0 100%;width:100%;height:100%;scroll-snap-align:center;
+        padding:12px 16px 12px;display:flex}
+  .cartela{background:var(--amarelo);border:3px solid var(--verde2);border-radius:0;overflow:hidden;
+        width:100%;max-width:1280px;margin:0 auto;
+        display:flex;flex-direction:column}
+  .gtit{background:var(--verde);color:#fff;font-weight:900;font-size:15px;padding:9px 16px;
+        display:flex;align-items:center;gap:8px;letter-spacing:.3px;flex-wrap:nowrap;flex:0 0 auto}
+  .gtit-nome{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .gtit .acts{flex:0 0 auto;margin-left:auto;display:flex;align-items:center;gap:5px;flex-wrap:nowrap}
+  .gtit .st{font-size:10px;font-weight:600;opacity:.9}
+  .gtit button{width:33px;height:33px;border:none;border-radius:50%;padding:0;font-size:16px;
+        background:var(--azul);color:#fff;cursor:pointer;box-shadow:0 2px 4px rgba(0,0,0,.25);
+        display:inline-flex;align-items:center;justify-content:center;line-height:1}
+  .gtit button:active{transform:translateY(1px)}
+  .gtit button.pri{background:var(--azul);color:var(--amarelo);border:2px solid var(--amarelo)}
+  .corpo{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column}
+  .corpo .col{min-width:0}
+  .corpo .col-tab{flex:0 0 auto}
+  .corpo .jogos{flex:1 0 auto}
+
+  table{width:100%;border-collapse:collapse}
+  thead th{font-size:10px;color:var(--mut);font-weight:700;padding:7px 2px;text-align:center;
+        border-bottom:2px solid var(--linha)}
+  thead th.t{text-align:left;padding-left:12px}
+  tbody td{font-size:13px;padding:7px 2px;text-align:center;border-bottom:1px solid rgba(0,0,0,.08)}
+  tbody td.t{text-align:left;padding-left:10px}
+  tbody tr.q1 td:first-child{box-shadow:inset 4px 0 0 var(--win)}
+  tbody tr.q2 td:first-child{box-shadow:inset 4px 0 0 var(--draw)}
+  .time{display:flex;align-items:center;gap:7px}
+  .pts{font-weight:900;color:var(--verde)}
+  .flag{width:24px;height:16px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:0 0 auto}
+  .tname{background:transparent;border:none;color:var(--txt);font-weight:700;font-size:12.5px;
+        width:108px;padding:2px;border-radius:5px;overflow:hidden;text-overflow:ellipsis}
+  .tname:focus{outline:none;background:rgba(255,255,255,.55)}
+
+  .jogos{padding:8px 10px 12px;display:flex;flex-direction:column}
+  .jogos h4{margin:6px 4px 8px;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.8px;flex:0 0 auto}
+  .jogo{padding:6px 2px;border-bottom:1px solid rgba(0,0,0,.07);flex:1 0 auto;display:flex;flex-direction:column;justify-content:center}
+  .jogo:last-child{border-bottom:none}
+  .linha{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px}
+  .lado{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;min-width:0}
+  .lado.h{justify-content:flex-end;text-align:right}
+  .lado span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+  .placar{display:flex;align-items:center;gap:5px}
+  .placar input{width:34px;height:34px;text-align:center;font-size:16px;font-weight:800;
+        border:2px solid var(--verde2);border-radius:0;color:var(--txt);background:#fffdf2}
+  .placar input:focus{outline:none;border-color:var(--verde)}
+  .placar input.ok{border-color:var(--verde);color:var(--verde)}
+  .vs{font-size:10px;color:var(--mut)}
+  .data{text-align:center;font-size:10px;color:var(--mut);margin-top:3px}
+  /* mata-mata */
+  .jogo.ko{padding:9px 4px}
+  .mnum{font-size:9.5px;color:var(--mut);font-weight:800;text-align:center;margin-bottom:5px;
+        text-transform:uppercase;letter-spacing:.6px}
+  .lado .ph{opacity:.5;font-style:italic;font-weight:600;font-size:11.5px}
+  .pen{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;
+        font-size:10px;color:var(--azul);font-weight:700}
+  .pen input{width:26px;height:24px;text-align:center;font-size:12px;font-weight:800;
+        border:1px solid var(--azul);border-radius:0;background:#fffdf2;color:var(--txt)}
+  .mascote-pg{flex:0 0 auto;display:flex;justify-content:center;align-items:flex-end;padding:4px 0 6px}
+  .mascote-pg img{height:165px;width:auto;max-width:62%;object-fit:contain;
+        filter:drop-shadow(0 4px 6px rgba(0,0,0,.3))}
+  .mascote-pg.big img{height:260px;max-width:80%}
+
+  /* navegação inferior */
+  #nav{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:14px;
+        padding:8px 14px 12px;background:transparent}
+  #nav button{width:42px;height:42px;border:none;border-radius:50%;background:var(--azul);color:var(--amarelo);
+        font-size:20px;font-weight:900;cursor:pointer;box-shadow:0 3px 6px rgba(0,0,0,.3)}
+  #nav button:active{transform:scale(.92)}
+  #nav .ind{font-weight:900;color:var(--amarelo);font-size:15px;min-width:96px;text-align:center}
+  #pontos{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;padding:0 14px 6px}
+  #pontos i{width:7px;height:7px;border-radius:50%;background:var(--amarelo);opacity:.45;transition:.2s}
+  #pontos i.on{background:var(--amarelo);opacity:1;transform:scale(1.4)}
+  /* aviso flutuante (não afeta o layout dos botões) */
+  #toast{position:absolute;left:50%;bottom:70px;transform:translateX(-50%) translateY(8px);
+        background:rgba(0,0,0,.82);color:#fff;font-size:12px;font-weight:600;
+        padding:8px 16px;border-radius:20px;z-index:95;opacity:0;pointer-events:none;
+        max-width:80%;text-align:center;transition:opacity .25s,transform .25s}
+  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<div id="device">
+<div id="frame"></div>
+
+<!-- ===================== CAPA ===================== -->
+<div id="capa">
+  <div class="topo">FIFA WORLD CUP</div>
+
+  <!-- Emblema oficial da Copa 2026 -->
+  <img class="emblema" src="img/mascote5.png" alt="Copa do Mundo FIFA 2026">
+
+  <h1>COPA DO MUNDO</h1>
+  <div class="host">CANADÁ · MÉXICO · ESTADOS UNIDOS</div>
+  <button class="entrar" id="entrar">VER TABELA ⚽</button>
+
+  <!-- Mascote: Canarinho "brabo" (imagem) -->
+  <img id="mascote" src="img/mascote4.png" alt="Canarinho">
+</div>
+
+<!-- ===================== APP ===================== -->
+<div id="app">
+  <div id="carrossel"></div>
+
+  <div id="pontos"></div>
+  <div id="nav">
+    <button id="prev">‹</button>
+    <div class="ind" id="ind">Grupo A</div>
+    <button id="next">›</button>
+  </div>
+</div>
+<div id="toast"></div>
+</div>
+
+<script>
+/* ---------- Grupos oficiais (sorteio 05/12/2025) ---------- */
+const GROUPS=[
+  {name:'A',teams:['México','África do Sul','Coreia do Sul','República Tcheca']},
+  {name:'B',teams:['Canadá','Bósnia e Herzegovina','Catar','Suíça']},
+  {name:'C',teams:['Brasil','Marrocos','Haiti','Escócia']},
+  {name:'D',teams:['Estados Unidos','Paraguai','Austrália','Turquia']},
+  {name:'E',teams:['Alemanha','Curaçao','Costa do Marfim','Equador']},
+  {name:'F',teams:['Holanda','Japão','Suécia','Tunísia']},
+  {name:'G',teams:['Bélgica','Egito','Irã','Nova Zelândia']},
+  {name:'H',teams:['Espanha','Cabo Verde','Arábia Saudita','Uruguai']},
+  {name:'I',teams:['França','Senegal','Iraque','Noruega']},
+  {name:'J',teams:['Argentina','Argélia','Áustria','Jordânia']},
+  {name:'K',teams:['Portugal','RD Congo','Uzbequistão','Colômbia']},
+  {name:'L',teams:['Inglaterra','Croácia','Gana','Panamá']},
+];
+const PAIRS=[[0,1],[2,3],[0,2],[3,1],[0,3],[1,2]];
+
+/* códigos ISO p/ bandeiras (flagcdn) */
+const ISO={
+ 'México':'mx','África do Sul':'za','Coreia do Sul':'kr','República Tcheca':'cz',
+ 'Canadá':'ca','Bósnia e Herzegovina':'ba','Catar':'qa','Suíça':'ch',
+ 'Brasil':'br','Marrocos':'ma','Haiti':'ht','Escócia':'gb-sct',
+ 'Estados Unidos':'us','Paraguai':'py','Austrália':'au','Turquia':'tr',
+ 'Alemanha':'de','Curaçao':'cw','Costa do Marfim':'ci','Equador':'ec',
+ 'Holanda':'nl','Japão':'jp','Suécia':'se','Tunísia':'tn',
+ 'Bélgica':'be','Egito':'eg','Irã':'ir','Nova Zelândia':'nz',
+ 'Espanha':'es','Cabo Verde':'cv','Arábia Saudita':'sa','Uruguai':'uy',
+ 'França':'fr','Senegal':'sn','Iraque':'iq','Noruega':'no',
+ 'Argentina':'ar','Argélia':'dz','Áustria':'at','Jordânia':'jo',
+ 'Portugal':'pt','RD Congo':'cd','Uzbequistão':'uz','Colômbia':'co',
+ 'Inglaterra':'gb-eng','Croácia':'hr','Gana':'gh','Panamá':'pa',
+};
+function bandeira(n){const c=ISO[n];
+  return c?`<img class="flag" src="https://flagcdn.com/h20/${c}.png" alt="" loading="lazy">`
+          :`<span class="flag" style="display:inline-flex;align-items:center;justify-content:center">⚽</span>`;}
+
+/* nomes em inglês p/ casar com a API */
+const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
+
+const KEY='wc2026-data-v3';
+let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
+function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
+  scores:PAIRS.map(()=>({h:null,a:null,date:''}))})),ko:{}};}
+function load(){try{const s=localStorage.getItem(KEY);if(s){const o=JSON.parse(s);if(o&&o.groups)return o;}}catch(e){}return freshData();}
+function save(){localStorage.setItem(KEY,JSON.stringify({groups:DATA,ko:KO}));st('Salvo ✓');}
+let _toastT;
+const st=t=>{const el=document.getElementById('toast');if(!el)return;
+  el.textContent=t;el.classList.add('show');
+  clearTimeout(_toastT);_toastT=setTimeout(()=>el.classList.remove('show'),2200);};
+
+/* ---------- classificação ---------- */
+function tabela(g){
+  const T=g.teams.map((name,i)=>({i,name,V:0,E:0,D:0,GP:0,GC:0}));
+  g.scores.forEach((s,m)=>{if(s.h==null||s.a==null)return;
+    const[hi,ai]=PAIRS[m],H=T[hi],A=T[ai];
+    H.GP+=s.h;H.GC+=s.a;A.GP+=s.a;A.GC+=s.h;
+    if(s.h>s.a){H.V++;A.D++;}else if(s.h<s.a){A.V++;H.D++;}else{H.E++;A.E++;}});
+  T.forEach(t=>{t.J=t.V+t.E+t.D;t.Pts=t.V*3+t.E;t.SG=t.GP-t.GC;});
+  T.sort((a,b)=>b.Pts-a.Pts||b.SG-a.SG||b.GP-a.GP||a.name.localeCompare(b.name));
+  return T;
+}
+
+/* ---------- mata-mata: chaveamento oficial 2026 ---------- */
+function grupoCompleto(g){return g.scores.every(s=>s.h!=null&&s.a!=null);}
+const BRACKET=[
+ {m:73,A:{t:'gr',g:'A'},B:{t:'gr',g:'B'}},
+ {m:74,A:{t:'gw',g:'E'},B:{t:'g3',m:74}},
+ {m:75,A:{t:'gw',g:'F'},B:{t:'gr',g:'C'}},
+ {m:76,A:{t:'gw',g:'C'},B:{t:'gr',g:'F'}},
+ {m:77,A:{t:'gw',g:'I'},B:{t:'g3',m:77}},
+ {m:78,A:{t:'gr',g:'E'},B:{t:'gr',g:'I'}},
+ {m:79,A:{t:'gw',g:'A'},B:{t:'g3',m:79}},
+ {m:80,A:{t:'gw',g:'L'},B:{t:'g3',m:80}},
+ {m:81,A:{t:'gw',g:'D'},B:{t:'g3',m:81}},
+ {m:82,A:{t:'gw',g:'G'},B:{t:'g3',m:82}},
+ {m:83,A:{t:'gr',g:'K'},B:{t:'gr',g:'L'}},
+ {m:84,A:{t:'gw',g:'H'},B:{t:'gr',g:'J'}},
+ {m:85,A:{t:'gw',g:'B'},B:{t:'g3',m:85}},
+ {m:86,A:{t:'gw',g:'J'},B:{t:'gr',g:'H'}},
+ {m:87,A:{t:'gw',g:'K'},B:{t:'g3',m:87}},
+ {m:88,A:{t:'gr',g:'D'},B:{t:'gr',g:'G'}},
+ {m:89,A:{t:'w',m:74},B:{t:'w',m:77}},
+ {m:90,A:{t:'w',m:73},B:{t:'w',m:75}},
+ {m:91,A:{t:'w',m:76},B:{t:'w',m:78}},
+ {m:92,A:{t:'w',m:79},B:{t:'w',m:80}},
+ {m:93,A:{t:'w',m:83},B:{t:'w',m:84}},
+ {m:94,A:{t:'w',m:81},B:{t:'w',m:82}},
+ {m:95,A:{t:'w',m:86},B:{t:'w',m:88}},
+ {m:96,A:{t:'w',m:85},B:{t:'w',m:87}},
+ {m:97,A:{t:'w',m:89},B:{t:'w',m:90}},
+ {m:98,A:{t:'w',m:93},B:{t:'w',m:94}},
+ {m:99,A:{t:'w',m:91},B:{t:'w',m:92}},
+ {m:100,A:{t:'w',m:95},B:{t:'w',m:96}},
+ {m:101,A:{t:'w',m:97},B:{t:'w',m:98}},
+ {m:102,A:{t:'w',m:99},B:{t:'w',m:100}},
+ {m:103,A:{t:'l',m:101},B:{t:'l',m:102}},
+ {m:104,A:{t:'w',m:101},B:{t:'w',m:102}},
+];
+const BM={};BRACKET.forEach(b=>BM[b.m]=b);
+const THIRD_SLOTS=[[74,['A','B','C','D','F']],[77,['C','D','F','G','H']],[79,['C','E','F','H','I']],
+  [80,['E','H','I','J','K']],[81,['B','E','F','I','J']],[82,['A','E','H','I','J']],
+  [85,['E','F','G','I','J']],[87,['D','E','I','J','L']]];
+let TER=null;
+function ranking3os(){
+  if(!DATA.every(grupoCompleto))return null;
+  const ter=DATA.map(g=>{const t=tabela(g)[2];return{g:g.name,name:t.name,Pts:t.Pts,SG:t.SG,GP:t.GP};});
+  ter.sort((a,b)=>b.Pts-a.Pts||b.SG-a.SG||b.GP-a.GP||a.g.localeCompare(b.g));
+  const top=ter.slice(0,8),qG=top.map(o=>o.g),used=new Set(),res={};
+  (function bt(i){if(i===THIRD_SLOTS.length)return true;const[m,el]=THIRD_SLOTS[i];
+    for(const grp of qG){if(used.has(grp)||!el.includes(grp))continue;
+      used.add(grp);res[m]=grp;if(bt(i+1))return true;used.delete(grp);delete res[m];}
+    return false;})(0);
+  const byG={};top.forEach(o=>byG[o.g]=o.name);return{assign:res,byG};
+}
+function resolve(src){
+  if(src.t==='gw'){const g=DATA.find(x=>x.name===src.g);return grupoCompleto(g)?tabela(g)[0].name:null;}
+  if(src.t==='gr'){const g=DATA.find(x=>x.name===src.g);return grupoCompleto(g)?tabela(g)[1].name:null;}
+  if(src.t==='g3'){if(!TER)return null;const grp=TER.assign[src.m];return grp?TER.byG[grp]:null;}
+  if(src.t==='w')return venc(src.m);
+  if(src.t==='l')return perd(src.m);
+  return null;
+}
+function rotulo(src){return src.t==='gw'?'1º Grupo '+src.g:src.t==='gr'?'2º Grupo '+src.g:
+  src.t==='g3'?'Melhor 3º':src.t==='w'?'Vencedor #'+src.m:'Perdedor #'+src.m;}
+function venc(m){const k=KO[m];if(!k||k.h==null||k.a==null)return null;
+  if(k.h>k.a)return resolve(BM[m].A);if(k.a>k.h)return resolve(BM[m].B);
+  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?resolve(BM[m].A):resolve(BM[m].B);return null;}
+function perd(m){const k=KO[m];if(!k||k.h==null||k.a==null)return null;
+  if(k.h>k.a)return resolve(BM[m].B);if(k.a>k.h)return resolve(BM[m].A);
+  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?resolve(BM[m].B):resolve(BM[m].A);return null;}
+
+const ROUNDS=[
+ {id:'r32a',nome:'16-avos · 1/2',ms:[73,74,75,76,77,78,79,80],masc:1},
+ {id:'r32b',nome:'16-avos · 2/2',ms:[81,82,83,84,85,86,87,88],masc:2},
+ {id:'r16',nome:'Oitavas',ms:[89,90,91,92,93,94,95,96],masc:3},
+ {id:'qf',nome:'Quartas',ms:[97,98,99,100],masc:1},
+ {id:'sf',nome:'Semis e 3º',ms:[101,102,103],masc:2},
+ {id:'final',nome:'Grande Final',ms:[104],masc:3},
+];
+const PAGES=[...DATA.map((g,gi)=>({type:'g',gi,nome:'Grupo '+g.name})),
+  ...ROUNDS.map(r=>({type:'ko',r,nome:r.nome}))];
+
+/* ---------- render ---------- */
+function grupoHTML(gi){
+  const g=DATA[gi];let linhas='';
+  tabela(g).forEach((t,pos)=>{const cls=pos===0?'q1':pos===1?'q2':'';
+    linhas+=`<tr class="${cls}"><td class="t"><div class="time">${bandeira(t.name)}
+      <input class="tname" data-g="${gi}" data-i="${t.i}" value="${t.name}" title="${t.name}"></div></td>
+      <td class="pts">${t.Pts}</td><td>${t.J}</td><td>${t.V}</td><td>${t.E}</td><td>${t.D}</td>
+      <td>${t.GP}</td><td>${t.GC}</td><td>${t.SG>0?'+':''}${t.SG}</td></tr>`;});
+  let jogos='';
+  PAIRS.forEach((p,mi)=>{const h=g.teams[p[0]],a=g.teams[p[1]],s=g.scores[mi];
+    jogos+=`<div class="jogo"><div class="linha">
+      <div class="lado h"><span>${h}</span>${bandeira(h)}</div>
+      <div class="placar">
+        <input type="number" min="0" inputmode="numeric" data-g="${gi}" data-m="${mi}" data-s="h" value="${s.h??''}" class="${s.h!=null?'ok':''}">
+        <span class="vs">×</span>
+        <input type="number" min="0" inputmode="numeric" data-g="${gi}" data-m="${mi}" data-s="a" value="${s.a??''}" class="${s.a!=null?'ok':''}">
+      </div>
+      <div class="lado">${bandeira(a)}<span>${a}</span></div></div>
+      ${s.date?`<div class="data">${s.date}</div>`:''}</div>`;});
+  return `<div class="cartela">
+    <div class="gtit"><span class="gtit-nome">Grupo ${g.name}</span>
+      <div class="acts">
+        <button class="pri act-auto" title="Atualizar resultados">⟳</button>
+        <button class="act-limpar" title="Limpar placares">🧹</button></div></div>
+    <div class="corpo">
+      <div class="col col-tab">
+        <table><thead><tr><th class="t">Seleção</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th>
+          <th>GP</th><th>GC</th><th>SG</th></tr></thead><tbody>${linhas}</tbody></table>
+      </div>
+      <div class="col jogos"><h4>⚽ Jogos do grupo</h4>${jogos}</div>
+    </div></div>`;
+}
+function koHTML(r){
+  let jogos='';
+  r.ms.forEach(m=>{const b=BM[m],ta=resolve(b.A),tb=resolve(b.B),k=KO[m]||{};
+    const la=ta||rotulo(b.A),lb=tb||rotulo(b.B);
+    const tie=k.h!=null&&k.a!=null&&k.h===k.a;
+    const tag=m===104?' · FINAL 🏆':m===103?' · 3º lugar':'';
+    jogos+=`<div class="jogo ko"><div class="mnum">Jogo ${m}${tag}</div>
+      <div class="linha">
+        <div class="lado h"><span class="${ta?'':'ph'}">${la}</span>${ta?bandeira(ta):''}</div>
+        <div class="placar">
+          <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="h" value="${k.h??''}" class="${k.h!=null?'ok':''}">
+          <span class="vs">×</span>
+          <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="a" value="${k.a??''}" class="${k.a!=null?'ok':''}">
+        </div>
+        <div class="lado">${tb?bandeira(tb):''}<span class="${tb?'':'ph'}">${lb}</span></div>
+      </div>
+      ${tie?`<div class="pen"><span>pênaltis</span>
+        <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="ph" value="${k.ph??''}">
+        <span class="vs">×</span>
+        <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="pa" value="${k.pa??''}"></div>`:''}
+    </div>`;});
+  return `<div class="cartela">
+    <div class="gtit"><span class="gtit-nome">${r.nome}</span>
+      <div class="acts">
+        <button class="pri act-auto" title="Atualizar resultados">⟳</button>
+        <button class="act-limpar" title="Limpar placares">🧹</button></div></div>
+    <div class="corpo"><div class="col jogos"><h4>🏆 ${r.nome}</h4>${jogos}</div>
+      <div class="mascote-pg${r.id==='final'?' big':''}">
+        <img src="img/mascote${r.masc}.png" alt="mascote" loading="lazy">
+      </div></div></div>`;
+}
+function render(){
+  TER=ranking3os();
+  const x=car.scrollLeft;car.innerHTML='';
+  PAGES.forEach(p=>{const pg=document.createElement('div');pg.className='pagina';
+    pg.innerHTML=p.type==='g'?grupoHTML(p.gi):koHTML(p.r);car.appendChild(pg);});
+  car.scrollLeft=x;bind();pontos();
+}
+function bind(){
+  document.querySelectorAll('.placar input[data-g]').forEach(i=>i.addEventListener('input',e=>{
+    const{g,m,s}=e.target.dataset,v=e.target.value;
+    DATA[g].scores[m][s]=v===''?null:Math.max(0,parseInt(v,10)||0);save();render();}));
+  document.querySelectorAll('[data-ko]').forEach(i=>i.addEventListener('input',e=>{
+    const m=e.target.dataset.ko,s=e.target.dataset.s,v=e.target.value;
+    if(!KO[m])KO[m]={};KO[m][s]=v===''?null:Math.max(0,parseInt(v,10)||0);save();render();}));
+  document.querySelectorAll('.tname').forEach(i=>i.addEventListener('change',e=>{
+    const{g,i:k}=e.target.dataset;DATA[g].teams[k]=e.target.value.trim()||DATA[g].teams[k];save();render();}));
+  document.querySelectorAll('.act-auto').forEach(b=>b.onclick=autoFill);
+  document.querySelectorAll('.act-limpar').forEach(b=>b.onclick=limpar);
+}
+function limpar(){if(!confirm('Apagar todos os placares (grupos e mata-mata)?'))return;
+  DATA.forEach(g=>g.scores.forEach(s=>{s.h=null;s.a=null;}));KO={};save();render();}
+
+/* ---------- navegação carrossel ---------- */
+const car=document.getElementById('carrossel');
+function pagAtual(){return Math.round(car.scrollLeft/car.clientWidth);}
+function pontos(){
+  const p=document.getElementById('pontos');
+  if(p.children.length!==PAGES.length)p.innerHTML=PAGES.map(()=>'<i></i>').join('');
+  const cur=pagAtual();
+  [...p.children].forEach((e,k)=>e.classList.toggle('on',k===cur));
+  document.getElementById('ind').textContent=PAGES[cur]?PAGES[cur].nome:'';
+}
+car.addEventListener('scroll',()=>{clearTimeout(car._t);car._t=setTimeout(pontos,60)});
+document.getElementById('prev').onclick=()=>car.scrollBy({left:-car.clientWidth,behavior:'smooth'});
+document.getElementById('next').onclick=()=>car.scrollBy({left:car.clientWidth,behavior:'smooth'});
+
+/* ---------- auto-preenchimento (TheSportsDB) ---------- */
+function norm(s){return(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')
+  .replace(/&/g,'and').replace(/[^a-z ]/g,'').replace(/\s+/g,' ').trim();}
+const ALIAS={'usa':'united states','south korea':'korea republic','iran':'ir iran',
+  'czech republic':'czechia','dr congo':'congo dr','turkey':'turkiye'};
+const kn=en=>{const n=norm(en);return ALIAS[n]||n;};
+async function autoFill(){
+  const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando…');
+  const urls=['https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?id=4429&s=2026',
+              'https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4429&s=2026'];
+  let ev=null;
+  for(const u of urls){try{const r=await fetch(u);if(!r.ok)continue;const j=await r.json();
+    if(j&&j.events){ev=j.events;break;}}catch(e){}}
+  if(!ev){st('API indisponível — preencha manualmente.');botoes.forEach(b=>b.disabled=false);return;}
+  const idx=new Map();
+  DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
+    const h=kn(EN[g.teams[p[0]]]||g.teams[p[0]]),a=kn(EN[g.teams[p[1]]]||g.teams[p[1]]);
+    idx.set(h+'|'+a,{gi,mi,flip:false});idx.set(a+'|'+h,{gi,mi,flip:true});}));
+  let n=0;
+  ev.forEach(e=>{const hit=idx.get(kn(e.strHomeTeam)+'|'+kn(e.strAwayTeam));if(!hit)return;
+    const S=DATA[hit.gi].scores[hit.mi];
+    if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
+    if(e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!==''){
+      S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;}});
+  save();render();
+  st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');botoes.forEach(b=>b.disabled=false);
+}
+
+/* ---------- som de torcida (Web Audio, sem arquivo) ---------- */
+let ACTX=null;
+function torcida(){
+  try{
+    ACTX=ACTX||new (window.AudioContext||window.webkitAudioContext)();
+    const ctx=ACTX; if(ctx.state==='suspended') ctx.resume();
+    const t=ctx.currentTime+0.06,dur=6.5;
+    const master=ctx.createGain(); master.gain.value=0.9; master.connect(ctx.destination);
+
+    /* 1) RUGIDO da torcida — ruído MARROM (grave/quente, não chiado) com ondulação */
+    const N=Math.floor(ctx.sampleRate*dur), buf=ctx.createBuffer(1,N,ctx.sampleRate), d=buf.getChannelData(0);
+    let last=0;
+    for(let i=0;i<N;i++){ const w=Math.random()*2-1; last=(last+0.02*w)/1.02; d[i]=last*3.2; }
+    const roar=ctx.createBufferSource(); roar.buffer=buf;
+    const lp=ctx.createBiquadFilter(); lp.type='lowpass'; lp.frequency.value=1100;
+    const voz=ctx.createBiquadFilter(); voz.type='peaking'; voz.frequency.value=500; voz.Q.value=1.1; voz.gain.value=7;
+    const rg=ctx.createGain();
+    rg.gain.setValueAtTime(0.0001,t);
+    rg.gain.exponentialRampToValueAtTime(0.5,t+0.7);
+    rg.gain.linearRampToValueAtTime(0.42,t+3.5);
+    rg.gain.exponentialRampToValueAtTime(0.0001,t+dur);
+    const lfo=ctx.createOscillator(); lfo.type='sine'; lfo.frequency.value=3.8;
+    const lfoG=ctx.createGain(); lfoG.gain.value=0.13;
+    lfo.connect(lfoG); lfoG.connect(rg.gain); lfo.start(t); lfo.stop(t+dur);
+    roar.connect(voz); voz.connect(lp); lp.connect(rg); rg.connect(master);
+    roar.start(t); roar.stop(t+dur);
+
+    /* 2) APLAUSOS — muitas palminhas curtas espalhadas (o "som de gente") */
+    const cN=Math.floor(ctx.sampleRate*0.05), cBuf=ctx.createBuffer(1,cN,ctx.sampleRate), cd=cBuf.getChannelData(0);
+    for(let i=0;i<cN;i++) cd[i]=(Math.random()*2-1)*Math.pow(1-i/cN,2.5);
+    for(let k=0;k<320;k++){
+      const ct=t+Math.random()*(dur-0.6);
+      const dens=Math.min(1,(ct-t)/1.3);            // aplausos crescem no começo
+      if(Math.random()>0.25+dens*0.7) continue;
+      const cs=ctx.createBufferSource(); cs.buffer=cBuf;
+      const cf=ctx.createBiquadFilter(); cf.type='bandpass'; cf.frequency.value=1400+Math.random()*1400; cf.Q.value=0.7;
+      const cg=ctx.createGain(); cg.gain.value=0.04+Math.random()*0.05;
+      cs.connect(cf); cf.connect(cg); cg.connect(master); cs.start(ct);
+    }
+
+    /* 3) APITOS de torcedor */
+    [0.9,1.9,3.0,4.1].forEach((dl,k)=>{
+      const o=ctx.createOscillator(); o.type='sine';
+      o.frequency.setValueAtTime(1850+k*110,t+dl);
+      o.frequency.linearRampToValueAtTime(2150+k*110,t+dl+0.16);
+      const og=ctx.createGain(); og.gain.setValueAtTime(0,t+dl);
+      og.gain.linearRampToValueAtTime(0.05,t+dl+0.05);
+      og.gain.linearRampToValueAtTime(0,t+dl+0.32);
+      o.connect(og); og.connect(master); o.start(t+dl); o.stop(t+dl+0.36);
+    });
+  }catch(e){}
+}
+/* Igual ao Smart Stock: tenta tocar quando a capa surge (mount) e garante no 1º gesto.
+   Agenda o som UMA vez; se o navegador bloquear (mobile), o 1º toque retoma o contexto. */
+let SOM_OK=false;
+function dispararSom(){
+  if(!SOM_OK){ SOM_OK=true; torcida(); }
+  else if(ACTX && ACTX.state!=='running'){ try{ACTX.resume();}catch(e){} }
+}
+if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',dispararSom);
+else dispararSom();
+['pointerdown','touchstart','mousedown','keydown','click'].forEach(ev=>
+  document.addEventListener(ev,dispararSom));
+
+/* ---------- capa ---------- */
+document.getElementById('entrar').onclick=()=>{
+  document.getElementById('capa').classList.add('sair');
+  setTimeout(()=>document.getElementById('capa').style.display='none',500);
+};
+
+render();
+</script>
+</body>
+</html>
