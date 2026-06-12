@@ -124,6 +124,15 @@
   .mascote-pg img{height:165px;width:auto;max-width:62%;object-fit:contain;
         filter:drop-shadow(0 4px 6px rgba(0,0,0,.3))}
   .mascote-pg.big img{height:260px;max-width:80%}
+  /* página "Sobre" */
+  .sobre{flex:1 0 auto;position:relative;display:flex;flex-direction:column;justify-content:center;
+        gap:14px;padding:26px 22px 64px;text-align:center;color:var(--txt)}
+  .sobre-emoji{font-size:34px}
+  .sobre h3{margin:0;color:var(--verde2);font-size:20px;font-weight:900;line-height:1.2}
+  .sobre p{margin:0;font-size:14px;line-height:1.55;font-weight:500}
+  .sobre b{color:var(--verde2)}
+  .assinatura{position:absolute;right:18px;bottom:14px;font-weight:900;font-size:18px;
+        color:var(--azul);letter-spacing:1.5px}
 
   /* navegação inferior */
   #nav{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:14px;
@@ -317,7 +326,8 @@ const ROUNDS=[
  {id:'final',nome:'Grande Final',ms:[104],masc:3},
 ];
 const PAGES=[...DATA.map((g,gi)=>({type:'g',gi,nome:'Grupo '+g.name})),
-  ...ROUNDS.map(r=>({type:'ko',r,nome:r.nome}))];
+  ...ROUNDS.map(r=>({type:'ko',r,nome:r.nome})),
+  {type:'sobre',nome:'Sobre'}];
 
 /* ---------- render ---------- */
 function grupoHTML(gi){
@@ -382,11 +392,23 @@ function koHTML(r){
         <img src="img/mascote${r.masc}.png" alt="mascote" loading="lazy">
       </div></div></div>`;
 }
+function sobreHTML(){
+  return `<div class="cartela">
+    <div class="gtit"><span class="gtit-nome">Sobre</span></div>
+    <div class="corpo"><div class="sobre">
+      <div class="sobre-emoji">⚽💛💚</div>
+      <h3>Tabela da Copa do Mundo 2026</h3>
+      <p>Esta tabela foi desenvolvida <b>apenas como objeto de estudo</b>, <b>sem fins lucrativos</b>.</p>
+      <p>Não possui qualquer vínculo oficial com a FIFA ou com as seleções, entidades e marcas aqui citadas. Escudos, bandeiras, nomes e símbolos pertencem aos seus respectivos donos.</p>
+      <p>Feito por diversão e aprendizado.</p>
+      <div class="assinatura">AJNF71</div>
+    </div></div></div>`;
+}
 function render(){
   TER=ranking3os();
   const x=car.scrollLeft;car.innerHTML='';
   PAGES.forEach(p=>{const pg=document.createElement('div');pg.className='pagina';
-    pg.innerHTML=p.type==='g'?grupoHTML(p.gi):koHTML(p.r);car.appendChild(pg);});
+    pg.innerHTML=p.type==='g'?grupoHTML(p.gi):p.type==='ko'?koHTML(p.r):sobreHTML();car.appendChild(pg);});
   car.scrollLeft=x;bind();pontos();
 }
 function bind(){
