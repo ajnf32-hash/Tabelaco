@@ -236,7 +236,7 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v5 · jun/2026';
+const APP_VERSION='v6 · jun/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
@@ -498,6 +498,22 @@ async function autoFill(){
     if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
     if(e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!==''){
       S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;}});
+  // ----- mata-mata: percorre o chaveamento em ordem e preenche os jogos já realizados -----
+  const evPar=new Map();
+  ev.forEach(e=>{evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e);});
+  TER=ranking3os();
+  BRACKET.forEach(b=>{
+    const ta=resolve(b.A), tb=resolve(b.B);
+    if(!ta||!tb) return;
+    const ka=chave(EN[ta]||ta), kb=chave(EN[tb]||tb);
+    const e=evPar.get(ka+'|'+kb) || evPar.get(kb+'|'+ka);
+    if(!e || e.intHomeScore==null||e.intHomeScore===''||e.intAwayScore==null||e.intAwayScore==='') return;
+    const homeIsA = chave(e.strHomeTeam)===ka;
+    const hs=+e.intHomeScore, as=+e.intAwayScore;
+    if(!KO[b.m]) KO[b.m]={};
+    KO[b.m].h = homeIsA?hs:as; KO[b.m].a = homeIsA?as:hs;
+    n++;
+  });
   save();render();
   st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');botoes.forEach(b=>b.disabled=false);
 }
