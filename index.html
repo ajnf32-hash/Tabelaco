@@ -236,7 +236,7 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v4 · jun/2026';
+const APP_VERSION='v5 · jun/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
@@ -454,25 +454,46 @@ document.getElementById('prev').onclick=()=>car.scrollBy({left:-car.clientWidth,
 document.getElementById('next').onclick=()=>car.scrollBy({left:car.clientWidth,behavior:'smooth'});
 
 /* ---------- auto-preenchimento (TheSportsDB) ---------- */
-function norm(s){return(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'')
-  .replace(/&/g,'and').replace(/[^a-z ]/g,'').replace(/\s+/g,' ').trim();}
-const ALIAS={'usa':'united states','south korea':'korea republic','iran':'ir iran',
-  'czech republic':'czechia','dr congo':'congo dr','turkey':'turkiye'};
-const kn=en=>{const n=norm(en);return ALIAS[n]||n;};
+/* casa nomes de seleções entre o app e a API, tolerando hífens, espaços, acentos e "and" */
+const SYN={usa:'unitedstates',turkiye:'turkey',iriran:'iran',congodr:'drcongo',czechia:'czechrepublic',cotedivoire:'ivorycoast'};
+function chave(s){let x=(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
+  x=x.replace(/&/g,' ').replace(/\band\b/g,' ').replace(/[^a-z]/g,'');return SYN[x]||x;}
+/* datas do torneio: de 11/06/2026 até hoje (jogos futuros não têm placar) */
+function datasTorneio(){
+  const ini=new Date(2026,5,11), fim=new Date(2026,6,19), hoje=new Date();
+  let lim=new Date(hoje.getFullYear(),hoje.getMonth(),hoje.getDate()+1);
+  if(lim>fim)lim=fim;
+  const out=[];
+  for(let d=new Date(ini); d<=lim; d.setDate(d.getDate()+1)){
+    out.push(d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'));
+  }
+  return out;
+}
+/* busca os jogos de cada dia (eventsday) com até 5 requisições simultâneas */
+async function buscaDias(dates){
+  const ev=[]; let i=0;
+  async function worker(){
+    while(i<dates.length){
+      const day=dates[i++];
+      try{
+        const r=await fetch('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429');
+        if(r.ok){const j=await r.json(); if(j&&Array.isArray(j.events)) ev.push(...j.events);}
+      }catch(e){}
+    }
+  }
+  await Promise.all(Array.from({length:Math.min(5,dates.length||1)},worker));
+  return ev;
+}
 async function autoFill(){
-  const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando…');
-  const urls=['https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?id=4429&s=2026',
-              'https://www.thesportsdb.com/api/v1/json/123/eventsseason.php?id=4429&s=2026'];
-  let ev=null;
-  for(const u of urls){try{const r=await fetch(u);if(!r.ok)continue;const j=await r.json();
-    if(j&&j.events){ev=j.events;break;}}catch(e){}}
-  if(!ev){st('API indisponível — preencha manualmente.');botoes.forEach(b=>b.disabled=false);return;}
+  const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
+  const ev=await buscaDias(datasTorneio());
+  if(!ev.length){st('API indisponível — preencha manualmente.');botoes.forEach(b=>b.disabled=false);return;}
   const idx=new Map();
   DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
-    const h=kn(EN[g.teams[p[0]]]||g.teams[p[0]]),a=kn(EN[g.teams[p[1]]]||g.teams[p[1]]);
+    const h=chave(EN[g.teams[p[0]]]||g.teams[p[0]]),a=chave(EN[g.teams[p[1]]]||g.teams[p[1]]);
     idx.set(h+'|'+a,{gi,mi,flip:false});idx.set(a+'|'+h,{gi,mi,flip:true});}));
   let n=0;
-  ev.forEach(e=>{const hit=idx.get(kn(e.strHomeTeam)+'|'+kn(e.strAwayTeam));if(!hit)return;
+  ev.forEach(e=>{const hit=idx.get(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam));if(!hit)return;
     const S=DATA[hit.gi].scores[hit.mi];
     if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
     if(e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!==''){
