@@ -484,9 +484,15 @@ document.getElementById('entrar').onclick=()=>{
 
 render();
 
-/* ---------- PWA: registra o service worker (cache/offline + instalável) ---------- */
+/* ---------- PWA: service worker (rede-primeiro) + auto-atualização ---------- */
 if('serviceWorker' in navigator){
-  window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
+  let recarregando=false;
+  navigator.serviceWorker.addEventListener('controllerchange',()=>{
+    if(recarregando)return; recarregando=true; location.reload();
+  });
+  window.addEventListener('load',()=>{
+    navigator.serviceWorker.register('sw.js').then(reg=>{ if(reg.update)reg.update(); }).catch(()=>{});
+  });
 }
 </script>
 </body>
