@@ -236,7 +236,7 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v9 · jun/2026';
+const APP_VERSION='v10 · jun/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
@@ -488,19 +488,27 @@ function diaEncerrado(evs){return Array.isArray(evs)&&evs.length>0&&evs.every(te
 function enxuga(e){return {strHomeTeam:e.strHomeTeam,strAwayTeam:e.strAwayTeam,
   intHomeScore:e.intHomeScore,intAwayScore:e.intAwayScore,
   intHomeScoreExtra:e.intHomeScoreExtra,intAwayScoreExtra:e.intAwayScoreExtra,dateEvent:e.dateEvent};}
-/* uma requisição de dia, repetindo em caso de limite (429) com espera crescente */
-async function fetchDia(day){
-  const url='https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429';
-  for(let tent=0; tent<5; tent++){
+/* A chave gratuita libera ~30 requisições e então bloqueia (429) por ~2 min.
+   _rate sinaliza esse bloqueio p/ a busca parar de insistir e reagendar. */
+let _rate=false, _syncN=0, _syncTimer=null;
+async function fetchJSON(url){
+  for(let tent=0; tent<3; tent++){
     try{
       const r=await fetch(url,{cache:'no-store'});
-      if(r.status===429){await delay(1500*(tent+1));continue;}   // limite: espera e tenta de novo
+      if(r.status===429){_rate=true; await delay(1200*(tent+1)); continue;}  // limite ativo
+      _rate=false;                                                 // resposta boa: sem bloqueio
       if(!r.ok)return null;
-      const j=await r.json();
-      return (j&&Array.isArray(j.events))?j.events.map(enxuga):[];
-    }catch{await delay(800*(tent+1));}                            // rede instável: espera e tenta
+      return await r.json();
+    }catch{await delay(800*(tent+1));}                             // rede instável: espera e tenta
   }
   return null;
+}
+/* eventsday: jogos de um dia. ATENÇÃO: o plano gratuito corta em 3 jogos/dia,
+   então nos dias cheios (4-6 jogos) metade some — o fallback abaixo recupera. */
+async function fetchDia(day){
+  const j=await fetchJSON('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429');
+  if(j===null)return null;
+  return Array.isArray(j.events)?j.events.map(enxuga):[];
 }
 /* busca todos os dias do torneio reaproveitando o cache dos dias já encerrados */
 async function buscaDias(dates,onProg){
@@ -520,43 +528,107 @@ async function buscaDias(dates,onProg){
   saveDias(cache);
   return ev;
 }
+
+/* ---- busca por confronto (searchevents) ----
+   Contorna o corte de 3 jogos/dia do eventsday: busca um jogo específico, que
+   NÃO sofre esse limite. Cada confronto encontrado fica em cache (não rebusca). */
+const BUSCA_KEY='wc2026-busca-v1';
+let CANON={};   // chave(seleção) -> grafia exata da API (aprendida com os jogos que vieram)
+function loadBusca(){try{return JSON.parse(localStorage.getItem(BUSCA_KEY))||{};}catch{return {};}}
+function saveBusca(c){try{localStorage.setItem(BUSCA_KEY,JSON.stringify(c));}catch{/* sem espaço: ignora */}}
+function aprendeCanon(e){CANON[chave(e.strHomeTeam)]=e.strHomeTeam;CANON[chave(e.strAwayTeam)]=e.strAwayTeam;}
+function nomeAPI(t){return CANON[chave(EN[t]||t)]||EN[t]||t;}   // como a API escreve a seleção
+/* procura um jogo específico entre duas seleções (tenta as duas ordens) */
+async function buscaConfronto(tA,tB){
+  const kA=chave(EN[tA]||tA), kB=chave(EN[tB]||tB);
+  const a=nomeAPI(tA).replace(/ /g,'_'), b=nomeAPI(tB).replace(/ /g,'_');
+  for(const q of [a+'_vs_'+b, b+'_vs_'+a]){
+    const j=await fetchJSON('https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e='+encodeURIComponent(q));
+    if(j===null)return undefined;                       // undefined = falha de rede (p/ detectar offline)
+    for(const e of (j.event||[])){
+      if(e.idLeague!=='4429'||e.strSeason!=='2026'||!temPlacar(e))continue;
+      const s=[chave(e.strHomeTeam),chave(e.strAwayTeam)];
+      if(s.includes(kA)&&s.includes(kB)){aprendeCanon(e);return enxuga(e);}
+    }
+    await delay(250);
+  }
+  return null;                                          // null = online, mas jogo ainda sem placar
+}
+/* preenche um jogo de mata-mata a partir de um evento (placar + pênaltis) */
+function preencheKO(m,e,ka){
+  const homeIsA=chave(e.strHomeTeam)===ka, hs=+e.intHomeScore, as=+e.intAwayScore;
+  if(!KO[m])KO[m]={};
+  KO[m].h=homeIsA?hs:as; KO[m].a=homeIsA?as:hs;
+  const phs=e.intHomeScoreExtra, pas=e.intAwayScoreExtra;
+  if(hs===as && phs!=null && phs!=='' && pas!=null && pas!=='' && +phs!==+pas){
+    KO[m].ph=homeIsA?+phs:+pas; KO[m].pa=homeIsA?+pas:+phs;   // vencedor dos pênaltis avança
+  }
+}
+
 async function autoFill(){
   const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
   const ev=await buscaDias(datasTorneio(),(f,t)=>st(`Buscando resultados… (${f}/${t})`));
-  if(!ev.length){st('Sem conexão com a API — mostrando os dados já salvos.');botoes.forEach(b=>b.disabled=false);return;}
+  const online=ev.length>0;                              // conseguimos ler a API neste ciclo?
+  CANON={}; ev.forEach(aprendeCanon);                    // grafia oficial das seleções p/ a busca
+  let n=0;
   const idx=new Map();
   DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
     const h=chave(EN[g.teams[p[0]]]||g.teams[p[0]]),a=chave(EN[g.teams[p[1]]]||g.teams[p[1]]);
     idx.set(h+'|'+a,{gi,mi,flip:false});idx.set(a+'|'+h,{gi,mi,flip:true});}));
-  let n=0;
-  ev.forEach(e=>{const hit=idx.get(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam));if(!hit)return;
+  ev.forEach(e=>{const hit=idx.get(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam));if(!hit||!temPlacar(e))return;
     const S=DATA[hit.gi].scores[hit.mi];
     if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
-    if(e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!==''){
-      S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;}});
-  // ----- mata-mata: percorre o chaveamento em ordem e preenche os jogos já realizados -----
+    S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;});
+
+  // ----- FALLBACK: confrontos que o eventsday cortou (limite de 3/dia) -----
+  const busca=loadBusca();
+  const LIMITE=40; let req=0, falhas=0, parar=false;     // teto por janela + parada limpa
+  async function recupera(tA,tB,fk){                     // devolve o evento (cache, busca ou null)
+    if(busca[fk])return busca[fk];                       // já temos: sem requisição
+    if(parar||!online)return null;
+    if(req>=LIMITE){parar=true;return null;}
+    req++; st('Completando jogos faltantes…');
+    const e=await buscaConfronto(tA,tB);
+    if(e===undefined){falhas++; if(_rate||falhas>=3)parar=true; return null;}  // bloqueado/offline
+    falhas=0; if(e)busca[fk]=e; return e;
+  }
+  // grupos
+  grupos: for(let gi=0;gi<DATA.length;gi++)for(let mi=0;mi<PAIRS.length;mi++){
+    if(parar)break grupos;
+    const S=DATA[gi].scores[mi]; if(S.h!=null&&S.a!=null)continue;
+    const tA=DATA[gi].teams[PAIRS[mi][0]], tB=DATA[gi].teams[PAIRS[mi][1]];
+    const e=await recupera(tA,tB,chave(EN[tA]||tA)+'|'+chave(EN[tB]||tB));
+    if(e&&temPlacar(e)){
+      const homeIsA=chave(e.strHomeTeam)===chave(EN[tA]||tA);
+      S.h=homeIsA?+e.intHomeScore:+e.intAwayScore; S.a=homeIsA?+e.intAwayScore:+e.intHomeScore;
+      if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/'); n++;
+    }
+  }
+  // ----- mata-mata: eventsday primeiro, depois busca por confronto -----
   const evPar=new Map();
   ev.forEach(e=>{evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e);});
-  TER=ranking3os();
-  BRACKET.forEach(b=>{
+  TER=ranking3os();                                      // grupos agora completos
+  for(const b of BRACKET){
     const ta=resolve(b.A), tb=resolve(b.B);
-    if(!ta||!tb) return;
+    if(!ta||!tb)continue;
     const ka=chave(EN[ta]||ta), kb=chave(EN[tb]||tb);
-    const e=evPar.get(ka+'|'+kb) || evPar.get(kb+'|'+ka);
-    if(!e || e.intHomeScore==null||e.intHomeScore===''||e.intAwayScore==null||e.intAwayScore==='') return;
-    const homeIsA = chave(e.strHomeTeam)===ka;
-    const hs=+e.intHomeScore, as=+e.intAwayScore;
-    if(!KO[b.m]) KO[b.m]={};
-    KO[b.m].h = homeIsA?hs:as; KO[b.m].a = homeIsA?as:hs;
-    // empate no tempo normal/prorrogação -> a API traz os pênaltis em ...ScoreExtra
-    const phs=e.intHomeScoreExtra, pas=e.intAwayScoreExtra;
-    if(hs===as && phs!=null && phs!=='' && pas!=null && pas!=='' && +phs!==+pas){
-      KO[b.m].ph = homeIsA?+phs:+pas; KO[b.m].pa = homeIsA?+pas:+phs;   // vencedor avança sozinho
-    }
-    n++;
-  });
+    let e=evPar.get(ka+'|'+kb)||evPar.get(kb+'|'+ka);
+    if(!temPlacar(e)&&!parar)e=await recupera(ta,tb,'ko|'+ka+'|'+kb);
+    if(temPlacar(e)){preencheKO(b.m,e,ka);n++;}
+  }
+  saveBusca(busca);
   save();render();
-  st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');botoes.forEach(b=>b.disabled=false);
+  botoes.forEach(b=>b.disabled=false);
+  // o limite da API (~30 req/2 min) cortou a busca antes de completar:
+  // termina sozinho quando o limite liberar (~2 min), sem o usuário fazer nada
+  clearTimeout(_syncTimer);
+  if(parar && online && _syncN<3){ _syncN++;
+    st(`Atualizado ✓ (${n}) — completando o restante em instantes…`);
+    _syncTimer=setTimeout(autoFill, 135000);
+  }else{ _syncN=0;
+    if(n>0)st(`Atualizado ✓ (${n} jogos)`);
+    else st(online?'Sem resultados ainda.':'Sem conexão com a API — mostrando os dados já salvos.');
+  }
 }
 
 /* ---------- capa ---------- */
