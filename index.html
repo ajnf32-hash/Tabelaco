@@ -236,7 +236,7 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v10 · jun/2026';
+const APP_VERSION='v11 · jun/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
@@ -413,6 +413,12 @@ function sobreHTML(){
       <p>Esta tabela foi desenvolvida <b>apenas como objeto de estudo</b>, <b>sem fins lucrativos</b>.</p>
       <p>Não possui qualquer vínculo oficial com a FIFA ou com as seleções, entidades e marcas aqui citadas. Escudos, bandeiras, nomes e símbolos pertencem aos seus respectivos donos.</p>
       <p>Feito por diversão e aprendizado.</p>
+      <p style="font-size:13px;line-height:1.5;text-align:left;background:rgba(0,156,59,.12);
+        border:1px solid var(--linha);border-radius:8px;padding:10px 12px">
+        💡 <b>Atualizar resultados:</b> o app busca os placares sozinho ao abrir.
+        Para forçar na hora, toque no <b>⟳</b> no topo de qualquer grupo ou fase.
+        O carregamento completo pode levar alguns minutos — ele termina sozinho, é só deixar aberto.
+        O <b>🧹</b> apaga todos os placares.</p>
       <p style="font-size:12px;opacity:.7;margin-top:4px">${APP_VERSION}</p>
       <div class="assinatura">AJNF71</div>
     </div></div></div>`;
