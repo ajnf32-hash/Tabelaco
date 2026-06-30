@@ -236,12 +236,12 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v6 · jun/2026';
+const APP_VERSION='v7 · jun/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
   scores:PAIRS.map(()=>({h:null,a:null,date:''}))})),ko:{}};}
-function load(){try{const s=localStorage.getItem(KEY);if(s){const o=JSON.parse(s);if(o&&o.groups)return o;}}catch(e){}return freshData();}
+function load(){try{const s=localStorage.getItem(KEY);if(s){const o=JSON.parse(s);if(o&&o.groups)return o;}}catch{/* dados inválidos: usa o padrão */}return freshData();}
 function save(){localStorage.setItem(KEY,JSON.stringify({groups:DATA,ko:KO}));st('Salvo ✓');}
 let _toastT;
 const st=t=>{const el=document.getElementById('toast');if(!el)return;
@@ -469,25 +469,59 @@ function datasTorneio(){
   }
   return out;
 }
-/* busca os jogos de cada dia (eventsday) com até 5 requisições simultâneas */
-async function buscaDias(dates){
-  const ev=[]; let i=0;
-  async function worker(){
-    while(i<dates.length){
-      const day=dates[i++];
-      try{
-        const r=await fetch('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429');
-        if(r.ok){const j=await r.json(); if(j&&Array.isArray(j.events)) ev.push(...j.events);}
-      }catch(e){}
-    }
+/* ---- cache por dia ----
+   A chave gratuita do TheSportsDB tem limite de requisições (HTTP 429). Buscar
+   ~40 dias de uma vez, em paralelo, estoura o limite e os resultados não chegam.
+   Solução: 1 requisição por dia, sequencial e espaçada, com novas tentativas no
+   429; dias passados já encerrados são guardados em cache e nunca rebuscados. */
+const DAYCACHE_KEY='wc2026-dias-v1';
+const delay=ms=>new Promise(r=>setTimeout(r,ms));
+function hojeStr(){const h=new Date();
+  return h.getFullYear()+'-'+String(h.getMonth()+1).padStart(2,'0')+'-'+String(h.getDate()).padStart(2,'0');}
+function loadDias(){try{return JSON.parse(localStorage.getItem(DAYCACHE_KEY))||{};}catch{return {};}}
+function saveDias(c){try{localStorage.setItem(DAYCACHE_KEY,JSON.stringify(c));}catch{/* sem espaço: ignora */}}
+function temPlacar(e){return e&&e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!=='';}
+/* um dia é "encerrado" quando tem jogos e todos já têm placar final */
+function diaEncerrado(evs){return Array.isArray(evs)&&evs.length>0&&evs.every(temPlacar);}
+/* guarda só os campos usados (descarta descrições enormes p/ não estourar o localStorage) */
+function enxuga(e){return {strHomeTeam:e.strHomeTeam,strAwayTeam:e.strAwayTeam,
+  intHomeScore:e.intHomeScore,intAwayScore:e.intAwayScore,dateEvent:e.dateEvent};}
+/* uma requisição de dia, repetindo em caso de limite (429) com espera crescente */
+async function fetchDia(day){
+  const url='https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429';
+  for(let tent=0; tent<5; tent++){
+    try{
+      const r=await fetch(url,{cache:'no-store'});
+      if(r.status===429){await delay(1500*(tent+1));continue;}   // limite: espera e tenta de novo
+      if(!r.ok)return null;
+      const j=await r.json();
+      return (j&&Array.isArray(j.events))?j.events.map(enxuga):[];
+    }catch{await delay(800*(tent+1));}                            // rede instável: espera e tenta
   }
-  await Promise.all(Array.from({length:Math.min(5,dates.length||1)},worker));
+  return null;
+}
+/* busca todos os dias do torneio reaproveitando o cache dos dias já encerrados */
+async function buscaDias(dates,onProg){
+  const cache=loadDias(), hoje=hojeStr(), ev=[];
+  let feitos=0;
+  for(const day of dates){
+    if(day<hoje && diaEncerrado(cache[day])){          // dia antigo já fechado: usa cache, sem requisição
+      ev.push(...cache[day]);
+    }else{
+      const evs=await fetchDia(day);
+      if(evs){cache[day]=evs; ev.push(...evs);}          // sucesso: usa e guarda
+      else if(cache[day]){ev.push(...cache[day]);}       // falhou: cai no último cache, se houver
+      await delay(180);                                  // espaça as requisições p/ não estourar o limite
+    }
+    feitos++; if(onProg)onProg(feitos,dates.length);
+  }
+  saveDias(cache);
   return ev;
 }
 async function autoFill(){
   const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
-  const ev=await buscaDias(datasTorneio());
-  if(!ev.length){st('API indisponível — preencha manualmente.');botoes.forEach(b=>b.disabled=false);return;}
+  const ev=await buscaDias(datasTorneio(),(f,t)=>st(`Buscando resultados… (${f}/${t})`));
+  if(!ev.length){st('Sem conexão com a API — mostrando os dados já salvos.');botoes.forEach(b=>b.disabled=false);return;}
   const idx=new Map();
   DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
     const h=chave(EN[g.teams[p[0]]]||g.teams[p[0]]),a=chave(EN[g.teams[p[1]]]||g.teams[p[1]]);
@@ -526,6 +560,9 @@ document.getElementById('entrar').onclick=()=>{
 
 render();
 (function(){var ve=document.getElementById('ver'); if(ve) ve.textContent=APP_VERSION;})();
+
+/* sincroniza sozinho ao abrir: reflete os jogos já encerrados sem depender de clique */
+setTimeout(()=>{ if(navigator.onLine!==false) autoFill(); }, 500);
 
 /* ---------- PWA: service worker (rede-primeiro) + auto-atualização ---------- */
 if('serviceWorker' in navigator){

@@ -2,9 +2,9 @@
    Estratégia "rede primeiro": SEMPRE tenta a versão online (atualiza na hora),
    usando o cache só como reserva quando estiver offline.
    Ao ativar, apaga TODO cache antigo (conserta quem instalou a versão velha). */
-const CACHE = 'copa2026-net-v6';
+const CACHE = 'copa2026-net-v7';
 
-self.addEventListener('install', e => {
+self.addEventListener('install', () => {
   // assume o controle imediatamente, sem esperar abas antigas fecharem
   self.skipWaiting();
 });
@@ -34,7 +34,7 @@ self.addEventListener('fetch', e => {
       const copy = fresh.clone();
       caches.open(CACHE).then(c => c.put(req, copy)).catch(() => {});
       return fresh;
-    } catch (err) {
+    } catch {
       const cached = await caches.match(req);
       if (cached) return cached;
       if (isHTML) return caches.match('./index.html');
