@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-01T22:26:21.865Z",
+ "atualizado": "2026-07-01T23:54:46.782Z",
  "total": 81,
  "events": [
   {
@@ -124,7 +124,7 @@
   {
    "strHomeTeam": "Belgium",
    "strAwayTeam": "Senegal",
-   "intHomeScore": "2",
+   "intHomeScore": "3",
    "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
