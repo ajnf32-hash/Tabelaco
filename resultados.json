@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-01T17:40:52.347Z",
+ "atualizado": "2026-07-01T19:15:14.037Z",
  "total": 80,
  "events": [
   {
@@ -366,7 +366,7 @@
   {
    "strHomeTeam": "England",
    "strAwayTeam": "DR Congo",
-   "intHomeScore": "0",
+   "intHomeScore": "2",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
