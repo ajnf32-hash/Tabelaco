@@ -3,175 +3,58 @@
  "total": 78,
  "events": [
   {
-   "strHomeTeam": "Mexico",
-   "strAwayTeam": "South Africa",
-   "intHomeScore": "2",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-11"
-  },
-  {
-   "strHomeTeam": "South Korea",
-   "strAwayTeam": "Czech Republic",
-   "intHomeScore": "2",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-12"
-  },
-  {
-   "strHomeTeam": "Mexico",
-   "strAwayTeam": "South Korea",
-   "intHomeScore": "1",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-19"
-  },
-  {
-   "strHomeTeam": "Czech Republic",
-   "strAwayTeam": "South Africa",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-18"
-  },
-  {
-   "strHomeTeam": "Czech Republic",
-   "strAwayTeam": "Mexico",
-   "intHomeScore": "0",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
-  },
-  {
-   "strHomeTeam": "South Africa",
-   "strAwayTeam": "South Korea",
-   "intHomeScore": "1",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
-  },
-  {
-   "strHomeTeam": "Canada",
-   "strAwayTeam": "Bosnia-Herzegovina",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-12"
-  },
-  {
-   "strHomeTeam": "Qatar",
-   "strAwayTeam": "Switzerland",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-13"
-  },
-  {
-   "strHomeTeam": "Canada",
-   "strAwayTeam": "Qatar",
-   "intHomeScore": "6",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-18"
-  },
-  {
-   "strHomeTeam": "Switzerland",
-   "strAwayTeam": "Bosnia-Herzegovina",
-   "intHomeScore": "4",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-18"
-  },
-  {
-   "strHomeTeam": "Switzerland",
-   "strAwayTeam": "Canada",
-   "intHomeScore": "2",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-24"
-  },
-  {
-   "strHomeTeam": "Bosnia-Herzegovina",
-   "strAwayTeam": "Qatar",
-   "intHomeScore": "3",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-24"
-  },
-  {
-   "strHomeTeam": "Brazil",
-   "strAwayTeam": "Morocco",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-13"
-  },
-  {
-   "strHomeTeam": "Haiti",
-   "strAwayTeam": "Scotland",
-   "intHomeScore": "0",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-14"
-  },
-  {
-   "strHomeTeam": "Brazil",
-   "strAwayTeam": "Haiti",
+   "strHomeTeam": "Argentina",
+   "strAwayTeam": "Algeria",
    "intHomeScore": "3",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-20"
+   "dateEvent": "2026-06-17"
   },
   {
-   "strHomeTeam": "Scotland",
-   "strAwayTeam": "Morocco",
-   "intHomeScore": "0",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-19"
-  },
-  {
-   "strHomeTeam": "Scotland",
-   "strAwayTeam": "Brazil",
-   "intHomeScore": "0",
+   "strHomeTeam": "Algeria",
+   "strAwayTeam": "Austria",
+   "intHomeScore": "3",
    "intAwayScore": "3",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-24"
+   "dateEvent": "2026-06-28"
   },
   {
-   "strHomeTeam": "Morocco",
-   "strAwayTeam": "Haiti",
-   "intHomeScore": "4",
+   "strHomeTeam": "Jordan",
+   "strAwayTeam": "Algeria",
+   "intHomeScore": "1",
    "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-24"
+   "dateEvent": "2026-06-23"
   },
   {
-   "strHomeTeam": "USA",
-   "strAwayTeam": "Paraguay",
-   "intHomeScore": "4",
-   "intAwayScore": "1",
+   "strHomeTeam": "Argentina",
+   "strAwayTeam": "Austria",
+   "intHomeScore": "2",
+   "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-13"
+   "dateEvent": "2026-06-22"
+  },
+  {
+   "strHomeTeam": "Jordan",
+   "strAwayTeam": "Argentina",
+   "intHomeScore": "1",
+   "intAwayScore": "3",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-28"
+  },
+  {
+   "strHomeTeam": "Paraguay",
+   "strAwayTeam": "Australia",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-26"
   },
   {
    "strHomeTeam": "Australia",
@@ -192,139 +75,13 @@
    "dateEvent": "2026-06-19"
   },
   {
-   "strHomeTeam": "Turkey",
-   "strAwayTeam": "Paraguay",
-   "intHomeScore": "0",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-20"
-  },
-  {
-   "strHomeTeam": "Turkey",
-   "strAwayTeam": "USA",
+   "strHomeTeam": "Austria",
+   "strAwayTeam": "Jordan",
    "intHomeScore": "3",
-   "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-26"
-  },
-  {
-   "strHomeTeam": "Paraguay",
-   "strAwayTeam": "Australia",
-   "intHomeScore": "0",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-26"
-  },
-  {
-   "strHomeTeam": "Germany",
-   "strAwayTeam": "Curaçao",
-   "intHomeScore": "7",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-14"
-  },
-  {
-   "strHomeTeam": "Ivory Coast",
-   "strAwayTeam": "Ecuador",
-   "intHomeScore": "1",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-14"
-  },
-  {
-   "strHomeTeam": "Germany",
-   "strAwayTeam": "Ivory Coast",
-   "intHomeScore": "2",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-20"
-  },
-  {
-   "strHomeTeam": "Ecuador",
-   "strAwayTeam": "Curaçao",
-   "intHomeScore": "0",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-21"
-  },
-  {
-   "strHomeTeam": "Ecuador",
-   "strAwayTeam": "Germany",
-   "intHomeScore": "2",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
-  },
-  {
-   "strHomeTeam": "Curaçao",
-   "strAwayTeam": "Ivory Coast",
-   "intHomeScore": "0",
-   "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
-  },
-  {
-   "strHomeTeam": "Netherlands",
-   "strAwayTeam": "Japan",
-   "intHomeScore": "2",
-   "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-14"
-  },
-  {
-   "strHomeTeam": "Sweden",
-   "strAwayTeam": "Tunisia",
-   "intHomeScore": "5",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-15"
-  },
-  {
-   "strHomeTeam": "Netherlands",
-   "strAwayTeam": "Sweden",
-   "intHomeScore": "5",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-20"
-  },
-  {
-   "strHomeTeam": "Tunisia",
-   "strAwayTeam": "Japan",
-   "intHomeScore": "0",
-   "intAwayScore": "4",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-21"
-  },
-  {
-   "strHomeTeam": "Tunisia",
-   "strAwayTeam": "Netherlands",
-   "intHomeScore": "1",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
-  },
-  {
-   "strHomeTeam": "Japan",
-   "strAwayTeam": "Sweden",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-25"
+   "dateEvent": "2026-06-17"
   },
   {
    "strHomeTeam": "Belgium",
@@ -334,15 +91,6 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-15"
-  },
-  {
-   "strHomeTeam": "Iran",
-   "strAwayTeam": "New Zealand",
-   "intHomeScore": "2",
-   "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-16"
   },
   {
    "strHomeTeam": "Belgium",
@@ -352,15 +100,6 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-21"
-  },
-  {
-   "strHomeTeam": "New Zealand",
-   "strAwayTeam": "Egypt",
-   "intHomeScore": "1",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-22"
   },
   {
    "strHomeTeam": "New Zealand",
@@ -372,58 +111,94 @@
    "dateEvent": "2026-06-27"
   },
   {
-   "strHomeTeam": "Egypt",
-   "strAwayTeam": "Iran",
+   "strHomeTeam": "Canada",
+   "strAwayTeam": "Bosnia-Herzegovina",
    "intHomeScore": "1",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-27"
+   "dateEvent": "2026-06-12"
   },
   {
-   "strHomeTeam": "Spain",
-   "strAwayTeam": "Cape Verde",
-   "intHomeScore": "0",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-15"
-  },
-  {
-   "strHomeTeam": "Saudi Arabia",
-   "strAwayTeam": "Uruguay",
-   "intHomeScore": "1",
+   "strHomeTeam": "Bosnia-Herzegovina",
+   "strAwayTeam": "Qatar",
+   "intHomeScore": "3",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-15"
+   "dateEvent": "2026-06-24"
   },
   {
-   "strHomeTeam": "Spain",
-   "strAwayTeam": "Saudi Arabia",
+   "strHomeTeam": "Switzerland",
+   "strAwayTeam": "Bosnia-Herzegovina",
    "intHomeScore": "4",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-18"
+  },
+  {
+   "strHomeTeam": "Brazil",
+   "strAwayTeam": "Haiti",
+   "intHomeScore": "3",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-21"
+   "dateEvent": "2026-06-20"
   },
   {
-   "strHomeTeam": "Uruguay",
-   "strAwayTeam": "Cape Verde",
+   "strHomeTeam": "Brazil",
+   "strAwayTeam": "Japan",
    "intHomeScore": "2",
-   "intAwayScore": "2",
+   "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-21"
+   "dateEvent": "2026-06-29"
   },
   {
-   "strHomeTeam": "Uruguay",
-   "strAwayTeam": "Spain",
+   "strHomeTeam": "Brazil",
+   "strAwayTeam": "Morocco",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-13"
+  },
+  {
+   "strHomeTeam": "Scotland",
+   "strAwayTeam": "Brazil",
+   "intHomeScore": "0",
+   "intAwayScore": "3",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-24"
+  },
+  {
+   "strHomeTeam": "Canada",
+   "strAwayTeam": "Qatar",
+   "intHomeScore": "6",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-18"
+  },
+  {
+   "strHomeTeam": "South Africa",
+   "strAwayTeam": "Canada",
    "intHomeScore": "0",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-27"
+   "dateEvent": "2026-06-28"
+  },
+  {
+   "strHomeTeam": "Switzerland",
+   "strAwayTeam": "Canada",
+   "intHomeScore": "2",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-24"
   },
   {
    "strHomeTeam": "Cape Verde",
@@ -435,139 +210,22 @@
    "dateEvent": "2026-06-27"
   },
   {
-   "strHomeTeam": "France",
-   "strAwayTeam": "Senegal",
-   "intHomeScore": "3",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-16"
-  },
-  {
-   "strHomeTeam": "Iraq",
-   "strAwayTeam": "Norway",
-   "intHomeScore": "1",
-   "intAwayScore": "4",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-16"
-  },
-  {
-   "strHomeTeam": "France",
-   "strAwayTeam": "Iraq",
-   "intHomeScore": "3",
+   "strHomeTeam": "Spain",
+   "strAwayTeam": "Cape Verde",
+   "intHomeScore": "0",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-22"
+   "dateEvent": "2026-06-15"
   },
   {
-   "strHomeTeam": "Norway",
-   "strAwayTeam": "Senegal",
-   "intHomeScore": "3",
-   "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-23"
-  },
-  {
-   "strHomeTeam": "Norway",
-   "strAwayTeam": "France",
-   "intHomeScore": "1",
-   "intAwayScore": "4",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-26"
-  },
-  {
-   "strHomeTeam": "Senegal",
-   "strAwayTeam": "Iraq",
-   "intHomeScore": "5",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-26"
-  },
-  {
-   "strHomeTeam": "Argentina",
-   "strAwayTeam": "Algeria",
-   "intHomeScore": "3",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-17"
-  },
-  {
-   "strHomeTeam": "Austria",
-   "strAwayTeam": "Jordan",
-   "intHomeScore": "3",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-17"
-  },
-  {
-   "strHomeTeam": "Argentina",
-   "strAwayTeam": "Austria",
+   "strHomeTeam": "Uruguay",
+   "strAwayTeam": "Cape Verde",
    "intHomeScore": "2",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-22"
-  },
-  {
-   "strHomeTeam": "Jordan",
-   "strAwayTeam": "Algeria",
-   "intHomeScore": "1",
    "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-23"
-  },
-  {
-   "strHomeTeam": "Jordan",
-   "strAwayTeam": "Argentina",
-   "intHomeScore": "1",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-28"
-  },
-  {
-   "strHomeTeam": "Algeria",
-   "strAwayTeam": "Austria",
-   "intHomeScore": "3",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-28"
-  },
-  {
-   "strHomeTeam": "Portugal",
-   "strAwayTeam": "DR Congo",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-17"
-  },
-  {
-   "strHomeTeam": "Uzbekistan",
-   "strAwayTeam": "Colombia",
-   "intHomeScore": "1",
-   "intAwayScore": "3",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-18"
-  },
-  {
-   "strHomeTeam": "Portugal",
-   "strAwayTeam": "Uzbekistan",
-   "intHomeScore": "5",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-23"
+   "dateEvent": "2026-06-21"
   },
   {
    "strHomeTeam": "Colombia",
@@ -588,13 +246,13 @@
    "dateEvent": "2026-06-27"
   },
   {
-   "strHomeTeam": "DR Congo",
-   "strAwayTeam": "Uzbekistan",
-   "intHomeScore": "3",
-   "intAwayScore": "1",
+   "strHomeTeam": "Uzbekistan",
+   "strAwayTeam": "Colombia",
+   "intHomeScore": "1",
+   "intAwayScore": "3",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-27"
+   "dateEvent": "2026-06-18"
   },
   {
    "strHomeTeam": "England",
@@ -606,28 +264,154 @@
    "dateEvent": "2026-06-17"
   },
   {
-   "strHomeTeam": "Ghana",
-   "strAwayTeam": "Panama",
-   "intHomeScore": "1",
-   "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-17"
-  },
-  {
-   "strHomeTeam": "England",
+   "strHomeTeam": "Croatia",
    "strAwayTeam": "Ghana",
-   "intHomeScore": "0",
-   "intAwayScore": "0",
+   "intHomeScore": "2",
+   "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-23"
+   "dateEvent": "2026-06-27"
   },
   {
    "strHomeTeam": "Panama",
    "strAwayTeam": "Croatia",
    "intHomeScore": "0",
    "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-23"
+  },
+  {
+   "strHomeTeam": "Ecuador",
+   "strAwayTeam": "Curaçao",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-21"
+  },
+  {
+   "strHomeTeam": "Germany",
+   "strAwayTeam": "Curaçao",
+   "intHomeScore": "7",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-14"
+  },
+  {
+   "strHomeTeam": "Curaçao",
+   "strAwayTeam": "Ivory Coast",
+   "intHomeScore": "0",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Czech Republic",
+   "strAwayTeam": "Mexico",
+   "intHomeScore": "0",
+   "intAwayScore": "3",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Czech Republic",
+   "strAwayTeam": "South Africa",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-18"
+  },
+  {
+   "strHomeTeam": "South Korea",
+   "strAwayTeam": "Czech Republic",
+   "intHomeScore": "2",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-12"
+  },
+  {
+   "strHomeTeam": "England",
+   "strAwayTeam": "DR Congo",
+   "intHomeScore": "0",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-07-01"
+  },
+  {
+   "strHomeTeam": "Portugal",
+   "strAwayTeam": "DR Congo",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-17"
+  },
+  {
+   "strHomeTeam": "DR Congo",
+   "strAwayTeam": "Uzbekistan",
+   "intHomeScore": "3",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-27"
+  },
+  {
+   "strHomeTeam": "Ecuador",
+   "strAwayTeam": "Germany",
+   "intHomeScore": "2",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Ivory Coast",
+   "strAwayTeam": "Ecuador",
+   "intHomeScore": "1",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-14"
+  },
+  {
+   "strHomeTeam": "Mexico",
+   "strAwayTeam": "Ecuador",
+   "intHomeScore": "2",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-07-01"
+  },
+  {
+   "strHomeTeam": "Egypt",
+   "strAwayTeam": "Iran",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-27"
+  },
+  {
+   "strHomeTeam": "New Zealand",
+   "strAwayTeam": "Egypt",
+   "intHomeScore": "1",
+   "intAwayScore": "3",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-22"
+  },
+  {
+   "strHomeTeam": "England",
+   "strAwayTeam": "Ghana",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-23"
@@ -642,40 +426,94 @@
    "dateEvent": "2026-06-27"
   },
   {
-   "strHomeTeam": "Croatia",
-   "strAwayTeam": "Ghana",
+   "strHomeTeam": "France",
+   "strAwayTeam": "Iraq",
+   "intHomeScore": "3",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-22"
+  },
+  {
+   "strHomeTeam": "Norway",
+   "strAwayTeam": "France",
+   "intHomeScore": "1",
+   "intAwayScore": "4",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-26"
+  },
+  {
+   "strHomeTeam": "France",
+   "strAwayTeam": "Senegal",
+   "intHomeScore": "3",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-16"
+  },
+  {
+   "strHomeTeam": "Germany",
+   "strAwayTeam": "Ivory Coast",
    "intHomeScore": "2",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-27"
+   "dateEvent": "2026-06-20"
   },
   {
-   "strHomeTeam": "South Africa",
-   "strAwayTeam": "Canada",
+   "strHomeTeam": "Ghana",
+   "strAwayTeam": "Panama",
+   "intHomeScore": "1",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-17"
+  },
+  {
+   "strHomeTeam": "Morocco",
+   "strAwayTeam": "Haiti",
+   "intHomeScore": "4",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-24"
+  },
+  {
+   "strHomeTeam": "Haiti",
+   "strAwayTeam": "Scotland",
    "intHomeScore": "0",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-28"
+   "dateEvent": "2026-06-14"
   },
   {
-   "strHomeTeam": "Netherlands",
-   "strAwayTeam": "Morocco",
-   "intHomeScore": "1",
-   "intAwayScore": "1",
-   "intHomeScoreExtra": "2",
-   "intAwayScoreExtra": "3",
-   "dateEvent": "2026-06-30"
-  },
-  {
-   "strHomeTeam": "Brazil",
-   "strAwayTeam": "Japan",
+   "strHomeTeam": "Iran",
+   "strAwayTeam": "New Zealand",
    "intHomeScore": "2",
-   "intAwayScore": "1",
+   "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-06-29"
+   "dateEvent": "2026-06-16"
+  },
+  {
+   "strHomeTeam": "Iraq",
+   "strAwayTeam": "Norway",
+   "intHomeScore": "1",
+   "intAwayScore": "4",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-16"
+  },
+  {
+   "strHomeTeam": "Senegal",
+   "strAwayTeam": "Iraq",
+   "intHomeScore": "5",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-26"
   },
   {
    "strHomeTeam": "Ivory Coast",
@@ -687,22 +525,184 @@
    "dateEvent": "2026-06-30"
   },
   {
+   "strHomeTeam": "Netherlands",
+   "strAwayTeam": "Japan",
+   "intHomeScore": "2",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-14"
+  },
+  {
+   "strHomeTeam": "Japan",
+   "strAwayTeam": "Sweden",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Tunisia",
+   "strAwayTeam": "Japan",
+   "intHomeScore": "0",
+   "intAwayScore": "4",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-21"
+  },
+  {
    "strHomeTeam": "Mexico",
-   "strAwayTeam": "Ecuador",
+   "strAwayTeam": "South Africa",
    "intHomeScore": "2",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-07-01"
+   "dateEvent": "2026-06-11"
   },
   {
-   "strHomeTeam": "England",
-   "strAwayTeam": "DR Congo",
+   "strHomeTeam": "Mexico",
+   "strAwayTeam": "South Korea",
+   "intHomeScore": "1",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-19"
+  },
+  {
+   "strHomeTeam": "Netherlands",
+   "strAwayTeam": "Morocco",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": "2",
+   "intAwayScoreExtra": "3",
+   "dateEvent": "2026-06-30"
+  },
+  {
+   "strHomeTeam": "Scotland",
+   "strAwayTeam": "Morocco",
    "intHomeScore": "0",
    "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
-   "dateEvent": "2026-07-01"
+   "dateEvent": "2026-06-19"
+  },
+  {
+   "strHomeTeam": "Netherlands",
+   "strAwayTeam": "Sweden",
+   "intHomeScore": "5",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-20"
+  },
+  {
+   "strHomeTeam": "Tunisia",
+   "strAwayTeam": "Netherlands",
+   "intHomeScore": "1",
+   "intAwayScore": "3",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Norway",
+   "strAwayTeam": "Senegal",
+   "intHomeScore": "3",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-23"
+  },
+  {
+   "strHomeTeam": "Turkey",
+   "strAwayTeam": "Paraguay",
+   "intHomeScore": "0",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-20"
+  },
+  {
+   "strHomeTeam": "USA",
+   "strAwayTeam": "Paraguay",
+   "intHomeScore": "4",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-13"
+  },
+  {
+   "strHomeTeam": "Portugal",
+   "strAwayTeam": "Uzbekistan",
+   "intHomeScore": "5",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-23"
+  },
+  {
+   "strHomeTeam": "Qatar",
+   "strAwayTeam": "Switzerland",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-13"
+  },
+  {
+   "strHomeTeam": "Spain",
+   "strAwayTeam": "Saudi Arabia",
+   "intHomeScore": "4",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-21"
+  },
+  {
+   "strHomeTeam": "Saudi Arabia",
+   "strAwayTeam": "Uruguay",
+   "intHomeScore": "1",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-15"
+  },
+  {
+   "strHomeTeam": "South Africa",
+   "strAwayTeam": "South Korea",
+   "intHomeScore": "1",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-25"
+  },
+  {
+   "strHomeTeam": "Uruguay",
+   "strAwayTeam": "Spain",
+   "intHomeScore": "0",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-27"
+  },
+  {
+   "strHomeTeam": "Sweden",
+   "strAwayTeam": "Tunisia",
+   "intHomeScore": "5",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-15"
+  },
+  {
+   "strHomeTeam": "Turkey",
+   "strAwayTeam": "USA",
+   "intHomeScore": "3",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "dateEvent": "2026-06-26"
   }
  ]
 }

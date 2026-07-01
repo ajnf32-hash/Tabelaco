@@ -180,10 +180,21 @@ async function main(){
     const k=[chave(e.strHomeTeam),chave(e.strAwayTeam)].sort().join('|');
     if(vistos.has(k))return; vistos.add(k); eventsOut.push(e);
   }
+  // serialização estável (ordena pelo confronto) p/ comparar execuções sem
+  // depender da ordem em que os jogos foram encontrados.
+  const parKey=e=>[chave(e.strHomeTeam),chave(e.strAwayTeam)].sort().join('|');
+  const serie=arr=>JSON.stringify([...arr].sort((a,b)=>parKey(a).localeCompare(parKey(b))));
+  const prevSerie=serie(prev.events||[]);
+  const prevData=prev.atualizado;
   // grava o estado atual em disco (checkpoint) — assim, se o job for cortado por
   // timeout, o que já foi buscado não se perde e vira cache do próximo ciclo.
+  // Se os jogos não mudaram, mantém o carimbo de data antigo: o arquivo fica
+  // idêntico e o Actions não gera commit à toa (só commita quando há placar novo).
   function flush(){
-    const out={atualizado:new Date().toISOString(), total:eventsOut.length, events:eventsOut};
+    const eventos=[...eventsOut].sort((a,b)=>parKey(a).localeCompare(parKey(b)));
+    const mudou=serie(eventos)!==prevSerie;
+    const out={atualizado:(mudou||!prevData)?new Date().toISOString():prevData,
+               total:eventos.length, events:eventos};
     fs.writeFileSync(OUT, JSON.stringify(out,null,1));
   }
   // ----- passo 1: eventsday (por data) — casa por nome flexível e ensina a
