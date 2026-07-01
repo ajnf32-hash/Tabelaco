@@ -84,12 +84,14 @@
         display:inline-flex;align-items:center;justify-content:center;line-height:1}
   .gtit button:active{transform:translateY(1px)}
   .gtit button.pri{background:var(--azul);color:var(--amarelo);border:2px solid var(--amarelo)}
-  .corpo{flex:1 1 auto;overflow-y:auto;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column}
+  .corpo{flex:1 1 auto;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column}
   .corpo .col{min-width:0}
   .corpo .col-tab{flex:0 0 auto}
   .corpo .jogos{flex:1 0 auto}
 
-  table{width:100%;border-collapse:collapse}
+  table{width:100%;border-collapse:collapse;table-layout:fixed}
+  thead th.t,tbody td.t{width:auto}
+  thead th:not(.t),tbody td:not(.t){width:9%}
   thead th{font-size:10px;color:var(--mut);font-weight:700;padding:7px 2px;text-align:center;
         border-bottom:2px solid var(--linha)}
   thead th.t{text-align:left;padding-left:12px}
@@ -101,7 +103,7 @@
   .pts{font-weight:900;color:var(--verde)}
   .flag{width:24px;height:16px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:0 0 auto}
   .tname{background:transparent;border:none;color:var(--txt);font-weight:700;font-size:12.5px;
-        width:108px;padding:2px;border-radius:5px;overflow:hidden;text-overflow:ellipsis}
+        width:100%;min-width:0;padding:2px;border-radius:5px;overflow:hidden;text-overflow:ellipsis}
   .tname:focus{outline:none;background:rgba(255,255,255,.55)}
 
   .jogos{padding:8px 10px 12px;display:flex;flex-direction:column}
@@ -117,6 +119,12 @@
         border:2px solid var(--verde2);border-radius:0;color:var(--txt);background:#fffdf2}
   .placar input:focus{outline:none;border-color:var(--verde)}
   .placar input.ok{border-color:var(--verde);color:var(--verde)}
+  /* placar de leitura (mata-mata: o app preenche, o usuário não digita) */
+  .placar .sc{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;
+        font-size:17px;font-weight:800;color:var(--mut)}
+  .placar .sc.ok{color:var(--txt)}
+  .lado.vit span{color:var(--verde);font-weight:800}
+  .pen .scp{min-width:18px;text-align:center;font-weight:800;color:var(--azul)}
   .vs{font-size:10px;color:var(--mut)}
   .data{text-align:center;font-size:10px;color:var(--mut);margin-top:3px}
   /* mata-mata */
@@ -236,8 +244,8 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v12 · jul/2026';
-const KEY='wc2026-data-v3';
+const APP_VERSION='v13 · jul/2026';
+const KEY='wc2026-data-v4';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
   scores:PAIRS.map(()=>({h:null,a:null,date:''}))})),ko:{}};}
@@ -322,12 +330,14 @@ function resolve(src){
 }
 function rotulo(src){return src.t==='gw'?'1º Grupo '+src.g:src.t==='gr'?'2º Grupo '+src.g:
   src.t==='g3'?'Melhor 3º':src.t==='w'?'Vencedor #'+src.m:'Perdedor #'+src.m;}
-function venc(m){const k=KO[m];if(!k||k.h==null||k.a==null)return null;
-  if(k.h>k.a)return resolve(BM[m].A);if(k.a>k.h)return resolve(BM[m].B);
-  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?resolve(BM[m].A):resolve(BM[m].B);return null;}
-function perd(m){const k=KO[m];if(!k||k.h==null||k.a==null)return null;
-  if(k.h>k.a)return resolve(BM[m].B);if(k.a>k.h)return resolve(BM[m].A);
-  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?resolve(BM[m].B):resolve(BM[m].A);return null;}
+/* vencedor/perdedor pela grafia REAL das seleções (k.ta = lado A, k.tb = lado B),
+   preenchida a partir do jogo da API. Sem jogo real ainda: retorna null. */
+function venc(m){const k=KO[m];if(!k||k.ta==null||k.tb==null||k.h==null||k.a==null)return null;
+  if(k.h>k.a)return k.ta;if(k.a>k.h)return k.tb;
+  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?k.ta:k.tb;return null;}
+function perd(m){const k=KO[m];if(!k||k.ta==null||k.tb==null||k.h==null||k.a==null)return null;
+  if(k.h>k.a)return k.tb;if(k.a>k.h)return k.ta;
+  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?k.tb:k.ta;return null;}
 
 const ROUNDS=[
  {id:'r32a',nome:'16-avos · 1/2',ms:[73,74,75,76,77,78,79,80],masc:1},
@@ -375,24 +385,25 @@ function grupoHTML(gi){
 }
 function koHTML(r){
   let jogos='';
-  r.ms.forEach(m=>{const b=BM[m],ta=resolve(b.A),tb=resolve(b.B),k=KO[m]||{};
-    const la=ta||rotulo(b.A),lb=tb||rotulo(b.B);
-    const tie=k.h!=null&&k.a!=null&&k.h===k.a;
+  r.ms.forEach(m=>{const b=BM[m],k=KO[m]||{};
+    const ta=k.ta||resolve(b.A), tb=k.tb||resolve(b.B);   // time REAL, senão previsão (jogo futuro)
+    const la=ta||rotulo(b.A), lb=tb||rotulo(b.B);
+    const tem=k.h!=null&&k.a!=null;
+    const tie=tem&&k.h===k.a, pen=tie&&k.ph!=null&&k.pa!=null;
+    const winA=tem&&(k.h>k.a||(pen&&k.ph>k.pa)), winB=tem&&(k.a>k.h||(pen&&k.pa>k.ph));
     const tag=m===104?' · FINAL 🏆':m===103?' · 3º lugar':'';
     jogos+=`<div class="jogo ko"><div class="mnum">Jogo ${m}${tag}</div>
       <div class="linha">
-        <div class="lado h"><span class="${ta?'':'ph'}">${la}</span>${ta?bandeira(ta):''}</div>
+        <div class="lado h ${winA?'vit':''}"><span class="${ta?'':'ph'}">${la}</span>${ta?bandeira(ta):''}</div>
         <div class="placar">
-          <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="h" value="${k.h??''}" class="${k.h!=null?'ok':''}">
+          <span class="sc ${tem?'ok':''}">${k.h??'–'}</span>
           <span class="vs">×</span>
-          <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="a" value="${k.a??''}" class="${k.a!=null?'ok':''}">
+          <span class="sc ${tem?'ok':''}">${k.a??'–'}</span>
         </div>
-        <div class="lado">${tb?bandeira(tb):''}<span class="${tb?'':'ph'}">${lb}</span></div>
+        <div class="lado ${winB?'vit':''}">${tb?bandeira(tb):''}<span class="${tb?'':'ph'}">${lb}</span></div>
       </div>
-      ${tie?`<div class="pen"><span>pênaltis</span>
-        <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="ph" value="${k.ph??''}">
-        <span class="vs">×</span>
-        <input type="number" min="0" inputmode="numeric" data-ko="${m}" data-s="pa" value="${k.pa??''}"></div>`:''}
+      ${pen?`<div class="pen"><span>pênaltis</span>
+        <span class="scp">${k.ph}</span><span class="vs">×</span><span class="scp">${k.pa}</span></div>`:''}
     </div>`;});
   return `<div class="cartela">
     <div class="gtit"><span class="gtit-nome">${r.nome}</span>
@@ -434,9 +445,6 @@ function bind(){
   document.querySelectorAll('.placar input[data-g]').forEach(i=>i.addEventListener('input',e=>{
     const{g,m,s}=e.target.dataset,v=e.target.value;
     DATA[g].scores[m][s]=v===''?null:Math.max(0,parseInt(v,10)||0);save();render();}));
-  document.querySelectorAll('[data-ko]').forEach(i=>i.addEventListener('input',e=>{
-    const m=e.target.dataset.ko,s=e.target.dataset.s,v=e.target.value;
-    if(!KO[m])KO[m]={};KO[m][s]=v===''?null:Math.max(0,parseInt(v,10)||0);save();render();}));
   document.querySelectorAll('.tname').forEach(i=>i.addEventListener('change',e=>{
     const{g,i:k}=e.target.dataset;DATA[g].teams[k]=e.target.value.trim()||DATA[g].teams[k];save();render();}));
   document.querySelectorAll('.act-auto').forEach(b=>b.onclick=autoFill);
@@ -472,16 +480,6 @@ function chave(s){let x=(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/
 function temPlacar(e){return e&&e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!=='';}
 let CANON={};   // chave(seleção) -> grafia exata da API (aprendida com os eventos lidos)
 function aprendeCanon(e){CANON[chave(e.strHomeTeam)]=e.strHomeTeam;CANON[chave(e.strAwayTeam)]=e.strAwayTeam;}
-/* preenche um jogo de mata-mata a partir de um evento (placar + pênaltis) */
-function preencheKO(m,e,ka){
-  const homeIsA=chave(e.strHomeTeam)===ka, hs=+e.intHomeScore, as=+e.intAwayScore;
-  if(!KO[m])KO[m]={};
-  KO[m].h=homeIsA?hs:as; KO[m].a=homeIsA?as:hs;
-  const phs=e.intHomeScoreExtra, pas=e.intAwayScoreExtra;
-  if(hs===as && phs!=null && phs!=='' && pas!=null && pas!=='' && +phs!==+pas){
-    KO[m].ph=homeIsA?+phs:+pas; KO[m].pa=homeIsA?+pas:+phs;   // vencedor dos pênaltis avança
-  }
-}
 
 async function autoFill(){
   const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
@@ -506,16 +504,51 @@ async function autoFill(){
     const S=DATA[hit.gi].scores[hit.mi];
     if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
     S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;});
-  // ----- mata-mata: confronto resolvido a partir dos resultados -----
-  const evPar=new Map();
-  ev.forEach(e=>{evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e);});
-  TER=ranking3os();                                      // grupos agora completos
-  for(const b of BRACKET){
-    const ta=resolve(b.A), tb=resolve(b.B);
-    if(!ta||!tb)continue;
-    const ka=chave(EN[ta]||ta), kb=chave(EN[tb]||tb);
-    const e=evPar.get(ka+'|'+kb)||evPar.get(kb+'|'+ka);
-    if(temPlacar(e)){preencheKO(b.m,e,ka);n++;}
+  // ----- mata-mata: montado a partir dos CONFRONTOS REAIS, nunca de previsão -----
+  // Um jogo de mata-mata é todo evento que NÃO é um confronto de grupo conhecido
+  // (o intRound não serve: grupo usa 1/2/3 e a final também cai em 1/2).
+  const parK=e=>[chave(e.strHomeTeam),chave(e.strAwayTeam)].sort().join('|');
+  const grupoPairs=new Set();
+  DATA.forEach(g=>PAIRS.forEach(p=>grupoPairs.add(
+    [chave(EN[g.teams[p[0]]]||g.teams[p[0]]),chave(EN[g.teams[p[1]]]||g.teams[p[1]])].sort().join('|'))));
+  const koEv=ev.filter(e=>temPlacar(e)&&!grupoPairs.has(parK(e)));
+  const evPar=new Map(); ev.forEach(e=>evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e));
+  // grafia PT de uma seleção a partir do nome que a API usa (p/ bandeira e rótulo)
+  const ptPorChave={}; DATA.forEach(g=>g.teams.forEach(t=>{ptPorChave[chave(EN[t]||t)]=t;ptPorChave[chave(t)]=t;}));
+  const ptTeam=api=>ptPorChave[chave(api)]||api;
+  // lado "confiável": 1º/2º de grupo ou vencedor/perdedor já definido. O melhor 3º
+  // (g3) NÃO é confiável — deixamos o jogo real da API dizer quem é.
+  const conf=src=>src.t==='g3'?null:resolve(src);
+  TER=ranking3os();                                      // só p/ placeholder de jogos futuros
+  KO={};                                                 // remonta o mata-mata do zero, da realidade
+  const usados=new Set();
+  for(const b of BRACKET){                               // em ordem: rodadas anteriores 1º
+    const kA=conf(b.A), kB=conf(b.B);
+    let e=null, tA=null, tB=null;
+    if(kA&&kB){                                           // ambos conhecidos: confronto exato
+      const a=chave(EN[kA]||kA), c=chave(EN[kB]||kB);
+      e=evPar.get(a+'|'+c)||evPar.get(c+'|'+a); tA=kA; tB=kB;
+    }else if(kA||kB){                                     // só um lado (o outro é 3º): a API revela o rival
+      const co=kA||kB, ck=chave(EN[co]||co);
+      const cand=koEv.filter(x=>!usados.has(parK(x))&&[chave(x.strHomeTeam),chave(x.strAwayTeam)].includes(ck))
+                     .sort((x,y)=>(x.dateEvent||'').localeCompare(y.dateEvent||''));  // 1º jogo = rodada certa
+      e=cand[0]||null;
+      if(e){const rival=ptTeam(chave(e.strHomeTeam)===ck?e.strAwayTeam:e.strHomeTeam);
+        if(kA){tA=kA;tB=rival;}else{tB=kB;tA=rival;}}
+    }
+    if(e&&temPlacar(e)){
+      usados.add(parK(e));
+      const homeIsA=chave(e.strHomeTeam)===chave(EN[tA]||tA);
+      KO[b.m]={ta:tA, tb:tB,
+        h:homeIsA?+e.intHomeScore:+e.intAwayScore,
+        a:homeIsA?+e.intAwayScore:+e.intHomeScore};
+      if(e.dateEvent)KO[b.m].date=e.dateEvent.split('-').reverse().join('/');
+      const phs=e.intHomeScoreExtra, pas=e.intAwayScoreExtra;
+      if(+e.intHomeScore===+e.intAwayScore && phs!=null&&phs!==''&&pas!=null&&pas!==''&&+phs!==+pas){
+        KO[b.m].ph=homeIsA?+phs:+pas; KO[b.m].pa=homeIsA?+pas:+phs;
+      }
+      n++;
+    }
   }
   save();render();
   botoes.forEach(b=>b.disabled=false);
