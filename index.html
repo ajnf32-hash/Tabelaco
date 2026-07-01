@@ -236,7 +236,7 @@ function bandeira(n){const c=ISO[n];
 /* nomes em inglês p/ casar com a API */
 const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
 
-const APP_VERSION='v11 · jun/2026';
+const APP_VERSION='v12 · jul/2026';
 const KEY='wc2026-data-v3';
 let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
 function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
@@ -464,102 +464,14 @@ document.getElementById('next').onclick=()=>car.scrollBy({left:car.clientWidth,b
 const SYN={usa:'unitedstates',turkiye:'turkey',iriran:'iran',congodr:'drcongo',czechia:'czechrepublic',cotedivoire:'ivorycoast'};
 function chave(s){let x=(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
   x=x.replace(/&/g,' ').replace(/\band\b/g,' ').replace(/[^a-z]/g,'');return SYN[x]||x;}
-/* datas do torneio: de 11/06/2026 até hoje (jogos futuros não têm placar) */
-function datasTorneio(){
-  const ini=new Date(2026,5,11), fim=new Date(2026,6,19), hoje=new Date();
-  let lim=new Date(hoje.getFullYear(),hoje.getMonth(),hoje.getDate()+1);
-  if(lim>fim)lim=fim;
-  const out=[];
-  for(let d=new Date(ini); d<=lim; d.setDate(d.getDate()+1)){
-    out.push(d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'));
-  }
-  return out;
-}
-/* ---- cache por dia ----
-   A chave gratuita do TheSportsDB tem limite de requisições (HTTP 429). Buscar
-   ~40 dias de uma vez, em paralelo, estoura o limite e os resultados não chegam.
-   Solução: 1 requisição por dia, sequencial e espaçada, com novas tentativas no
-   429; dias passados já encerrados são guardados em cache e nunca rebuscados. */
-const DAYCACHE_KEY='wc2026-dias-v1';
-const delay=ms=>new Promise(r=>setTimeout(r,ms));
-function hojeStr(){const h=new Date();
-  return h.getFullYear()+'-'+String(h.getMonth()+1).padStart(2,'0')+'-'+String(h.getDate()).padStart(2,'0');}
-function loadDias(){try{return JSON.parse(localStorage.getItem(DAYCACHE_KEY))||{};}catch{return {};}}
-function saveDias(c){try{localStorage.setItem(DAYCACHE_KEY,JSON.stringify(c));}catch{/* sem espaço: ignora */}}
+/* ---- consumo do resultados.json (gerado pelo robô no GitHub Actions) ----
+   O app NÃO chama mais a API do TheSportsDB direto do navegador — cada usuário
+   estourava o limite (HTTP 429) e as oitavas ficavam sem atualizar. Agora ele só
+   lê um arquivo pronto, montado no servidor do GitHub, que serve todos de uma vez.
+   Ver scripts/fetch-resultados.js + .github/workflows/atualizar-resultados.yml */
 function temPlacar(e){return e&&e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!=='';}
-/* um dia é "encerrado" quando tem jogos e todos já têm placar final */
-function diaEncerrado(evs){return Array.isArray(evs)&&evs.length>0&&evs.every(temPlacar);}
-/* guarda só os campos usados (descarta descrições enormes p/ não estourar o localStorage).
-   ...Extra = placar dos pênaltis quando o jogo de mata-mata vai à disputa (strStatus 'AP'). */
-function enxuga(e){return {strHomeTeam:e.strHomeTeam,strAwayTeam:e.strAwayTeam,
-  intHomeScore:e.intHomeScore,intAwayScore:e.intAwayScore,
-  intHomeScoreExtra:e.intHomeScoreExtra,intAwayScoreExtra:e.intAwayScoreExtra,dateEvent:e.dateEvent};}
-/* A chave gratuita libera ~30 requisições e então bloqueia (429) por ~2 min.
-   _rate sinaliza esse bloqueio p/ a busca parar de insistir e reagendar. */
-let _rate=false, _syncN=0, _syncTimer=null;
-async function fetchJSON(url){
-  for(let tent=0; tent<3; tent++){
-    try{
-      const r=await fetch(url,{cache:'no-store'});
-      if(r.status===429){_rate=true; await delay(1200*(tent+1)); continue;}  // limite ativo
-      _rate=false;                                                 // resposta boa: sem bloqueio
-      if(!r.ok)return null;
-      return await r.json();
-    }catch{await delay(800*(tent+1));}                             // rede instável: espera e tenta
-  }
-  return null;
-}
-/* eventsday: jogos de um dia. ATENÇÃO: o plano gratuito corta em 3 jogos/dia,
-   então nos dias cheios (4-6 jogos) metade some — o fallback abaixo recupera. */
-async function fetchDia(day){
-  const j=await fetchJSON('https://www.thesportsdb.com/api/v1/json/3/eventsday.php?d='+day+'&l=4429');
-  if(j===null)return null;
-  return Array.isArray(j.events)?j.events.map(enxuga):[];
-}
-/* busca todos os dias do torneio reaproveitando o cache dos dias já encerrados */
-async function buscaDias(dates,onProg){
-  const cache=loadDias(), hoje=hojeStr(), ev=[];
-  let feitos=0;
-  for(const day of dates){
-    if(day<hoje && diaEncerrado(cache[day])){          // dia antigo já fechado: usa cache, sem requisição
-      ev.push(...cache[day]);
-    }else{
-      const evs=await fetchDia(day);
-      if(evs){cache[day]=evs; ev.push(...evs);}          // sucesso: usa e guarda
-      else if(cache[day]){ev.push(...cache[day]);}       // falhou: cai no último cache, se houver
-      await delay(180);                                  // espaça as requisições p/ não estourar o limite
-    }
-    feitos++; if(onProg)onProg(feitos,dates.length);
-  }
-  saveDias(cache);
-  return ev;
-}
-
-/* ---- busca por confronto (searchevents) ----
-   Contorna o corte de 3 jogos/dia do eventsday: busca um jogo específico, que
-   NÃO sofre esse limite. Cada confronto encontrado fica em cache (não rebusca). */
-const BUSCA_KEY='wc2026-busca-v1';
-let CANON={};   // chave(seleção) -> grafia exata da API (aprendida com os jogos que vieram)
-function loadBusca(){try{return JSON.parse(localStorage.getItem(BUSCA_KEY))||{};}catch{return {};}}
-function saveBusca(c){try{localStorage.setItem(BUSCA_KEY,JSON.stringify(c));}catch{/* sem espaço: ignora */}}
+let CANON={};   // chave(seleção) -> grafia exata da API (aprendida com os eventos lidos)
 function aprendeCanon(e){CANON[chave(e.strHomeTeam)]=e.strHomeTeam;CANON[chave(e.strAwayTeam)]=e.strAwayTeam;}
-function nomeAPI(t){return CANON[chave(EN[t]||t)]||EN[t]||t;}   // como a API escreve a seleção
-/* procura um jogo específico entre duas seleções (tenta as duas ordens) */
-async function buscaConfronto(tA,tB){
-  const kA=chave(EN[tA]||tA), kB=chave(EN[tB]||tB);
-  const a=nomeAPI(tA).replace(/ /g,'_'), b=nomeAPI(tB).replace(/ /g,'_');
-  for(const q of [a+'_vs_'+b, b+'_vs_'+a]){
-    const j=await fetchJSON('https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e='+encodeURIComponent(q));
-    if(j===null)return undefined;                       // undefined = falha de rede (p/ detectar offline)
-    for(const e of (j.event||[])){
-      if(e.idLeague!=='4429'||e.strSeason!=='2026'||!temPlacar(e))continue;
-      const s=[chave(e.strHomeTeam),chave(e.strAwayTeam)];
-      if(s.includes(kA)&&s.includes(kB)){aprendeCanon(e);return enxuga(e);}
-    }
-    await delay(250);
-  }
-  return null;                                          // null = online, mas jogo ainda sem placar
-}
 /* preenche um jogo de mata-mata a partir de um evento (placar + pênaltis) */
 function preencheKO(m,e,ka){
   const homeIsA=chave(e.strHomeTeam)===ka, hs=+e.intHomeScore, as=+e.intAwayScore;
@@ -573,10 +485,19 @@ function preencheKO(m,e,ka){
 
 async function autoFill(){
   const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
-  const ev=await buscaDias(datasTorneio(),(f,t)=>st(`Buscando resultados… (${f}/${t})`));
-  const online=ev.length>0;                              // conseguimos ler a API neste ciclo?
-  CANON={}; ev.forEach(aprendeCanon);                    // grafia oficial das seleções p/ a busca
+  let ev=[];
+  try{
+    const r=await fetch('resultados.json?t='+Date.now(),{cache:'no-store'});   // arquivo servido pelo GitHub Pages
+    if(r.ok){const j=await r.json(); if(j&&Array.isArray(j.events))ev=j.events;}
+  }catch{/* offline: mantém o que já está salvo */}
+  if(!ev.length){
+    botoes.forEach(b=>b.disabled=false);
+    st('Sem conexão com o servidor — mostrando os dados já salvos.');
+    return;
+  }
+  CANON={}; ev.forEach(aprendeCanon);                    // grafia oficial das seleções
   let n=0;
+  // ----- fase de grupos -----
   const idx=new Map();
   DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
     const h=chave(EN[g.teams[p[0]]]||g.teams[p[0]]),a=chave(EN[g.teams[p[1]]]||g.teams[p[1]]);
@@ -585,32 +506,7 @@ async function autoFill(){
     const S=DATA[hit.gi].scores[hit.mi];
     if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
     S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;});
-
-  // ----- FALLBACK: confrontos que o eventsday cortou (limite de 3/dia) -----
-  const busca=loadBusca();
-  const LIMITE=40; let req=0, falhas=0, parar=false;     // teto por janela + parada limpa
-  async function recupera(tA,tB,fk){                     // devolve o evento (cache, busca ou null)
-    if(busca[fk])return busca[fk];                       // já temos: sem requisição
-    if(parar||!online)return null;
-    if(req>=LIMITE){parar=true;return null;}
-    req++; st('Completando jogos faltantes…');
-    const e=await buscaConfronto(tA,tB);
-    if(e===undefined){falhas++; if(_rate||falhas>=3)parar=true; return null;}  // bloqueado/offline
-    falhas=0; if(e)busca[fk]=e; return e;
-  }
-  // grupos
-  grupos: for(let gi=0;gi<DATA.length;gi++)for(let mi=0;mi<PAIRS.length;mi++){
-    if(parar)break grupos;
-    const S=DATA[gi].scores[mi]; if(S.h!=null&&S.a!=null)continue;
-    const tA=DATA[gi].teams[PAIRS[mi][0]], tB=DATA[gi].teams[PAIRS[mi][1]];
-    const e=await recupera(tA,tB,chave(EN[tA]||tA)+'|'+chave(EN[tB]||tB));
-    if(e&&temPlacar(e)){
-      const homeIsA=chave(e.strHomeTeam)===chave(EN[tA]||tA);
-      S.h=homeIsA?+e.intHomeScore:+e.intAwayScore; S.a=homeIsA?+e.intAwayScore:+e.intHomeScore;
-      if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/'); n++;
-    }
-  }
-  // ----- mata-mata: eventsday primeiro, depois busca por confronto -----
+  // ----- mata-mata: confronto resolvido a partir dos resultados -----
   const evPar=new Map();
   ev.forEach(e=>{evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e);});
   TER=ranking3os();                                      // grupos agora completos
@@ -618,23 +514,12 @@ async function autoFill(){
     const ta=resolve(b.A), tb=resolve(b.B);
     if(!ta||!tb)continue;
     const ka=chave(EN[ta]||ta), kb=chave(EN[tb]||tb);
-    let e=evPar.get(ka+'|'+kb)||evPar.get(kb+'|'+ka);
-    if(!temPlacar(e)&&!parar)e=await recupera(ta,tb,'ko|'+ka+'|'+kb);
+    const e=evPar.get(ka+'|'+kb)||evPar.get(kb+'|'+ka);
     if(temPlacar(e)){preencheKO(b.m,e,ka);n++;}
   }
-  saveBusca(busca);
   save();render();
   botoes.forEach(b=>b.disabled=false);
-  // o limite da API (~30 req/2 min) cortou a busca antes de completar:
-  // termina sozinho quando o limite liberar (~2 min), sem o usuário fazer nada
-  clearTimeout(_syncTimer);
-  if(parar && online && _syncN<3){ _syncN++;
-    st(`Atualizado ✓ (${n}) — completando o restante em instantes…`);
-    _syncTimer=setTimeout(autoFill, 135000);
-  }else{ _syncN=0;
-    if(n>0)st(`Atualizado ✓ (${n} jogos)`);
-    else st(online?'Sem resultados ainda.':'Sem conexão com a API — mostrando os dados já salvos.');
-  }
+  st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');
 }
 
 /* ---------- capa ---------- */

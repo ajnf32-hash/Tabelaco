@@ -1,0 +1,43 @@
+name: Atualizar resultados
+
+# Roda na infra do GitHub (não depende de nenhum PC ligado).
+on:
+  schedule:
+    - cron: '*/15 * * * *'   # a cada 15 min (horário UTC)
+  workflow_dispatch:          # botão de "rodar agora" na aba Actions
+
+# permite ao job fazer commit do resultados.json atualizado
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-resultados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Buscar resultados
+        env:
+          TSDB_KEY: ${{ secrets.TSDB_KEY }}   # opcional: chave paga do TheSportsDB; vazio usa a grátis "3"
+        run: node scripts/fetch-resultados.js
+
+      - name: Commitar se houver mudança
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- resultados.json; then
+            echo "Sem mudanças nos resultados."
+          else
+            git add resultados.json
+            git commit -m "Atualiza resultados ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi
