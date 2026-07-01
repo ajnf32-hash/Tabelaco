@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-01T19:15:14.037Z",
- "total": 80,
+ "atualizado": "2026-07-01T20:57:38.481Z",
+ "total": 81,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -120,6 +120,16 @@
    "intAwayScoreExtra": null,
    "intRound": "3",
    "dateEvent": "2026-06-27"
+  },
+  {
+   "strHomeTeam": "Belgium",
+   "strAwayTeam": "Senegal",
+   "intHomeScore": "0",
+   "intAwayScore": "1",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "32",
+   "dateEvent": "2026-07-01"
   },
   {
    "strHomeTeam": "Canada",
