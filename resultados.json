@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-02T20:12:23.580Z",
+ "atualizado": "2026-07-02T21:37:07.313Z",
  "total": 83,
  "events": [
   {
@@ -94,7 +94,7 @@
   {
    "strHomeTeam": "Spain",
    "strAwayTeam": "Austria",
-   "intHomeScore": "0",
+   "intHomeScore": "3",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
