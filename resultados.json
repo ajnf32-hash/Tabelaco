@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-01T23:54:46.782Z",
- "total": 81,
+ "atualizado": "2026-07-02T04:05:47.763Z",
+ "total": 82,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -124,10 +124,10 @@
   {
    "strHomeTeam": "Belgium",
    "strAwayTeam": "Senegal",
-   "intHomeScore": "3",
+   "intHomeScore": "2",
    "intAwayScore": "2",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
+   "intHomeScoreExtra": "3",
+   "intAwayScoreExtra": "2",
    "intRound": "32",
    "dateEvent": "2026-07-01"
   },
@@ -158,6 +158,16 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-18"
+  },
+  {
+   "strHomeTeam": "USA",
+   "strAwayTeam": "Bosnia-Herzegovina",
+   "intHomeScore": "2",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "32",
+   "dateEvent": "2026-07-02"
   },
   {
    "strHomeTeam": "Brazil",
