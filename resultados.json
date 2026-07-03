@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-02T21:37:07.313Z",
- "total": 83,
+ "atualizado": "2026-07-03T00:14:44.962Z",
+ "total": 84,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -333,6 +333,16 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-23"
+  },
+  {
+   "strHomeTeam": "Portugal",
+   "strAwayTeam": "Croatia",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "32",
+   "dateEvent": "2026-07-02"
   },
   {
    "strHomeTeam": "Ecuador",
