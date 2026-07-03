@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-03T19:54:02.483Z",
+ "atualizado": "2026-07-03T22:31:11.773Z",
  "total": 86,
  "events": [
   {
@@ -67,8 +67,8 @@
    "strAwayTeam": "Egypt",
    "intHomeScore": "1",
    "intAwayScore": "1",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
+   "intHomeScoreExtra": "2",
+   "intAwayScoreExtra": "4",
    "intRound": "32",
    "dateEvent": "2026-07-03"
   },
