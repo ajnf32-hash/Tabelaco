@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-03T04:14:37.172Z",
+ "atualizado": "2026-07-03T07:43:55.802Z",
  "total": 85,
  "events": [
   {
@@ -35,7 +35,7 @@
   {
    "strHomeTeam": "Switzerland",
    "strAwayTeam": "Algeria",
-   "intHomeScore": "1",
+   "intHomeScore": "2",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
