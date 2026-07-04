@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-04T22:15:48.237Z",
+ "atualizado": "2026-07-04T23:19:34.205Z",
  "total": 90,
  "events": [
   {
@@ -574,7 +574,7 @@
    "strHomeTeam": "Paraguay",
    "strAwayTeam": "France",
    "intHomeScore": "0",
-   "intAwayScore": "0",
+   "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "intRound": "16",
