@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-04T05:26:58.057Z",
- "total": 88,
+ "atualizado": "2026-07-04T18:44:52.618Z",
+ "total": 89,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -248,6 +248,16 @@
    "intAwayScoreExtra": null,
    "intRound": "3",
    "dateEvent": "2026-06-24"
+  },
+  {
+   "strHomeTeam": "Canada",
+   "strAwayTeam": "Morocco",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "16",
+   "dateEvent": "2026-07-04"
   },
   {
    "strHomeTeam": "Canada",
