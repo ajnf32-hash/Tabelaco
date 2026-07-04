@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-04T01:21:03.208Z",
- "total": 87,
+ "atualizado": "2026-07-04T05:26:58.057Z",
+ "total": 88,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -316,6 +316,16 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-24"
+  },
+  {
+   "strHomeTeam": "Colombia",
+   "strAwayTeam": "Ghana",
+   "intHomeScore": "1",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "32",
+   "dateEvent": "2026-07-04"
   },
   {
    "strHomeTeam": "Colombia",
