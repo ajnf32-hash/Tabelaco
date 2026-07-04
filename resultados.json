@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-03T22:31:11.773Z",
- "total": 86,
+ "atualizado": "2026-07-04T01:21:03.208Z",
+ "total": 87,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -51,6 +51,16 @@
    "intAwayScoreExtra": null,
    "intRound": "2",
    "dateEvent": "2026-06-22"
+  },
+  {
+   "strHomeTeam": "Argentina",
+   "strAwayTeam": "Cape Verde",
+   "intHomeScore": "3",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "32",
+   "dateEvent": "2026-07-03"
   },
   {
    "strHomeTeam": "Jordan",
