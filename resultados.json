@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-04T21:13:17.220Z",
- "total": 89,
+ "atualizado": "2026-07-04T22:15:48.237Z",
+ "total": 90,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -569,6 +569,16 @@
    "intAwayScoreExtra": null,
    "intRound": "3",
    "dateEvent": "2026-06-26"
+  },
+  {
+   "strHomeTeam": "Paraguay",
+   "strAwayTeam": "France",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "16",
+   "dateEvent": "2026-07-04"
   },
   {
    "strHomeTeam": "France",
