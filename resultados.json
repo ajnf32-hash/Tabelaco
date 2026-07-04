@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-04T18:44:52.618Z",
+ "atualizado": "2026-07-04T19:59:46.708Z",
  "total": 89,
  "events": [
   {
@@ -253,7 +253,7 @@
    "strHomeTeam": "Canada",
    "strAwayTeam": "Morocco",
    "intHomeScore": "0",
-   "intAwayScore": "0",
+   "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "intRound": "16",
