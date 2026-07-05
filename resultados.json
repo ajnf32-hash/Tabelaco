@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-05T22:36:46.095Z",
+ "atualizado": "2026-07-05T23:48:45.730Z",
  "total": 91,
  "events": [
   {
@@ -242,8 +242,8 @@
   {
    "strHomeTeam": "Brazil",
    "strAwayTeam": "Norway",
-   "intHomeScore": "0",
-   "intAwayScore": "1",
+   "intHomeScore": "1",
+   "intAwayScore": "2",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "intRound": "16",
