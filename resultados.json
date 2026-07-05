@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-04T23:19:34.205Z",
- "total": 90,
+ "atualizado": "2026-07-05T21:31:00.700Z",
+ "total": 91,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -238,6 +238,16 @@
    "intAwayScoreExtra": null,
    "intRound": "1",
    "dateEvent": "2026-06-13"
+  },
+  {
+   "strHomeTeam": "Brazil",
+   "strAwayTeam": "Norway",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "16",
+   "dateEvent": "2026-07-05"
   },
   {
    "strHomeTeam": "Scotland",
