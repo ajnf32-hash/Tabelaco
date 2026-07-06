@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-06T20:29:24.944Z",
+ "atualizado": "2026-07-06T21:59:01.789Z",
  "total": 93,
  "events": [
   {
@@ -828,7 +828,7 @@
    "strHomeTeam": "Portugal",
    "strAwayTeam": "Spain",
    "intHomeScore": "0",
-   "intAwayScore": "0",
+   "intAwayScore": "1",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "intRound": "16",
