@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-07T19:28:24.345Z",
- "total": 95,
+ "atualizado": "2026-07-07T21:10:55.833Z",
+ "total": 96,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -375,6 +375,16 @@
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "dateEvent": "2026-06-27"
+  },
+  {
+   "strHomeTeam": "Switzerland",
+   "strAwayTeam": "Colombia",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "16",
+   "dateEvent": "2026-07-07"
   },
   {
    "strHomeTeam": "Uzbekistan",
