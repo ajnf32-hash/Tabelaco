@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-07T21:10:55.833Z",
+ "atualizado": "2026-07-08T01:13:15.092Z",
  "total": 96,
  "events": [
   {
@@ -381,8 +381,8 @@
    "strAwayTeam": "Colombia",
    "intHomeScore": "0",
    "intAwayScore": "0",
-   "intHomeScoreExtra": null,
-   "intAwayScoreExtra": null,
+   "intHomeScoreExtra": "4",
+   "intAwayScoreExtra": "3",
    "intRound": "16",
    "dateEvent": "2026-07-07"
   },
