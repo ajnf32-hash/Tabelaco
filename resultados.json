@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-08T01:13:15.092Z",
- "total": 96,
+ "atualizado": "2026-07-09T20:24:46.965Z",
+ "total": 97,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -609,6 +609,16 @@
    "intAwayScoreExtra": null,
    "intRound": "2",
    "dateEvent": "2026-06-22"
+  },
+  {
+   "strHomeTeam": "France",
+   "strAwayTeam": "Morocco",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "125",
+   "dateEvent": "2026-07-09"
   },
   {
    "strHomeTeam": "Norway",
