@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-09T20:24:46.965Z",
+ "atualizado": "2026-07-09T23:40:32.793Z",
  "total": 97,
  "events": [
   {
@@ -613,7 +613,7 @@
   {
    "strHomeTeam": "France",
    "strAwayTeam": "Morocco",
-   "intHomeScore": "0",
+   "intHomeScore": "2",
    "intAwayScore": "0",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
