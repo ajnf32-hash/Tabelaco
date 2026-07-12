@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-10T22:46:16.917Z",
- "total": 98,
+ "atualizado": "2026-07-12T18:44:14.460Z",
+ "total": 99,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -600,6 +600,16 @@
    "intAwayScoreExtra": null,
    "intRound": "16",
    "dateEvent": "2026-07-06"
+  },
+  {
+   "strHomeTeam": "Norway",
+   "strAwayTeam": "England",
+   "intHomeScore": "1",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "125",
+   "dateEvent": "2026-07-11"
   },
   {
    "strHomeTeam": "Panama",
