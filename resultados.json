@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-07-18T22:00:44.904Z",
+ "atualizado": "2026-07-18T23:03:28.602Z",
  "total": 101,
  "events": [
   {
@@ -594,8 +594,8 @@
   {
    "strHomeTeam": "France",
    "strAwayTeam": "England",
-   "intHomeScore": "0",
-   "intAwayScore": "2",
+   "intHomeScore": "3",
+   "intAwayScore": "4",
    "intHomeScoreExtra": null,
    "intAwayScoreExtra": null,
    "intRound": "160",
