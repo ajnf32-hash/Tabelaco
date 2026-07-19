@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-19T00:13:19.291Z",
- "total": 101,
+ "atualizado": "2026-07-19T19:58:20.540Z",
+ "total": 102,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -81,6 +81,16 @@
    "intAwayScoreExtra": null,
    "intRound": "3",
    "dateEvent": "2026-06-28"
+  },
+  {
+   "strHomeTeam": "Spain",
+   "strAwayTeam": "Argentina",
+   "intHomeScore": "0",
+   "intAwayScore": "0",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "200",
+   "dateEvent": "2026-07-19"
   },
   {
    "strHomeTeam": "Argentina",
