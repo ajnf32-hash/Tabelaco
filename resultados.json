@@ -1,6 +1,6 @@
 {
- "atualizado": "2026-07-19T22:12:33.028Z",
- "total": 102,
+ "atualizado": "2026-07-28T11:28:48.467Z",
+ "total": 104,
  "events": [
   {
    "strHomeTeam": "Argentina",
@@ -71,6 +71,16 @@
    "intAwayScoreExtra": null,
    "intRound": "16",
    "dateEvent": "2026-07-07"
+  },
+  {
+   "strHomeTeam": "England",
+   "strAwayTeam": "Argentina",
+   "intHomeScore": "1",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "150",
+   "dateEvent": "2026-07-15"
   },
   {
    "strHomeTeam": "Jordan",
@@ -699,6 +709,16 @@
    "intAwayScoreExtra": null,
    "intRound": "1",
    "dateEvent": "2026-06-16"
+  },
+  {
+   "strHomeTeam": "France",
+   "strAwayTeam": "Spain",
+   "intHomeScore": "0",
+   "intAwayScore": "2",
+   "intHomeScoreExtra": null,
+   "intAwayScoreExtra": null,
+   "intRound": "150",
+   "dateEvent": "2026-07-14"
   },
   {
    "strHomeTeam": "France",
