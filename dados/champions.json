@@ -1,0 +1,4110 @@
+{
+ "id": "champions",
+ "nome": "UEFA Champions League",
+ "curto": "Champions",
+ "formato": "grupos-e-mata-mata",
+ "temporada": 2026,
+ "temporadaTabela": 2025,
+ "origemTabela": "fonte",
+ "atualizado": "2026-08-04T15:09:37.095Z",
+ "classificacao": [
+  {
+   "posicao": 1,
+   "grupo": "",
+   "time": "Arsenal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "pontos": 24,
+   "jogos": 8,
+   "vitorias": 8,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 23,
+   "golsContra": 4,
+   "saldo": 19
+  },
+  {
+   "posicao": 2,
+   "grupo": "",
+   "time": "Bayern Munich",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "pontos": 21,
+   "jogos": 8,
+   "vitorias": 7,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 22,
+   "golsContra": 8,
+   "saldo": 14
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
+   "time": "Liverpool",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "pontos": 18,
+   "jogos": 8,
+   "vitorias": 6,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 20,
+   "golsContra": 8,
+   "saldo": 12
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
+   "time": "Tottenham Hotspur",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "pontos": 17,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 17,
+   "golsContra": 7,
+   "saldo": 10
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
+   "time": "Barcelona",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "pontos": 16,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 22,
+   "golsContra": 14,
+   "saldo": 8
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
+   "time": "Chelsea",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "pontos": 16,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 17,
+   "golsContra": 10,
+   "saldo": 7
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
+   "time": "Sporting CP",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "pontos": 16,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 17,
+   "golsContra": 11,
+   "saldo": 6
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
+   "time": "Manchester City",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "pontos": 16,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 15,
+   "golsContra": 9,
+   "saldo": 6
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
+   "time": "Real Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 21,
+   "golsContra": 12,
+   "saldo": 9
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
+   "time": "Internazionale",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 15,
+   "golsContra": 7,
+   "saldo": 8
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
+   "time": "Paris Saint-Germain",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "pontos": 14,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 21,
+   "golsContra": 11,
+   "saldo": 10
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
+   "time": "Newcastle United",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "pontos": 14,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 17,
+   "golsContra": 7,
+   "saldo": 10
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
+   "time": "Atlético Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 17,
+   "golsContra": 15,
+   "saldo": 2
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
+   "time": "Atalanta",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 10,
+   "saldo": 0
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
+   "time": "Juventus",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 4,
+   "derrotas": 1,
+   "golsPro": 14,
+   "golsContra": 10,
+   "saldo": 4
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
+   "time": "Bayer Leverkusen",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "pontos": 12,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 13,
+   "golsContra": 14,
+   "saldo": -1
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
+   "time": "Borussia Dortmund",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "pontos": 11,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 19,
+   "golsContra": 17,
+   "saldo": 2
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
+   "time": "Olympiacos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "pontos": 11,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 14,
+   "saldo": -4
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Club Brugge",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "pontos": 10,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 4,
+   "golsPro": 15,
+   "golsContra": 17,
+   "saldo": -2
+  },
+  {
+   "posicao": 20,
+   "grupo": "",
+   "time": "Galatasaray",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "pontos": 10,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 4,
+   "golsPro": 9,
+   "golsContra": 11,
+   "saldo": -2
+  },
+  {
+   "posicao": 21,
+   "grupo": "",
+   "time": "FK Qarabag",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "pontos": 10,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 4,
+   "golsPro": 13,
+   "golsContra": 21,
+   "saldo": -8
+  },
+  {
+   "posicao": 22,
+   "grupo": "",
+   "time": "AS Monaco",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "pontos": 10,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 4,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 14,
+   "saldo": -6
+  },
+  {
+   "posicao": 23,
+   "grupo": "",
+   "time": "Benfica",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 12,
+   "saldo": -2
+  },
+  {
+   "posicao": 24,
+   "grupo": "",
+   "time": "Marseille",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 11,
+   "golsContra": 14,
+   "saldo": -3
+  },
+  {
+   "posicao": 25,
+   "grupo": "",
+   "time": "Union St.-Gilloise",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 8,
+   "golsContra": 17,
+   "saldo": -9
+  },
+  {
+   "posicao": 26,
+   "grupo": "",
+   "time": "Bodo/Glimt",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 15,
+   "saldo": -1
+  },
+  {
+   "posicao": 27,
+   "grupo": "",
+   "time": "Pafos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 8,
+   "golsContra": 11,
+   "saldo": -3
+  },
+  {
+   "posicao": 28,
+   "grupo": "",
+   "time": "PSV Eindhoven",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "pontos": 8,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 4,
+   "golsPro": 16,
+   "golsContra": 16,
+   "saldo": 0
+  },
+  {
+   "posicao": 29,
+   "grupo": "",
+   "time": "Athletic Club",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "pontos": 8,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 4,
+   "golsPro": 9,
+   "golsContra": 14,
+   "saldo": -5
+  },
+  {
+   "posicao": 30,
+   "grupo": "",
+   "time": "Napoli",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "pontos": 8,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 4,
+   "golsPro": 9,
+   "golsContra": 15,
+   "saldo": -6
+  },
+  {
+   "posicao": 31,
+   "grupo": "",
+   "time": "F.C. København",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "pontos": 8,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 4,
+   "golsPro": 12,
+   "golsContra": 21,
+   "saldo": -9
+  },
+  {
+   "posicao": 32,
+   "grupo": "",
+   "time": "Ajax Amsterdam",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "pontos": 6,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 6,
+   "golsPro": 8,
+   "golsContra": 21,
+   "saldo": -13
+  },
+  {
+   "posicao": 33,
+   "grupo": "",
+   "time": "Eintracht Frankfurt",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "pontos": 4,
+   "jogos": 8,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 6,
+   "golsPro": 10,
+   "golsContra": 21,
+   "saldo": -11
+  },
+  {
+   "posicao": 34,
+   "grupo": "",
+   "time": "Slavia Prague",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "pontos": 3,
+   "jogos": 8,
+   "vitorias": 0,
+   "empates": 3,
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 19,
+   "saldo": -14
+  },
+  {
+   "posicao": 35,
+   "grupo": "",
+   "time": "Villarreal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "pontos": 1,
+   "jogos": 8,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 7,
+   "golsPro": 5,
+   "golsContra": 18,
+   "saldo": -13
+  },
+  {
+   "posicao": 36,
+   "grupo": "",
+   "time": "Kairat Almaty",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "pontos": 1,
+   "jogos": 8,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 7,
+   "golsPro": 7,
+   "golsContra": 22,
+   "saldo": -15
+  }
+ ],
+ "jogos": [
+  {
+   "data": "2025-09-16",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Club",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-16",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV Eindhoven",
+   "visitante": "Union St.-Gilloise",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-16",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio da Luz",
+   "cidade": "Lisbon",
+   "mandante": "Benfica",
+   "visitante": "FK Qarabag",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-16",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": 4,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-16",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Marseille",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-16",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham Hotspur",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Georgios Karaiskakis Stadium",
+   "cidade": "Piraeus",
+   "mandante": "Olympiacos",
+   "visitante": "Pafos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Prague",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Johan Cruijff Arena",
+   "cidade": "Amsterdam",
+   "mandante": "Ajax Amsterdam",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "AS Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Parken Stadium",
+   "cidade": "Copenhagen",
+   "mandante": "F.C. København",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 5,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Etihad Stadium",
+   "cidade": "Manchester",
+   "mandante": "Manchester City",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Kairat Almaty",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Club Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Almaty Ortalyk Stadium",
+   "cidade": "Almaty",
+   "mandante": "Kairat Almaty",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 0,
+   "golsVisitante": 5,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Eintracht Frankfurt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "golsMandante": 5,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "Tottenham Hotspur",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Benfica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Internazionale",
+   "visitante": "Slavia Prague",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marseille",
+   "visitante": "Ajax Amsterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-09-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Alphamega Stadium",
+   "cidade": "Kolossi",
+   "mandante": "Pafos",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 1,
+   "golsVisitante": 5,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Tofiq Bahramov Republican Stadium",
+   "cidade": "Baku",
+   "mandante": "FK Qarabag",
+   "visitante": "F.C. København",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Lotto Park",
+   "cidade": "Brussels",
+   "mandante": "Union St.-Gilloise",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Olympiacos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "AS Monaco",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadi Olímpic Lluís Companys",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "PSV Eindhoven",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Athletic Club",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Estadi Olímpic Lluís Companys",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Olympiacos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "golsMandante": 6,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Almaty Ortalyk Stadium",
+   "cidade": "Almaty",
+   "mandante": "Kairat Almaty",
+   "visitante": "Pafos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 2,
+   "golsVisitante": 7,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Parken Stadium",
+   "cidade": "Copenhagen",
+   "mandante": "F.C. København",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "Benfica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV Eindhoven",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": 6,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Lotto Park",
+   "cidade": "Brussels",
+   "mandante": "Union St.-Gilloise",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-21",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Club",
+   "visitante": "FK Qarabag",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "AS Monaco",
+   "visitante": "Tottenham Hotspur",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Slavia Prague",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Club Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Ajax Amsterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "golsMandante": 5,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 1,
+   "golsVisitante": 5,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-10-22",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Marseille",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Eintracht Frankfurt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Prague",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Union St.-Gilloise",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "AS Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Georgios Karaiskakis Stadium",
+   "cidade": "Piraeus",
+   "mandante": "Olympiacos",
+   "visitante": "PSV Eindhoven",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham Hotspur",
+   "visitante": "F.C. København",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Tofiq Bahramov Republican Stadium",
+   "cidade": "Baku",
+   "mandante": "FK Qarabag",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Alphamega Stadium",
+   "cidade": "Kolossi",
+   "mandante": "Pafos",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Johan Cruijff Arena",
+   "cidade": "Amsterdam",
+   "mandante": "Ajax Amsterdam",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio da Luz",
+   "cidade": "Lisbon",
+   "mandante": "Benfica",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 3,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Internazionale",
+   "visitante": "Kairat Almaty",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Etihad Stadium",
+   "cidade": "Manchester",
+   "mandante": "Manchester City",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marseille",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "Athletic Club",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Johan Cruijff Arena",
+   "cidade": "Amsterdam",
+   "mandante": "Ajax Amsterdam",
+   "visitante": "Benfica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Union St.-Gilloise",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Etihad Stadium",
+   "cidade": "Manchester",
+   "mandante": "Manchester City",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marseille",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "FK Qarabag",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-25",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Prague",
+   "visitante": "Athletic Club",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Parken Stadium",
+   "cidade": "Copenhagen",
+   "mandante": "F.C. København",
+   "visitante": "Kairat Almaty",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Alphamega Stadium",
+   "cidade": "Kolossi",
+   "mandante": "Pafos",
+   "visitante": "AS Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "PSV Eindhoven",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "golsMandante": 1,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Georgios Karaiskakis Stadium",
+   "cidade": "Piraeus",
+   "mandante": "Olympiacos",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 3,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Tottenham Hotspur",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": 5,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-11-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Club Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "15:30",
+   "rodada": "",
+   "local": "Astana Arena",
+   "cidade": "Astana",
+   "mandante": "Kairat Almaty",
+   "visitante": "Olympiacos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "AS Monaco",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Eintracht Frankfurt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Internazionale",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV Eindhoven",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham Hotspur",
+   "visitante": "Slavia Prague",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-09",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Lotto Park",
+   "cidade": "Brussels",
+   "mandante": "Union St.-Gilloise",
+   "visitante": "Marseille",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Tofiq Bahramov Republican Stadium",
+   "cidade": "Baku",
+   "mandante": "FK Qarabag",
+   "visitante": "Ajax Amsterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "F.C. København",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Club",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio da Luz",
+   "cidade": "Lisbon",
+   "mandante": "Benfica",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Pafos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2025-12-10",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "15:30",
+   "rodada": "",
+   "local": "Astana Arena",
+   "cidade": "Astana",
+   "mandante": "Kairat Almaty",
+   "visitante": "Club Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": 1,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Parken Stadium",
+   "cidade": "Copenhagen",
+   "mandante": "F.C. København",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Internazionale",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Georgios Karaiskakis Stadium",
+   "cidade": "Piraeus",
+   "mandante": "Olympiacos",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "AS Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": 6,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham Hotspur",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-20",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Ajax Amsterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Tofiq Bahramov Republican Stadium",
+   "cidade": "Baku",
+   "mandante": "FK Qarabag",
+   "visitante": "Eintracht Frankfurt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Athletic Club",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Union St.-Gilloise",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Pafos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Benfica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marseille",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "PSV Eindhoven",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Prague",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Johan Cruijff Arena",
+   "cidade": "Amsterdam",
+   "mandante": "Ajax Amsterdam",
+   "visitante": "Olympiacos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/139.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Kairat Almaty",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2528.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "AS Monaco",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Club",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "F.C. København",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/909.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio da Luz",
+   "cidade": "Lisbon",
+   "mandante": "Benfica",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 4,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "Marseille",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Tottenham Hotspur",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "FK Qarabag",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "golsMandante": 6,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Etihad Stadium",
+   "cidade": "Manchester",
+   "mandante": "Manchester City",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Alphamega Stadium",
+   "cidade": "Kolossi",
+   "mandante": "Pafos",
+   "visitante": "Slavia Prague",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/22281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV Eindhoven",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Lotto Park",
+   "cidade": "Brussels",
+   "mandante": "Union St.-Gilloise",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5807.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-17",
+   "hora": "17:45",
+   "rodada": "1st Leg",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-17",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "AS Monaco",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-17",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Estádio da Luz",
+   "cidade": "Lisbon",
+   "mandante": "Benfica",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-17",
+   "hora": "20:15",
+   "rodada": "1st Leg",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "17:45",
+   "rodada": "1st Leg",
+   "local": "Tofiq Bahramov Republican Stadium",
+   "cidade": "Baku",
+   "mandante": "FK Qarabag",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 1,
+   "golsVisitante": 6,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 3,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Georgios Karaiskakis Stadium",
+   "cidade": "Piraeus",
+   "mandante": "Olympiacos",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "17:45",
+   "rodada": "2nd Leg - Atlético Madrid advance 7-4 on aggregate",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Club Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Bayer Leverkusen advance 2-0 on aggregate",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Olympiacos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/435.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Bodo/Glimt advance 5-2 on aggregate",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Internazionale",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Newcastle United advance 9-3 on aggregate",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "FK Qarabag",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10414.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "17:45",
+   "rodada": "2nd Leg - Atalanta advance 4-3 on aggregate",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Galatasaray advance 7-5 on aggregate",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Final Score - After Extra Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Paris Saint-Germain advance 5-4 on aggregate",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "AS Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Real Madrid advance 3-1 on aggregate",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Benfica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1929.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "17:45",
+   "rodada": "1st Leg",
+   "local": "RAMS Park",
+   "cidade": "Istanbul",
+   "mandante": "Galatasaray",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 1,
+   "golsVisitante": 6,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Tottenham Hotspur",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle United",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "17:45",
+   "rodada": "1st Leg",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Aspmyra Stadion",
+   "cidade": "Bodø/Glimt",
+   "mandante": "Bodo/Glimt",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "17:45",
+   "rodada": "2nd Leg - Sporting CP advance 5-3 on aggregate",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Extra Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Arsenal advance 3-1 on aggregate",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Paris Saint-Germain advance 8-2 on aggregate",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Real Madrid advance 5-1 on aggregate",
+   "local": "Etihad Stadium",
+   "cidade": "Manchester",
+   "mandante": "Manchester City",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "17:45",
+   "rodada": "2nd Leg - Barcelona advance 8-3 on aggregate",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Newcastle United",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": 7,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Bayern Munich advance 10-2 on aggregate",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Liverpool advance 4-1 on aggregate",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Atlético Madrid advance 7-5 on aggregate",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham Hotspur",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-07",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-07",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting CP",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-14",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Atlético Madrid advance 3-2 on aggregate",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-14",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Paris Saint-Germain advance 4-0 on aggregate",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Arsenal advance 1-0 on aggregate",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Sporting CP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Bayern Munich advance 6-4 on aggregate",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": 4,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-28",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Bayern Munich",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": 5,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético Madrid",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-05",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Arsenal advance 2-1 on aggregate",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Atlético Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Paris Saint-Germain advance 6-5 on aggregate",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern Munich",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-30",
+   "hora": "16:00",
+   "rodada": "Paris Saint-Germain win 4-3 on penalties",
+   "local": "Puskás Aréna",
+   "cidade": "Budapest",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  }
+ ],
+ "avisos": []
+}

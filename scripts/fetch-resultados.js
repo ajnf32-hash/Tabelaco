@@ -1,149 +1,425 @@
-/* Robô de resultados — roda no GitHub Actions (não no PC de ninguém).
-   Filosofia: ser BURRO e robusto. Ele NÃO recalcula chaveamento nem tenta
-   adivinhar quem joga contra quem. Só colhe da API todos os jogos do torneio
-   (com o número da rodada) e grava em resultados.json. Quem monta a tabela e o
-   mata-mata é o app, a partir dos confrontos REAIS — nunca de uma previsão.
-
-   Fontes na chave grátis (todas verificadas):
-   - eventsday: jogos por dia. Corta em 3/dia, mas casa por nome flexível
-     ("USA", "Ivory Coast"...) e ensina a grafia oficial das seleções.
-   - searchevents: um confronto específico, sem o corte de 3/dia. Usado só para
-     completar os jogos de fase de grupos (confrontos fixos e conhecidos) que o
-     eventsday cortou. */
+/* Robô de resultados do Tabelaço — roda no GitHub Actions (não no PC de ninguém).
+ *
+ * Filosofia herdada do robô da Copa: ser BURRO e robusto. Ele não adivinha
+ * chaveamento nem inventa confronto. Só colhe o que as fontes publicam e grava.
+ *
+ * O que mudou: agora são DUAS fontes independentes, e um placar só é publicado
+ * como confirmado quando as duas dizem a mesma coisa.
+ *
+ *   ESPN    — uma consulta por campeonato. Traz jogos, rodada e classificação.
+ *   Fotmob  — uma consulta por DIA, e essa única consulta já traz todos os
+ *             campeonatos daquele dia. Serve de conferente.
+ *
+ * Regra de publicação de cada jogo:
+ *   confirmado  → as duas fontes deram o mesmo placar. Pode mostrar.
+ *   sozinho     → só uma fonte tem o jogo. Mostra, mas marcado como preliminar.
+ *   divergente  → as duas discordam. NÃO mostra placar; entra na lista de avisos.
+ *
+ * Nenhuma das duas fontes cobra nada nem exige cadastro.
+ */
 
 const fs = require('fs');
 const path = require('path');
 
-const KEY = process.env.TSDB_KEY || '3';           // '3' = chave pública grátis
-const BASE = `https://www.thesportsdb.com/api/v1/json/${KEY}`;
-const OUT = path.join(__dirname, '..', 'resultados.json');
-const LEAGUE = '4429', SEASON = '2026';
+const RAIZ = path.join(__dirname, '..');
+const CATALOGO = path.join(RAIZ, 'dados', 'campeonatos.json');
+const SAIDA = path.join(RAIZ, 'dados');
 
-/* seleções por grupo — só para completar jogos de grupo que o eventsday cortou */
-const GROUPS = [
-  {name:'A',teams:['México','África do Sul','Coreia do Sul','República Tcheca']},
-  {name:'B',teams:['Canadá','Bósnia e Herzegovina','Catar','Suíça']},
-  {name:'C',teams:['Brasil','Marrocos','Haiti','Escócia']},
-  {name:'D',teams:['Estados Unidos','Paraguai','Austrália','Turquia']},
-  {name:'E',teams:['Alemanha','Curaçao','Costa do Marfim','Equador']},
-  {name:'F',teams:['Holanda','Japão','Suécia','Tunísia']},
-  {name:'G',teams:['Bélgica','Egito','Irã','Nova Zelândia']},
-  {name:'H',teams:['Espanha','Cabo Verde','Arábia Saudita','Uruguai']},
-  {name:'I',teams:['França','Senegal','Iraque','Noruega']},
-  {name:'J',teams:['Argentina','Argélia','Áustria','Jordânia']},
-  {name:'K',teams:['Portugal','RD Congo','Uzbequistão','Colômbia']},
-  {name:'L',teams:['Inglaterra','Croácia','Gana','Panamá']},
-];
-const PAIRS = [[0,1],[2,3],[0,2],[3,1],[0,3],[1,2]];
-const EN = {'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
-const SYN = {usa:'unitedstates',turkiye:'turkey',iriran:'iran',congodr:'drcongo',czechia:'czechrepublic',cotedivoire:'ivorycoast'};
+/* Quantos dias para trás o robô reconfere a cada rodada. 8 dias cobre uma
+   rodada inteira com folga e ainda pega placar que a fonte corrigiu depois. */
+const DIAS_ATRAS = 8;
+/* Quantos dias à frente ele busca, para saber onde e que horas é o próximo jogo. */
+const DIAS_FRENTE = 10;
 
-/* ---------- helpers ---------- */
-function chave(s){let x=(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
-  x=x.replace(/&/g,' ').replace(/\band\b/g,' ').replace(/[^a-z]/g,'');return SYN[x]||x;}
-function temPlacar(e){return e&&e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!=='';}
-/* guarda só os campos usados. intRound = rodada (1-3 grupo; 32/16/8/4/2/1 mata-mata);
-   ...Extra = placar dos pênaltis quando o jogo empata e vai à disputa. */
-function enxuga(e){return {strHomeTeam:e.strHomeTeam,strAwayTeam:e.strAwayTeam,
-  intHomeScore:e.intHomeScore,intAwayScore:e.intAwayScore,
-  intHomeScoreExtra:e.intHomeScoreExtra,intAwayScoreExtra:e.intAwayScoreExtra,
-  intRound:e.intRound,dateEvent:e.dateEvent};}
-const delay = ms => new Promise(r => setTimeout(r, ms));
-const parKey = e => [chave(e.strHomeTeam),chave(e.strAwayTeam)].sort().join('|');
+const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Tabelaco/1.0';
 
-let CANON = {};
-function aprendeCanon(e){CANON[chave(e.strHomeTeam)]=e.strHomeTeam;CANON[chave(e.strAwayTeam)]=e.strAwayTeam;}
-function nomeAPI(t){return CANON[chave(EN[t]||t)]||EN[t]||t;}
+/* ---------------------------------------------------------------- utilidades */
 
-async function fetchJSON(url){
-  for(let tent=0; tent<4; tent++){
-    try{
-      const r = await fetch(url);
-      if(r.status===429){await delay(2500*(tent+1)); continue;}  // limite ativo: espera mais
-      if(!r.ok) return null;
+const dorme = ms => new Promise(r => setTimeout(r, ms));
+
+async function pegaJSON(url, tentativas = 3) {
+  for (let i = 1; i <= tentativas; i++) {
+    try {
+      const r = await fetch(url, { headers: { 'User-Agent': UA, 'Accept': 'application/json' } });
+      if (!r.ok) throw new Error('HTTP ' + r.status);
       return await r.json();
-    }catch{ await delay(1500*(tent+1)); }
-  }
-  return null;
-}
-/* datas do torneio: 11/06 a 19/07/2026 */
-function datasTorneio(){
-  const ini=new Date(Date.UTC(2026,5,11)), fim=new Date(Date.UTC(2026,6,19)), out=[];
-  for(let d=new Date(ini); d<=fim; d.setUTCDate(d.getUTCDate()+1)) out.push(d.toISOString().slice(0,10));
-  return out;
-}
-async function fetchDia(day){
-  const j = await fetchJSON(`${BASE}/eventsday.php?d=${day}&l=${LEAGUE}`);
-  if(j===null) return null;
-  return Array.isArray(j.events) ? j.events.filter(temPlacar).map(enxuga) : [];
-}
-/* procura um jogo específico entre duas seleções (tenta as duas ordens) */
-async function buscaConfronto(tA,tB){
-  const kA=chave(EN[tA]||tA), kB=chave(EN[tB]||tB);
-  const a=nomeAPI(tA).replace(/ /g,'_'), b=nomeAPI(tB).replace(/ /g,'_');
-  for(const q of [a+'_vs_'+b, b+'_vs_'+a]){
-    const j = await fetchJSON(`${BASE}/searchevents.php?e=${encodeURIComponent(q)}`);
-    await delay(400);
-    if(j===null) continue;
-    for(const e of (j.event||[])){
-      if(e.idLeague!==LEAGUE||e.strSeason!==SEASON||!temPlacar(e))continue;
-      const s=[chave(e.strHomeTeam),chave(e.strAwayTeam)];
-      if(s.includes(kA)&&s.includes(kB)){aprendeCanon(e);return enxuga(e);}
+    } catch (e) {
+      if (i === tentativas) { console.warn(`   ! falhou ${url} — ${e.message}`); return null; }
+      await dorme(600 * i);
     }
   }
-  return null;
 }
 
-/* ---------- programa ---------- */
-async function main(){
-  // cache dos jogos já capturados antes (não rebusca) + saída anterior p/ comparar
-  let prev = {events:[]};
-  try{ prev = JSON.parse(fs.readFileSync(OUT,'utf8')); }catch{}
-  const capturados = new Map();   // parKey -> evento
-  (prev.events||[]).forEach(e=>{ aprendeCanon(e); capturados.set(parKey(e), e); });
+const iso = d => d.toISOString().slice(0, 10);
+const compacta = d => iso(d).replace(/-/g, '');
 
-  const serie = arr => JSON.stringify([...arr].sort((a,b)=>parKey(a).localeCompare(parKey(b))));
-  const prevSerie = serie(prev.events||[]);
-  const prevData = prev.atualizado;
-  function flush(){
-    const eventos=[...capturados.values()].sort((a,b)=>parKey(a).localeCompare(parKey(b)));
-    const mudou=serie(eventos)!==prevSerie;
-    const out={atualizado:(mudou||!prevData)?new Date().toISOString():prevData,
-               total:eventos.length, events:eventos};
-    fs.writeFileSync(OUT, JSON.stringify(out,null,1));
+function janelaDeDatas() {
+  const hoje = new Date();
+  const dias = [];
+  for (let i = -DIAS_ATRAS; i <= DIAS_FRENTE; i++) {
+    const d = new Date(hoje);
+    d.setUTCDate(d.getUTCDate() + i);
+    dias.push(d);
   }
-
-  // ----- passo 1: eventsday — colhe TODO jogo com placar (grupo E mata-mata) -----
-  let novos=0;
-  for(const day of datasTorneio()){
-    const evs = await fetchDia(day);
-    if(evs) for(const e of evs){
-      aprendeCanon(e);
-      const k=parKey(e);
-      if(!capturados.has(k)) novos++;
-      capturados.set(k, e);          // eventsday é a verdade; sobrescreve cache antigo
-    }
-    await delay(200);
-  }
-  flush();
-  process.stderr.write(`eventsday: ${capturados.size} jogos (${novos} novos)\n`);
-
-  // ----- passo 2: completa jogos de GRUPO que o eventsday cortou (3/dia) -----
-  let buscas=0;
-  for(const g of GROUPS){
-    for(const p of PAIRS){
-      const tA=g.teams[p[0]], tB=g.teams[p[1]];
-      const k=[chave(EN[tA]||tA),chave(EN[tB]||tB)].sort().join('|');
-      if(capturados.has(k)) continue;        // já veio do eventsday
-      buscas++;
-      const e=await buscaConfronto(tA,tB);
-      if(e&&temPlacar(e)){ capturados.set(parKey(e), e); flush(); }
-    }
-    process.stderr.write(`grupo ${g.name} ok\n`);
-  }
-
-  flush();
-  process.stderr.write(`\nFeito: ${capturados.size} jogos gravados (${buscas} buscas de grupo).\n`);
+  return dias;
 }
 
-main().catch(e=>{console.error(e); process.exit(1);});
+/* ------------------------------------------------- casamento de nomes de time */
+
+/* As duas fontes escrevem o mesmo time de jeitos diferentes:
+   "Atlético-MG" / "Atletico MG"   ·   "Botafogo" / "Botafogo RJ"
+   "São Paulo" / "Sao Paulo"       ·   "Athletico Paranaense" / "Athletico PR"
+   Em vez de manter uma lista infinita de sinônimos, o robô compara os jogos
+   como PAR (mandante + visitante). Dois times errados ao mesmo tempo no mesmo
+   dia é praticamente impossível, então o par desempata sozinho. */
+
+const RUIDO = new Set([
+  'fc', 'ec', 'sc', 'ac', 'cr', 'se', 'ca', 'af', 'ad', 'esporte', 'esportivo',
+  'clube', 'club', 'futebol', 'football', 'regatas', 'atletico', 'atlhetico',
+  'associacao', 'sociedade', 'de', 'do', 'da', 'dos', 'das', 'e'
+]);
+
+function normaliza(s) {
+  return (s || '')
+    .normalize('NFD').replace(/[̀-ͯ]/g, '')   // tira acento
+    .toLowerCase()
+    .replace(/[^a-z0-9\s]/g, ' ')                       // tira hífen, ponto etc
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function fichas(nome) {
+  const t = normaliza(nome).split(' ').filter(x => x && !RUIDO.has(x));
+  return t.length ? t : normaliza(nome).split(' ').filter(Boolean);
+}
+
+/* quanto dois nomes de time se parecem, de 0 a 1 */
+function parecenca(a, b) {
+  const A = fichas(a), B = fichas(b);
+  if (!A.length || !B.length) return 0;
+  let acertos = 0;
+  for (const x of A) {
+    if (B.some(y => y === x || (x.length >= 4 && y.length >= 4 && (y.startsWith(x) || x.startsWith(y))))) acertos++;
+  }
+  return acertos / Math.max(A.length, B.length);
+}
+
+/* ------------------------------------------------------------- fonte 1: ESPN */
+
+/* Atenção: os dois endereços abaixo são DIFERENTES de propósito. Jogos saem em
+   /apis/site/v2 e classificação em /apis/v2. Os dois respondem 200 nos dois
+   caminhos, mas o caminho errado devolve um objeto vazio em vez de erro — foi
+   assim que a tabela veio zerada na primeira tentativa. */
+const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
+const ESPN_TABELA = 'https://site.api.espn.com/apis/v2/sports/soccer';
+
+async function jogosESPN(slug, de, ate) {
+  const j = await pegaJSON(`${ESPN}/${slug}/scoreboard?dates=${compacta(de)}-${compacta(ate)}&limit=500`);
+  if (!j || !j.events) return [];
+  return j.events.map(e => {
+    const c = e.competitions[0];
+    const mand = c.competitors.find(x => x.homeAway === 'home') || c.competitors[0];
+    const vis = c.competitors.find(x => x.homeAway === 'away') || c.competitors[1];
+    const acabou = !!e.status?.type?.completed;
+    return {
+      data: e.date.slice(0, 10),
+      hora: e.date.slice(11, 16),
+      rodada: c.notes?.[0]?.headline || (e.week?.number ? `Rodada ${e.week.number}` : ''),
+      local: c.venue?.fullName || '',
+      cidade: c.venue?.address?.city || '',
+      mandante: mand?.team?.displayName || '',
+      visitante: vis?.team?.displayName || '',
+      escudoMandante: mand?.team?.logo || '',
+      escudoVisitante: vis?.team?.logo || '',
+      golsMandante: acabou ? Number(mand?.score ?? 0) : null,
+      golsVisitante: acabou ? Number(vis?.score ?? 0) : null,
+      encerrado: acabou,
+      situacao: e.status?.type?.description || ''
+    };
+  });
+}
+
+async function classificacaoESPN(slug, temporada) {
+  const j = await pegaJSON(`${ESPN_TABELA}/${slug}/standings?season=${temporada}`);
+  if (!j) return [];
+  /* Pontos corridos vêm num grupo só; grupos da Libertadores/Champions vêm em
+     vários. Achatamos tudo, guardando de que grupo cada time veio. */
+  const grupos = j.children?.length ? j.children : [j];
+  const linhas = [];
+  for (const g of grupos) {
+    const entradas = g.standings?.entries || [];
+    for (const e of entradas) {
+      const st = Object.fromEntries((e.stats || []).map(x => [x.name, x.value ?? x.displayValue]));
+      linhas.push({
+        grupo: grupos.length > 1 ? (g.name || '').replace(/^Group /, 'Grupo ') : '',
+        time: e.team?.displayName || '',
+        escudo: e.team?.logos?.[0]?.href || '',
+        pontos: Number(st.points ?? 0),
+        jogos: Number(st.gamesPlayed ?? 0),
+        vitorias: Number(st.wins ?? 0),
+        empates: Number(st.ties ?? 0),
+        derrotas: Number(st.losses ?? 0),
+        golsPro: Number(st.pointsFor ?? 0),
+        golsContra: Number(st.pointsAgainst ?? 0),
+        saldo: Number(st.pointDifferential ?? 0)
+      });
+    }
+  }
+  /* ordena como tabela de futebol: pontos, vitórias, saldo, gols pró */
+  linhas.sort((a, b) =>
+    b.pontos - a.pontos || b.vitorias - a.vitorias || b.saldo - a.saldo || b.golsPro - a.golsPro
+  );
+  return linhas.map((l, i) => ({ posicao: i + 1, ...l }));
+}
+
+/* Busca a temporada inteira, mês a mês. Sem isso, campeonato fora de época
+   (estadual em agosto, Champions em julho) fica com a tela vazia — e o Annibal
+   ainda quer poder olhar a tabela final do Carioca em novembro.
+
+   Campeonato que vira o ano (Champions: setembro a maio) tem os meses do fim do
+   ano na temporada anterior. Detectamos isso pela lista de meses "dar a volta". */
+async function jogosDaTemporada(c, temporada) {
+  const meses = c.meses || [];
+  const viraOAno = meses.includes(12) && meses.includes(1);
+  const jogos = [];
+  for (const m of meses) {
+    const ano = (viraOAno && m >= 7) ? temporada - 1 : temporada;
+    const ini = new Date(Date.UTC(ano, m - 1, 1));
+    const fim = new Date(Date.UTC(ano, m, 0));      // dia 0 do mês seguinte = último dia deste
+    if (ini > new Date()) continue;                 // mês que ainda nem começou
+    jogos.push(...await jogosESPN(c.espn, ini, fim));
+    await dorme(150);
+  }
+  return jogos;
+}
+
+/* junta duas listas de jogos sem repetir; a segunda lista tem prioridade
+   (é a janela recente, mais fresca que o histórico) */
+function juntaJogos(historico, recentes) {
+  const chave = j => `${j.data}|${normaliza(j.mandante)}|${normaliza(j.visitante)}`;
+  const mapa = new Map();
+  for (const j of historico) mapa.set(chave(j), j);
+  for (const j of recentes) mapa.set(chave(j), j);
+  return [...mapa.values()].sort((a, b) => a.data.localeCompare(b.data) || a.hora.localeCompare(b.hora));
+}
+
+/* Quando a fonte não tem a tabela da temporada corrente, o robô monta a tabela
+   ele mesmo, somando os jogos que já aconteceram. Isso é sempre preferível a
+   mostrar a tabela do ano passado: a tabela calculada bate com os jogos que
+   estão logo abaixo dela na tela, a do ano passado não bate com nada.
+   Vale 3 pontos por vitória, 1 por empate — regra de todos os campeonatos
+   que este app cobre. */
+function calculaTabela(jogos) {
+  const times = new Map();
+  const pega = nome => {
+    if (!times.has(nome)) times.set(nome, {
+      grupo: '', time: nome, escudo: '', pontos: 0, jogos: 0,
+      vitorias: 0, empates: 0, derrotas: 0, golsPro: 0, golsContra: 0, saldo: 0
+    });
+    return times.get(nome);
+  };
+
+  for (const j of jogos) {
+    if (!j.encerrado || j.golsMandante === null || j.golsVisitante === null) continue;
+    const m = pega(j.mandante), v = pega(j.visitante);
+    if (!m.escudo) m.escudo = j.escudoMandante || '';
+    if (!v.escudo) v.escudo = j.escudoVisitante || '';
+    m.jogos++; v.jogos++;
+    m.golsPro += j.golsMandante; m.golsContra += j.golsVisitante;
+    v.golsPro += j.golsVisitante; v.golsContra += j.golsMandante;
+    if (j.golsMandante > j.golsVisitante) { m.vitorias++; m.pontos += 3; v.derrotas++; }
+    else if (j.golsMandante < j.golsVisitante) { v.vitorias++; v.pontos += 3; m.derrotas++; }
+    else { m.empates++; v.empates++; m.pontos++; v.pontos++; }
+  }
+
+  const linhas = [...times.values()];
+  for (const l of linhas) l.saldo = l.golsPro - l.golsContra;
+  linhas.sort((a, b) =>
+    b.pontos - a.pontos || b.vitorias - a.vitorias || b.saldo - a.saldo || b.golsPro - a.golsPro
+  );
+  return linhas.map((l, i) => ({ posicao: i + 1, ...l }));
+}
+
+/* De que temporada são, de fato, os jogos que baixamos? É essa a tabela que
+   pode aparecer junto deles — e nenhuma outra. Campeonato que vira o ano é
+   nomeado pelo ano de início (a Champions 2025/26 é "2025" na fonte). */
+function temporadaDosJogos(c, jogos, padrao) {
+  if (!jogos.length) return padrao;
+  const anos = jogos.map(j => Number(j.data.slice(0, 4)));
+  const viraOAno = (c.meses || []).includes(12) && (c.meses || []).includes(1);
+  if (viraOAno) return Math.min(...anos);
+  const contagem = {};
+  for (const a of anos) contagem[a] = (contagem[a] || 0) + 1;
+  return Number(Object.entries(contagem).sort((x, y) => y[1] - x[1])[0][0]);
+}
+
+/* ----------------------------------------------------------- fonte 2: Fotmob */
+
+/* Uma consulta por dia devolve TODOS os campeonatos daquele dia. Guardamos em
+   cache para não pedir o mesmo dia uma vez por campeonato. */
+const cacheFotmob = new Map();
+
+async function fotmobDoDia(d) {
+  const chave = compacta(d);
+  if (cacheFotmob.has(chave)) return cacheFotmob.get(chave);
+  const j = await pegaJSON(`https://www.fotmob.com/api/data/matches?date=${chave}`);
+  const jogos = [];
+  for (const liga of (j?.leagues || [])) {
+    for (const m of (liga.matches || [])) {
+      const placar = /(\d+)\s*-\s*(\d+)/.exec(m.status?.scoreStr || '');
+      jogos.push({
+        data: iso(d),
+        liga: liga.name || '',
+        pais: liga.ccode || '',
+        mandante: m.home?.name || '',
+        visitante: m.away?.name || '',
+        golsMandante: placar ? Number(placar[1]) : null,
+        golsVisitante: placar ? Number(placar[2]) : null,
+        encerrado: !!m.status?.finished
+      });
+    }
+  }
+  cacheFotmob.set(chave, jogos);
+  await dorme(250);            // educação com o servidor alheio
+  return jogos;
+}
+
+/* acha, entre os jogos do Fotmob daquele dia, o que corresponde ao jogo da ESPN */
+function acharPar(jogoESPN, candidatos) {
+  let melhor = null, melhorNota = 0;
+  for (const c of candidatos) {
+    const nm = parecenca(jogoESPN.mandante, c.mandante);
+    const nv = parecenca(jogoESPN.visitante, c.visitante);
+    if (nm < 0.5 || nv < 0.5) continue;      // os DOIS times têm que bater
+    const nota = nm + nv;
+    if (nota > melhorNota) { melhorNota = nota; melhor = c; }
+  }
+  return melhor;
+}
+
+/* ------------------------------------------------------------------ conferir */
+
+async function conferir(jogos) {
+  const avisos = [];
+  /* agrupa por dia para consultar o Fotmob uma vez por dia */
+  const porDia = new Map();
+  for (const j of jogos) {
+    if (!porDia.has(j.data)) porDia.set(j.data, []);
+    porDia.get(j.data).push(j);
+  }
+
+  for (const [dia, doDia] of porDia) {
+    const outros = await fotmobDoDia(new Date(dia + 'T12:00:00Z'));
+    for (const j of doDia) {
+      const par = acharPar(j, outros);
+
+      if (!par) { j.conferencia = 'sozinho'; j.fontes = ['espn']; continue; }
+      j.fontes = ['espn', 'fotmob'];
+
+      /* jogo ainda não aconteceu: nada a conferir além de existir nas duas */
+      if (!j.encerrado && !par.encerrado) { j.conferencia = 'confirmado'; continue; }
+
+      /* uma acha que acabou e a outra não — normal nos minutos após o apito */
+      if (j.encerrado !== par.encerrado) { j.conferencia = 'sozinho'; continue; }
+
+      if (j.golsMandante === par.golsMandante && j.golsVisitante === par.golsVisitante) {
+        j.conferencia = 'confirmado';
+      } else {
+        j.conferencia = 'divergente';
+        avisos.push({
+          jogo: `${j.mandante} x ${j.visitante}`,
+          data: j.data,
+          espn: `${j.golsMandante}-${j.golsVisitante}`,
+          fotmob: `${par.golsMandante}-${par.golsVisitante}`
+        });
+        /* segura o placar: melhor não mostrar do que mostrar errado */
+        j.golsMandante = null;
+        j.golsVisitante = null;
+      }
+    }
+  }
+  return avisos;
+}
+
+/* ---------------------------------------------------------------------- main */
+
+async function main() {
+  const cat = JSON.parse(fs.readFileSync(CATALOGO, 'utf8'));
+  const dias = janelaDeDatas();
+  const de = dias[0], ate = dias[dias.length - 1];
+  fs.mkdirSync(SAIDA, { recursive: true });
+
+  const resumo = [];
+
+  for (const c of cat.campeonatos) {
+    process.stdout.write(`\n${c.nome.padEnd(24)} `);
+
+    /* histórico da temporada + janela recente, sem repetir jogo */
+    const historico = await jogosDaTemporada(c, cat.temporada);
+    const recentes = await jogosESPN(c.espn, de, ate);
+    const jogos = juntaJogos(historico, recentes);
+
+    /* A conferência com a segunda fonte roda só na janela recente. Reconferir
+       meses de jogos antigos a cada 15 minutos seria desperdício: resultado de
+       março não muda mais. */
+    const limiteJanela = iso(de);
+    const aConferir = jogos.filter(j => j.data >= limiteJanela);
+    const avisos = await conferir(aConferir);
+    for (const j of jogos) {
+      if (!j.conferencia) { j.conferencia = 'historico'; j.fontes = ['espn']; }
+    }
+
+    /* A tabela tem que ser da MESMA temporada dos jogos que estão na tela.
+       Nunca cair para o ano anterior às escondidas. */
+    const temporadaTabela = temporadaDosJogos(c, jogos, cat.temporada);
+    let tabela = await classificacaoESPN(c.espn, temporadaTabela);
+    let origemTabela = tabela.length ? 'fonte' : 'nenhuma';
+
+    if (!tabela.length && c.formato !== 'mata-mata') {
+      tabela = calculaTabela(jogos);
+      if (tabela.length) origemTabela = 'calculada';
+    }
+
+    const encerrados = jogos.filter(j => j.encerrado);
+    const conferidos = jogos.filter(j => j.conferencia === 'confirmado');
+
+    const arquivo = {
+      id: c.id,
+      nome: c.nome,
+      curto: c.curto,
+      formato: c.formato,
+      temporada: cat.temporada,
+      temporadaTabela,
+      origemTabela,
+      atualizado: new Date().toISOString(),
+      classificacao: tabela,
+      jogos,
+      avisos
+    };
+    fs.writeFileSync(path.join(SAIDA, `${c.id}.json`), JSON.stringify(arquivo, null, 1));
+
+    process.stdout.write(
+      `${String(jogos.length).padStart(3)} jogos · ${String(encerrados.length).padStart(3)} encerrados · ` +
+      `${String(conferidos.length).padStart(2)} conferidos na janela · ${avisos.length} divergências · ` +
+      `${String(tabela.length).padStart(2)} times na tabela` +
+      (origemTabela === 'calculada' ? ' (calculada pelo robô)' : '') +
+      (origemTabela === 'nenhuma' ? ' (mata-mata, sem tabela)' : '') +
+      (temporadaTabela !== cat.temporada ? ` · temporada ${temporadaTabela}` : '')
+    );
+    resumo.push({ id: c.id, nome: c.nome, jogos: jogos.length, tabela: tabela.length, avisos: avisos.length });
+  }
+
+  /* índice que o app lê primeiro, para montar o seletor sem baixar tudo */
+  fs.writeFileSync(path.join(SAIDA, 'indice.json'), JSON.stringify({
+    atualizado: new Date().toISOString(),
+    temporada: cat.temporada,
+    campeonatos: cat.campeonatos.map(c => {
+      const r = resumo.find(x => x.id === c.id) || {};
+      return { id: c.id, nome: c.nome, curto: c.curto, formato: c.formato, ordem: c.ordem, meses: c.meses, jogos: r.jogos || 0, temTabela: (r.tabela || 0) > 0 };
+    })
+  }, null, 1));
+
+  console.log('\n\nPronto.');
+}
+
+main().catch(e => { console.error('\nO robô parou:', e); process.exit(1); });

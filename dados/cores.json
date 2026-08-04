@@ -1,0 +1,333 @@
+{
+  "_leia": "Cores dos clubes, para o app se pintar com as cores do time do coração. 'p' = cor principal (fundo), 's' = cor de apoio (destaques/texto sobre a principal). Time que não estiver aqui usa o padrão verde-amarelo do Tabelaço. Para acrescentar, basta escrever o nome exatamente como ele aparece na tabela.",
+  "padrao": {
+    "p": "#15161A",
+    "s": "#D9A93C"
+  },
+  "times": {
+    "Flamengo": {
+      "p": "#C52613",
+      "s": "#1A1A1A"
+    },
+    "Palmeiras": {
+      "p": "#016936",
+      "s": "#FFFFFF"
+    },
+    "Corinthians": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "São Paulo": {
+      "p": "#CC2229",
+      "s": "#FFFFFF"
+    },
+    "Santos": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Vasco da Gama": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Fluminense": {
+      "p": "#7A1C38",
+      "s": "#00613C"
+    },
+    "Botafogo": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Grêmio": {
+      "p": "#0D80BF",
+      "s": "#1A1A1A"
+    },
+    "Internacional": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Cruzeiro": {
+      "p": "#12508F",
+      "s": "#FFFFFF"
+    },
+    "Atlético-MG": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "América Mineiro": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Bahia": {
+      "p": "#0080C8",
+      "s": "#E30613"
+    },
+    "Vitória": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Sport": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Náutico": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Ceará": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Fortaleza": {
+      "p": "#00368C",
+      "s": "#C4122E"
+    },
+    "Athletico Paranaense": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Coritiba": {
+      "p": "#005F3C",
+      "s": "#FFFFFF"
+    },
+    "Goiás": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Atlético Goianiense": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Chapecoense": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Juventude": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Criciúma": {
+      "p": "#F2C200",
+      "s": "#1A1A1A"
+    },
+    "Avaí": {
+      "p": "#0057B8",
+      "s": "#FFFFFF"
+    },
+    "Cuiabá": {
+      "p": "#0B6E37",
+      "s": "#F2C200"
+    },
+    "Red Bull Bragantino": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Ponte Preta": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Guarani": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Portuguesa": {
+      "p": "#C4122E",
+      "s": "#0B6E37"
+    },
+    "Mirassol": {
+      "p": "#F2C200",
+      "s": "#0B6E37"
+    },
+    "Remo": {
+      "p": "#0057B8",
+      "s": "#FFFFFF"
+    },
+    "Vila Nova": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Operário PR": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Botafogo-SP": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "CRB": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Paysandu": {
+      "p": "#0057B8",
+      "s": "#FFFFFF"
+    },
+    "Amazonas": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Volta Redonda": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Madureira": {
+      "p": "#0B6E37",
+      "s": "#C4122E"
+    },
+    "Bangu": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Nova Iguaçu": {
+      "p": "#F2A900",
+      "s": "#0057B8"
+    },
+    "Boavista": {
+      "p": "#0057B8",
+      "s": "#FFFFFF"
+    },
+    "Maricá": {
+      "p": "#0B6E37",
+      "s": "#F2C200"
+    },
+    "Portuguesa-RJ": {
+      "p": "#C4122E",
+      "s": "#0B6E37"
+    },
+    "Sampaio Correa RJ": {
+      "p": "#C4122E",
+      "s": "#F2C200"
+    },
+    "Caxias do Sul": {
+      "p": "#1A1A1A",
+      "s": "#F2C200"
+    },
+    "São Luiz-RS": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "São José-RS": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Novo Hamburgo": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Ypiranga": {
+      "p": "#C4122E",
+      "s": "#1A1A1A"
+    },
+    "Novorizontino": {
+      "p": "#F2C200",
+      "s": "#1A1A1A"
+    },
+    "São Bernardo": {
+      "p": "#1A1A1A",
+      "s": "#F2C200"
+    },
+    "Londrina": {
+      "p": "#0057B8",
+      "s": "#F2C200"
+    },
+    "Tombense": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Real Madrid": {
+      "p": "#1A3A6B",
+      "s": "#FEBE10"
+    },
+    "Barcelona": {
+      "p": "#A50044",
+      "s": "#004D98"
+    },
+    "Bayern Munich": {
+      "p": "#DC052D",
+      "s": "#FFFFFF"
+    },
+    "Liverpool": {
+      "p": "#C8102E",
+      "s": "#FFFFFF"
+    },
+    "Manchester City": {
+      "p": "#3A8FC7",
+      "s": "#FFFFFF"
+    },
+    "Arsenal": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Chelsea": {
+      "p": "#034694",
+      "s": "#FFFFFF"
+    },
+    "Paris Saint-Germain": {
+      "p": "#0A2A5E",
+      "s": "#C4122E"
+    },
+    "Juventus": {
+      "p": "#1A1A1A",
+      "s": "#FFFFFF"
+    },
+    "Internazionale": {
+      "p": "#0068A8",
+      "s": "#1A1A1A"
+    },
+    "Benfica": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Sporting CP": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Boca Juniors": {
+      "p": "#0A3E8C",
+      "s": "#F2C200"
+    },
+    "Peñarol": {
+      "p": "#F2C200",
+      "s": "#1A1A1A"
+    },
+    "Nacional": {
+      "p": "#0038A8",
+      "s": "#FFFFFF"
+    },
+    "Liga de Quito": {
+      "p": "#1A3A6B",
+      "s": "#FFFFFF"
+    },
+    "Barcelona SC": {
+      "p": "#F2C200",
+      "s": "#1A1A1A"
+    },
+    "Bolívar": {
+      "p": "#0B6E37",
+      "s": "#FFFFFF"
+    },
+    "Cerro Porteño": {
+      "p": "#0057B8",
+      "s": "#C4122E"
+    },
+    "Libertad": {
+      "p": "#1A1A1A",
+      "s": "#F2C200"
+    },
+    "Estudiantes de La Plata": {
+      "p": "#C4122E",
+      "s": "#FFFFFF"
+    },
+    "Independiente del Valle": {
+      "p": "#1A1A1A",
+      "s": "#F2C200"
+    },
+    "Universitario": {
+      "p": "#7A1C38",
+      "s": "#FFFFFF"
+    },
+    "Sporting Cristal": {
+      "p": "#0080C8",
+      "s": "#FFFFFF"
+    }
+  }
+}

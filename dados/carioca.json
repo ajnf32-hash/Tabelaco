@@ -1,0 +1,1361 @@
+{
+ "id": "carioca",
+ "nome": "Campeonato Carioca",
+ "curto": "Carioca",
+ "formato": "estadual",
+ "temporada": 2026,
+ "temporadaTabela": 2026,
+ "origemTabela": "fonte",
+ "atualizado": "2026-08-04T15:09:39.209Z",
+ "classificacao": [
+  {
+   "posicao": 1,
+   "grupo": "Grupo A",
+   "time": "Fluminense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "pontos": 15,
+   "jogos": 6,
+   "vitorias": 5,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 5,
+   "saldo": 4
+  },
+  {
+   "posicao": 2,
+   "grupo": "Grupo A",
+   "time": "Vasco da Gama",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "pontos": 11,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 3,
+   "saldo": 6
+  },
+  {
+   "posicao": 3,
+   "grupo": "Grupo A",
+   "time": "Volta Redonda",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "pontos": 11,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 5,
+   "saldo": 4
+  },
+  {
+   "posicao": 4,
+   "grupo": "Grupo A",
+   "time": "Bangu",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "pontos": 10,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 7,
+   "saldo": 0
+  },
+  {
+   "posicao": 5,
+   "grupo": "Grupo B",
+   "time": "Botafogo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "pontos": 9,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 5,
+   "saldo": 1
+  },
+  {
+   "posicao": 6,
+   "grupo": "Grupo B",
+   "time": "Madureira",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 6,
+   "saldo": -1
+  },
+  {
+   "posicao": 7,
+   "grupo": "Grupo B",
+   "time": "Boavista",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 6,
+   "golsContra": 8,
+   "saldo": -2
+  },
+  {
+   "posicao": 8,
+   "grupo": "Grupo B",
+   "time": "Flamengo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 11,
+   "golsContra": 9,
+   "saldo": 2
+  },
+  {
+   "posicao": 9,
+   "grupo": "Grupo A",
+   "time": "Portuguesa-RJ",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 7,
+   "saldo": -1
+  },
+  {
+   "posicao": 10,
+   "grupo": "Grupo A",
+   "time": "Sampaio Correa RJ",
+   "escudo": "",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 14,
+   "saldo": -7
+  },
+  {
+   "posicao": 11,
+   "grupo": "Grupo B",
+   "time": "Nova Iguaçu",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "pontos": 5,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 8,
+   "golsContra": 9,
+   "saldo": -1
+  },
+  {
+   "posicao": 12,
+   "grupo": "Grupo B",
+   "time": "Maricá",
+   "escudo": "",
+   "pontos": 3,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 10,
+   "saldo": -5
+  }
+ ],
+ "jogos": [
+  {
+   "data": "2026-01-11",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Flamengo",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "Boavista",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Fluminense",
+   "visitante": "Madureira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Moça Bonita",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Bangu",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-16",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Maricá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "",
+   "golsMandante": 4,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Moça Bonita",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Bangu",
+   "visitante": "Madureira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Elcyr Resende de Mendonca",
+   "cidade": "Saquarema",
+   "mandante": "Boavista",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Maricá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Botafogo",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Centro de Treinamento Joao Saldanha",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Maricá",
+   "visitante": "Bangu",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Aniceto Moscoso",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Elcyr Resende de Mendonca",
+   "cidade": "Saquarema",
+   "mandante": "Boavista",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-23",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Bangu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Elcyr Resende de Mendonca",
+   "cidade": "Saquarema",
+   "mandante": "Boavista",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Aniceto Moscoso",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-26",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Jânio Moraes",
+   "cidade": "Nova Iguaçu",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-27",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Centro de Treinamento Joao Saldanha",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Maricá",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-30",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Boavista",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-30",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Jânio Moraes",
+   "cidade": "Nova Iguaçu",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Bangu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-01",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-02",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Centro de Treinamento Joao Saldanha",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Maricá",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-02",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estádio Moça Bonita",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Bangu",
+   "visitante": "Boavista",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "",
+   "golsMandante": 7,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "Madureira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Maricá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-11",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-12",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Municipal João Saldanha",
+   "cidade": "",
+   "mandante": "Maricá",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-13",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Aniceto Moscoso",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Boavista",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-15",
+   "hora": "00:30",
+   "rodada": "Vasco da Gama advance 5-3 on penalties",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-15",
+   "hora": "20:30",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-16",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Jânio Moraes",
+   "cidade": "Nova Iguaçu",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Maricá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-16",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Bangu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-20",
+   "hora": "23:00",
+   "rodada": "1st Leg",
+   "local": "Estádio Moça Bonita",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Bangu",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-20",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "00:00",
+   "rodada": "1st Leg",
+   "local": "Estádio Elcyr Resende de Mendonca",
+   "cidade": "Saquarema",
+   "mandante": "Boavista",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "21:00",
+   "rodada": "1st Leg",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "23:30",
+   "rodada": "1st Leg",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Madureira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-23",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Municipal João Saldanha",
+   "cidade": "",
+   "mandante": "Maricá",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-23",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Jânio Moraes",
+   "cidade": "Nova Iguaçu",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Maricá",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-27",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Bangu advance 2-1 on aggregate",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "Bangu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-28",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Botafogo advance 2-0 on aggregate",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Boavista",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-01",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio Municipal João Saldanha",
+   "cidade": "",
+   "mandante": "Maricá",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-01",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Fluminense advance 2-1 on aggregate",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-02",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-03",
+   "hora": "00:00",
+   "rodada": "2nd Leg - Flamengo advance 11-0 on aggregate",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 0,
+   "golsVisitante": 8,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-07",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Bangu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10265.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Jânio Moraes",
+   "cidade": "Nova Iguaçu",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Sampaio Correa RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Maricá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-08",
+   "hora": "21:00",
+   "rodada": "Flamengo win 5-4 on penalties",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  }
+ ],
+ "avisos": []
+}

@@ -1,0 +1,87 @@
+{
+  "_leia": "Catálogo de campeonatos do Tabelaço. O robô lê este arquivo para saber o que buscar; o app lê para montar o seletor. Para acrescentar um campeonato, basta acrescentar um item aqui.",
+  "temporada": 2026,
+  "campeonatos": [
+    {
+      "id": "brasileirao-a",
+      "nome": "Brasileirão Série A",
+      "curto": "Série A",
+      "formato": "pontos-corridos",
+      "espn": "bra.1",
+      "meses": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "ordem": 1
+    },
+    {
+      "id": "brasileirao-b",
+      "nome": "Brasileirão Série B",
+      "curto": "Série B",
+      "formato": "pontos-corridos",
+      "espn": "bra.2",
+      "meses": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "ordem": 2
+    },
+    {
+      "id": "copa-do-brasil",
+      "nome": "Copa do Brasil",
+      "curto": "Copa do Brasil",
+      "formato": "mata-mata",
+      "espn": "bra.copa_do_brazil",
+      "meses": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "ordem": 3
+    },
+    {
+      "id": "libertadores",
+      "nome": "CONMEBOL Libertadores",
+      "curto": "Libertadores",
+      "formato": "grupos-e-mata-mata",
+      "espn": "conmebol.libertadores",
+      "meses": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "ordem": 4
+    },
+    {
+      "id": "champions",
+      "nome": "UEFA Champions League",
+      "curto": "Champions",
+      "formato": "grupos-e-mata-mata",
+      "espn": "uefa.champions",
+      "meses": [9, 10, 11, 12, 1, 2, 3, 4, 5],
+      "ordem": 5
+    },
+    {
+      "id": "carioca",
+      "nome": "Campeonato Carioca",
+      "curto": "Carioca",
+      "formato": "estadual",
+      "espn": "bra.camp.carioca",
+      "meses": [1, 2, 3, 4],
+      "ordem": 6
+    },
+    {
+      "id": "paulista",
+      "nome": "Campeonato Paulista",
+      "curto": "Paulista",
+      "formato": "estadual",
+      "espn": "bra.camp.paulista",
+      "meses": [1, 2, 3, 4],
+      "ordem": 7
+    },
+    {
+      "id": "mineiro",
+      "nome": "Campeonato Mineiro",
+      "curto": "Mineiro",
+      "formato": "estadual",
+      "espn": "bra.camp.mineiro",
+      "meses": [1, 2, 3, 4],
+      "ordem": 8
+    },
+    {
+      "id": "gaucho",
+      "nome": "Campeonato Gaúcho",
+      "curto": "Gaúcho",
+      "formato": "estadual",
+      "espn": "bra.camp.gaucho",
+      "meses": [1, 2, 3, 4],
+      "ordem": 9
+    }
+  ]
+}

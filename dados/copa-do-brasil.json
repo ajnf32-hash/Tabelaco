@@ -1,0 +1,2728 @@
+{
+ "id": "copa-do-brasil",
+ "nome": "Copa do Brasil",
+ "curto": "Copa do Brasil",
+ "formato": "mata-mata",
+ "temporada": 2026,
+ "temporadaTabela": 2026,
+ "origemTabela": "nenhuma",
+ "atualizado": "2026-08-04T15:09:24.275Z",
+ "classificacao": [],
+ "jogos": [
+  {
+   "data": "2026-02-17",
+   "hora": "23:00",
+   "rodada": "Ferroviaria advance 3-1 on penalties",
+   "local": "Estádio Lourival Gomes de Almeida",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Sampaio Correa RJ",
+   "visitante": "Ferroviaria",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Porta BA",
+   "visitante": "Serra Branca",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Arthur Tavares Melo",
+   "cidade": "Bonito",
+   "mandante": "Maguary PE",
+   "visitante": "Clube Laguna",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Canarinho",
+   "cidade": "Boa Vista",
+   "mandante": "Bare",
+   "visitante": "Madureira",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Leôncio de Souza Miranda",
+   "cidade": "Araguaína",
+   "mandante": "Araguaiana",
+   "visitante": "Primavera SP",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:00",
+   "rodada": "Tirol advance 5-3 on penalties",
+   "local": "Estadio Estadual Lourival Baptista",
+   "cidade": "Aracaju, Sergipe",
+   "mandante": "América SE",
+   "visitante": "Tirol",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Arena Vera Cruz",
+   "cidade": "Betim",
+   "mandante": "Betim FC",
+   "visitante": "Piauí Teresina",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Santa Catarina",
+   "visitante": "IAPE",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Bezerrão",
+   "cidade": "Gama",
+   "mandante": "SE Gama",
+   "visitante": "Monte Roraima",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Ivinhema",
+   "visitante": "Independente AP",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Ji-Paraná FC",
+   "visitante": "Pantanal Corumba",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-19",
+   "hora": "00:00",
+   "rodada": "Guapore advance 3-2 on penalties",
+   "local": "Arena da Floresta",
+   "cidade": "Rio Branco",
+   "mandante": "Galvez",
+   "visitante": "Guapore",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-19",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Primavera MG",
+   "visitante": "Bragantino PA",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-20",
+   "hora": "00:00",
+   "rodada": "AE Velo Clube advance 3-2 on penalties",
+   "local": "Arena da Floresta",
+   "cidade": "Rio Branco",
+   "mandante": "Vasco da Gama AC",
+   "visitante": "AE Velo Clube",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Elcyr Resende de Mendonca",
+   "cidade": "Saquarema",
+   "mandante": "Boavista",
+   "visitante": "Maringá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/900.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Arena Joinville",
+   "cidade": "Joinville",
+   "mandante": "Joinville",
+   "visitante": "CSA",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/13143.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7531.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena das Dunas",
+   "cidade": "Natal",
+   "mandante": "América-RN",
+   "visitante": "GA Sampaio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7634.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Fortaleza",
+   "visitante": "Maguary PE",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "",
+   "golsMandante": 4,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "18:30",
+   "rodada": "Castanhal U20 advance 5-3 on penalties",
+   "local": "",
+   "cidade": "",
+   "mandante": "Castanhal U20",
+   "visitante": "Guarani",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3448.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "18:30",
+   "rodada": "Capital CF advance 3-1 on penalties",
+   "local": "Estádio Adauto Moraes",
+   "cidade": "Juazeiro do Norte",
+   "mandante": "Juazeirense",
+   "visitante": "Capital CF",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18191.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Antônio Accioly",
+   "cidade": "Goiãnia",
+   "mandante": "Atlético Goianiense",
+   "visitante": "Primavera MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Aniceto Moscoso",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "ABC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9965.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Dr. Jorge Ismael de Biasi",
+   "cidade": "Novo Horizonte",
+   "mandante": "Novorizontino",
+   "visitante": "Nacional de Manaus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17325.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio do Café",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "SC Penedense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Arena de Pernambuco",
+   "cidade": "Recife",
+   "mandante": "Retró",
+   "visitante": "Uberlândia",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Maranhao",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:00",
+   "rodada": "Tombense advance 4-2 on penalties",
+   "local": "Estádio Antônio Guimarães Almeida",
+   "cidade": "Tombos",
+   "mandante": "Tombense",
+   "visitante": "Oratorio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Jonas Duarte",
+   "cidade": "Anápolis",
+   "mandante": "Anápolis",
+   "visitante": "Cianorte",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18424.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4909.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Sociedade Imperatriz de Desportos",
+   "visitante": "Amazonas",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/21888.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:45",
+   "rodada": "Jacuipense advance 4-1 on penalties",
+   "local": "Abadião",
+   "cidade": "Distrito Federal",
+   "mandante": "Ceilândia",
+   "visitante": "Jacuipense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6219.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Aguia de Maraba",
+   "visitante": "Independência",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Fumeirão",
+   "cidade": "Arapiraca",
+   "mandante": "ASA",
+   "visitante": "Operário MS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6196.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Primeiro de Maio",
+   "cidade": "São Bernardo do Campo ",
+   "mandante": "São Bernardo",
+   "visitante": "Atletico Alagoinhas",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "Goiás advance 5-4 on penalties",
+   "local": "Bezerrão",
+   "cidade": "Gama",
+   "mandante": "SE Gama",
+   "visitante": "Goiás",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Olímpico Colosso da Lagoa",
+   "cidade": "Rio Grande do Sul",
+   "mandante": "Ypiranga",
+   "visitante": "Ji-Paraná FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "00:00",
+   "rodada": "Mixto advance 4-3 on penalties",
+   "local": "Estádio Eurico Gaspar Dutra",
+   "cidade": "Cuiabá",
+   "mandante": "Mixto",
+   "visitante": "Botafogo PB",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17317.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Ceará",
+   "visitante": "Primavera SP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-27",
+   "hora": "00:00",
+   "rodada": "Porto Velho advance 3-1 on penalties",
+   "local": "Estádio Eurico Gaspar Dutra",
+   "cidade": "Cuiabá",
+   "mandante": "CEOV Operário",
+   "visitante": "Porto Velho",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-27",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio do Canindé",
+   "cidade": "Sao Paulo",
+   "mandante": "Portuguesa",
+   "visitante": "Altos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4773.png",
+   "escudoVisitante": "",
+   "golsMandante": 5,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-03",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Rei Pelé",
+   "cidade": "Maceio, Alagoas",
+   "mandante": "CRB",
+   "visitante": "Porta BA",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "escudoVisitante": "",
+   "golsMandante": 6,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Orlando Scarpelli",
+   "cidade": "Florianópolis",
+   "mandante": "Figueirense",
+   "visitante": "Azuriz",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3461.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:00",
+   "rodada": "Vila Nova advance 4-2 on penalties",
+   "local": "Estádio Benito Agnelo Castellano",
+   "cidade": "Rio Claro",
+   "mandante": "AE Velo Clube",
+   "visitante": "Vila Nova",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:00",
+   "rodada": "Nova Iguaçu advance 4-3 on penalties",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Lagarto",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Leônidas Sodré de Castro",
+   "cidade": "Belém",
+   "mandante": "Tuna Luso",
+   "visitante": "Tocantinopolis",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio da Ressacada",
+   "cidade": "Florianópolis",
+   "mandante": "Avaí",
+   "visitante": "Porto Vitória FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Vera Cruz",
+   "cidade": "Betim",
+   "mandante": "Betim FC",
+   "visitante": "Operário PR",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:30",
+   "rodada": "Manaus advance 5-4 on penalties",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Capital",
+   "visitante": "Manaus",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18959.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "23:00",
+   "rodada": "Athletic advance 6-5 on penalties",
+   "local": "Kléber Andrade",
+   "cidade": "Espírito Santo",
+   "mandante": "Rio Branco (ES)",
+   "visitante": "Athletic",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "23:00",
+   "rodada": "Santa Catarina advance 5-4 on penalties",
+   "local": "",
+   "cidade": "",
+   "mandante": "Santa Catarina",
+   "visitante": "Cuiabá",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Ivinhema",
+   "visitante": "Volta Redonda",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Arena Amazonia",
+   "cidade": "Manaus",
+   "mandante": "Manauara",
+   "visitante": "Itabaiana",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6214.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "00:30",
+   "rodada": "América Mineiro advance 4-3 on penalties",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "Tirol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "19:00",
+   "rodada": "Fluminense PI advance 4-3 on penalties",
+   "local": "Zerão",
+   "cidade": "Macapa",
+   "mandante": "Trem",
+   "visitante": "Fluminense PI",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "22:00",
+   "rodada": "Sport advance 4-3 on penalties",
+   "local": "Kléber Andrade",
+   "cidade": "Espírito Santo",
+   "mandante": "Ferroviaria",
+   "visitante": "Sport",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Portuguesa-RJ",
+   "visitante": "Maracanã",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-06",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Guapore",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-06",
+   "hora": "00:30",
+   "rodada": "Sousa EC advance 4-2 on penalties",
+   "local": "Arena de Pernambuco",
+   "cidade": "Recife",
+   "mandante": "Santa Cruz",
+   "visitante": "Sousa EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4929.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "22:00",
+   "rodada": "Portuguesa advance 4-1 on penalties",
+   "local": "Estádio do Canindé",
+   "cidade": "Sao Paulo",
+   "mandante": "Portuguesa",
+   "visitante": "Avaí",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4773.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-10",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Joinville",
+   "cidade": "Joinville",
+   "mandante": "Joinville",
+   "visitante": "São Bernardo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/13143.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Moisés Lucarelli",
+   "cidade": "Ponte Preta",
+   "mandante": "Ponte Preta",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio da Serrinha",
+   "cidade": "Goiãnia",
+   "mandante": "Goiás",
+   "visitante": "Fluminense PI",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Amazonia",
+   "cidade": "Manaus",
+   "mandante": "Manauara",
+   "visitante": "Fortaleza",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Regional Willie Davids",
+   "cidade": "Maringá",
+   "mandante": "Maringá",
+   "visitante": "Uberlândia",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:30",
+   "rodada": "Volta Redonda advance 5-3 on penalties",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "América-RN",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7634.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Castanhal U20",
+   "visitante": "Nova Iguaçu",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio Estadual Lourival Baptista",
+   "cidade": "Aracaju, Sergipe",
+   "mandante": "Confiança",
+   "visitante": "Tombense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4875.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Santa Catarina",
+   "visitante": "Jacuipense",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Aluízio Ferreira",
+   "cidade": "Porto Velho",
+   "mandante": "Porto Velho",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "00:30",
+   "rodada": "Londrina advance 5-4 on penalties",
+   "local": "Municipal Carlos Zamith",
+   "cidade": "Manaus",
+   "mandante": "Manaus",
+   "visitante": "Londrina",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18959.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Leônidas Sodré de Castro",
+   "cidade": "Belém",
+   "mandante": "Paysandu",
+   "visitante": "Portuguesa-RJ",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18134.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Aniceto Moscoso",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Madureira",
+   "visitante": "Aguia de Maraba",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4786.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "22:00",
+   "rodada": "Vila Nova advance 5-4 on penalties",
+   "local": "Estádio Onésio Brasileiro Alvarenga",
+   "cidade": "Goiãnia",
+   "mandante": "Vila Nova",
+   "visitante": "Operário MS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Castelão (São Luis)",
+   "cidade": "Sao Luis",
+   "mandante": "Maranhao",
+   "visitante": "Ceará",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Germano Krüger",
+   "cidade": "Ponta Grossa",
+   "mandante": "Operário PR",
+   "visitante": "Capital CF",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Governador Antônio Mariz",
+   "cidade": "Sousa",
+   "mandante": "Sousa EC",
+   "visitante": "CRB",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Arena Amazonia",
+   "cidade": "Manaus",
+   "mandante": "Amazonas",
+   "visitante": "Figueirense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/21888.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3461.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Eurico Gaspar Dutra",
+   "cidade": "Cuiabá",
+   "mandante": "Mixto",
+   "visitante": "Novorizontino",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-13",
+   "hora": "00:30",
+   "rodada": "Barra FC advance 4-3 on penalties",
+   "local": "",
+   "cidade": "",
+   "mandante": "Barra FC",
+   "visitante": "América Mineiro",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-13",
+   "hora": "00:30",
+   "rodada": "Sport advance 5-3 on penalties",
+   "local": "Ilha do Retiro",
+   "cidade": "Recife",
+   "mandante": "Sport",
+   "visitante": "Anápolis",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18424.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-13",
+   "hora": "00:30",
+   "rodada": "Juventude advance 4-1 on penalties",
+   "local": "Estádio Leônidas Sodré de Castro",
+   "cidade": "Belém",
+   "mandante": "Tuna Luso",
+   "visitante": "Juventude",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Luso Brasileiro",
+   "cidade": "Ilha do Governador",
+   "mandante": "Nova Iguaçu",
+   "visitante": "Fortaleza",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6087.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-17",
+   "hora": "22:30",
+   "rodada": "Ceará advance 3-2 on penalties",
+   "local": "Estádio Primeiro de Maio",
+   "cidade": "São Bernardo do Campo ",
+   "mandante": "São Bernardo",
+   "visitante": "Ceará",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio do Café",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "Operário PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio do Canindé",
+   "cidade": "Sao Paulo",
+   "mandante": "Portuguesa",
+   "visitante": "Paysandu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4773.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Ilha do Retiro",
+   "cidade": "Recife",
+   "mandante": "Sport",
+   "visitante": "Athletic",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "22:00",
+   "rodada": "Confiança advance 5-3 on penalties",
+   "local": "Estádio Onésio Brasileiro Alvarenga",
+   "cidade": "Goiãnia",
+   "mandante": "Vila Nova",
+   "visitante": "Confiança",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4875.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-18",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Antônio Accioly",
+   "cidade": "Goiãnia",
+   "mandante": "Atlético Goianiense",
+   "visitante": "Ponte Preta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-19",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estádio Rei Pelé",
+   "cidade": "Maceio, Alagoas",
+   "mandante": "CRB",
+   "visitante": "Figueirense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3461.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-19",
+   "hora": "00:30",
+   "rodada": "Jacuipense advance 5-4 on penalties",
+   "local": "Estádio Roberto Santos (Pituaçu)",
+   "cidade": "Salvador",
+   "mandante": "Jacuipense",
+   "visitante": "Novorizontino",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-19",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Aguia de Maraba",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-19",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Regional Willie Davids",
+   "cidade": "Maringá",
+   "mandante": "Maringá",
+   "visitante": "Goiás",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-19",
+   "hora": "23:00",
+   "rodada": "Barra FC advance 3-1 on penalties",
+   "local": "Estádio Raulino de Oliveira",
+   "cidade": "Volta Redonda",
+   "mandante": "Volta Redonda",
+   "visitante": "Barra FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4806.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-21",
+   "hora": "20:00",
+   "rodada": "1st Leg",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Chapecoense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-21",
+   "hora": "22:15",
+   "rodada": "1st Leg",
+   "local": "Estádio Cícero Pompeu de Toledo",
+   "cidade": "Sao Paulo",
+   "mandante": "São Paulo",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-21",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Confiança",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4875.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estádio da Ressacada",
+   "cidade": "Florianópolis",
+   "mandante": "Barra FC",
+   "visitante": "Corinthians",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Mangueirão",
+   "cidade": "Belém",
+   "mandante": "Paysandu",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Arena Fonte Nova",
+   "cidade": "Salvador",
+   "mandante": "Bahia",
+   "visitante": "Remo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estádio Serra Dourada",
+   "cidade": "Goiãnia",
+   "mandante": "Goiás",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Estádio Vila Belmiro (Urbano Caldeira)",
+   "cidade": "Santos",
+   "mandante": "Santos",
+   "visitante": "Coritiba",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "23:30",
+   "rodada": "1st Leg",
+   "local": "Orlando Scarpelli",
+   "cidade": "Florianópolis",
+   "mandante": "Athletic",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-22",
+   "hora": "23:30",
+   "rodada": "1st Leg",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Fortaleza",
+   "visitante": "CRB",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-23",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Vitória",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-23",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estádio Municipal Cicero de Souza Marques",
+   "cidade": "Bragança Paulista",
+   "mandante": "Red Bull Bragantino",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-23",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Ceará",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-23",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Jacuipense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-24",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Arena da Baixada",
+   "cidade": "Curitiba",
+   "mandante": "Athletico-PR",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-24",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Germano Krüger",
+   "cidade": "Ponta Grossa",
+   "mandante": "Operário PR",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-12",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Internacional advance 5-3 on aggregate",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Athletic",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Cruzeiro advance 3-2 on aggregate",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Goiás",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Fluminense advance 2-1 on aggregate",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Operário PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Juventude advance 3-2 on aggregate",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "São Paulo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Vasco da Gama advance 4-2 on aggregate",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Paysandu",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/15424.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Santos advance 2-0 on aggregate",
+   "local": "Couto Pereira",
+   "cidade": "Curitiba",
+   "mandante": "Coritiba",
+   "visitante": "Santos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-13",
+   "hora": "23:30",
+   "rodada": "2nd Leg - Mirassol advance 3-2 on aggregate",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Red Bull Bragantino",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Atlético-MG advance 4-2 on penalties",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Ceará",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Palmeiras advance 7-1 on aggregate",
+   "local": "Estádio do Café",
+   "cidade": "Londrina",
+   "mandante": "Jacuipense",
+   "visitante": "Palmeiras",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": 1,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Remo advance 5-2 on aggregate",
+   "local": "Mangueirão",
+   "cidade": "Belém",
+   "mandante": "Remo",
+   "visitante": "Bahia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Chapecoense advance 2-1 on aggregate",
+   "local": "Arena Condá",
+   "cidade": "Chapecó",
+   "mandante": "Chapecoense",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate - Athletico Paranaense advance 4-1 on penalties",
+   "local": "Estádio Antônio Accioly",
+   "cidade": "Goiãnia",
+   "mandante": "Atlético Goianiense",
+   "visitante": "Athletico-PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Grêmio advance 5-0 on aggregate",
+   "local": "Estadio Estadual Lourival Baptista",
+   "cidade": "Aracaju, Sergipe",
+   "mandante": "Confiança",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4875.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Corinthians advance 2-0 on aggregate",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Barra FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-14",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Fortaleza advance 2-1 on aggregate",
+   "local": "Estádio Rei Pelé",
+   "cidade": "Maceio, Alagoas",
+   "mandante": "CRB",
+   "visitante": "Fortaleza",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-15",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Vitória advance 3-2 on aggregate",
+   "local": "Estadio Manoel Barradas",
+   "cidade": "Salvador",
+   "mandante": "Vitória",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-01",
+   "hora": "20:30",
+   "rodada": "1st Leg",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-01",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "00:00",
+   "rodada": "1st Leg",
+   "local": "Estádio Vila Belmiro (Urbano Caldeira)",
+   "cidade": "Santos",
+   "mandante": "Santos",
+   "visitante": "Remo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Fortaleza",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "21:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "21:30",
+   "rodada": "1st Leg",
+   "local": "Arena Condá",
+   "cidade": "Chapecó",
+   "mandante": "Chapecoense",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-02",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-04",
+   "hora": "00:00",
+   "rodada": "1st Leg",
+   "local": "Arena da Baixada",
+   "cidade": "Curitiba",
+   "mandante": "Athletico-PR",
+   "visitante": "Vitória",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-04",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-05",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Mangueirão",
+   "cidade": "Belém",
+   "mandante": "Remo",
+   "visitante": "Santos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-05",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Chapecoense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-05",
+   "hora": "22:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-06",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-06",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Palmeiras lead 3-0 on aggregate",
+   "local": "Arena Pantanal",
+   "cidade": "Cuiabá",
+   "mandante": "Fortaleza",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-06",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Internacional lead 2-0 on aggregate",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-06",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Athletico Paranaense lead 2-0 on aggregate",
+   "local": "Estadio Manoel Barradas",
+   "cidade": "Salvador",
+   "mandante": "Vitória",
+   "visitante": "Athletico-PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  }
+ ],
+ "avisos": []
+}

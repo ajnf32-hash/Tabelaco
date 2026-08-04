@@ -1,0 +1,42 @@
+name: Atualizar resultados
+
+# Roda na infra do GitHub (não depende de nenhum PC ligado).
+on:
+  schedule:
+    # De 30 em 30 minutos. Jogo de futebol dura ~2h; meia hora depois do apito
+    # final as duas fontes já publicaram o placar com folga.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:          # botão de "rodar agora" na aba Actions
+
+permissions:
+  contents: write
+
+concurrency:
+  group: atualizar-resultados
+  cancel-in-progress: false
+
+jobs:
+  atualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Buscar e conferir resultados
+        run: node scripts/fetch-resultados.js
+
+      - name: Commitar se houver mudança
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet -- dados/; then
+            echo "Sem mudanças nos resultados."
+          else
+            git add dados/
+            git commit -m "Atualiza resultados ($(date -u '+%Y-%m-%d %H:%M UTC'))"
+            git push
+          fi

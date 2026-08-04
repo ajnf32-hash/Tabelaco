@@ -1,0 +1,169 @@
+{
+ "atualizado": "2026-08-04T15:09:47.378Z",
+ "temporada": 2026,
+ "campeonatos": [
+  {
+   "id": "brasileirao-a",
+   "nome": "Brasileirão Série A",
+   "curto": "Série A",
+   "formato": "pontos-corridos",
+   "ordem": 1,
+   "meses": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+   ],
+   "jogos": 212,
+   "temTabela": true
+  },
+  {
+   "id": "brasileirao-b",
+   "nome": "Brasileirão Série B",
+   "curto": "Série B",
+   "formato": "pontos-corridos",
+   "ordem": 2,
+   "meses": [
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "jogos": 250,
+   "temTabela": true
+  },
+  {
+   "id": "copa-do-brasil",
+   "nome": "Copa do Brasil",
+   "curto": "Copa do Brasil",
+   "formato": "mata-mata",
+   "ordem": 3,
+   "meses": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "jogos": 142,
+   "temTabela": false
+  },
+  {
+   "id": "libertadores",
+   "nome": "CONMEBOL Libertadores",
+   "curto": "Libertadores",
+   "formato": "grupos-e-mata-mata",
+   "ordem": 4,
+   "meses": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "jogos": 142,
+   "temTabela": true
+  },
+  {
+   "id": "champions",
+   "nome": "UEFA Champions League",
+   "curto": "Champions",
+   "formato": "grupos-e-mata-mata",
+   "ordem": 5,
+   "meses": [
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 189,
+   "temTabela": true
+  },
+  {
+   "id": "carioca",
+   "nome": "Campeonato Carioca",
+   "curto": "Carioca",
+   "formato": "estadual",
+   "ordem": 6,
+   "meses": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "jogos": 62,
+   "temTabela": true
+  },
+  {
+   "id": "paulista",
+   "nome": "Campeonato Paulista",
+   "curto": "Paulista",
+   "formato": "estadual",
+   "ordem": 7,
+   "meses": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "jogos": 72,
+   "temTabela": true
+  },
+  {
+   "id": "mineiro",
+   "nome": "Campeonato Mineiro",
+   "curto": "Mineiro",
+   "formato": "estadual",
+   "ordem": 8,
+   "meses": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "jogos": 59,
+   "temTabela": true
+  },
+  {
+   "id": "gaucho",
+   "nome": "Campeonato Gaúcho",
+   "curto": "Gaúcho",
+   "formato": "estadual",
+   "ordem": 9,
+   "meses": [
+    1,
+    2,
+    3,
+    4
+   ],
+   "jogos": 64,
+   "temTabela": true
+  }
+ ]
+}

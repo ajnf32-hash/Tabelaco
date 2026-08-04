@@ -1,0 +1,1304 @@
+{
+ "id": "mineiro",
+ "nome": "Campeonato Mineiro",
+ "curto": "Mineiro",
+ "formato": "estadual",
+ "temporada": 2026,
+ "temporadaTabela": 2026,
+ "origemTabela": "fonte",
+ "atualizado": "2026-08-04T15:09:44.652Z",
+ "classificacao": [
+  {
+   "posicao": 1,
+   "grupo": "Grupo C",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 7,
+   "saldo": 7
+  },
+  {
+   "posicao": 2,
+   "grupo": "Grupo B",
+   "time": "América Mineiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 3,
+   "derrotas": 1,
+   "golsPro": 10,
+   "golsContra": 6,
+   "saldo": 4
+  },
+  {
+   "posicao": 3,
+   "grupo": "Grupo A",
+   "time": "Atlético-MG",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "pontos": 14,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 5,
+   "derrotas": 0,
+   "golsPro": 16,
+   "golsContra": 8,
+   "saldo": 8
+  },
+  {
+   "posicao": 4,
+   "grupo": "Grupo B",
+   "time": "Pouso Alegre",
+   "escudo": "",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 14,
+   "saldo": 0
+  },
+  {
+   "posicao": 5,
+   "grupo": "Grupo B",
+   "time": "Tombense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "pontos": 12,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 10,
+   "golsContra": 7,
+   "saldo": 3
+  },
+  {
+   "posicao": 6,
+   "grupo": "Grupo C",
+   "time": "North EC",
+   "escudo": "",
+   "pontos": 11,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 11,
+   "saldo": 3
+  },
+  {
+   "posicao": 7,
+   "grupo": "Grupo A",
+   "time": "URT",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "pontos": 11,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 7,
+   "saldo": 0
+  },
+  {
+   "posicao": 8,
+   "grupo": "Grupo B",
+   "time": "Betim FC",
+   "escudo": "",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 9,
+   "saldo": -3
+  },
+  {
+   "posicao": 9,
+   "grupo": "Grupo A",
+   "time": "Uberlândia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 8,
+   "golsContra": 12,
+   "saldo": -4
+  },
+  {
+   "posicao": 10,
+   "grupo": "Grupo A",
+   "time": "Democrata GV",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "pontos": 7,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 3,
+   "golsContra": 8,
+   "saldo": -5
+  },
+  {
+   "posicao": 11,
+   "grupo": "Grupo C",
+   "time": "Itabirito",
+   "escudo": "",
+   "pontos": 7,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 17,
+   "saldo": -7
+  },
+  {
+   "posicao": 12,
+   "grupo": "Grupo C",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 7,
+   "jogos": 8,
+   "vitorias": 1,
+   "empates": 4,
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 13,
+   "saldo": -6
+  }
+ ],
+ "jogos": [
+  {
+   "data": "2026-01-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Uberlândia",
+   "visitante": "Tombense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-10",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Pouso Alegre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-10",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Castor Cifuentes",
+   "cidade": "Nova Lima",
+   "mandante": "Itabirito",
+   "visitante": "Democrata GV",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-10",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Betim FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "Athletic",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "18:00",
+   "rodada": "",
+   "local": "Estádio José Mammoud Abbas",
+   "cidade": "Goverbador Valadares",
+   "mandante": "Democrata GV",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena Vera Cruz",
+   "cidade": "Betim",
+   "mandante": "Betim FC",
+   "visitante": "Uberlândia",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "URT",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estádio Municipal Irmão Gino Maria Rossi",
+   "cidade": "Pouso Alegre",
+   "mandante": "Pouso Alegre",
+   "visitante": "Itabirito",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Tombense",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "Betim FC",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio José Mammoud Abbas",
+   "cidade": "Goverbador Valadares",
+   "mandante": "Democrata GV",
+   "visitante": "Athletic",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Uberlândia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "Pouso Alegre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Estádio Castor Cifuentes",
+   "cidade": "Nova Lima",
+   "mandante": "Itabirito",
+   "visitante": "América Mineiro",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Tombense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena Vera Cruz",
+   "cidade": "Betim",
+   "mandante": "Betim FC",
+   "visitante": "URT",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Municipal Irmão Gino Maria Rossi",
+   "cidade": "Pouso Alegre",
+   "mandante": "Pouso Alegre",
+   "visitante": "Athletic",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 3,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Antônio Guimarães Almeida",
+   "cidade": "Tombos",
+   "mandante": "Tombense",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Uberlândia",
+   "visitante": "Itabirito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Democrata GV",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "Pouso Alegre",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "Itabirito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Uberlândia",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Betim FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Antônio Guimarães Almeida",
+   "cidade": "Tombos",
+   "mandante": "Tombense",
+   "visitante": "Democrata GV",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Municipal Irmão Gino Maria Rossi",
+   "cidade": "Pouso Alegre",
+   "mandante": "Pouso Alegre",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio José Mammoud Abbas",
+   "cidade": "Goverbador Valadares",
+   "mandante": "Democrata GV",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "URT",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Uberlândia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-01",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Estádio Castor Cifuentes",
+   "cidade": "Nova Lima",
+   "mandante": "Itabirito",
+   "visitante": "Tombense",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-01",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Arena Vera Cruz",
+   "cidade": "Betim",
+   "mandante": "Betim FC",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-06",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "Betim FC",
+   "visitante": "Itabirito",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-07",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Municipal Irmão Gino Maria Rossi",
+   "cidade": "Pouso Alegre",
+   "mandante": "Pouso Alegre",
+   "visitante": "Democrata GV",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-07",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "Uberlândia",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-07",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Athletic",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-07",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Antônio Guimarães Almeida",
+   "cidade": "Tombos",
+   "mandante": "Tombense",
+   "visitante": "URT",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Tombense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio José Mammoud Abbas",
+   "cidade": "Goverbador Valadares",
+   "mandante": "Democrata GV",
+   "visitante": "Betim FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18396.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Castor Cifuentes",
+   "cidade": "Nova Lima",
+   "mandante": "Itabirito",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 2,
+   "golsVisitante": 7,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Uberlândia",
+   "visitante": "Pouso Alegre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-20",
+   "hora": "21:30",
+   "rodada": "1st Leg",
+   "local": "Estádio Antônio Guimarães Almeida",
+   "cidade": "Tombos",
+   "mandante": "Tombense",
+   "visitante": "URT",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-21",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Estádio Parque do Sabiá",
+   "cidade": "Uberlandia",
+   "mandante": "Uberlândia",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-21",
+   "hora": "21:30",
+   "rodada": "1st Leg",
+   "local": "Estádio Municipal Irmão Gino Maria Rossi",
+   "cidade": "Pouso Alegre",
+   "mandante": "Pouso Alegre",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "21:00",
+   "rodada": "1st Leg",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-28",
+   "hora": "21:30",
+   "rodada": "2nd Leg - Cruzeiro advance 3-1 on aggregate",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Pouso Alegre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-28",
+   "hora": "23:00",
+   "rodada": "2nd Leg - URT advance 4-1 on aggregate",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "Tombense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17339.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-01",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Tied on aggregate - North EC advance 4-3 on penalties",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "Uberlândia",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9460.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-01",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Tied on aggregate - Atlético-MG advance 4-2 on penalties",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:30",
+   "rodada": "1st Leg",
+   "local": "Arena DB - DanBred (Zama Maciel)",
+   "cidade": "Patos de Minas",
+   "mandante": "URT",
+   "visitante": "North EC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-07",
+   "hora": "21:30",
+   "rodada": "2nd Leg - North EC win 3-1 on aggregate",
+   "local": "Arena Credinor",
+   "cidade": "Montes Claros",
+   "mandante": "North EC",
+   "visitante": "URT",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18399.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-08",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  }
+ ],
+ "avisos": []
+}

@@ -3,580 +3,515 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-<meta name="theme-color" content="#009C3B">
-<title>Copa do Mundo FIFA 2026</title>
-<!-- PWA / instalável -->
+<meta name="theme-color" content="#15161A">
+<title>Tabelaço</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" href="icon-192.png">
 <link rel="apple-touch-icon" href="icon-180.png">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Copa 2026">
+<meta name="apple-mobile-web-app-title" content="Tabelaço">
 <style>
+  /* As duas variáveis abaixo são o coração da troca de cores. Quando o torcedor
+     escolhe o time dele, o app só reescreve --pri e --sec — todo o resto da
+     tela se pinta sozinho a partir daí. */
   :root{
-    --amarelo:#FFD400; --amarelo2:#FFC400; --verde:#009C3B; --verde2:#009C3B;
-    --azul:#002776; --txt:#0b2e16; --mut:#4a6b00; --linha:rgba(0,156,59,.45);
-    --win:#009C3B; --draw:#b8860b;
+    /* preto e dourado: as cores da logo do Tabelaço. Quando o torcedor escolhe
+       um time, estas duas viram as cores do clube dele. */
+    --pri:#15161A; --sec:#D9A93C;
+    --txt:#1a1c20; --mut:#767c86; --linha:rgba(0,0,0,.10);
+    --papel:#fff; --fundo:#f1f2f4;
+    --ok:#1a8f4c; --alerta:#c2410c; --neutro:#94a3b8;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{margin:0;height:100%}
   body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--txt);
        background:radial-gradient(circle at 50% 30%,#22262b,#0d0f12);overflow:hidden;
        display:flex;align-items:center;justify-content:center}
-  /* moldura de celular: sempre formato vertical de telefone */
-  #device{position:relative;width:100%;max-width:430px;height:min(940px,100vh);
-       height:min(940px,100dvh);
-       background:var(--verde);overflow:hidden;border-radius:20px;
-       box-shadow:0 24px 70px rgba(0,0,0,.55)}
-  /* moldura em volta da "tela" */
-  #frame{position:absolute;inset:0;border:9px solid var(--verde2);pointer-events:none;z-index:90;border-radius:20px}
+  #device{position:relative;width:100%;max-width:430px;height:min(940px,100dvh);
+       background:var(--pri);overflow:hidden;border-radius:20px;
+       box-shadow:0 24px 70px rgba(0,0,0,.55);transition:background .45s ease}
+  #frame{position:absolute;inset:0;border:9px solid var(--pri);pointer-events:none;z-index:90;
+       border-radius:20px;transition:border-color .45s ease}
 
   /* ---------------- CAPA ---------------- */
-  #capa{position:absolute;inset:0;z-index:80;background:var(--verde);
+  #capa{position:absolute;inset:0;z-index:80;background:var(--pri);
         display:flex;flex-direction:column;align-items:center;justify-content:center;
-        padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease;overflow:hidden;text-align:center}
+        padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease, background .45s ease;
+        overflow:hidden;text-align:center}
   #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
-  #capa .topo{position:absolute;top:7%;width:100%;font-weight:800;color:var(--amarelo);
-        letter-spacing:3px;font-size:14px}
-  #capa .emblema{height:34%;max-height:320px;width:auto;max-width:88%;object-fit:contain;
-        filter:drop-shadow(0 8px 14px rgba(0,0,0,.3))}
-  #capa h1{margin:14px 0 2px;font-size:30px;color:var(--amarelo);
-        font-weight:900;letter-spacing:1px;text-shadow:0 2px 0 rgba(0,0,0,.28)}
-  #capa .host{color:#eafff0;font-weight:700;letter-spacing:1.5px;font-size:12px}
-  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--azul);color:#fff;border:none;
-        padding:15px 34px;border-radius:40px;font-size:17px;font-weight:900;letter-spacing:.5px;
-        box-shadow:0 6px 0 #001a4d, 0 10px 18px rgba(0,0,0,.35);cursor:pointer;
+  #capa .topo{position:absolute;top:6.5%;width:100%;font-weight:800;color:var(--sec);
+        letter-spacing:3px;font-size:12px;opacity:.85}
+  #capa .emblema{width:62%;max-width:250px;height:auto;border-radius:22px;
+        box-shadow:0 14px 34px rgba(0,0,0,.55)}
+  #capa .host{margin-top:20px;color:#e9e3d4;font-weight:700;letter-spacing:1.2px;font-size:12px;
+        max-width:78%;line-height:1.6}
+  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--sec);color:#15161A;border:none;
+        padding:15px 34px;border-radius:40px;font-size:17px;font-weight:900;
+        box-shadow:0 6px 0 rgba(0,0,0,.45), 0 10px 20px rgba(0,0,0,.4);cursor:pointer;
         animation:pulso 1.8s infinite}
-  #capa .entrar:active{transform:translateY(4px);box-shadow:0 2px 0 #001a4d}
+  #capa .entrar:active{transform:translateY(4px);box-shadow:0 2px 0 rgba(0,0,0,.45)}
   @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
-  #mascote{position:absolute;left:-4px;bottom:-2px;width:48%;max-width:185px;z-index:1;pointer-events:none;
-        filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+  #mascote{position:absolute;left:-4px;bottom:-2px;width:46%;max-width:180px;z-index:1;
+        pointer-events:none;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
 
   /* ---------------- APP ---------------- */
-  #app{height:100%;display:flex;flex-direction:column}
-  header{padding:12px 14px 8px;text-align:center;flex:0 0 auto}
-  header h2{margin:0;font-size:17px;font-weight:900;color:var(--verde)}
-  header .sub{font-size:11px;color:var(--mut);margin-top:2px}
-  .barra{display:flex;gap:7px;justify-content:center;padding:0 10px 8px;flex-wrap:wrap;flex:0 0 auto}
-  .barra button{font-size:12px;font-weight:700;border:none;border-radius:20px;padding:8px 13px;
-        background:#fff;color:var(--verde);box-shadow:0 2px 5px rgba(0,0,0,.12);cursor:pointer}
-  .barra button.pri{background:var(--verde);color:#fff}
-  .barra .st{font-size:11px;color:var(--mut);align-self:center}
+  #app{height:100%;display:flex;flex-direction:column;background:var(--fundo)}
 
-  /* carrossel de páginas */
+  /* seletor de campeonatos: rolagem lateral com pastilhas */
+  #seletor{flex:0 0 auto;display:flex;gap:7px;overflow-x:auto;padding:12px 12px 10px;
+        background:var(--pri);scrollbar-width:none;transition:background .45s ease}
+  #seletor::-webkit-scrollbar{display:none}
+  #seletor button{flex:0 0 auto;font-size:12.5px;font-weight:800;border:none;border-radius:20px;
+        padding:9px 14px;background:rgba(255,255,255,.18);color:#fff;cursor:pointer;
+        white-space:nowrap;transition:background .2s,color .2s}
+  #seletor button.on{background:var(--sec);color:var(--txt)}
+
+  header{padding:11px 14px 9px;text-align:center;flex:0 0 auto;background:var(--papel);
+        border-bottom:1px solid var(--linha)}
+  header h2{margin:0;font-size:16px;font-weight:900;color:var(--txt)}
+  header .sub{font-size:10.5px;color:var(--mut);margin-top:3px}
+  header .torcida{margin-top:7px;background:var(--pri);color:#fff;border:none;border-radius:20px;
+        padding:6px 14px;font-size:11.5px;font-weight:800;cursor:pointer;transition:background .45s}
+
+  /* páginas que deslizam de lado */
   #carrossel{flex:1 1 auto;display:flex;overflow-x:auto;overflow-y:hidden;
         scroll-snap-type:x mandatory;scroll-behavior:smooth;
         -webkit-overflow-scrolling:touch;scrollbar-width:none}
   #carrossel::-webkit-scrollbar{display:none}
-  .pagina{flex:0 0 100%;width:100%;height:100%;scroll-snap-align:center;
-        padding:12px 16px 12px;display:flex}
-  .cartela{background:var(--amarelo);border:3px solid var(--verde2);border-radius:0;overflow:hidden;
-        width:100%;max-width:1280px;margin:0 auto;
-        display:flex;flex-direction:column}
-  .gtit{background:var(--verde);color:#fff;font-weight:900;font-size:15px;padding:9px 16px;
-        display:flex;align-items:center;gap:8px;letter-spacing:.3px;flex-wrap:nowrap;flex:0 0 auto}
-  .gtit-nome{flex:1 1 auto;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .gtit .acts{flex:0 0 auto;margin-left:auto;display:flex;align-items:center;gap:5px;flex-wrap:nowrap}
-  .gtit .st{font-size:10px;font-weight:600;opacity:.9}
-  .gtit button{width:33px;height:33px;border:none;border-radius:50%;padding:0;font-size:16px;
-        background:var(--azul);color:#fff;cursor:pointer;box-shadow:0 2px 4px rgba(0,0,0,.25);
-        display:inline-flex;align-items:center;justify-content:center;line-height:1}
-  .gtit button:active{transform:translateY(1px)}
-  .gtit button.pri{background:var(--azul);color:var(--amarelo);border:2px solid var(--amarelo)}
-  .corpo{flex:1 1 auto;overflow-y:auto;overflow-x:hidden;-webkit-overflow-scrolling:touch;display:flex;flex-direction:column}
-  .corpo .col{min-width:0}
-  .corpo .col-tab{flex:0 0 auto}
-  .corpo .jogos{flex:1 0 auto}
+  .pagina{flex:0 0 100%;width:100%;scroll-snap-align:center;overflow-y:auto;padding:12px 12px 18px}
+  .pagina::-webkit-scrollbar{display:none}
+  .titulo{font-size:12px;font-weight:900;color:var(--mut);letter-spacing:1.2px;
+        text-transform:uppercase;margin:2px 0 9px;padding-left:2px}
 
-  table{width:100%;border-collapse:collapse;table-layout:fixed}
-  thead th.t,tbody td.t{width:auto}
-  thead th:not(.t),tbody td:not(.t){width:9%}
-  thead th{font-size:10px;color:var(--mut);font-weight:700;padding:7px 2px;text-align:center;
-        border-bottom:2px solid var(--linha)}
-  thead th.t{text-align:left;padding-left:12px}
-  tbody td{font-size:13px;padding:7px 2px;text-align:center;border-bottom:1px solid rgba(0,0,0,.08)}
-  tbody td.t{text-align:left;padding-left:10px}
-  tbody tr.q1 td:first-child{box-shadow:inset 4px 0 0 var(--win)}
-  tbody tr.q2 td:first-child{box-shadow:inset 4px 0 0 var(--draw)}
-  .time{display:flex;align-items:center;gap:7px}
-  .pts{font-weight:900;color:var(--verde)}
-  .flag{width:24px;height:16px;object-fit:cover;border-radius:2px;box-shadow:0 0 0 1px rgba(0,0,0,.12);flex:0 0 auto}
-  .tname{background:transparent;border:none;color:var(--txt);font-weight:700;font-size:12.5px;
-        width:100%;min-width:0;padding:2px;border-radius:5px;overflow:hidden;text-overflow:ellipsis}
-  .tname:focus{outline:none;background:rgba(255,255,255,.55)}
+  .cartela{background:var(--papel);border-radius:12px;overflow:hidden;
+        box-shadow:0 1px 3px rgba(0,0,0,.09)}
 
-  .jogos{padding:8px 10px 12px;display:flex;flex-direction:column}
-  .jogos h4{margin:6px 4px 8px;font-size:11px;color:var(--mut);text-transform:uppercase;letter-spacing:.8px;flex:0 0 auto}
-  .jogo{padding:6px 2px;border-bottom:1px solid rgba(0,0,0,.07);flex:1 0 auto;display:flex;flex-direction:column;justify-content:center}
+  /* tabelas */
+  table{width:100%;border-collapse:collapse;font-size:13px}
+  th{background:var(--pri);color:#fff;font-size:10px;font-weight:800;letter-spacing:.4px;
+     padding:8px 4px;text-align:center;transition:background .45s ease}
+  th.esq{text-align:left;padding-left:9px}
+  td{padding:7px 4px;text-align:center;border-bottom:1px solid var(--linha)}
+  td.esq{text-align:left;padding-left:9px;font-weight:600}
+  tr:last-child td{border-bottom:none}
+  tr.meu{background:color-mix(in srgb, var(--pri) 13%, transparent)}
+  tr.meu td.esq{font-weight:900}
+  .pos{font-weight:800;color:var(--mut);width:24px}
+  .pts{font-weight:900}
+  .escudo{width:17px;height:17px;object-fit:contain;vertical-align:-3px;margin-right:6px}
+  .grupo{background:var(--fundo);font-size:10px;font-weight:900;color:var(--mut);
+         letter-spacing:1px;padding:5px 9px;text-transform:uppercase}
+
+  /* barras de saldo de gols */
+  .barra-linha{display:flex;align-items:center;gap:8px;padding:7px 10px;
+        border-bottom:1px solid var(--linha);font-size:13px}
+  .barra-linha:last-child{border-bottom:none}
+  .barra-nome{flex:0 0 33%;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .barra-trilho{flex:1 1 auto;height:15px;position:relative;background:var(--fundo);border-radius:4px}
+  .barra-meio{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--neutro)}
+  .barra-preenche{position:absolute;top:0;bottom:0;border-radius:3px}
+  .barra-valor{flex:0 0 40px;text-align:right;font-weight:900;font-size:12px}
+
+  /* jogos */
+  .dia{font-size:10.5px;font-weight:900;color:var(--mut);letter-spacing:.8px;
+       text-transform:uppercase;margin:14px 2px 6px}
+  .dia:first-child{margin-top:2px}
+  .jogo{display:flex;align-items:center;gap:8px;padding:9px 10px;border-bottom:1px solid var(--linha)}
   .jogo:last-child{border-bottom:none}
-  .linha{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:6px}
-  .lado{display:flex;align-items:center;gap:6px;font-size:12.5px;font-weight:600;min-width:0}
-  .lado.h{justify-content:flex-end;text-align:right}
-  .lado span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-  .placar{display:flex;align-items:center;gap:5px}
-  .placar input{width:34px;height:34px;text-align:center;font-size:16px;font-weight:800;
-        border:2px solid var(--verde2);border-radius:0;color:var(--txt);background:#fffdf2}
-  .placar input:focus{outline:none;border-color:var(--verde)}
-  .placar input.ok{border-color:var(--verde);color:var(--verde)}
-  /* placar de leitura (mata-mata: o app preenche, o usuário não digita) */
-  .placar .sc{width:34px;height:34px;display:inline-flex;align-items:center;justify-content:center;
-        font-size:17px;font-weight:800;color:var(--mut)}
-  .placar .sc.ok{color:var(--txt)}
-  .lado.vit span{color:var(--verde);font-weight:800}
-  .pen .scp{min-width:18px;text-align:center;font-weight:800;color:var(--azul)}
-  .vs{font-size:10px;color:var(--mut)}
-  .data{text-align:center;font-size:10px;color:var(--mut);margin-top:3px}
-  /* mata-mata */
-  .jogo.ko{padding:9px 4px}
-  .mnum{font-size:9.5px;color:var(--mut);font-weight:800;text-align:center;margin-bottom:5px;
-        text-transform:uppercase;letter-spacing:.6px}
-  .lado .ph{opacity:.5;font-style:italic;font-weight:600;font-size:11.5px}
-  .pen{display:flex;align-items:center;justify-content:center;gap:6px;margin-top:6px;
-        font-size:10px;color:var(--azul);font-weight:700}
-  .pen input{width:26px;height:24px;text-align:center;font-size:12px;font-weight:800;
-        border:1px solid var(--azul);border-radius:0;background:#fffdf2;color:var(--txt)}
-  .mascote-pg{flex:0 0 auto;display:flex;justify-content:center;align-items:flex-end;padding:4px 0 6px}
-  .mascote-pg img{height:165px;width:auto;max-width:62%;object-fit:contain;
-        filter:drop-shadow(0 4px 6px rgba(0,0,0,.3))}
-  .mascote-pg.big img{height:260px;max-width:80%}
-  /* página "Sobre" */
-  .sobre{flex:1 0 auto;position:relative;display:flex;flex-direction:column;justify-content:center;
-        gap:14px;padding:26px 22px 64px;text-align:center;color:var(--txt)}
-  .sobre-emoji{font-size:34px}
-  .sobre h3{margin:0;color:var(--verde2);font-size:20px;font-weight:900;line-height:1.2}
-  .sobre p{margin:0;font-size:14px;line-height:1.55;font-weight:500}
-  .sobre b{color:var(--verde2)}
-  .assinatura{position:absolute;right:18px;bottom:14px;font-weight:900;font-size:18px;
-        color:var(--azul);letter-spacing:1.5px}
+  .jogo .lado{flex:1 1 0;display:flex;align-items:center;gap:6px;min-width:0;font-size:13px}
+  .jogo .lado.dir{justify-content:flex-end;text-align:right}
+  .jogo .nome{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+  .jogo .placar{flex:0 0 auto;font-weight:900;font-size:15px;padding:0 4px;min-width:46px;text-align:center}
+  .jogo .hora{flex:0 0 auto;font-size:11px;font-weight:800;color:var(--mut);min-width:46px;text-align:center}
+  .jogo .selo{font-size:9px;font-weight:800;padding:1px 5px;border-radius:8px;margin-left:5px}
+  .selo.prel{background:#fef3c7;color:#92400e}
+  .selo.div{background:#fee2e2;color:#991b1b}
+  .rodada-lbl{font-size:10px;color:var(--mut);text-align:center;padding:4px 0 0}
 
-  /* navegação inferior */
-  #nav{flex:0 0 auto;display:flex;align-items:center;justify-content:center;gap:14px;
-        padding:8px 14px 12px;background:transparent}
-  #nav button{width:42px;height:42px;border:none;border-radius:50%;background:var(--azul);color:var(--amarelo);
-        font-size:20px;font-weight:900;cursor:pointer;box-shadow:0 3px 6px rgba(0,0,0,.3)}
-  #nav button:active{transform:scale(.92)}
-  #nav .ind{font-weight:900;color:var(--amarelo);font-size:15px;min-width:96px;text-align:center}
-  #pontos{display:flex;gap:4px;justify-content:center;flex-wrap:wrap;padding:0 14px 6px}
-  #pontos i{width:7px;height:7px;border-radius:50%;background:var(--amarelo);opacity:.45;transition:.2s}
-  #pontos i.on{background:var(--amarelo);opacity:1;transform:scale(1.4)}
-  /* aviso flutuante (não afeta o layout dos botões) */
-  #toast{position:absolute;left:50%;bottom:70px;transform:translateX(-50%) translateY(8px);
-        background:rgba(0,0,0,.82);color:#fff;font-size:12px;font-weight:600;
-        padding:8px 16px;border-radius:20px;z-index:95;opacity:0;pointer-events:none;
-        max-width:80%;text-align:center;transition:opacity .25s,transform .25s}
-  #toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
-  #ver{position:absolute;right:12px;bottom:10px;z-index:2;font-size:12px;font-weight:800;
-        color:rgba(255,255,255,.6);letter-spacing:.6px}
+  .aviso{background:#fef3c7;color:#78350f;font-size:11.5px;line-height:1.5;
+         padding:9px 11px;border-radius:9px;margin-bottom:10px}
+  .vazio{text-align:center;color:var(--mut);font-size:13px;padding:34px 18px;line-height:1.6}
+
+  /* escolha do time do coração */
+  #gaveta{position:absolute;inset:0;z-index:95;background:rgba(0,0,0,.5);
+        display:none;align-items:flex-end}
+  #gaveta.abre{display:flex}
+  #gaveta .painel{background:var(--papel);width:100%;max-height:76%;border-radius:16px 16px 0 0;
+        display:flex;flex-direction:column;padding:14px 0 0}
+  #gaveta h3{margin:0 16px 4px;font-size:15px;font-weight:900}
+  #gaveta .dica{margin:0 16px 10px;font-size:11.5px;color:var(--mut);line-height:1.5}
+  #gaveta .lista{overflow-y:auto;padding:0 8px 14px}
+  #gaveta .lista button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;
+        background:none;border:none;padding:10px 10px;font-size:14px;font-weight:600;
+        color:var(--txt);cursor:pointer;border-radius:9px}
+  #gaveta .lista button:active{background:var(--fundo)}
+  #gaveta .lista button .bolinha{width:15px;height:15px;border-radius:50%;flex:0 0 auto;
+        border:2px solid rgba(0,0,0,.12)}
+  #gaveta .fechar{margin:0 16px 14px;padding:11px;border:none;border-radius:11px;
+        background:var(--fundo);font-weight:800;font-size:13.5px;cursor:pointer}
+
+  /* pontinhos de página */
+  #pontos{flex:0 0 auto;display:flex;gap:6px;justify-content:center;padding:9px 0 12px;
+        background:var(--papel);border-top:1px solid var(--linha)}
+  #pontos i{width:7px;height:7px;border-radius:50%;background:var(--linha);transition:.25s}
+  #pontos i.on{background:var(--pri);width:19px;border-radius:4px}
 </style>
 </head>
 <body>
+
 <div id="device">
-<div id="frame"></div>
+  <div id="frame"></div>
 
-<!-- ===================== CAPA ===================== -->
-<div id="capa">
-  <div class="topo">FIFA WORLD CUP</div>
-
-  <!-- Emblema oficial da Copa 2026 -->
-  <img class="emblema" src="img/mascote5.png" alt="Copa do Mundo FIFA 2026">
-
-  <h1>COPA DO MUNDO</h1>
-  <div class="host">CANADÁ · MÉXICO · ESTADOS UNIDOS</div>
-  <button class="entrar" id="entrar">VER TABELA ⚽</button>
-
-  <!-- Mascote: Canarinho "brabo" (imagem) -->
-  <img id="mascote" src="img/mascote4.png" alt="Canarinho">
-  <div id="ver"></div>
-</div>
-
-<!-- ===================== APP ===================== -->
-<div id="app">
-  <div id="carrossel"></div>
-
-  <div id="pontos"></div>
-  <div id="nav">
-    <button id="prev">‹</button>
-    <div class="ind" id="ind">Grupo A</div>
-    <button id="next">›</button>
+  <div id="capa">
+    <div class="topo">CARTAGO'S SOFTWARE</div>
+    <img class="emblema" src="img/logo-capa.jpg" alt="Tabelaço">
+    <div class="host">Todos os campeonatos que importam, o ano inteiro</div>
+    <button class="entrar" id="entrar">VER TABELAS ⚽</button>
+    <img id="mascote" src="img/mascote4.png" alt="" onerror="this.style.display='none'">
   </div>
-</div>
-<div id="toast"></div>
+
+  <div id="app" hidden>
+    <div id="seletor"></div>
+    <header>
+      <h2 id="tituloCamp">—</h2>
+      <div class="sub" id="subCamp"></div>
+      <button class="torcida" id="btTorcida">Escolher meu time</button>
+    </header>
+    <div id="carrossel"></div>
+    <div id="pontos"></div>
+  </div>
+
+  <div id="gaveta">
+    <div class="painel">
+      <h3>Time do coração</h3>
+      <div class="dica">O app se pinta com as cores dele, e ele fica destacado em todas as tabelas.</div>
+      <div class="lista" id="listaTimes"></div>
+      <button class="fechar" id="btFechar">Fechar</button>
+    </div>
+  </div>
 </div>
 
 <script>
-/* ---------- Grupos oficiais (sorteio 05/12/2025) ---------- */
-const GROUPS=[
-  {name:'A',teams:['México','África do Sul','Coreia do Sul','República Tcheca']},
-  {name:'B',teams:['Canadá','Bósnia e Herzegovina','Catar','Suíça']},
-  {name:'C',teams:['Brasil','Marrocos','Haiti','Escócia']},
-  {name:'D',teams:['Estados Unidos','Paraguai','Austrália','Turquia']},
-  {name:'E',teams:['Alemanha','Curaçao','Costa do Marfim','Equador']},
-  {name:'F',teams:['Holanda','Japão','Suécia','Tunísia']},
-  {name:'G',teams:['Bélgica','Egito','Irã','Nova Zelândia']},
-  {name:'H',teams:['Espanha','Cabo Verde','Arábia Saudita','Uruguai']},
-  {name:'I',teams:['França','Senegal','Iraque','Noruega']},
-  {name:'J',teams:['Argentina','Argélia','Áustria','Jordânia']},
-  {name:'K',teams:['Portugal','RD Congo','Uzbequistão','Colômbia']},
-  {name:'L',teams:['Inglaterra','Croácia','Gana','Panamá']},
-];
-const PAIRS=[[0,1],[2,3],[0,2],[3,1],[0,3],[1,2]];
+'use strict';
 
-/* códigos ISO p/ bandeiras (flagcdn) */
-const ISO={
- 'México':'mx','África do Sul':'za','Coreia do Sul':'kr','República Tcheca':'cz',
- 'Canadá':'ca','Bósnia e Herzegovina':'ba','Catar':'qa','Suíça':'ch',
- 'Brasil':'br','Marrocos':'ma','Haiti':'ht','Escócia':'gb-sct',
- 'Estados Unidos':'us','Paraguai':'py','Austrália':'au','Turquia':'tr',
- 'Alemanha':'de','Curaçao':'cw','Costa do Marfim':'ci','Equador':'ec',
- 'Holanda':'nl','Japão':'jp','Suécia':'se','Tunísia':'tn',
- 'Bélgica':'be','Egito':'eg','Irã':'ir','Nova Zelândia':'nz',
- 'Espanha':'es','Cabo Verde':'cv','Arábia Saudita':'sa','Uruguai':'uy',
- 'França':'fr','Senegal':'sn','Iraque':'iq','Noruega':'no',
- 'Argentina':'ar','Argélia':'dz','Áustria':'at','Jordânia':'jo',
- 'Portugal':'pt','RD Congo':'cd','Uzbequistão':'uz','Colômbia':'co',
- 'Inglaterra':'gb-eng','Croácia':'hr','Gana':'gh','Panamá':'pa',
+/* ------------------------------------------------------------------ estado */
+const S = {
+  indice: null,      // lista de campeonatos (dados/indice.json)
+  cores: null,       // dados/cores.json
+  atual: null,       // id do campeonato aberto
+  dados: {},         // cache dos campeonatos já baixados
+  time: localStorage.getItem('tabelaco.time') || '',
+  pagina: 0
 };
-function bandeira(n){const c=ISO[n];
-  return c?`<img class="flag" src="https://flagcdn.com/h20/${c}.png" alt="" loading="lazy">`
-          :`<span class="flag" style="display:inline-flex;align-items:center;justify-content:center">⚽</span>`;}
 
-/* nomes em inglês p/ casar com a API */
-const EN={'México':'Mexico','África do Sul':'South Africa','Coreia do Sul':'South Korea','República Tcheca':'Czech Republic','Canadá':'Canada','Bósnia e Herzegovina':'Bosnia and Herzegovina','Catar':'Qatar','Suíça':'Switzerland','Brasil':'Brazil','Marrocos':'Morocco','Haiti':'Haiti','Escócia':'Scotland','Estados Unidos':'United States','Paraguai':'Paraguay','Austrália':'Australia','Turquia':'Turkey','Alemanha':'Germany','Curaçao':'Curacao','Costa do Marfim':'Ivory Coast','Equador':'Ecuador','Holanda':'Netherlands','Japão':'Japan','Suécia':'Sweden','Tunísia':'Tunisia','Bélgica':'Belgium','Egito':'Egypt','Irã':'Iran','Nova Zelândia':'New Zealand','Espanha':'Spain','Cabo Verde':'Cape Verde','Arábia Saudita':'Saudi Arabia','Uruguai':'Uruguay','França':'France','Senegal':'Senegal','Iraque':'Iraq','Noruega':'Norway','Argentina':'Argentina','Argélia':'Algeria','Áustria':'Austria','Jordânia':'Jordan','Portugal':'Portugal','RD Congo':'DR Congo','Uzbequistão':'Uzbekistan','Colômbia':'Colombia','Inglaterra':'England','Croácia':'Croatia','Gana':'Ghana','Panamá':'Panama'};
+const $  = s => document.querySelector(s);
+const el = (t, c, h) => { const n = document.createElement(t); if (c) n.className = c; if (h != null) n.innerHTML = h; return n; };
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
 
-const APP_VERSION='v13 · jul/2026';
-const KEY='wc2026-data-v4';
-let STATE=load(),DATA=STATE.groups,KO=STATE.ko;
-function freshData(){return {groups:GROUPS.map(g=>({name:g.name,teams:[...g.teams],
-  scores:PAIRS.map(()=>({h:null,a:null,date:''}))})),ko:{}};}
-function load(){try{const s=localStorage.getItem(KEY);if(s){const o=JSON.parse(s);if(o&&o.groups)return o;}}catch{/* dados inválidos: usa o padrão */}return freshData();}
-function save(){localStorage.setItem(KEY,JSON.stringify({groups:DATA,ko:KO}));st('Salvo ✓');}
-let _toastT;
-const st=t=>{const el=document.getElementById('toast');if(!el)return;
-  el.textContent=t;el.classList.add('show');
-  clearTimeout(_toastT);_toastT=setTimeout(()=>el.classList.remove('show'),2200);};
-
-/* ---------- classificação ---------- */
-function tabela(g){
-  const T=g.teams.map((name,i)=>({i,name,V:0,E:0,D:0,GP:0,GC:0}));
-  g.scores.forEach((s,m)=>{if(s.h==null||s.a==null)return;
-    const[hi,ai]=PAIRS[m],H=T[hi],A=T[ai];
-    H.GP+=s.h;H.GC+=s.a;A.GP+=s.a;A.GC+=s.h;
-    if(s.h>s.a){H.V++;A.D++;}else if(s.h<s.a){A.V++;H.D++;}else{H.E++;A.E++;}});
-  T.forEach(t=>{t.J=t.V+t.E+t.D;t.Pts=t.V*3+t.E;t.SG=t.GP-t.GC;});
-  T.sort((a,b)=>b.Pts-a.Pts||b.SG-a.SG||b.GP-a.GP||a.name.localeCompare(b.name));
-  return T;
+/* ------------------------------------------------------------------ cores */
+function pintar() {
+  const c = (S.cores && S.cores.times[S.time]) || (S.cores && S.cores.padrao) || { p:'#009C3B', s:'#FFD400' };
+  document.documentElement.style.setProperty('--pri', c.p);
+  document.documentElement.style.setProperty('--sec', c.s);
+  const meta = document.querySelector('meta[name=theme-color]');
+  if (meta) meta.setAttribute('content', c.p);
 }
 
-/* ---------- mata-mata: chaveamento oficial 2026 ---------- */
-function grupoCompleto(g){return g.scores.every(s=>s.h!=null&&s.a!=null);}
-const BRACKET=[
- {m:73,A:{t:'gr',g:'A'},B:{t:'gr',g:'B'}},
- {m:74,A:{t:'gw',g:'E'},B:{t:'g3',m:74}},
- {m:75,A:{t:'gw',g:'F'},B:{t:'gr',g:'C'}},
- {m:76,A:{t:'gw',g:'C'},B:{t:'gr',g:'F'}},
- {m:77,A:{t:'gw',g:'I'},B:{t:'g3',m:77}},
- {m:78,A:{t:'gr',g:'E'},B:{t:'gr',g:'I'}},
- {m:79,A:{t:'gw',g:'A'},B:{t:'g3',m:79}},
- {m:80,A:{t:'gw',g:'L'},B:{t:'g3',m:80}},
- {m:81,A:{t:'gw',g:'D'},B:{t:'g3',m:81}},
- {m:82,A:{t:'gw',g:'G'},B:{t:'g3',m:82}},
- {m:83,A:{t:'gr',g:'K'},B:{t:'gr',g:'L'}},
- {m:84,A:{t:'gw',g:'H'},B:{t:'gr',g:'J'}},
- {m:85,A:{t:'gw',g:'B'},B:{t:'g3',m:85}},
- {m:86,A:{t:'gw',g:'J'},B:{t:'gr',g:'H'}},
- {m:87,A:{t:'gw',g:'K'},B:{t:'g3',m:87}},
- {m:88,A:{t:'gr',g:'D'},B:{t:'gr',g:'G'}},
- {m:89,A:{t:'w',m:74},B:{t:'w',m:77}},
- {m:90,A:{t:'w',m:73},B:{t:'w',m:75}},
- {m:91,A:{t:'w',m:76},B:{t:'w',m:78}},
- {m:92,A:{t:'w',m:79},B:{t:'w',m:80}},
- {m:93,A:{t:'w',m:83},B:{t:'w',m:84}},
- {m:94,A:{t:'w',m:81},B:{t:'w',m:82}},
- {m:95,A:{t:'w',m:86},B:{t:'w',m:88}},
- {m:96,A:{t:'w',m:85},B:{t:'w',m:87}},
- {m:97,A:{t:'w',m:89},B:{t:'w',m:90}},
- {m:98,A:{t:'w',m:93},B:{t:'w',m:94}},
- {m:99,A:{t:'w',m:91},B:{t:'w',m:92}},
- {m:100,A:{t:'w',m:95},B:{t:'w',m:96}},
- {m:101,A:{t:'w',m:97},B:{t:'w',m:98}},
- {m:102,A:{t:'w',m:99},B:{t:'w',m:100}},
- {m:103,A:{t:'l',m:101},B:{t:'l',m:102}},
- {m:104,A:{t:'w',m:101},B:{t:'w',m:102}},
+/* --------------------------------------------------------------- escudos */
+/* Procura primeiro a imagem que o Annibal desenhou, em img/escudos/<time>.png.
+   Se ela ainda não existir, usa a que vem da fonte. Assim ele pode ir soltando
+   os arquivos na pasta aos poucos, sem mexer em código nenhum. */
+function apelido(nome) {
+  return String(nome || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
+    .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
+}
+/* O mascote da capa é o do time do coração. Enquanto o Annibal não desenhar o
+   do clube escolhido, fica o mascote padrão do Tabelaço. */
+function trocarMascote() {
+  const img = $('#mascote');
+  if (!img) return;
+  const padrao = 'img/mascote4.png';
+  if (!S.time) { img.src = padrao; img.style.display = ''; return; }
+  img.onerror = () => { img.onerror = null; img.src = padrao; };
+  img.src = `img/mascotes/${apelido(S.time)}.png`;
+  img.style.display = '';
+}
+
+function escudoHTML(time, urlFonte) {
+  const meu = `img/escudos/${apelido(time)}.png`;
+  const alt = urlFonte ? esc(urlFonte) : '';
+  return `<img class="escudo" src="${meu}" alt="" loading="lazy"` +
+         (alt ? ` onerror="this.onerror=null;this.src='${alt}'">` : ` onerror="this.style.visibility='hidden'">`);
+}
+
+/* ---------------------------------------------------------------- dados */
+async function baixar(caminho) {
+  const r = await fetch(caminho + '?v=' + Date.now());
+  if (!r.ok) throw new Error('não consegui ler ' + caminho);
+  return r.json();
+}
+
+async function abrirCampeonato(id) {
+  S.atual = id;
+  localStorage.setItem('tabelaco.campeonato', id);
+  if (!S.dados[id]) {
+    $('#carrossel').innerHTML = '<div class="pagina"><div class="vazio">Buscando…</div></div>';
+    try { S.dados[id] = await baixar(`dados/${id}.json`); }
+    catch (e) { $('#carrossel').innerHTML = `<div class="pagina"><div class="vazio">Não consegui abrir este campeonato agora.<br>Tente de novo daqui a pouco.</div></div>`; return; }
+  }
+  desenharSeletor();
+  desenharTudo();
+}
+
+/* -------------------------------------------------------------- seletor */
+function desenharSeletor() {
+  const cx = $('#seletor');
+  cx.innerHTML = '';
+  for (const c of S.indice.campeonatos) {
+    const b = el('button', c.id === S.atual ? 'on' : '', esc(c.curto));
+    b.onclick = () => { abrirCampeonato(c.id); cx.scrollTo({ left: b.offsetLeft - 60, behavior:'smooth' }); };
+    cx.appendChild(b);
+  }
+}
+
+/* ------------------------------------------------------------- páginas */
+function tabelaClassificacao(d) {
+  if (!d.classificacao.length) {
+    return `<div class="vazio">${d.formato === 'mata-mata'
+      ? 'A Copa do Brasil é mata-mata: não tem tabela de classificação.<br>Deslize para o lado para ver os jogos.'
+      : 'A classificação deste campeonato ainda não saiu.'}</div>`;
+  }
+  let html = '';
+  if (d.origemTabela === 'calculada') {
+    html += `<div class="aviso"><b>Tabela somada pelo Tabelaço.</b> A fonte não publicou a
+      classificação oficial desta edição, então o app somou os jogos que já aconteceram.
+      Como este campeonato tem fases diferentes, os times aparecem com número de jogos
+      diferente — é desempenho geral, não a classificação oficial.</div>`;
+  }
+  html += '<div class="cartela"><table><thead><tr>' +
+    '<th></th><th class="esq">Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>SG</th>' +
+    '</tr></thead><tbody>';
+  let grupoAtual = null;
+  for (const t of d.classificacao) {
+    if (t.grupo && t.grupo !== grupoAtual) {
+      grupoAtual = t.grupo;
+      html += `<tr><td class="grupo" colspan="8">${esc(t.grupo)}</td></tr>`;
+    }
+    const meu = t.time === S.time ? ' class="meu"' : '';
+    html += `<tr${meu}><td class="pos">${t.posicao}</td>` +
+      `<td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+      `<td class="pts">${t.pontos}</td><td>${t.jogos}</td><td>${t.vitorias}</td>` +
+      `<td>${t.empates}</td><td>${t.derrotas}</td>` +
+      `<td>${t.saldo > 0 ? '+' : ''}${t.saldo}</td></tr>`;
+  }
+  return html + '</tbody></table></div>';
+}
+
+function paginaEstatisticas(d) {
+  if (!d.classificacao.length) return '<div class="vazio">Sem estatísticas para este campeonato.</div>';
+  const ordenado = [...d.classificacao].sort((a, b) => b.vitorias - a.vitorias || a.derrotas - b.derrotas);
+  let html = '<div class="cartela"><table><thead><tr>' +
+    '<th class="esq">Time</th><th>Vitórias</th><th>Empates</th><th>Derrotas</th><th>Aproveit.</th>' +
+    '</tr></thead><tbody>';
+  for (const t of ordenado) {
+    const max = t.jogos * 3;
+    const apr = max ? Math.round(t.pontos / max * 100) : 0;
+    const meu = t.time === S.time ? ' class="meu"' : '';
+    html += `<tr${meu}><td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+      `<td class="pts">${t.vitorias}</td><td>${t.empates}</td><td>${t.derrotas}</td>` +
+      `<td><b>${apr}%</b></td></tr>`;
+  }
+  return html + '</tbody></table></div>';
+}
+
+function paginaSaldo(d) {
+  if (!d.classificacao.length) return '<div class="vazio">Sem saldo de gols para este campeonato.</div>';
+  const ordenado = [...d.classificacao].sort((a, b) => b.saldo - a.saldo);
+  const maior = Math.max(1, ...ordenado.map(t => Math.abs(t.saldo)));
+  let html = '<div class="cartela">';
+  for (const t of ordenado) {
+    const frac = Math.abs(t.saldo) / maior * 50;   // metade da barra, para cada lado
+    const pos = t.saldo >= 0;
+    const estilo = pos
+      ? `left:50%;width:${frac}%;background:var(--ok)`
+      : `right:50%;width:${frac}%;background:var(--alerta)`;
+    const meu = t.time === S.time ? 'style="font-weight:900"' : '';
+    html += `<div class="barra-linha">` +
+      `<div class="barra-nome" ${meu}>${esc(t.time)}</div>` +
+      `<div class="barra-trilho"><div class="barra-meio"></div>` +
+      `<div class="barra-preenche" style="${estilo}"></div></div>` +
+      `<div class="barra-valor" style="color:${pos ? 'var(--ok)' : 'var(--alerta)'}">` +
+      `${t.saldo > 0 ? '+' : ''}${t.saldo}</div></div>`;
+  }
+  return html + '</div>';
+}
+
+const DIAS = ['domingo','segunda','terça','quarta','quinta','sexta','sábado'];
+const MESES = ['jan','fev','mar','abr','mai','jun','jul','ago','set','out','nov','dez'];
+function dataBonita(iso) {
+  const [a, m, d] = iso.split('-').map(Number);
+  const dt = new Date(Date.UTC(a, m - 1, d));
+  return `${DIAS[dt.getUTCDay()]}, ${d} de ${MESES[m - 1]}`;
+}
+
+function paginaJogos(d) {
+  if (!d.jogos.length) return '<div class="vazio">Nenhum jogo cadastrado ainda.<br>O campeonato pode não ter começado.</div>';
+
+  /* mostra a rodada em volta de hoje: os últimos que aconteceram e os próximos */
+  const hoje = new Date().toISOString().slice(0, 10);
+  const passados = d.jogos.filter(j => j.data <= hoje);
+  const futuros  = d.jogos.filter(j => j.data > hoje);
+  const mostrar = [...passados.slice(-12), ...futuros.slice(0, 10)];
+  if (!mostrar.length) return '<div class="vazio">Sem jogos por perto.</div>';
+
+  let html = '';
+  if (d.avisos && d.avisos.length) {
+    html += `<div class="aviso"><b>${d.avisos.length} jogo(s) em conferência.</b>
+      As duas fontes deram placares diferentes, então o Tabelaço está segurando
+      o resultado até elas concordarem. Melhor não mostrar do que mostrar errado.</div>`;
+  }
+
+  let diaAtual = null;
+  for (const j of mostrar) {
+    if (j.data !== diaAtual) {
+      diaAtual = j.data;
+      if (html.includes('<div class="cartela">')) html += '</div>';
+      html += `<div class="dia">${dataBonita(j.data)}</div><div class="cartela">`;
+    }
+    const temPlacar = j.golsMandante !== null && j.golsVisitante !== null;
+    const meio = temPlacar
+      ? `<div class="placar">${j.golsMandante} <span style="color:var(--mut)">×</span> ${j.golsVisitante}</div>`
+      : `<div class="hora">${esc(j.hora || '—')}</div>`;
+    let selo = '';
+    if (j.conferencia === 'divergente') selo = '<span class="selo div">conferindo</span>';
+    else if (j.conferencia === 'sozinho' && temPlacar) selo = '<span class="selo prel">preliminar</span>';
+
+    const destaque = t => (t === S.time ? 'style="font-weight:900;color:var(--pri)"' : '');
+    html += `<div class="jogo">` +
+      `<div class="lado"><span class="nome" ${destaque(j.mandante)}>${esc(j.mandante)}</span></div>` +
+      meio +
+      `<div class="lado dir"><span class="nome" ${destaque(j.visitante)}>${esc(j.visitante)}</span></div>` +
+      `</div>` +
+      (selo ? `<div class="rodada-lbl">${selo}</div>` : '');
+  }
+  html += '</div>';
+  return html;
+}
+
+/* --------------------------------------------------------------- render */
+const PAGINAS = [
+  { nome: 'Classificação', faz: tabelaClassificacao },
+  { nome: 'Jogos',         faz: paginaJogos },
+  { nome: 'Estatísticas',  faz: paginaEstatisticas },
+  { nome: 'Saldo de gols', faz: paginaSaldo }
 ];
-const BM={};BRACKET.forEach(b=>BM[b.m]=b);
-const THIRD_SLOTS=[[74,['A','B','C','D','F']],[77,['C','D','F','G','H']],[79,['C','E','F','H','I']],
-  [80,['E','H','I','J','K']],[81,['B','E','F','I','J']],[82,['A','E','H','I','J']],
-  [85,['E','F','G','I','J']],[87,['D','E','I','J','L']]];
-let TER=null;
-function ranking3os(){
-  if(!DATA.every(grupoCompleto))return null;
-  const ter=DATA.map(g=>{const t=tabela(g)[2];return{g:g.name,name:t.name,Pts:t.Pts,SG:t.SG,GP:t.GP};});
-  ter.sort((a,b)=>b.Pts-a.Pts||b.SG-a.SG||b.GP-a.GP||a.g.localeCompare(b.g));
-  const top=ter.slice(0,8),qG=top.map(o=>o.g),used=new Set(),res={};
-  (function bt(i){if(i===THIRD_SLOTS.length)return true;const[m,el]=THIRD_SLOTS[i];
-    for(const grp of qG){if(used.has(grp)||!el.includes(grp))continue;
-      used.add(grp);res[m]=grp;if(bt(i+1))return true;used.delete(grp);delete res[m];}
-    return false;})(0);
-  const byG={};top.forEach(o=>byG[o.g]=o.name);return{assign:res,byG};
-}
-function resolve(src){
-  if(src.t==='gw'){const g=DATA.find(x=>x.name===src.g);return grupoCompleto(g)?tabela(g)[0].name:null;}
-  if(src.t==='gr'){const g=DATA.find(x=>x.name===src.g);return grupoCompleto(g)?tabela(g)[1].name:null;}
-  if(src.t==='g3'){if(!TER)return null;const grp=TER.assign[src.m];return grp?TER.byG[grp]:null;}
-  if(src.t==='w')return venc(src.m);
-  if(src.t==='l')return perd(src.m);
-  return null;
-}
-function rotulo(src){return src.t==='gw'?'1º Grupo '+src.g:src.t==='gr'?'2º Grupo '+src.g:
-  src.t==='g3'?'Melhor 3º':src.t==='w'?'Vencedor #'+src.m:'Perdedor #'+src.m;}
-/* vencedor/perdedor pela grafia REAL das seleções (k.ta = lado A, k.tb = lado B),
-   preenchida a partir do jogo da API. Sem jogo real ainda: retorna null. */
-function venc(m){const k=KO[m];if(!k||k.ta==null||k.tb==null||k.h==null||k.a==null)return null;
-  if(k.h>k.a)return k.ta;if(k.a>k.h)return k.tb;
-  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?k.ta:k.tb;return null;}
-function perd(m){const k=KO[m];if(!k||k.ta==null||k.tb==null||k.h==null||k.a==null)return null;
-  if(k.h>k.a)return k.tb;if(k.a>k.h)return k.ta;
-  if(k.ph!=null&&k.pa!=null&&k.ph!==k.pa)return k.ph>k.pa?k.tb:k.ta;return null;}
 
-const ROUNDS=[
- {id:'r32a',nome:'16-avos · 1/2',ms:[73,74,75,76,77,78,79,80],masc:1},
- {id:'r32b',nome:'16-avos · 2/2',ms:[81,82,83,84,85,86,87,88],masc:2},
- {id:'r16',nome:'Oitavas',ms:[89,90,91,92,93,94,95,96],masc:3},
- {id:'qf',nome:'Quartas',ms:[97,98,99,100],masc:1},
- {id:'sf',nome:'Semis e 3º',ms:[101,102,103],masc:2},
- {id:'final',nome:'Grande Final',ms:[104],masc:3},
-];
-const PAGES=[...DATA.map((g,gi)=>({type:'g',gi,nome:'Grupo '+g.name})),
-  ...ROUNDS.map(r=>({type:'ko',r,nome:r.nome})),
-  {type:'sobre',nome:'Sobre'}];
+function desenharTudo() {
+  const d = S.dados[S.atual];
+  if (!d) return;
 
-/* ---------- render ---------- */
-function grupoHTML(gi){
-  const g=DATA[gi];let linhas='';
-  tabela(g).forEach((t,pos)=>{const cls=pos===0?'q1':pos===1?'q2':'';
-    linhas+=`<tr class="${cls}"><td class="t"><div class="time">${bandeira(t.name)}
-      <input class="tname" data-g="${gi}" data-i="${t.i}" value="${t.name}" title="${t.name}"></div></td>
-      <td class="pts">${t.Pts}</td><td>${t.J}</td><td>${t.V}</td><td>${t.E}</td><td>${t.D}</td>
-      <td>${t.GP}</td><td>${t.GC}</td><td>${t.SG>0?'+':''}${t.SG}</td></tr>`;});
-  let jogos='';
-  PAIRS.forEach((p,mi)=>{const h=g.teams[p[0]],a=g.teams[p[1]],s=g.scores[mi];
-    jogos+=`<div class="jogo"><div class="linha">
-      <div class="lado h"><span>${h}</span>${bandeira(h)}</div>
-      <div class="placar">
-        <input type="number" min="0" inputmode="numeric" data-g="${gi}" data-m="${mi}" data-s="h" value="${s.h??''}" class="${s.h!=null?'ok':''}">
-        <span class="vs">×</span>
-        <input type="number" min="0" inputmode="numeric" data-g="${gi}" data-m="${mi}" data-s="a" value="${s.a??''}" class="${s.a!=null?'ok':''}">
-      </div>
-      <div class="lado">${bandeira(a)}<span>${a}</span></div></div>
-      ${s.date?`<div class="data">${s.date}</div>`:''}</div>`;});
-  return `<div class="cartela">
-    <div class="gtit"><span class="gtit-nome">Grupo ${g.name}</span>
-      <div class="acts">
-        <button class="pri act-auto" title="Atualizar resultados">⟳</button>
-        <button class="act-limpar" title="Limpar placares">🧹</button></div></div>
-    <div class="corpo">
-      <div class="col col-tab">
-        <table><thead><tr><th class="t">Seleção</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th>
-          <th>GP</th><th>GC</th><th>SG</th></tr></thead><tbody>${linhas}</tbody></table>
-      </div>
-      <div class="col jogos"><h4>⚽ Jogos do grupo</h4>${jogos}</div>
-    </div></div>`;
-}
-function koHTML(r){
-  let jogos='';
-  r.ms.forEach(m=>{const b=BM[m],k=KO[m]||{};
-    const ta=k.ta||resolve(b.A), tb=k.tb||resolve(b.B);   // time REAL, senão previsão (jogo futuro)
-    const la=ta||rotulo(b.A), lb=tb||rotulo(b.B);
-    const tem=k.h!=null&&k.a!=null;
-    const tie=tem&&k.h===k.a, pen=tie&&k.ph!=null&&k.pa!=null;
-    const winA=tem&&(k.h>k.a||(pen&&k.ph>k.pa)), winB=tem&&(k.a>k.h||(pen&&k.pa>k.ph));
-    const tag=m===104?' · FINAL 🏆':m===103?' · 3º lugar':'';
-    jogos+=`<div class="jogo ko"><div class="mnum">Jogo ${m}${tag}</div>
-      <div class="linha">
-        <div class="lado h ${winA?'vit':''}"><span class="${ta?'':'ph'}">${la}</span>${ta?bandeira(ta):''}</div>
-        <div class="placar">
-          <span class="sc ${tem?'ok':''}">${k.h??'–'}</span>
-          <span class="vs">×</span>
-          <span class="sc ${tem?'ok':''}">${k.a??'–'}</span>
-        </div>
-        <div class="lado ${winB?'vit':''}">${tb?bandeira(tb):''}<span class="${tb?'':'ph'}">${lb}</span></div>
-      </div>
-      ${pen?`<div class="pen"><span>pênaltis</span>
-        <span class="scp">${k.ph}</span><span class="vs">×</span><span class="scp">${k.pa}</span></div>`:''}
-    </div>`;});
-  return `<div class="cartela">
-    <div class="gtit"><span class="gtit-nome">${r.nome}</span>
-      <div class="acts">
-        <button class="pri act-auto" title="Atualizar resultados">⟳</button>
-        <button class="act-limpar" title="Limpar placares">🧹</button></div></div>
-    <div class="corpo"><div class="col jogos"><h4>🏆 ${r.nome}</h4>${jogos}</div>
-      <div class="mascote-pg${r.id==='final'?' big':''}">
-        <img src="img/mascote${r.masc}.png" alt="mascote" loading="lazy">
-      </div></div></div>`;
-}
-function sobreHTML(){
-  return `<div class="cartela">
-    <div class="gtit"><span class="gtit-nome">Sobre</span></div>
-    <div class="corpo"><div class="sobre">
-      <div class="sobre-emoji">⚽💛💚</div>
-      <h3>Tabela da Copa do Mundo 2026</h3>
-      <p>Esta tabela foi desenvolvida <b>apenas como objeto de estudo</b>, <b>sem fins lucrativos</b>.</p>
-      <p>Não possui qualquer vínculo oficial com a FIFA ou com as seleções, entidades e marcas aqui citadas. Escudos, bandeiras, nomes e símbolos pertencem aos seus respectivos donos.</p>
-      <p>Feito por diversão e aprendizado.</p>
-      <p style="font-size:13px;line-height:1.5;text-align:left;background:rgba(0,156,59,.12);
-        border:1px solid var(--linha);border-radius:8px;padding:10px 12px">
-        💡 <b>Atualizar resultados:</b> o app busca os placares sozinho ao abrir.
-        Para forçar na hora, toque no <b>⟳</b> no topo de qualquer grupo ou fase.
-        O carregamento completo pode levar alguns minutos — ele termina sozinho, é só deixar aberto.
-        O <b>🧹</b> apaga todos os placares.</p>
-      <p style="font-size:12px;opacity:.7;margin-top:4px">${APP_VERSION}</p>
-      <div class="assinatura">AJNF71</div>
-    </div></div></div>`;
-}
-function render(){
-  TER=ranking3os();
-  const x=car.scrollLeft;car.innerHTML='';
-  PAGES.forEach(p=>{const pg=document.createElement('div');pg.className='pagina';
-    pg.innerHTML=p.type==='g'?grupoHTML(p.gi):p.type==='ko'?koHTML(p.r):sobreHTML();car.appendChild(pg);});
-  car.scrollLeft=x;bind();pontos();
-}
-function bind(){
-  document.querySelectorAll('.placar input[data-g]').forEach(i=>i.addEventListener('input',e=>{
-    const{g,m,s}=e.target.dataset,v=e.target.value;
-    DATA[g].scores[m][s]=v===''?null:Math.max(0,parseInt(v,10)||0);save();render();}));
-  document.querySelectorAll('.tname').forEach(i=>i.addEventListener('change',e=>{
-    const{g,i:k}=e.target.dataset;DATA[g].teams[k]=e.target.value.trim()||DATA[g].teams[k];save();render();}));
-  document.querySelectorAll('.act-auto').forEach(b=>b.onclick=autoFill);
-  document.querySelectorAll('.act-limpar').forEach(b=>b.onclick=limpar);
-}
-function limpar(){if(!confirm('Apagar todos os placares (grupos e mata-mata)?'))return;
-  DATA.forEach(g=>g.scores.forEach(s=>{s.h=null;s.a=null;}));KO={};save();render();}
+  $('#tituloCamp').textContent = d.nome;
+  const quando = new Date(d.atualizado);
+  const tab = d.classificacao.length ? ` · ${d.classificacao.length} times` : '';
+  $('#subCamp').textContent =
+    `Temporada ${d.temporadaTabela || d.temporada}${tab} · atualizado ` +
+    quando.toLocaleString('pt-BR', { day:'2-digit', month:'2-digit', hour:'2-digit', minute:'2-digit' });
+  $('#btTorcida').textContent = S.time ? `⚽ ${S.time}` : 'Escolher meu time';
 
-/* ---------- navegação carrossel ---------- */
-const car=document.getElementById('carrossel');
-function pagAtual(){return Math.round(car.scrollLeft/car.clientWidth);}
-function pontos(){
-  const p=document.getElementById('pontos');
-  if(p.children.length!==PAGES.length)p.innerHTML=PAGES.map(()=>'<i></i>').join('');
-  const cur=pagAtual();
-  [...p.children].forEach((e,k)=>e.classList.toggle('on',k===cur));
-  document.getElementById('ind').textContent=PAGES[cur]?PAGES[cur].nome:'';
+  const cx = $('#carrossel');
+  cx.innerHTML = '';
+  for (const p of PAGINAS) {
+    const pag = el('div', 'pagina');
+    pag.innerHTML = `<div class="titulo">${p.nome}</div>` + p.faz(d);
+    cx.appendChild(pag);
+  }
+  cx.scrollLeft = 0;
+  S.pagina = 0;
+  desenharPontos();
+  pintar();
 }
-car.addEventListener('scroll',()=>{clearTimeout(car._t);car._t=setTimeout(pontos,60)});
-document.getElementById('prev').onclick=()=>car.scrollBy({left:-car.clientWidth,behavior:'smooth'});
-document.getElementById('next').onclick=()=>car.scrollBy({left:car.clientWidth,behavior:'smooth'});
 
-/* ---------- auto-preenchimento (TheSportsDB) ---------- */
-/* casa nomes de seleções entre o app e a API, tolerando hífens, espaços, acentos e "and" */
-const SYN={usa:'unitedstates',turkiye:'turkey',iriran:'iran',congodr:'drcongo',czechia:'czechrepublic',cotedivoire:'ivorycoast'};
-function chave(s){let x=(s||'').toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'');
-  x=x.replace(/&/g,' ').replace(/\band\b/g,' ').replace(/[^a-z]/g,'');return SYN[x]||x;}
-/* ---- consumo do resultados.json (gerado pelo robô no GitHub Actions) ----
-   O app NÃO chama mais a API do TheSportsDB direto do navegador — cada usuário
-   estourava o limite (HTTP 429) e as oitavas ficavam sem atualizar. Agora ele só
-   lê um arquivo pronto, montado no servidor do GitHub, que serve todos de uma vez.
-   Ver scripts/fetch-resultados.js + .github/workflows/atualizar-resultados.yml */
-function temPlacar(e){return e&&e.intHomeScore!=null&&e.intHomeScore!==''&&e.intAwayScore!=null&&e.intAwayScore!=='';}
-let CANON={};   // chave(seleção) -> grafia exata da API (aprendida com os eventos lidos)
-function aprendeCanon(e){CANON[chave(e.strHomeTeam)]=e.strHomeTeam;CANON[chave(e.strAwayTeam)]=e.strAwayTeam;}
+function desenharPontos() {
+  const c = $('#pontos');
+  c.innerHTML = '';
+  PAGINAS.forEach((_, i) => c.appendChild(el('i', i === S.pagina ? 'on' : '')));
+}
 
-async function autoFill(){
-  const botoes=document.querySelectorAll('.act-auto');botoes.forEach(b=>b.disabled=true);st('Buscando resultados…');
-  let ev=[];
-  try{
-    const r=await fetch('resultados.json?t='+Date.now(),{cache:'no-store'});   // arquivo servido pelo GitHub Pages
-    if(r.ok){const j=await r.json(); if(j&&Array.isArray(j.events))ev=j.events;}
-  }catch{/* offline: mantém o que já está salvo */}
-  if(!ev.length){
-    botoes.forEach(b=>b.disabled=false);
-    st('Sem conexão com o servidor — mostrando os dados já salvos.');
+/* --------------------------------------------------- time do coração */
+function abrirGaveta() {
+  const d = S.dados[S.atual];
+  const lista = $('#listaTimes');
+  lista.innerHTML = '';
+
+  const nenhum = el('button', '', '<span class="bolinha" style="background:#009C3B"></span> Nenhum (verde e amarelo)');
+  nenhum.onclick = () => escolherTime('');
+  lista.appendChild(nenhum);
+
+  /* junta os times de todos os campeonatos já baixados, sem repetir */
+  const nomes = new Set();
+  for (const id of Object.keys(S.dados)) {
+    for (const t of (S.dados[id].classificacao || [])) nomes.add(t.time);
+  }
+  if (d) for (const j of d.jogos) { nomes.add(j.mandante); nomes.add(j.visitante); }
+
+  for (const nome of [...nomes].sort((a, b) => a.localeCompare(b, 'pt-BR'))) {
+    const c = (S.cores.times[nome]) || S.cores.padrao;
+    const b = el('button', '', `<span class="bolinha" style="background:${c.p}"></span> ${esc(nome)}`);
+    b.onclick = () => escolherTime(nome);
+    lista.appendChild(b);
+  }
+  $('#gaveta').classList.add('abre');
+}
+
+function escolherTime(nome) {
+  S.time = nome;
+  localStorage.setItem('tabelaco.time', nome);
+  $('#gaveta').classList.remove('abre');
+  pintar();
+  trocarMascote();
+  desenharTudo();
+}
+
+/* ----------------------------------------------------------- arranque */
+async function iniciar() {
+  try {
+    [S.indice, S.cores] = await Promise.all([
+      baixar('dados/indice.json'),
+      baixar('dados/cores.json')
+    ]);
+  } catch (e) {
+    $('#carrossel').innerHTML = '<div class="pagina"><div class="vazio">Não consegui carregar os dados.<br>Confira sua conexão.</div></div>';
     return;
   }
-  CANON={}; ev.forEach(aprendeCanon);                    // grafia oficial das seleções
-  let n=0;
-  // ----- fase de grupos -----
-  const idx=new Map();
-  DATA.forEach((g,gi)=>PAIRS.forEach((p,mi)=>{
-    const h=chave(EN[g.teams[p[0]]]||g.teams[p[0]]),a=chave(EN[g.teams[p[1]]]||g.teams[p[1]]);
-    idx.set(h+'|'+a,{gi,mi,flip:false});idx.set(a+'|'+h,{gi,mi,flip:true});}));
-  ev.forEach(e=>{const hit=idx.get(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam));if(!hit||!temPlacar(e))return;
-    const S=DATA[hit.gi].scores[hit.mi];
-    if(e.dateEvent)S.date=e.dateEvent.split('-').reverse().join('/');
-    S.h=hit.flip?+e.intAwayScore:+e.intHomeScore;S.a=hit.flip?+e.intHomeScore:+e.intAwayScore;n++;});
-  // ----- mata-mata: montado a partir dos CONFRONTOS REAIS, nunca de previsão -----
-  // Um jogo de mata-mata é todo evento que NÃO é um confronto de grupo conhecido
-  // (o intRound não serve: grupo usa 1/2/3 e a final também cai em 1/2).
-  const parK=e=>[chave(e.strHomeTeam),chave(e.strAwayTeam)].sort().join('|');
-  const grupoPairs=new Set();
-  DATA.forEach(g=>PAIRS.forEach(p=>grupoPairs.add(
-    [chave(EN[g.teams[p[0]]]||g.teams[p[0]]),chave(EN[g.teams[p[1]]]||g.teams[p[1]])].sort().join('|'))));
-  const koEv=ev.filter(e=>temPlacar(e)&&!grupoPairs.has(parK(e)));
-  const evPar=new Map(); ev.forEach(e=>evPar.set(chave(e.strHomeTeam)+'|'+chave(e.strAwayTeam),e));
-  // grafia PT de uma seleção a partir do nome que a API usa (p/ bandeira e rótulo)
-  const ptPorChave={}; DATA.forEach(g=>g.teams.forEach(t=>{ptPorChave[chave(EN[t]||t)]=t;ptPorChave[chave(t)]=t;}));
-  const ptTeam=api=>ptPorChave[chave(api)]||api;
-  // lado "confiável": 1º/2º de grupo ou vencedor/perdedor já definido. O melhor 3º
-  // (g3) NÃO é confiável — deixamos o jogo real da API dizer quem é.
-  const conf=src=>src.t==='g3'?null:resolve(src);
-  TER=ranking3os();                                      // só p/ placeholder de jogos futuros
-  KO={};                                                 // remonta o mata-mata do zero, da realidade
-  const usados=new Set();
-  for(const b of BRACKET){                               // em ordem: rodadas anteriores 1º
-    const kA=conf(b.A), kB=conf(b.B);
-    let e=null, tA=null, tB=null;
-    if(kA&&kB){                                           // ambos conhecidos: confronto exato
-      const a=chave(EN[kA]||kA), c=chave(EN[kB]||kB);
-      e=evPar.get(a+'|'+c)||evPar.get(c+'|'+a); tA=kA; tB=kB;
-    }else if(kA||kB){                                     // só um lado (o outro é 3º): a API revela o rival
-      const co=kA||kB, ck=chave(EN[co]||co);
-      const cand=koEv.filter(x=>!usados.has(parK(x))&&[chave(x.strHomeTeam),chave(x.strAwayTeam)].includes(ck))
-                     .sort((x,y)=>(x.dateEvent||'').localeCompare(y.dateEvent||''));  // 1º jogo = rodada certa
-      e=cand[0]||null;
-      if(e){const rival=ptTeam(chave(e.strHomeTeam)===ck?e.strAwayTeam:e.strHomeTeam);
-        if(kA){tA=kA;tB=rival;}else{tB=kB;tA=rival;}}
-    }
-    if(e&&temPlacar(e)){
-      usados.add(parK(e));
-      const homeIsA=chave(e.strHomeTeam)===chave(EN[tA]||tA);
-      KO[b.m]={ta:tA, tb:tB,
-        h:homeIsA?+e.intHomeScore:+e.intAwayScore,
-        a:homeIsA?+e.intAwayScore:+e.intHomeScore};
-      if(e.dateEvent)KO[b.m].date=e.dateEvent.split('-').reverse().join('/');
-      const phs=e.intHomeScoreExtra, pas=e.intAwayScoreExtra;
-      if(+e.intHomeScore===+e.intAwayScore && phs!=null&&phs!==''&&pas!=null&&pas!==''&&+phs!==+pas){
-        KO[b.m].ph=homeIsA?+phs:+pas; KO[b.m].pa=homeIsA?+pas:+phs;
-      }
-      n++;
-    }
-  }
-  save();render();
-  botoes.forEach(b=>b.disabled=false);
-  st(n>0?`Atualizado ✓ (${n} jogos)`:'Sem resultados ainda.');
+  S.indice.campeonatos.sort((a, b) => a.ordem - b.ordem);
+  pintar();
+  trocarMascote();
+
+  const salvo = localStorage.getItem('tabelaco.campeonato');
+  const existe = S.indice.campeonatos.some(c => c.id === salvo);
+  await abrirCampeonato(existe ? salvo : S.indice.campeonatos[0].id);
 }
 
-/* ---------- capa ---------- */
-document.getElementById('entrar').onclick=()=>{
-  document.getElementById('capa').classList.add('sair');
-  setTimeout(()=>document.getElementById('capa').style.display='none',500);
+$('#entrar').onclick = () => {
+  $('#capa').classList.add('sair');
+  $('#app').hidden = false;
+  setTimeout(() => { $('#capa').style.display = 'none'; }, 520);
 };
+$('#btTorcida').onclick = abrirGaveta;
+$('#btFechar').onclick = () => $('#gaveta').classList.remove('abre');
+$('#gaveta').onclick = e => { if (e.target.id === 'gaveta') $('#gaveta').classList.remove('abre'); };
 
-render();
-(function(){var ve=document.getElementById('ver'); if(ve) ve.textContent=APP_VERSION;})();
+$('#carrossel').addEventListener('scroll', () => {
+  const cx = $('#carrossel');
+  const p = Math.round(cx.scrollLeft / cx.clientWidth);
+  if (p !== S.pagina) { S.pagina = p; desenharPontos(); }
+}, { passive: true });
 
-/* sincroniza sozinho ao abrir: reflete os jogos já encerrados sem depender de clique */
-setTimeout(()=>{ if(navigator.onLine!==false) autoFill(); }, 500);
+if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(() => {});
 
-/* ---------- PWA: service worker (rede-primeiro) + auto-atualização ---------- */
-if('serviceWorker' in navigator){
-  let recarregando=false;
-  navigator.serviceWorker.addEventListener('controllerchange',()=>{
-    if(recarregando)return; recarregando=true; location.reload();
-  });
-  window.addEventListener('load',()=>{
-    navigator.serviceWorker.register('sw.js').then(reg=>{ if(reg.update)reg.update(); }).catch(()=>{});
-  });
-}
+iniciar();
 </script>
 </body>
 </html>

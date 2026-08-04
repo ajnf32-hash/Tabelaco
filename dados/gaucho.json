@@ -1,0 +1,1399 @@
+{
+ "id": "gaucho",
+ "nome": "Campeonato Gaúcho",
+ "curto": "Gaúcho",
+ "formato": "estadual",
+ "temporada": 2026,
+ "temporadaTabela": 2026,
+ "origemTabela": "calculada",
+ "atualizado": "2026-08-04T15:09:47.375Z",
+ "classificacao": [
+  {
+   "posicao": 1,
+   "grupo": "",
+   "time": "Internacional",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "pontos": 25,
+   "jogos": 11,
+   "vitorias": 8,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 25,
+   "golsContra": 10,
+   "saldo": 15
+  },
+  {
+   "posicao": 2,
+   "grupo": "",
+   "time": "Grêmio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "pontos": 19,
+   "jogos": 11,
+   "vitorias": 5,
+   "empates": 4,
+   "derrotas": 2,
+   "golsPro": 21,
+   "golsContra": 9,
+   "saldo": 12
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
+   "time": "Juventude",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "pontos": 17,
+   "jogos": 9,
+   "vitorias": 4,
+   "empates": 5,
+   "derrotas": 0,
+   "golsPro": 13,
+   "golsContra": 7,
+   "saldo": 6
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
+   "time": "São Luiz-RS",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "pontos": 14,
+   "jogos": 11,
+   "vitorias": 3,
+   "empates": 5,
+   "derrotas": 3,
+   "golsPro": 11,
+   "golsContra": 16,
+   "saldo": -5
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
+   "time": "Monsoon",
+   "escudo": "",
+   "pontos": 14,
+   "jogos": 12,
+   "vitorias": 2,
+   "empates": 8,
+   "derrotas": 2,
+   "golsPro": 11,
+   "golsContra": 15,
+   "saldo": -4
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
+   "time": "Novo Hamburgo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "pontos": 13,
+   "jogos": 11,
+   "vitorias": 3,
+   "empates": 4,
+   "derrotas": 4,
+   "golsPro": 11,
+   "golsContra": 11,
+   "saldo": 0
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
+   "time": "Guarany de Bagé",
+   "escudo": "",
+   "pontos": 13,
+   "jogos": 12,
+   "vitorias": 3,
+   "empates": 4,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 17,
+   "saldo": -7
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
+   "time": "Avenida",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "pontos": 13,
+   "jogos": 12,
+   "vitorias": 2,
+   "empates": 7,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 14,
+   "saldo": -4
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
+   "time": "Caxias do Sul",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "pontos": 10,
+   "jogos": 9,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 9,
+   "saldo": 1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
+   "time": "Ypiranga",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "pontos": 10,
+   "jogos": 9,
+   "vitorias": 2,
+   "empates": 4,
+   "derrotas": 3,
+   "golsPro": 9,
+   "golsContra": 16,
+   "saldo": -7
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
+   "time": "São José-RS",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "pontos": 9,
+   "jogos": 9,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 4,
+   "golsPro": 9,
+   "golsContra": 11,
+   "saldo": -2
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
+   "time": "Inter Santa Maria",
+   "escudo": "",
+   "pontos": 9,
+   "jogos": 12,
+   "vitorias": 1,
+   "empates": 6,
+   "derrotas": 5,
+   "golsPro": 6,
+   "golsContra": 11,
+   "saldo": -5
+  }
+ ],
+ "jogos": [
+  {
+   "data": "2026-01-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-10",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Monsoon",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Caxias do Sul",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-11",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "São José-RS",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio do Vale",
+   "cidade": "Novo Hamburgo",
+   "mandante": "Novo Hamburgo",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "Avenida",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "São José-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "Internacional",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-15",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Olímpico Colosso da Lagoa",
+   "cidade": "Rio Grande do Sul",
+   "mandante": "Ypiranga",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio do Vale",
+   "cidade": "Novo Hamburgo",
+   "mandante": "Novo Hamburgo",
+   "visitante": "São José-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "Juventude",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-17",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Olímpico Colosso da Lagoa",
+   "cidade": "Rio Grande do Sul",
+   "mandante": "Ypiranga",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-18",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "Avenida",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Grêmio",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-22",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Caxias do Sul",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-23",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "São José-RS",
+   "visitante": "Monsoon",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-24",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Monsoon",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-25",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 4,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-26",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "São José-RS",
+   "visitante": "Caxias do Sul",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "Avenida",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio do Vale",
+   "cidade": "Novo Hamburgo",
+   "mandante": "Novo Hamburgo",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-01-31",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Estádio Olímpico Colosso da Lagoa",
+   "cidade": "Rio Grande do Sul",
+   "mandante": "Ypiranga",
+   "visitante": "São José-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-06",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "Avenida",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-06",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Monsoon",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-06",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-07",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-08",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-09",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-09",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-09",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "São José-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Monsoon",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-14",
+   "hora": "23:00",
+   "rodada": "1st Leg",
+   "local": "Estádio do Vale",
+   "cidade": "Novo Hamburgo",
+   "mandante": "Novo Hamburgo",
+   "visitante": "São José-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-15",
+   "hora": "20:30",
+   "rodada": "1st Leg",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-15",
+   "hora": "23:30",
+   "rodada": "1st Leg",
+   "local": "Estádio Olímpico Colosso da Lagoa",
+   "cidade": "Rio Grande do Sul",
+   "mandante": "Ypiranga",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-16",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-16",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Caxias do Sul",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-21",
+   "hora": "19:00",
+   "rodada": "2nd Leg - Tied on aggregate - São Luiz-RS advance 3-2 on penalties",
+   "local": "Estádio Francisco Stédile (Centenário)",
+   "cidade": "Caxias do Sul",
+   "mandante": "Caxias do Sul",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-21",
+   "hora": "21:30",
+   "rodada": "2nd Leg - Internacional advance 7-0 on aggregate",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Ypiranga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4935.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Tied on aggregate - Grêmio advance 4-1 on penalties",
+   "local": "Alfredo Jaconi",
+   "cidade": "Caxias do Sul",
+   "mandante": "Juventude",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-22",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Novo Hamburgo advance 5-3 on aggregate",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "São José-RS",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7389.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-23",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "Avenida",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-28",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio Antonio Magalhães Rossel",
+   "cidade": "Bage",
+   "mandante": "Guarany de Bagé",
+   "visitante": "Avenida",
+   "escudoMandante": "",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-28",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Presidente Vargas",
+   "cidade": "Fortaleza",
+   "mandante": "Inter Santa Maria",
+   "visitante": "Monsoon",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-01",
+   "hora": "21:00",
+   "rodada": "1st Leg",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-02",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estádio 19 de Outubro",
+   "cidade": "Ljuí",
+   "mandante": "São Luiz-RS",
+   "visitante": "Novo Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-06",
+   "hora": "23:00",
+   "rodada": "2nd Leg - São Luiz-RS win 2-1 on aggregate",
+   "local": "Estádio do Vale",
+   "cidade": "Novo Hamburgo",
+   "mandante": "Novo Hamburgo",
+   "visitante": "São Luiz-RS",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7391.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-07",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estadio dos Eucaliptos",
+   "cidade": "Porto Alegre",
+   "mandante": "Avenida",
+   "visitante": "Inter Santa Maria",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10266.png",
+   "escudoVisitante": "",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-07",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Francisco Novelletto Neto (Passo d'Areia)",
+   "cidade": "Porto Alegre",
+   "mandante": "Monsoon",
+   "visitante": "Guarany de Bagé",
+   "escudoMandante": "",
+   "escudoVisitante": "",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-08",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Grêmio win 4-1 on aggregate",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  }
+ ],
+ "avisos": []
+}

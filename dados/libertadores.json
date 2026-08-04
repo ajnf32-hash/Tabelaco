@@ -1,0 +1,3175 @@
+{
+ "id": "libertadores",
+ "nome": "CONMEBOL Libertadores",
+ "curto": "Libertadores",
+ "formato": "grupos-e-mata-mata",
+ "temporada": 2026,
+ "temporadaTabela": 2026,
+ "origemTabela": "fonte",
+ "atualizado": "2026-08-04T15:09:31.455Z",
+ "classificacao": [
+  {
+   "posicao": 1,
+   "grupo": "Grupo A",
+   "time": "Flamengo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "pontos": 16,
+   "jogos": 6,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 14,
+   "golsContra": 2,
+   "saldo": 12
+  },
+  {
+   "posicao": 2,
+   "grupo": "Grupo C",
+   "time": "Independiente Rivadavia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "pontos": 16,
+   "jogos": 6,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 15,
+   "golsContra": 6,
+   "saldo": 9
+  },
+  {
+   "posicao": 3,
+   "grupo": "Grupo H",
+   "time": "Rosario Central",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "pontos": 13,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 1,
+   "saldo": 8
+  },
+  {
+   "posicao": 4,
+   "grupo": "Grupo H",
+   "time": "Independiente del Valle",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "pontos": 13,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 11,
+   "golsContra": 6,
+   "saldo": 5
+  },
+  {
+   "posicao": 5,
+   "grupo": "Grupo D",
+   "time": "Universidad Católica",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "pontos": 13,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 8,
+   "golsContra": 4,
+   "saldo": 4
+  },
+  {
+   "posicao": 6,
+   "grupo": "Grupo F",
+   "time": "Cerro Porteño",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "pontos": 13,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 6,
+   "golsContra": 2,
+   "saldo": 4
+  },
+  {
+   "posicao": 7,
+   "grupo": "Grupo G",
+   "time": "Liga de Quito",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "pontos": 12,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 5,
+   "saldo": 3
+  },
+  {
+   "posicao": 8,
+   "grupo": "Grupo G",
+   "time": "Mirassol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "pontos": 12,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 4,
+   "saldo": 3
+  },
+  {
+   "posicao": 9,
+   "grupo": "Grupo F",
+   "time": "Palmeiras",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "pontos": 11,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 10,
+   "golsContra": 5,
+   "saldo": 5
+  },
+  {
+   "posicao": 10,
+   "grupo": "Grupo D",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "pontos": 11,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 8,
+   "golsContra": 3,
+   "saldo": 5
+  },
+  {
+   "posicao": 11,
+   "grupo": "Grupo E",
+   "time": "Corinthians",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "pontos": 11,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 8,
+   "golsContra": 4,
+   "saldo": 4
+  },
+  {
+   "posicao": 12,
+   "grupo": "Grupo B",
+   "time": "Coquimbo Unido",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "pontos": 10,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 6,
+   "saldo": 2
+  },
+  {
+   "posicao": 13,
+   "grupo": "Grupo E",
+   "time": "Platense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "pontos": 10,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 7,
+   "saldo": 1
+  },
+  {
+   "posicao": 14,
+   "grupo": "Grupo H",
+   "time": "UCV FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "pontos": 9,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 11,
+   "saldo": -4
+  },
+  {
+   "posicao": 15,
+   "grupo": "Grupo G",
+   "time": "Lanús",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "pontos": 9,
+   "jogos": 6,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 3,
+   "golsContra": 7,
+   "saldo": -4
+  },
+  {
+   "posicao": 16,
+   "grupo": "Grupo A",
+   "time": "Estudiantes de La Plata",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "pontos": 9,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 1,
+   "golsPro": 6,
+   "golsContra": 5,
+   "saldo": 1
+  },
+  {
+   "posicao": 17,
+   "grupo": "Grupo B",
+   "time": "Deportes Tolima",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 6,
+   "saldo": 1
+  },
+  {
+   "posicao": 18,
+   "grupo": "Grupo C",
+   "time": "Fluminense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 7,
+   "saldo": 0
+  },
+  {
+   "posicao": 19,
+   "grupo": "Grupo E",
+   "time": "Independiente Santa Fe",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 6,
+   "golsContra": 7,
+   "saldo": -1
+  },
+  {
+   "posicao": 20,
+   "grupo": "Grupo B",
+   "time": "Nacional",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 9,
+   "saldo": -2
+  },
+  {
+   "posicao": 21,
+   "grupo": "Grupo D",
+   "time": "Boca Juniors",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 5,
+   "saldo": 1
+  },
+  {
+   "posicao": 22,
+   "grupo": "Grupo A",
+   "time": "Independiente Medellín",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 11,
+   "saldo": -5
+  },
+  {
+   "posicao": 23,
+   "grupo": "Grupo F",
+   "time": "Sporting Cristal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "pontos": 6,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 4,
+   "golsPro": 6,
+   "golsContra": 9,
+   "saldo": -3
+  },
+  {
+   "posicao": 24,
+   "grupo": "Grupo B",
+   "time": "Universitario",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "pontos": 6,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 6,
+   "saldo": -1
+  },
+  {
+   "posicao": 25,
+   "grupo": "Grupo C",
+   "time": "Bolívar",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "pontos": 5,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 8,
+   "saldo": -2
+  },
+  {
+   "posicao": 26,
+   "grupo": "Grupo F",
+   "time": "Atlético Junior",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "pontos": 4,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 4,
+   "golsPro": 5,
+   "golsContra": 11,
+   "saldo": -6
+  },
+  {
+   "posicao": 27,
+   "grupo": "Grupo G",
+   "time": "Always Ready",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "pontos": 3,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 7,
+   "golsContra": 9,
+   "saldo": -2
+  },
+  {
+   "posicao": 28,
+   "grupo": "Grupo D",
+   "time": "Barcelona SC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "pontos": 3,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 2,
+   "golsContra": 12,
+   "saldo": -10
+  },
+  {
+   "posicao": 29,
+   "grupo": "Grupo E",
+   "time": "Peñarol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "pontos": 3,
+   "jogos": 6,
+   "vitorias": 0,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 4,
+   "golsContra": 8,
+   "saldo": -4
+  },
+  {
+   "posicao": 30,
+   "grupo": "Grupo C",
+   "time": "Deportivo La Guaira",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "pontos": 3,
+   "jogos": 6,
+   "vitorias": 0,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 13,
+   "saldo": -7
+  },
+  {
+   "posicao": 31,
+   "grupo": "Grupo A",
+   "time": "Cusco FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "pontos": 1,
+   "jogos": 6,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 4,
+   "golsContra": 12,
+   "saldo": -8
+  },
+  {
+   "posicao": 32,
+   "grupo": "Grupo H",
+   "time": "Libertad",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "pontos": 0,
+   "jogos": 6,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 6,
+   "golsPro": 4,
+   "golsContra": 13,
+   "saldo": -9
+  }
+ ],
+ "jogos": [
+  {
+   "data": "2026-02-04",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Hernando Siles",
+   "cidade": "La Paz",
+   "mandante": "The Strongest",
+   "visitante": "Deportivo Táchira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2687.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-05",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Río Parapití",
+   "cidade": "Pedro Juan Caballero",
+   "mandante": "2 de Mayo",
+   "visitante": "Alianza Lima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-06",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Centenario",
+   "cidade": "Montevideo",
+   "mandante": "Juventud",
+   "visitante": "Universidad Católica (Quito)",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9283.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-11",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Deportivo Táchira advance 5-3 on penalties",
+   "local": "Estadio Pueblo Nuevo",
+   "cidade": "San Cristóbal",
+   "mandante": "Deportivo Táchira",
+   "visitante": "The Strongest",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2687.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-12",
+   "hora": "00:30",
+   "rodada": "2nd Leg - 2 de Mayo advance 2-1 on aggregate",
+   "local": "Estadio Alejandro Villanueva",
+   "cidade": "Lima",
+   "mandante": "Alianza Lima",
+   "visitante": "2 de Mayo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2680.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-13",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Juventud advance 4-3 on penalties",
+   "local": "Estadio Olímpico Atahualpa",
+   "cidade": "Quito",
+   "mandante": "Universidad Católica (Quito)",
+   "visitante": "Juventud",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9283.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "golsMandante": 3,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-17",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Misael Delgado",
+   "cidade": "Valencia",
+   "mandante": "Carabobo",
+   "visitante": "Huachipato",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Río Parapití",
+   "cidade": "Pedro Juan Caballero",
+   "mandante": "2 de Mayo",
+   "visitante": "Sporting Cristal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Parque Alfredo Víctor Viera",
+   "cidade": "Montevideo",
+   "mandante": "Liverpool",
+   "visitante": "Independiente Medellín",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-18",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estadio El Teniente",
+   "cidade": "Rancagua",
+   "mandante": "O'Higgins",
+   "visitante": "Bahia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-19",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Banco Pichincha",
+   "cidade": "Quito",
+   "mandante": "Barcelona SC",
+   "visitante": "Argentinos Juniors",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-19",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Víctor Agustín Ugarte",
+   "cidade": "Potosí",
+   "mandante": "Nacional Potosí",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10311.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-19",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Parque Alfredo Víctor Viera",
+   "cidade": "Montevideo",
+   "mandante": "Juventud",
+   "visitante": "Guaraní",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7385.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-20",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Pueblo Nuevo",
+   "cidade": "San Cristóbal",
+   "mandante": "Deportivo Táchira",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-24",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Carabobo advance 3-1 on aggregate",
+   "local": "Estadio Huachipato-CAP Acero",
+   "cidade": "Talcahuano",
+   "mandante": "Huachipato",
+   "visitante": "Carabobo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Independiente Medellín advance 2-1 on aggregate",
+   "local": "Atanasio Girardot",
+   "cidade": "Medellin",
+   "mandante": "Independiente Medellín",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5492.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Sporting Cristal advance 5-4 on penalties",
+   "local": "Estadio Miguel Grau del Callao",
+   "cidade": "Callao",
+   "mandante": "Sporting Cristal",
+   "visitante": "2 de Mayo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6097.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-25",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate - O'Higgins advance 4-3 on penalties",
+   "local": "Arena Fonte Nova",
+   "cidade": "Salvador",
+   "mandante": "Bahia",
+   "visitante": "O'Higgins",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Barcelona SC advance 5-4 on penalties",
+   "local": "Diego Armando Maradona",
+   "cidade": "Buenos Aires",
+   "mandante": "Argentinos Juniors",
+   "visitante": "Barcelona SC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Botafogo advance 2-1 on aggregate",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Nacional Potosí",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10311.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-26",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Juventud advance 2-1 on aggregate",
+   "local": "Defensores del Chaco",
+   "cidade": "Asunción",
+   "mandante": "Guaraní",
+   "visitante": "Juventud",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7385.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-02-27",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate - Deportes Tolima advance 3-0 on penalties",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Deportivo Táchira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4818.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Banco Pichincha",
+   "cidade": "Quito",
+   "mandante": "Barcelona SC",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-04",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Misael Delgado",
+   "cidade": "Valencia",
+   "mandante": "Carabobo",
+   "visitante": "Sporting Cristal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-05",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio El Teniente",
+   "cidade": "Rancagua",
+   "mandante": "O'Higgins",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-06",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Gran Parque Central",
+   "cidade": "Montevideo",
+   "mandante": "Juventud",
+   "visitante": "Independiente Medellín",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Barcelona SC advance 2-1 on aggregate",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Barcelona SC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-11",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate - Sporting Cristal advance 3-2 on penalties",
+   "local": "Estadio Alejandro Villanueva",
+   "cidade": "Lima",
+   "mandante": "Sporting Cristal",
+   "visitante": "Carabobo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6037.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-12",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Deportes Tolima advance 2-1 on aggregate",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "O'Higgins",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6072.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-03-13",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Independiente Medellín advance 3-2 on aggregate",
+   "local": "Atanasio Girardot",
+   "cidade": "Medellin",
+   "mandante": "Independiente Medellín",
+   "visitante": "Juventud",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8416.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-07",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "Deportivo La Guaira",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-07",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Malvinas Argentinas (Mendoza)",
+   "cidade": "Mendoza",
+   "mandante": "Independiente Rivadavia",
+   "visitante": "Bolívar",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Municipal Villa Ingenio",
+   "cidade": "El Alto, La Paz.",
+   "mandante": "Always Ready",
+   "visitante": "Liga de Quito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Banco Pichincha",
+   "cidade": "Quito",
+   "mandante": "Barcelona SC",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio San Carlos de Apoquindo",
+   "cidade": "Santiago",
+   "mandante": "Universidad Católica",
+   "visitante": "Boca Juniors",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Universitario",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Francisco Sánchez Rumoroso",
+   "cidade": "Coquimbo",
+   "mandante": "Coquimbo Unido",
+   "visitante": "Nacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-08",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Lanús",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Atanasio Girardot",
+   "cidade": "Medellin",
+   "mandante": "Independiente Medellín",
+   "visitante": "Estudiantes de La Plata",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Atlético Junior",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Inca Garcilaso de la Vega",
+   "cidade": "Cusco",
+   "mandante": "Cusco FC",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Miguel Grau del Callao",
+   "cidade": "Callao",
+   "mandante": "Sporting Cristal",
+   "visitante": "Cerro Porteño",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Gigante de Arroyito",
+   "cidade": "Rosario",
+   "mandante": "Rosario Central",
+   "visitante": "Independiente del Valle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-09",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "UCV FC",
+   "visitante": "Libertad",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-10",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Ciudad de Vicente López",
+   "cidade": "Buenos Aires",
+   "mandante": "Platense",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-10",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Nemesio Camacho El Campín",
+   "cidade": "Bogota",
+   "mandante": "Independiente Santa Fe",
+   "visitante": "Peñarol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio ueno La Nueva Olla",
+   "cidade": "Asunción",
+   "mandante": "Cerro Porteño",
+   "visitante": "Atlético Junior",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Jorge Luis Hirschi",
+   "cidade": "La Plata",
+   "mandante": "Estudiantes de La Plata",
+   "visitante": "Cusco FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-14",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Gran Parque Central",
+   "cidade": "Montevideo",
+   "mandante": "Nacional",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Alberto José Armando (La Bombonera)",
+   "cidade": "Buenos Aires",
+   "mandante": "Boca Juniors",
+   "visitante": "Barcelona SC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Hernando Siles",
+   "cidade": "La Paz",
+   "mandante": "Bolívar",
+   "visitante": "Deportivo La Guaira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Rodrigo Paz Delgado",
+   "cidade": "Quito",
+   "mandante": "Liga de Quito",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Monumental de Lima",
+   "cidade": "Lima",
+   "mandante": "Universitario",
+   "visitante": "Coquimbo Unido",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Universidad Católica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-15",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Tigo La Huerta",
+   "cidade": "Asunción",
+   "mandante": "Libertad",
+   "visitante": "Rosario Central",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-16",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Independiente Santa Fe",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-16",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Independiente Rivadavia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-16",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Banco Guayaquil",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "UCV FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-16",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Ciudad de Lanús",
+   "cidade": "Buenos Aires",
+   "mandante": "Lanús",
+   "visitante": "Always Ready",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-16",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Sporting Cristal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-17",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Independiente Medellín",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-17",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Campeón del Siglo",
+   "cidade": "Montevideo",
+   "mandante": "Peñarol",
+   "visitante": "Platense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-28",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Ciudad de Lanús",
+   "cidade": "Buenos Aires",
+   "mandante": "Lanús",
+   "visitante": "Liga de Quito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-28",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Tigo La Huerta",
+   "cidade": "Asunción",
+   "mandante": "Libertad",
+   "visitante": "Independiente del Valle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "UCV FC",
+   "visitante": "Rosario Central",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Boca Juniors",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Coquimbo Unido",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Alejandro Villanueva",
+   "cidade": "Lima",
+   "mandante": "Sporting Cristal",
+   "visitante": "Atlético Junior",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Always Ready",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-29",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Ciudad de Vicente López",
+   "cidade": "Buenos Aires",
+   "mandante": "Platense",
+   "visitante": "Independiente Santa Fe",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Banco Pichincha",
+   "cidade": "Quito",
+   "mandante": "Barcelona SC",
+   "visitante": "Universidad Católica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio ueno La Nueva Olla",
+   "cidade": "Asunción",
+   "mandante": "Cerro Porteño",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Jorge Luis Hirschi",
+   "cidade": "La Plata",
+   "mandante": "Estudiantes de La Plata",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Monumental de Lima",
+   "cidade": "Lima",
+   "mandante": "Universitario",
+   "visitante": "Nacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "golsMandante": 4,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Hernando Siles",
+   "cidade": "La Paz",
+   "mandante": "Bolívar",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-04-30",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Malvinas Argentinas (Mendoza)",
+   "cidade": "Mendoza",
+   "mandante": "Independiente Rivadavia",
+   "visitante": "Deportivo La Guaira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-01",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Peñarol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-01",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Atanasio Girardot",
+   "cidade": "Medellin",
+   "mandante": "Independiente Medellín",
+   "visitante": "Cusco FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-05",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Gigante de Arroyito",
+   "cidade": "Rosario",
+   "mandante": "Rosario Central",
+   "visitante": "Libertad",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-05",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Alejandro Villanueva",
+   "cidade": "Lima",
+   "mandante": "Sporting Cristal",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Banco Pichincha",
+   "cidade": "Quito",
+   "mandante": "Barcelona SC",
+   "visitante": "Boca Juniors",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "UCV FC",
+   "visitante": "Independiente del Valle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Municipal Villa Ingenio",
+   "cidade": "El Alto, La Paz.",
+   "mandante": "Always Ready",
+   "visitante": "Lanús",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Inca Garcilaso de la Vega",
+   "cidade": "Cusco",
+   "mandante": "Cusco FC",
+   "visitante": "Estudiantes de La Plata",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-06",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "Deportivo La Guaira",
+   "visitante": "Bolívar",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Malvinas Argentinas (Mendoza)",
+   "cidade": "Mendoza",
+   "mandante": "Independiente Rivadavia",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Nemesio Camacho El Campín",
+   "cidade": "Bogota",
+   "mandante": "Independiente Santa Fe",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Nacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio San Carlos de Apoquindo",
+   "cidade": "Santiago",
+   "mandante": "Universidad Católica",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Liga de Quito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-07",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Ciudad de Vicente López",
+   "cidade": "Buenos Aires",
+   "mandante": "Platense",
+   "visitante": "Peñarol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-08",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Francisco Sánchez Rumoroso",
+   "cidade": "Coquimbo",
+   "mandante": "Coquimbo Unido",
+   "visitante": "Universitario",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-08",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Atanasio Girardot",
+   "cidade": "Medellin",
+   "mandante": "Independiente Medellín",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-08",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Romelio Martínez",
+   "cidade": "Barranquilla",
+   "mandante": "Atlético Junior",
+   "visitante": "Cerro Porteño",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-19",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Francisco Sánchez Rumoroso",
+   "cidade": "Coquimbo",
+   "mandante": "Coquimbo Unido",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-19",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Bolívar",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-19",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Gigante de Arroyito",
+   "cidade": "Rosario",
+   "mandante": "Rosario Central",
+   "visitante": "UCV FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-20",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Tigo La Huerta",
+   "cidade": "Asunción",
+   "mandante": "Always Ready",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-20",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio Nemesio Camacho El Campín",
+   "cidade": "Bogota",
+   "mandante": "Independiente Santa Fe",
+   "visitante": "Platense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-20",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Alberto José Armando (La Bombonera)",
+   "cidade": "Buenos Aires",
+   "mandante": "Boca Juniors",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-20",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Banco Guayaquil",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "Libertad",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-20",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Gran Parque Central",
+   "cidade": "Montevideo",
+   "mandante": "Nacional",
+   "visitante": "Universitario",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Estudiantes de La Plata",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Rodrigo Paz Delgado",
+   "cidade": "Quito",
+   "mandante": "Liga de Quito",
+   "visitante": "Lanús",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Cerro Porteño",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "",
+   "cidade": "",
+   "mandante": "Atlético Junior",
+   "visitante": "Sporting Cristal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "02:00",
+   "rodada": "",
+   "local": "Estadio Inca Garcilaso de la Vega",
+   "cidade": "Cusco",
+   "mandante": "Cusco FC",
+   "visitante": "Independiente Medellín",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-21",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Olímpico de la UCV",
+   "cidade": "Caracas",
+   "mandante": "Deportivo La Guaira",
+   "visitante": "Independiente Rivadavia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Campeón del Siglo",
+   "cidade": "Montevideo",
+   "mandante": "Peñarol",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-22",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio San Carlos de Apoquindo",
+   "cidade": "Santiago",
+   "mandante": "Universidad Católica",
+   "visitante": "Barcelona SC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-26",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Ciudad de Lanús",
+   "cidade": "Buenos Aires",
+   "mandante": "Lanús",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/12.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-26",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Rodrigo Paz Delgado",
+   "cidade": "Quito",
+   "mandante": "Liga de Quito",
+   "visitante": "Always Ready",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/19425.png",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Jorge Luis Hirschi",
+   "cidade": "La Plata",
+   "mandante": "Estudiantes de La Plata",
+   "visitante": "Independiente Medellín",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Cusco FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11995.png",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Gran Parque Central",
+   "cidade": "Montevideo",
+   "mandante": "Nacional",
+   "visitante": "Coquimbo Unido",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2684.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Monumental de Lima",
+   "cidade": "Lima",
+   "mandante": "Universitario",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2685.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Banco Guayaquil",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "Rosario Central",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-27",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio Tigo La Huerta",
+   "cidade": "Asunción",
+   "mandante": "Libertad",
+   "visitante": "UCV FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2670.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10094.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Ramón Tahuichi",
+   "cidade": "Santa Cruz",
+   "mandante": "Bolívar",
+   "visitante": "Independiente Rivadavia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2681.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Platense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Deportivo La Guaira",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17090.png",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Campeón del Siglo",
+   "cidade": "Montevideo",
+   "mandante": "Peñarol",
+   "visitante": "Independiente Santa Fe",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2683.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5488.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio ueno La Nueva Olla",
+   "cidade": "Asunción",
+   "mandante": "Cerro Porteño",
+   "visitante": "Sporting Cristal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2673.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-28",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Atlético Junior",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4815.png",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-29",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Alberto José Armando (La Bombonera)",
+   "cidade": "Buenos Aires",
+   "mandante": "Boca Juniors",
+   "visitante": "Universidad Católica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-05-29",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Barcelona SC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2686.png",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-11",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Independiente Rivadavia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-12",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Independiente del Valle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-12",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Jorge Luis Hirschi",
+   "cidade": "La Plata",
+   "mandante": "Estudiantes de La Plata",
+   "visitante": "Universidad Católica",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-12",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Cerro Porteño",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-12",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Ciudad de Vicente López",
+   "cidade": "Buenos Aires",
+   "mandante": "Platense",
+   "visitante": "Coquimbo Unido",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-13",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-13",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Liga de Quito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-14",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Gigante de Arroyito",
+   "cidade": "Rosario",
+   "mandante": "Rosario Central",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-18",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Malvinas Argentinas (Mendoza)",
+   "cidade": "Mendoza",
+   "mandante": "Independiente Rivadavia",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-19",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio Banco Guayaquil",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-19",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio San Carlos de Apoquindo",
+   "cidade": "Santiago",
+   "mandante": "Universidad Católica",
+   "visitante": "Estudiantes de La Plata",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-19",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio ueno La Nueva Olla",
+   "cidade": "Asunción",
+   "mandante": "Cerro Porteño",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-19",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio Francisco Sánchez Rumoroso",
+   "cidade": "Coquimbo",
+   "mandante": "Coquimbo Unido",
+   "visitante": "Platense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-20",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Cruzeiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-20",
+   "hora": "22:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Rodrigo Paz Delgado",
+   "cidade": "Quito",
+   "mandante": "Liga de Quito",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-21",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Rosario Central",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  }
+ ],
+ "avisos": []
+}
