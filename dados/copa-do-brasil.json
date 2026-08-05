@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-04T23:56:33.811Z",
+ "atualizado": "2026-08-05T01:55:17.612Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2566,17 +2566,17 @@
   {
    "data": "2026-08-04",
    "hora": "22:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Atlético-MG win 1-0 on aggregate",
    "local": "Alfredo Jaconi",
    "cidade": "Caxias do Sul",
    "mandante": "Juventude",
    "visitante": "Atlético-MG",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2596,7 +2596,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
