@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-06T12:27:40.306Z",
+ "atualizado": "2026-08-06T14:53:26.550Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2216,10 +2216,10 @@
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2690.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "golsMandante": 0,
-   "golsVisitante": 3,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
    "conferencia": "historico",
    "fontes": [
     "espn"
