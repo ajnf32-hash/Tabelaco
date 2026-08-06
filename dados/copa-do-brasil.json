@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-05T23:51:54.744Z",
+ "atualizado": "2026-08-06T01:47:02.420Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2606,17 +2606,17 @@
   {
    "data": "2026-08-05",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Cruzeiro win 2-0 on aggregate",
    "local": "Estadio Mineirão",
    "cidade": "Belo Horizonte",
    "mandante": "Cruzeiro",
    "visitante": "Chapecoense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2626,17 +2626,17 @@
   {
    "data": "2026-08-05",
    "hora": "22:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Grêmio win 2-1 on aggregate",
    "local": "Arena do Grêmio",
    "cidade": "Porto Alegre",
    "mandante": "Grêmio",
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2646,7 +2646,7 @@
   {
    "data": "2026-08-06",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Vasco da Gama lead 2-0 on aggregate",
    "local": "Estadio do Maracana",
    "cidade": "Rio de Janeiro",
    "mandante": "Fluminense",
@@ -2656,7 +2656,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -2666,7 +2666,7 @@
   {
    "data": "2026-08-06",
    "hora": "00:30",
-   "rodada": "2nd Leg - Palmeiras lead 3-0 on aggregate",
+   "rodada": "2nd Leg - Palmeiras lead 4-2 on aggregate",
    "local": "Arena Pantanal",
    "cidade": "Cuiabá",
    "mandante": "Fortaleza",
@@ -2676,7 +2676,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
