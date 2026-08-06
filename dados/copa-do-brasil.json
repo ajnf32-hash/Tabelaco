@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-06T01:47:02.420Z",
+ "atualizado": "2026-08-06T04:58:20.032Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2646,17 +2646,17 @@
   {
    "data": "2026-08-06",
    "hora": "00:30",
-   "rodada": "2nd Leg - Vasco da Gama lead 2-0 on aggregate",
+   "rodada": "2nd Leg - Vasco da Gama win 3-1 on aggregate",
    "local": "Estadio do Maracana",
    "cidade": "Rio de Janeiro",
    "mandante": "Fluminense",
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2666,17 +2666,17 @@
   {
    "data": "2026-08-06",
    "hora": "00:30",
-   "rodada": "2nd Leg - Palmeiras lead 4-2 on aggregate",
+   "rodada": "2nd Leg - Palmeiras advance 5-3 on aggregate",
    "local": "Arena Pantanal",
    "cidade": "Cuiabá",
    "mandante": "Fortaleza",
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
