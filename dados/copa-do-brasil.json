@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-06T14:53:23.070Z",
+ "atualizado": "2026-08-07T03:24:48.852Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2686,17 +2686,17 @@
   {
    "data": "2026-08-06",
    "hora": "23:00",
-   "rodada": "2nd Leg - Internacional lead 2-0 on aggregate",
+   "rodada": "2nd Leg - Internacional win 3-2 on aggregate",
    "local": "Neo Química Arena",
    "cidade": "Sao Paulo",
    "mandante": "Corinthians",
    "visitante": "Internacional",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2706,17 +2706,17 @@
   {
    "data": "2026-08-06",
    "hora": "23:00",
-   "rodada": "2nd Leg - Athletico Paranaense lead 2-0 on aggregate",
+   "rodada": "2nd Leg - Vitória win 4-2 on aggregate",
    "local": "Estadio Manoel Barradas",
    "cidade": "Salvador",
    "mandante": "Vitória",
    "visitante": "Athletico-PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
