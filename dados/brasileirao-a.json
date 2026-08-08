@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-07T23:55:57.483Z",
+ "atualizado": "2026-08-08T01:04:44.262Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3496,11 +3496,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-07-30",
@@ -3516,11 +3515,10 @@
    "golsVisitante": 4,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-07-30",
@@ -3536,11 +3534,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-07-31",

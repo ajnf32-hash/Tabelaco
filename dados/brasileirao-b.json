@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-07T23:56:04.087Z",
+ "atualizado": "2026-08-08T01:04:51.381Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4100,10 +4100,10 @@
    "visitante": "São Bernardo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4123,7 +4123,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
