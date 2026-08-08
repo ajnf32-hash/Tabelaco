@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-08T23:19:20.579Z",
+ "atualizado": "2026-08-08T23:52:03.492Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Atlético-MG",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "pontos": 29,
+   "jogos": 21,
+   "vitorias": 8,
+   "empates": 5,
+   "derrotas": 8,
+   "golsPro": 27,
+   "golsContra": 27,
+   "saldo": 0
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 29,
@@ -133,20 +147,6 @@
    "golsPro": 22,
    "golsContra": 20,
    "saldo": 2
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Atlético-MG",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 28,
-   "jogos": 20,
-   "vitorias": 8,
-   "empates": 4,
-   "derrotas": 8,
-   "golsPro": 25,
-   "golsContra": 25,
-   "saldo": 0
   },
   {
    "posicao": 11,
@@ -249,6 +249,20 @@
   {
    "posicao": 18,
    "grupo": "",
+   "time": "Remo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "pontos": 22,
+   "jogos": 22,
+   "vitorias": 5,
+   "empates": 7,
+   "derrotas": 10,
+   "golsPro": 26,
+   "golsContra": 36,
+   "saldo": -10
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 21,
@@ -259,20 +273,6 @@
    "golsPro": 23,
    "golsContra": 31,
    "saldo": -8
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Remo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "pontos": 21,
-   "jogos": 21,
-   "vitorias": 5,
-   "empates": 6,
-   "derrotas": 10,
-   "golsPro": 24,
-   "golsContra": 34,
-   "saldo": -10
   },
   {
    "posicao": 20,
@@ -3597,7 +3597,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-08",
