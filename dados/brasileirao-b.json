@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-08T20:56:30.192Z",
+ "atualizado": "2026-08-08T21:23:46.270Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "pontos": 34,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 10,
    "empates": 4,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 27,
-   "golsContra": 24,
-   "saldo": 3
+   "golsContra": 25,
+   "saldo": 2
   },
   {
    "posicao": 6,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 32,
+   "jogos": 21,
+   "vitorias": 7,
+   "empates": 11,
+   "derrotas": 3,
+   "golsPro": 26,
+   "golsContra": 19,
+   "saldo": 7
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 31,
@@ -107,7 +121,7 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
@@ -121,7 +135,7 @@
    "saldo": 7
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -135,7 +149,7 @@
    "saldo": -1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -147,20 +161,6 @@
    "golsPro": 21,
    "golsContra": 26,
    "saldo": -5
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 29,
-   "jogos": 20,
-   "vitorias": 6,
-   "empates": 11,
-   "derrotas": 3,
-   "golsPro": 25,
-   "golsContra": 19,
-   "saldo": 6
   },
   {
    "posicao": 12,
@@ -4148,7 +4148,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-08",

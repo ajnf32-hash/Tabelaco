@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-08T20:56:21.853Z",
+ "atualizado": "2026-08-08T21:23:39.663Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -168,13 +168,13 @@
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
    "pontos": 26,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 7,
    "empates": 5,
-   "derrotas": 8,
-   "golsPro": 25,
-   "golsContra": 23,
-   "saldo": 2
+   "derrotas": 9,
+   "golsPro": 26,
+   "golsContra": 25,
+   "saldo": 1
   },
   {
    "posicao": 13,
@@ -193,6 +193,20 @@
   {
    "posicao": 14,
    "grupo": "",
+   "time": "Grêmio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "pontos": 25,
+   "jogos": 21,
+   "vitorias": 6,
+   "empates": 7,
+   "derrotas": 8,
+   "golsPro": 24,
+   "golsContra": 27,
+   "saldo": -3
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 23,
@@ -205,7 +219,7 @@
    "saldo": -4
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Santos",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
@@ -219,7 +233,7 @@
    "saldo": -4
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
@@ -230,20 +244,6 @@
    "derrotas": 9,
    "golsPro": 23,
    "golsContra": 27,
-   "saldo": -4
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Grêmio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "pontos": 22,
-   "jogos": 20,
-   "vitorias": 5,
-   "empates": 7,
-   "derrotas": 8,
-   "golsPro": 22,
-   "golsContra": 26,
    "saldo": -4
   },
   {
@@ -3577,7 +3577,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-08",
