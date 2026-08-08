@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-08T21:23:46.270Z",
+ "atualizado": "2026-08-08T21:53:25.440Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4140,15 +4140,15 @@
    "visitante": "Sport",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-08",
