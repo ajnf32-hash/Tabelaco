@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-08T23:52:03.492Z",
+ "atualizado": "2026-08-09T01:01:46.093Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3553,11 +3553,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-08",
@@ -3589,15 +3588,15 @@
    "visitante": "Atlético-MG",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-08",
@@ -3612,7 +3611,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -3632,7 +3631,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
