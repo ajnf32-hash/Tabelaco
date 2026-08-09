@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T21:56:13.130Z",
+ "atualizado": "2026-08-09T22:23:22.645Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4200,10 +4200,10 @@
    "visitante": "Atlético Goianiense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4242,7 +4242,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
