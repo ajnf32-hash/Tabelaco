@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T17:03:10.977Z",
+ "atualizado": "2026-08-09T17:55:53.509Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3648,15 +3648,15 @@
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "golsMandante": 3,
-   "golsVisitante": 1,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",

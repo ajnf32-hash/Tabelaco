@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T17:03:16.467Z",
+ "atualizado": "2026-08-09T17:56:00.276Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4180,15 +4180,15 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "golsMandante": 2,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
