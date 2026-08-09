@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T21:00:26.331Z",
+ "atualizado": "2026-08-09T21:56:13.130Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 35,
-   "jogos": 20,
-   "vitorias": 10,
+   "pontos": 38,
+   "jogos": 21,
+   "vitorias": 11,
    "empates": 5,
    "derrotas": 5,
-   "golsPro": 22,
+   "golsPro": 23,
    "golsContra": 12,
-   "saldo": 10
+   "saldo": 11
   },
   {
    "posicao": 3,
@@ -84,16 +84,30 @@
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "pontos": 33,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 9,
    "empates": 6,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 32,
-   "golsContra": 19,
-   "saldo": 13
+   "golsContra": 20,
+   "saldo": 12
   },
   {
    "posicao": 7,
+   "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 32,
+   "jogos": 21,
+   "vitorias": 8,
+   "empates": 8,
+   "derrotas": 5,
+   "golsPro": 24,
+   "golsContra": 21,
+   "saldo": 3
+  },
+  {
+   "posicao": 8,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -105,20 +119,6 @@
    "golsPro": 26,
    "golsContra": 19,
    "saldo": 7
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 31,
-   "jogos": 20,
-   "vitorias": 8,
-   "empates": 7,
-   "derrotas": 5,
-   "golsPro": 23,
-   "golsContra": 20,
-   "saldo": 3
   },
   {
    "posicao": 9,
@@ -195,13 +195,13 @@
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 25,
-   "jogos": 20,
+   "pontos": 26,
+   "jogos": 21,
    "vitorias": 7,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 9,
-   "golsPro": 24,
-   "golsContra": 24,
+   "golsPro": 25,
+   "golsContra": 25,
    "saldo": 0
   },
   {
@@ -4203,7 +4203,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4219,15 +4219,15 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-09",

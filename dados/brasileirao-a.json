@@ -6,17 +6,17 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T21:00:19.532Z",
+ "atualizado": "2026-08-09T21:56:07.707Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 47,
-   "jogos": 21,
+   "pontos": 48,
+   "jogos": 22,
    "vitorias": 14,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 2,
    "golsPro": 38,
    "golsContra": 16,
@@ -83,10 +83,10 @@
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 32,
-   "jogos": 21,
+   "pontos": 33,
+   "jogos": 22,
    "vitorias": 8,
-   "empates": 8,
+   "empates": 9,
    "derrotas": 5,
    "golsPro": 29,
    "golsContra": 25,
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Internacional",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "pontos": 23,
+   "jogos": 22,
+   "vitorias": 5,
+   "empates": 8,
+   "derrotas": 9,
+   "golsPro": 23,
+   "golsContra": 27,
+   "saldo": -4
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Santos",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
    "pontos": 22,
@@ -233,21 +247,21 @@
    "saldo": -4
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
-   "time": "Internacional",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "time": "Vasco da Gama",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 22,
    "jogos": 21,
    "vitorias": 5,
    "empates": 7,
    "derrotas": 9,
    "golsPro": 23,
-   "golsContra": 27,
-   "saldo": -4
+   "golsContra": 31,
+   "saldo": -8
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
@@ -259,20 +273,6 @@
    "golsPro": 26,
    "golsContra": 36,
    "saldo": -10
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Vasco da Gama",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "pontos": 21,
-   "jogos": 20,
-   "vitorias": 5,
-   "empates": 6,
-   "derrotas": 9,
-   "golsPro": 23,
-   "golsContra": 31,
-   "saldo": -8
   },
   {
    "posicao": 20,
@@ -3671,12 +3671,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
@@ -3691,12 +3691,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "In Progress",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
