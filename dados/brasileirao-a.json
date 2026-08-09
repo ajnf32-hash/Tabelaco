@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T22:23:17.003Z",
+ "atualizado": "2026-08-09T22:57:44.899Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3668,15 +3668,15 @@
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "golsMandante": 0,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
@@ -3688,15 +3688,15 @@
    "visitante": "Internacional",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": 0,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
@@ -3711,7 +3711,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Scheduled",
    "fontes": [
     "espn",
     "fotmob"
@@ -3731,7 +3731,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "In Progress",
+   "situacao": "Scheduled",
    "fontes": [
     "espn",
     "fotmob"
