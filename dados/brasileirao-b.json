@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T23:28:29.508Z",
+ "atualizado": "2026-08-09T23:58:56.494Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4239,15 +4239,15 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-10",
