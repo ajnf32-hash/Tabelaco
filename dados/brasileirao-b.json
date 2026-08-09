@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T15:35:38.701Z",
+ "atualizado": "2026-08-09T16:23:55.933Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -14,13 +14,13 @@
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "pontos": 40,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 11,
    "empates": 7,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 23,
-   "golsContra": 12,
-   "saldo": 11
+   "golsContra": 14,
+   "saldo": 9
   },
   {
    "posicao": 2,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 31,
+   "jogos": 21,
+   "vitorias": 7,
+   "empates": 10,
+   "derrotas": 4,
+   "golsPro": 21,
+   "golsContra": 18,
+   "saldo": 3
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 30,
@@ -135,7 +149,7 @@
    "saldo": 7
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -149,7 +163,7 @@
    "saldo": -1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -161,20 +175,6 @@
    "golsPro": 21,
    "golsContra": 26,
    "saldo": -5
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 28,
-   "jogos": 20,
-   "vitorias": 6,
-   "empates": 10,
-   "derrotas": 4,
-   "golsPro": 19,
-   "golsContra": 18,
-   "saldo": 1
   },
   {
    "posicao": 13,
@@ -4183,12 +4183,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",

@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-09T15:35:33.870Z",
+ "atualizado": "2026-08-09T16:23:49.186Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "pontos": 33,
+   "jogos": 22,
+   "vitorias": 9,
+   "empates": 6,
+   "derrotas": 7,
+   "golsPro": 30,
+   "golsContra": 31,
+   "saldo": -1
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 32,
@@ -79,7 +93,7 @@
    "saldo": 4
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
@@ -93,7 +107,7 @@
    "saldo": 6
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
@@ -107,7 +121,7 @@
    "saldo": 2
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
@@ -119,20 +133,6 @@
    "golsPro": 27,
    "golsContra": 29,
    "saldo": -2
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Cruzeiro",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 30,
-   "jogos": 21,
-   "vitorias": 8,
-   "empates": 6,
-   "derrotas": 7,
-   "golsPro": 27,
-   "golsContra": 30,
-   "saldo": -3
   },
   {
    "posicao": 10,
@@ -210,13 +210,13 @@
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 23,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 6,
    "empates": 5,
-   "derrotas": 9,
-   "golsPro": 23,
-   "golsContra": 27,
-   "saldo": -4
+   "derrotas": 10,
+   "golsPro": 24,
+   "golsContra": 30,
+   "saldo": -6
   },
   {
    "posicao": 16,
@@ -3651,12 +3651,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-09",
