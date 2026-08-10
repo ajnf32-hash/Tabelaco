@@ -20,6 +20,17 @@
     /* preto e dourado: as cores da logo do Tabelaço. Quando o torcedor escolhe
        um time, estas duas viram as cores do clube dele. */
     --pri:#15161A; --sec:#D9A93C;
+    /* Estas quatro o app calcula sozinho a partir das duas de cima, em pintar().
+       Elas existem para que nenhum texto caia em cima de um fundo da mesma cor —
+       tem clube de preto e preto, de amarelo e branco, e tudo isso some. */
+    --sobrePri:#fff;         /* texto que se lê em cima da cor primária */
+    --priSolido:#15161A;     /* a primária quando ela carrega texto por cima */
+    --acc:#D9A93C;           /* cor de destaque usada SOBRE a primária */
+    --accTxt:#D9A93C;        /* o destaque quando ele é só texto na capa */
+    --sobreAcc:#15161A;      /* texto que se lê em cima do destaque */
+    --pastilha:#3a3b3f;      /* fundo da pastilha de campeonato não aberto */
+    --sobrePastilha:#fff;    /* texto que se lê nela */
+    --priTxt:#15161A;        /* a primária quando vira texto/marca no fundo branco */
     --txt:#1a1c20; --mut:#767c86; --linha:rgba(0,0,0,.10);
     --papel:#fff; --fundo:#f1f2f4;
     --ok:#1a8f4c; --alerta:#c2410c; --neutro:#94a3b8;
@@ -29,7 +40,9 @@
   body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--txt);
        background:radial-gradient(circle at 50% 30%,#22262b,#0d0f12);overflow:hidden;
        display:flex;align-items:center;justify-content:center}
-  #device{position:relative;width:100%;max-width:430px;height:min(940px,100dvh);
+  /* min-width:0 é o que segura o app dentro da tela: sem isso ele se recusa a
+     ficar menor que o conteúdo mais largo e vaza para fora nos celulares estreitos */
+  #device{position:relative;width:100%;max-width:430px;min-width:0;height:min(940px,100dvh);
        background:var(--pri);overflow:hidden;border-radius:20px;
        box-shadow:0 24px 70px rgba(0,0,0,.55);transition:background .45s ease}
   #frame{position:absolute;inset:0;border:9px solid var(--pri);pointer-events:none;z-index:90;
@@ -41,13 +54,13 @@
         padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease, background .45s ease;
         overflow:hidden;text-align:center}
   #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
-  #capa .topo{position:absolute;top:6.5%;width:100%;font-weight:800;color:var(--sec);
-        letter-spacing:3px;font-size:12px;opacity:.85}
+  #capa .topo{position:absolute;top:6.5%;width:100%;font-weight:800;color:var(--accTxt);
+        letter-spacing:3px;font-size:12px}
   #capa .emblema{width:62%;max-width:250px;height:auto;border-radius:22px;
         box-shadow:0 14px 34px rgba(0,0,0,.55)}
-  #capa .host{margin-top:20px;color:#e9e3d4;font-weight:700;letter-spacing:1.2px;font-size:12px;
-        max-width:78%;line-height:1.6}
-  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--sec);color:#15161A;border:none;
+  #capa .host{margin-top:20px;color:var(--sobrePri);opacity:.88;font-weight:700;
+        letter-spacing:1.2px;font-size:12px;max-width:78%;line-height:1.6}
+  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--acc);color:var(--sobreAcc);border:none;
         padding:15px 34px;border-radius:40px;font-size:17px;font-weight:900;
         box-shadow:0 6px 0 rgba(0,0,0,.45), 0 10px 20px rgba(0,0,0,.4);cursor:pointer;
         animation:pulso 1.8s infinite}
@@ -59,20 +72,38 @@
   /* ---------------- APP ---------------- */
   #app{height:100%;display:flex;flex-direction:column;background:var(--fundo)}
 
+  /* Faixa da marca. Ela é a única coisa da tela que NÃO troca de cor com o time:
+     fica sempre preta e dourada, que são as cores do Tabelaço. É de propósito —
+     com todo o resto vestido do clube, o preto faz a logo saltar. */
+  #marca{display:none;flex:0 0 auto;align-items:center;gap:14px;
+        padding:10px 32px;background:#0E0F12;
+        border-bottom:1px solid rgba(217,169,60,.32);
+        position:sticky;top:0;z-index:60}
+  #marca img{width:48px;height:48px;border-radius:13px;flex:0 0 auto;background:#000;
+        /* o anel dourado e o brilho por trás são o destaque: separam a logo do
+           preto da faixa, senão ela se dissolveria no fundo */
+        box-shadow:0 0 0 2px rgba(217,169,60,.60),
+                   0 0 22px rgba(217,169,60,.30),
+                   0 6px 16px rgba(0,0,0,.55)}
+  #marca .nome{font-size:21px;font-weight:900;letter-spacing:5px;text-transform:uppercase;
+        color:#D9A93C;text-shadow:0 2px 10px rgba(217,169,60,.35);line-height:1}
+  #marca .assina{margin-left:auto;font-size:10.5px;font-weight:800;letter-spacing:2.5px;
+        text-transform:uppercase;color:rgba(217,169,60,.55)}
+
   /* seletor de campeonatos: rolagem lateral com pastilhas */
   #seletor{flex:0 0 auto;display:flex;gap:7px;overflow-x:auto;padding:12px 12px 10px;
         background:var(--pri);scrollbar-width:none;transition:background .45s ease}
   #seletor::-webkit-scrollbar{display:none}
   #seletor button{flex:0 0 auto;font-size:12.5px;font-weight:800;border:none;border-radius:20px;
-        padding:9px 14px;background:rgba(255,255,255,.18);color:#fff;cursor:pointer;
+        padding:9px 14px;background:var(--pastilha);color:var(--sobrePastilha);cursor:pointer;
         white-space:nowrap;transition:background .2s,color .2s}
-  #seletor button.on{background:var(--sec);color:var(--txt)}
+  #seletor button.on{background:var(--acc);color:var(--sobreAcc)}
 
   header{padding:11px 14px 9px;text-align:center;flex:0 0 auto;background:var(--papel);
         border-bottom:1px solid var(--linha)}
   header h2{margin:0;font-size:16px;font-weight:900;color:var(--txt)}
   header .sub{font-size:10.5px;color:var(--mut);margin-top:3px}
-  header .torcida{margin-top:7px;background:var(--pri);color:#fff;border:none;border-radius:20px;
+  header .torcida{margin-top:7px;background:var(--priSolido);color:var(--sobrePri);border:none;border-radius:20px;
         padding:6px 14px;font-size:11.5px;font-weight:800;cursor:pointer;transition:background .45s}
 
   /* páginas que deslizam de lado */
@@ -80,7 +111,8 @@
         scroll-snap-type:x mandatory;scroll-behavior:smooth;
         -webkit-overflow-scrolling:touch;scrollbar-width:none}
   #carrossel::-webkit-scrollbar{display:none}
-  .pagina{flex:0 0 100%;width:100%;scroll-snap-align:center;overflow-y:auto;padding:12px 12px 18px}
+  .pagina{flex:0 0 100%;width:100%;scroll-snap-align:center;overflow-y:auto;
+        scrollbar-width:none;padding:12px 12px 18px}
   .pagina::-webkit-scrollbar{display:none}
   .titulo{font-size:12px;font-weight:900;color:var(--mut);letter-spacing:1.2px;
         text-transform:uppercase;margin:2px 0 9px;padding-left:2px}
@@ -89,14 +121,25 @@
         box-shadow:0 1px 3px rgba(0,0,0,.09)}
 
   /* tabelas */
-  table{width:100%;border-collapse:collapse;font-size:13px}
-  th{background:var(--pri);color:#fff;font-size:10px;font-weight:800;letter-spacing:.4px;
+  table{width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed}
+  th{background:var(--priSolido);color:var(--sobrePri);font-size:10px;font-weight:800;letter-spacing:.4px;
      padding:8px 4px;text-align:center;transition:background .45s ease}
   th.esq{text-align:left;padding-left:9px}
   td{padding:7px 4px;text-align:center;border-bottom:1px solid var(--linha)}
   td.esq{text-align:left;padding-left:9px;font-weight:600}
+  /* Em celular estreito o nome comprido empurrava as últimas colunas para fora da
+     cartela — sumiam o D e o SG. Agora cada coluna de número tem largura marcada e
+     o nome fica com o que sobrar, abreviando com reticências quando não couber. */
+  td.esq{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  /* em porcentagem, não em pixel: a mesma tabela aparece numa tela de celular de
+     390px e numa coluna de 520px do computador, e em pixel fixo as colunas de
+     número engoliriam o nome do time justamente na tela grande */
+  th.n{width:8%}
+  th.n.pos{width:7%}
+  th.n.larga{width:10%}
+  th.n.aprov{width:15%}
   tr:last-child td{border-bottom:none}
-  tr.meu{background:color-mix(in srgb, var(--pri) 13%, transparent)}
+  tr.meu{background:color-mix(in srgb, var(--priTxt) 13%, transparent)}
   tr.meu td.esq{font-weight:900}
   .pos{font-weight:800;color:var(--mut);width:24px}
   .pts{font-weight:900}
@@ -123,6 +166,8 @@
   .jogo .lado{flex:1 1 0;display:flex;align-items:center;gap:6px;min-width:0;font-size:13px}
   .jogo .lado.dir{justify-content:flex-end;text-align:right}
   .jogo .nome{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+  /* aqui o espaço já vem do gap do .lado, então o escudo não precisa de margem */
+  .jogo .escudo{margin-right:0;flex:0 0 auto}
   .jogo .placar{flex:0 0 auto;font-weight:900;font-size:15px;padding:0 4px;min-width:46px;text-align:center}
   .jogo .hora{flex:0 0 auto;font-size:11px;font-weight:800;color:var(--mut);min-width:46px;text-align:center}
   .jogo .selo{font-size:9px;font-weight:800;padding:1px 5px;border-radius:8px;margin-left:5px}
@@ -152,11 +197,111 @@
   #gaveta .fechar{margin:0 16px 14px;padding:11px;border:none;border-radius:11px;
         background:var(--fundo);font-weight:800;font-size:13.5px;cursor:pointer}
 
-  /* pontinhos de página */
+  /* pontinhos de página — no computador estes mesmos botões viram abas com nome */
   #pontos{flex:0 0 auto;display:flex;gap:6px;justify-content:center;padding:9px 0 12px;
         background:var(--papel);border-top:1px solid var(--linha)}
+  #pontos button{background:none;border:none;padding:0;margin:0;cursor:pointer;
+        display:flex;align-items:center;line-height:0}
   #pontos i{width:7px;height:7px;border-radius:50%;background:var(--linha);transition:.25s}
-  #pontos i.on{background:var(--pri);width:19px;border-radius:4px}
+  #pontos button.on i{background:var(--priTxt);width:19px;border-radius:4px}
+  #pontos span{display:none}
+
+  /* listas que se abrem em mais de uma coluna quando há espaço */
+  .colunas{display:grid;grid-template-columns:repeat(var(--cols,1),1fr);gap:22px;align-items:start}
+  .fluxo{columns:var(--cols,1);column-gap:22px}
+  .fluxo > *{break-inside:avoid}
+  .bloco-dia + .bloco-dia{margin-top:14px}
+
+  /* ------------------------------------------------------ TELA DE COMPUTADOR
+     Aqui não é o app de celular esticado. A página aberta ocupa a tela inteira,
+     sozinha, com fonte e escudo grandes, e as quatro trocam por abas em vez de
+     deslizar. Quando a lista é comprida demais para a altura da tela, ela se abre
+     em duas ou três colunas — assim ninguém precisa rolar para ver o lanterna.
+     Mesmas cores, mesmas peças, outro arranjo. */
+  @media (min-width: 920px) {
+    body{overflow:hidden;align-items:stretch;padding:0}
+    #device{max-width:none;width:100%;height:100dvh;border-radius:0;box-shadow:none}
+    #frame{display:none}
+
+    /* capa: o mesmo cartaz, respirando numa tela grande */
+    #capa{padding:0}
+    #capa .topo{top:38px;font-size:13px}
+    #capa .emblema{width:auto;max-width:none;height:min(320px,36vh)}
+    #capa .host{font-size:16px;max-width:560px;margin-top:28px}
+    #capa .entrar{font-size:20px;padding:18px 48px;margin-top:34px}
+    #mascote{width:auto;max-width:none;height:min(300px,34vh);left:5%;bottom:0}
+
+    /* barra dos campeonatos: todos visíveis, sem rolar de lado */
+    #seletor{flex-wrap:wrap;justify-content:center;overflow:visible;
+             padding:18px 32px 16px;gap:10px}
+    #seletor button{font-size:14px;padding:11px 20px}
+
+    header{padding:20px 32px 4px;border-bottom:none}
+    header h2{font-size:27px}
+    header .sub{font-size:13px;margin-top:6px}
+    header .torcida{margin-top:13px;font-size:13px;padding:9px 20px}
+
+    /* as quatro páginas viram abas. No HTML os pontinhos ficam por último, que é
+       o lugar deles no celular; aqui a ordem é remontada para campeonatos, título,
+       abas e conteúdo — de cima para baixo, do geral para o particular. */
+    #marca{display:flex;order:0}
+    #seletor{order:1}
+    header{order:2}
+    #pontos{order:3;gap:6px;padding:14px 32px 0;border-top:none;
+            border-bottom:1px solid var(--linha)}
+    #carrossel{order:4}
+    #pontos i{display:none}
+    #pontos button{padding:0 4px}
+    #pontos span{display:block;line-height:1;font-size:14px;font-weight:800;
+            letter-spacing:.6px;text-transform:uppercase;color:var(--mut);
+            padding:12px 18px 13px;border-bottom:3px solid transparent;
+            transition:color .2s, border-color .2s}
+    #pontos button:hover span{color:var(--txt)}
+    #pontos button.on span{color:var(--priTxt);border-bottom-color:var(--priTxt)}
+
+    /* uma página por tela, o nome dela já está na aba */
+    #carrossel{min-height:0}
+    .pagina.rola{scrollbar-width:thin}
+    .pagina.rola::-webkit-scrollbar{display:block;width:10px}
+    .pagina.rola::-webkit-scrollbar-thumb{background:rgba(0,0,0,.22);border-radius:6px}
+    .pagina{padding:26px max(32px, calc((100% - 1560px) / 2)) 30px}
+    .titulo{display:none}
+
+    /* tudo maior: é monitor, não celular */
+    .cartela{border-radius:14px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
+    table{font-size:15px}
+    th{font-size:11.5px;padding:12px 8px}
+    th.esq{padding-left:16px}
+    td{padding:10px 8px}
+    td.esq{padding-left:16px}
+    .pos{width:auto}
+    .escudo{width:26px;height:26px;vertical-align:-8px;margin-right:11px}
+    .jogo .escudo{width:30px;height:30px;vertical-align:middle}
+    .grupo{font-size:11.5px;padding:9px 16px}
+
+    .dia{font-size:12px;margin:0 4px 9px}
+    .bloco-dia + .bloco-dia{margin-top:20px}
+    .jogo{padding:13px 16px;gap:12px}
+    .jogo .lado{font-size:15.5px;gap:10px}
+    .jogo .placar{font-size:20px;min-width:74px}
+    .jogo .hora{font-size:13.5px;min-width:74px}
+
+    .barra-linha{padding:11px 16px;font-size:15px}
+    .barra-nome{flex:0 0 38%}
+    .barra-trilho{height:20px;border-radius:5px}
+    .barra-valor{flex:0 0 54px;font-size:14px}
+
+    .aviso{font-size:13px;padding:13px 16px;border-radius:12px;margin-bottom:16px}
+    .vazio{font-size:16px;padding:70px 24px}
+
+    /* a gaveta vira uma janelinha no meio da tela */
+    #gaveta{align-items:center;justify-content:center}
+    #gaveta .painel{width:440px;max-height:72%;border-radius:16px;padding:18px 0 0}
+    #gaveta h3{font-size:17px}
+    #gaveta .dica{font-size:12.5px}
+    #gaveta .lista button{font-size:15px;padding:11px 12px}
+    #gaveta .fechar{margin:0 16px 18px;font-size:14px}
+  }
 </style>
 </head>
 <body>
@@ -169,10 +314,15 @@
     <img class="emblema" src="img/logo-capa.jpg" alt="Tabelaço">
     <div class="host">Todos os campeonatos que importam, o ano inteiro</div>
     <button class="entrar" id="entrar">VER TABELAS ⚽</button>
-    <img id="mascote" src="img/mascote4.png" alt="" onerror="this.style.display='none'">
+    <img id="mascote" alt="" hidden>
   </div>
 
   <div id="app" hidden>
+    <div id="marca">
+      <img src="icon-192.png" alt="Tabelaço">
+      <span class="nome">Tabelaço</span>
+      <span class="assina">Cartago's Software</span>
+    </div>
     <div id="seletor"></div>
     <header>
       <h2 id="tituloCamp">—</h2>
@@ -211,10 +361,105 @@ const el = (t, c, h) => { const n = document.createElement(t); if (c) n.classNam
 const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;' }[c]));
 
 /* ------------------------------------------------------------------ cores */
+
+/* Tem clube de preto e preto (Flamengo), de amarelo e branco, de branco e branco.
+   Se o app simplesmente jogasse a cor do clube no fundo e um texto fixo por cima,
+   em vários times o texto sumia. Então ele mede o quanto cada cor reflete de luz
+   e escolhe, para cada fundo, entre texto branco e texto quase preto. Nenhum botão
+   fica com o texto da mesma cor do próprio botão. */
+
+const CLARO = '#ffffff', ESCURO = '#15161A';
+
+function rgb(hex) {
+  const h = String(hex || '').replace('#', '');
+  const c = h.length === 3 ? h[0]+h[0]+h[1]+h[1]+h[2]+h[2] : h;
+  return [0, 2, 4].map(i => parseInt(c.substr(i, 2), 16) || 0);
+}
+/* luz que a cor devolve, de 0 (preto) a 1 (branco) — fórmula da norma de acessibilidade */
+function luz(hex) {
+  const v = rgb(hex).map(n => n / 255)
+    .map(x => x <= 0.03928 ? x / 12.92 : Math.pow((x + 0.055) / 1.055, 2.4));
+  return 0.2126 * v[0] + 0.7152 * v[1] + 0.0722 * v[2];
+}
+/* quantas vezes uma cor é mais clara que a outra: 1 = idênticas, 21 = preto no branco */
+function razao(a, b) {
+  const x = luz(a), y = luz(b), alto = Math.max(x, y), baixo = Math.min(x, y);
+  return (alto + 0.05) / (baixo + 0.05);
+}
+/* o texto que se lê melhor em cima desta cor */
+function textoSobre(fundo) {
+  return razao(fundo, CLARO) >= razao(fundo, ESCURO) ? CLARO : ESCURO;
+}
+const hex = (r, g, b) => '#' + [r, g, b].map(n =>
+  Math.max(0, Math.min(255, Math.round(n))).toString(16).padStart(2, '0')).join('');
+
+/* escurece a cor até ela dar para ler em cima do branco do papel */
+function legivelNoBranco(cor) {
+  let [r, g, b] = rgb(cor);
+  for (let i = 0; i < 20 && razao(hex(r, g, b), CLARO) < 3.2; i++) {
+    r *= 0.85; g *= 0.85; b *= 0.85;
+  }
+  return hex(r, g, b);
+}
+
+/* mistura duas cores: 0 = só a primeira, 1 = só a segunda */
+function misturar(a, b, quanto) {
+  const x = rgb(a), y = rgb(b);
+  return hex(x[0] + (y[0]-x[0])*quanto, x[1] + (y[1]-x[1])*quanto, x[2] + (y[2]-x[2])*quanto);
+}
+
+/* Azul e verde médios são o caso difícil: nem o texto branco nem o preto se leem
+   bem em cima deles. Aqui o fundo é que cede — afunda ou clareia um tiquinho, até
+   o texto ficar nítido. É pouco, não descaracteriza a cor do clube. */
+function fundoLegivel(cor, texto) {
+  let [r, g, b] = rgb(cor);
+  const clarear = luz(texto) < luz(cor);
+  for (let i = 0; i < 24 && razao(hex(r, g, b), texto) < 4.6; i++) {
+    if (clarear) { r += (255-r)*0.08; g += (255-g)*0.08; b += (255-b)*0.08; }
+    else         { r *= 0.92; g *= 0.92; b *= 0.92; }
+  }
+  return hex(r, g, b);
+}
+
+/* Aqui é o contrário: quem cede é o texto, porque o fundo é a cor do clube na
+   capa inteira. Se nem clareando nem escurecendo o texto se lê, ele desiste da
+   cor do clube e vira branco ou preto. */
+function textoLegivelSobre(cor, fundo) {
+  let [r, g, b] = rgb(cor);
+  const clarear = luz(cor) > luz(fundo);
+  for (let i = 0; i < 24 && razao(hex(r, g, b), fundo) < 4.5; i++) {
+    if (clarear) { r += (255-r)*0.10; g += (255-g)*0.10; b += (255-b)*0.10; }
+    else         { r *= 0.90; g *= 0.90; b *= 0.90; }
+  }
+  return razao(hex(r, g, b), fundo) >= 4.5 ? hex(r, g, b) : textoSobre(fundo);
+}
+
 function pintar() {
   const c = (S.cores && S.cores.times[S.time]) || (S.cores && S.cores.padrao) || { p:'#009C3B', s:'#FFD400' };
-  document.documentElement.style.setProperty('--pri', c.p);
-  document.documentElement.style.setProperty('--sec', c.s);
+
+  /* a cor de destaque vai sempre em cima da primária (botão de entrar, pastilha
+     do campeonato aberto). Se a secundária do clube for parecida demais com a
+     primária, ela sumiria ali — nesse caso o destaque vira branco ou preto. */
+  const acc = razao(c.s, c.p) >= 1.8 ? c.s : textoSobre(c.p);
+
+  /* a pastilha do campeonato não aberto é a primária com um véu por cima; ela é
+     um fundo por direito próprio, então também ganha o texto que se lê nela */
+  const sobrePri = textoSobre(c.p);
+  const pastilha = misturar(c.p, sobrePri, 0.18);
+  const sobreAcc = textoSobre(acc);
+
+  const r = document.documentElement.style;
+  r.setProperty('--pri', c.p);
+  r.setProperty('--sec', c.s);
+  r.setProperty('--sobrePri', sobrePri);
+  r.setProperty('--priSolido', fundoLegivel(c.p, sobrePri));
+  r.setProperty('--acc', fundoLegivel(acc, sobreAcc));
+  r.setProperty('--sobreAcc', sobreAcc);
+  r.setProperty('--pastilha', fundoLegivel(pastilha, textoSobre(pastilha)));
+  r.setProperty('--sobrePastilha', textoSobre(pastilha));
+  r.setProperty('--accTxt', textoLegivelSobre(acc, c.p));
+  r.setProperty('--priTxt', legivelNoBranco(c.p));
+
   const meta = document.querySelector('meta[name=theme-color]');
   if (meta) meta.setAttribute('content', c.p);
 }
@@ -227,16 +472,16 @@ function apelido(nome) {
   return String(nome || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
-/* O mascote da capa é o do time do coração. Enquanto o Annibal não desenhar o
-   do clube escolhido, fica o mascote padrão do Tabelaço. */
+/* O mascote da capa é sempre o do time do coração. Não existe mascote genérico:
+   sem time escolhido, ou sem o desenho daquele clube, a capa fica limpa. */
 function trocarMascote() {
   const img = $('#mascote');
   if (!img) return;
-  const padrao = 'img/mascote4.png';
-  if (!S.time) { img.src = padrao; img.style.display = ''; return; }
-  img.onerror = () => { img.onerror = null; img.src = padrao; };
+  img.hidden = true;
+  if (!S.time) { img.removeAttribute('src'); return; }
+  img.onload  = () => { img.hidden = false; };
+  img.onerror = () => { img.onerror = null; img.hidden = true; };
   img.src = `img/mascotes/${apelido(S.time)}.png`;
-  img.style.display = '';
 }
 
 function escudoHTML(time, urlFonte) {
@@ -276,11 +521,47 @@ function desenharSeletor() {
   }
 }
 
+/* -------------------------------------------------- quantas colunas cabem */
+
+const telaGrande = () => matchMedia('(min-width: 920px)').matches;
+
+/* No computador a página aberta ocupa a tela sozinha e não deve pedir barra de
+   rolagem. Uma lista de 20 times cabe numa coluna; a Champions, com 36, não —
+   então ela se abre em duas, lado a lado. A conta é simples: quanta altura a
+   lista pediria contra a altura que sobra na tela. */
+/* O teto de colunas vem da largura: espremer uma tabela de time em menos de 400px
+   volta ao problema de cortar nome e coluna. Monitor largo aceita quatro; um
+   notebook menor, duas ou três. */
+function maxColunas() {
+  return Math.max(1, Math.min(4, Math.floor(innerWidth / 480)));
+}
+
+function colunasEmAltura(alturaPedida) {
+  if (!telaGrande()) return 1;
+  /* fora a faixa da marca, o seletor de campeonatos, o cabeçalho e as abas */
+  const sobra = Math.max(260, innerHeight - 380);
+  return Math.min(maxColunas(), Math.max(1, Math.ceil(alturaPedida / sobra)));
+}
+
+/* corta a lista em pedaços de tamanho parecido, um por coluna */
+function fatiar(lista, n) {
+  if (n <= 1) return [lista];
+  const por = Math.ceil(lista.length / n), fatias = [];
+  for (let i = 0; i < lista.length; i += por) fatias.push(lista.slice(i, i + por));
+  return fatias;
+}
+
+const ALT_LINHA  = 47;   // altura de uma linha de tabela no computador
+const ALT_BARRA  = 42;   // altura de uma linha de saldo de gols
+const ALT_JOGO   = 56;   // altura de um confronto
+const ALT_DIA    = 34;   // altura do rótulo de dia
+
 /* ------------------------------------------------------------- páginas */
-function tabelaClassificacao(d) {
+function tabelaClassificacao(d, forcarCols) {
   if (!d.classificacao.length) {
+    const ondeVerJogos = telaGrande() ? 'Abra a aba Jogos aqui em cima.' : 'Deslize para o lado para ver os jogos.';
     return `<div class="vazio">${d.formato === 'mata-mata'
-      ? 'A Copa do Brasil é mata-mata: não tem tabela de classificação.<br>Deslize para o lado para ver os jogos.'
+      ? `A Copa do Brasil é mata-mata: não tem tabela de classificação.<br>${ondeVerJogos}`
       : 'A classificação deste campeonato ainda não saiu.'}</div>`;
   }
   let html = '';
@@ -290,60 +571,85 @@ function tabelaClassificacao(d) {
       Como este campeonato tem fases diferentes, os times aparecem com número de jogos
       diferente — é desempenho geral, não a classificação oficial.</div>`;
   }
-  html += '<div class="cartela"><table><thead><tr>' +
-    '<th></th><th class="esq">Time</th><th>P</th><th>J</th><th>V</th><th>E</th><th>D</th><th>SG</th>' +
-    '</tr></thead><tbody>';
-  let grupoAtual = null;
-  for (const t of d.classificacao) {
-    if (t.grupo && t.grupo !== grupoAtual) {
-      grupoAtual = t.grupo;
-      html += `<tr><td class="grupo" colspan="8">${esc(t.grupo)}</td></tr>`;
+
+  const cabecalho = '<thead><tr>' +
+    '<th class="n pos"></th><th class="esq">Time</th><th class="n">P</th><th class="n">J</th>' +
+    '<th class="n">V</th><th class="n">E</th><th class="n">D</th><th class="n larga">SG</th>' +
+    '</tr></thead>';
+  const cols = forcarCols || colunasEmAltura(d.classificacao.length * ALT_LINHA + 44);
+
+  html += `<div class="colunas" style="--cols:${cols}">`;
+  for (const fatia of fatiar(d.classificacao, cols)) {
+    html += '<div class="cartela"><table>' + cabecalho + '<tbody>';
+    /* recomeça em null a cada coluna: se um grupo continua na coluna seguinte,
+       o nome dele aparece de novo lá em cima, senão a coluna fica órfã */
+    let grupoAtual = null;
+    for (const t of fatia) {
+      if (t.grupo && t.grupo !== grupoAtual) {
+        grupoAtual = t.grupo;
+        html += `<tr><td class="grupo" colspan="8">${esc(t.grupo)}</td></tr>`;
+      }
+      const meu = t.time === S.time ? ' class="meu"' : '';
+      html += `<tr${meu}><td class="pos">${t.posicao}</td>` +
+        `<td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+        `<td class="pts">${t.pontos}</td><td>${t.jogos}</td><td>${t.vitorias}</td>` +
+        `<td>${t.empates}</td><td>${t.derrotas}</td>` +
+        `<td>${t.saldo > 0 ? '+' : ''}${t.saldo}</td></tr>`;
     }
-    const meu = t.time === S.time ? ' class="meu"' : '';
-    html += `<tr${meu}><td class="pos">${t.posicao}</td>` +
-      `<td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
-      `<td class="pts">${t.pontos}</td><td>${t.jogos}</td><td>${t.vitorias}</td>` +
-      `<td>${t.empates}</td><td>${t.derrotas}</td>` +
-      `<td>${t.saldo > 0 ? '+' : ''}${t.saldo}</td></tr>`;
+    html += '</tbody></table></div>';
   }
-  return html + '</tbody></table></div>';
+  return html + '</div>';
 }
 
-function paginaEstatisticas(d) {
+function paginaEstatisticas(d, forcarCols) {
   if (!d.classificacao.length) return '<div class="vazio">Sem estatísticas para este campeonato.</div>';
   const ordenado = [...d.classificacao].sort((a, b) => b.vitorias - a.vitorias || a.derrotas - b.derrotas);
-  let html = '<div class="cartela"><table><thead><tr>' +
-    '<th class="esq">Time</th><th>Vitórias</th><th>Empates</th><th>Derrotas</th><th>Aproveit.</th>' +
-    '</tr></thead><tbody>';
-  for (const t of ordenado) {
-    const max = t.jogos * 3;
-    const apr = max ? Math.round(t.pontos / max * 100) : 0;
-    const meu = t.time === S.time ? ' class="meu"' : '';
-    html += `<tr${meu}><td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
-      `<td class="pts">${t.vitorias}</td><td>${t.empates}</td><td>${t.derrotas}</td>` +
-      `<td><b>${apr}%</b></td></tr>`;
+  const cabecalho = '<thead><tr>' +
+    '<th class="esq">Time</th><th class="n aprov">Vitórias</th><th class="n aprov">Empates</th>' +
+    '<th class="n aprov">Derrotas</th><th class="n aprov">Aproveit.</th>' +
+    '</tr></thead>';
+  const cols = forcarCols || colunasEmAltura(ordenado.length * ALT_LINHA + 44);
+
+  let html = `<div class="colunas" style="--cols:${cols}">`;
+  for (const fatia of fatiar(ordenado, cols)) {
+    html += '<div class="cartela"><table>' + cabecalho + '<tbody>';
+    for (const t of fatia) {
+      const max = t.jogos * 3;
+      const apr = max ? Math.round(t.pontos / max * 100) : 0;
+      const meu = t.time === S.time ? ' class="meu"' : '';
+      html += `<tr${meu}><td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+        `<td class="pts">${t.vitorias}</td><td>${t.empates}</td><td>${t.derrotas}</td>` +
+        `<td><b>${apr}%</b></td></tr>`;
+    }
+    html += '</tbody></table></div>';
   }
-  return html + '</tbody></table></div>';
+  return html + '</div>';
 }
 
-function paginaSaldo(d) {
+function paginaSaldo(d, forcarCols) {
   if (!d.classificacao.length) return '<div class="vazio">Sem saldo de gols para este campeonato.</div>';
   const ordenado = [...d.classificacao].sort((a, b) => b.saldo - a.saldo);
   const maior = Math.max(1, ...ordenado.map(t => Math.abs(t.saldo)));
-  let html = '<div class="cartela">';
-  for (const t of ordenado) {
-    const frac = Math.abs(t.saldo) / maior * 50;   // metade da barra, para cada lado
-    const pos = t.saldo >= 0;
-    const estilo = pos
-      ? `left:50%;width:${frac}%;background:var(--ok)`
-      : `right:50%;width:${frac}%;background:var(--alerta)`;
-    const meu = t.time === S.time ? 'style="font-weight:900"' : '';
-    html += `<div class="barra-linha">` +
-      `<div class="barra-nome" ${meu}>${esc(t.time)}</div>` +
-      `<div class="barra-trilho"><div class="barra-meio"></div>` +
-      `<div class="barra-preenche" style="${estilo}"></div></div>` +
-      `<div class="barra-valor" style="color:${pos ? 'var(--ok)' : 'var(--alerta)'}">` +
-      `${t.saldo > 0 ? '+' : ''}${t.saldo}</div></div>`;
+  const cols = forcarCols || colunasEmAltura(ordenado.length * ALT_BARRA);
+
+  let html = `<div class="colunas" style="--cols:${cols}">`;
+  for (const fatia of fatiar(ordenado, cols)) {
+    html += '<div class="cartela">';
+    for (const t of fatia) {
+      const frac = Math.abs(t.saldo) / maior * 50;   // metade da barra, para cada lado
+      const pos = t.saldo >= 0;
+      const estilo = pos
+        ? `left:50%;width:${frac}%;background:var(--ok)`
+        : `right:50%;width:${frac}%;background:var(--alerta)`;
+      const meu = t.time === S.time ? 'style="font-weight:900"' : '';
+      html += `<div class="barra-linha">` +
+        `<div class="barra-nome" ${meu}>${esc(t.time)}</div>` +
+        `<div class="barra-trilho"><div class="barra-meio"></div>` +
+        `<div class="barra-preenche" style="${estilo}"></div></div>` +
+        `<div class="barra-valor" style="color:${pos ? 'var(--ok)' : 'var(--alerta)'}">` +
+        `${t.saldo > 0 ? '+' : ''}${t.saldo}</div></div>`;
+    }
+    html += '</div>';
   }
   return html + '</div>';
 }
@@ -356,7 +662,7 @@ function dataBonita(iso) {
   return `${DIAS[dt.getUTCDay()]}, ${d} de ${MESES[m - 1]}`;
 }
 
-function paginaJogos(d) {
+function paginaJogos(d, forcarCols, limite) {
   if (!d.jogos.length) return '<div class="vazio">Nenhum jogo cadastrado ainda.<br>O campeonato pode não ter começado.</div>';
 
   /* mostra a rodada em volta de hoje: os últimos que aconteceram e os próximos */
@@ -366,6 +672,14 @@ function paginaJogos(d) {
   const mostrar = [...passados.slice(-12), ...futuros.slice(0, 10)];
   if (!mostrar.length) return '<div class="vazio">Sem jogos por perto.</div>';
 
+  /* No computador a página não rola: o que não couber na tela tem que sair. Vão
+     saindo os jogos mais antigos, que são os que menos interessam — o que já
+     aconteceu ontem importa mais do que o que aconteceu há três semanas. Quem diz
+     quantos cabem é o ajustarColunas, que mede a tela depois de desenhar. */
+  const lista = (limite && limite < mostrar.length)
+    ? mostrar.slice(mostrar.length - limite)
+    : mostrar;
+
   let html = '';
   if (d.avisos && d.avisos.length) {
     html += `<div class="aviso"><b>${d.avisos.length} jogo(s) em conferência.</b>
@@ -373,12 +687,21 @@ function paginaJogos(d) {
       o resultado até elas concordarem. Melhor não mostrar do que mostrar errado.</div>`;
   }
 
+  /* os jogos correm em coluna. No computador, se a lista passa da altura da tela,
+     ela transborda para uma segunda ou terceira coluna do lado, e cada dia fica
+     inteiro na sua — nunca com o rótulo numa coluna e os jogos na outra. */
+  const dias = new Set(lista.map(j => j.data)).size;
+  const cols = forcarCols || colunasEmAltura(lista.length * ALT_JOGO + dias * ALT_DIA);
+  html += `<div class="fluxo" style="--cols:${cols}">`;
+
   let diaAtual = null;
-  for (const j of mostrar) {
+  let dentroDeUmDia = false;
+  for (const j of lista) {
     if (j.data !== diaAtual) {
       diaAtual = j.data;
-      if (html.includes('<div class="cartela">')) html += '</div>';
-      html += `<div class="dia">${dataBonita(j.data)}</div><div class="cartela">`;
+      if (dentroDeUmDia) html += '</div></div>';
+      html += `<div class="bloco-dia"><div class="dia">${dataBonita(j.data)}</div><div class="cartela">`;
+      dentroDeUmDia = true;
     }
     const temPlacar = j.golsMandante !== null && j.golsVisitante !== null;
     const meio = temPlacar
@@ -388,27 +711,31 @@ function paginaJogos(d) {
     if (j.conferencia === 'divergente') selo = '<span class="selo div">conferindo</span>';
     else if (j.conferencia === 'sozinho' && temPlacar) selo = '<span class="selo prel">preliminar</span>';
 
-    const destaque = t => (t === S.time ? 'style="font-weight:900;color:var(--pri)"' : '');
+    const destaque = t => (t === S.time ? 'style="font-weight:900;color:var(--priTxt)"' : '');
+    /* escudo do lado do nome: à esquerda do mandante, à direita do visitante,
+       espelhando os dois lados do confronto */
     html += `<div class="jogo">` +
-      `<div class="lado"><span class="nome" ${destaque(j.mandante)}>${esc(j.mandante)}</span></div>` +
+      `<div class="lado">${escudoHTML(j.mandante, j.escudoMandante)}` +
+        `<span class="nome" ${destaque(j.mandante)}>${esc(j.mandante)}</span></div>` +
       meio +
-      `<div class="lado dir"><span class="nome" ${destaque(j.visitante)}>${esc(j.visitante)}</span></div>` +
+      `<div class="lado dir"><span class="nome" ${destaque(j.visitante)}>${esc(j.visitante)}</span>` +
+        `${escudoHTML(j.visitante, j.escudoVisitante)}</div>` +
       `</div>` +
       (selo ? `<div class="rodada-lbl">${selo}</div>` : '');
   }
-  html += '</div>';
-  return html;
+  if (dentroDeUmDia) html += '</div></div>';
+  return html + '</div>';
 }
 
 /* --------------------------------------------------------------- render */
 const PAGINAS = [
   { nome: 'Classificação', faz: tabelaClassificacao },
-  { nome: 'Jogos',         faz: paginaJogos },
+  { nome: 'Jogos',         faz: paginaJogos, podeEncurtar: true },
   { nome: 'Estatísticas',  faz: paginaEstatisticas },
   { nome: 'Saldo de gols', faz: paginaSaldo }
 ];
 
-function desenharTudo() {
+function desenharTudo(manterPagina) {
   const d = S.dados[S.atual];
   if (!d) return;
 
@@ -427,16 +754,71 @@ function desenharTudo() {
     pag.innerHTML = `<div class="titulo">${p.nome}</div>` + p.faz(d);
     cx.appendChild(pag);
   }
-  cx.scrollLeft = 0;
-  S.pagina = 0;
+  /* ao trocar de campeonato começa da primeira página; ao só redesenhar (mudou o
+     tamanho da janela, escolheu outro time) fica onde o torcedor estava */
+  const fica = manterPagina ? Math.min(S.pagina, PAGINAS.length - 1) : 0;
+  S.pagina = fica;
+  cx.scrollLeft = fica * cx.clientWidth;
   desenharPontos();
   pintar();
+  ajustarColunas(d);
 }
 
+/* A conta de quantas colunas cabem é só uma estimativa: nome de time, escudo e
+   rótulo de dia variam de altura conforme o campeonato. Depois de desenhar, o app
+   mede de verdade — se sobrou coisa para fora da tela, ele abre mais uma coluna e
+   redesenha aquela página. Assim ninguém precisa rolar para ver o lanterna. */
+function ajustarColunas(d) {
+  if (!telaGrande() || !d) return;
+  const pgs = document.querySelectorAll('#carrossel .pagina');
+  /* enquanto a capa está por cima o app ainda não tem altura nenhuma; medir aqui
+     daria zero e a conta sairia errada. Nesse caso a medição fica para quando o
+     torcedor entrar, no clique do botão. */
+  if (!pgs.length || pgs[0].clientHeight < 100) return;
+  PAGINAS.forEach((p, i) => {
+    const pag = pgs[i];
+    if (!pag) return;
+    const caixa = pag.querySelector('.colunas, .fluxo');
+    let n = caixa ? Number(caixa.style.getPropertyValue('--cols')) || 1 : 1;
+    const teto = maxColunas();
+    const sobra = () => pag.scrollHeight > pag.clientHeight + 6;
+    const redesenhar = (cols, lim) => {
+      pag.innerHTML = `<div class="titulo">${p.nome}</div>` + p.faz(d, cols, lim);
+    };
+
+    while (n < teto && sobra()) { n++; redesenhar(n); }
+
+    /* Se nem no número máximo de colunas coube, a página de jogos ainda pode
+       encolher: vai tirando o jogo mais antigo, um a um, até caber. Tabela de
+       classificação não faz isso — não dá para esconder time de tabela. */
+    if (p.podeEncurtar) {
+      let lim = pag.querySelectorAll('.jogo').length;
+      while (lim > 6 && sobra()) { lim--; redesenhar(n, lim); }
+    }
+    /* Campeonato de 36 times em notebook pequeno não cabe de jeito nenhum. Aí a
+       página volta a rolar — mas com a barra à mostra, para o torcedor saber que
+       tem mais coisa embaixo. Esconder a barra e cortar o conteúdo seria pior. */
+    pag.classList.toggle('rola', pag.scrollHeight > pag.clientHeight + 6);
+  });
+}
+
+/* No celular são pontinhos, que só mostram em qual página o dedo está.
+   No computador os mesmos botões viram abas com o nome de cada página. */
 function desenharPontos() {
   const c = $('#pontos');
   c.innerHTML = '';
-  PAGINAS.forEach((_, i) => c.appendChild(el('i', i === S.pagina ? 'on' : '')));
+  PAGINAS.forEach((p, i) => {
+    const b = el('button', i === S.pagina ? 'on' : '', `<i></i><span>${esc(p.nome)}</span>`);
+    b.onclick = () => irParaPagina(i);
+    c.appendChild(b);
+  });
+}
+
+function irParaPagina(i) {
+  const cx = $('#carrossel');
+  cx.scrollTo({ left: i * cx.clientWidth, behavior: 'smooth' });
+  S.pagina = i;
+  desenharPontos();
 }
 
 /* --------------------------------------------------- time do coração */
@@ -471,7 +853,7 @@ function escolherTime(nome) {
   $('#gaveta').classList.remove('abre');
   pintar();
   trocarMascote();
-  desenharTudo();
+  desenharTudo(true);
 }
 
 /* ----------------------------------------------------------- arranque */
@@ -497,11 +879,23 @@ async function iniciar() {
 $('#entrar').onclick = () => {
   $('#capa').classList.add('sair');
   $('#app').hidden = false;
+  /* agora que o app apareceu ele tem altura de verdade: dá para conferir se cada
+     página coube na tela e abrir mais uma coluna onde não coube */
+  requestAnimationFrame(() => ajustarColunas(S.dados[S.atual]));
   setTimeout(() => { $('#capa').style.display = 'none'; }, 520);
 };
 $('#btTorcida').onclick = abrirGaveta;
 $('#btFechar').onclick = () => $('#gaveta').classList.remove('abre');
 $('#gaveta').onclick = e => { if (e.target.id === 'gaveta') $('#gaveta').classList.remove('abre'); };
+
+/* Quantas colunas cabem depende da altura da janela, então mudar o tamanho da
+   tela — ou virar o celular — pede um redesenho. Espera meio segundo para não
+   redesenhar a cada pixel enquanto o canto da janela está sendo arrastado. */
+let redesenho;
+addEventListener('resize', () => {
+  clearTimeout(redesenho);
+  redesenho = setTimeout(() => { if (S.atual) desenharTudo(true); }, 250);
+}, { passive: true });
 
 $('#carrossel').addEventListener('scroll', () => {
   const cx = $('#carrossel');
