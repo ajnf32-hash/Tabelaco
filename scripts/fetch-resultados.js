@@ -409,10 +409,33 @@ async function main() {
     resumo.push({ id: c.id, nome: c.nome, jogos: jogos.length, tabela: tabela.length, avisos: avisos.length });
   }
 
+  /* Quais escudos e mascotes o Annibal já desenhou.
+
+     Sem esta lista o app tinha que adivinhar: pedia `img/escudos/<time>.png`
+     para todo mundo e, quando não existia — que é o caso da quase totalidade —
+     tomava um 404 e só então caía na imagem da fonte. Dava dezenas de pedidos
+     perdidos a cada tela aberta. Agora o robô olha a pasta e conta para o app o
+     que existe de verdade; ele só pede o que vai encontrar.
+
+     Como o robô roda de meia em meia hora, um desenho novo aparece no app
+     sozinho — e na hora, se ele rodar o script na mão depois de salvar. */
+  function listarDesenhos() {
+    const ler = pasta => {
+      try {
+        return fs.readdirSync(path.join(RAIZ, 'img', pasta))
+          .filter(f => f.toLowerCase().endsWith('.png'))
+          .map(f => f.slice(0, -4))
+          .sort();
+      } catch { return []; }
+    };
+    return { escudos: ler('escudos'), mascotes: ler('mascotes') };
+  }
+
   /* índice que o app lê primeiro, para montar o seletor sem baixar tudo */
   fs.writeFileSync(path.join(SAIDA, 'indice.json'), JSON.stringify({
     atualizado: new Date().toISOString(),
     temporada: cat.temporada,
+    locais: listarDesenhos(),
     campeonatos: cat.campeonatos.map(c => {
       const r = resumo.find(x => x.id === c.id) || {};
       return { id: c.id, nome: c.nome, curto: c.curto, formato: c.formato, ordem: c.ordem, meses: c.meses, jogos: r.jogos || 0, temTabela: (r.tabela || 0) > 0 };

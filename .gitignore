@@ -1,5 +1,4 @@
-# logs e temporários do servidor/túnel local
-lt.log
+# logs do servidor local
 *.log
 
 # arquivos temporários de screenshot/preview

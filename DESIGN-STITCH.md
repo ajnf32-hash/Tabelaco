@@ -99,6 +99,26 @@ spacing:
   grid-gutter: 12px
 ---
 
+## As telas desenhadas
+
+Este arquivo veio do Google Stitch, exportado em 10/08/2026, e é a origem do
+visual do Tabelaço. As quatro telas que o acompanham estão em `img/stitch/`:
+
+| Imagem | Tela |
+| --- | --- |
+| `img/stitch/competition_hub.png` | escolha do campeonato |
+| `img/stitch/team_directory.png` | lista de clubes, com busca |
+| `img/stitch/team_profile.png` | página do time |
+| `img/stitch/mascot_spotlight.png` | galeria de mascotes |
+
+Das quatro, o app hoje segue o **estilo** de todas, mas só implementa a primeira
+ideia (a escolha do campeonato). A galeria de mascotes e a página do time ainda
+não existem — dependem de os mascotes ficarem prontos.
+
+Uma diferença combinada com o Annibal: o verde neon abaixo **não** é usado. O
+destaque do app é sempre a cor do time do coração, calculada em `pintar()`. O que
+veio do Stitch é o preto, as fontes e o arranjo.
+
 ## Brand & Style
 
 The design system is engineered for the high-velocity world of football. It targets passionate fans who demand real-time data delivered with the intensity of a live broadcast. The aesthetic is **High-Contrast & Kinetic**, blending the technical precision of sports analytics with the raw energy of the stadium.

@@ -50,9 +50,28 @@ há ainda um modo de **alto contraste** e três tamanhos de texto.
 | `celular.html` | prévia da versão de celular |
 | `dados/` | campeonatos, cores dos clubes e resultados |
 | `scripts/fetch-resultados.js` | o robô que busca e confere os placares |
-| `img/mascotes/` | mascotes dos clubes, um arquivo por time |
-| `PEDIDOS-MASCOTES.md` | o que pedir ao ilustrador de cada mascote |
+| `img/escudos/` | escudos desenhados, um arquivo por time |
+| `img/mascotes/` | mascotes desenhados, um arquivo por time |
 | `DESIGN-STITCH.md` | as cores e fontes que deram origem ao visual |
+
+### Escudos e mascotes
+
+Basta salvar o PNG em `img/escudos/` ou `img/mascotes/` com o nome do time em
+minúsculas e sem acento (`atletico-mg.png`). O app passa a usar o desenho no
+lugar da imagem que vem da fonte, e o mascote aparece na capa de quem torce por
+aquele clube.
+
+Quem avisa o app de que o arquivo existe é o robô: a cada rodada ele lista as
+duas pastas e grava os nomes em `dados/indice.json`, no campo `locais`. Por isso
+um desenho novo entra no ar em até meia hora — ou na mesma hora, se você rodar
+`node scripts/fetch-resultados.js` depois de salvar.
+
+Os três documentos que guiam esse trabalho, na ordem de uso:
+
+1. `TIMES-E-MASCOTES.md` — o censo: quais clubes têm mascote e quais não têm.
+2. `PROMPT-MESTRE-MASCOTES.md` — o texto que se cola **uma vez** no gerador de
+   imagem, para os 38 saírem com a mesma cara.
+3. `PEDIDOS-MASCOTES.md` — o pedido de cada time, um por um, para colar depois.
 
 ## Contato
 

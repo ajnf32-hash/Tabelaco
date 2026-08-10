@@ -77,11 +77,12 @@
   #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
   #capa .topo{position:absolute;top:6.5%;width:100%;color:var(--acc);
         font-family:var(--f-mono);font-weight:700;letter-spacing:.22em;font-size:11px}
-  /* a logo é PNG com os cantos vazados, então a sombra tem que ser drop-shadow e
-     não box-shadow: box-shadow desenharia um retângulo em volta da imagem e a
-     moldura preta que a gente acabou de tirar voltaria pela porta dos fundos */
-  #capa .emblema{width:58%;max-width:230px;height:auto;
-        filter:drop-shadow(0 14px 34px rgba(0,0,0,.75))}
+  /* O arquivo da logo já vem recortado só no ícone, sem a moldura escura que
+     vinha em volta. Os cantos redondos são feitos aqui, com border-radius, e não
+     gravados na imagem: assim ela pode ser um JPG de 34 KB em vez de um PNG de
+     251 KB com transparência. A sombra acompanha o canto arredondado sozinha. */
+  #capa .emblema{width:58%;max-width:230px;height:auto;border-radius:22%;
+        box-shadow:0 14px 34px rgba(0,0,0,.75)}
   #capa .host{margin-top:22px;color:var(--txt);opacity:.7;font-size:15px;
         max-width:78%;line-height:1.55}
   #capa .entrar{position:relative;z-index:3;margin-top:28px;background:var(--acc);
@@ -150,7 +151,7 @@
         border:1px solid var(--linha);border-radius:6px;color:var(--mut);
         width:32px;height:32px;font-size:15px;line-height:1;cursor:pointer}
   #sobre .fecharX:hover{color:var(--txt)}
-  #sobre .selo{width:82px;height:82px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.6))}
+  #sobre .selo{width:82px;height:auto;border-radius:22%;box-shadow:0 8px 20px rgba(0,0,0,.6)}
   #sobre h3{margin:14px 0 7px;font-family:var(--f-tit);font-size:30px;line-height:1.05;
         letter-spacing:.03em;text-transform:uppercase;color:var(--txt)}
   #sobre .marca-linha{font-family:var(--f-mono);font-size:10px;font-weight:500;
@@ -459,7 +460,7 @@
     #sobre{align-items:center}
     #sobre .painel{width:520px;max-height:84%;border:1px solid var(--linha);
             border-radius:12px;padding:26px 24px 28px}
-    #sobre .selo{width:96px;height:96px}
+    #sobre .selo{width:96px}
     #sobre h3{font-size:36px}
     #sobre .bloco p{font-size:15px}
     #gaveta h3{font-size:26px}
@@ -476,7 +477,7 @@
 
   <div id="capa">
     <div class="topo">CARTAGO'S SOFTWARE</div>
-    <img class="emblema" src="img/logo-capa.png" alt="Tabelaço">
+    <img class="emblema" src="img/logo-capa.jpg" alt="Tabelaço">
     <div class="host">Todos os campeonatos que importam, o ano inteiro</div>
     <button class="entrar" id="entrar">Ver tabelas</button>
     <img id="mascote" alt="" hidden>
@@ -540,7 +541,7 @@
   <div id="sobre">
     <div class="painel">
       <button class="fecharX" id="btFecharSobre" aria-label="Fechar">✕</button>
-      <img class="selo" src="img/logo-capa.png" alt="">
+      <img class="selo" src="img/logo-capa.jpg" alt="">
       <h3>Tabelaço</h3>
       <div class="marca-linha">Cartago's Software</div>
 
@@ -783,9 +784,26 @@ function aplicarAcessibilidade(redesenhar) {
 }
 
 /* --------------------------------------------------------------- escudos */
-/* Procura primeiro a imagem que o Annibal desenhou, em img/escudos/<time>.png.
-   Se ela ainda não existir, usa a que vem da fonte. Assim ele pode ir soltando
-   os arquivos na pasta aos poucos, sem mexer em código nenhum. */
+/* O app usa o escudo que o Annibal desenhou, em img/escudos/<time>.png, e cai na
+   imagem da fonte quando aquele time ainda não tem desenho.
+
+   Quem sabe o que existe na pasta é o robô: ele lista os arquivos e escreve a
+   lista dentro do indice.json, em `locais`. Antes disso o app tentava adivinhar
+   — pedia o arquivo para todos os times e tomava um 404 na cara em quase todos,
+   dezenas de pedidos jogados fora a cada tela. Agora ele só pede o que existe. */
+const TEM_DESENHO = { escudos: null, mascotes: null };
+
+function anotarDesenhos(indice) {
+  const l = indice && indice.locais;
+  /* índice velho, ainda sem a lista: volta ao jeito antigo de tentar e ver no
+     que dá. É o que mantém o app de pé se o robô ficar um tempo sem rodar. */
+  TEM_DESENHO.escudos  = l && Array.isArray(l.escudos)  ? new Set(l.escudos)  : null;
+  TEM_DESENHO.mascotes = l && Array.isArray(l.mascotes) ? new Set(l.mascotes) : null;
+}
+
+const temDesenho = (tipo, nome) =>
+  TEM_DESENHO[tipo] === null || TEM_DESENHO[tipo].has(apelido(nome));
+
 function apelido(nome) {
   /* A faixa \u0300-\u036f é a dos acentos que o normalize('NFD') separa da
      letra. Escrita em código, e não com os acentos soltos: soltos eles são
@@ -800,17 +818,22 @@ function trocarMascote() {
   const img = $('#mascote');
   if (!img) return;
   img.hidden = true;
-  if (!S.time) { img.removeAttribute('src'); return; }
+  if (!S.time || !temDesenho('mascotes', S.time)) { img.removeAttribute('src'); return; }
   img.onload  = () => { img.hidden = false; };
   img.onerror = () => { img.onerror = null; img.hidden = true; };
   img.src = `img/mascotes/${apelido(S.time)}.png`;
 }
 
 function escudoHTML(time, urlFonte) {
-  const meu = `img/escudos/${apelido(time)}.png`;
-  const alt = urlFonte ? esc(urlFonte) : '';
-  return `<img class="escudo" src="${meu}" alt="" loading="lazy"` +
-         (alt ? ` onerror="this.onerror=null;this.src='${alt}'">` : ` onerror="this.style.visibility='hidden'">`);
+  const meu = temDesenho('escudos', time) ? `img/escudos/${apelido(time)}.png` : '';
+  const fonte = urlFonte ? esc(urlFonte) : '';
+  const src = meu || fonte;
+  if (!src) return '<img class="escudo" alt="" style="visibility:hidden">';
+  /* o onerror só faz sentido quando ainda há para onde cair */
+  const reserva = (meu && fonte)
+    ? ` onerror="this.onerror=null;this.src='${fonte}'"`
+    : ` onerror="this.onerror=null;this.style.visibility='hidden'"`;
+  return `<img class="escudo" src="${src}" alt="" loading="lazy"${reserva}>`;
 }
 
 /* ---------------------------------------------------------------- dados */
@@ -1233,6 +1256,7 @@ async function iniciar() {
     return;
   }
   S.indice.campeonatos.sort((a, b) => a.ordem - b.ordem);
+  anotarDesenhos(S.indice);
   /* as escolhas de contraste e tamanho de texto voltam antes de desenhar
      qualquer coisa, senão a tela pisca do jeito velho para o novo */
   aplicarAcessibilidade(false);
