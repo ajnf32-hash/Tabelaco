@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=no, viewport-fit=cover">
-<meta name="theme-color" content="#15161A">
+<meta name="theme-color" content="#121413">
 <title>Tabelaço</title>
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" href="icon-192.png">
@@ -12,99 +12,191 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Tabelaço">
+<!-- As três fontes do desenho: Anton para os títulos garrafais, Archivo Narrow
+     para as tabelas (cabe mais nome na mesma largura) e JetBrains Mono para os
+     rótulos em caixa alta. Sem internet o navegador cai nas fontes do sistema. -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Archivo+Narrow:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
-  /* As duas variáveis abaixo são o coração da troca de cores. Quando o torcedor
-     escolhe o time dele, o app só reescreve --pri e --sec — todo o resto da
-     tela se pinta sozinho a partir daí. */
+  /* ------------------------------------------------------------- CORES
+     O app tem duas camadas de cor:
+
+     1. O PRETO, igual para todos os times. É o "gramado à noite": fundo
+        quase preto, cartelas um tom acima, texto claro. Não muda nunca.
+     2. O DESTAQUE, que é a cor do time do coração. Ele aparece no botão de
+        entrar, na aba aberta, no campeonato aberto e na linha do time dentro
+        da tabela.
+
+     O destaque é calculado em pintar(): a cor do clube é clareada até dar para
+     ler em cima do preto, e o texto que vai por cima dela é escolhido entre
+     branco e quase-preto. Nenhum botão fica com o texto da mesma cor do fundo. */
   :root{
-    /* preto e dourado: as cores da logo do Tabelaço. Quando o torcedor escolhe
-       um time, estas duas viram as cores do clube dele. */
+    /* a camada preta — fixa */
+    --fundo:#121413;          /* o chão de tudo */
+    --papel:#1a1c1b;          /* cartelas */
+    --papel2:#262927;         /* cabeçalho de tabela, pastilha apagada */
+    --papel3:#333534;         /* um degrau acima, para hover */
+    --txt:#e2e3e0;
+    --mut:#8f9c8b;
+    --linha:rgba(255,255,255,.09);
+    --ok:#3ddc6e; --alerta:#ff7a6b; --neutro:#5d665e;
+
+    /* a camada do clube — reescrita por pintar() */
     --pri:#15161A; --sec:#D9A93C;
-    /* Estas quatro o app calcula sozinho a partir das duas de cima, em pintar().
-       Elas existem para que nenhum texto caia em cima de um fundo da mesma cor —
-       tem clube de preto e preto, de amarelo e branco, e tudo isso some. */
-    --sobrePri:#fff;         /* texto que se lê em cima da cor primária */
-    --priSolido:#15161A;     /* a primária quando ela carrega texto por cima */
-    --acc:#D9A93C;           /* cor de destaque usada SOBRE a primária */
-    --accTxt:#D9A93C;        /* o destaque quando ele é só texto na capa */
-    --sobreAcc:#15161A;      /* texto que se lê em cima do destaque */
-    --pastilha:#3a3b3f;      /* fundo da pastilha de campeonato não aberto */
-    --sobrePastilha:#fff;    /* texto que se lê nela */
-    --priTxt:#15161A;        /* a primária quando vira texto/marca no fundo branco */
-    --txt:#1a1c20; --mut:#767c86; --linha:rgba(0,0,0,.10);
-    --papel:#fff; --fundo:#f1f2f4;
-    --ok:#1a8f4c; --alerta:#c2410c; --neutro:#94a3b8;
+    --acc:#D9A93C;            /* a cor do clube, já clareada para ler no preto */
+    --sobreAcc:#15161A;       /* o texto que se lê em cima do destaque */
+    --wash:#16181a;           /* o preto com um sopro da cor do clube */
+
+    --f-tit:'Anton',Impact,'Arial Narrow',sans-serif;
+    --f-txt:'Archivo Narrow',system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+    --f-mono:'JetBrains Mono',ui-monospace,'Courier New',monospace;
   }
   *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
   html,body{margin:0;height:100%}
-  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--txt);
-       background:radial-gradient(circle at 50% 30%,#22262b,#0d0f12);overflow:hidden;
+  body{font-family:var(--f-txt);color:var(--txt);background:#0a0b0a;overflow:hidden;
        display:flex;align-items:center;justify-content:center}
+
+  /* o rótulo em caixa alta, monoespaçado — o "carimbo técnico" do desenho */
+  .caps{font-family:var(--f-mono);font-size:11px;font-weight:500;letter-spacing:.08em;
+        text-transform:uppercase}
+
   /* min-width:0 é o que segura o app dentro da tela: sem isso ele se recusa a
      ficar menor que o conteúdo mais largo e vaza para fora nos celulares estreitos */
   #device{position:relative;width:100%;max-width:430px;min-width:0;height:min(940px,100dvh);
-       background:var(--pri);overflow:hidden;border-radius:20px;
-       box-shadow:0 24px 70px rgba(0,0,0,.55);transition:background .45s ease}
-  #frame{position:absolute;inset:0;border:9px solid var(--pri);pointer-events:none;z-index:90;
-       border-radius:20px;transition:border-color .45s ease}
+       background:var(--fundo);overflow:hidden;
+       box-shadow:0 24px 70px rgba(0,0,0,.7)}
+  #frame{display:none}
 
   /* ---------------- CAPA ---------------- */
-  #capa{position:absolute;inset:0;z-index:80;background:var(--pri);
+  #capa{position:absolute;inset:0;z-index:80;
+        background:radial-gradient(120% 70% at 50% 0%,var(--wash),var(--fundo) 70%);
         display:flex;flex-direction:column;align-items:center;justify-content:center;
-        padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease, background .45s ease;
+        padding:5% 0 30%;transition:opacity .5s ease, transform .5s ease;
         overflow:hidden;text-align:center}
   #capa.sair{opacity:0;transform:scale(1.06);pointer-events:none}
-  #capa .topo{position:absolute;top:6.5%;width:100%;font-weight:800;color:var(--accTxt);
-        letter-spacing:3px;font-size:12px}
-  #capa .emblema{width:62%;max-width:250px;height:auto;border-radius:22px;
-        box-shadow:0 14px 34px rgba(0,0,0,.55)}
-  #capa .host{margin-top:20px;color:var(--sobrePri);opacity:.88;font-weight:700;
-        letter-spacing:1.2px;font-size:12px;max-width:78%;line-height:1.6}
-  #capa .entrar{position:relative;z-index:3;margin-top:26px;background:var(--acc);color:var(--sobreAcc);border:none;
-        padding:15px 34px;border-radius:40px;font-size:17px;font-weight:900;
-        box-shadow:0 6px 0 rgba(0,0,0,.45), 0 10px 20px rgba(0,0,0,.4);cursor:pointer;
-        animation:pulso 1.8s infinite}
-  #capa .entrar:active{transform:translateY(4px);box-shadow:0 2px 0 rgba(0,0,0,.45)}
-  @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}
+  #capa .topo{position:absolute;top:6.5%;width:100%;color:var(--acc);
+        font-family:var(--f-mono);font-weight:700;letter-spacing:.22em;font-size:11px}
+  /* a logo é PNG com os cantos vazados, então a sombra tem que ser drop-shadow e
+     não box-shadow: box-shadow desenharia um retângulo em volta da imagem e a
+     moldura preta que a gente acabou de tirar voltaria pela porta dos fundos */
+  #capa .emblema{width:58%;max-width:230px;height:auto;
+        filter:drop-shadow(0 14px 34px rgba(0,0,0,.75))}
+  #capa .host{margin-top:22px;color:var(--txt);opacity:.7;font-size:15px;
+        max-width:78%;line-height:1.55}
+  #capa .entrar{position:relative;z-index:3;margin-top:28px;background:var(--acc);
+        color:var(--sobreAcc);border:none;padding:16px 36px;border-radius:4px;
+        font-family:var(--f-tit);font-size:20px;letter-spacing:.05em;text-transform:uppercase;
+        box-shadow:0 10px 30px rgba(0,0,0,.5);cursor:pointer;animation:pulso 2.2s infinite}
+  #capa .entrar:active{transform:translateY(2px)}
+  @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
   #mascote{position:absolute;left:-4px;bottom:-2px;width:46%;max-width:180px;z-index:1;
-        pointer-events:none;filter:drop-shadow(0 6px 10px rgba(0,0,0,.35))}
+        pointer-events:none;filter:drop-shadow(0 6px 14px rgba(0,0,0,.6))}
 
   /* ---------------- APP ---------------- */
   #app{height:100%;display:flex;flex-direction:column;background:var(--fundo)}
 
   /* Faixa da marca. Ela é a única coisa da tela que NÃO troca de cor com o time:
      fica sempre preta e dourada, que são as cores do Tabelaço. É de propósito —
-     com todo o resto vestido do clube, o preto faz a logo saltar. */
-  #marca{display:none;flex:0 0 auto;align-items:center;gap:14px;
-        padding:10px 32px;background:#0E0F12;
-        border-bottom:1px solid rgba(217,169,60,.32);
+     com o destaque todo vestido do clube, o dourado mantém a assinatura da casa.
+     Antes só aparecia no computador; agora fica também no celular, como no desenho. */
+  #marca{display:flex;flex:0 0 auto;align-items:center;gap:11px;
+        padding:9px 14px;background:rgba(10,11,10,.85);backdrop-filter:blur(14px);
+        border-bottom:1px solid rgba(217,169,60,.22);
         position:sticky;top:0;z-index:60}
-  #marca img{width:48px;height:48px;border-radius:13px;flex:0 0 auto;background:#000;
-        /* o anel dourado e o brilho por trás são o destaque: separam a logo do
-           preto da faixa, senão ela se dissolveria no fundo */
-        box-shadow:0 0 0 2px rgba(217,169,60,.60),
-                   0 0 22px rgba(217,169,60,.30),
-                   0 6px 16px rgba(0,0,0,.55)}
-  #marca .nome{font-size:21px;font-weight:900;letter-spacing:5px;text-transform:uppercase;
-        color:#D9A93C;text-shadow:0 2px 10px rgba(217,169,60,.35);line-height:1}
-  #marca .assina{margin-left:auto;font-size:10.5px;font-weight:800;letter-spacing:2.5px;
-        text-transform:uppercase;color:rgba(217,169,60,.55)}
+  #marca img{width:32px;height:32px;border-radius:8px;flex:0 0 auto;background:#000;
+        box-shadow:0 0 0 1.5px rgba(217,169,60,.55), 0 0 18px rgba(217,169,60,.22)}
+  #marca .nome{font-family:var(--f-tit);font-size:20px;letter-spacing:.14em;
+        text-transform:uppercase;color:#D9A93C;line-height:1}
+  #marca .assina{margin-left:auto;font-family:var(--f-mono);font-size:9px;font-weight:500;
+        letter-spacing:.14em;text-transform:uppercase;color:rgba(217,169,60,.5)}
+  /* O botão que abre a página de informações e contato. Fica na faixa da marca
+     porque é lá que ele pertence: é assunto da casa, não do campeonato.
+
+     Ele tem duas caras. No computador é só o ⓘ, discreto, porque lá embaixo o
+     rodapé já tem um botão de contato bem visível. No celular não existe rodapé,
+     então este é o único caminho — e aí ele vem escrito "Contato", cheio da cor
+     do time, para ninguém precisar adivinhar o que aquele símbolo faz. */
+  #btInfo{margin-left:auto;flex:0 0 auto;display:inline-flex;align-items:center;gap:7px;
+        cursor:pointer;border-radius:6px;font-family:var(--f-mono);font-size:11px;
+        font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+  #btInfo svg{width:18px;height:18px;fill:currentColor;flex:0 0 auto}
+
+  /* celular: botão de contato, na cor do clube */
+  @media (max-width: 919px){
+    #marca .assina{display:none}
+    #btInfo .so-pc{display:none}
+    #btInfo{background:var(--acc);color:var(--sobreAcc);border:1px solid var(--acc);
+            padding:8px 12px}
+    #btInfo:active{filter:brightness(1.15)}
+  }
+  /* computador: só o símbolo, na cor da casa */
+  @media (min-width: 920px){
+    #btInfo .so-cel{display:none}
+    #btInfo{margin-left:18px;padding:8px;background:none;color:#D9A93C;
+            border:1px solid rgba(217,169,60,.35)}
+    #btInfo svg{width:20px;height:20px}
+    #btInfo:hover{background:rgba(217,169,60,.12)}
+  }
+
+  /* ---------------- SOBRE O APP ---------------- */
+  #sobre{position:absolute;inset:0;z-index:96;background:rgba(0,0,0,.78);
+        display:none;align-items:flex-end;justify-content:center}
+  #sobre.abre{display:flex}
+  #sobre .painel{position:relative;background:var(--papel);width:100%;max-height:88%;
+        border-top:1px solid var(--linha);border-radius:12px 12px 0 0;
+        overflow-y:auto;padding:22px 18px 26px;text-align:center}
+  #sobre .fecharX{position:absolute;top:12px;right:12px;background:var(--papel2);
+        border:1px solid var(--linha);border-radius:6px;color:var(--mut);
+        width:32px;height:32px;font-size:15px;line-height:1;cursor:pointer}
+  #sobre .fecharX:hover{color:var(--txt)}
+  #sobre .selo{width:82px;height:82px;filter:drop-shadow(0 8px 20px rgba(0,0,0,.6))}
+  #sobre h3{margin:14px 0 7px;font-family:var(--f-tit);font-size:30px;line-height:1.05;
+        letter-spacing:.03em;text-transform:uppercase;color:var(--txt)}
+  #sobre .marca-linha{font-family:var(--f-mono);font-size:10px;font-weight:500;
+        letter-spacing:.16em;text-transform:uppercase;color:var(--acc)}
+  #sobre .bloco{margin-top:20px;text-align:left;background:var(--papel2);
+        border:1px solid var(--linha);border-radius:8px;padding:14px 15px}
+  #sobre .bloco h4{margin:0 0 7px;font-family:var(--f-mono);font-size:10px;font-weight:700;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--acc)}
+  #sobre .bloco p{margin:0 0 9px;font-size:14.5px;line-height:1.55;color:var(--txt)}
+  #sobre .bloco p:last-child{margin-bottom:0}
+  #sobre .bloco .fino{color:var(--mut);font-size:13.5px}
+  #sobre .contato{display:flex;flex-direction:column;gap:8px;margin-top:12px}
+  #sobre .contato a{display:flex;align-items:center;gap:11px;text-decoration:none;
+        background:var(--papel);border:1px solid var(--linha);border-radius:8px;
+        padding:12px 14px;color:var(--txt);font-size:15px;font-weight:600}
+  #sobre .contato a:hover{border-color:var(--acc);color:var(--acc)}
+  #sobre .contato svg{width:20px;height:20px;fill:var(--acc);flex:0 0 auto}
+  #sobre .contato .rotulo{font-family:var(--f-mono);font-size:9.5px;font-weight:500;
+        letter-spacing:.1em;text-transform:uppercase;color:var(--mut);display:block;
+        margin-bottom:2px}
+  #sobre .rodape{margin-top:20px;font-family:var(--f-mono);font-size:10px;font-weight:500;
+        letter-spacing:.08em;text-transform:uppercase;color:var(--mut);line-height:1.7}
 
   /* seletor de campeonatos: rolagem lateral com pastilhas */
-  #seletor{flex:0 0 auto;display:flex;gap:7px;overflow-x:auto;padding:12px 12px 10px;
-        background:var(--pri);scrollbar-width:none;transition:background .45s ease}
+  #seletor{flex:0 0 auto;display:flex;gap:6px;overflow-x:auto;padding:12px 12px 4px;
+        background:var(--fundo);scrollbar-width:none}
   #seletor::-webkit-scrollbar{display:none}
-  #seletor button{flex:0 0 auto;font-size:12.5px;font-weight:800;border:none;border-radius:20px;
-        padding:9px 14px;background:var(--pastilha);color:var(--sobrePastilha);cursor:pointer;
-        white-space:nowrap;transition:background .2s,color .2s}
-  #seletor button.on{background:var(--acc);color:var(--sobreAcc)}
+  #seletor button{flex:0 0 auto;font-family:var(--f-mono);font-size:11px;font-weight:500;
+        letter-spacing:.06em;text-transform:uppercase;border:1px solid var(--linha);
+        border-radius:4px;padding:8px 12px;background:var(--papel2);color:var(--mut);
+        cursor:pointer;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
+  #seletor button:hover{color:var(--txt)}
+  #seletor button.on{background:var(--acc);color:var(--sobreAcc);border-color:var(--acc)}
 
-  header{padding:11px 14px 9px;text-align:center;flex:0 0 auto;background:var(--papel);
-        border-bottom:1px solid var(--linha)}
-  header h2{margin:0;font-size:16px;font-weight:900;color:var(--txt)}
-  header .sub{font-size:10.5px;color:var(--mut);margin-top:3px}
-  header .torcida{margin-top:7px;background:var(--priSolido);color:var(--sobrePri);border:none;border-radius:20px;
-        padding:6px 14px;font-size:11.5px;font-weight:800;cursor:pointer;transition:background .45s}
+  /* cabeçalho: o nome do campeonato em letra garrafal, como no desenho */
+  header{padding:14px 14px 10px;flex:0 0 auto;
+        background:linear-gradient(180deg,var(--wash),var(--fundo))}
+  header h2{margin:0;font-family:var(--f-tit);font-size:34px;line-height:.95;
+        letter-spacing:.01em;text-transform:uppercase;color:var(--txt)}
+  header .sub{font-family:var(--f-mono);font-size:10px;font-weight:500;letter-spacing:.05em;
+        text-transform:uppercase;color:var(--mut);margin-top:8px;line-height:1.5}
+  header .torcida{margin-top:11px;background:transparent;color:var(--acc);
+        border:1px solid var(--acc);border-radius:4px;padding:7px 14px;
+        font-family:var(--f-mono);font-size:11px;font-weight:700;letter-spacing:.06em;
+        text-transform:uppercase;cursor:pointer}
+  header .torcida:active{background:var(--acc);color:var(--sobreAcc)}
 
   /* páginas que deslizam de lado */
   #carrossel{flex:1 1 auto;display:flex;overflow-x:auto;overflow-y:hidden;
@@ -114,18 +206,18 @@
   .pagina{flex:0 0 100%;width:100%;scroll-snap-align:center;overflow-y:auto;
         scrollbar-width:none;padding:12px 12px 18px}
   .pagina::-webkit-scrollbar{display:none}
-  .titulo{font-size:12px;font-weight:900;color:var(--mut);letter-spacing:1.2px;
-        text-transform:uppercase;margin:2px 0 9px;padding-left:2px}
+  .titulo{display:none}
 
-  .cartela{background:var(--papel);border-radius:12px;overflow:hidden;
-        box-shadow:0 1px 3px rgba(0,0,0,.09)}
+  .cartela{background:var(--papel);border:1px solid var(--linha);border-radius:8px;
+        overflow:hidden}
 
   /* tabelas */
-  table{width:100%;border-collapse:collapse;font-size:13px;table-layout:fixed}
-  th{background:var(--priSolido);color:var(--sobrePri);font-size:10px;font-weight:800;letter-spacing:.4px;
-     padding:8px 4px;text-align:center;transition:background .45s ease}
+  table{width:100%;border-collapse:collapse;font-size:14px;table-layout:fixed}
+  th{background:var(--papel2);color:var(--mut);font-family:var(--f-mono);font-size:9.5px;
+     font-weight:500;letter-spacing:.07em;text-transform:uppercase;
+     padding:9px 4px;text-align:center}
   th.esq{text-align:left;padding-left:9px}
-  td{padding:7px 4px;text-align:center;border-bottom:1px solid var(--linha)}
+  td{padding:8px 4px;text-align:center;border-bottom:1px solid var(--linha);color:var(--txt)}
   td.esq{text-align:left;padding-left:9px;font-weight:600}
   /* Em celular estreito o nome comprido empurrava as últimas colunas para fora da
      cartela — sumiam o D e o SG. Agora cada coluna de número tem largura marcada e
@@ -139,72 +231,110 @@
   th.n.larga{width:10%}
   th.n.aprov{width:15%}
   tr:last-child td{border-bottom:none}
-  tr.meu{background:color-mix(in srgb, var(--priTxt) 13%, transparent)}
-  tr.meu td.esq{font-weight:900}
-  .pos{font-weight:800;color:var(--mut);width:24px}
-  .pts{font-weight:900}
-  .escudo{width:17px;height:17px;object-fit:contain;vertical-align:-3px;margin-right:6px}
-  .grupo{background:var(--fundo);font-size:10px;font-weight:900;color:var(--mut);
-         letter-spacing:1px;padding:5px 9px;text-transform:uppercase}
+  /* a linha do time do coração vem preenchida com a cor do clube, como a faixa
+     verde do desenho — só que na cor de quem está olhando */
+  tr.meu td{background:var(--acc);color:var(--sobreAcc);border-bottom-color:transparent}
+  tr.meu td.esq{font-weight:700}
+  tr.meu .pos,tr.meu .pts{color:var(--sobreAcc)}
+  .pos{font-family:var(--f-mono);font-size:12px;font-weight:500;color:var(--mut)}
+  .pts{font-weight:700}
+  .escudo{width:18px;height:18px;object-fit:contain;vertical-align:-4px;margin-right:7px}
+  .grupo{background:var(--papel2);font-family:var(--f-mono);font-size:9.5px;font-weight:500;
+         color:var(--mut);letter-spacing:.08em;padding:6px 9px;text-transform:uppercase}
 
   /* barras de saldo de gols */
-  .barra-linha{display:flex;align-items:center;gap:8px;padding:7px 10px;
-        border-bottom:1px solid var(--linha);font-size:13px}
+  .barra-linha{display:flex;align-items:center;gap:8px;padding:8px 10px;
+        border-bottom:1px solid var(--linha);font-size:14px}
   .barra-linha:last-child{border-bottom:none}
   .barra-nome{flex:0 0 33%;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-  .barra-trilho{flex:1 1 auto;height:15px;position:relative;background:var(--fundo);border-radius:4px}
+  .barra-trilho{flex:1 1 auto;height:15px;position:relative;background:var(--papel2);border-radius:3px}
   .barra-meio{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--neutro)}
-  .barra-preenche{position:absolute;top:0;bottom:0;border-radius:3px}
-  .barra-valor{flex:0 0 40px;text-align:right;font-weight:900;font-size:12px}
+  .barra-preenche{position:absolute;top:0;bottom:0;border-radius:2px}
+  .barra-valor{flex:0 0 42px;text-align:right;font-family:var(--f-mono);font-weight:700;font-size:12px}
 
   /* jogos */
-  .dia{font-size:10.5px;font-weight:900;color:var(--mut);letter-spacing:.8px;
-       text-transform:uppercase;margin:14px 2px 6px}
+  .dia{font-family:var(--f-mono);font-size:10px;font-weight:500;color:var(--mut);
+       letter-spacing:.08em;text-transform:uppercase;margin:14px 2px 6px}
   .dia:first-child{margin-top:2px}
-  .jogo{display:flex;align-items:center;gap:8px;padding:9px 10px;border-bottom:1px solid var(--linha)}
+  .jogo{display:flex;align-items:center;gap:8px;padding:10px;border-bottom:1px solid var(--linha)}
   .jogo:last-child{border-bottom:none}
-  .jogo .lado{flex:1 1 0;display:flex;align-items:center;gap:6px;min-width:0;font-size:13px}
+  .jogo .lado{flex:1 1 0;display:flex;align-items:center;gap:6px;min-width:0;font-size:14px}
   .jogo .lado.dir{justify-content:flex-end;text-align:right}
   .jogo .nome{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
   /* aqui o espaço já vem do gap do .lado, então o escudo não precisa de margem */
   .jogo .escudo{margin-right:0;flex:0 0 auto}
-  .jogo .placar{flex:0 0 auto;font-weight:900;font-size:15px;padding:0 4px;min-width:46px;text-align:center}
-  .jogo .hora{flex:0 0 auto;font-size:11px;font-weight:800;color:var(--mut);min-width:46px;text-align:center}
-  .jogo .selo{font-size:9px;font-weight:800;padding:1px 5px;border-radius:8px;margin-left:5px}
-  .selo.prel{background:#fef3c7;color:#92400e}
-  .selo.div{background:#fee2e2;color:#991b1b}
-  .rodada-lbl{font-size:10px;color:var(--mut);text-align:center;padding:4px 0 0}
+  /* o placar é a estrela do confronto: fonte de manchete, como num placar de estádio */
+  .jogo .placar{flex:0 0 auto;font-family:var(--f-tit);font-size:22px;line-height:1;
+        padding:0 4px;min-width:52px;text-align:center;letter-spacing:.02em}
+  .jogo .hora{flex:0 0 auto;font-family:var(--f-mono);font-size:11px;font-weight:500;
+        color:var(--mut);min-width:52px;text-align:center}
+  .jogo .selo{font-family:var(--f-mono);font-size:8.5px;font-weight:500;letter-spacing:.06em;
+        text-transform:uppercase;padding:2px 6px;border-radius:3px;margin-left:5px}
+  .selo.prel{background:rgba(217,169,60,.16);color:#e0bd6e}
+  .selo.div{background:rgba(255,122,107,.16);color:#ff9c90}
+  .rodada-lbl{text-align:center;padding:4px 0 0}
 
-  .aviso{background:#fef3c7;color:#78350f;font-size:11.5px;line-height:1.5;
-         padding:9px 11px;border-radius:9px;margin-bottom:10px}
-  .vazio{text-align:center;color:var(--mut);font-size:13px;padding:34px 18px;line-height:1.6}
+  .aviso{background:rgba(217,169,60,.10);border:1px solid rgba(217,169,60,.28);
+         color:#e2c88a;font-size:13px;line-height:1.5;
+         padding:10px 12px;border-radius:6px;margin-bottom:10px}
+  .aviso b{color:#f0dcae}
+  .vazio{text-align:center;color:var(--mut);font-size:14px;padding:34px 18px;line-height:1.6}
 
   /* escolha do time do coração */
-  #gaveta{position:absolute;inset:0;z-index:95;background:rgba(0,0,0,.5);
+  #gaveta{position:absolute;inset:0;z-index:95;background:rgba(0,0,0,.72);
         display:none;align-items:flex-end}
   #gaveta.abre{display:flex}
-  #gaveta .painel{background:var(--papel);width:100%;max-height:76%;border-radius:16px 16px 0 0;
-        display:flex;flex-direction:column;padding:14px 0 0}
-  #gaveta h3{margin:0 16px 4px;font-size:15px;font-weight:900}
-  #gaveta .dica{margin:0 16px 10px;font-size:11.5px;color:var(--mut);line-height:1.5}
+  #gaveta .painel{background:var(--papel);width:100%;max-height:76%;
+        border-top:1px solid var(--linha);border-radius:12px 12px 0 0;
+        display:flex;flex-direction:column;padding:16px 0 0}
+  #gaveta h3{margin:0 16px 5px;font-family:var(--f-tit);font-size:22px;
+        text-transform:uppercase;letter-spacing:.02em;color:var(--txt)}
+  #gaveta .dica{margin:0 16px 12px;font-size:13px;color:var(--mut);line-height:1.5}
   #gaveta .lista{overflow-y:auto;padding:0 8px 14px}
-  #gaveta .lista button{display:flex;align-items:center;gap:9px;width:100%;text-align:left;
-        background:none;border:none;padding:10px 10px;font-size:14px;font-weight:600;
-        color:var(--txt);cursor:pointer;border-radius:9px}
-  #gaveta .lista button:active{background:var(--fundo)}
-  #gaveta .lista button .bolinha{width:15px;height:15px;border-radius:50%;flex:0 0 auto;
-        border:2px solid rgba(0,0,0,.12)}
-  #gaveta .fechar{margin:0 16px 14px;padding:11px;border:none;border-radius:11px;
-        background:var(--fundo);font-weight:800;font-size:13.5px;cursor:pointer}
+  #gaveta .lista button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;
+        background:none;border:none;padding:11px 10px;font-family:var(--f-txt);font-size:15px;
+        font-weight:600;color:var(--txt);cursor:pointer;border-radius:6px}
+  #gaveta .lista button:hover{background:var(--papel2)}
+  #gaveta .lista button:active{background:var(--papel3)}
+  #gaveta .lista button .bolinha{width:14px;height:14px;border-radius:3px;flex:0 0 auto;
+        border:1px solid rgba(255,255,255,.22)}
+  #gaveta .fechar{margin:0 16px 16px;padding:12px;border:1px solid var(--linha);border-radius:6px;
+        background:var(--papel2);color:var(--txt);font-family:var(--f-mono);font-size:11px;
+        font-weight:700;letter-spacing:.08em;text-transform:uppercase;cursor:pointer}
 
-  /* pontinhos de página — no computador estes mesmos botões viram abas com nome */
-  #pontos{flex:0 0 auto;display:flex;gap:6px;justify-content:center;padding:9px 0 12px;
-        background:var(--papel);border-top:1px solid var(--linha)}
-  #pontos button{background:none;border:none;padding:0;margin:0;cursor:pointer;
-        display:flex;align-items:center;line-height:0}
-  #pontos i{width:7px;height:7px;border-radius:50%;background:var(--linha);transition:.25s}
-  #pontos button.on i{background:var(--priTxt);width:19px;border-radius:4px}
-  #pontos span{display:none}
+  /* -------------------------------------------------- BARRA DE BAIXO
+     No lugar dos pontinhos antigos, as quatro páginas viram abas com ícone e
+     nome — dá para saber onde se está sem precisar deslizar para descobrir. */
+  #pontos{flex:0 0 auto;display:flex;gap:4px;padding:6px 8px calc(6px + env(safe-area-inset-bottom));
+        background:rgba(10,11,10,.9);backdrop-filter:blur(14px);border-top:1px solid var(--linha)}
+  #pontos button{flex:1 1 0;min-width:0;background:none;border:none;cursor:pointer;
+        display:flex;flex-direction:column;align-items:center;gap:4px;
+        padding:8px 2px;border-radius:6px;color:var(--mut);transition:background .2s,color .2s}
+  #pontos svg{width:21px;height:21px;fill:currentColor;flex:0 0 auto}
+  #pontos span{font-family:var(--f-mono);font-size:9px;font-weight:500;letter-spacing:.04em;
+        text-transform:uppercase;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;
+        max-width:100%}
+  #pontos button.on{background:var(--acc);color:var(--sobreAcc)}
+
+  /* ---------------- RODAPÉ (só no computador) ----------------
+     O mesmo rodapé do site da Cartago's, vestido de Tabelaço: a assinatura da
+     casa de um lado, e do outro os botões de acessibilidade mais o de contato. */
+  #rodape{display:none}
+
+  /* ---------------- ACESSIBILIDADE ----------------
+     Alto contraste: o preto vira preto de verdade, o texto vira branco puro e as
+     bordas ganham corpo. A cor do clube continua ali, só que mais acesa — quem
+     manda nisso é o pintar(), que sobe a exigência de contraste quando este
+     modo está ligado. */
+  html.contraste-alto{
+    --fundo:#000000; --papel:#0b0c0b; --papel2:#191b19; --papel3:#262926;
+    --txt:#ffffff; --mut:#c9d3c6; --linha:rgba(255,255,255,.34);
+    --ok:#5cf08a; --alerta:#ff9d90;
+  }
+  /* Tamanho do texto: o conteúdo de cada página é ampliado por dentro, sem mexer
+     na moldura. Quem faz as contas de quantas colunas cabem mede depois, então a
+     tabela se reorganiza sozinha no tamanho novo. */
+  .escala{zoom:var(--esc,1)}
 
   /* listas que se abrem em mais de uma coluna quando há espaço */
   .colunas{display:grid;grid-template-columns:repeat(var(--cols,1),1fr);gap:22px;align-items:start}
@@ -220,87 +350,122 @@
      Mesmas cores, mesmas peças, outro arranjo. */
   @media (min-width: 920px) {
     body{overflow:hidden;align-items:stretch;padding:0}
-    #device{max-width:none;width:100%;height:100dvh;border-radius:0;box-shadow:none}
-    #frame{display:none}
+    #device{max-width:none;width:100%;height:100dvh;box-shadow:none}
 
     /* capa: o mesmo cartaz, respirando numa tela grande */
     #capa{padding:0}
     #capa .topo{top:38px;font-size:13px}
     #capa .emblema{width:auto;max-width:none;height:min(320px,36vh)}
-    #capa .host{font-size:16px;max-width:560px;margin-top:28px}
-    #capa .entrar{font-size:20px;padding:18px 48px;margin-top:34px}
+    #capa .host{font-size:19px;max-width:600px;margin-top:28px}
+    #capa .entrar{font-size:26px;padding:18px 50px;margin-top:34px}
     #mascote{width:auto;max-width:none;height:min(300px,34vh);left:5%;bottom:0}
+
+    #marca{padding:12px 32px;gap:14px}
+    #marca img{width:44px;height:44px;border-radius:11px}
+    #marca .nome{font-size:26px}
+    #marca .assina{font-size:10px}
 
     /* barra dos campeonatos: todos visíveis, sem rolar de lado */
     #seletor{flex-wrap:wrap;justify-content:center;overflow:visible;
-             padding:18px 32px 16px;gap:10px}
-    #seletor button{font-size:14px;padding:11px 20px}
+             padding:18px 32px 12px;gap:8px}
+    #seletor button{font-size:12px;padding:10px 18px}
 
-    header{padding:20px 32px 4px;border-bottom:none}
-    header h2{font-size:27px}
-    header .sub{font-size:13px;margin-top:6px}
-    header .torcida{margin-top:13px;font-size:13px;padding:9px 20px}
+    header{padding:14px 32px 6px;text-align:center;background:none}
+    header h2{font-size:56px}
+    header .sub{font-size:11px;margin-top:10px}
+    header .torcida{margin-top:14px;font-size:12px;padding:9px 20px}
 
     /* as quatro páginas viram abas. No HTML os pontinhos ficam por último, que é
        o lugar deles no celular; aqui a ordem é remontada para campeonatos, título,
        abas e conteúdo — de cima para baixo, do geral para o particular. */
-    #marca{display:flex;order:0}
+    #marca{order:0}
     #seletor{order:1}
     header{order:2}
-    #pontos{order:3;gap:6px;padding:14px 32px 0;border-top:none;
-            border-bottom:1px solid var(--linha)}
     #carrossel{order:4}
-    #pontos i{display:none}
-    #pontos button{padding:0 4px}
-    #pontos span{display:block;line-height:1;font-size:14px;font-weight:800;
-            letter-spacing:.6px;text-transform:uppercase;color:var(--mut);
-            padding:12px 18px 13px;border-bottom:3px solid transparent;
-            transition:color .2s, border-color .2s}
-    #pontos button:hover span{color:var(--txt)}
-    #pontos button.on span{color:var(--priTxt);border-bottom-color:var(--priTxt)}
+    #pontos{order:3;gap:4px;justify-content:center;padding:16px 32px 0;
+            background:none;backdrop-filter:none;border-top:none;
+            border-bottom:1px solid var(--linha)}
+    #pontos button{flex:0 0 auto;flex-direction:row;gap:8px;padding:11px 20px;
+            border-radius:6px 6px 0 0;border-bottom:3px solid transparent;
+            margin-bottom:-1px}
+    #pontos svg{width:18px;height:18px}
+    #pontos span{font-size:12px;letter-spacing:.06em}
+    #pontos button:hover{color:var(--txt)}
+    #pontos button.on{background:none;color:var(--acc);border-bottom-color:var(--acc)}
 
     /* uma página por tela, o nome dela já está na aba */
     #carrossel{min-height:0}
     .pagina.rola{scrollbar-width:thin}
     .pagina.rola::-webkit-scrollbar{display:block;width:10px}
-    .pagina.rola::-webkit-scrollbar-thumb{background:rgba(0,0,0,.22);border-radius:6px}
-    .pagina{padding:26px max(32px, calc((100% - 1560px) / 2)) 30px}
-    .titulo{display:none}
+    .pagina.rola::-webkit-scrollbar-thumb{background:rgba(255,255,255,.18);border-radius:6px}
+    .pagina{padding:24px max(32px, calc((100% - 1560px) / 2)) 30px}
 
     /* tudo maior: é monitor, não celular */
-    .cartela{border-radius:14px;box-shadow:0 2px 12px rgba(0,0,0,.08)}
-    table{font-size:15px}
-    th{font-size:11.5px;padding:12px 8px}
+    table{font-size:16px}
+    th{font-size:10.5px;padding:13px 8px}
     th.esq{padding-left:16px}
-    td{padding:10px 8px}
+    td{padding:11px 8px}
     td.esq{padding-left:16px}
-    .pos{width:auto}
+    .pos{font-size:14px}
     .escudo{width:26px;height:26px;vertical-align:-8px;margin-right:11px}
     .jogo .escudo{width:30px;height:30px;vertical-align:middle}
-    .grupo{font-size:11.5px;padding:9px 16px}
+    .grupo{font-size:11px;padding:9px 16px}
 
-    .dia{font-size:12px;margin:0 4px 9px}
+    .dia{font-size:11.5px;margin:0 4px 9px}
     .bloco-dia + .bloco-dia{margin-top:20px}
     .jogo{padding:13px 16px;gap:12px}
-    .jogo .lado{font-size:15.5px;gap:10px}
-    .jogo .placar{font-size:20px;min-width:74px}
-    .jogo .hora{font-size:13.5px;min-width:74px}
+    .jogo .lado{font-size:16px;gap:10px}
+    .jogo .placar{font-size:30px;min-width:80px}
+    .jogo .hora{font-size:13px;min-width:80px}
 
-    .barra-linha{padding:11px 16px;font-size:15px}
+    .barra-linha{padding:11px 16px;font-size:16px}
     .barra-nome{flex:0 0 38%}
-    .barra-trilho{height:20px;border-radius:5px}
-    .barra-valor{flex:0 0 54px;font-size:14px}
+    .barra-trilho{height:20px;border-radius:4px}
+    .barra-valor{flex:0 0 56px;font-size:14px}
 
-    .aviso{font-size:13px;padding:13px 16px;border-radius:12px;margin-bottom:16px}
-    .vazio{font-size:16px;padding:70px 24px}
+    .aviso{font-size:14px;padding:13px 16px;margin-bottom:16px}
+    .vazio{font-size:17px;padding:70px 24px}
 
     /* a gaveta vira uma janelinha no meio da tela */
     #gaveta{align-items:center;justify-content:center}
-    #gaveta .painel{width:440px;max-height:72%;border-radius:16px;padding:18px 0 0}
-    #gaveta h3{font-size:17px}
-    #gaveta .dica{font-size:12.5px}
-    #gaveta .lista button{font-size:15px;padding:11px 12px}
-    #gaveta .fechar{margin:0 16px 18px;font-size:14px}
+    #gaveta .painel{width:440px;max-height:72%;border:1px solid var(--linha);
+            border-radius:12px;padding:20px 0 0}
+
+    /* o rodapé da casa, igual ao do site da Cartago's */
+    #rodape{order:5;display:flex;align-items:center;gap:24px;flex:0 0 auto;
+            padding:14px max(32px, calc((100% - 1560px) / 2));
+            background:rgba(10,11,10,.9);border-top:1px solid var(--linha)}
+    #rodape .casa{min-width:0}
+    #rodape .logos{display:flex;align-items:center;gap:12px;margin-bottom:7px}
+    #rodape .marca-c{height:36px;width:auto;opacity:.9}
+    #rodape .nome-c{height:25px;width:auto;opacity:.9}
+    #rodape .direito{margin:0;font-size:13.5px;color:var(--txt);opacity:.82;line-height:1.4}
+    #rodape .miudo{margin:5px 0 0;font-size:11.5px;color:var(--mut);line-height:1.4}
+    #rodape .acoes{margin-left:auto;display:flex;gap:10px;flex:0 0 auto}
+    #rodape .acao{display:inline-flex;align-items:center;gap:8px;cursor:pointer;
+            background:var(--papel2);color:var(--txt);border:1px solid var(--linha);
+            border-radius:8px;padding:11px 16px;font-family:var(--f-txt);
+            font-size:14px;font-weight:600;white-space:nowrap}
+    #rodape .acao svg{width:17px;height:17px;fill:currentColor;flex:0 0 auto}
+    #rodape .acao:hover{border-color:var(--acc);color:var(--acc)}
+    /* o de contato é o que tem que saltar: vem cheio da cor do clube */
+    #rodape .acao.destaque{background:var(--acc);color:var(--sobreAcc);border-color:var(--acc);
+            font-weight:700}
+    #rodape .acao.destaque:hover{color:var(--sobreAcc);filter:brightness(1.12)}
+    /* quando o alto contraste está ligado, o próprio botão avisa */
+    html.contraste-alto #rodape #btContraste{background:var(--txt);color:#000;border-color:var(--txt)}
+
+    /* a página de informações também vira janelinha no meio da tela */
+    #sobre{align-items:center}
+    #sobre .painel{width:520px;max-height:84%;border:1px solid var(--linha);
+            border-radius:12px;padding:26px 24px 28px}
+    #sobre .selo{width:96px;height:96px}
+    #sobre h3{font-size:36px}
+    #sobre .bloco p{font-size:15px}
+    #gaveta h3{font-size:26px}
+    #gaveta .dica{font-size:14px}
+    #gaveta .lista button{font-size:16px;padding:11px 12px}
+    #gaveta .fechar{margin:0 16px 18px;font-size:12px}
   }
 </style>
 </head>
@@ -311,9 +476,9 @@
 
   <div id="capa">
     <div class="topo">CARTAGO'S SOFTWARE</div>
-    <img class="emblema" src="img/logo-capa.jpg" alt="Tabelaço">
+    <img class="emblema" src="img/logo-capa.png" alt="Tabelaço">
     <div class="host">Todos os campeonatos que importam, o ano inteiro</div>
-    <button class="entrar" id="entrar">VER TABELAS ⚽</button>
+    <button class="entrar" id="entrar">Ver tabelas</button>
     <img id="mascote" alt="" hidden>
   </div>
 
@@ -322,6 +487,11 @@
       <img src="icon-192.png" alt="Tabelaço">
       <span class="nome">Tabelaço</span>
       <span class="assina">Cartago's Software</span>
+      <button id="btInfo" aria-label="Contato e informações do app" title="Contato e informações do app">
+        <svg class="so-pc" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
+        <svg class="so-cel" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+        <span class="so-cel">Contato</span>
+      </button>
     </div>
     <div id="seletor"></div>
     <header>
@@ -331,6 +501,31 @@
     </header>
     <div id="carrossel"></div>
     <div id="pontos"></div>
+
+    <footer id="rodape">
+      <div class="casa">
+        <div class="logos">
+          <img class="marca-c" src="img/cartagos-marca.png" alt="">
+          <img class="nome-c" src="img/cartagos-nome.png" alt="Cartago's Software">
+        </div>
+        <p class="direito">© <span id="anoRodape"></span> Annibal Nogueira Ferreira — Cartago's Software. Feito por mim, com IA.</p>
+        <p class="miudo">Placares da ESPN e do Fotmob, conferidos um contra o outro. O contraste e o tamanho do texto se ajustam aqui do lado.</p>
+      </div>
+      <div class="acoes">
+        <button class="acao" id="btContraste" aria-pressed="false">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 5c-5 0-9.3 3.1-11 7 1.7 3.9 6 7 11 7s9.3-3.1 11-7c-1.7-3.9-6-7-11-7zm0 12a5 5 0 110-10 5 5 0 010 10zm0-2a3 3 0 100-6 3 3 0 000 6z"/></svg>
+          Alto Contraste
+        </button>
+        <button class="acao" id="btTexto">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 10-.7.7l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM7 9h2V7.5h1.2V9h2v1.2h-2v1.3H9v-1.3H7V9z"/></svg>
+          Texto: <span id="txtTamanho">Padrão</span>
+        </button>
+        <button class="acao destaque" id="btContato">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+          Contato
+        </button>
+      </div>
+    </footer>
   </div>
 
   <div id="gaveta">
@@ -341,10 +536,74 @@
       <button class="fechar" id="btFechar">Fechar</button>
     </div>
   </div>
+
+  <div id="sobre">
+    <div class="painel">
+      <button class="fecharX" id="btFecharSobre" aria-label="Fechar">✕</button>
+      <img class="selo" src="img/logo-capa.png" alt="">
+      <h3>Tabelaço</h3>
+      <div class="marca-linha">Cartago's Software</div>
+
+      <div class="bloco">
+        <h4>O que é</h4>
+        <p>Nove campeonatos numa tela só: Brasileirão A e B, Copa do Brasil,
+           Libertadores, Champions, Carioca, Paulista, Mineiro e Gaúcho.</p>
+        <p>Escolha o time do coração e o app se veste com as cores dele, do
+           primeiro ao último campeonato.</p>
+      </div>
+
+      <div class="bloco">
+        <h4>De onde vêm os placares</h4>
+        <p>De duas fontes independentes, ESPN e Fotmob, conferidas uma contra a outra.</p>
+        <p class="fino">Quando as duas concordam, o placar aparece normal. Quando só
+           uma tem o jogo, ele vem marcado como <b>preliminar</b>. Quando as duas
+           discordam, o Tabelaço segura o resultado e escreve <b>conferindo</b> —
+           melhor não mostrar do que mostrar errado.</p>
+        <p class="fino" id="sobreAtualizado"></p>
+      </div>
+
+      <div class="bloco">
+        <h4>Falar com a gente</h4>
+        <div class="contato">
+          <a id="linkZap" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 00-8.6 15L2 22l5.2-1.4A10 10 0 1012 2zm5.6 14c-.2.6-1.2 1.2-1.7 1.2-.5.1-1 .1-1.7-.1a12 12 0 01-5.6-4.6c-.4-.6-.9-1.5-.9-2.4s.5-1.4.7-1.6c.2-.2.4-.3.6-.3h.5c.2 0 .4 0 .6.4l.8 1.9c.1.2 0 .4-.1.5l-.4.5c-.1.2-.3.3-.1.6.4.6.8 1.1 1.4 1.6.6.5 1.1.7 1.4.8.2.1.4.1.5-.1l.6-.7c.2-.2.3-.2.5-.1l1.8.9c.2.1.4.2.4.3.1.2.1.6-.1 1.2z"/></svg>
+            <span><span class="rotulo">WhatsApp</span><span id="txtZap"></span></span>
+          </a>
+          <a id="linkMail" href="#">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
+            <span><span class="rotulo">E-mail</span><span id="txtMail"></span></span>
+          </a>
+          <a id="linkSite" href="#" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm6.9 6h-2.9a15 15 0 00-1.3-3.6A8 8 0 0118.9 8zM12 4c.7 1 1.3 2.4 1.7 4h-3.4c.4-1.6 1-3 1.7-4zM4.3 14a8 8 0 010-4h3.3a17 17 0 000 4H4.3zm.8 2h2.9c.3 1.3.7 2.5 1.3 3.6A8 8 0 015.1 16zm2.9-8H5.1a8 8 0 014.2-3.6A15 15 0 008 8zm4 12c-.7-1-1.3-2.4-1.7-4h3.4c-.4 1.6-1 3-1.7 4zm2.1-6H9.9a15 15 0 010-4h4.2a15 15 0 010 4zm.6 5.6c.6-1.1 1-2.3 1.3-3.6h2.9a8 8 0 01-4.2 3.6zm1.7-5.6a17 17 0 000-4h3.3a8 8 0 010 4h-3.3z"/></svg>
+            <span><span class="rotulo">Site</span><span id="txtSite"></span></span>
+          </a>
+        </div>
+      </div>
+
+      <div class="rodape">
+        Tabelaço · versão <span id="sobreVersao"></span><br>
+        © <span id="sobreAno"></span> Cartago's Software
+      </div>
+    </div>
+  </div>
 </div>
 
 <script>
 'use strict';
+
+/* ------------------------------------------------------- identidade da casa
+   Todo dado de contato do app mora aqui, num lugar só. Se o telefone ou o
+   e-mail mudarem um dia, é este bloco que se mexe — em nenhum outro ponto do
+   arquivo existe telefone, e-mail ou endereço escrito à mão. */
+const CONTATO = {
+  marca:    "Cartago's Software",
+  email:    'contato@cartagossoftware.com',
+  zap:      '(21) 97990-2500',
+  zapLink:  'https://wa.me/5521979902500',
+  site:     'www.cartagossoftware.com',
+  siteLink: 'https://www.cartagossoftware.com',
+  versao:   '2.0'
+};
 
 /* ------------------------------------------------------------------ estado */
 const S = {
@@ -363,12 +622,15 @@ const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&':'&amp
 /* ------------------------------------------------------------------ cores */
 
 /* Tem clube de preto e preto (Flamengo), de amarelo e branco, de branco e branco.
-   Se o app simplesmente jogasse a cor do clube no fundo e um texto fixo por cima,
-   em vários times o texto sumia. Então ele mede o quanto cada cor reflete de luz
-   e escolhe, para cada fundo, entre texto branco e texto quase preto. Nenhum botão
-   fica com o texto da mesma cor do próprio botão. */
+   Se o app simplesmente jogasse a cor do clube por cima do preto do fundo, em
+   vários times ela sumiria — preto no preto. Então ele mede o quanto cada cor
+   reflete de luz e clareia a do clube só o necessário para ela saltar do fundo.
+   Nenhum botão fica com o texto da mesma cor do próprio botão. */
 
 const CLARO = '#ffffff', ESCURO = '#15161A';
+const BASE  = '#121413';   /* o preto do fundo, igual para todos os times */
+const PAPEL = '#1a1c1b';   /* a cartela: a superfície mais clara onde o destaque pousa */
+const MUTE  = '#8f9c8b';   /* o texto apagado — o mesmo valor de --mut lá no estilo */
 
 function rgb(hex) {
   const h = String(hex || '').replace('#', '');
@@ -393,75 +655,131 @@ function textoSobre(fundo) {
 const hex = (r, g, b) => '#' + [r, g, b].map(n =>
   Math.max(0, Math.min(255, Math.round(n))).toString(16).padStart(2, '0')).join('');
 
-/* escurece a cor até ela dar para ler em cima do branco do papel */
-function legivelNoBranco(cor) {
-  let [r, g, b] = rgb(cor);
-  for (let i = 0; i < 20 && razao(hex(r, g, b), CLARO) < 3.2; i++) {
-    r *= 0.85; g *= 0.85; b *= 0.85;
-  }
-  return hex(r, g, b);
-}
-
 /* mistura duas cores: 0 = só a primeira, 1 = só a segunda */
 function misturar(a, b, quanto) {
   const x = rgb(a), y = rgb(b);
   return hex(x[0] + (y[0]-x[0])*quanto, x[1] + (y[1]-x[1])*quanto, x[2] + (y[2]-x[2])*quanto);
 }
 
-/* Azul e verde médios são o caso difícil: nem o texto branco nem o preto se leem
-   bem em cima deles. Aqui o fundo é que cede — afunda ou clareia um tiquinho, até
-   o texto ficar nítido. É pouco, não descaracteriza a cor do clube. */
-function fundoLegivel(cor, texto) {
-  let [r, g, b] = rgb(cor);
-  const clarear = luz(texto) < luz(cor);
-  for (let i = 0; i < 24 && razao(hex(r, g, b), texto) < 4.6; i++) {
-    if (clarear) { r += (255-r)*0.08; g += (255-g)*0.08; b += (255-b)*0.08; }
-    else         { r *= 0.92; g *= 0.92; b *= 0.92; }
-  }
-  return hex(r, g, b);
+/* o quanto a cor tem de cor mesmo: 0 é cinza, preto ou branco */
+function saturacao(cor) {
+  const [r, g, b] = rgb(cor);
+  return (Math.max(r, g, b) - Math.min(r, g, b)) / 255;
 }
 
-/* Aqui é o contrário: quem cede é o texto, porque o fundo é a cor do clube na
-   capa inteira. Se nem clareando nem escurecendo o texto se lê, ele desiste da
-   cor do clube e vira branco ou preto. */
-function textoLegivelSobre(cor, fundo) {
+/* Acende a cor do clube até ela servir de destaque em cima do preto. Clarear não
+   muda o tom: vermelho continua vermelho, só mais aceso.
+
+   Duas provas têm que passar ao mesmo tempo, e as duas melhoram quanto mais a cor
+   acende — por isso basta ir clareando até as duas darem certo:
+
+   1. a cor tem que saltar da cartela, que é a superfície mais clara onde ela pousa;
+   2. o texto que vai POR CIMA dela (nome do time na linha destacada, palavra dentro
+      do botão) tem que se ler. Cor de meio-tom é o caso ruim: nem o branco nem o
+      preto se leem em cima dela. Acender resolve — o preto passa a valer.
+
+   A margem é 4.8 e não 4.5 porque a mesma cor ainda aparece por cima da faixa
+   levemente tingida do topo, que é um tiquinho mais clara que o preto puro. */
+/* No modo normal a régua é 4.8. No alto contraste ela sobe para 7, e a cor do
+   clube acende junto — quem escolheu o modo pediu justamente isso. */
+const margem = () => altoContraste() ? 6.5 : 4.8;
+const fundoBase = () => altoContraste() ? '#000000' : BASE;
+const papelBase = () => altoContraste() ? '#0b0c0b' : PAPEL;
+
+function acender(cor) {
   let [r, g, b] = rgb(cor);
-  const clarear = luz(cor) > luz(fundo);
-  for (let i = 0; i < 24 && razao(hex(r, g, b), fundo) < 4.5; i++) {
-    if (clarear) { r += (255-r)*0.10; g += (255-g)*0.10; b += (255-b)*0.10; }
-    else         { r *= 0.90; g *= 0.90; b *= 0.90; }
+  const passa = () => {
+    const c = hex(r, g, b);
+    return razao(c, papelBase()) >= margem() && razao(c, textoSobre(c)) >= margem();
+  };
+  for (let i = 0; i < 60 && !passa(); i++) {
+    const topo = Math.max(r, g, b);
+    if (topo < 250) {
+      /* primeiro sobe o volume da cor: multiplica os três canais até o mais forte
+         encostar no teto. O vermelho do Flamengo vira vermelho aceso, não rosa —
+         é o que mantém a cor reconhecível. */
+      const k = Math.min(1.12, 255 / Math.max(topo, 1));
+      r *= k; g *= k; b *= k;
+    } else {
+      /* já está no talo e ainda falta luz: só aí entra o branco na mistura */
+      r += (255-r)*0.08; g += (255-g)*0.08; b += (255-b)*0.08;
+    }
   }
-  return razao(hex(r, g, b), fundo) >= 4.5 ? hex(r, g, b) : textoSobre(fundo);
+  return passa() ? hex(r, g, b) : CLARO;
+}
+
+/* Qual das duas cores do clube vira o destaque. A principal ganha quase sempre —
+   é ela que o torcedor reconhece. Só quando a principal é um preto, branco ou
+   cinza (Corinthians, Santos, Botafogo) é que a de apoio assume, senão o destaque
+   sairia cinza para meio campeonato. */
+function corDoClube(c) {
+  if (saturacao(c.p) >= 0.12) return c.p;
+  if (saturacao(c.s) >= 0.12) return c.s;
+  return razao(c.p, fundoBase()) >= razao(c.s, fundoBase()) ? c.p : c.s;
+}
+
+/* Um sopro da cor do clube no alto da tela. Quanto mais clara a cor, menos tinta
+   ela pode dar — senão a faixa chega perto demais da própria cor e o nome do
+   campeonato, escrito nela, perde o contorno. Aqui o app vai diluindo até sobrar
+   distância suficiente entre a faixa e o destaque. */
+function tingir(acc) {
+  const chao = fundoBase();
+  /* no alto contraste a faixa não recebe tinta nenhuma: fundo preto e ponto */
+  if (altoContraste()) return chao;
+  for (let q = 0.13; q > 0.01; q -= 0.02) {
+    const f = misturar(chao, acc, q);
+    /* a faixa carrega duas coisas escritas: o destaque e a linha apagada com a
+       data da última atualização. As duas precisam continuar legíveis nela. */
+    if (razao(acc, f) >= 4.6 && razao(MUTE, f) >= 4.6) return f;
+  }
+  return chao;
 }
 
 function pintar() {
-  const c = (S.cores && S.cores.times[S.time]) || (S.cores && S.cores.padrao) || { p:'#009C3B', s:'#FFD400' };
+  const c = (S.cores && S.cores.times[S.time]) || (S.cores && S.cores.padrao) || { p:'#15161A', s:'#D9A93C' };
 
-  /* a cor de destaque vai sempre em cima da primária (botão de entrar, pastilha
-     do campeonato aberto). Se a secundária do clube for parecida demais com a
-     primária, ela sumiria ali — nesse caso o destaque vira branco ou preto. */
-  const acc = razao(c.s, c.p) >= 1.8 ? c.s : textoSobre(c.p);
-
-  /* a pastilha do campeonato não aberto é a primária com um véu por cima; ela é
-     um fundo por direito próprio, então também ganha o texto que se lê nela */
-  const sobrePri = textoSobre(c.p);
-  const pastilha = misturar(c.p, sobrePri, 0.18);
+  const acc = acender(corDoClube(c));
   const sobreAcc = textoSobre(acc);
 
   const r = document.documentElement.style;
   r.setProperty('--pri', c.p);
   r.setProperty('--sec', c.s);
-  r.setProperty('--sobrePri', sobrePri);
-  r.setProperty('--priSolido', fundoLegivel(c.p, sobrePri));
-  r.setProperty('--acc', fundoLegivel(acc, sobreAcc));
+  r.setProperty('--acc', acc);
   r.setProperty('--sobreAcc', sobreAcc);
-  r.setProperty('--pastilha', fundoLegivel(pastilha, textoSobre(pastilha)));
-  r.setProperty('--sobrePastilha', textoSobre(pastilha));
-  r.setProperty('--accTxt', textoLegivelSobre(acc, c.p));
-  r.setProperty('--priTxt', legivelNoBranco(c.p));
+  r.setProperty('--wash', tingir(acc));
 
   const meta = document.querySelector('meta[name=theme-color]');
-  if (meta) meta.setAttribute('content', c.p);
+  if (meta) meta.setAttribute('content', fundoBase());
+}
+
+/* ------------------------------------------------------- acessibilidade
+   Duas escolhas ficam guardadas no aparelho do torcedor: o alto contraste e o
+   tamanho do texto. Quem lê mal de longe liga uma vez e não mexe mais. */
+const TAMANHOS = [
+  { nome: 'Padrão', esc: 1 },
+  { nome: 'Grande', esc: 1.15 },
+  { nome: 'Maior',  esc: 1.32 }
+];
+
+function altoContraste() {
+  return document.documentElement.classList.contains('contraste-alto');
+}
+
+function aplicarAcessibilidade(redesenhar) {
+  const ligado = localStorage.getItem('tabelaco.contraste') === 'alto';
+  document.documentElement.classList.toggle('contraste-alto', ligado);
+  const bt = $('#btContraste');
+  if (bt) bt.setAttribute('aria-pressed', String(ligado));
+
+  const i = Math.min(TAMANHOS.length - 1, Number(localStorage.getItem('tabelaco.texto')) || 0);
+  document.documentElement.style.setProperty('--esc', TAMANHOS[i].esc);
+  const rot = $('#txtTamanho');
+  if (rot) rot.textContent = TAMANHOS[i].nome;
+
+  pintar();
+  /* mudou o tamanho da letra, mudou quanta coisa cabe na tela: as colunas
+     precisam ser recontadas do zero */
+  if (redesenhar && S.atual) desenharTudo(true);
 }
 
 /* --------------------------------------------------------------- escudos */
@@ -469,7 +787,11 @@ function pintar() {
    Se ela ainda não existir, usa a que vem da fonte. Assim ele pode ir soltando
    os arquivos na pasta aos poucos, sem mexer em código nenhum. */
 function apelido(nome) {
-  return String(nome || '').normalize('NFD').replace(/[̀-ͯ]/g, '')
+  /* A faixa \u0300-\u036f é a dos acentos que o normalize('NFD') separa da
+     letra. Escrita em código, e não com os acentos soltos: soltos eles são
+     invisíveis no editor e qualquer ferramenta que salve o arquivo fora do
+     UTF-8 os embaralha e quebra a expressão. */
+  return String(nome || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
 /* O mascote da capa é sempre o do time do coração. Não existe mascote genérico:
@@ -538,8 +860,9 @@ function maxColunas() {
 
 function colunasEmAltura(alturaPedida) {
   if (!telaGrande()) return 1;
-  /* fora a faixa da marca, o seletor de campeonatos, o cabeçalho e as abas */
-  const sobra = Math.max(260, innerHeight - 380);
+  /* fora a faixa da marca, o seletor de campeonatos, o cabeçalho, as abas e o
+     rodapé da casa lá embaixo */
+  const sobra = Math.max(240, innerHeight - 510);
   return Math.min(maxColunas(), Math.max(1, Math.ceil(alturaPedida / sobra)));
 }
 
@@ -551,9 +874,9 @@ function fatiar(lista, n) {
   return fatias;
 }
 
-const ALT_LINHA  = 47;   // altura de uma linha de tabela no computador
-const ALT_BARRA  = 42;   // altura de uma linha de saldo de gols
-const ALT_JOGO   = 56;   // altura de um confronto
+const ALT_LINHA  = 49;   // altura de uma linha de tabela no computador
+const ALT_BARRA  = 43;   // altura de uma linha de saldo de gols
+const ALT_JOGO   = 58;   // altura de um confronto
 const ALT_DIA    = 34;   // altura do rótulo de dia
 
 /* ------------------------------------------------------------- páginas */
@@ -641,7 +964,7 @@ function paginaSaldo(d, forcarCols) {
       const estilo = pos
         ? `left:50%;width:${frac}%;background:var(--ok)`
         : `right:50%;width:${frac}%;background:var(--alerta)`;
-      const meu = t.time === S.time ? 'style="font-weight:900"' : '';
+      const meu = t.time === S.time ? 'style="font-weight:700;color:var(--acc)"' : '';
       html += `<div class="barra-linha">` +
         `<div class="barra-nome" ${meu}>${esc(t.time)}</div>` +
         `<div class="barra-trilho"><div class="barra-meio"></div>` +
@@ -711,7 +1034,7 @@ function paginaJogos(d, forcarCols, limite) {
     if (j.conferencia === 'divergente') selo = '<span class="selo div">conferindo</span>';
     else if (j.conferencia === 'sozinho' && temPlacar) selo = '<span class="selo prel">preliminar</span>';
 
-    const destaque = t => (t === S.time ? 'style="font-weight:900;color:var(--priTxt)"' : '');
+    const destaque = t => (t === S.time ? 'style="font-weight:700;color:var(--acc)"' : '');
     /* escudo do lado do nome: à esquerda do mandante, à direita do visitante,
        espelhando os dois lados do confronto */
     html += `<div class="jogo">` +
@@ -728,12 +1051,29 @@ function paginaJogos(d, forcarCols, limite) {
 }
 
 /* --------------------------------------------------------------- render */
+/* Os quatro desenhinhos da barra de baixo. São traçados à mão em SVG, dentro do
+   próprio arquivo, para o app não depender de baixar uma fonte de ícones. */
+const ICONES = {
+  tabela:  '<path d="M3 5h2v2H3zM7 5h14v2H7zM3 11h2v2H3zM7 11h14v2H7zM3 17h2v2H3zM7 17h14v2H7z"/>',
+  bola:    '<path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2.4l4.1 3-1.6 4.8H9.5L7.9 7.4l4.1-3zM4.7 10.6l1.6 1.2 1.6 4.8-1.3 1.1a8 8 0 01-1.9-7.1zm14.6 0a8 8 0 01-1.9 7.1l-1.3-1.1 1.6-4.8 1.6-1.2zM9.8 19.4l1.2-1h2l1.2 1a8 8 0 01-4.4 0z"/>',
+  barras:  '<path d="M4 20V10h4v10H4zm6 0V4h4v16h-4zm6 0v-7h4v7h-4z"/>',
+  saldo:   '<path d="M3.6 18.9L2.2 17.5l6.8-6.8 4 4 5.1-5.1H14V7.6h8v8h-2v-4.6l-7 7-4-4-5.4 5.4z"/>'
+};
+
 const PAGINAS = [
-  { nome: 'Classificação', faz: tabelaClassificacao },
-  { nome: 'Jogos',         faz: paginaJogos, podeEncurtar: true },
-  { nome: 'Estatísticas',  faz: paginaEstatisticas },
-  { nome: 'Saldo de gols', faz: paginaSaldo }
+  { nome: 'Classificação', icone: 'tabela', faz: tabelaClassificacao },
+  { nome: 'Jogos',         icone: 'bola',   faz: paginaJogos, podeEncurtar: true },
+  { nome: 'Estatísticas',  icone: 'barras', faz: paginaEstatisticas },
+  { nome: 'Saldo',         icone: 'saldo',  faz: paginaSaldo }
 ];
+
+/* O conteúdo de cada página vai dentro de uma caixa que sabe se ampliar. É ela
+   que responde ao botão "Texto" do rodapé — a moldura em volta fica do mesmo
+   tamanho, só o que se lê é que cresce. */
+function conteudoPagina(p, d, cols, lim) {
+  return `<div class="titulo">${p.nome}</div>` +
+         `<div class="escala">${p.faz(d, cols, lim)}</div>`;
+}
 
 function desenharTudo(manterPagina) {
   const d = S.dados[S.atual];
@@ -751,7 +1091,7 @@ function desenharTudo(manterPagina) {
   cx.innerHTML = '';
   for (const p of PAGINAS) {
     const pag = el('div', 'pagina');
-    pag.innerHTML = `<div class="titulo">${p.nome}</div>` + p.faz(d);
+    pag.innerHTML = conteudoPagina(p, d);
     cx.appendChild(pag);
   }
   /* ao trocar de campeonato começa da primeira página; ao só redesenhar (mudou o
@@ -782,9 +1122,7 @@ function ajustarColunas(d) {
     let n = caixa ? Number(caixa.style.getPropertyValue('--cols')) || 1 : 1;
     const teto = maxColunas();
     const sobra = () => pag.scrollHeight > pag.clientHeight + 6;
-    const redesenhar = (cols, lim) => {
-      pag.innerHTML = `<div class="titulo">${p.nome}</div>` + p.faz(d, cols, lim);
-    };
+    const redesenhar = (cols, lim) => { pag.innerHTML = conteudoPagina(p, d, cols, lim); };
 
     while (n < teto && sobra()) { n++; redesenhar(n); }
 
@@ -802,13 +1140,15 @@ function ajustarColunas(d) {
   });
 }
 
-/* No celular são pontinhos, que só mostram em qual página o dedo está.
-   No computador os mesmos botões viram abas com o nome de cada página. */
+/* A barra de baixo: no celular são quatro abas com desenho e nome; no computador
+   as mesmas quatro viram abas de texto sublinhadas, logo abaixo do título. */
 function desenharPontos() {
   const c = $('#pontos');
   c.innerHTML = '';
   PAGINAS.forEach((p, i) => {
-    const b = el('button', i === S.pagina ? 'on' : '', `<i></i><span>${esc(p.nome)}</span>`);
+    const b = el('button', i === S.pagina ? 'on' : '',
+      `<svg viewBox="0 0 24 24" aria-hidden="true">${ICONES[p.icone]}</svg><span>${esc(p.nome)}</span>`);
+    b.setAttribute('aria-label', p.nome);
     b.onclick = () => irParaPagina(i);
     c.appendChild(b);
   });
@@ -827,7 +1167,7 @@ function abrirGaveta() {
   const lista = $('#listaTimes');
   lista.innerHTML = '';
 
-  const nenhum = el('button', '', '<span class="bolinha" style="background:#009C3B"></span> Nenhum (verde e amarelo)');
+  const nenhum = el('button', '', '<span class="bolinha" style="background:#D9A93C"></span> Nenhum (preto e dourado)');
   nenhum.onclick = () => escolherTime('');
   lista.appendChild(nenhum);
 
@@ -840,7 +1180,9 @@ function abrirGaveta() {
 
   for (const nome of [...nomes].sort((a, b) => a.localeCompare(b, 'pt-BR'))) {
     const c = (S.cores.times[nome]) || S.cores.padrao;
-    const b = el('button', '', `<span class="bolinha" style="background:${c.p}"></span> ${esc(nome)}`);
+    /* a bolinha da lista mostra a cor já clareada, que é a que o torcedor vai ver
+       no app — senão o Corinthians apareceria como um quadradinho preto invisível */
+    const b = el('button', '', `<span class="bolinha" style="background:${acender(corDoClube(c))}"></span> ${esc(nome)}`);
     b.onclick = () => escolherTime(nome);
     lista.appendChild(b);
   }
@@ -856,6 +1198,29 @@ function escolherTime(nome) {
   desenharTudo(true);
 }
 
+/* ------------------------------------------------- sobre o app e contato */
+function montarSobre() {
+  $('#txtZap').textContent  = CONTATO.zap;
+  $('#linkZap').href        = CONTATO.zapLink;
+  $('#txtMail').textContent = CONTATO.email;
+  $('#linkMail').href       = 'mailto:' + CONTATO.email;
+  $('#txtSite').textContent = CONTATO.site;
+  $('#linkSite').href       = CONTATO.siteLink;
+  $('#sobreVersao').textContent = CONTATO.versao;
+  $('#sobreAno').textContent    = new Date().getFullYear();
+}
+
+function abrirSobre() {
+  /* a data da última conferência sai do campeonato aberto: é o número que o
+     torcedor acabou de ver na tela, não uma data inventada aqui */
+  const d = S.dados[S.atual];
+  $('#sobreAtualizado').textContent = d
+    ? 'Última conferência: ' + new Date(d.atualizado).toLocaleString('pt-BR',
+        { day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit' }) + '.'
+    : '';
+  $('#sobre').classList.add('abre');
+}
+
 /* ----------------------------------------------------------- arranque */
 async function iniciar() {
   try {
@@ -868,7 +1233,9 @@ async function iniciar() {
     return;
   }
   S.indice.campeonatos.sort((a, b) => a.ordem - b.ordem);
-  pintar();
+  /* as escolhas de contraste e tamanho de texto voltam antes de desenhar
+     qualquer coisa, senão a tela pisca do jeito velho para o novo */
+  aplicarAcessibilidade(false);
   trocarMascote();
 
   const salvo = localStorage.getItem('tabelaco.campeonato');
@@ -887,6 +1254,38 @@ $('#entrar').onclick = () => {
 $('#btTorcida').onclick = abrirGaveta;
 $('#btFechar').onclick = () => $('#gaveta').classList.remove('abre');
 $('#gaveta').onclick = e => { if (e.target.id === 'gaveta') $('#gaveta').classList.remove('abre'); };
+
+montarSobre();
+$('#anoRodape').textContent = new Date().getFullYear();
+/* quem clicou num botão escrito "Contato" tem que cair no contato, não no topo
+   da página de informações */
+function abrirNoContato() {
+  abrirSobre();
+  requestAnimationFrame(() => {
+    const alvo = $('#sobre .contato');
+    if (alvo) alvo.scrollIntoView({ block: 'center' });
+  });
+}
+/* no celular este botão é o "Contato"; no computador é o ⓘ, que abre do começo */
+$('#btInfo').onclick = () => telaGrande() ? abrirSobre() : abrirNoContato();
+$('#btContato').onclick = abrirNoContato;
+$('#btContraste').onclick = () => {
+  localStorage.setItem('tabelaco.contraste', altoContraste() ? 'normal' : 'alto');
+  aplicarAcessibilidade(true);
+};
+$('#btTexto').onclick = () => {
+  const i = (Number(localStorage.getItem('tabelaco.texto')) || 0) + 1;
+  localStorage.setItem('tabelaco.texto', String(i % TAMANHOS.length));
+  aplicarAcessibilidade(true);
+};
+$('#btFecharSobre').onclick = () => $('#sobre').classList.remove('abre');
+$('#sobre').onclick = e => { if (e.target.id === 'sobre') $('#sobre').classList.remove('abre'); };
+/* tecla Esc fecha o que estiver aberto — no computador é o gesto natural */
+addEventListener('keydown', e => {
+  if (e.key !== 'Escape') return;
+  $('#sobre').classList.remove('abre');
+  $('#gaveta').classList.remove('abre');
+});
 
 /* Quantas colunas cabem depende da altura da janela, então mudar o tamanho da
    tela — ou virar o celular — pede um redesenho. Espera meio segundo para não
