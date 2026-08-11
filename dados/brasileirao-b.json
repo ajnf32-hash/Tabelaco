@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-11T01:43:05.307Z",
+ "atualizado": "2026-08-11T03:27:10.857Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Goiás",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "pontos": 32,
+   "jogos": 21,
+   "vitorias": 9,
+   "empates": 5,
+   "derrotas": 7,
+   "golsPro": 22,
+   "golsContra": 26,
+   "saldo": -4
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 32,
@@ -107,7 +121,7 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -121,7 +135,7 @@
    "saldo": 7
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -135,7 +149,7 @@
    "saldo": 3
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
@@ -149,7 +163,7 @@
    "saldo": 7
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -161,20 +175,6 @@
    "golsPro": 31,
    "golsContra": 32,
    "saldo": -1
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Goiás",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "pontos": 29,
-   "jogos": 20,
-   "vitorias": 8,
-   "empates": 5,
-   "derrotas": 7,
-   "golsPro": 21,
-   "golsContra": 26,
-   "saldo": -5
   },
   {
    "posicao": 13,
@@ -238,13 +238,13 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 20,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 5,
    "empates": 5,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 27,
-   "golsContra": 31,
-   "saldo": -4
+   "golsContra": 32,
+   "saldo": -5
   },
   {
    "posicao": 18,
