@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-12T06:51:48.963Z",
+ "atualizado": "2026-08-12T08:10:09.953Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2876,26 +2876,6 @@
    "data": "2026-08-12",
    "hora": "00:30",
    "rodada": "1st Leg",
-   "local": "Estadio Manuel Murillo Toro",
-   "cidade": "Ibague",
-   "mandante": "Deportes Tolima",
-   "visitante": "Independiente del Valle",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Postponed",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-08-12",
-   "hora": "00:30",
-   "rodada": "1st Leg",
    "local": "Estadio Jorge Luis Hirschi",
    "cidade": "La Plata",
    "mandante": "Estudiantes de La Plata",
@@ -3034,22 +3014,21 @@
   {
    "data": "2026-08-19",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
-   "local": "Estadio Banco Guayaquil",
-   "cidade": "Quito",
-   "mandante": "Independiente del Valle",
-   "visitante": "Deportes Tolima",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "rodada": "1st Leg",
+   "local": "Estadio Manuel Murillo Toro",
+   "cidade": "Ibague",
+   "mandante": "Deportes Tolima",
+   "visitante": "Independiente del Valle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
+   "conferencia": "sozinho",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-19",
@@ -3169,6 +3148,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-26",
+   "hora": "00:30",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estadio Banco Guayaquil",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "Deportes Tolima",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []
