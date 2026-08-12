@@ -52,6 +52,7 @@ há ainda um modo de **alto contraste** e três tamanhos de texto.
 | `scripts/fetch-resultados.js` | o robô que busca e confere os placares |
 | `img/escudos/` | escudos desenhados, um arquivo por time |
 | `img/mascotes/` | mascotes desenhados, um arquivo por time |
+| `img/fundos/` | o mascote em versão marca d'água, para o fundo da tela de computador |
 | `DESIGN-STITCH.md` | as cores e fontes que deram origem ao visual |
 
 ### Escudos e mascotes
@@ -62,9 +63,21 @@ lugar da imagem que vem da fonte, e o mascote aparece na capa de quem torce por
 aquele clube.
 
 Quem avisa o app de que o arquivo existe é o robô: a cada rodada ele lista as
-duas pastas e grava os nomes em `dados/indice.json`, no campo `locais`. Por isso
+pastas e grava os nomes em `dados/indice.json`, no campo `locais`. Por isso
 um desenho novo entra no ar em até meia hora — ou na mesma hora, se você rodar
 `node scripts/fetch-resultados.js` depois de salvar.
+
+### O fundo da tela de computador
+
+`img/fundos/<time>.jpg` é o mesmo mascote em outro traço, desenhado para ocupar
+a tela inteira. Ele entra como **marca d'água** atrás do conteúdo, a 7% de
+opacidade e desaparecendo antes do meio da tela — enfeite, nunca informação. Só
+aparece na versão de computador, e some no alto contraste, porque quem liga o
+alto contraste está pedindo que nada dispute com o texto.
+
+É a única pasta em `.jpg`: esses desenhos são opacos e de tela cheia. Em PNG
+pesavam 1,6 MB cada; em JPEG pesam 140 KB, e a 7% de opacidade ninguém vê
+diferença.
 
 Os três documentos que guiam esse trabalho, na ordem de uso:
 

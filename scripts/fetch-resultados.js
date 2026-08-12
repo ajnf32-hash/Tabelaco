@@ -420,15 +420,19 @@ async function main() {
      Como o robô roda de meia em meia hora, um desenho novo aparece no app
      sozinho — e na hora, se ele rodar o script na mão depois de salvar. */
   function listarDesenhos() {
-    const ler = pasta => {
+    const ler = (pasta, ext = '.png') => {
       try {
         return fs.readdirSync(path.join(RAIZ, 'img', pasta))
-          .filter(f => f.toLowerCase().endsWith('.png'))
-          .map(f => f.slice(0, -4))
+          .filter(f => f.toLowerCase().endsWith(ext))
+          .map(f => f.slice(0, -ext.length))
           .sort();
       } catch { return []; }
     };
-    return { escudos: ler('escudos'), mascotes: ler('mascotes') };
+    /* fundos: o mascote em versão marca d'água, que a tela de computador põe
+       atrás do conteúdo. É uma pasta à parte porque é outro desenho, feito para
+       ocupar a tela inteira — não a mesma imagem em outro tamanho. E em .jpg,
+       porque são opacos: em PNG pesavam dez vezes mais sem nenhum ganho. */
+    return { escudos: ler('escudos'), mascotes: ler('mascotes'), fundos: ler('fundos', '.jpg') };
   }
 
   /* índice que o app lê primeiro, para montar o seletor sem baixar tudo */

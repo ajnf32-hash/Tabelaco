@@ -95,7 +95,36 @@
         pointer-events:none;filter:drop-shadow(0 6px 14px rgba(0,0,0,.6))}
 
   /* ---------------- APP ---------------- */
-  #app{height:100%;display:flex;flex-direction:column;background:var(--fundo)}
+  /* isolation cria o contexto de empilhamento que a marca d'água precisa: sem ele
+     um filho com z-index negativo é pintado ATRÁS do fundo do #app e some. */
+  #app{height:100%;display:flex;flex-direction:column;background:var(--fundo);
+       position:relative;isolation:isolate}
+
+  /* Marca d'água do mascote — o desenho do time do coração ao fundo da tela.
+     Ela é enfeite, não informação: entra atrás de tudo (z-index negativo, que
+     pinta acima do fundo do #app e abaixo do conteúdo) e não recebe clique.
+
+     A opacidade é baixa de propósito. O pedido do Annibal foi "uma coisa
+     delicada, que não atrapalhe a leitura" — e a régua de contraste do app é
+     calculada em cima do fundo sólido, então quanto menos essa camada
+     interferir, mais aquela conta continua valendo.
+
+     A máscara faz o desenho nascer do lado direito e morrer antes do meio da
+     tela, que é por onde correm as tabelas. */
+  #fundoMascote{
+    position:absolute;inset:0;z-index:-1;pointer-events:none;display:none;
+    background-repeat:no-repeat;
+    background-position:right -4% center;
+    background-size:auto 88%;
+    opacity:.07;
+    -webkit-mask-image:linear-gradient(to left,#000 0 38%,transparent 88%);
+            mask-image:linear-gradient(to left,#000 0 38%,transparent 88%);
+  }
+  /* Só na versão de computador, e nunca no alto contraste: quem liga o alto
+     contraste está pedindo justamente que nada dispute com o texto. */
+  @media (min-width: 920px){
+    html:not(.contraste-alto) #fundoMascote.tem{display:block}
+  }
 
   /* Faixa da marca. Ela é a única coisa da tela que NÃO troca de cor com o time:
      fica sempre preta e dourada, que são as cores do Tabelaço. É de propósito —
@@ -484,6 +513,7 @@
   </div>
 
   <div id="app" hidden>
+    <div id="fundoMascote" aria-hidden="true"></div>
     <div id="marca">
       <img src="icon-192.png" alt="Tabelaço">
       <span class="nome">Tabelaço</span>
@@ -791,7 +821,7 @@ function aplicarAcessibilidade(redesenhar) {
    lista dentro do indice.json, em `locais`. Antes disso o app tentava adivinhar
    — pedia o arquivo para todos os times e tomava um 404 na cara em quase todos,
    dezenas de pedidos jogados fora a cada tela. Agora ele só pede o que existe. */
-const TEM_DESENHO = { escudos: null, mascotes: null };
+const TEM_DESENHO = { escudos: null, mascotes: null, fundos: null };
 
 function anotarDesenhos(indice) {
   const l = indice && indice.locais;
@@ -799,6 +829,7 @@ function anotarDesenhos(indice) {
      que dá. É o que mantém o app de pé se o robô ficar um tempo sem rodar. */
   TEM_DESENHO.escudos  = l && Array.isArray(l.escudos)  ? new Set(l.escudos)  : null;
   TEM_DESENHO.mascotes = l && Array.isArray(l.mascotes) ? new Set(l.mascotes) : null;
+  TEM_DESENHO.fundos   = l && Array.isArray(l.fundos)   ? new Set(l.fundos)   : null;
 }
 
 const temDesenho = (tipo, nome) =>
@@ -822,6 +853,37 @@ function trocarMascote() {
   img.onload  = () => { img.hidden = false; };
   img.onerror = () => { img.onerror = null; img.hidden = true; };
   img.src = `img/mascotes/${apelido(S.time)}.png`;
+}
+
+/* A marca d'água do fundo é o mesmo mascote em outro traço, desenhado para caber
+   atrás da tela inteira — por isso mora em img/fundos e não em img/mascotes.
+   Sem time escolhido, ou sem esse desenho, a camada simplesmente não aparece:
+   nada de mascote genérico, nada de fundo pela metade. */
+function trocarFundo() {
+  const camada = $('#fundoMascote');
+  if (!camada) return;
+  if (!S.time || !temDesenho('fundos', S.time)) {
+    camada.classList.remove('tem');
+    camada.style.backgroundImage = '';
+    return;
+  }
+  /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
+     retângulo vazio no lugar durante o download, que numa marca d'água é pior
+     que não ter nenhuma. */
+  /* .jpg, e não .png como as outras pastas: estes desenhos são opacos e ocupam a
+     tela inteira. Em PNG davam 1,6 MB cada; em JPEG dão 140 KB, para uma camada
+     que aparece a 7% de opacidade e onde ninguém distingue a diferença. */
+  const url = `img/fundos/${apelido(S.time)}.jpg`;
+  const teste = new Image();
+  teste.onload = () => {
+    camada.style.backgroundImage = `url("${url}")`;
+    camada.classList.add('tem');
+  };
+  teste.onerror = () => {
+    camada.classList.remove('tem');
+    camada.style.backgroundImage = '';
+  };
+  teste.src = url;
 }
 
 function escudoHTML(time, urlFonte) {
@@ -1218,6 +1280,7 @@ function escolherTime(nome) {
   $('#gaveta').classList.remove('abre');
   pintar();
   trocarMascote();
+  trocarFundo();
   desenharTudo(true);
 }
 
@@ -1261,6 +1324,7 @@ async function iniciar() {
      qualquer coisa, senão a tela pisca do jeito velho para o novo */
   aplicarAcessibilidade(false);
   trocarMascote();
+  trocarFundo();
 
   const salvo = localStorage.getItem('tabelaco.campeonato');
   const existe = S.indice.campeonatos.some(c => c.id === salvo);
