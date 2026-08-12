@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-12T01:10:44.743Z",
+ "atualizado": "2026-08-12T03:33:52.887Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2902,10 +2902,10 @@
    "visitante": "Universidad Católica",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
