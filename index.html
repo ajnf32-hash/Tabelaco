@@ -104,21 +104,22 @@
      Ela é enfeite, não informação: entra atrás de tudo (z-index negativo, que
      pinta acima do fundo do #app e abaixo do conteúdo) e não recebe clique.
 
-     A opacidade é baixa de propósito. O pedido do Annibal foi "uma coisa
-     delicada, que não atrapalhe a leitura" — e a régua de contraste do app é
-     calculada em cima do fundo sólido, então quanto menos essa camada
-     interferir, mais aquela conta continua valendo.
+     Começou em 7% e subiu para 22%: as cartelas e tabelas são pintadas com
+     --papel, que é cor sólida, então elas cobrem por inteiro o que passa por
+     baixo. O desenho só aparece nas folgas e nas margens, e ali pode aparecer de
+     verdade — a régua de contraste do texto continua sendo calculada contra o
+     fundo sólido de sempre, sem nada por baixo para atrapalhar.
 
-     A máscara faz o desenho nascer do lado direito e morrer antes do meio da
-     tela, que é por onde correm as tabelas. */
+     A máscara agora apenas suaviza a borda esquerda, em vez de apagar metade do
+     desenho. */
   #fundoMascote{
     position:absolute;inset:0;z-index:-1;pointer-events:none;display:none;
     background-repeat:no-repeat;
     background-position:right -4% center;
-    background-size:auto 88%;
-    opacity:.07;
-    -webkit-mask-image:linear-gradient(to left,#000 0 38%,transparent 88%);
-            mask-image:linear-gradient(to left,#000 0 38%,transparent 88%);
+    background-size:auto 92%;
+    opacity:.22;
+    -webkit-mask-image:linear-gradient(to left,#000 0 62%,transparent 97%);
+            mask-image:linear-gradient(to left,#000 0 62%,transparent 97%);
   }
   /* Só na versão de computador, e nunca no alto contraste: quem liga o alto
      contraste está pedindo justamente que nada dispute com o texto. */
@@ -551,6 +552,13 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 10-.7.7l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM7 9h2V7.5h1.2V9h2v1.2h-2v1.3H9v-1.3H7V9z"/></svg>
           Texto: <span id="txtTamanho">Padrão</span>
         </button>
+        <!-- Só existe quando o time do coração tem desenho de fundo; trocarFundo()
+             cuida disso. É um <a download> e não um botão porque baixar arquivo é
+             trabalho que o navegador já sabe fazer sozinho. -->
+        <a class="acao" id="btWallpaper" hidden download>
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.6l3.3-3.3 1.4 1.4L12 17.4l-4.7-5.7 1.4-1.4L12 13.6V3h0zM5 19h14v2H5z"/></svg>
+          Baixar wallpaper
+        </a>
         <button class="acao destaque" id="btContato">
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4H4a2 2 0 00-2 2v12a2 2 0 002 2h16a2 2 0 002-2V6a2 2 0 00-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/></svg>
           Contato
@@ -861,10 +869,12 @@ function trocarMascote() {
    nada de mascote genérico, nada de fundo pela metade. */
 function trocarFundo() {
   const camada = $('#fundoMascote');
+  const baixar = $('#btWallpaper');
   if (!camada) return;
   if (!S.time || !temDesenho('fundos', S.time)) {
     camada.classList.remove('tem');
     camada.style.backgroundImage = '';
+    if (baixar) baixar.hidden = true;
     return;
   }
   /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
@@ -878,10 +888,17 @@ function trocarFundo() {
   teste.onload = () => {
     camada.style.backgroundImage = `url("${url}")`;
     camada.classList.add('tem');
+    if (baixar) {
+      baixar.href = url;
+      /* o nome que o torcedor vê na pasta de downloads, não o apelido interno */
+      baixar.setAttribute('download', `Tabelaço - ${S.time} (wallpaper).jpg`);
+      baixar.hidden = false;
+    }
   };
   teste.onerror = () => {
     camada.classList.remove('tem');
     camada.style.backgroundImage = '';
+    if (baixar) baixar.hidden = true;
   };
   teste.src = url;
 }

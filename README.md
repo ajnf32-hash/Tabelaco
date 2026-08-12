@@ -76,8 +76,12 @@ aparece na versão de computador, e some no alto contraste, porque quem liga o
 alto contraste está pedindo que nada dispute com o texto.
 
 É a única pasta em `.jpg`: esses desenhos são opacos e de tela cheia. Em PNG
-pesavam 1,6 MB cada; em JPEG pesam 140 KB, e a 7% de opacidade ninguém vê
-diferença.
+pesavam 1,6 MB cada; em JPEG pesam 220 KB.
+
+O mesmo arquivo alimenta o botão **Baixar wallpaper**, no rodapé da versão de
+computador — o torcedor leva para casa o papel de parede do time dele. Por isso a
+qualidade do JPEG é alta: ele não serve só de fundo desbotado, ele também é
+baixado e visto em tamanho real.
 
 Os três documentos que guiam esse trabalho, na ordem de uso:
 
