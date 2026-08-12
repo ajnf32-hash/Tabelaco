@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-12T17:26:10.711Z",
+ "atualizado": "2026-08-12T18:14:44.973Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2715,6 +2715,83 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-26",
+   "hora": "00:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-27",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Santos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-27",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Vitória",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-27",
+   "hora": "23:00",
+   "rodada": "1st Leg",
+   "local": "Estadio Beira-Rio",
+   "cidade": "Porto Alegre",
+   "mandante": "Internacional",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []
