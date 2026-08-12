@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-11T23:31:14.897Z",
+ "atualizado": "2026-08-12T01:10:39.416Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 32,
+   "jogos": 21,
+   "vitorias": 9,
+   "empates": 5,
+   "derrotas": 7,
+   "golsPro": 32,
+   "golsContra": 32,
+   "saldo": 0
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
@@ -107,7 +121,7 @@
    "saldo": -4
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
@@ -121,7 +135,7 @@
    "saldo": 3
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -135,7 +149,7 @@
    "saldo": 7
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -149,7 +163,7 @@
    "saldo": 3
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
@@ -161,20 +175,6 @@
    "golsPro": 31,
    "golsContra": 24,
    "saldo": 7
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 29,
-   "jogos": 20,
-   "vitorias": 8,
-   "empates": 5,
-   "derrotas": 7,
-   "golsPro": 31,
-   "golsContra": 32,
-   "saldo": -1
   },
   {
    "posicao": 13,
@@ -252,13 +252,13 @@
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "pontos": 20,
-   "jogos": 20,
+   "jogos": 21,
    "vitorias": 5,
    "empates": 5,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 21,
-   "golsContra": 27,
-   "saldo": -6
+   "golsContra": 28,
+   "saldo": -7
   },
   {
    "posicao": 19,
@@ -4279,10 +4279,10 @@
    "visitante": "CRB",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

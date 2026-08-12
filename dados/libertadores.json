@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-11T23:31:22.779Z",
+ "atualizado": "2026-08-12T01:10:44.743Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2862,10 +2862,10 @@
    "visitante": "Independiente Rivadavia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2905,7 +2905,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
