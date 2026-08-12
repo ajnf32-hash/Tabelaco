@@ -9,10 +9,16 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 
 ---
 
-## 1. Mascote confirmado — pode desenhar (38 times)
+## 1. Mascote confirmado — pode desenhar (49 times)
+
+> Esta tabela é um espelho de `dados/mascotes.json`, que é a fonte da verdade — é o arquivo
+> que o app lê. Se as duas discordarem, vale o JSON. Ao acrescentar um mascote, escreva no JSON
+> primeiro e depois repita aqui.
 
 | Time | Mascote | Cor | Arquivo |
 |---|---|---|---|
+| ABC | Elefante | `padrão` | `abc` |
+| Amazonas | Onça-pintada | `#0B6E37` | `amazonas` |
 | América Mineiro | Coelho | `#0B6E37` | `america-mineiro` |
 | Athletico Paranaense | Furacão | `#C4122E` | `athletico-paranaense` |
 | Atlético Goianiense | Dragão | `#C4122E` | `atletico-goianiense` |
@@ -23,12 +29,15 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 | Botafogo-SP | Pantera | `#C4122E` | `botafogo-sp` |
 | Ceará | Vovô | `#1A1A1A` | `ceara` |
 | Chapecoense | Índio Condá | `#0B6E37` | `chapecoense` |
+| Confiança | Dragão do Bairro Industrial | `padrão` | `confianca` |
 | Corinthians | Mosqueteiro | `#1A1A1A` | `corinthians` |
 | Coritiba | Vovô Coxa | `#005F3C` | `coritiba` |
 | CRB | Galo | `#C4122E` | `crb` |
 | Criciúma | Tigre | `#F2C200` | `criciuma` |
 | Cruzeiro | Raposa | `#12508F` | `cruzeiro` |
+| CSA | Azulão | `padrão` | `csa` |
 | Cuiabá | Dourado (o peixe) | `#0B6E37` | `cuiaba` |
+| Figueirense | Furacão do Estreito | `padrão` | `figueirense` |
 | Flamengo | Urubu | `#C52613` | `flamengo` |
 | Fluminense | Guerreiro (pó de arroz) | `#7A1C38` | `fluminense` |
 | Fortaleza | Leão do Pici | `#00368C` | `fortaleza` |
@@ -36,15 +45,21 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 | Grêmio | Mosqueteiro | `#0D80BF` | `gremio` |
 | Guarani | Bugre | `#0B6E37` | `guarani` |
 | Internacional | Saci-Pererê | `#C4122E` | `internacional` |
+| Joinville | Tubarão | `padrão` | `joinville` |
+| Juventude | Periquito | `#0B6E37` | `juventude` |
 | Londrina | Tubarão | `#0057B8` | `londrina` |
+| Manaus | Gavião do Norte | `padrão` | `manaus` |
+| Maringá | Dogão | `padrão` | `maringa` |
 | Mirassol | Leão | `#F2C200` | `mirassol` |
 | Náutico | Timbu (o gambá) | `#C4122E` | `nautico` |
 | Operário PR | Fantasma | `#1A1A1A` | `operario-pr` |
 | Palmeiras | Porco | `#016936` | `palmeiras` |
+| Paysandu | Papão da Curuzu | `#0057B8` | `paysandu` |
 | Ponte Preta | Macaca | `#1A1A1A` | `ponte-preta` |
 | Portuguesa | Leão da Lusa | `#C4122E` | `portuguesa` |
 | Red Bull Bragantino | Touro (Massa Bruta) | `#C4122E` | `red-bull-bragantino` |
 | Remo | Leão Azul | `#0057B8` | `remo` |
+| Santa Cruz | Cobra Coral | `padrão` | `santa-cruz` |
 | Santos | Baleia | `#1A1A1A` | `santos` |
 | São Paulo | Santo Paulo (o santo de manto vermelho) | `#CC2229` | `sao-paulo` |
 | Sport | Leão | `#C4122E` | `sport` |
@@ -52,7 +67,7 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 | Vila Nova | Tigre | `#C4122E` | `vila-nova` |
 | Vitória | Leão | `#C4122E` | `vitoria` |
 
-## 2. Clube brasileiro, mascote que eu não sei (33 times)
+## 2. Clube brasileiro, mascote que eu não sei (32 times)
 
 Não inventei. Se você souber, me diga e eu preencho — ou desenhe só o escudo, que já resolve.
 
@@ -71,7 +86,6 @@ Não inventei. Se você souber, me diga e eu preencho — ou desenhe só o escud
 | Guarany de Bagé | — | `padrão` | `guarany-de-bage` |
 | Inter Santa Maria | — | `padrão` | `inter-santa-maria` |
 | Itabirito | — | `padrão` | `itabirito` |
-| Juventude | — | `#0B6E37` | `juventude` |
 | Madureira | — | `#0B6E37` | `madureira` |
 | Maricá | — | `#0B6E37` | `marica` |
 | Monsoon | — | `padrão` | `monsoon` |
