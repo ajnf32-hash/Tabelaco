@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-13T23:32:39.874Z",
+ "atualizado": "2026-08-14T01:10:50.327Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2961,10 +2961,10 @@
    "visitante": "Liga de Quito",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2984,7 +2984,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
