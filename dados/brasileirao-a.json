@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T21:12:47.715Z",
+ "atualizado": "2026-08-15T21:42:50.575Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -14,13 +14,13 @@
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "pontos": 48,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 14,
    "empates": 6,
-   "derrotas": 2,
-   "golsPro": 38,
-   "golsContra": 16,
-   "saldo": 22
+   "derrotas": 3,
+   "golsPro": 40,
+   "golsContra": 19,
+   "saldo": 21
   },
   {
    "posicao": 2,
@@ -55,14 +55,14 @@
    "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 35,
-   "jogos": 22,
-   "vitorias": 9,
+   "pontos": 38,
+   "jogos": 23,
+   "vitorias": 10,
    "empates": 8,
    "derrotas": 5,
-   "golsPro": 31,
-   "golsContra": 26,
-   "saldo": 5
+   "golsPro": 34,
+   "golsContra": 28,
+   "saldo": 6
   },
   {
    "posicao": 5,
@@ -3771,12 +3771,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "In Progress",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-15",
