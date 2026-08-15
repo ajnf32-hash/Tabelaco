@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T20:12:35.444Z",
+ "atualizado": "2026-08-15T20:45:57.389Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3771,7 +3771,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Scheduled",
    "fontes": [
     "espn",
     "fotmob"
