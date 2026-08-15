@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T23:12:31.943Z",
+ "atualizado": "2026-08-15T23:41:48.642Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,10 +27,10 @@
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 38,
-   "jogos": 21,
+   "pontos": 39,
+   "jogos": 22,
    "vitorias": 11,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 5,
    "golsPro": 23,
    "golsContra": 12,
@@ -55,10 +55,10 @@
    "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 35,
-   "jogos": 21,
+   "pontos": 36,
+   "jogos": 22,
    "vitorias": 10,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 6,
    "golsPro": 24,
    "golsContra": 20,
@@ -4426,7 +4426,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",

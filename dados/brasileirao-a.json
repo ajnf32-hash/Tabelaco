@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T23:12:21.811Z",
+ "atualizado": "2026-08-15T23:41:41.562Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,13 +41,13 @@
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 40,
-   "jogos": 22,
+   "pontos": 41,
+   "jogos": 23,
    "vitorias": 12,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 6,
-   "golsPro": 30,
-   "golsContra": 19,
+   "golsPro": 31,
+   "golsContra": 20,
    "saldo": 11
   },
   {
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Red Bull Bragantino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "pontos": 32,
+   "jogos": 22,
+   "vitorias": 9,
+   "empates": 5,
+   "derrotas": 8,
+   "golsPro": 27,
+   "golsContra": 23,
+   "saldo": 4
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
@@ -104,20 +118,6 @@
    "derrotas": 6,
    "golsPro": 24,
    "golsContra": 20,
-   "saldo": 4
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Red Bull Bragantino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 31,
-   "jogos": 21,
-   "vitorias": 9,
-   "empates": 4,
-   "derrotas": 8,
-   "golsPro": 26,
-   "golsContra": 22,
    "saldo": 4
   },
   {
@@ -3796,7 +3796,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
