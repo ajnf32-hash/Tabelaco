@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T20:46:05.831Z",
+ "atualizado": "2026-08-15T21:12:56.168Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 40,
-   "jogos": 21,
-   "vitorias": 11,
+   "pontos": 43,
+   "jogos": 22,
+   "vitorias": 12,
    "empates": 7,
    "derrotas": 3,
-   "golsPro": 23,
+   "golsPro": 24,
    "golsContra": 14,
-   "saldo": 9
+   "saldo": 10
   },
   {
    "posicao": 2,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 37,
+   "jogos": 22,
+   "vitorias": 11,
+   "empates": 4,
+   "derrotas": 7,
+   "golsPro": 29,
+   "golsContra": 25,
+   "saldo": 4
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 35,
@@ -51,7 +65,7 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -65,7 +79,7 @@
    "saldo": 1
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -77,20 +91,6 @@
    "golsPro": 28,
    "golsContra": 20,
    "saldo": 8
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 34,
-   "jogos": 21,
-   "vitorias": 10,
-   "empates": 4,
-   "derrotas": 7,
-   "golsPro": 27,
-   "golsContra": 25,
-   "saldo": 2
   },
   {
    "posicao": 7,
@@ -126,13 +126,13 @@
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 9,
    "empates": 5,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 22,
-   "golsContra": 26,
-   "saldo": -4
+   "golsContra": 27,
+   "saldo": -5
   },
   {
    "posicao": 10,
@@ -140,13 +140,13 @@
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 32,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 24,
-   "golsContra": 21,
-   "saldo": 3
+   "golsContra": 23,
+   "saldo": 1
   },
   {
    "posicao": 11,
@@ -193,6 +193,20 @@
   {
    "posicao": 14,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 29,
+   "jogos": 22,
+   "vitorias": 6,
+   "empates": 11,
+   "derrotas": 5,
+   "golsPro": 19,
+   "golsContra": 17,
+   "saldo": 2
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 27,
@@ -205,32 +219,18 @@
    "saldo": 0
   },
   {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 26,
-   "jogos": 21,
-   "vitorias": 5,
-   "empates": 11,
-   "derrotas": 5,
-   "golsPro": 16,
-   "golsContra": 16,
-   "saldo": 0
-  },
-  {
    "posicao": 16,
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 25,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 6,
    "empates": 7,
-   "derrotas": 8,
-   "golsPro": 22,
-   "golsContra": 25,
-   "saldo": -3
+   "derrotas": 9,
+   "golsPro": 23,
+   "golsContra": 28,
+   "saldo": -5
   },
   {
    "posicao": 17,
@@ -4362,7 +4362,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4381,12 +4381,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-15",
@@ -4401,12 +4401,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-15",
