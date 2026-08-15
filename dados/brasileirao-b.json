@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-14T23:44:42.572Z",
+ "atualizado": "2026-08-15T00:43:44.874Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -168,40 +168,40 @@
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 30,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 8,
    "empates": 6,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 31,
-   "golsContra": 24,
-   "saldo": 7
+   "golsContra": 25,
+   "saldo": 6
   },
   {
    "posicao": 13,
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 27,
-   "jogos": 21,
-   "vitorias": 7,
+   "pontos": 30,
+   "jogos": 22,
+   "vitorias": 8,
    "empates": 6,
    "derrotas": 8,
-   "golsPro": 26,
+   "golsPro": 27,
    "golsContra": 22,
-   "saldo": 4
+   "saldo": 5
   },
   {
    "posicao": 14,
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 26,
-   "jogos": 21,
+   "pontos": 27,
+   "jogos": 22,
    "vitorias": 7,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 9,
-   "golsPro": 25,
-   "golsContra": 25,
+   "golsPro": 26,
+   "golsContra": 26,
    "saldo": 0
   },
   {
@@ -279,13 +279,13 @@
    "grupo": "",
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "pontos": 9,
-   "jogos": 21,
+   "pontos": 10,
+   "jogos": 22,
    "vitorias": 2,
-   "empates": 3,
+   "empates": 4,
    "derrotas": 16,
-   "golsPro": 15,
-   "golsContra": 41,
+   "golsPro": 16,
+   "golsContra": 42,
    "saldo": -26
   }
  ],
@@ -4299,10 +4299,10 @@
    "visitante": "Náutico",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4319,10 +4319,10 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4342,7 +4342,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
