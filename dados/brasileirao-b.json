@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-15T00:43:44.874Z",
+ "atualizado": "2026-08-15T02:08:50.813Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 35,
+   "jogos": 22,
+   "vitorias": 8,
+   "empates": 11,
+   "derrotas": 3,
+   "golsPro": 28,
+   "golsContra": 20,
+   "saldo": 8
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "pontos": 34,
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
@@ -93,7 +107,7 @@
    "saldo": 12
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -107,7 +121,7 @@
    "saldo": 0
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -121,7 +135,7 @@
    "saldo": -4
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
@@ -133,20 +147,6 @@
    "golsPro": 24,
    "golsContra": 21,
    "saldo": 3
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 32,
-   "jogos": 21,
-   "vitorias": 7,
-   "empates": 11,
-   "derrotas": 3,
-   "golsPro": 26,
-   "golsContra": 19,
-   "saldo": 7
   },
   {
    "posicao": 11,
@@ -238,13 +238,13 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 20,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 5,
    "empates": 5,
-   "derrotas": 11,
-   "golsPro": 27,
-   "golsContra": 32,
-   "saldo": -5
+   "derrotas": 12,
+   "golsPro": 28,
+   "golsContra": 34,
+   "saldo": -6
   },
   {
    "posicao": 18,
@@ -4347,7 +4347,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-15",
