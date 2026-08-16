@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T23:11:22.044Z",
+ "atualizado": "2026-08-16T23:41:09.691Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 42,
-   "jogos": 21,
-   "vitorias": 12,
+   "pontos": 45,
+   "jogos": 22,
+   "vitorias": 13,
    "empates": 6,
    "derrotas": 3,
-   "golsPro": 39,
-   "golsContra": 18,
-   "saldo": 21
+   "golsPro": 44,
+   "golsContra": 19,
+   "saldo": 25
   },
   {
    "posicao": 3,
@@ -154,16 +154,30 @@
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 30,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 8,
    "empates": 6,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 35,
-   "golsContra": 33,
-   "saldo": 2
+   "golsContra": 34,
+   "saldo": 1
   },
   {
    "posicao": 12,
+   "grupo": "",
+   "time": "Vitória",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "pontos": 29,
+   "jogos": 23,
+   "vitorias": 8,
+   "empates": 5,
+   "derrotas": 10,
+   "golsPro": 23,
+   "golsContra": 33,
+   "saldo": -10
+  },
+  {
+   "posicao": 13,
    "grupo": "",
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
@@ -175,20 +189,6 @@
    "golsPro": 27,
    "golsContra": 26,
    "saldo": 1
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Vitória",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "pontos": 26,
-   "jogos": 22,
-   "vitorias": 7,
-   "empates": 5,
-   "derrotas": 10,
-   "golsPro": 22,
-   "golsContra": 33,
-   "saldo": -11
   },
   {
    "posicao": 14,
@@ -224,13 +224,13 @@
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 23,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 6,
    "empates": 5,
-   "derrotas": 10,
-   "golsPro": 24,
-   "golsContra": 30,
-   "saldo": -6
+   "derrotas": 11,
+   "golsPro": 25,
+   "golsContra": 35,
+   "saldo": -10
   },
   {
    "posicao": 17,
@@ -3896,7 +3896,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
@@ -3916,7 +3916,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",

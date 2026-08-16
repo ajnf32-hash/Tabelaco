@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T23:11:28.670Z",
+ "atualizado": "2026-08-16T23:41:15.907Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,10 +97,10 @@
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 33,
-   "jogos": 21,
+   "pontos": 34,
+   "jogos": 22,
    "vitorias": 9,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 6,
    "golsPro": 32,
    "golsContra": 20,
@@ -109,19 +109,33 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 34,
+   "jogos": 22,
+   "vitorias": 8,
+   "empates": 10,
+   "derrotas": 4,
+   "golsPro": 24,
+   "golsContra": 19,
+   "saldo": 5
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 32,
-   "jogos": 21,
+   "pontos": 33,
+   "jogos": 22,
    "vitorias": 9,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 7,
    "golsPro": 32,
    "golsContra": 32,
    "saldo": 0
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -135,7 +149,7 @@
    "saldo": -5
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
@@ -147,20 +161,6 @@
    "golsPro": 24,
    "golsContra": 23,
    "saldo": 1
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 31,
-   "jogos": 21,
-   "vitorias": 7,
-   "empates": 10,
-   "derrotas": 4,
-   "golsPro": 21,
-   "golsContra": 18,
-   "saldo": 3
   },
   {
    "posicao": 12,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 11,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 2,
    "empates": 5,
-   "derrotas": 14,
-   "golsPro": 15,
-   "golsContra": 33,
-   "saldo": -18
+   "derrotas": 15,
+   "golsPro": 16,
+   "golsContra": 36,
+   "saldo": -20
   },
   {
    "posicao": 20,
@@ -4464,7 +4464,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
@@ -4484,7 +4484,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-18",
