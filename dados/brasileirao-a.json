@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T00:45:12.505Z",
+ "atualizado": "2026-08-16T02:16:36.824Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Coritiba",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "pontos": 31,
+   "jogos": 23,
+   "vitorias": 8,
+   "empates": 7,
+   "derrotas": 8,
+   "golsPro": 28,
+   "golsContra": 30,
+   "saldo": -2
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 30,
@@ -133,20 +147,6 @@
    "golsPro": 35,
    "golsContra": 33,
    "saldo": 2
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Coritiba",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "pontos": 30,
-   "jogos": 22,
-   "vitorias": 8,
-   "empates": 6,
-   "derrotas": 8,
-   "golsPro": 27,
-   "golsContra": 29,
-   "saldo": -2
   },
   {
    "posicao": 11,
@@ -167,13 +167,13 @@
    "grupo": "",
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-   "pontos": 26,
-   "jogos": 21,
+   "pontos": 27,
+   "jogos": 22,
    "vitorias": 7,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 9,
-   "golsPro": 26,
-   "golsContra": 25,
+   "golsPro": 27,
+   "golsContra": 26,
    "saldo": 1
   },
   {
@@ -3816,7 +3816,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
