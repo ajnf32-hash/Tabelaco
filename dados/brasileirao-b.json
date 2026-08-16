@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T15:43:22.296Z",
+ "atualizado": "2026-08-16T16:14:29.036Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 35,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 10,
    "empates": 5,
-   "derrotas": 6,
-   "golsPro": 29,
-   "golsContra": 28,
-   "saldo": 1
+   "derrotas": 7,
+   "golsPro": 30,
+   "golsContra": 30,
+   "saldo": 0
   },
   {
    "posicao": 6,
@@ -235,6 +235,20 @@
   {
    "posicao": 17,
    "grupo": "",
+   "time": "Avaí",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "pontos": 23,
+   "jogos": 22,
+   "vitorias": 6,
+   "empates": 5,
+   "derrotas": 11,
+   "golsPro": 23,
+   "golsContra": 29,
+   "saldo": -6
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 20,
@@ -245,20 +259,6 @@
    "golsPro": 28,
    "golsContra": 34,
    "saldo": -6
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Avaí",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 20,
-   "jogos": 21,
-   "vitorias": 5,
-   "empates": 5,
-   "derrotas": 11,
-   "golsPro": 21,
-   "golsContra": 28,
-   "saldo": -7
   },
   {
    "posicao": 19,
@@ -4444,7 +4444,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",

@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T15:43:15.934Z",
+ "atualizado": "2026-08-16T16:14:22.965Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Bahia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "pontos": 34,
+   "jogos": 23,
+   "vitorias": 8,
+   "empates": 10,
+   "derrotas": 5,
+   "golsPro": 32,
+   "golsContra": 28,
+   "saldo": 4
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 33,
@@ -77,20 +91,6 @@
    "golsPro": 30,
    "golsContra": 31,
    "saldo": -1
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Bahia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 33,
-   "jogos": 22,
-   "vitorias": 8,
-   "empates": 9,
-   "derrotas": 5,
-   "golsPro": 29,
-   "golsContra": 25,
-   "saldo": 4
   },
   {
    "posicao": 7,
@@ -279,13 +279,13 @@
    "grupo": "",
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "pontos": 10,
-   "jogos": 21,
+   "pontos": 11,
+   "jogos": 22,
    "vitorias": 1,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 13,
-   "golsPro": 20,
-   "golsContra": 43,
+   "golsPro": 23,
+   "golsContra": 46,
    "saldo": -23
   }
  ],
@@ -3836,7 +3836,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
