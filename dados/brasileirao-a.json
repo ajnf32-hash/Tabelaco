@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T20:44:44.448Z",
+ "atualizado": "2026-08-16T21:12:04.136Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Atlético-MG",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "pontos": 32,
+   "jogos": 22,
+   "vitorias": 9,
+   "empates": 5,
+   "derrotas": 8,
+   "golsPro": 30,
+   "golsContra": 27,
+   "saldo": 3
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
@@ -121,7 +135,7 @@
    "saldo": 4
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
@@ -135,7 +149,7 @@
    "saldo": -2
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
@@ -147,20 +161,6 @@
    "golsPro": 35,
    "golsContra": 33,
    "saldo": 2
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Atlético-MG",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 29,
-   "jogos": 21,
-   "vitorias": 8,
-   "empates": 5,
-   "derrotas": 8,
-   "golsPro": 27,
-   "golsContra": 27,
-   "saldo": 0
   },
   {
    "posicao": 12,
@@ -193,19 +193,33 @@
   {
    "posicao": 14,
    "grupo": "",
-   "time": "Grêmio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "time": "Santos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
    "pontos": 25,
-   "jogos": 21,
+   "jogos": 22,
    "vitorias": 6,
    "empates": 7,
-   "derrotas": 8,
-   "golsPro": 24,
-   "golsContra": 27,
+   "derrotas": 9,
+   "golsPro": 32,
+   "golsContra": 35,
    "saldo": -3
   },
   {
    "posicao": 15,
+   "grupo": "",
+   "time": "Grêmio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "pontos": 25,
+   "jogos": 22,
+   "vitorias": 6,
+   "empates": 7,
+   "derrotas": 9,
+   "golsPro": 24,
+   "golsContra": 30,
+   "saldo": -6
+  },
+  {
+   "posicao": 16,
    "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
@@ -219,7 +233,7 @@
    "saldo": -6
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
@@ -233,35 +247,7 @@
    "saldo": -4
   },
   {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Santos",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 22,
-   "jogos": 21,
-   "vitorias": 5,
-   "empates": 7,
-   "derrotas": 9,
-   "golsPro": 29,
-   "golsContra": 35,
-   "saldo": -6
-  },
-  {
    "posicao": 18,
-   "grupo": "",
-   "time": "Vasco da Gama",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "pontos": 22,
-   "jogos": 21,
-   "vitorias": 5,
-   "empates": 7,
-   "derrotas": 9,
-   "golsPro": 23,
-   "golsContra": 31,
-   "saldo": -8
-  },
-  {
-   "posicao": 19,
    "grupo": "",
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
@@ -273,6 +259,20 @@
    "golsPro": 26,
    "golsContra": 36,
    "saldo": -10
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Vasco da Gama",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "pontos": 22,
+   "jogos": 22,
+   "vitorias": 5,
+   "empates": 7,
+   "derrotas": 10,
+   "golsPro": 23,
+   "golsContra": 34,
+   "saldo": -11
   },
   {
    "posicao": 20,
@@ -3851,12 +3851,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
@@ -3871,12 +3871,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-16",
