@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-17T07:44:35.604Z",
+ "atualizado": "2026-08-17T08:33:14.217Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4157,26 +4157,7 @@
   },
   {
    "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Arena da Baixada",
-   "cidade": "Curitiba",
-   "mandante": "Athletico-PR",
-   "visitante": "Fluminense",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
+   "hora": "21:30",
    "rodada": "",
    "local": "Arena MRV",
    "cidade": "Belo Horizonte",
@@ -4196,121 +4177,7 @@
   },
   {
    "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Arena Fonte Nova",
-   "cidade": "Salvador",
-   "mandante": "Bahia",
-   "visitante": "Internacional",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Neo Química Arena",
-   "cidade": "Sao Paulo",
-   "mandante": "Corinthians",
-   "visitante": "Santos",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Estadio do Maracana",
-   "cidade": "Rio de Janeiro",
-   "mandante": "Flamengo",
-   "visitante": "Botafogo",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Arena do Grêmio",
-   "cidade": "Porto Alegre",
-   "mandante": "Grêmio",
-   "visitante": "Chapecoense",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Estadio Municipal José Maria de Campos Maia",
-   "cidade": "Mirassol",
-   "mandante": "Mirassol",
-   "visitante": "Palmeiras",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Estadio Evandro Almeida (Baenao)",
-   "cidade": "Belém",
-   "mandante": "Remo",
-   "visitante": "Coritiba",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-08-29",
-   "hora": "18:00",
+   "hora": "23:00",
    "rodada": "",
    "local": "Estádio Cícero Pompeu de Toledo",
    "cidade": "Sao Paulo",
@@ -4329,8 +4196,8 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-08-29",
-   "hora": "18:00",
+   "data": "2026-08-30",
+   "hora": "00:20",
    "rodada": "",
    "local": "Estádio São Januário",
    "cidade": "Rio de Janeiro",
@@ -4342,10 +4209,151 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Arena da Baixada",
+   "cidade": "Curitiba",
+   "mandante": "Athletico-PR",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Arena Fonte Nova",
+   "cidade": "Salvador",
+   "mandante": "Bahia",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Neo Química Arena",
+   "cidade": "Sao Paulo",
+   "mandante": "Corinthians",
+   "visitante": "Santos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Chapecoense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estadio Municipal José Maria de Campos Maia",
+   "cidade": "Mirassol",
+   "mandante": "Mirassol",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-31",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Mangueirão",
+   "cidade": "Belém",
+   "mandante": "Remo",
+   "visitante": "Coritiba",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
