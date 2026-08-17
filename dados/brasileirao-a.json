@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-16T23:41:09.691Z",
+ "atualizado": "2026-08-17T00:43:44.516Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "pontos": 36,
+   "jogos": 23,
+   "vitorias": 10,
+   "empates": 6,
+   "derrotas": 7,
+   "golsPro": 32,
+   "golsContra": 32,
+   "saldo": 0
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 34,
@@ -77,20 +91,6 @@
    "golsPro": 32,
    "golsContra": 28,
    "saldo": 4
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Cruzeiro",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 33,
-   "jogos": 22,
-   "vitorias": 9,
-   "empates": 6,
-   "derrotas": 7,
-   "golsPro": 30,
-   "golsContra": 31,
-   "saldo": -1
   },
   {
    "posicao": 7,
@@ -126,13 +126,13 @@
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 6,
-   "golsPro": 24,
-   "golsContra": 20,
-   "saldo": 4
+   "derrotas": 7,
+   "golsPro": 25,
+   "golsContra": 22,
+   "saldo": 3
   },
   {
    "posicao": 10,
@@ -3572,11 +3572,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-08",
@@ -3592,11 +3591,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-08",
@@ -3612,11 +3610,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-09",
@@ -3888,15 +3885,15 @@
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 5,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-16",
@@ -3908,15 +3905,15 @@
    "visitante": "Botafogo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-16",
@@ -3928,10 +3925,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
