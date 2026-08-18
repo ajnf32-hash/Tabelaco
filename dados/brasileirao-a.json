@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-18T10:21:44.545Z",
+ "atualizado": "2026-08-18T10:53:53.990Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4232,6 +4232,26 @@
    "data": "2026-08-30",
    "hora": "19:00",
    "rodada": "",
+   "local": "Arena Fonte Nova",
+   "cidade": "Salvador",
+   "mandante": "Bahia",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "19:00",
+   "rodada": "",
    "local": "Neo Química Arena",
    "cidade": "Sao Paulo",
    "mandante": "Corinthians",
@@ -4278,26 +4298,6 @@
    "visitante": "Chapecoense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-08-30",
-   "hora": "22:30",
-   "rodada": "",
-   "local": "Arena Fonte Nova",
-   "cidade": "Salvador",
-   "mandante": "Bahia",
-   "visitante": "Internacional",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
