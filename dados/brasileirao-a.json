@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-18T02:10:36.049Z",
+ "atualizado": "2026-08-18T03:14:29.036Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3938,15 +3938,15 @@
    "visitante": "Remo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-22",
