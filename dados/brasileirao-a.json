@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-18T00:42:59.857Z",
+ "atualizado": "2026-08-18T02:10:36.049Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Internacional",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "pontos": 24,
+   "jogos": 23,
+   "vitorias": 5,
+   "empates": 9,
+   "derrotas": 9,
+   "golsPro": 24,
+   "golsContra": 28,
+   "saldo": -4
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 23,
@@ -233,31 +247,17 @@
    "saldo": -10
   },
   {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Internacional",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "pontos": 23,
-   "jogos": 22,
-   "vitorias": 5,
-   "empates": 8,
-   "derrotas": 9,
-   "golsPro": 23,
-   "golsContra": 27,
-   "saldo": -4
-  },
-  {
    "posicao": 18,
    "grupo": "",
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "pontos": 22,
-   "jogos": 22,
+   "pontos": 23,
+   "jogos": 23,
    "vitorias": 5,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 10,
-   "golsPro": 26,
-   "golsContra": 36,
+   "golsPro": 27,
+   "golsContra": 37,
    "saldo": -10
   },
   {
@@ -3946,7 +3946,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-22",
