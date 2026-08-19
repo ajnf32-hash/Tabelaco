@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T04:05:28.025Z",
+ "atualizado": "2026-08-19T05:00:24.985Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 39,
-   "jogos": 22,
-   "vitorias": 11,
+   "pontos": 42,
+   "jogos": 23,
+   "vitorias": 12,
    "empates": 6,
    "derrotas": 5,
-   "golsPro": 23,
+   "golsPro": 24,
    "golsContra": 12,
-   "saldo": 11
+   "saldo": 12
   },
   {
    "posicao": 3,
@@ -154,13 +154,13 @@
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 9,
    "empates": 5,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 22,
-   "golsContra": 27,
-   "saldo": -5
+   "golsContra": 28,
+   "saldo": -6
   },
   {
    "posicao": 12,
@@ -193,6 +193,20 @@
   {
    "posicao": 14,
    "grupo": "",
+   "time": "Náutico",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "pontos": 30,
+   "jogos": 23,
+   "vitorias": 8,
+   "empates": 6,
+   "derrotas": 9,
+   "golsPro": 27,
+   "golsContra": 26,
+   "saldo": 1
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 29,
@@ -205,32 +219,18 @@
    "saldo": 2
   },
   {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Náutico",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 27,
-   "jogos": 22,
-   "vitorias": 7,
-   "empates": 6,
-   "derrotas": 9,
-   "golsPro": 26,
-   "golsContra": 26,
-   "saldo": 0
-  },
-  {
    "posicao": 16,
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 25,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 6,
    "empates": 7,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 23,
-   "golsContra": 28,
-   "saldo": -5
+   "golsContra": 29,
+   "saldo": -6
   },
   {
    "posicao": 17,
@@ -4509,15 +4509,15 @@
    "visitante": "Ceará",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-19",
@@ -4529,15 +4529,15 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-19",
