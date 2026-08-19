@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T02:13:45.740Z",
+ "atualizado": "2026-08-19T03:23:35.285Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3021,10 +3021,10 @@
    "visitante": "Independiente del Valle",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -3034,17 +3034,17 @@
   {
    "data": "2026-08-19",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Estudiantes de La Plata win 4-1 on aggregate",
    "local": "Estadio San Carlos de Apoquindo",
    "cidade": "Santiago",
    "mandante": "Universidad Católica",
    "visitante": "Estudiantes de La Plata",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/885.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -3153,7 +3153,7 @@
   {
    "data": "2026-08-26",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Independiente del Valle lead 1-0 on aggregate",
    "local": "Estadio Banco Guayaquil",
    "cidade": "Quito",
    "mandante": "Independiente del Valle",

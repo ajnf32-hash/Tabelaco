@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T02:13:37.985Z",
+ "atualizado": "2026-08-19T03:23:30.447Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 39,
-   "jogos": 22,
-   "vitorias": 11,
+   "pontos": 42,
+   "jogos": 23,
+   "vitorias": 12,
    "empates": 6,
    "derrotas": 5,
-   "golsPro": 23,
+   "golsPro": 24,
    "golsContra": 12,
-   "saldo": 11
+   "saldo": 12
   },
   {
    "posicao": 3,
@@ -154,13 +154,13 @@
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 9,
    "empates": 5,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 22,
-   "golsContra": 27,
-   "saldo": -5
+   "golsContra": 28,
+   "saldo": -6
   },
   {
    "posicao": 12,
@@ -4509,10 +4509,10 @@
    "visitante": "Ceará",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4529,10 +4529,10 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
