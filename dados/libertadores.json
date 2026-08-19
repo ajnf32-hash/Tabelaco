@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T22:48:22.809Z",
+ "atualizado": "2026-08-19T23:15:14.916Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3053,7 +3053,7 @@
   {
    "data": "2026-08-19",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Palmeiras lead 2-1 on aggregate",
    "local": "Estadio ueno La Nueva Olla",
    "cidade": "Asunción",
    "mandante": "Cerro Porteño",
@@ -3063,7 +3063,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -3083,7 +3083,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
