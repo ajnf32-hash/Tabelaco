@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T00:43:24.881Z",
+ "atualizado": "2026-08-19T02:13:37.985Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 33,
+   "jogos": 23,
+   "vitorias": 8,
+   "empates": 9,
+   "derrotas": 6,
+   "golsPro": 24,
+   "golsContra": 23,
+   "saldo": 1
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
@@ -147,20 +161,6 @@
    "golsPro": 22,
    "golsContra": 27,
    "saldo": -5
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 32,
-   "jogos": 22,
-   "vitorias": 8,
-   "empates": 8,
-   "derrotas": 6,
-   "golsPro": 24,
-   "golsContra": 23,
-   "saldo": 1
   },
   {
    "posicao": 12,
@@ -251,10 +251,10 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 20,
-   "jogos": 22,
+   "pontos": 21,
+   "jogos": 23,
    "vitorias": 5,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 12,
    "golsPro": 28,
    "golsContra": 34,
