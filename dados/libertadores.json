@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-18T23:43:46.222Z",
+ "atualizado": "2026-08-19T00:43:32.118Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2994,17 +2994,17 @@
   {
    "data": "2026-08-18",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Tied on aggregate - FLU win 5-4 on penalties",
    "local": "Malvinas Argentinas (Mendoza)",
    "cidade": "Mendoza",
    "mandante": "Independiente Rivadavia",
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9744.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
    "fontes": [
     "espn",
     "fotmob"
@@ -3024,7 +3024,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -3044,7 +3044,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
