@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T03:23:30.447Z",
+ "atualizado": "2026-08-19T04:05:28.025Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 42,
-   "jogos": 23,
-   "vitorias": 12,
+   "pontos": 39,
+   "jogos": 22,
+   "vitorias": 11,
    "empates": 6,
    "derrotas": 5,
-   "golsPro": 24,
+   "golsPro": 23,
    "golsContra": 12,
-   "saldo": 12
+   "saldo": 11
   },
   {
    "posicao": 3,
@@ -154,13 +154,13 @@
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 32,
-   "jogos": 23,
+   "jogos": 22,
    "vitorias": 9,
    "empates": 5,
-   "derrotas": 9,
+   "derrotas": 8,
    "golsPro": 22,
-   "golsContra": 28,
-   "saldo": -6
+   "golsContra": 27,
+   "saldo": -5
   },
   {
    "posicao": 12,
@@ -4509,15 +4509,15 @@
    "visitante": "Ceará",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "golsMandante": 1,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-19",
@@ -4529,15 +4529,15 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": 0,
-   "golsVisitante": 1,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-19",
