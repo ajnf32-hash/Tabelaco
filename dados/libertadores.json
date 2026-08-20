@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-20T00:42:57.059Z",
+ "atualizado": "2026-08-20T02:11:44.557Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3092,7 +3092,7 @@
   {
    "data": "2026-08-20",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Flamengo lead 3-2 on aggregate",
    "local": "Estadio do Maracana",
    "cidade": "Rio de Janeiro",
    "mandante": "Flamengo",
@@ -3102,7 +3102,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
