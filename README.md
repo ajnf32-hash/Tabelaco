@@ -4,7 +4,7 @@ Tabelas, jogos e classificação dos campeonatos que importam, numa tela só —
 Brasileirão A e B, Copa do Brasil, Libertadores, Champions, Carioca, Paulista,
 Mineiro e Gaúcho.
 
-**Ao vivo:** https://ajnf32-hash.github.io/Tabelaco/
+**Ao vivo:** https://tabelaco.cartagossoftware.com
 
 O torcedor escolhe o time do coração e o app se veste com as cores dele, do
 primeiro ao último campeonato.
