@@ -9,7 +9,7 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 
 ---
 
-## 1. Mascote confirmado — pode desenhar (49 times)
+## 1. Mascote confirmado — pode desenhar (50 times)
 
 > Esta tabela é um espelho de `dados/mascotes.json`, que é a fonte da verdade — é o arquivo
 > que o app lê. Se as duas discordarem, vale o JSON. Ao acrescentar um mascote, escreva no JSON
@@ -67,44 +67,50 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 | Vila Nova | Tigre | `#C4122E` | `vila-nova` |
 | Vitória | Leão | `#C4122E` | `vitoria` |
 
-## 2. Clube brasileiro, mascote que eu não sei (32 times)
+## 2. Clube brasileiro, mascote pesquisado em 20/08/2026 (32 times)
 
-Não inventei. Se você souber, me diga e eu preencho — ou desenhe só o escudo, que já resolve.
+Esta lista era "não sei". Foi pesquisada um a um em 20/08/2026 e os 32 estão preenchidos —
+fonte principal: a infobox da Wikipédia em português de cada clube, conferida contra o site
+oficial do clube ou da federação quando havia. Já entraram em `dados/mascotes.json`.
+
+Dois merecem atenção antes de desenhar: **Madureira** tem dois mascotes convivendo (o Zé Carioca,
+histórico, e o "Seu Madura", de 2022), e o **Monsoon** trocou de mascote três vezes desde 2021
+(camelo → trovão → tubarão) — confira se ainda é tubarão na hora de desenhar.
 
 | Time | Mascote | Cor | Arquivo |
 |---|---|---|---|
-| AE Velo Clube | — | `padrão` | `ae-velo-clube` |
-| Athletic | — | `padrão` | `athletic` |
-| Avenida | — | `padrão` | `avenida` |
-| Bangu | — | `#C4122E` | `bangu` |
-| Betim FC | — | `padrão` | `betim-fc` |
-| Boavista | — | `#0057B8` | `boavista` |
-| Capivariano | — | `padrão` | `capivariano` |
-| Caxias do Sul | — | `#1A1A1A` | `caxias-do-sul` |
-| Democrata GV | — | `padrão` | `democrata-gv` |
-| EC Noroeste | — | `padrão` | `ec-noroeste` |
-| Guarany de Bagé | — | `padrão` | `guarany-de-bage` |
-| Inter Santa Maria | — | `padrão` | `inter-santa-maria` |
-| Itabirito | — | `padrão` | `itabirito` |
-| Madureira | — | `#0B6E37` | `madureira` |
-| Maricá | — | `#0B6E37` | `marica` |
-| Monsoon | — | `padrão` | `monsoon` |
-| North EC | — | `padrão` | `north-ec` |
-| Nova Iguaçu | — | `#F2A900` | `nova-iguacu` |
-| Novo Hamburgo | — | `#C4122E` | `novo-hamburgo` |
-| Novorizontino | — | `#F2C200` | `novorizontino` |
-| Portuguesa-RJ | — | `#C4122E` | `portuguesa-rj` |
-| Pouso Alegre | — | `padrão` | `pouso-alegre` |
-| Primavera SP | — | `padrão` | `primavera-sp` |
-| Sampaio Correa RJ | — | `#C4122E` | `sampaio-correa-rj` |
-| São Bernardo | — | `#1A1A1A` | `sao-bernardo` |
-| São José-RS | — | `#C4122E` | `sao-jose-rs` |
-| São Luiz-RS | — | `#C4122E` | `sao-luiz-rs` |
-| Tombense | — | `#0B6E37` | `tombense` |
-| Uberlândia | — | `padrão` | `uberlandia` |
-| URT | — | `padrão` | `urt` |
-| Volta Redonda | — | `#C4122E` | `volta-redonda` |
-| Ypiranga | — | `#C4122E` | `ypiranga` |
+| AE Velo Clube | Galo Vermelho | `padrão` | `ae-velo-clube` |
+| Athletic | Guerreiro | `padrão` | `athletic` |
+| Avenida | Periquito | `padrão` | `avenida` |
+| Bangu | Castor | `#C4122E` | `bangu` |
+| Betim FC | Guerreiro de Betim | `padrão` | `betim-fc` |
+| Boavista | Hulk | `#0057B8` | `boavista` |
+| Capivariano | Leão da Sorocabana | `padrão` | `capivariano` |
+| Caxias do Sul | Bepe (o colono italiano) | `#1A1A1A` | `caxias-do-sul` |
+| Democrata GV | Pantera (a onça preta do Vale do Rio Doce) | `padrão` | `democrata-gv` |
+| EC Noroeste | Maquininha Vermelha (a locomotiva) | `padrão` | `ec-noroeste` |
+| Guarany de Bagé | Índio guarani | `padrão` | `guarany-de-bage` |
+| Inter Santa Maria | Dino (o dinossauro) | `padrão` | `inter-santa-maria` |
+| Itabirito | Gato-do-mato | `padrão` | `itabirito` |
+| Madureira | Zé Carioca (o papagaio) | `#0B6E37` | `madureira` |
+| Maricá | Lobisomem de Bambuí | `#0B6E37` | `marica` |
+| Monsoon | Tubarão | `padrão` | `monsoon` |
+| North EC | Gladiador | `padrão` | `north-ec` |
+| Nova Iguaçu | Laranjinha | `#F2A900` | `nova-iguacu` |
+| Novo Hamburgo | Pé Quente (o sapato) | `#C4122E` | `novo-hamburgo` |
+| Novorizontino | Tigre do Vale | `#F2C200` | `novorizontino` |
+| Portuguesa-RJ | Zebra | `#C4122E` | `portuguesa-rj` |
+| Pouso Alegre | Dragão | `padrão` | `pouso-alegre` |
+| Primavera SP | Fantasma | `padrão` | `primavera-sp` |
+| Sampaio Correa RJ | Galinho da Serra | `#C4122E` | `sampaio-correa-rj` |
+| São Bernardo | Bernô (o tigre) | `#1A1A1A` | `sao-bernardo` |
+| São José-RS | São José (o santo); apelido Zeca | `#C4122E` | `sao-jose-rs` |
+| São Luiz-RS | Zangão | `#C4122E` | `sao-luiz-rs` |
+| Tombense | Gavião-carcará | `#0B6E37` | `tombense` |
+| Uberlândia | Periquito | `padrão` | `uberlandia` |
+| URT | Pato | `padrão` | `urt` |
+| Volta Redonda | Jaguatirica | `#C4122E` | `volta-redonda` |
+| Ypiranga | Canarinho | `#C4122E` | `ypiranga` |
 
 ## 3. Clube estrangeiro — não usa mascote (62 times)
 
