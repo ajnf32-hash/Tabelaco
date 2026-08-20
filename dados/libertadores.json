@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-20T05:01:43.609Z",
+ "atualizado": "2026-08-20T05:54:12.019Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3092,22 +3092,22 @@
   {
    "data": "2026-08-20",
    "hora": "00:30",
-   "rodada": "2nd Leg - Flamengo lead 3-2 on aggregate",
+   "rodada": "2nd Leg - Flamengo win 3-2 on aggregate",
    "local": "Estadio do Maracana",
    "cidade": "Rio de Janeiro",
    "mandante": "Flamengo",
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-20",
