@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T23:44:38.887Z",
+ "atualizado": "2026-08-20T00:42:57.059Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2866,11 +2866,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-12",
@@ -3053,17 +3052,17 @@
   {
    "data": "2026-08-19",
    "hora": "22:00",
-   "rodada": "2nd Leg - Palmeiras lead 2-1 on aggregate",
+   "rodada": "2nd Leg - Palmeiras win 2-1 on aggregate",
    "local": "Estadio ueno La Nueva Olla",
    "cidade": "Asunción",
    "mandante": "Cerro Porteño",
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2671.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -3073,17 +3072,17 @@
   {
    "data": "2026-08-19",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Tied on aggregate - PLA win 7-6 on penalties",
    "local": "Estadio Francisco Sánchez Rumoroso",
    "cidade": "Coquimbo",
    "mandante": "Coquimbo Unido",
    "visitante": "Platense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8186.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
    "fontes": [
     "espn",
     "fotmob"
@@ -3103,7 +3102,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

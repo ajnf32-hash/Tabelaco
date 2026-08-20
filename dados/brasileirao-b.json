@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-19T23:44:34.111Z",
+ "atualizado": "2026-08-20T00:42:50.491Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,13 +55,13 @@
    "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 36,
-   "jogos": 22,
+   "pontos": 37,
+   "jogos": 23,
    "vitorias": 10,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 6,
-   "golsPro": 24,
-   "golsContra": 20,
+   "golsPro": 25,
+   "golsContra": 21,
    "saldo": 4
   },
   {
@@ -84,13 +84,13 @@
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 35,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 8,
    "empates": 11,
-   "derrotas": 3,
-   "golsPro": 28,
-   "golsContra": 20,
-   "saldo": 8
+   "derrotas": 4,
+   "golsPro": 29,
+   "golsContra": 22,
+   "saldo": 7
   },
   {
    "posicao": 7,
@@ -167,13 +167,13 @@
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 30,
-   "jogos": 22,
+   "pontos": 31,
+   "jogos": 23,
    "vitorias": 8,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 8,
-   "golsPro": 31,
-   "golsContra": 25,
+   "golsPro": 32,
+   "golsContra": 26,
    "saldo": 6
   },
   {
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Avaí",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "pontos": 26,
+   "jogos": 23,
+   "vitorias": 7,
+   "empates": 5,
+   "derrotas": 11,
+   "golsPro": 25,
+   "golsContra": 30,
+   "saldo": -5
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 25,
@@ -228,20 +242,6 @@
    "vitorias": 6,
    "empates": 7,
    "derrotas": 10,
-   "golsPro": 23,
-   "golsContra": 29,
-   "saldo": -6
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Avaí",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 23,
-   "jogos": 22,
-   "vitorias": 6,
-   "empates": 5,
-   "derrotas": 11,
    "golsPro": 23,
    "golsContra": 29,
    "saldo": -6
@@ -4275,11 +4275,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-14",
@@ -4549,10 +4548,10 @@
    "visitante": "Sport",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4569,10 +4568,10 @@
    "visitante": "São Bernardo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4592,7 +4591,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -4612,7 +4611,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -4632,7 +4631,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
