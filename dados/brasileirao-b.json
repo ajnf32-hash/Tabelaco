@@ -6,20 +6,20 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-20T02:11:37.226Z",
+ "atualizado": "2026-08-20T03:22:54.722Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 43,
-   "jogos": 22,
+   "pontos": 44,
+   "jogos": 23,
    "vitorias": 12,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 3,
-   "golsPro": 24,
-   "golsContra": 14,
+   "golsPro": 25,
+   "golsContra": 15,
    "saldo": 10
   },
   {
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 37,
-   "jogos": 22,
-   "vitorias": 11,
+   "pontos": 40,
+   "jogos": 23,
+   "vitorias": 12,
    "empates": 4,
    "derrotas": 7,
-   "golsPro": 29,
+   "golsPro": 35,
    "golsContra": 25,
-   "saldo": 4
+   "saldo": 10
   },
   {
    "posicao": 4,
@@ -70,13 +70,13 @@
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 35,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 10,
    "empates": 5,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 30,
-   "golsContra": 30,
-   "saldo": 0
+   "golsContra": 31,
+   "saldo": -1
   },
   {
    "posicao": 6,
@@ -165,6 +165,20 @@
   {
    "posicao": 12,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 32,
+   "jogos": 23,
+   "vitorias": 7,
+   "empates": 11,
+   "derrotas": 5,
+   "golsPro": 20,
+   "golsContra": 17,
+   "saldo": 3
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 31,
@@ -177,21 +191,21 @@
    "saldo": 6
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 30,
-   "jogos": 22,
+   "pontos": 31,
+   "jogos": 23,
    "vitorias": 8,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 8,
-   "golsPro": 27,
-   "golsContra": 22,
+   "golsPro": 28,
+   "golsContra": 23,
    "saldo": 5
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
@@ -203,20 +217,6 @@
    "golsPro": 27,
    "golsContra": 26,
    "saldo": 1
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 29,
-   "jogos": 22,
-   "vitorias": 6,
-   "empates": 11,
-   "derrotas": 5,
-   "golsPro": 19,
-   "golsContra": 17,
-   "saldo": 2
   },
   {
    "posicao": 16,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 10,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 16,
+   "derrotas": 17,
    "golsPro": 16,
-   "golsContra": 42,
-   "saldo": -26
+   "golsContra": 48,
+   "saldo": -32
   }
  ],
  "jogos": [
@@ -4588,15 +4588,15 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "golsMandante": 1,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-19",
@@ -4608,15 +4608,15 @@
    "visitante": "Ponte Preta",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "golsMandante": 6,
-   "golsVisitante": 0,
-   "encerrado": true,
-   "situacao": "Full Time",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-20",
@@ -4631,12 +4631,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Second Half",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-20",
