@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-21T03:28:11.595Z",
+ "atualizado": "2026-08-21T04:09:07.851Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3130,22 +3130,22 @@
   {
    "data": "2026-08-21",
    "hora": "00:30",
-   "rodada": "2nd Leg - Corinthians lead 1-0 on aggregate",
+   "rodada": "2nd Leg - Corinthians win 1-0 on aggregate",
    "local": "Neo Química Arena",
    "cidade": "Sao Paulo",
    "mandante": "Corinthians",
    "visitante": "Rosario Central",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-26",
