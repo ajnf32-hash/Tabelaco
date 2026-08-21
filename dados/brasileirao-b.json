@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-21T02:18:54.760Z",
+ "atualizado": "2026-08-21T03:28:05.124Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Novorizontino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "pontos": 37,
+   "jogos": 23,
+   "vitorias": 10,
+   "empates": 7,
+   "derrotas": 6,
+   "golsPro": 35,
+   "golsContra": 20,
+   "saldo": 15
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 37,
@@ -65,7 +79,7 @@
    "saldo": 4
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -93,7 +107,7 @@
    "saldo": -1
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -105,20 +119,6 @@
    "golsPro": 29,
    "golsContra": 22,
    "saldo": 7
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Novorizontino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 34,
-   "jogos": 22,
-   "vitorias": 9,
-   "empates": 7,
-   "derrotas": 6,
-   "golsPro": 32,
-   "golsContra": 20,
-   "saldo": 12
   },
   {
    "posicao": 9,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 11,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 2,
    "empates": 5,
-   "derrotas": 15,
+   "derrotas": 16,
    "golsPro": 16,
-   "golsContra": 36,
-   "saldo": -20
+   "golsContra": 39,
+   "saldo": -23
   },
   {
    "posicao": 20,
@@ -4668,15 +4668,15 @@
    "visitante": "América Mineiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-22",

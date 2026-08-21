@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-21T02:19:01.138Z",
+ "atualizado": "2026-08-21T03:28:11.595Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3130,7 +3130,7 @@
   {
    "data": "2026-08-21",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Corinthians lead 1-0 on aggregate",
    "local": "Neo Química Arena",
    "cidade": "Sao Paulo",
    "mandante": "Corinthians",
@@ -3140,12 +3140,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-26",
