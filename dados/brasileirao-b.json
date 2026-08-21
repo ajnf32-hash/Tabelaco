@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-21T00:46:41.314Z",
+ "atualizado": "2026-08-21T02:18:54.760Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 36,
+   "jogos": 23,
+   "vitorias": 10,
+   "empates": 6,
+   "derrotas": 7,
+   "golsPro": 34,
+   "golsContra": 32,
+   "saldo": 2
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 35,
@@ -79,7 +93,7 @@
    "saldo": -1
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
@@ -93,7 +107,7 @@
    "saldo": 7
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
@@ -107,32 +121,18 @@
    "saldo": 12
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 34,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 8,
    "empates": 10,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 24,
-   "golsContra": 19,
-   "saldo": 5
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 33,
-   "jogos": 22,
-   "vitorias": 9,
-   "empates": 6,
-   "derrotas": 7,
-   "golsPro": 32,
-   "golsContra": 32,
-   "saldo": 0
+   "golsContra": 21,
+   "saldo": 3
   },
   {
    "posicao": 10,
@@ -4676,7 +4676,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-22",
