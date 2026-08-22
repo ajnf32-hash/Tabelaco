@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-21T23:45:27.790Z",
+ "atualizado": "2026-08-22T00:42:50.999Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5046,6 +5046,26 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-01",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estadio VGD",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
