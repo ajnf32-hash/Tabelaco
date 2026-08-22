@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-22T23:12:15.603Z",
+ "atualizado": "2026-08-22T23:42:20.340Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Atlético-MG",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "pontos": 33,
+   "jogos": 23,
+   "vitorias": 9,
+   "empates": 6,
+   "derrotas": 8,
+   "golsPro": 30,
+   "golsContra": 27,
+   "saldo": 3
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "pontos": 32,
@@ -105,20 +119,6 @@
    "golsPro": 27,
    "golsContra": 23,
    "saldo": 4
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Atlético-MG",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 32,
-   "jogos": 22,
-   "vitorias": 9,
-   "empates": 5,
-   "derrotas": 8,
-   "golsPro": 30,
-   "golsContra": 27,
-   "saldo": 3
   },
   {
    "posicao": 9,
@@ -223,10 +223,10 @@
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "pontos": 24,
-   "jogos": 23,
+   "pontos": 25,
+   "jogos": 24,
    "vitorias": 5,
-   "empates": 9,
+   "empates": 10,
    "derrotas": 9,
    "golsPro": 24,
    "golsContra": 28,
@@ -3981,12 +3981,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-22",

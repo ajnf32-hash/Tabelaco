@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-22T23:12:21.837Z",
+ "atualizado": "2026-08-22T23:42:24.848Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Goiás",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "pontos": 33,
+   "jogos": 24,
+   "vitorias": 9,
+   "empates": 6,
+   "derrotas": 9,
+   "golsPro": 23,
+   "golsContra": 29,
+   "saldo": -6
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 33,
@@ -149,31 +163,17 @@
    "saldo": 1
   },
   {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Goiás",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "pontos": 32,
-   "jogos": 23,
-   "vitorias": 9,
-   "empates": 5,
-   "derrotas": 9,
-   "golsPro": 22,
-   "golsContra": 28,
-   "saldo": -6
-  },
-  {
    "posicao": 12,
    "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 32,
-   "jogos": 23,
+   "pontos": 33,
+   "jogos": 24,
    "vitorias": 7,
-   "empates": 11,
+   "empates": 12,
    "derrotas": 5,
-   "golsPro": 20,
-   "golsContra": 17,
+   "golsPro": 21,
+   "golsContra": 18,
    "saldo": 3
   },
   {
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Ceará",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "pontos": 28,
+   "jogos": 24,
+   "vitorias": 7,
+   "empates": 7,
+   "derrotas": 10,
+   "golsPro": 25,
+   "golsContra": 30,
+   "saldo": -5
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "pontos": 26,
@@ -233,32 +247,18 @@
    "saldo": -5
   },
   {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Ceará",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "pontos": 25,
-   "jogos": 23,
-   "vitorias": 6,
-   "empates": 7,
-   "derrotas": 10,
-   "golsPro": 23,
-   "golsContra": 29,
-   "saldo": -6
-  },
-  {
    "posicao": 18,
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 21,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 5,
    "empates": 6,
-   "derrotas": 12,
-   "golsPro": 28,
-   "golsContra": 34,
-   "saldo": -6
+   "derrotas": 13,
+   "golsPro": 29,
+   "golsContra": 36,
+   "saldo": -7
   },
   {
    "posicao": 19,
@@ -4691,7 +4691,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "In Progress",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -4711,12 +4711,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-23",
