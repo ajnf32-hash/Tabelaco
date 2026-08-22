@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-22T20:46:05.472Z",
+ "atualizado": "2026-08-22T21:13:08.408Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,14 +55,14 @@
    "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 38,
-   "jogos": 23,
-   "vitorias": 10,
+   "pontos": 41,
+   "jogos": 24,
+   "vitorias": 11,
    "empates": 8,
    "derrotas": 5,
-   "golsPro": 34,
-   "golsContra": 28,
-   "saldo": 6
+   "golsPro": 36,
+   "golsContra": 29,
+   "saldo": 7
   },
   {
    "posicao": 5,
@@ -252,13 +252,13 @@
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "pontos": 23,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 5,
    "empates": 8,
-   "derrotas": 10,
-   "golsPro": 27,
-   "golsContra": 37,
-   "saldo": -10
+   "derrotas": 11,
+   "golsPro": 28,
+   "golsContra": 39,
+   "saldo": -11
   },
   {
    "posicao": 19,
@@ -3961,12 +3961,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Second Half",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-22",
