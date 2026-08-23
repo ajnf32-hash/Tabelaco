@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-23T21:13:35.795Z",
+ "atualizado": "2026-08-23T21:43:07.614Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -181,13 +181,13 @@
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 31,
-   "jogos": 23,
+   "pontos": 32,
+   "jogos": 24,
    "vitorias": 8,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 8,
-   "golsPro": 32,
-   "golsContra": 26,
+   "golsPro": 33,
+   "golsContra": 27,
    "saldo": 6
   },
   {
@@ -209,17 +209,31 @@
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 30,
-   "jogos": 23,
+   "pontos": 31,
+   "jogos": 24,
    "vitorias": 8,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 9,
-   "golsPro": 27,
-   "golsContra": 26,
+   "golsPro": 28,
+   "golsContra": 27,
    "saldo": 1
   },
   {
    "posicao": 16,
+   "grupo": "",
+   "time": "Avaí",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "pontos": 29,
+   "jogos": 24,
+   "vitorias": 8,
+   "empates": 5,
+   "derrotas": 11,
+   "golsPro": 27,
+   "golsContra": 30,
+   "saldo": -3
+  },
+  {
+   "posicao": 17,
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
@@ -228,20 +242,6 @@
    "vitorias": 7,
    "empates": 7,
    "derrotas": 10,
-   "golsPro": 25,
-   "golsContra": 30,
-   "saldo": -5
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Avaí",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 26,
-   "jogos": 23,
-   "vitorias": 7,
-   "empates": 5,
-   "derrotas": 11,
    "golsPro": 25,
    "golsContra": 30,
    "saldo": -5
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 10,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 17,
+   "derrotas": 18,
    "golsPro": 16,
-   "golsContra": 48,
-   "saldo": -32
+   "golsContra": 50,
+   "saldo": -34
   }
  ],
  "jogos": [
