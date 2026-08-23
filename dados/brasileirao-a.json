@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-23T20:45:57.320Z",
+ "atualizado": "2026-08-23T21:13:29.301Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 48,
-   "jogos": 23,
-   "vitorias": 14,
+   "pontos": 51,
+   "jogos": 24,
+   "vitorias": 15,
    "empates": 6,
    "derrotas": 3,
-   "golsPro": 40,
-   "golsContra": 19,
-   "saldo": 21
+   "golsPro": 44,
+   "golsContra": 20,
+   "saldo": 24
   },
   {
    "posicao": 2,
@@ -83,17 +83,31 @@
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 34,
-   "jogos": 23,
-   "vitorias": 8,
+   "pontos": 37,
+   "jogos": 24,
+   "vitorias": 9,
    "empates": 10,
    "derrotas": 5,
-   "golsPro": 32,
+   "golsPro": 34,
    "golsContra": 28,
-   "saldo": 4
+   "saldo": 6
   },
   {
    "posicao": 7,
+   "grupo": "",
+   "time": "Red Bull Bragantino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "pontos": 35,
+   "jogos": 23,
+   "vitorias": 10,
+   "empates": 5,
+   "derrotas": 8,
+   "golsPro": 28,
+   "golsContra": 23,
+   "saldo": 5
+  },
+  {
+   "posicao": 8,
    "grupo": "",
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
@@ -105,20 +119,6 @@
    "golsPro": 30,
    "golsContra": 27,
    "saldo": 3
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Red Bull Bragantino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 32,
-   "jogos": 22,
-   "vitorias": 9,
-   "empates": 5,
-   "derrotas": 8,
-   "golsPro": 27,
-   "golsContra": 23,
-   "saldo": 4
   },
   {
    "posicao": 9,
@@ -168,13 +168,13 @@
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "pontos": 29,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 8,
    "empates": 5,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 23,
-   "golsContra": 33,
-   "saldo": -10
+   "golsContra": 35,
+   "saldo": -12
   },
   {
    "posicao": 13,
@@ -210,13 +210,13 @@
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "pontos": 25,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 6,
    "empates": 7,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 24,
-   "golsContra": 30,
-   "saldo": -6
+   "golsContra": 31,
+   "saldo": -7
   },
   {
    "posicao": 16,
@@ -266,13 +266,13 @@
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 22,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 5,
    "empates": 7,
-   "derrotas": 10,
-   "golsPro": 23,
-   "golsContra": 34,
-   "saldo": -11
+   "derrotas": 11,
+   "golsPro": 24,
+   "golsContra": 38,
+   "saldo": -14
   },
   {
    "posicao": 20,
@@ -4021,12 +4021,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-23",
@@ -4041,7 +4041,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4060,12 +4060,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-23",
