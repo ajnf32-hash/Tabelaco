@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-23T21:43:07.614Z",
+ "atualizado": "2026-08-23T22:12:51.814Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4725,15 +4725,15 @@
    "visitante": "Avaí",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-23",
@@ -4745,15 +4745,15 @@
    "visitante": "Náutico",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-23",
@@ -4768,7 +4768,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
