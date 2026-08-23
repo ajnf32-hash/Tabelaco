@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-23T22:45:23.558Z",
+ "atualizado": "2026-08-23T23:12:22.996Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,10 +41,10 @@
    "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 40,
-   "jogos": 23,
+   "pontos": 41,
+   "jogos": 24,
    "vitorias": 12,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 7,
    "golsPro": 35,
    "golsContra": 25,
@@ -97,10 +97,10 @@
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 35,
-   "jogos": 23,
+   "pontos": 36,
+   "jogos": 24,
    "vitorias": 10,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 8,
    "golsPro": 30,
    "golsContra": 31,
@@ -4768,12 +4768,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Second Half",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-23",
