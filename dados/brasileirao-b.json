@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-23T23:42:37.817Z",
+ "atualizado": "2026-08-24T00:44:38.738Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4351,7 +4351,7 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -4370,11 +4370,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-15",
@@ -4390,11 +4389,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-15",
@@ -4410,11 +4408,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-16",
@@ -4785,15 +4782,15 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-24",
@@ -5063,6 +5060,26 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-03",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio dos Aflitos",
+   "cidade": "Recife",
+   "mandante": "Náutico",
+   "visitante": "Botafogo-SP",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-23T23:42:40.763Z",
+ "atualizado": "2026-08-24T00:44:41.941Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2837,6 +2837,26 @@
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-03",
+   "hora": "23:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
