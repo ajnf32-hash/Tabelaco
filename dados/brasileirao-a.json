@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-25T00:44:14.388Z",
+ "atualizado": "2026-08-25T02:13:31.342Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 41,
-   "jogos": 23,
-   "vitorias": 12,
+   "pontos": 44,
+   "jogos": 24,
+   "vitorias": 13,
    "empates": 5,
    "derrotas": 6,
-   "golsPro": 31,
-   "golsContra": 20,
-   "saldo": 11
+   "golsPro": 34,
+   "golsContra": 22,
+   "saldo": 12
   },
   {
    "posicao": 4,
@@ -154,13 +154,13 @@
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 30,
-   "jogos": 22,
+   "jogos": 23,
    "vitorias": 8,
    "empates": 6,
-   "derrotas": 8,
-   "golsPro": 35,
-   "golsContra": 34,
-   "saldo": 1
+   "derrotas": 9,
+   "golsPro": 37,
+   "golsContra": 37,
+   "saldo": 0
   },
   {
    "posicao": 12,
@@ -4136,7 +4136,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-29",
