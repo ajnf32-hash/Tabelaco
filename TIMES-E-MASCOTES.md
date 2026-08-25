@@ -24,7 +24,7 @@ O app procura esses arquivos e, se não achar, usa o escudo que vem da fonte. Po
 | Atlético Goianiense | Dragão | `#C4122E` | `atletico-goianiense` |
 | Atlético-MG | Galo | `#1A1A1A` | `atletico-mg` |
 | Avaí | Leão da Ilha | `#0057B8` | `avai` |
-| Bahia | Super-Homem tricolor | `#0080C8` | `bahia` |
+| Bahia | Herói tricolor | `#0080C8` | `bahia` |
 | Botafogo | Manequinho (o menininho da estátua) | `#1A1A1A` | `botafogo` |
 | Botafogo-SP | Pantera | `#C4122E` | `botafogo-sp` |
 | Ceará | Vovô | `#1A1A1A` | `ceara` |
@@ -73,7 +73,7 @@ Esta lista era "não sei". Foi pesquisada um a um em 20/08/2026 e os 32 estão p
 fonte principal: a infobox da Wikipédia em português de cada clube, conferida contra o site
 oficial do clube ou da federação quando havia. Já entraram em `dados/mascotes.json`.
 
-Dois merecem atenção antes de desenhar: **Madureira** tem dois mascotes convivendo (o Zé Carioca,
+Dois merecem atenção antes de desenhar: **Madureira** tem dois mascotes convivendo (o papagaio,
 histórico, e o "Seu Madura", de 2022), e o **Monsoon** trocou de mascote três vezes desde 2021
 (camelo → trovão → tubarão) — confira se ainda é tubarão na hora de desenhar.
 
@@ -84,7 +84,7 @@ histórico, e o "Seu Madura", de 2022), e o **Monsoon** trocou de mascote três 
 | Avenida | Periquito | `padrão` | `avenida` |
 | Bangu | Castor | `#C4122E` | `bangu` |
 | Betim FC | Guerreiro de Betim | `padrão` | `betim-fc` |
-| Boavista | Hulk | `#0057B8` | `boavista` |
+| Boavista | Guerreiro verde | `#0057B8` | `boavista` |
 | Capivariano | Leão da Sorocabana | `padrão` | `capivariano` |
 | Caxias do Sul | Bepe (o colono italiano) | `#1A1A1A` | `caxias-do-sul` |
 | Democrata GV | Pantera (a onça preta do Vale do Rio Doce) | `padrão` | `democrata-gv` |
@@ -92,7 +92,7 @@ histórico, e o "Seu Madura", de 2022), e o **Monsoon** trocou de mascote três 
 | Guarany de Bagé | Índio guarani | `padrão` | `guarany-de-bage` |
 | Inter Santa Maria | Dino (o dinossauro) | `padrão` | `inter-santa-maria` |
 | Itabirito | Gato-do-mato | `padrão` | `itabirito` |
-| Madureira | Zé Carioca (o papagaio) | `#0B6E37` | `madureira` |
+| Madureira | Papagaio | `#0B6E37` | `madureira` |
 | Maricá | Lobisomem de Bambuí | `#0B6E37` | `marica` |
 | Monsoon | Tubarão | `padrão` | `monsoon` |
 | North EC | Gladiador | `padrão` | `north-ec` |

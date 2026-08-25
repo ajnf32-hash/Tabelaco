@@ -51,11 +51,13 @@ por cima. Cada pedido abaixo já diz qual é o caso.
 > Um leão sorridente de juba farta, vestindo camisa de futebol azul com faixa branca. Ao fundo,
 > nada — só ele, com jeito de leão de praia, relaxado e forte.
 
-### Bahia — Super-Homem tricolor
+### Bahia — Herói tricolor
 `bahia`
-> Um super-herói de desenho animado, queixo quadrado e sorriso largo, com uniforme azul, capa
-> vermelha e detalhes brancos, o escudo do Bahia no peito. Mãos na cintura, pose de herói.
-> **Não é camisa de futebol — é uniforme de herói.**
+> Um herói de desenho animado, personagem original, com **máscara sobre os olhos**, uniforme
+> tricolor azul, vermelho e branco e capa curta, o escudo do Bahia no peito. Mãos na cintura,
+> pose de herói. **Não é camisa de futebol — é uniforme de herói.**
+> **Cuidado:** não pode lembrar nenhum herói de quadrinhos existente. Nada de peito azul com
+> capa vermelha comprida. A máscara é justamente para afastar a semelhança.
 
 ### Botafogo — Manequinho
 `botafogo`
