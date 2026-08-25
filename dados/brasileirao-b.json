@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-24T23:43:30.135Z",
+ "atualizado": "2026-08-25T00:44:20.475Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Novorizontino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "pontos": 40,
+   "jogos": 24,
+   "vitorias": 11,
+   "empates": 7,
+   "derrotas": 6,
+   "golsPro": 39,
+   "golsContra": 21,
+   "saldo": 18
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 40,
@@ -65,21 +79,21 @@
    "saldo": 6
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
-   "time": "Novorizontino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 37,
-   "jogos": 23,
-   "vitorias": 10,
-   "empates": 7,
-   "derrotas": 6,
-   "golsPro": 35,
-   "golsContra": 20,
-   "saldo": 15
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 38,
+   "jogos": 24,
+   "vitorias": 9,
+   "empates": 11,
+   "derrotas": 4,
+   "golsPro": 32,
+   "golsContra": 22,
+   "saldo": 10
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -93,7 +107,7 @@
    "saldo": 2
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -107,32 +121,18 @@
    "saldo": -1
   },
   {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 35,
-   "jogos": 23,
-   "vitorias": 8,
-   "empates": 11,
-   "derrotas": 4,
-   "golsPro": 29,
-   "golsContra": 22,
-   "saldo": 7
-  },
-  {
    "posicao": 9,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 34,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 8,
    "empates": 10,
-   "derrotas": 5,
-   "golsPro": 24,
-   "golsContra": 21,
-   "saldo": 3
+   "derrotas": 6,
+   "golsPro": 25,
+   "golsContra": 25,
+   "saldo": 0
   },
   {
    "posicao": 10,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 11,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 2,
    "empates": 5,
-   "derrotas": 16,
+   "derrotas": 17,
    "golsPro": 16,
-   "golsContra": 39,
-   "saldo": -23
+   "golsContra": 42,
+   "saldo": -26
   },
   {
    "posicao": 20,
@@ -4427,11 +4427,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-16",
@@ -4447,11 +4446,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-16",
@@ -4467,11 +4465,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-18",
@@ -4802,10 +4799,10 @@
    "visitante": "Novorizontino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4822,10 +4819,10 @@
    "visitante": "América Mineiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5080,6 +5077,66 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-04",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Heriberto Hülse",
+   "cidade": "Criciúma",
+   "mandante": "Criciúma",
+   "visitante": "Cuiabá",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-04",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Vila Nova",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-05",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Rei Pelé",
+   "cidade": "Maceio, Alagoas",
+   "mandante": "CRB",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
