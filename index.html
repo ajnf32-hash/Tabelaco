@@ -865,33 +865,41 @@ function trocarMascote() {
 
 /* A marca d'água do fundo é o mesmo mascote em outro traço, desenhado para caber
    atrás da tela inteira — por isso mora em img/fundos e não em img/mascotes.
-   Sem time escolhido, ou sem esse desenho, a camada simplesmente não aparece:
-   nada de mascote genérico, nada de fundo pela metade. */
+   Clube que ainda não tem o desenho dele cai no fundo do próprio Tabelaço, que é
+   o jogador de armadura. Antes a camada ficava vazia; para o torcedor de um clube
+   pequeno isso era o app dizendo que o time dele não conta. */
+const FUNDO_RESERVA = 'tabelaco';
 function trocarFundo() {
   const camada = $('#fundoMascote');
   const baixar = $('#btWallpaper');
   if (!camada) return;
-  if (!S.time || !temDesenho('fundos', S.time)) {
+  if (!S.time) {
     camada.classList.remove('tem');
     camada.style.backgroundImage = '';
     if (baixar) baixar.hidden = true;
     return;
   }
+  const proprio = temDesenho('fundos', S.time);
   /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
      retângulo vazio no lugar durante o download, que numa marca d'água é pior
      que não ter nenhuma. */
   /* .jpg, e não .png como as outras pastas: estes desenhos são opacos e ocupam a
-     tela inteira. Em PNG davam 1,6 MB cada; em JPEG dão 140 KB, para uma camada
-     que aparece a 7% de opacidade e onde ninguém distingue a diferença. */
-  const url = `img/fundos/${apelido(S.time)}.jpg`;
+     tela inteira. Em PNG davam 1,6 MB cada; em JPEG dão uns 300 KB a 1920x1080,
+     para uma camada que aparece a 7% de opacidade e onde ninguém distingue a
+     diferença. O tamanho é 1920x1080 porque o torcedor também BAIXA o arquivo e
+     põe na tela do computador dele. */
+  const url = `img/fundos/${proprio ? apelido(S.time) : FUNDO_RESERVA}.jpg`;
   const teste = new Image();
   teste.onload = () => {
     camada.style.backgroundImage = `url("${url}")`;
     camada.classList.add('tem');
     if (baixar) {
       baixar.href = url;
-      /* o nome que o torcedor vê na pasta de downloads, não o apelido interno */
-      baixar.setAttribute('download', `Tabelaço - ${S.time} (wallpaper).jpg`);
+      /* o nome que o torcedor vê na pasta de downloads, não o apelido interno.
+         No fundo de reserva não entra o nome do clube: o desenho não é dele. */
+      baixar.setAttribute('download', proprio
+        ? `Tabelaço - ${S.time} (wallpaper).jpg`
+        : 'Tabelaço (wallpaper).jpg');
       baixar.hidden = false;
     }
   };
