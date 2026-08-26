@@ -260,7 +260,20 @@
   th.n{width:8%}
   th.n.pos{width:7%}
   th.n.larga{width:10%}
-  th.n.aprov{width:15%}
+  th.n.aprov{width:13%}
+  /* Legenda das abreviações. As colunas são letras soltas para caber na largura de
+     um celular; sem esta linha ninguém sabe o que é SG nem A. Fica embaixo da
+     tabela, e não ao lado: ao lado ela roubaria a largura do nome do time, que é
+     justamente o que já estava apertado. */
+  .legenda-tab{display:flex;flex-wrap:wrap;gap:4px 14px;justify-content:center;
+     margin-top:10px;font-family:var(--f-mono);font-size:10px;color:var(--mut);
+     letter-spacing:.04em}
+  .legenda-tab b{color:var(--txt);font-weight:600;margin-right:3px}
+  /* O nome do time encolhe sozinho até caber. Ver caberNomes(): o app mede depois
+     de desenhar e vai baixando a fonte de meio em meio pixel. O inline-block é o
+     que permite medir a largura do texto separada da do escudo. */
+  .nomeTime{display:inline-block;vertical-align:middle;max-width:100%;
+     overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   tr:last-child td{border-bottom:none}
   /* a linha do time do coração vem preenchida com a cor do clube, como a faixa
      verde do desenho — só que na cor de quem está olhando */
@@ -1024,22 +1037,34 @@ function tabelaClassificacao(d, forcarCols) {
       }
       const meu = t.time === S.time ? ' class="meu"' : '';
       html += `<tr${meu}><td class="pos">${t.posicao}</td>` +
-        `<td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+        `<td class="esq">${escudoHTML(t.time, t.escudo)}<span class="nomeTime">${esc(t.time)}</span></td>` +
         `<td class="pts">${t.pontos}</td><td>${t.jogos}</td><td>${t.vitorias}</td>` +
         `<td>${t.empates}</td><td>${t.derrotas}</td>` +
         `<td>${t.saldo > 0 ? '+' : ''}${t.saldo}</td></tr>`;
     }
     html += '</tbody></table></div>';
   }
-  return html + '</div>';
+  return html + '</div>' + legendaTabela([
+    ['P', 'pontos'], ['J', 'jogos'], ['V', 'vitórias'],
+    ['E', 'empates'], ['D', 'derrotas'], ['SG', 'saldo de gols'],
+  ]);
+}
+
+/* Uma linha só, embaixo da tabela, dizendo o que cada letra quer dizer. */
+function legendaTabela(pares) {
+  return '<div class="legenda-tab">' +
+    pares.map(([sigla, oque]) => `<span><b>${sigla}</b>${oque}</span>`).join('') +
+    '</div>';
 }
 
 function paginaEstatisticas(d, forcarCols) {
   if (!d.classificacao.length) return '<div class="vazio">Sem estatísticas para este campeonato.</div>';
   const ordenado = [...d.classificacao].sort((a, b) => b.vitorias - a.vitorias || a.derrotas - b.derrotas);
+  /* Eram as palavras inteiras, e em coluna estreita elas se encavalavam umas nas
+     outras. Viraram letras, com a legenda embaixo explicando cada uma. */
   const cabecalho = '<thead><tr>' +
-    '<th class="esq">Time</th><th class="n aprov">Vitórias</th><th class="n aprov">Empates</th>' +
-    '<th class="n aprov">Derrotas</th><th class="n aprov">Aproveit.</th>' +
+    '<th class="esq">Time</th><th class="n">V</th><th class="n">E</th>' +
+    '<th class="n">D</th><th class="n aprov">A</th>' +
     '</tr></thead>';
   const cols = forcarCols || colunasEmAltura(ordenado.length * ALT_LINHA + 44);
 
@@ -1050,13 +1075,15 @@ function paginaEstatisticas(d, forcarCols) {
       const max = t.jogos * 3;
       const apr = max ? Math.round(t.pontos / max * 100) : 0;
       const meu = t.time === S.time ? ' class="meu"' : '';
-      html += `<tr${meu}><td class="esq">${escudoHTML(t.time, t.escudo)}${esc(t.time)}</td>` +
+      html += `<tr${meu}><td class="esq">${escudoHTML(t.time, t.escudo)}<span class="nomeTime">${esc(t.time)}</span></td>` +
         `<td class="pts">${t.vitorias}</td><td>${t.empates}</td><td>${t.derrotas}</td>` +
         `<td><b>${apr}%</b></td></tr>`;
     }
     html += '</tbody></table></div>';
   }
-  return html + '</div>';
+  return html + '</div>' + legendaTabela([
+    ['V', 'vitórias'], ['E', 'empates'], ['D', 'derrotas'], ['A', 'aproveitamento'],
+  ]);
 }
 
 function paginaSaldo(d, forcarCols) {
@@ -1212,6 +1239,32 @@ function desenharTudo(manterPagina) {
   desenharPontos();
   pintar();
   ajustarColunas(d);
+  caberNomes();
+}
+
+/* Nome de time comprido vinha cortado com reticências: "Vasco da Gama" virava
+   "Vasco da" e "Athletico Paranaense" sumia no meio. Em vez de apelidar cada
+   clube na mão, o app MEDE cada nome depois de desenhado e baixa a fonte só
+   daquele que não coube, até caber ou até o piso de legibilidade.
+   Só o texto encolhe: o escudo do lado fica do mesmo tamanho. */
+const FONTE_PISO = 9.5;
+function caberNomes(raiz) {
+  const alvos = (raiz || document).querySelectorAll('.nomeTime, .jogo .nome');
+  for (const n of alvos) {
+    n.style.fontSize = '';                       // volta ao tamanho normal antes de medir
+    const caixa = n.closest('td.esq') || n.parentElement;
+    if (!caixa) continue;
+    let tam = parseFloat(getComputedStyle(n).fontSize);
+    /* dois testes: o texto estourando a própria caixa, e a célula inteira
+       estourando a coluna (é o caso da tabela, onde o escudo divide o espaço) */
+    const estoura = () => n.scrollWidth > n.clientWidth + 1 ||
+                          caixa.scrollWidth > caixa.clientWidth + 1;
+    let voltas = 0;
+    while (estoura() && tam > FONTE_PISO && voltas++ < 24) {
+      tam -= 0.5;
+      n.style.fontSize = tam + 'px';
+    }
+  }
 }
 
 /* A conta de quantas colunas cabem é só uma estimativa: nome de time, escudo e
@@ -1232,7 +1285,12 @@ function ajustarColunas(d) {
     let n = caixa ? Number(caixa.style.getPropertyValue('--cols')) || 1 : 1;
     const teto = maxColunas();
     const sobra = () => pag.scrollHeight > pag.clientHeight + 6;
-    const redesenhar = (cols, lim) => { pag.innerHTML = conteudoPagina(p, d, cols, lim); };
+    /* cada redesenho refaz o HTML da página, então o ajuste de nome tem de vir
+       junto: senão a última versão desenhada fica com os nomes cortados de novo */
+    const redesenhar = (cols, lim) => {
+      pag.innerHTML = conteudoPagina(p, d, cols, lim);
+      caberNomes(pag);
+    };
 
     while (n < teto && sobra()) { n++; redesenhar(n); }
 
