@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T00:45:26.247Z",
+ "atualizado": "2026-08-26T02:20:03.283Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3147,7 +3147,7 @@
   {
    "data": "2026-08-26",
    "hora": "00:30",
-   "rodada": "2nd Leg - Independiente del Valle lead 1-0 on aggregate",
+   "rodada": "2nd Leg - Independiente del Valle lead 3-1 on aggregate",
    "local": "Estadio Banco Guayaquil",
    "cidade": "Quito",
    "mandante": "Independiente del Valle",
@@ -3157,7 +3157,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "First Half",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"

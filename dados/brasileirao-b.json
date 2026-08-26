@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T00:45:20.337Z",
+ "atualizado": "2026-08-26T02:19:58.184Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Juventude",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "pontos": 45,
+   "jogos": 24,
+   "vitorias": 13,
+   "empates": 6,
+   "derrotas": 5,
+   "golsPro": 26,
+   "golsContra": 13,
+   "saldo": 13
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
@@ -21,20 +35,6 @@
    "golsPro": 25,
    "golsContra": 17,
    "saldo": 8
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Juventude",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 42,
-   "jogos": 23,
-   "vitorias": 12,
-   "empates": 6,
-   "derrotas": 5,
-   "golsPro": 24,
-   "golsContra": 12,
-   "saldo": 12
   },
   {
    "posicao": 3,
@@ -98,13 +98,13 @@
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 36,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 10,
    "empates": 6,
-   "derrotas": 7,
-   "golsPro": 34,
-   "golsContra": 32,
-   "saldo": 2
+   "derrotas": 8,
+   "golsPro": 35,
+   "golsContra": 34,
+   "saldo": 1
   },
   {
    "posicao": 8,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 36,
+   "jogos": 24,
+   "vitorias": 9,
+   "empates": 9,
+   "derrotas": 6,
+   "golsPro": 27,
+   "golsContra": 23,
+   "saldo": 4
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 34,
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -147,20 +161,6 @@
    "golsPro": 23,
    "golsContra": 29,
    "saldo": -6
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 33,
-   "jogos": 23,
-   "vitorias": 8,
-   "empates": 9,
-   "derrotas": 6,
-   "golsPro": 24,
-   "golsContra": 23,
-   "saldo": 1
   },
   {
    "posicao": 12,
@@ -196,13 +196,13 @@
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "pontos": 31,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 8,
    "empates": 7,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 28,
-   "golsContra": 23,
-   "saldo": 5
+   "golsContra": 26,
+   "saldo": 2
   },
   {
    "posicao": 15,

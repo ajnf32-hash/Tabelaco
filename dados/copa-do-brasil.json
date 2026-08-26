@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-26T00:45:23.522Z",
+ "atualizado": "2026-08-26T02:20:00.744Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2717,10 +2717,10 @@
    "visitante": "Atlético-MG",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
