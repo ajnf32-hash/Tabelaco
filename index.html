@@ -679,6 +679,7 @@ const CONTATO = {
 const S = {
   indice: null,      // lista de campeonatos (dados/indice.json)
   cores: null,       // dados/cores.json
+  escudos: null,     // dados/escudos.json: escudo dos clubes que a fonte deixa em branco
   atual: null,       // id do campeonato aberto
   dados: {},         // cache dos campeonatos já baixados
   time: localStorage.getItem('tabelaco.time') || '',
@@ -904,13 +905,10 @@ function trocarFundo() {
   const camada = $('#fundoMascote');
   const baixar = $('#btWallpaper');
   if (!camada) return;
-  if (!S.time) {
-    camada.classList.remove('tem');
-    camada.style.backgroundImage = '';
-    if (baixar) baixar.hidden = true;
-    return;
-  }
-  const proprio = temDesenho('fundos', S.time);
+  /* Sem time escolhido o fundo tambem aparece: o do proprio Tabelaco, o jogador de
+     armadura. Antes a tela ficava limpa, e quem ainda nao escolheu clube via o app
+     mais pobre do que ele e. */
+  const proprio = !!S.time && temDesenho('fundos', S.time);
   /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
      retângulo vazio no lugar durante o download, que numa marca d'água é pior
      que não ter nenhuma. */
@@ -944,7 +942,11 @@ function trocarFundo() {
 
 function escudoHTML(time, urlFonte) {
   const meu = temDesenho('escudos', time) ? `img/escudos/${apelido(time)}.png` : '';
-  const fonte = urlFonte ? esc(urlFonte) : '';
+  /* A fonte principal traz o escudo dos clubes grandes e deixa em branco o dos
+     pequenos: na Copa do Brasil isso era a maioria, e um monte de clube aparecia
+     sem escudo nenhum. O dados/escudos.json cobre esse buraco, montado por
+     scripts/buscar-escudos.mjs. */
+  const fonte = esc(urlFonte || (S.escudos && S.escudos[time]) || '');
   const src = meu || fonte;
   if (!src) return '<img class="escudo" alt="" style="visibility:hidden">';
   /* o onerror só faz sentido quando ainda há para onde cair */
@@ -1443,9 +1445,11 @@ function abrirSobre() {
 /* ----------------------------------------------------------- arranque */
 async function iniciar() {
   try {
-    [S.indice, S.cores] = await Promise.all([
+    [S.indice, S.cores, S.escudos] = await Promise.all([
       baixar('dados/indice.json'),
-      baixar('dados/cores.json')
+      baixar('dados/cores.json'),
+      /* se este faltar, o app segue sem ele: e complemento, nao alicerce */
+      baixar('dados/escudos.json').catch(() => ({}))
     ]);
   } catch (e) {
     $('#carrossel').innerHTML = '<div class="pagina"><div class="vazio">Não consegui carregar os dados.<br>Confira sua conexão.</div></div>';
