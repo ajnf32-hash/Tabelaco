@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T02:20:03.283Z",
+ "atualizado": "2026-08-26T03:31:18.992Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3162,7 +3162,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   }
  ],
  "avisos": []
