@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T03:31:18.992Z",
+ "atualizado": "2026-08-26T04:31:13.088Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3147,22 +3147,22 @@
   {
    "data": "2026-08-26",
    "hora": "00:30",
-   "rodada": "2nd Leg - Independiente del Valle lead 3-1 on aggregate",
+   "rodada": "2nd Leg - Independiente del Valle win 4-1 on aggregate",
    "local": "Estadio Banco Guayaquil",
    "cidade": "Quito",
    "mandante": "Independiente del Valle",
    "visitante": "Deportes Tolima",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/5489.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
