@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T13:46:01.741Z",
+ "atualizado": "2026-08-26T14:35:53.263Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4952,6 +4952,25 @@
    "data": "2026-08-30",
    "hora": "19:00",
    "rodada": "",
+   "local": "Estádio da Ressacada",
+   "cidade": "Florianópolis",
+   "mandante": "Avaí",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-08-30",
+   "hora": "19:00",
+   "rodada": "",
    "local": "Estádio Raimundo Sampaio (Independência)",
    "cidade": "Belo Horizonte",
    "mandante": "América Mineiro",
@@ -4967,25 +4986,6 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-08-30",
-   "hora": "19:00",
-   "rodada": "",
-   "local": "Estádio da Ressacada",
-   "cidade": "Florianópolis",
-   "mandante": "Avaí",
-   "visitante": "Atlético Goianiense",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
   },
   {
    "data": "2026-08-30",
