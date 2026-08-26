@@ -253,14 +253,14 @@
   /* Em celular estreito o nome comprido empurrava as últimas colunas para fora da
      cartela — sumiam o D e o SG. Agora cada coluna de número tem largura marcada e
      o nome fica com o que sobrar, abreviando com reticências quando não couber. */
-  td.esq{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  td.esq{white-space:nowrap;overflow:hidden}
   /* em porcentagem, não em pixel: a mesma tabela aparece numa tela de celular de
      390px e numa coluna de 520px do computador, e em pixel fixo as colunas de
      número engoliriam o nome do time justamente na tela grande */
-  th.n{width:8%}
-  th.n.pos{width:7%}
-  th.n.larga{width:10%}
-  th.n.aprov{width:13%}
+  th.n{width:7%}
+  th.n.pos{width:6%}
+  th.n.larga{width:9%}
+  th.n.aprov{width:12%}
   /* Legenda das abreviações. As colunas são letras soltas para caber na largura de
      um celular; sem esta linha ninguém sabe o que é SG nem A. Fica embaixo da
      tabela, e não ao lado: ao lado ela roubaria a largura do nome do time, que é
@@ -269,11 +269,23 @@
      margin-top:10px;font-family:var(--f-mono);font-size:10px;color:var(--mut);
      letter-spacing:.04em}
   .legenda-tab b{color:var(--txt);font-weight:600;margin-right:3px}
+  /* Faixa de times participantes, em cima da classificação. Em mata-mata é o único
+     lugar onde dá para ver quem está no campeonato, porque lá não existe tabela. */
+  .participantes{margin-bottom:14px}
+  .participantes .cab{font-family:var(--f-mono);font-size:9.5px;font-weight:500;
+     letter-spacing:.07em;text-transform:uppercase;color:var(--mut);margin-bottom:7px}
+  .participantes .lista{display:flex;flex-wrap:wrap;gap:5px}
+  .participantes .chip{display:inline-flex;align-items:center;gap:5px;
+     background:var(--papel);border:1px solid var(--linha);border-radius:999px;
+     padding:3px 10px 3px 4px;font-size:11.5px;font-weight:600;color:var(--txt);
+     white-space:nowrap}
+  .participantes .chip .escudo{width:15px;height:15px;margin:0;flex:0 0 auto}
+  .participantes .chip.meu{background:var(--acc);color:var(--sobreAcc);border-color:transparent}
   /* O nome do time encolhe sozinho até caber. Ver caberNomes(): o app mede depois
      de desenhar e vai baixando a fonte de meio em meio pixel. O inline-block é o
      que permite medir a largura do texto separada da do escudo. */
   .nomeTime{display:inline-block;vertical-align:middle;max-width:100%;
-     overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+     overflow:hidden;white-space:nowrap}
   tr:last-child td{border-bottom:none}
   /* a linha do time do coração vem preenchida com a cor do clube, como a faixa
      verde do desenho — só que na cor de quem está olhando */
@@ -290,7 +302,7 @@
   .barra-linha{display:flex;align-items:center;gap:8px;padding:8px 10px;
         border-bottom:1px solid var(--linha);font-size:14px}
   .barra-linha:last-child{border-bottom:none}
-  .barra-nome{flex:0 0 33%;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .barra-nome{flex:0 0 36%;font-weight:600;white-space:nowrap;overflow:hidden}
   .barra-trilho{flex:1 1 auto;height:15px;position:relative;background:var(--papel2);border-radius:3px}
   .barra-meio{position:absolute;left:50%;top:-2px;bottom:-2px;width:1px;background:var(--neutro)}
   .barra-preenche{position:absolute;top:0;bottom:0;border-radius:2px}
@@ -304,12 +316,18 @@
   .jogo:last-child{border-bottom:none}
   .jogo .lado{flex:1 1 0;display:flex;align-items:center;gap:6px;min-width:0;font-size:14px}
   .jogo .lado.dir{justify-content:flex-end;text-align:right}
-  .jogo .nome{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:600}
+  .jogo .nome{white-space:nowrap;overflow:hidden;font-weight:600}
   /* aqui o espaço já vem do gap do .lado, então o escudo não precisa de margem */
   .jogo .escudo{margin-right:0;flex:0 0 auto}
   /* o placar é a estrela do confronto: fonte de manchete, como num placar de estádio */
   .jogo .placar{flex:0 0 auto;font-family:var(--f-tit);font-size:22px;line-height:1;
         padding:0 4px;min-width:52px;text-align:center;letter-spacing:.02em}
+  /* Jogo marcado e que ainda não aconteceu: mostra "– × –" no lugar do placar, para
+     ler como confronto já definido, e a hora miúda embaixo. Só a hora não dizia que
+     o jogo existia; um "0 × 0" mentiria dizendo que já foi jogado e deu empate. */
+  .jogo .amarcar{flex:0 0 auto;display:flex;flex-direction:column;align-items:center;gap:1px}
+  .jogo .placar.vazio{color:var(--mut);letter-spacing:.06em}
+  .jogo .placar.vazio span{padding:0 5px;font-size:15px;vertical-align:middle}
   .jogo .hora{flex:0 0 auto;font-family:var(--f-mono);font-size:11px;font-weight:500;
         color:var(--mut);min-width:52px;text-align:center}
   .jogo .selo{font-family:var(--f-mono);font-size:8.5px;font-weight:500;letter-spacing:.06em;
@@ -977,8 +995,13 @@ const telaGrande = () => matchMedia('(min-width: 920px)').matches;
 /* O teto de colunas vem da largura: espremer uma tabela de time em menos de 400px
    volta ao problema de cortar nome e coluna. Monitor largo aceita quatro; um
    notebook menor, duas ou três. */
+/* Quantas colunas de tabela cabem lado a lado. Era 480 px por coluna, e nessa
+   largura o nome do time nao cabia: sobrava pouco mais de um terco da coluna para
+   um "Athletico Paranaense". Ele foi claro, o nome do time tem de aparecer. Com
+   620 px a tabela fica mais larga e o nome entra inteiro, ao custo de a lista
+   ficar mais comprida, que foi exatamente o que ele pediu. */
 function maxColunas() {
-  return Math.max(1, Math.min(4, Math.floor(innerWidth / 480)));
+  return Math.max(1, Math.min(3, Math.floor(innerWidth / 620)));
 }
 
 function colunasEmAltura(alturaPedida) {
@@ -1002,15 +1025,41 @@ const ALT_BARRA  = 43;   // altura de uma linha de saldo de gols
 const ALT_JOGO   = 58;   // altura de um confronto
 const ALT_DIA    = 34;   // altura do rótulo de dia
 
+/* Quem está no campeonato. Sai da classificação quando ela existe; em mata-mata,
+   dos próprios jogos, que é o único lugar onde os nomes aparecem. */
+function timesDoCampeonato(d) {
+  if (d.classificacao && d.classificacao.length) {
+    return d.classificacao.map(t => ({ time: t.time, escudo: t.escudo }));
+  }
+  const vistos = new Map();
+  for (const j of (d.jogos || [])) {
+    if (j.mandante && !vistos.has(j.mandante)) vistos.set(j.mandante, j.escudoMandante);
+    if (j.visitante && !vistos.has(j.visitante)) vistos.set(j.visitante, j.escudoVisitante);
+  }
+  return [...vistos].sort((a, b) => a[0].localeCompare(b[0], 'pt-BR'))
+    .map(([time, escudo]) => ({ time, escudo }));
+}
+
+function faixaParticipantes(d) {
+  const times = timesDoCampeonato(d);
+  if (!times.length) return '';
+  return '<div class="participantes">' +
+    `<div class="cab">Times participantes &nbsp;·&nbsp; ${times.length}</div>` +
+    '<div class="lista">' +
+    times.map(t => `<span class="chip${t.time === S.time ? ' meu' : ''}">` +
+      `${escudoHTML(t.time, t.escudo)}<span class="nomeTime">${esc(t.time)}</span></span>`).join('') +
+    '</div></div>';
+}
+
 /* ------------------------------------------------------------- páginas */
 function tabelaClassificacao(d, forcarCols) {
   if (!d.classificacao.length) {
     const ondeVerJogos = telaGrande() ? 'Abra a aba Jogos aqui em cima.' : 'Deslize para o lado para ver os jogos.';
-    return `<div class="vazio">${d.formato === 'mata-mata'
-      ? `A Copa do Brasil é mata-mata: não tem tabela de classificação.<br>${ondeVerJogos}`
+    return faixaParticipantes(d) + `<div class="vazio">${d.formato === 'mata-mata'
+      ? `Este campeonato é mata-mata: não tem tabela de classificação.<br>${ondeVerJogos}`
       : 'A classificação deste campeonato ainda não saiu.'}</div>`;
   }
-  let html = '';
+  let html = faixaParticipantes(d);
   if (d.origemTabela === 'calculada') {
     html += `<div class="aviso"><b>Tabela somada pelo Tabelaço.</b> A fonte não publicou a
       classificação oficial desta edição, então o app somou os jogos que já aconteceram.
@@ -1103,7 +1152,7 @@ function paginaSaldo(d, forcarCols) {
         : `right:50%;width:${frac}%;background:var(--alerta)`;
       const meu = t.time === S.time ? 'style="font-weight:700;color:var(--acc)"' : '';
       html += `<div class="barra-linha">` +
-        `<div class="barra-nome" ${meu}>${esc(t.time)}</div>` +
+        `<div class="barra-nome" ${meu}><span class="nomeTime">${esc(t.time)}</span></div>` +
         `<div class="barra-trilho"><div class="barra-meio"></div>` +
         `<div class="barra-preenche" style="${estilo}"></div></div>` +
         `<div class="barra-valor" style="color:${pos ? 'var(--ok)' : 'var(--alerta)'}">` +
@@ -1166,7 +1215,8 @@ function paginaJogos(d, forcarCols, limite) {
     const temPlacar = j.golsMandante !== null && j.golsVisitante !== null;
     const meio = temPlacar
       ? `<div class="placar">${j.golsMandante} <span style="color:var(--mut)">×</span> ${j.golsVisitante}</div>`
-      : `<div class="hora">${esc(j.hora || '—')}</div>`;
+      : `<div class="amarcar"><div class="placar vazio">–<span>×</span>–</div>` +
+        `<div class="hora">${esc(j.hora || 'a definir')}</div></div>`;
     let selo = '';
     if (j.conferencia === 'divergente') selo = '<span class="selo div">conferindo</span>';
     else if (j.conferencia === 'sozinho' && temPlacar) selo = '<span class="selo prel">preliminar</span>';
@@ -1247,7 +1297,7 @@ function desenharTudo(manterPagina) {
    clube na mão, o app MEDE cada nome depois de desenhado e baixa a fonte só
    daquele que não coube, até caber ou até o piso de legibilidade.
    Só o texto encolhe: o escudo do lado fica do mesmo tamanho. */
-const FONTE_PISO = 9.5;
+const FONTE_PISO = 7.5;
 function caberNomes(raiz) {
   const alvos = (raiz || document).querySelectorAll('.nomeTime, .jogo .nome');
   for (const n of alvos) {
