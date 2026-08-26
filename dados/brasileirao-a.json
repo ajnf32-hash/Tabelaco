@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-25T23:46:13.801Z",
+ "atualizado": "2026-08-26T00:45:13.543Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3933,11 +3933,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-22",
@@ -4347,6 +4346,65 @@
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-05",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Municipal Cicero de Souza Marques",
+   "cidade": "Bragança Paulista",
+   "mandante": "Red Bull Bragantino",
+   "visitante": "Bahia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-05",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Cícero Pompeu de Toledo",
+   "cidade": "Sao Paulo",
+   "mandante": "São Paulo",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-06",
+   "hora": "00:00",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Fluminense",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
