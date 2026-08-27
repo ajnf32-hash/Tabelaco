@@ -193,6 +193,43 @@ async function jogosDaTemporada(c, temporada) {
   return jogos;
 }
 
+/* ------------------------------------------------------- grafia dos nomes
+
+   As fontes escrevem nome de clube sem acento. Na tela isso aparece como
+   "Sampaio Correa" e "Atletico Alagoinhas", que estão simplesmente errados em
+   português, e o Annibal, que tem dislexia, pediu para eu avisar e corrigir
+   sempre que algo saia escrito errado.
+
+   Corrigir na mão nos arquivos de dados não adianta: este robô roda de meia em
+   meia hora e sobrescreve tudo. Por isso a correção mora AQUI, e é aplicada toda
+   vez que um nome entra.
+
+   Só entram nesta lista casos em que a fonte erra a grafia do MESMO clube. Clube
+   diferente com nome parecido não é assunto daqui. */
+const GRAFIA = {
+  'sampaio correa rj': 'Sampaio Corrêa RJ',
+  'sampaio correa':    'Sampaio Corrêa',
+  'atletico alagoinhas': 'Atlético Alagoinhas',
+};
+
+function grafia(nome) {
+  if (!nome) return nome;
+  const certo = GRAFIA[normaliza(nome)];
+  return certo || nome;
+}
+
+/* Passa a correção em tudo que leva nome de clube dentro de um campeonato. */
+function corrigeGrafia(arquivo) {
+  for (const j of (arquivo.jogos || [])) {
+    j.mandante  = grafia(j.mandante);
+    j.visitante = grafia(j.visitante);
+  }
+  for (const t of (arquivo.classificacao || [])) {
+    t.time = grafia(t.time);
+  }
+  return arquivo;
+}
+
 /* junta duas listas de jogos sem repetir; a segunda lista tem prioridade
    (é a janela recente, mais fresca que o histórico) */
 function juntaJogos(historico, recentes) {
@@ -396,6 +433,7 @@ async function main() {
       jogos,
       avisos
     };
+    corrigeGrafia(arquivo);
     fs.writeFileSync(path.join(SAIDA, `${c.id}.json`), JSON.stringify(arquivo, null, 1));
 
     process.stdout.write(
