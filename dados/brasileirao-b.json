@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T23:52:47.916Z",
+ "atualizado": "2026-08-27T05:55:01.479Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4484,7 +4484,7 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -5216,6 +5216,46 @@
    "visitante": "Sport",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-06",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Estadio VGD",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "Operário PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-06",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Moisés Lucarelli",
+   "cidade": "Ponte Preta",
+   "mandante": "Ponte Preta",
+   "visitante": "São Bernardo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

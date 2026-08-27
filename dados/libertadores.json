@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-26T23:52:53.809Z",
+ "atualizado": "2026-08-27T05:55:05.533Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2999,11 +2999,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-19",

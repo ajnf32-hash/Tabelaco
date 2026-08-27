@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-26T23:52:50.913Z",
+ "atualizado": "2026-08-27T05:55:03.536Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2737,10 +2737,10 @@
    "visitante": "Santos",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2757,10 +2757,10 @@
    "visitante": "Vitória",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2810,7 +2810,7 @@
   {
    "data": "2026-09-03",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Palmeiras lead 3-0 on aggregate",
    "local": "Estádio Vila Belmiro (Urbano Caldeira)",
    "cidade": "Santos",
    "mandante": "Santos",
@@ -2830,7 +2830,7 @@
   {
    "data": "2026-09-03",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Vasco da Gama lead 1-0 on aggregate",
    "local": "Estadio Manoel Barradas",
    "cidade": "Salvador",
    "mandante": "Vitória",
