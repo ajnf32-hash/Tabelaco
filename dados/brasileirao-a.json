@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-27T17:08:44.610Z",
+ "atualizado": "2026-08-28T01:34:37.205Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4525,6 +4525,26 @@
    "visitante": "Chapecoense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-07",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio Manoel Barradas",
+   "cidade": "Salvador",
+   "mandante": "Vitória",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

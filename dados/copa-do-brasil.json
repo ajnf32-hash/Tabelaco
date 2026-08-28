@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-08-27T17:08:54.474Z",
+ "atualizado": "2026-08-28T01:34:44.853Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2777,10 +2777,10 @@
    "visitante": "Grêmio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
