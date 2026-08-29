@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-08-29T11:15:21.164Z",
+ "atualizado": "2026-08-29T14:57:58.341Z",
  "temporada": 2026,
  "locais": {
   "escudos": [],
@@ -194,11 +194,116 @@
    "temTabela": true
   },
   {
+   "id": "ingles",
+   "nome": "Campeonato Inglês",
+   "curto": "Inglês",
+   "formato": "pontos-corridos",
+   "ordem": 6,
+   "meses": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 30,
+   "temTabela": true
+  },
+  {
+   "id": "espanhol",
+   "nome": "Campeonato Espanhol",
+   "curto": "Espanhol",
+   "formato": "pontos-corridos",
+   "ordem": 7,
+   "meses": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 41,
+   "temTabela": true
+  },
+  {
+   "id": "italiano",
+   "nome": "Campeonato Italiano",
+   "curto": "Italiano",
+   "formato": "pontos-corridos",
+   "ordem": 8,
+   "meses": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 30,
+   "temTabela": true
+  },
+  {
+   "id": "alemao",
+   "nome": "Campeonato Alemão",
+   "curto": "Alemão",
+   "formato": "pontos-corridos",
+   "ordem": 9,
+   "meses": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 18,
+   "temTabela": true
+  },
+  {
+   "id": "frances",
+   "nome": "Campeonato Francês",
+   "curto": "Francês",
+   "formato": "pontos-corridos",
+   "ordem": 10,
+   "meses": [
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4,
+    5
+   ],
+   "jogos": 27,
+   "temTabela": true
+  },
+  {
    "id": "carioca",
    "nome": "Campeonato Carioca",
    "curto": "Carioca",
    "formato": "estadual",
-   "ordem": 6,
+   "ordem": 11,
    "meses": [
     1,
     2,
@@ -213,7 +318,7 @@
    "nome": "Campeonato Paulista",
    "curto": "Paulista",
    "formato": "estadual",
-   "ordem": 7,
+   "ordem": 12,
    "meses": [
     1,
     2,
@@ -228,7 +333,7 @@
    "nome": "Campeonato Mineiro",
    "curto": "Mineiro",
    "formato": "estadual",
-   "ordem": 8,
+   "ordem": 13,
    "meses": [
     1,
     2,
@@ -243,7 +348,7 @@
    "nome": "Campeonato Gaúcho",
    "curto": "Gaúcho",
    "formato": "estadual",
-   "ordem": 9,
+   "ordem": 14,
    "meses": [
     1,
     2,
