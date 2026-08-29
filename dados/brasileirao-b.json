@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T21:50:37.090Z",
+ "atualizado": "2026-08-29T23:44:21.697Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 36,
+   "jogos": 25,
+   "vitorias": 8,
+   "empates": 12,
+   "derrotas": 5,
+   "golsPro": 23,
+   "golsContra": 19,
+   "saldo": 4
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 34,
@@ -163,7 +177,7 @@
    "saldo": 2
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -175,20 +189,6 @@
    "golsPro": 26,
    "golsContra": 27,
    "saldo": -1
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 33,
-   "jogos": 24,
-   "vitorias": 7,
-   "empates": 12,
-   "derrotas": 5,
-   "golsPro": 21,
-   "golsContra": 18,
-   "saldo": 3
   },
   {
    "posicao": 14,
@@ -210,13 +210,13 @@
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "pontos": 31,
-   "jogos": 24,
+   "jogos": 25,
    "vitorias": 8,
    "empates": 7,
-   "derrotas": 9,
-   "golsPro": 28,
-   "golsContra": 26,
-   "saldo": 2
+   "derrotas": 10,
+   "golsPro": 29,
+   "golsContra": 28,
+   "saldo": 1
   },
   {
    "posicao": 16,
@@ -4932,12 +4932,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-30",
