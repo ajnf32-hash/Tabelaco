@@ -8,7 +8,18 @@
       "curto": "Série A",
       "formato": "pontos-corridos",
       "espn": "bra.1",
-      "meses": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12],
+      "meses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
       "ordem": 1
     },
     {
@@ -17,7 +28,17 @@
       "curto": "Série B",
       "formato": "pontos-corridos",
       "espn": "bra.2",
-      "meses": [3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "meses": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "ordem": 2
     },
     {
@@ -26,7 +47,18 @@
       "curto": "Copa do Brasil",
       "formato": "mata-mata",
       "espn": "bra.copa_do_brazil",
-      "meses": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "meses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "ordem": 3
     },
     {
@@ -35,7 +67,18 @@
       "curto": "Libertadores",
       "formato": "grupos-e-mata-mata",
       "espn": "conmebol.libertadores",
-      "meses": [2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+      "meses": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
       "ordem": 4
     },
     {
@@ -44,8 +87,118 @@
       "curto": "Champions",
       "formato": "grupos-e-mata-mata",
       "espn": "uefa.champions",
-      "meses": [9, 10, 11, 12, 1, 2, 3, 4, 5],
+      "meses": [
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
       "ordem": 5
+    },
+    {
+      "id": "ingles",
+      "nome": "Campeonato Inglês",
+      "curto": "Inglês",
+      "formato": "pontos-corridos",
+      "espn": "eng.1",
+      "meses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordem": 6
+    },
+    {
+      "id": "espanhol",
+      "nome": "Campeonato Espanhol",
+      "curto": "Espanhol",
+      "formato": "pontos-corridos",
+      "espn": "esp.1",
+      "meses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordem": 7
+    },
+    {
+      "id": "italiano",
+      "nome": "Campeonato Italiano",
+      "curto": "Italiano",
+      "formato": "pontos-corridos",
+      "espn": "ita.1",
+      "meses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordem": 8
+    },
+    {
+      "id": "alemao",
+      "nome": "Campeonato Alemão",
+      "curto": "Alemão",
+      "formato": "pontos-corridos",
+      "espn": "ger.1",
+      "meses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordem": 9
+    },
+    {
+      "id": "frances",
+      "nome": "Campeonato Francês",
+      "curto": "Francês",
+      "formato": "pontos-corridos",
+      "espn": "fra.1",
+      "meses": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "ordem": 10
     },
     {
       "id": "carioca",
@@ -53,8 +206,13 @@
       "curto": "Carioca",
       "formato": "estadual",
       "espn": "bra.camp.carioca",
-      "meses": [1, 2, 3, 4],
-      "ordem": 6
+      "meses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordem": 11
     },
     {
       "id": "paulista",
@@ -62,8 +220,13 @@
       "curto": "Paulista",
       "formato": "estadual",
       "espn": "bra.camp.paulista",
-      "meses": [1, 2, 3, 4],
-      "ordem": 7
+      "meses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordem": 12
     },
     {
       "id": "mineiro",
@@ -71,8 +234,13 @@
       "curto": "Mineiro",
       "formato": "estadual",
       "espn": "bra.camp.mineiro",
-      "meses": [1, 2, 3, 4],
-      "ordem": 8
+      "meses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordem": 13
     },
     {
       "id": "gaucho",
@@ -80,8 +248,13 @@
       "curto": "Gaúcho",
       "formato": "estadual",
       "espn": "bra.camp.gaucho",
-      "meses": [1, 2, 3, 4],
-      "ordem": 9
+      "meses": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "ordem": 14
     }
   ]
 }

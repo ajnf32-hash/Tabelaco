@@ -178,6 +178,30 @@ async function classificacaoESPN(slug, temporada) {
 
    Campeonato que vira o ano (Champions: setembro a maio) tem os meses do fim do
    ano na temporada anterior. Detectamos isso pela lista de meses "dar a volta". */
+/* Em que temporada o campeonato esta HOJE.
+
+   Campeonato que vira o ano nao acompanha o calendario: em agosto de 2026 o
+   Ingles ja comecou a temporada 2026/27, enquanto a Champions, que so abre em
+   setembro, ainda esta na de 2025/26. Sem isto o robo mostrava a tabela final
+   da temporada passada como se fosse a atual.
+
+   O rotulo segue a convencao do resto do arquivo: o ano em que a temporada
+   TERMINA. Quem fala com a ESPN converte na hora de pedir. */
+function mesDeAbertura(meses) {
+  const s = new Set(meses);
+  for (const m of meses) if (!s.has(m === 1 ? 12 : m - 1)) return m;
+  return meses[0];
+}
+
+function temporadaCorrente(c, padrao) {
+  const meses = c.meses || [];
+  if (!(meses.includes(12) && meses.includes(1))) return padrao;
+  const hoje = new Date();
+  const abre = mesDeAbertura(meses);
+  const ano = hoje.getUTCFullYear();
+  return (hoje.getUTCMonth() + 1 >= abre) ? ano + 1 : ano;
+}
+
 async function jogosDaTemporada(c, temporada) {
   const meses = c.meses || [];
   const viraOAno = meses.includes(12) && meses.includes(1);
@@ -392,7 +416,8 @@ async function main() {
     process.stdout.write(`\n${c.nome.padEnd(24)} `);
 
     /* histórico da temporada + janela recente, sem repetir jogo */
-    const historico = await jogosDaTemporada(c, cat.temporada);
+    const temporadaC = temporadaCorrente(c, cat.temporada);
+    const historico = await jogosDaTemporada(c, temporadaC);
     const recentes = await jogosESPN(c.espn, de, ate);
     const jogos = juntaJogos(historico, recentes);
 
@@ -408,7 +433,7 @@ async function main() {
 
     /* A tabela tem que ser da MESMA temporada dos jogos que estão na tela.
        Nunca cair para o ano anterior às escondidas. */
-    const temporadaTabela = temporadaDosJogos(c, jogos, cat.temporada);
+    const temporadaTabela = temporadaDosJogos(c, jogos, temporadaC);
     let tabela = await classificacaoESPN(c.espn, temporadaTabela);
     let origemTabela = tabela.length ? 'fonte' : 'nenhuma';
 
@@ -425,7 +450,7 @@ async function main() {
       nome: c.nome,
       curto: c.curto,
       formato: c.formato,
-      temporada: cat.temporada,
+      temporada: temporadaC,
       temporadaTabela,
       origemTabela,
       atualizado: new Date().toISOString(),

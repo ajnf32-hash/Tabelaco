@@ -901,6 +901,13 @@ function trocarMascote() {
    o jogador de armadura. Antes a camada ficava vazia; para o torcedor de um clube
    pequeno isso era o app dizendo que o time dele não conta. */
 const FUNDO_RESERVA = 'tabelaco';
+/* O time do coração está no campeonato que está na tela? Enquanto o campeonato
+   ainda não baixou, responde que sim: melhor não trocar o fundo à toa. */
+function jogaAqui(time) {
+  const d = S.dados[S.atual];
+  if (!d) return true;
+  return timesDoCampeonato(d).some(t => t.time === time);
+}
 function trocarFundo() {
   const camada = $('#fundoMascote');
   const baixar = $('#btWallpaper');
@@ -908,7 +915,10 @@ function trocarFundo() {
   /* Sem time escolhido o fundo tambem aparece: o do proprio Tabelaco, o jogador de
      armadura. Antes a tela ficava limpa, e quem ainda nao escolheu clube via o app
      mais pobre do que ele e. */
-  const proprio = !!S.time && temDesenho('fundos', S.time);
+  /* E tem que ser um time DESTE campeonato. Abrindo o Campeonato Inglês, o
+     escudo do time brasileiro do coração atrás da tabela não diz nada; ali o
+     fundo certo é o do próprio Tabelaço. */
+  const proprio = !!S.time && temDesenho('fundos', S.time) && jogaAqui(S.time);
   /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
      retângulo vazio no lugar durante o download, que numa marca d'água é pior
      que não ter nenhuma. */
@@ -972,6 +982,7 @@ async function abrirCampeonato(id) {
     catch (e) { $('#carrossel').innerHTML = `<div class="pagina"><div class="vazio">Não consegui abrir este campeonato agora.<br>Tente de novo daqui a pouco.</div></div>`; return; }
   }
   desenharSeletor();
+  trocarFundo();
   desenharTudo();
 }
 
