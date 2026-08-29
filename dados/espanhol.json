@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T16:42:33.876Z",
+ "atualizado": "2026-08-29T19:01:30.078Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Real Betis",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "pontos": 6,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 0,
-   "saldo": 2
+   "derrotas": 1,
+   "golsPro": 4,
+   "golsContra": 5,
+   "saldo": -1
   },
   {
    "posicao": 6,
@@ -109,8 +109,8 @@
   {
    "posicao": 8,
    "grupo": "",
-   "time": "Racing Santander",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "time": "Levante",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "pontos": 4,
    "jogos": 3,
    "vitorias": 1,
@@ -123,19 +123,33 @@
   {
    "posicao": 9,
    "grupo": "",
-   "time": "Espanyol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-   "pontos": 3,
-   "jogos": 2,
+   "time": "Racing Santander",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "pontos": 4,
+   "jogos": 3,
    "vitorias": 1,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 2,
-   "saldo": 2
+   "golsPro": 5,
+   "golsContra": 5,
+   "saldo": 0
   },
   {
    "posicao": 10,
+   "grupo": "",
+   "time": "Espanyol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 4,
+   "saldo": 1
+  },
+  {
+   "posicao": 11,
    "grupo": "",
    "time": "Getafe",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
@@ -149,7 +163,21 @@
    "saldo": -2
   },
   {
-   "posicao": 11,
+   "posicao": 12,
+   "grupo": "",
+   "time": "Real Sociedad",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 6,
+   "saldo": -3
+  },
+  {
+   "posicao": 13,
    "grupo": "",
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
@@ -163,7 +191,7 @@
    "saldo": 0
   },
   {
-   "posicao": 12,
+   "posicao": 14,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -177,7 +205,7 @@
    "saldo": -1
   },
   {
-   "posicao": 13,
+   "posicao": 15,
    "grupo": "",
    "time": "Rayo Vallecano",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
@@ -191,7 +219,7 @@
    "saldo": -1
   },
   {
-   "posicao": 14,
+   "posicao": 16,
    "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
@@ -205,7 +233,7 @@
    "saldo": -1
   },
   {
-   "posicao": 15,
+   "posicao": 17,
    "grupo": "",
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
@@ -219,7 +247,7 @@
    "saldo": -1
   },
   {
-   "posicao": 16,
+   "posicao": 18,
    "grupo": "",
    "time": "Málaga",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
@@ -233,21 +261,7 @@
    "saldo": -2
   },
   {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Levante",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "pontos": 1,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 0,
-   "golsContra": 3,
-   "saldo": -3
-  },
-  {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
@@ -259,20 +273,6 @@
    "golsPro": 3,
    "golsContra": 9,
    "saldo": -6
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Real Sociedad",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "pontos": 0,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 1,
-   "golsContra": 5,
-   "saldo": -4
   },
   {
    "posicao": 20,
@@ -740,7 +740,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-29",
@@ -760,7 +760,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-29",
