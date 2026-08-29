@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2025,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T14:57:52.355Z",
+ "atualizado": "2026-08-29T15:42:37.907Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4104,6 +4104,126 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "OPAP Arena",
+   "cidade": "Athens",
+   "mandante": "AEK Athens",
+   "visitante": "LASK Linz",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Jan Breydel Stadium",
+   "cidade": "Brugge",
+   "mandante": "Club Brugge",
+   "visitante": "Aston Villa",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio do Dragão",
+   "cidade": "Porto",
+   "mandante": "FC Porto",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Decathlon Arena - Stade Pierre-Mauroy",
+   "cidade": "Lille",
+   "mandante": "Lille",
+   "visitante": "Real Betis",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Internazionale",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
