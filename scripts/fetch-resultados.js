@@ -234,6 +234,50 @@ const GRAFIA = {
   'sampaio correa rj': 'Sampaio Corrêa RJ',
   'sampaio correa':    'Sampaio Corrêa',
   'atletico alagoinhas': 'Atlético Alagoinhas',
+
+  /* Europa. A fonte é americana e escreve os clubes como o inglês escreve:
+     "Bayern Munich", "Internazionale", "FC Cologne". Aqui vale o nome que o
+     brasileiro usa, e sem a sigla de fundação que ninguém fala. Só entram os
+     que mudam de verdade; clube que já vem certo não aparece nesta lista.
+
+     Cuidado ao mexer: Paris Saint-Germain e Paris FC são dois clubes
+     diferentes na mesma liga, e nenhum dos dois pode virar "Paris". */
+  'bayern munich':        'Bayern de Munique',
+  'internazionale':       'Inter de Milão',
+  'ac milan':             'Milan',
+  'as roma':              'Roma',
+  'fc cologne':           'Colônia',
+  'hamburg sv':           'Hamburgo',
+  'fc augsburg':          'Augsburg',
+  'sc freiburg':          'Freiburg',
+  'sv elversberg':        'Elversberg',
+  'tsg hoffenheim':       'Hoffenheim',
+  'vfb stuttgart':        'Stuttgart',
+  'sc paderborn 07':      'Paderborn',
+  '1 fc union berlin':    'Union Berlin',
+  'atletico madrid':      'Atlético de Madrid',
+  'athletic club':        'Athletic Bilbao',
+  'afc bournemouth':      'Bournemouth',
+  'brighton hove albion': 'Brighton',
+  'tottenham hotspur':    'Tottenham',
+  'newcastle united':     'Newcastle',
+  'leeds united':         'Leeds',
+  'as monaco':            'Monaco',
+  'aj auxerre':           'Auxerre',
+  'le havre ac':          'Le Havre',
+  'stade rennais':        'Rennes',
+  'marseille':            'Marselha',
+  'ajax amsterdam':       'Ajax',
+  'psv eindhoven':        'PSV',
+  'fc porto':             'Porto',
+  'sporting cp':          'Sporting',
+  'club brugge':          'Brugge',
+  'f c k benhavn':        'Copenhague',
+  'slavia prague':        'Slavia Praga',
+  'aek athens':           'AEK Atenas',
+  'union st gilloise':    'Union Saint-Gilloise',
+  'fk qarabag':           'Qarabag',
+  'lask linz':            'LASK',
 };
 
 function grafia(nome) {
