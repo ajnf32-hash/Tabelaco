@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T19:01:30.480Z",
+ "atualizado": "2026-08-29T21:50:44.747Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Juventus",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "pontos": 6,
+   "jogos": 2,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 3,
+   "golsContra": 0,
+   "saldo": 3
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "pontos": 4,
@@ -37,7 +51,7 @@
    "saldo": 1
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Roma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
@@ -51,7 +65,7 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Inter de Milão",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
@@ -65,7 +79,7 @@
    "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Frosinone",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
@@ -93,7 +107,7 @@
    "saldo": 2
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
@@ -107,7 +121,7 @@
    "saldo": 2
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
@@ -121,24 +135,10 @@
    "saldo": 1
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Cagliari",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 1,
-   "golsContra": 0,
-   "saldo": 1
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Juventus",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "pontos": 3,
    "jogos": 1,
    "vitorias": 1,
@@ -207,20 +207,6 @@
   {
    "posicao": 15,
    "grupo": "",
-   "time": "Parma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "pontos": 0,
-   "jogos": 1,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 0,
-   "golsContra": 1,
-   "saldo": -1
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
    "time": "Torino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
    "pontos": 0,
@@ -233,7 +219,7 @@
    "saldo": -2
   },
   {
-   "posicao": 17,
+   "posicao": 16,
    "grupo": "",
    "time": "Genoa",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
@@ -245,6 +231,20 @@
    "golsPro": 0,
    "golsContra": 2,
    "saldo": -2
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
+   "time": "Parma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "pontos": 0,
+   "jogos": 2,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 0,
+   "golsContra": 3,
+   "saldo": -3
   },
   {
    "posicao": 18,
@@ -520,15 +520,15 @@
    "visitante": "Frosinone",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -540,15 +540,15 @@
    "visitante": "Udinese",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -560,15 +560,15 @@
    "visitante": "Torino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -583,12 +583,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-30",

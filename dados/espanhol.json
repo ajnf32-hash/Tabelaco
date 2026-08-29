@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T19:01:30.078Z",
+ "atualizado": "2026-08-29T21:50:44.395Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Atlético de Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "pontos": 7,
+   "jogos": 3,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 7,
+   "golsContra": 3,
+   "saldo": 4
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
@@ -23,7 +37,7 @@
    "saldo": 4
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -37,7 +51,7 @@
    "saldo": 7
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
@@ -51,21 +65,21 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "pontos": 6,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 5,
-   "golsContra": 2,
-   "saldo": 3
+   "derrotas": 1,
+   "golsPro": 6,
+   "golsContra": 5,
+   "saldo": 1
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Real Betis",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
@@ -77,20 +91,6 @@
    "golsPro": 4,
    "golsContra": 5,
    "saldo": -1
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Atlético de Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "pontos": 4,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 2,
-   "saldo": 2
   },
   {
    "posicao": 7,
@@ -732,15 +732,15 @@
    "visitante": "Real Betis",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -752,15 +752,15 @@
    "visitante": "Espanyol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -780,7 +780,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-30",

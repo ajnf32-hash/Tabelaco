@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T19:01:30.783Z",
+ "atualizado": "2026-08-29T21:50:45.097Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -390,15 +390,15 @@
    "visitante": "Hamburgo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-30",
