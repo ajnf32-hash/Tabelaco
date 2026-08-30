@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T21:18:18.575Z",
+ "atualizado": "2026-08-30T23:39:09.653Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -165,6 +165,20 @@
   {
    "posicao": 12,
    "grupo": "",
+   "time": "Athletic Bilbao",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 5,
+   "saldo": -2
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
    "time": "Getafe",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
    "pontos": 3,
@@ -177,7 +191,7 @@
    "saldo": -2
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
@@ -191,7 +205,7 @@
    "saldo": -3
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -205,7 +219,7 @@
    "saldo": -1
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Rayo Vallecano",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
@@ -216,20 +230,6 @@
    "derrotas": 1,
    "golsPro": 2,
    "golsContra": 3,
-   "saldo": -1
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Celta Vigo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-   "pontos": 1,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 1,
-   "golsContra": 2,
    "saldo": -1
   },
   {
@@ -249,6 +249,20 @@
   {
    "posicao": 18,
    "grupo": "",
+   "time": "Celta Vigo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "pontos": 1,
+   "jogos": 3,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 1,
+   "golsContra": 4,
+   "saldo": -3
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "pontos": 1,
@@ -261,7 +275,7 @@
    "saldo": -6
   },
   {
-   "posicao": 19,
+   "posicao": 20,
    "grupo": "",
    "time": "Málaga",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
@@ -273,20 +287,6 @@
    "golsPro": 1,
    "golsContra": 7,
    "saldo": -6
-  },
-  {
-   "posicao": 20,
-   "grupo": "",
-   "time": "Athletic Bilbao",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "pontos": 0,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 1,
-   "golsContra": 5,
-   "saldo": -4
   }
  ],
  "jogos": [
@@ -838,7 +838,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-08-31",
