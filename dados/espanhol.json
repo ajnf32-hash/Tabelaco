@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T14:08:00.749Z",
+ "atualizado": "2026-08-30T18:06:56.026Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Real Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 10,
+   "golsContra": 2,
+   "saldo": 8
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
@@ -23,7 +37,7 @@
    "saldo": 4
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
@@ -37,7 +51,7 @@
    "saldo": 4
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -49,20 +63,6 @@
    "golsPro": 7,
    "golsContra": 0,
    "saldo": 7
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Real Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 6,
-   "golsContra": 2,
-   "saldo": 4
   },
   {
    "posicao": 5,
@@ -249,20 +249,6 @@
   {
    "posicao": 18,
    "grupo": "",
-   "time": "Málaga",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "pontos": 1,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 1,
-   "golsContra": 3,
-   "saldo": -2
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "pontos": 1,
@@ -272,6 +258,20 @@
    "derrotas": 2,
    "golsPro": 3,
    "golsContra": 9,
+   "saldo": -6
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Málaga",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+   "pontos": 1,
+   "jogos": 3,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 1,
+   "golsContra": 7,
    "saldo": -6
   },
   {
@@ -791,10 +791,10 @@
    "visitante": "Málaga",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -814,7 +814,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

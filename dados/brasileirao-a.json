@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T14:07:50.759Z",
+ "atualizado": "2026-08-30T18:06:42.253Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,13 +41,13 @@
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 44,
-   "jogos": 24,
+   "pontos": 45,
+   "jogos": 25,
    "vitorias": 13,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 6,
-   "golsPro": 34,
-   "golsContra": 22,
+   "golsPro": 37,
+   "golsContra": 25,
    "saldo": 12
   },
   {
@@ -55,13 +55,13 @@
    "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 41,
-   "jogos": 24,
+   "pontos": 42,
+   "jogos": 25,
    "vitorias": 11,
-   "empates": 8,
+   "empates": 9,
    "derrotas": 5,
-   "golsPro": 36,
-   "golsContra": 29,
+   "golsPro": 39,
+   "golsContra": 32,
    "saldo": 7
   },
   {
@@ -4206,10 +4206,10 @@
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
