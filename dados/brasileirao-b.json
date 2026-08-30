@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T18:06:48.639Z",
+ "atualizado": "2026-08-30T21:18:11.407Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4949,10 +4949,10 @@
    "visitante": "Ponte Preta",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4969,10 +4969,10 @@
    "visitante": "Atlético Goianiense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4991,7 +4991,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

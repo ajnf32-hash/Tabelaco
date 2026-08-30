@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T18:06:42.253Z",
+ "atualizado": "2026-08-30T21:18:06.292Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 45,
-   "jogos": 23,
-   "vitorias": 13,
+   "pontos": 48,
+   "jogos": 24,
+   "vitorias": 14,
    "empates": 6,
    "derrotas": 4,
-   "golsPro": 45,
+   "golsPro": 48,
    "golsContra": 21,
-   "saldo": 24
+   "saldo": 27
   },
   {
    "posicao": 3,
@@ -140,13 +140,13 @@
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
-   "jogos": 24,
+   "jogos": 25,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 26,
-   "golsContra": 24,
-   "saldo": 2
+   "golsContra": 25,
+   "saldo": 1
   },
   {
    "posicao": 11,
@@ -168,13 +168,13 @@
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 30,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 8,
    "empates": 6,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 37,
-   "golsContra": 37,
-   "saldo": 0
+   "golsContra": 40,
+   "saldo": -3
   },
   {
    "posicao": 13,
@@ -195,14 +195,14 @@
    "grupo": "",
    "time": "Santos",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 26,
-   "jogos": 23,
-   "vitorias": 6,
+   "pontos": 29,
+   "jogos": 24,
+   "vitorias": 7,
    "empates": 8,
    "derrotas": 9,
-   "golsPro": 33,
+   "golsPro": 34,
    "golsContra": 36,
-   "saldo": -3
+   "saldo": -2
   },
   {
    "posicao": 15,
@@ -4226,10 +4226,10 @@
    "visitante": "Santos",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4246,10 +4246,10 @@
    "visitante": "Botafogo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

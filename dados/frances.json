@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T18:06:57.177Z",
+ "atualizado": "2026-08-30T21:18:19.697Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Monaco",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "pontos": 6,
+   "jogos": 2,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 3,
+   "golsContra": 0,
+   "saldo": 3
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Paris FC",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
@@ -23,7 +37,7 @@
    "saldo": 3
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
@@ -37,7 +51,7 @@
    "saldo": 2
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -51,7 +65,7 @@
    "saldo": 2
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
@@ -65,7 +79,7 @@
    "saldo": 1
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Troyes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
@@ -77,20 +91,6 @@
    "golsPro": 2,
    "golsContra": 1,
    "saldo": 1
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Marselha",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 0,
-   "saldo": 4
   },
   {
    "posicao": 7,
@@ -109,16 +109,16 @@
   {
    "posicao": 8,
    "grupo": "",
-   "time": "Monaco",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "time": "Marselha",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
    "pontos": 3,
-   "jogos": 1,
+   "jogos": 2,
    "vitorias": 1,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 1,
-   "golsContra": 0,
-   "saldo": 1
+   "derrotas": 1,
+   "golsPro": 4,
+   "golsContra": 2,
+   "saldo": 2
   },
   {
    "posicao": 9,
@@ -608,10 +608,10 @@
    "visitante": "Marselha",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

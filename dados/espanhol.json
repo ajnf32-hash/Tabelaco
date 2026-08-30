@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T18:06:56.026Z",
+ "atualizado": "2026-08-30T21:18:18.575Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Deportivo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+   "pontos": 5,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 2,
+   "derrotas": 0,
+   "golsPro": 5,
+   "golsContra": 3,
+   "saldo": 2
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Osasuna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "pontos": 4,
@@ -107,7 +121,7 @@
    "saldo": 1
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
@@ -121,7 +135,7 @@
    "saldo": 0
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Racing Santander",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Espanyol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
@@ -149,7 +163,7 @@
    "saldo": 1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Getafe",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
@@ -163,7 +177,7 @@
    "saldo": -2
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
@@ -175,20 +189,6 @@
    "golsPro": 3,
    "golsContra": 6,
    "saldo": -3
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Deportivo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-   "pontos": 2,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 2,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 2,
-   "saldo": 0
   },
   {
    "posicao": 14,
@@ -238,13 +238,13 @@
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "pontos": 1,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 0,
    "empates": 1,
-   "derrotas": 1,
-   "golsPro": 0,
-   "golsContra": 1,
-   "saldo": -1
+   "derrotas": 2,
+   "golsPro": 1,
+   "golsContra": 4,
+   "saldo": -3
   },
   {
    "posicao": 18,
@@ -811,10 +811,10 @@
    "visitante": "Valencia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -833,7 +833,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
