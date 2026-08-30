@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T23:44:21.697Z",
+ "atualizado": "2026-08-30T02:37:30.544Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4929,15 +4929,15 @@
    "visitante": "Cuiabá",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-30",
@@ -5296,6 +5296,105 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Santa Cruz",
+   "cidade": "Ribeirão Preto",
+   "mandante": "Botafogo-SP",
+   "visitante": "Novorizontino",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Fortaleza",
+   "visitante": "Avaí",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio Raimundo Sampaio (Independência)",
+   "cidade": "Belo Horizonte",
+   "mandante": "América Mineiro",
+   "visitante": "Náutico",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Germano Krüger",
+   "cidade": "Ponta Grossa",
+   "mandante": "Operário PR",
+   "visitante": "CRB",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Antônio Accioly",
+   "cidade": "Goiãnia",
+   "mandante": "Atlético Goianiense",
+   "visitante": "Ceará",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []

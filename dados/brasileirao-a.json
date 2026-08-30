@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T23:44:17.594Z",
+ "atualizado": "2026-08-30T02:37:24.196Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 39,
-   "jogos": 24,
+   "jogos": 25,
    "vitorias": 11,
    "empates": 6,
-   "derrotas": 7,
-   "golsPro": 34,
-   "golsContra": 33,
-   "saldo": 1
+   "derrotas": 8,
+   "golsPro": 35,
+   "golsContra": 36,
+   "saldo": -1
   },
   {
    "posicao": 6,
@@ -112,13 +112,13 @@
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "pontos": 35,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 10,
    "empates": 5,
-   "derrotas": 8,
-   "golsPro": 28,
-   "golsContra": 23,
-   "saldo": 5
+   "derrotas": 9,
+   "golsPro": 29,
+   "golsContra": 25,
+   "saldo": 4
   },
   {
    "posicao": 9,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "São Paulo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "pontos": 30,
+   "jogos": 24,
+   "vitorias": 8,
+   "empates": 6,
+   "derrotas": 10,
+   "golsPro": 29,
+   "golsContra": 28,
+   "saldo": 1
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 30,
@@ -163,7 +177,7 @@
    "saldo": 0
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
@@ -175,20 +189,6 @@
    "golsPro": 24,
    "golsContra": 37,
    "saldo": -13
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "São Paulo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
-   "pontos": 27,
-   "jogos": 23,
-   "vitorias": 7,
-   "empates": 6,
-   "derrotas": 10,
-   "golsPro": 27,
-   "golsContra": 27,
-   "saldo": 0
   },
   {
    "posicao": 14,
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Vasco da Gama",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "pontos": 25,
+   "jogos": 24,
+   "vitorias": 6,
+   "empates": 7,
+   "derrotas": 11,
+   "golsPro": 27,
+   "golsContra": 39,
+   "saldo": -12
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "pontos": 25,
@@ -233,7 +247,7 @@
    "saldo": -4
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
@@ -247,7 +261,7 @@
    "saldo": -10
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
@@ -259,20 +273,6 @@
    "golsPro": 28,
    "golsContra": 39,
    "saldo": -11
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Vasco da Gama",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "pontos": 22,
-   "jogos": 23,
-   "vitorias": 5,
-   "empates": 7,
-   "derrotas": 11,
-   "golsPro": 24,
-   "golsContra": 38,
-   "saldo": -14
   },
   {
    "posicao": 20,
@@ -4147,15 +4147,15 @@
    "visitante": "Vitória",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-29",
@@ -4167,10 +4167,10 @@
    "visitante": "Red Bull Bragantino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -4186,10 +4186,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

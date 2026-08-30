@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T23:44:26.120Z",
+ "atualizado": "2026-08-30T02:37:36.212Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3132,11 +3132,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-26",
@@ -3177,6 +3176,45 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "22:00",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Liga de Quito",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Jorge Luis Hirschi",
+   "cidade": "La Plata",
+   "mandante": "Estudiantes de La Plata",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []

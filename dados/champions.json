@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2025,
  "origemTabela": "fonte",
- "atualizado": "2026-08-29T23:44:28.043Z",
+ "atualizado": "2026-08-30T02:37:38.808Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4215,6 +4215,125 @@
    "visitante": "Inter de Milão",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Feyenoord Rotterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "MHPArena",
+   "cidade": "Stuttgart",
+   "mandante": "Stuttgart",
+   "visitante": "Viking FK",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Atlético de Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Slovan Bratislava",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/521.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-09",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio José Alvalade",
+   "cidade": "Lisbon",
+   "mandante": "Sporting",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
