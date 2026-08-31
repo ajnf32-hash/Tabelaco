@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T23:39:01.475Z",
+ "atualizado": "2026-08-31T02:31:23.337Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3215,6 +3215,26 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-09-11",
+   "hora": "00:30",
+   "rodada": "1st Leg",
+   "local": "Estadio Olímpico Atahualpa",
+   "cidade": "Quito",
+   "mandante": "Independiente del Valle",
+   "visitante": "Flamengo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []

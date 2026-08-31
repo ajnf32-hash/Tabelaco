@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2025,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T23:39:06.367Z",
+ "atualizado": "2026-08-31T02:31:25.590Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4334,6 +4334,126 @@
    "visitante": "Galatasaray",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Ulker Stadyumu",
+   "cidade": "Istanbul",
+   "mandante": "Fenerbahce",
+   "visitante": "Roma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "16:45",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV",
+   "visitante": "Shakhtar Donetsk",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern de Munique",
+   "visitante": "Bodo/Glimt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Giuseppe Sinigaglia",
+   "cidade": "Como",
+   "mandante": "Como",
+   "visitante": "RB Leipzig",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Old Trafford",
+   "cidade": "Manchester",
+   "mandante": "Manchester United",
+   "visitante": "Sabah FK",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Praga",
+   "visitante": "Lens",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

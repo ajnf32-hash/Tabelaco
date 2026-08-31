@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T23:38:55.734Z",
+ "atualizado": "2026-08-31T02:31:19.283Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -4674,11 +4674,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-22",
@@ -4694,11 +4693,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-23",
@@ -4988,15 +4986,15 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-30",
@@ -5008,15 +5006,15 @@
    "visitante": "Ceará",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-31",
@@ -5395,6 +5393,66 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Primeiro de Maio",
+   "cidade": "São Bernardo do Campo ",
+   "mandante": "São Bernardo",
+   "visitante": "Londrina",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-10",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Onésio Brasileiro Alvarenga",
+   "cidade": "Goiãnia",
+   "mandante": "Vila Nova",
+   "visitante": "Goiás",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-11",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Ilha do Retiro",
+   "cidade": "Recife",
+   "mandante": "Sport",
+   "visitante": "Ponte Preta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []

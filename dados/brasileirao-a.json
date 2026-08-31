@@ -6,20 +6,20 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-30T23:38:49.843Z",
+ "atualizado": "2026-08-31T02:31:15.331Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 51,
-   "jogos": 24,
+   "pontos": 52,
+   "jogos": 25,
    "vitorias": 15,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 3,
-   "golsPro": 44,
-   "golsContra": 20,
+   "golsPro": 45,
+   "golsContra": 21,
    "saldo": 24
   },
   {
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Bahia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "pontos": 40,
+   "jogos": 25,
+   "vitorias": 10,
+   "empates": 10,
+   "derrotas": 5,
+   "golsPro": 37,
+   "golsContra": 30,
+   "saldo": 7
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 39,
@@ -77,20 +91,6 @@
    "golsPro": 35,
    "golsContra": 36,
    "saldo": -1
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Bahia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 37,
-   "jogos": 24,
-   "vitorias": 9,
-   "empates": 10,
-   "derrotas": 5,
-   "golsPro": 34,
-   "golsContra": 28,
-   "saldo": 6
   },
   {
    "posicao": 7,
@@ -209,17 +209,31 @@
    "grupo": "",
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "pontos": 25,
-   "jogos": 23,
-   "vitorias": 6,
+   "pontos": 28,
+   "jogos": 24,
+   "vitorias": 7,
    "empates": 7,
    "derrotas": 10,
-   "golsPro": 24,
-   "golsContra": 31,
-   "saldo": -7
+   "golsPro": 27,
+   "golsContra": 32,
+   "saldo": -5
   },
   {
    "posicao": 16,
+   "grupo": "",
+   "time": "Mirassol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "pontos": 25,
+   "jogos": 24,
+   "vitorias": 6,
+   "empates": 7,
+   "derrotas": 11,
+   "golsPro": 27,
+   "golsContra": 37,
+   "saldo": -10
+  },
+  {
+   "posicao": 17,
    "grupo": "",
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
@@ -233,32 +247,18 @@
    "saldo": -12
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "pontos": 25,
-   "jogos": 24,
+   "jogos": 25,
    "vitorias": 5,
    "empates": 10,
-   "derrotas": 9,
-   "golsPro": 24,
-   "golsContra": 28,
-   "saldo": -4
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Mirassol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "pontos": 24,
-   "jogos": 23,
-   "vitorias": 6,
-   "empates": 6,
-   "derrotas": 11,
+   "derrotas": 10,
    "golsPro": 26,
-   "golsContra": 36,
-   "saldo": -10
+   "golsContra": 31,
+   "saldo": -5
   },
   {
    "posicao": 19,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 14,
-   "jogos": 23,
+   "jogos": 24,
    "vitorias": 2,
    "empates": 8,
-   "derrotas": 13,
-   "golsPro": 24,
-   "golsContra": 46,
-   "saldo": -22
+   "derrotas": 14,
+   "golsPro": 25,
+   "golsContra": 49,
+   "saldo": -24
   }
  ],
  "jogos": [
@@ -3952,11 +3952,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-22",
@@ -3972,11 +3971,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-22",
@@ -3992,11 +3990,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-23",
@@ -4266,15 +4263,15 @@
    "visitante": "Chapecoense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-30",
@@ -4286,15 +4283,15 @@
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-08-30",
@@ -4306,10 +4303,10 @@
    "visitante": "Internacional",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
