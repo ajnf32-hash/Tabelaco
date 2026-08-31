@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-31T17:08:38.549Z",
+ "atualizado": "2026-08-31T21:57:42.152Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Roma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "pontos": 6,
+   "jogos": 2,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 8,
+   "golsContra": 0,
+   "saldo": 8
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Inter de Milão",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
@@ -23,7 +37,7 @@
    "saldo": 4
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
@@ -37,7 +51,7 @@
    "saldo": 3
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -51,7 +65,21 @@
    "saldo": 3
   },
   {
-   "posicao": 4,
+   "posicao": 5,
+   "grupo": "",
+   "time": "Atalanta",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "pontos": 6,
+   "jogos": 2,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 3,
+   "golsContra": 1,
+   "saldo": 2
+  },
+  {
+   "posicao": 6,
    "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -65,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 5,
+   "posicao": 7,
    "grupo": "",
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
@@ -79,7 +107,7 @@
    "saldo": 1
   },
   {
-   "posicao": 6,
+   "posicao": 8,
    "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
@@ -93,21 +121,7 @@
    "saldo": 1
   },
   {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Roma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 0,
-   "saldo": 4
-  },
-  {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Frosinone",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
@@ -118,20 +132,6 @@
    "derrotas": 1,
    "golsPro": 3,
    "golsContra": 1,
-   "saldo": 2
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Lecce",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 0,
    "saldo": 2
   },
   {
@@ -151,20 +151,6 @@
   {
    "posicao": 11,
    "grupo": "",
-   "time": "Atalanta",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 1,
-   "saldo": 1
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
    "pontos": 3,
@@ -177,7 +163,7 @@
    "saldo": 0
   },
   {
-   "posicao": 13,
+   "posicao": 12,
    "grupo": "",
    "time": "Cagliari",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
@@ -191,21 +177,21 @@
    "saldo": 0
   },
   {
-   "posicao": 14,
+   "posicao": 13,
    "grupo": "",
-   "time": "Bologna",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-   "pontos": 0,
-   "jogos": 1,
-   "vitorias": 0,
+   "time": "Lecce",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+   "pontos": 3,
+   "jogos": 2,
+   "vitorias": 1,
    "empates": 0,
    "derrotas": 1,
-   "golsPro": 0,
-   "golsContra": 1,
-   "saldo": -1
+   "golsPro": 2,
+   "golsContra": 4,
+   "saldo": -2
   },
   {
-   "posicao": 15,
+   "posicao": 14,
    "grupo": "",
    "time": "Torino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
@@ -216,6 +202,20 @@
    "derrotas": 2,
    "golsPro": 2,
    "golsContra": 4,
+   "saldo": -2
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
+   "time": "Bologna",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "pontos": 0,
+   "jogos": 2,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 0,
+   "golsContra": 2,
    "saldo": -2
   },
   {
@@ -656,10 +656,10 @@
    "visitante": "Roma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -676,10 +676,10 @@
    "visitante": "Bologna",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

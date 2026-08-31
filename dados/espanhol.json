@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-31T17:08:38.147Z",
+ "atualizado": "2026-08-31T21:57:41.645Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Barcelona",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 12,
+   "golsContra": 2,
+   "saldo": 10
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
@@ -23,7 +37,7 @@
    "saldo": 8
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
@@ -37,7 +51,7 @@
    "saldo": 4
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
@@ -51,21 +65,21 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
-   "time": "Barcelona",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "pontos": 6,
-   "jogos": 2,
+   "time": "Osasuna",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "pontos": 7,
+   "jogos": 3,
    "vitorias": 2,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 0,
-   "golsPro": 7,
-   "golsContra": 0,
-   "saldo": 7
+   "golsPro": 3,
+   "golsContra": 1,
+   "saldo": 2
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
@@ -79,7 +93,7 @@
    "saldo": 1
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Real Betis",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
@@ -93,7 +107,7 @@
    "saldo": -1
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
@@ -105,20 +119,6 @@
    "golsPro": 5,
    "golsContra": 3,
    "saldo": 2
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Osasuna",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-   "pontos": 4,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 1,
-   "saldo": 1
   },
   {
    "posicao": 9,
@@ -179,20 +179,6 @@
   {
    "posicao": 13,
    "grupo": "",
-   "time": "Getafe",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 1,
-   "golsContra": 3,
-   "saldo": -2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "pontos": 3,
@@ -202,6 +188,20 @@
    "derrotas": 2,
    "golsPro": 3,
    "golsContra": 6,
+   "saldo": -3
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
+   "time": "Getafe",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 1,
+   "golsContra": 4,
    "saldo": -3
   },
   {
@@ -221,20 +221,6 @@
   {
    "posicao": 16,
    "grupo": "",
-   "time": "Rayo Vallecano",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "pontos": 1,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 2,
-   "golsContra": 3,
-   "saldo": -1
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "pontos": 1,
@@ -247,7 +233,7 @@
    "saldo": -3
   },
   {
-   "posicao": 18,
+   "posicao": 17,
    "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
@@ -259,6 +245,20 @@
    "golsPro": 1,
    "golsContra": 4,
    "saldo": -3
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
+   "time": "Rayo Vallecano",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "pontos": 1,
+   "jogos": 3,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 4,
+   "golsContra": 8,
+   "saldo": -4
   },
   {
    "posicao": 19,
@@ -847,10 +847,10 @@
    "visitante": "Getafe",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -867,10 +867,10 @@
    "visitante": "Rayo Vallecano",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 5,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-31T17:08:37.731Z",
+ "atualizado": "2026-08-31T21:57:41.125Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Arsenal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "pontos": 6,
+   "jogos": 2,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 4,
+   "golsContra": 0,
+   "saldo": 4
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Hull City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
    "pontos": 6,
@@ -37,7 +51,7 @@
    "saldo": 3
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Chelsea",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
@@ -51,7 +65,7 @@
    "saldo": 2
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Brentford",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
@@ -65,7 +79,7 @@
    "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Newcastle",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Everton",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
@@ -93,7 +107,7 @@
    "saldo": 2
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Leeds",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
@@ -107,7 +121,7 @@
    "saldo": 1
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Brighton",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
@@ -118,20 +132,6 @@
    "derrotas": 1,
    "golsPro": 7,
    "golsContra": 4,
-   "saldo": 3
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Arsenal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "pontos": 3,
-   "jogos": 1,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 3,
-   "golsContra": 0,
    "saldo": 3
   },
   {
@@ -235,20 +235,6 @@
   {
    "posicao": 17,
    "grupo": "",
-   "time": "Aston Villa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-   "pontos": 0,
-   "jogos": 1,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 0,
-   "golsContra": 4,
-   "saldo": -4
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
    "pontos": 0,
@@ -261,7 +247,7 @@
    "saldo": -4
   },
   {
-   "posicao": 19,
+   "posicao": 18,
    "grupo": "",
    "time": "Crystal Palace",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
@@ -272,6 +258,20 @@
    "derrotas": 2,
    "golsPro": 1,
    "golsContra": 6,
+   "saldo": -5
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Aston Villa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "pontos": 0,
+   "jogos": 2,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 0,
+   "golsContra": 5,
    "saldo": -5
   },
   {
@@ -672,10 +672,10 @@
    "visitante": "Arsenal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
