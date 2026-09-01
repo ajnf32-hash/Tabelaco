@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-01T15:48:35.801Z",
+ "atualizado": "2026-09-01T19:02:31.994Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1161,26 +1161,6 @@
    "data": "2026-09-19",
    "hora": "14:00",
    "rodada": "",
-   "local": "Elland Road",
-   "cidade": "Leeds",
-   "mandante": "Leeds",
-   "visitante": "Crystal Palace",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "14:00",
-   "rodada": "",
    "local": "St. James' Park",
    "cidade": "Newcastle-upon-Tyne",
    "mandante": "Newcastle",
@@ -1236,6 +1216,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Elland Road",
+   "cidade": "Leeds",
+   "mandante": "Leeds",
+   "visitante": "Crystal Palace",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   },
   {
    "data": "2026-09-20",
