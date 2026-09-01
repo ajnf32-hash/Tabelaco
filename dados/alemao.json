@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-31T21:57:42.566Z",
+ "atualizado": "2026-09-01T00:58:28.297Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -608,6 +608,362 @@
    "visitante": "Augsburg",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-11",
+   "hora": "18:30",
+   "rodada": "",
+   "local": "Stadion An der Alten Försterei",
+   "cidade": "Berlin",
+   "mandante": "Union Berlin",
+   "visitante": "Schalke 04",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Paderborn",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "WWK Arena",
+   "cidade": "Augsburg",
+   "mandante": "Augsburg",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "MEWA ARENA",
+   "cidade": "Mainz",
+   "mandante": "Mainz",
+   "visitante": "Eintracht Frankfurt",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Europa-Park Stadion",
+   "cidade": "Freiburg im Breisgau",
+   "mandante": "Freiburg",
+   "visitante": "Borussia Mönchengladbach",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "PreZero Arena",
+   "cidade": "Sinsheim",
+   "mandante": "Hoffenheim",
+   "visitante": "Stuttgart",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "RheinEnergieStadion",
+   "cidade": "Cologne",
+   "mandante": "Colônia",
+   "visitante": "Werder Bremen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-13",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Red Bull Arena",
+   "cidade": "Leipzig",
+   "mandante": "RB Leipzig",
+   "visitante": "Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-13",
+   "hora": "15:30",
+   "rodada": "",
+   "local": "URSAPHARM-Arena an der Kaiserlinde",
+   "cidade": "Spiesen-Elversberg",
+   "mandante": "Elversberg",
+   "visitante": "Bayern de Munique",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-18",
+   "hora": "18:30",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern de Munique",
+   "visitante": "Union Berlin",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "BORUSSIA-PARK",
+   "cidade": "Mönchengladbach",
+   "mandante": "Borussia Mönchengladbach",
+   "visitante": "Mainz",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Freiburg",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Volksparkstadion",
+   "cidade": "Hamburg Norderstedt",
+   "mandante": "Hamburgo",
+   "visitante": "Colônia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "Weserstadion",
+   "cidade": "Bremen",
+   "mandante": "Werder Bremen",
+   "visitante": "Augsburg",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "MHPArena",
+   "cidade": "Stuttgart",
+   "mandante": "Stuttgart",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "13:30",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "RB Leipzig",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "15:30",
+   "rodada": "",
+   "local": "Veltins Arena",
+   "cidade": "Gelsenkirchen",
+   "mandante": "Schalke 04",
+   "visitante": "Elversberg",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Home Deluxe Arena",
+   "cidade": "Paderborn",
+   "mandante": "Paderborn",
+   "visitante": "Hoffenheim",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-08-31T21:57:42.152Z",
+ "atualizado": "2026-09-01T00:58:27.652Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -380,11 +380,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-23",
@@ -400,11 +399,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-23",
@@ -420,11 +418,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-23",
@@ -440,11 +437,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-24",
@@ -876,6 +872,402 @@
    "visitante": "Lazio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-11",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Stadio Pier Luigi Penzo",
+   "cidade": "Venezia",
+   "mandante": "Venezia",
+   "visitante": "Fiorentina",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Stadio Luigi Ferraris",
+   "cidade": "Genova",
+   "mandante": "Genoa",
+   "visitante": "Frosinone",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "16:00",
+   "rodada": "",
+   "local": "Olimpico",
+   "cidade": "Roma",
+   "mandante": "Lazio",
+   "visitante": "Milan",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-12",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Cagliari",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-13",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Via Del Mare",
+   "cidade": "Lecce",
+   "mandante": "Lecce",
+   "visitante": "Monza",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-13",
+   "hora": "16:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Bologna",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-13",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Mapei Stadium",
+   "cidade": "Reggio Emilia",
+   "mandante": "Sassuolo",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-14",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Giuseppe Sinigaglia",
+   "cidade": "Como",
+   "mandante": "Como",
+   "visitante": "Parma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-14",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Stadio Olimpico Grande Torino",
+   "cidade": "Torino",
+   "mandante": "Torino",
+   "visitante": "Roma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-14",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Inter de Milão",
+   "visitante": "Udinese",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-18",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "U-Power Stadium",
+   "cidade": "Monza",
+   "mandante": "Monza",
+   "visitante": "Sassuolo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Renato Dall'Ara",
+   "cidade": "Bologna",
+   "mandante": "Bologna",
+   "visitante": "Torino",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Stadio Friuli",
+   "cidade": "Udine",
+   "mandante": "Udinese",
+   "visitante": "Cagliari",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "16:00",
+   "rodada": "",
+   "local": "Olimpico",
+   "cidade": "Roma",
+   "mandante": "Roma",
+   "visitante": "Inter de Milão",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Stadio Pier Luigi Penzo",
+   "cidade": "Venezia",
+   "mandante": "Venezia",
+   "visitante": "Lazio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "10:30",
+   "rodada": "",
+   "local": "Stadio Artemio Franchi",
+   "cidade": "Firenze",
+   "mandante": "Fiorentina",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Stadio Benito Stirpe",
+   "cidade": "Frosinone",
+   "mandante": "Frosinone",
+   "visitante": "Como",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Ennio Tardini",
+   "cidade": "Parma",
+   "mandante": "Parma",
+   "visitante": "Genoa",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "16:00",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Milan",
+   "visitante": "Lecce",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
