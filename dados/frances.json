@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-01T06:02:00.629Z",
+ "atualizado": "2026-09-01T11:51:45.182Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -968,48 +968,8 @@
    ]
   },
   {
-   "data": "2026-09-19",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Stade de l'Abbé-Deschamps",
-   "cidade": "Auxerre",
-   "mandante": "Auxerre",
-   "visitante": "Brest",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Stade Raymond Kopa",
-   "cidade": "Angers",
-   "mandante": "Angers",
-   "visitante": "Troyes",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "18:00",
+   "data": "2026-09-18",
+   "hora": "18:45",
    "rodada": "",
    "local": "Stade Louis II",
    "cidade": "Monaco",
@@ -1021,46 +981,6 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Stade Marie-Marvingt",
-   "cidade": "Le Mans",
-   "mandante": "Le Mans",
-   "visitante": "Lorient",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Groupama Stadium",
-   "cidade": "Lyon",
-   "mandante": "Lyon",
-   "visitante": "Rennes",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -1068,27 +988,7 @@
   },
   {
    "data": "2026-09-19",
-   "hora": "18:00",
-   "rodada": "",
-   "local": "Allianz Riviera",
-   "cidade": "Nice",
-   "mandante": "Nice",
-   "visitante": "Lille",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-09-19",
-   "hora": "18:00",
+   "hora": "15:15",
    "rodada": "",
    "local": "Stade Jean Bouin",
    "cidade": "Paris",
@@ -1108,7 +1008,66 @@
   },
   {
    "data": "2026-09-19",
-   "hora": "18:00",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Stade Raymond Kopa",
+   "cidade": "Angers",
+   "mandante": "Angers",
+   "visitante": "Troyes",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Stade Marie-Marvingt",
+   "cidade": "Le Mans",
+   "mandante": "Le Mans",
+   "visitante": "Lorient",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "18:45",
+   "rodada": "",
+   "local": "Groupama Stadium",
+   "cidade": "Lyon",
+   "mandante": "Lyon",
+   "visitante": "Rennes",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-19",
+   "hora": "18:45",
    "rodada": "",
    "local": "Stadium Municipal de Toulouse",
    "cidade": "Toulouse",
@@ -1125,6 +1084,44 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Stade de l'Abbé-Deschamps",
+   "cidade": "Auxerre",
+   "mandante": "Auxerre",
+   "visitante": "Brest",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-09-20",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "Allianz Riviera",
+   "cidade": "Nice",
+   "mandante": "Nice",
+   "visitante": "Lille",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   },
   {
    "data": "2026-09-20",
