@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-09-01T23:41:52.387Z",
+ "atualizado": "2026-09-02T02:06:22.383Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2790,7 +2790,7 @@
   {
    "data": "2026-09-02",
    "hora": "00:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Atlético-MG lead 3-2 on aggregate",
    "local": "Arena MRV",
    "cidade": "Belo Horizonte",
    "mandante": "Atlético-MG",
@@ -2800,7 +2800,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"

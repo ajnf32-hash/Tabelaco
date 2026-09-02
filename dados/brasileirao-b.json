@@ -6,17 +6,17 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-01T23:41:49.159Z",
+ "atualizado": "2026-09-02T02:06:20.035Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 45,
-   "jogos": 24,
+   "pontos": 46,
+   "jogos": 25,
    "vitorias": 13,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 5,
    "golsPro": 26,
    "golsContra": 13,
@@ -251,10 +251,10 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 21,
-   "jogos": 24,
+   "pontos": 22,
+   "jogos": 25,
    "vitorias": 5,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 13,
    "golsPro": 29,
    "golsContra": 36,
@@ -4788,11 +4788,10 @@
    "golsVisitante": 4,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-24",
@@ -4808,11 +4807,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-25",
@@ -5042,10 +5040,10 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
