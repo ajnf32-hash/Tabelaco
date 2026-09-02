@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-02T12:11:07.338Z",
+ "atualizado": "2026-09-02T16:43:51.566Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3391,25 +3391,6 @@
    "data": "2026-07-29",
    "hora": "18:00",
    "rodada": "",
-   "local": "Joao Havelange Stadium",
-   "cidade": "Rio de Janeiro",
-   "mandante": "Botafogo",
-   "visitante": "Grêmio",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Postponed",
-   "conferencia": "historico",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-07-29",
-   "hora": "18:00",
-   "rodada": "",
    "local": "Arena Condá",
    "cidade": "Chapecó",
    "mandante": "Chapecoense",
@@ -4744,6 +4725,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-16",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Botafogo",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   },
   {
    "data": "2026-09-19",
