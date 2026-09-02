@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-09-02T02:06:22.383Z",
+ "atualizado": "2026-09-02T07:12:10.813Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2790,17 +2790,17 @@
   {
    "data": "2026-09-02",
    "hora": "00:00",
-   "rodada": "2nd Leg - Atlético-MG lead 3-2 on aggregate",
+   "rodada": "2nd Leg - Atlético-MG win 3-2 on aggregate",
    "local": "Arena MRV",
    "cidade": "Belo Horizonte",
    "mandante": "Atlético-MG",
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
