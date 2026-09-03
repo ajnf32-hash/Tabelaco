@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-03T19:59:24.013Z",
+ "atualizado": "2026-09-03T22:21:57.722Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Real Sociedad",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "pontos": 4,
+   "jogos": 4,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 6,
+   "saldo": -3
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Espanyol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "pontos": 3,
@@ -163,7 +177,7 @@
    "saldo": 1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
@@ -175,20 +189,6 @@
    "golsPro": 3,
    "golsContra": 5,
    "saldo": -2
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Real Sociedad",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "pontos": 3,
-   "jogos": 3,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 3,
-   "golsContra": 6,
-   "saldo": -3
   },
   {
    "posicao": 14,
@@ -221,12 +221,12 @@
   {
    "posicao": 16,
    "grupo": "",
-   "time": "Valencia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "pontos": 1,
-   "jogos": 3,
+   "time": "Celta Vigo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "pontos": 2,
+   "jogos": 4,
    "vitorias": 0,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 2,
    "golsPro": 1,
    "golsContra": 4,
@@ -235,8 +235,8 @@
   {
    "posicao": 17,
    "grupo": "",
-   "time": "Celta Vigo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "time": "Valencia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "pontos": 1,
    "jogos": 3,
    "vitorias": 0,
@@ -882,10 +882,10 @@
    "visitante": "Celta Vigo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
