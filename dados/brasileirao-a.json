@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-03T00:24:34.152Z",
+ "atualizado": "2026-09-03T04:48:11.751Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 48,
-   "jogos": 24,
-   "vitorias": 14,
+   "pontos": 51,
+   "jogos": 25,
+   "vitorias": 15,
    "empates": 6,
    "derrotas": 4,
-   "golsPro": 48,
+   "golsPro": 50,
    "golsContra": 21,
-   "saldo": 27
+   "saldo": 29
   },
   {
    "posicao": 3,
@@ -224,13 +224,13 @@
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 25,
-   "jogos": 24,
+   "jogos": 25,
    "vitorias": 6,
    "empates": 7,
-   "derrotas": 11,
+   "derrotas": 12,
    "golsPro": 27,
-   "golsContra": 37,
-   "saldo": -10
+   "golsContra": 39,
+   "saldo": -12
   },
   {
    "posicao": 17,
@@ -4318,10 +4318,10 @@
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
