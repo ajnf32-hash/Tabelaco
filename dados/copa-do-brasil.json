@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-09-04T00:13:15.861Z",
+ "atualizado": "2026-09-04T04:50:15.881Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2849,17 +2849,17 @@
   {
    "data": "2026-09-03",
    "hora": "23:00",
-   "rodada": "2nd Leg - Grêmio lead 2-0 on aggregate",
+   "rodada": "2nd Leg - Grêmio win 3-1 on aggregate",
    "local": "Arena do Grêmio",
    "cidade": "Porto Alegre",
    "mandante": "Grêmio",
    "visitante": "Internacional",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
