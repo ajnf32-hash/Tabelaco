@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-09-03T22:21:53.739Z",
+ "atualizado": "2026-09-04T00:13:15.861Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2721,11 +2721,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-08-27",
@@ -2850,7 +2849,7 @@
   {
    "data": "2026-09-03",
    "hora": "23:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Grêmio lead 2-0 on aggregate",
    "local": "Arena do Grêmio",
    "cidade": "Porto Alegre",
    "mandante": "Grêmio",
@@ -2860,7 +2859,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
