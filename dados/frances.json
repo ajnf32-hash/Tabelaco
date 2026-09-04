@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T21:58:19.808Z",
+ "atualizado": "2026-09-04T23:44:22.195Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -661,10 +661,10 @@
    "visitante": "Monaco",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

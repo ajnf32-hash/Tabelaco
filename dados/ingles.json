@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T21:58:17.147Z",
+ "atualizado": "2026-09-04T23:44:16.608Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -689,15 +689,15 @@
    "visitante": "Liverpool",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-05",

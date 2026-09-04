@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T21:58:19.189Z",
+ "atualizado": "2026-09-04T23:44:21.464Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -450,10 +450,10 @@
    "visitante": "Colônia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
