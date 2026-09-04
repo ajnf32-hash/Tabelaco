@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T17:17:21.386Z",
+ "atualizado": "2026-09-04T19:44:14.478Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5628,7 +5628,7 @@
   },
   {
    "data": "2026-09-16",
-   "hora": "00:30",
+   "hora": "00:00",
    "rodada": "",
    "local": "Estádio Rei Pelé",
    "cidade": "Maceio, Alagoas",
