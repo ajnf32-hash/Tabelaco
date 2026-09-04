@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T19:44:23.389Z",
+ "atualizado": "2026-09-04T21:58:19.808Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Monaco",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 5,
+   "golsContra": 1,
+   "saldo": 4
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -23,7 +37,7 @@
    "saldo": 4
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
@@ -34,20 +48,6 @@
    "derrotas": 0,
    "golsPro": 5,
    "golsContra": 2,
-   "saldo": 3
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Monaco",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 3,
-   "golsContra": 0,
    "saldo": 3
   },
   {
@@ -168,13 +168,13 @@
    "time": "Paris Saint-Germain",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "pontos": 2,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 0,
    "empates": 2,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 4,
-   "saldo": 0
+   "derrotas": 1,
+   "golsPro": 5,
+   "golsContra": 6,
+   "saldo": -1
   },
   {
    "posicao": 13,

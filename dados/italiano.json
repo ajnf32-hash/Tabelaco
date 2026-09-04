@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T19:44:22.180Z",
+ "atualizado": "2026-09-04T21:58:18.503Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Como",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "pontos": 7,
+   "jogos": 3,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 7,
+   "golsContra": 3,
+   "saldo": 4
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Roma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
@@ -23,7 +37,7 @@
    "saldo": 8
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Inter de Milão",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
@@ -37,7 +51,7 @@
    "saldo": 4
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
@@ -51,7 +65,7 @@
    "saldo": 3
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -65,7 +79,7 @@
    "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -93,7 +107,7 @@
    "saldo": 2
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
@@ -104,20 +118,6 @@
    "derrotas": 0,
    "golsPro": 4,
    "golsContra": 3,
-   "saldo": 1
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Como",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-   "pontos": 4,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 3,
-   "golsContra": 2,
    "saldo": 1
   },
   {
@@ -221,20 +221,6 @@
   {
    "posicao": 16,
    "grupo": "",
-   "time": "Genoa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-   "pontos": 0,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 0,
-   "golsContra": 3,
-   "saldo": -3
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "pontos": 0,
@@ -247,7 +233,7 @@
    "saldo": -3
   },
   {
-   "posicao": 18,
+   "posicao": 17,
    "grupo": "",
    "time": "Monza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
@@ -261,7 +247,7 @@
    "saldo": -4
   },
   {
-   "posicao": 19,
+   "posicao": 18,
    "grupo": "",
    "time": "Venezia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
@@ -273,6 +259,20 @@
    "golsPro": 0,
    "golsContra": 4,
    "saldo": -4
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Genoa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "pontos": 0,
+   "jogos": 3,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 1,
+   "golsContra": 7,
+   "saldo": -6
   },
   {
    "posicao": 20,
@@ -698,7 +698,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-05",

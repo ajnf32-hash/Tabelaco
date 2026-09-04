@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T19:44:21.525Z",
+ "atualizado": "2026-09-04T21:58:17.877Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -28,16 +28,30 @@
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "pontos": 9,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 3,
    "empates": 0,
-   "derrotas": 0,
+   "derrotas": 1,
    "golsPro": 10,
-   "golsContra": 2,
-   "saldo": 8
+   "golsContra": 3,
+   "saldo": 7
   },
   {
    "posicao": 3,
+   "grupo": "",
+   "time": "Real Betis",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "pontos": 9,
+   "jogos": 4,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 5,
+   "golsContra": 5,
+   "saldo": 0
+  },
+  {
+   "posicao": 4,
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
@@ -51,7 +65,7 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
@@ -65,7 +79,7 @@
    "saldo": 4
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Osasuna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
@@ -91,20 +105,6 @@
    "golsPro": 6,
    "golsContra": 5,
    "saldo": 1
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Real Betis",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "pontos": 6,
-   "jogos": 3,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 5,
-   "saldo": -1
   },
   {
    "posicao": 8,
@@ -909,7 +909,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-05",
