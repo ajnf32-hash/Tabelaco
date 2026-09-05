@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-04T23:44:10.465Z",
+ "atualizado": "2026-09-05T02:08:47.756Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Criciúma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "pontos": 47,
+   "jogos": 26,
+   "vitorias": 13,
+   "empates": 8,
+   "derrotas": 5,
+   "golsPro": 28,
+   "golsContra": 19,
+   "saldo": 9
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
@@ -23,31 +37,17 @@
    "saldo": 13
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "pontos": 44,
-   "jogos": 25,
+   "jogos": 26,
    "vitorias": 13,
    "empates": 5,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 37,
-   "golsContra": 25,
-   "saldo": 12
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Criciúma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 44,
-   "jogos": 25,
-   "vitorias": 12,
-   "empates": 8,
-   "derrotas": 5,
-   "golsPro": 26,
-   "golsContra": 19,
+   "golsContra": 30,
    "saldo": 7
   },
   {
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 37,
+   "jogos": 26,
+   "vitorias": 9,
+   "empates": 10,
+   "derrotas": 7,
+   "golsPro": 31,
+   "golsContra": 27,
+   "saldo": 4
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 36,
@@ -163,32 +177,18 @@
    "saldo": -5
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 36,
-   "jogos": 25,
+   "jogos": 26,
    "vitorias": 8,
    "empates": 12,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 23,
-   "golsContra": 19,
-   "saldo": 4
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 34,
-   "jogos": 25,
-   "vitorias": 8,
-   "empates": 10,
-   "derrotas": 7,
-   "golsPro": 26,
-   "golsContra": 27,
-   "saldo": -1
+   "golsContra": 21,
+   "saldo": 2
   },
   {
    "posicao": 14,
@@ -5079,10 +5079,10 @@
    "visitante": "Cuiabá",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5099,10 +5099,10 @@
    "visitante": "Vila Nova",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5122,7 +5122,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
