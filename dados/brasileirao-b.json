@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-05T02:08:47.756Z",
+ "atualizado": "2026-09-05T07:00:55.695Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 42,
+   "jogos": 26,
+   "vitorias": 12,
+   "empates": 6,
+   "derrotas": 8,
+   "golsPro": 40,
+   "golsContra": 36,
+   "saldo": 4
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 41,
@@ -77,20 +91,6 @@
    "golsPro": 28,
    "golsContra": 22,
    "saldo": 6
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 39,
-   "jogos": 25,
-   "vitorias": 11,
-   "empates": 6,
-   "derrotas": 8,
-   "golsPro": 37,
-   "golsContra": 35,
-   "saldo": 2
   },
   {
    "posicao": 7,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 14,
-   "jogos": 25,
+   "jogos": 26,
    "vitorias": 3,
    "empates": 5,
-   "derrotas": 17,
-   "golsPro": 18,
-   "golsContra": 42,
-   "saldo": -24
+   "derrotas": 18,
+   "golsPro": 19,
+   "golsContra": 45,
+   "saldo": -26
   },
   {
    "posicao": 20,
@@ -5119,10 +5119,10 @@
    "visitante": "América Mineiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
