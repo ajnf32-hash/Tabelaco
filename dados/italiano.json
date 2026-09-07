@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-07T20:03:35.831Z",
+ "atualizado": "2026-09-07T22:55:56.485Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Lazio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 4,
+   "golsContra": 1,
+   "saldo": 3
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "pontos": 7,
@@ -51,7 +65,7 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
@@ -65,7 +79,7 @@
    "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -79,7 +93,7 @@
    "saldo": 3
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Frosinone",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
@@ -91,20 +105,6 @@
    "golsPro": 6,
    "golsContra": 3,
    "saldo": 3
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Lazio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 2,
-   "golsContra": 0,
-   "saldo": 2
   },
   {
    "posicao": 8,
@@ -137,22 +137,22 @@
   {
    "posicao": 10,
    "grupo": "",
-   "time": "Udinese",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+   "time": "Sassuolo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
    "pontos": 4,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 3,
-   "saldo": 1
+   "derrotas": 1,
+   "golsPro": 5,
+   "golsContra": 5,
+   "saldo": 0
   },
   {
    "posicao": 11,
    "grupo": "",
-   "time": "Sassuolo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "time": "Udinese",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "pontos": 4,
    "jogos": 3,
    "vitorias": 1,
@@ -865,10 +865,10 @@
    "visitante": "Lazio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
