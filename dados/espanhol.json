@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-07T16:13:09.901Z",
+ "atualizado": "2026-09-07T20:03:34.978Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -209,17 +209,31 @@
    "grupo": "",
    "time": "Getafe",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-   "pontos": 3,
-   "jogos": 3,
+   "pontos": 4,
+   "jogos": 4,
    "vitorias": 1,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 2,
-   "golsPro": 1,
-   "golsContra": 4,
+   "golsPro": 2,
+   "golsContra": 5,
    "saldo": -3
   },
   {
    "posicao": 16,
+   "grupo": "",
+   "time": "Celta Vigo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "pontos": 3,
+   "jogos": 5,
+   "vitorias": 0,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 2,
+   "golsContra": 5,
+   "saldo": -3
+  },
+  {
+   "posicao": 17,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -231,20 +245,6 @@
    "golsPro": 6,
    "golsContra": 8,
    "saldo": -2
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Celta Vigo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-   "pontos": 2,
-   "jogos": 4,
-   "vitorias": 0,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 1,
-   "golsContra": 4,
-   "saldo": -3
   },
   {
    "posicao": 18,
@@ -1061,7 +1061,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-07",
