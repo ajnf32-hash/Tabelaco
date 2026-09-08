@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-08T14:09:16.319Z",
+ "atualizado": "2026-09-08T17:58:47.819Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1284,8 +1284,8 @@
    "data": "2026-09-15",
    "hora": "17:00",
    "rodada": "",
-   "local": "Estadio de Vallecas",
-   "cidade": "Madrid",
+   "local": "Estadio Municipal de Butarque",
+   "cidade": "Leganés, Madrid",
    "mandante": "Rayo Vallecano",
    "visitante": "Espanyol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
