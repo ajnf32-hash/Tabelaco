@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-08T23:04:32.711Z",
+ "atualizado": "2026-09-09T01:20:18.312Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3166,10 +3166,10 @@
    "visitante": "Platense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7764.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -3238,7 +3238,7 @@
   {
    "data": "2026-09-15",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Fluminense lead 2-0 on aggregate",
    "local": "Ciudad de Vicente López",
    "cidade": "Buenos Aires",
    "mandante": "Platense",
