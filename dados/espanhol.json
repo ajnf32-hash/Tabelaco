@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-09T15:37:19.245Z",
+ "atualizado": "2026-09-09T18:57:33.350Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1421,7 +1421,7 @@
    "data": "2026-09-17",
    "hora": "17:00",
    "rodada": "",
-   "local": "Estadio La Cartuja",
+   "local": "Estadio Benito Villamarín",
    "cidade": "Sevilla",
    "mandante": "Real Betis",
    "visitante": "Getafe",
