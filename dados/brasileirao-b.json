@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-09T11:37:35.991Z",
+ "atualizado": "2026-09-09T15:37:13.392Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 47,
-   "jogos": 26,
-   "vitorias": 13,
+   "pontos": 50,
+   "jogos": 27,
+   "vitorias": 14,
    "empates": 8,
    "derrotas": 5,
-   "golsPro": 28,
+   "golsPro": 30,
    "golsContra": 15,
-   "saldo": 13
+   "saldo": 15
   },
   {
    "posicao": 2,
@@ -28,13 +28,13 @@
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "pontos": 47,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 13,
    "empates": 8,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 28,
-   "golsContra": 19,
-   "saldo": 9
+   "golsContra": 21,
+   "saldo": 7
   },
   {
    "posicao": 3,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 39,
+   "jogos": 27,
+   "vitorias": 9,
+   "empates": 12,
+   "derrotas": 6,
+   "golsPro": 26,
+   "golsContra": 21,
+   "saldo": 5
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 38,
@@ -135,7 +149,7 @@
    "saldo": 8
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
@@ -149,21 +163,21 @@
    "saldo": 3
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 37,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 9,
    "empates": 10,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 31,
-   "golsContra": 27,
-   "saldo": 4
+   "golsContra": 30,
+   "saldo": 1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -175,20 +189,6 @@
    "golsPro": 25,
    "golsContra": 31,
    "saldo": -6
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 36,
-   "jogos": 26,
-   "vitorias": 8,
-   "empates": 12,
-   "derrotas": 6,
-   "golsPro": 23,
-   "golsContra": 21,
-   "saldo": 2
   },
   {
    "posicao": 14,
