@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-10T15:32:50.419Z",
+ "atualizado": "2026-09-10T18:50:20.314Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -179,6 +179,62 @@
   {
    "posicao": 13,
    "grupo": "",
+   "time": "Roma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "pontos": 1,
+   "jogos": 1,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 1,
+   "golsContra": 1,
+   "saldo": 0
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
+   "time": "Shakhtar Donetsk",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+   "pontos": 1,
+   "jogos": 1,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 1,
+   "golsContra": 1,
+   "saldo": 0
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
+   "time": "Fenerbahce",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+   "pontos": 1,
+   "jogos": 1,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 1,
+   "golsContra": 1,
+   "saldo": 0
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
+   "time": "PSV",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "pontos": 1,
+   "jogos": 1,
+   "vitorias": 0,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 1,
+   "golsContra": 1,
+   "saldo": 0
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Bayern de Munique",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "pontos": 0,
@@ -191,7 +247,7 @@
    "saldo": 0
   },
   {
-   "posicao": 14,
+   "posicao": 18,
    "grupo": "",
    "time": "Bodo/Glimt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
@@ -205,7 +261,7 @@
    "saldo": 0
   },
   {
-   "posicao": 15,
+   "posicao": 19,
    "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
@@ -219,21 +275,7 @@
    "saldo": 0
   },
   {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Fenerbahce",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
-   "pontos": 0,
-   "jogos": 0,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 0,
-   "golsContra": 0,
-   "saldo": 0
-  },
-  {
-   "posicao": 17,
+   "posicao": 20,
    "grupo": "",
    "time": "Lens",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
@@ -247,7 +289,7 @@
    "saldo": 0
   },
   {
-   "posicao": 18,
+   "posicao": 21,
    "grupo": "",
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
@@ -261,21 +303,7 @@
    "saldo": 0
   },
   {
-   "posicao": 19,
-   "grupo": "",
-   "time": "PSV",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
-   "pontos": 0,
-   "jogos": 0,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 0,
-   "golsContra": 0,
-   "saldo": 0
-  },
-  {
-   "posicao": 20,
+   "posicao": 22,
    "grupo": "",
    "time": "RB Leipzig",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
@@ -289,38 +317,10 @@
    "saldo": 0
   },
   {
-   "posicao": 21,
-   "grupo": "",
-   "time": "Roma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-   "pontos": 0,
-   "jogos": 0,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 0,
-   "golsContra": 0,
-   "saldo": 0
-  },
-  {
-   "posicao": 22,
+   "posicao": 23,
    "grupo": "",
    "time": "Sabah FK",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
-   "pontos": 0,
-   "jogos": 0,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 0,
-   "golsContra": 0,
-   "saldo": 0
-  },
-  {
-   "posicao": 23,
-   "grupo": "",
-   "time": "Shakhtar Donetsk",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
    "pontos": 0,
    "jogos": 0,
    "vitorias": 0,
@@ -772,7 +772,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-10",
@@ -792,7 +792,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-10",
