@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-09T23:27:32.616Z",
+ "atualizado": "2026-09-10T01:17:23.972Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3186,10 +3186,10 @@
    "visitante": "Liga de Quito",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4816.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -3209,7 +3209,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -3258,7 +3258,7 @@
   {
    "data": "2026-09-16",
    "hora": "22:00",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Palmeiras lead 1-0 on aggregate",
    "local": "Rodrigo Paz Delgado",
    "cidade": "Quito",
    "mandante": "Liga de Quito",
