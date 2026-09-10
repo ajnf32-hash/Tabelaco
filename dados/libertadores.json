@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-10T01:17:23.972Z",
+ "atualizado": "2026-09-10T06:12:28.244Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3206,10 +3206,10 @@
    "visitante": "Corinthians",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
