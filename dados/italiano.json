@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-11T18:53:28.486Z",
+ "atualizado": "2026-09-11T21:27:37.867Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Fiorentina",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "pontos": 3,
+   "jogos": 4,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 5,
+   "golsContra": 11,
+   "saldo": -6
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Bologna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "pontos": 1,
@@ -219,7 +233,7 @@
    "saldo": -2
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
@@ -233,7 +247,7 @@
    "saldo": -3
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Monza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
@@ -245,20 +259,6 @@
    "golsPro": 4,
    "golsContra": 8,
    "saldo": -4
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Venezia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-   "pontos": 0,
-   "jogos": 3,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 3,
-   "golsPro": 2,
-   "golsContra": 7,
-   "saldo": -5
   },
   {
    "posicao": 19,
@@ -277,16 +277,16 @@
   {
    "posicao": 20,
    "grupo": "",
-   "time": "Fiorentina",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "time": "Venezia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "pontos": 0,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 0,
    "empates": 0,
-   "derrotas": 3,
-   "golsPro": 1,
-   "golsContra": 9,
-   "saldo": -8
+   "derrotas": 4,
+   "golsPro": 4,
+   "golsContra": 11,
+   "saldo": -7
   }
  ],
  "jogos": [
@@ -888,7 +888,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",
