@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-11T01:16:27.533Z",
+ "atualizado": "2026-09-11T06:15:59.841Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 41,
+   "jogos": 27,
+   "vitorias": 10,
+   "empates": 11,
+   "derrotas": 6,
+   "golsPro": 36,
+   "golsContra": 26,
+   "saldo": 10
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 39,
@@ -133,20 +147,6 @@
    "golsPro": 26,
    "golsContra": 21,
    "saldo": 5
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 38,
-   "jogos": 26,
-   "vitorias": 9,
-   "empates": 11,
-   "derrotas": 6,
-   "golsPro": 34,
-   "golsContra": 26,
-   "saldo": 8
   },
   {
    "posicao": 11,
@@ -196,13 +196,13 @@
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 35,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 9,
    "empates": 8,
-   "derrotas": 9,
-   "golsPro": 36,
-   "golsContra": 29,
-   "saldo": 7
+   "derrotas": 10,
+   "golsPro": 37,
+   "golsContra": 31,
+   "saldo": 6
   },
   {
    "posicao": 15,
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 22,
-   "jogos": 26,
-   "vitorias": 5,
+   "pontos": 25,
+   "jogos": 27,
+   "vitorias": 6,
    "empates": 7,
    "derrotas": 14,
-   "golsPro": 30,
-   "golsContra": 38,
-   "saldo": -8
+   "golsPro": 32,
+   "golsContra": 39,
+   "saldo": -7
   },
   {
    "posicao": 19,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 10,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 20,
+   "derrotas": 21,
    "golsPro": 16,
-   "golsContra": 54,
-   "saldo": -38
+   "golsContra": 56,
+   "saldo": -40
   }
  ],
  "jogos": [
@@ -5408,10 +5408,10 @@
    "visitante": "Londrina",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5428,10 +5428,10 @@
    "visitante": "Ponte Preta",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
