@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-10T23:17:47.513Z",
+ "atualizado": "2026-09-11T01:16:27.533Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 47,
+   "jogos": 27,
+   "vitorias": 14,
+   "empates": 5,
+   "derrotas": 8,
+   "golsPro": 39,
+   "golsContra": 30,
+   "saldo": 9
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 47,
@@ -51,7 +65,7 @@
    "saldo": 8
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
@@ -62,20 +76,6 @@
    "derrotas": 6,
    "golsPro": 28,
    "golsContra": 21,
-   "saldo": 7
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 44,
-   "jogos": 26,
-   "vitorias": 13,
-   "empates": 5,
-   "derrotas": 8,
-   "golsPro": 37,
-   "golsContra": 30,
    "saldo": 7
   },
   {
@@ -182,13 +182,13 @@
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 36,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 10,
    "empates": 6,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 25,
-   "golsContra": 31,
-   "saldo": -6
+   "golsContra": 33,
+   "saldo": -8
   },
   {
    "posicao": 14,
@@ -5382,6 +5382,26 @@
    "data": "2026-09-10",
    "hora": "22:30",
    "rodada": "",
+   "local": "Estádio Onésio Brasileiro Alvarenga",
+   "cidade": "Goiãnia",
+   "mandante": "Vila Nova",
+   "visitante": "Goiás",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-09-11",
+   "hora": "00:00",
+   "rodada": "",
    "local": "Estádio Primeiro de Maio",
    "cidade": "São Bernardo do Campo ",
    "mandante": "São Bernardo",
@@ -5391,26 +5411,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-09-10",
-   "hora": "22:30",
-   "rodada": "",
-   "local": "Estádio Onésio Brasileiro Alvarenga",
-   "cidade": "Goiãnia",
-   "mandante": "Vila Nova",
-   "visitante": "Goiás",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -5430,7 +5431,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
