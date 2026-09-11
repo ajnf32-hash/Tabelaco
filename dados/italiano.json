@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-11T21:27:37.867Z",
+ "atualizado": "2026-09-11T23:27:15.200Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -880,15 +880,15 @@
    "visitante": "Fiorentina",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",

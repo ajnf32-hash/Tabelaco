@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-11T21:27:39.210Z",
+ "atualizado": "2026-09-11T23:27:16.354Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -793,10 +793,10 @@
    "visitante": "Marselha",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

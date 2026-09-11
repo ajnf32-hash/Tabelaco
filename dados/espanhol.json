@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-11T21:27:37.019Z",
+ "atualizado": "2026-09-11T23:27:14.576Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1089,15 +1089,15 @@
    "visitante": "Valencia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
