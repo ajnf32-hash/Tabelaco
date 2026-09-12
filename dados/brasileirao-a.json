@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T01:20:28.830Z",
+ "atualizado": "2026-09-12T06:02:17.542Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,13 +41,13 @@
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 45,
-   "jogos": 26,
+   "pontos": 46,
+   "jogos": 27,
    "vitorias": 13,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 7,
-   "golsPro": 38,
-   "golsContra": 28,
+   "golsPro": 41,
+   "golsContra": 31,
    "saldo": 10
   },
   {
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "pontos": 37,
-   "jogos": 26,
+   "pontos": 38,
+   "jogos": 27,
    "vitorias": 10,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 9,
-   "golsPro": 34,
-   "golsContra": 35,
+   "golsPro": 37,
+   "golsContra": 38,
    "saldo": -1
   },
   {
@@ -4527,10 +4527,10 @@
    "visitante": "Athletico-PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 3,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
