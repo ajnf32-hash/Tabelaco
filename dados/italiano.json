@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T21:50:51.009Z",
+ "atualizado": "2026-09-12T23:36:24.344Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -940,15 +940,15 @@
    "visitante": "Cagliari",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-13",

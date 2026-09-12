@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T21:50:53.791Z",
+ "atualizado": "2026-09-12T23:36:25.406Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -831,15 +831,15 @@
    "visitante": "Nice",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -851,15 +851,15 @@
    "visitante": "Angers",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -871,15 +871,15 @@
    "visitante": "Toulouse",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -891,15 +891,15 @@
    "visitante": "Lyon",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-13",

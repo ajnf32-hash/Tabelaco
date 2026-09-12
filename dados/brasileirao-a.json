@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T21:50:33.234Z",
+ "atualizado": "2026-09-12T23:36:11.302Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Palmeiras",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "pontos": 56,
+   "jogos": 27,
+   "vitorias": 16,
+   "empates": 8,
+   "derrotas": 3,
+   "golsPro": 47,
+   "golsContra": 21,
+   "saldo": 26
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
@@ -21,20 +35,6 @@
    "golsPro": 51,
    "golsContra": 21,
    "saldo": 30
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Palmeiras",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 53,
-   "jogos": 26,
-   "vitorias": 15,
-   "empates": 8,
-   "derrotas": 3,
-   "golsPro": 45,
-   "golsContra": 21,
-   "saldo": 24
   },
   {
    "posicao": 3,
@@ -140,13 +140,13 @@
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
    "pontos": 33,
-   "jogos": 25,
+   "jogos": 26,
    "vitorias": 9,
    "empates": 6,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 31,
-   "golsContra": 28,
-   "saldo": 3
+   "golsContra": 30,
+   "saldo": 1
   },
   {
    "posicao": 11,
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "pontos": 25,
-   "jogos": 26,
-   "vitorias": 5,
+   "pontos": 28,
+   "jogos": 27,
+   "vitorias": 6,
    "empates": 10,
    "derrotas": 11,
-   "golsPro": 28,
-   "golsContra": 34,
-   "saldo": -6
+   "golsPro": 30,
+   "golsContra": 35,
+   "saldo": -5
   },
   {
    "posicao": 19,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 17,
-   "jogos": 25,
+   "jogos": 26,
    "vitorias": 3,
    "empates": 8,
-   "derrotas": 14,
-   "golsPro": 27,
-   "golsContra": 50,
-   "saldo": -23
+   "derrotas": 15,
+   "golsPro": 28,
+   "golsContra": 52,
+   "saldo": -24
   }
  ],
  "jogos": [
@@ -4547,15 +4547,15 @@
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -4567,15 +4567,15 @@
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -4590,12 +4590,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",
@@ -4610,12 +4610,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",

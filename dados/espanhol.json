@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T21:50:49.974Z",
+ "atualizado": "2026-09-12T23:36:23.861Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1168,15 +1168,15 @@
    "visitante": "Rayo Vallecano",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-13",
