@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T17:19:25.765Z",
+ "atualizado": "2026-09-12T19:31:50.750Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Werder Bremen",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "pontos": 4,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 5,
+   "golsContra": 6,
+   "saldo": -1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Schalke 04",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
    "pontos": 4,
@@ -135,7 +149,21 @@
    "saldo": -1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
+   "grupo": "",
+   "time": "Colônia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "pontos": 4,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 5,
+   "golsContra": 7,
+   "saldo": -2
+  },
+  {
+   "posicao": 12,
    "grupo": "",
    "time": "RB Leipzig",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
@@ -149,7 +177,7 @@
    "saldo": 1
   },
   {
-   "posicao": 11,
+   "posicao": 13,
    "grupo": "",
    "time": "Hoffenheim",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -163,21 +191,7 @@
    "saldo": -1
   },
   {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Werder Bremen",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 5,
-   "saldo": -1
-  },
-  {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Stuttgart",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -188,20 +202,6 @@
    "derrotas": 2,
    "golsPro": 6,
    "golsContra": 8,
-   "saldo": -2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Colônia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 6,
    "saldo": -2
   },
   {
@@ -742,10 +742,10 @@
    "visitante": "Werder Bremen",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
