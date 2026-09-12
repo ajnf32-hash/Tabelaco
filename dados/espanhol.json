@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T14:15:41.598Z",
+ "atualizado": "2026-09-12T17:19:24.326Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Espanyol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "pontos": 7,
+   "jogos": 5,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 5,
+   "saldo": 3
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "pontos": 7,
@@ -107,7 +121,7 @@
    "saldo": 1
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Racing Santander",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
@@ -119,20 +133,6 @@
    "golsPro": 9,
    "golsContra": 9,
    "saldo": 0
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Osasuna",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-   "pontos": 7,
-   "jogos": 4,
-   "vitorias": 2,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 6,
-   "saldo": -1
   },
   {
    "posicao": 10,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Osasuna",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "pontos": 7,
+   "jogos": 5,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 8,
+   "saldo": -3
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "pontos": 6,
@@ -163,7 +177,7 @@
    "saldo": 1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
@@ -175,20 +189,6 @@
    "golsPro": 5,
    "golsContra": 5,
    "saldo": 0
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Espanyol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-   "pontos": 4,
-   "jogos": 4,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 2,
-   "golsPro": 6,
-   "golsContra": 5,
-   "saldo": 1
   },
   {
    "posicao": 14,
@@ -1108,15 +1108,15 @@
    "visitante": "Alavés",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "sozinho"
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-09-12",
@@ -1128,10 +1128,10 @@
    "visitante": "Espanyol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1151,7 +1151,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
