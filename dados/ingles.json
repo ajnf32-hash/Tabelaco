@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T19:31:48.686Z",
+ "atualizado": "2026-09-12T21:50:49.097Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Arsenal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "pontos": 12,
+   "jogos": 4,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 8,
+   "golsContra": 1,
+   "saldo": 7
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Manchester City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
@@ -20,20 +34,6 @@
    "derrotas": 0,
    "golsPro": 7,
    "golsContra": 2,
-   "saldo": 5
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Arsenal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "pontos": 9,
-   "jogos": 3,
-   "vitorias": 3,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 6,
-   "golsContra": 1,
    "saldo": 5
   },
   {
@@ -196,13 +196,13 @@
    "time": "Sunderland",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
    "pontos": 4,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 3,
-   "golsContra": 3,
-   "saldo": 0
+   "golsContra": 5,
+   "saldo": -2
   },
   {
    "posicao": 15,
@@ -1008,7 +1008,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-13",

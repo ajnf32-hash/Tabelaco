@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T19:31:51.495Z",
+ "atualizado": "2026-09-12T21:50:53.791Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,12 +39,12 @@
   {
    "posicao": 3,
    "grupo": "",
-   "time": "Paris FC",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-   "pontos": 7,
-   "jogos": 3,
+   "time": "Lyon",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+   "pontos": 8,
+   "jogos": 4,
    "vitorias": 2,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 0,
    "golsPro": 6,
    "golsContra": 2,
@@ -53,12 +53,12 @@
   {
    "posicao": 4,
    "grupo": "",
-   "time": "Lyon",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "pontos": 7,
-   "jogos": 3,
+   "time": "Paris FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "pontos": 8,
+   "jogos": 4,
    "vitorias": 2,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 0,
    "golsPro": 6,
    "golsContra": 2,
@@ -111,17 +111,31 @@
    "grupo": "",
    "time": "Lorient",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-   "pontos": 4,
-   "jogos": 3,
+   "pontos": 5,
+   "jogos": 4,
    "vitorias": 1,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 1,
-   "golsPro": 2,
-   "golsContra": 2,
+   "golsPro": 4,
+   "golsContra": 4,
    "saldo": 0
   },
   {
    "posicao": 9,
+   "grupo": "",
+   "time": "Angers",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "pontos": 4,
+   "jogos": 4,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 4,
+   "golsContra": 5,
+   "saldo": -1
+  },
+  {
+   "posicao": 10,
    "grupo": "",
    "time": "Troyes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
@@ -135,7 +149,7 @@
    "saldo": -3
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Lens",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
@@ -149,7 +163,7 @@
    "saldo": 1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Marselha",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
@@ -163,21 +177,21 @@
    "saldo": 0
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
-   "time": "Angers",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "time": "Auxerre",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
    "pontos": 3,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 1,
    "empates": 0,
-   "derrotas": 2,
-   "golsPro": 4,
-   "golsContra": 5,
-   "saldo": -1
+   "derrotas": 3,
+   "golsPro": 5,
+   "golsContra": 11,
+   "saldo": -6
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Paris Saint-Germain",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
@@ -191,7 +205,7 @@
    "saldo": -1
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Le Mans",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
@@ -205,28 +219,14 @@
    "saldo": -1
   },
   {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Nice",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
-   "pontos": 2,
-   "jogos": 3,
-   "vitorias": 0,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 1,
-   "golsContra": 4,
-   "saldo": -3
-  },
-  {
    "posicao": 16,
    "grupo": "",
    "time": "Le Havre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-   "pontos": 1,
-   "jogos": 3,
+   "pontos": 2,
+   "jogos": 4,
    "vitorias": 0,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 2,
    "golsPro": 2,
    "golsContra": 4,
@@ -237,28 +237,28 @@
    "grupo": "",
    "time": "Toulouse",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-   "pontos": 1,
-   "jogos": 3,
+   "pontos": 2,
+   "jogos": 4,
    "vitorias": 0,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 2,
-   "golsPro": 2,
-   "golsContra": 5,
+   "golsPro": 4,
+   "golsContra": 7,
    "saldo": -3
   },
   {
    "posicao": 18,
    "grupo": "",
-   "time": "Auxerre",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-   "pontos": 0,
-   "jogos": 3,
+   "time": "Nice",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
+   "pontos": 2,
+   "jogos": 4,
    "vitorias": 0,
-   "empates": 0,
-   "derrotas": 3,
-   "golsPro": 4,
-   "golsContra": 11,
-   "saldo": -7
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 1,
+   "golsContra": 5,
+   "saldo": -4
   }
  ],
  "jogos": [
@@ -839,7 +839,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",
@@ -859,7 +859,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",
@@ -879,7 +879,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-12",
@@ -899,7 +899,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-13",

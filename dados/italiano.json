@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T19:31:50.058Z",
+ "atualizado": "2026-09-12T21:50:51.009Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Cagliari",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+   "pontos": 9,
+   "jogos": 4,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 4,
+   "golsContra": 2,
+   "saldo": 2
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "pontos": 8,
@@ -65,7 +79,7 @@
    "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
@@ -79,7 +93,7 @@
    "saldo": 4
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Frosinone",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
@@ -93,7 +107,7 @@
    "saldo": 3
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -107,32 +121,18 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "pontos": 6,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 3,
-   "saldo": 1
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Cagliari",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "pontos": 6,
-   "jogos": 3,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 2,
-   "golsContra": 1,
-   "saldo": 1
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 5,
+   "saldo": 0
   },
   {
    "posicao": 10,
@@ -948,7 +948,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-13",
