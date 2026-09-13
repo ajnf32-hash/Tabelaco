@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T23:36:24.344Z",
+ "atualizado": "2026-09-13T02:14:58.038Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -684,11 +684,10 @@
    "golsVisitante": 4,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-05",

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-12T23:36:24.883Z",
+ "atualizado": "2026-09-13T02:14:58.710Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -447,7 +447,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
