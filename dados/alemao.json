@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T16:50:57.523Z",
+ "atualizado": "2026-09-13T19:07:51.828Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Bayern de Munique",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "pontos": 7,
+   "jogos": 3,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 7,
+   "golsContra": 2,
+   "saldo": 5
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "RB Leipzig",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
    "pontos": 6,
@@ -65,32 +79,18 @@
    "saldo": 6
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Elversberg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
    "pontos": 6,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 7,
-   "golsContra": 5,
-   "saldo": 2
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Bayern de Munique",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-   "pontos": 4,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 5,
-   "golsContra": 1,
-   "saldo": 4
+   "derrotas": 1,
+   "golsPro": 8,
+   "golsContra": 7,
+   "saldo": 1
   },
   {
    "posicao": 7,
@@ -781,10 +781,10 @@
    "visitante": "Bayern de Munique",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

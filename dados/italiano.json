@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T16:50:56.848Z",
+ "atualizado": "2026-09-13T19:07:51.197Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Napoli",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "pontos": 6,
+   "jogos": 4,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 6,
+   "golsContra": 5,
+   "saldo": 1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "pontos": 6,
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
@@ -149,7 +163,7 @@
    "saldo": -2
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
@@ -163,7 +177,7 @@
    "saldo": 0
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
@@ -172,20 +186,6 @@
    "vitorias": 1,
    "empates": 1,
    "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 5,
-   "saldo": 0
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Napoli",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-   "pontos": 3,
-   "jogos": 3,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 2,
    "golsPro": 5,
    "golsContra": 5,
    "saldo": 0
@@ -224,13 +224,13 @@
    "time": "Bologna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "pontos": 1,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 0,
    "empates": 1,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 2,
-   "golsContra": 4,
-   "saldo": -2
+   "golsContra": 5,
+   "saldo": -3
   },
   {
    "posicao": 17,
@@ -979,10 +979,10 @@
    "visitante": "Bologna",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1002,7 +1002,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

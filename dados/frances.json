@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T16:50:58.274Z",
+ "atualizado": "2026-09-13T19:07:52.724Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Lens",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "pontos": 4,
+   "jogos": 4,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 7,
+   "saldo": 1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Angers",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "pontos": 4,
@@ -135,7 +149,7 @@
    "saldo": -1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Troyes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
@@ -147,20 +161,6 @@
    "golsPro": 4,
    "golsContra": 9,
    "saldo": -5
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Lens",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "pontos": 3,
-   "jogos": 3,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 6,
-   "golsContra": 5,
-   "saldo": 1
   },
   {
    "posicao": 12,
@@ -193,22 +193,22 @@
   {
    "posicao": 14,
    "grupo": "",
-   "time": "Paris Saint-Germain",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-   "pontos": 2,
-   "jogos": 3,
+   "time": "Le Mans",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "pontos": 3,
+   "jogos": 4,
    "vitorias": 0,
-   "empates": 2,
+   "empates": 3,
    "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 6,
+   "golsPro": 7,
+   "golsContra": 8,
    "saldo": -1
   },
   {
    "posicao": 15,
    "grupo": "",
-   "time": "Le Mans",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "time": "Paris Saint-Germain",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "pontos": 2,
    "jogos": 3,
    "vitorias": 0,
@@ -929,10 +929,10 @@
    "visitante": "Lens",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -952,7 +952,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T16:50:55.224Z",
+ "atualizado": "2026-09-13T19:07:49.326Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Manchester City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-   "pontos": 9,
-   "jogos": 3,
-   "vitorias": 3,
+   "pontos": 12,
+   "jogos": 4,
+   "vitorias": 4,
    "empates": 0,
    "derrotas": 0,
-   "golsPro": 7,
+   "golsPro": 8,
    "golsContra": 2,
-   "saldo": 5
+   "saldo": 6
   },
   {
    "posicao": 3,
@@ -182,13 +182,13 @@
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "pontos": 4,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 7,
-   "golsContra": 6,
-   "saldo": 1
+   "golsContra": 7,
+   "saldo": 0
   },
   {
    "posicao": 14,
@@ -1039,10 +1039,10 @@
    "visitante": "Manchester City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
