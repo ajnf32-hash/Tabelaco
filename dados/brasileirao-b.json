@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T19:07:42.431Z",
+ "atualizado": "2026-09-13T21:31:42.094Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,16 +70,30 @@
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "pontos": 47,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 13,
    "empates": 8,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 28,
-   "golsContra": 21,
-   "saldo": 7
+   "golsContra": 25,
+   "saldo": 3
   },
   {
    "posicao": 6,
+   "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 46,
+   "jogos": 28,
+   "vitorias": 12,
+   "empates": 10,
+   "derrotas": 6,
+   "golsPro": 36,
+   "golsContra": 26,
+   "saldo": 10
+  },
+  {
+   "posicao": 7,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -91,20 +105,6 @@
    "golsPro": 36,
    "golsContra": 33,
    "saldo": 3
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 43,
-   "jogos": 27,
-   "vitorias": 11,
-   "empates": 10,
-   "derrotas": 6,
-   "golsPro": 32,
-   "golsContra": 26,
-   "saldo": 6
   },
   {
    "posicao": 8,
@@ -5445,10 +5445,10 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -5467,7 +5467,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -5507,7 +5507,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

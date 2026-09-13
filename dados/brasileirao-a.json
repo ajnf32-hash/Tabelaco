@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T19:07:33.526Z",
+ "atualizado": "2026-09-13T21:31:31.795Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -167,13 +167,13 @@
    "grupo": "",
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "pontos": 32,
-   "jogos": 26,
+   "pontos": 33,
+   "jogos": 27,
    "vitorias": 9,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 12,
-   "golsPro": 25,
-   "golsContra": 37,
+   "golsPro": 27,
+   "golsContra": 39,
    "saldo": -12
   },
   {
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Mirassol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "pontos": 29,
+   "jogos": 27,
+   "vitorias": 7,
+   "empates": 8,
+   "derrotas": 12,
+   "golsPro": 31,
+   "golsContra": 42,
+   "saldo": -11
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "pontos": 28,
@@ -217,20 +231,6 @@
    "golsPro": 28,
    "golsContra": 35,
    "saldo": -7
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Mirassol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "pontos": 28,
-   "jogos": 26,
-   "vitorias": 7,
-   "empates": 7,
-   "derrotas": 12,
-   "golsPro": 29,
-   "golsContra": 40,
-   "saldo": -11
   },
   {
    "posicao": 17,
@@ -4666,10 +4666,10 @@
    "visitante": "Vitória",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -4689,7 +4689,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
