@@ -6,21 +6,21 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T12:58:35.025Z",
+ "atualizado": "2026-09-13T16:50:56.169Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "pontos": 12,
-   "jogos": 4,
-   "vitorias": 4,
+   "pontos": 15,
+   "jogos": 5,
+   "vitorias": 5,
    "empates": 0,
    "derrotas": 0,
-   "golsPro": 17,
-   "golsContra": 2,
-   "saldo": 15
+   "golsPro": 21,
+   "golsContra": 4,
+   "saldo": 17
   },
   {
    "posicao": 2,
@@ -182,13 +182,13 @@
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "pontos": 5,
-   "jogos": 4,
+   "jogos": 5,
    "vitorias": 1,
    "empates": 2,
-   "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 5,
-   "saldo": 0
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 9,
+   "saldo": -2
   },
   {
    "posicao": 14,
@@ -223,17 +223,31 @@
    "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "pontos": 4,
+   "jogos": 6,
+   "vitorias": 0,
+   "empates": 4,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 6,
+   "saldo": -3
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
+   "time": "Málaga",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
    "pontos": 3,
    "jogos": 5,
    "vitorias": 0,
    "empates": 3,
    "derrotas": 2,
    "golsPro": 2,
-   "golsContra": 5,
-   "saldo": -3
+   "golsContra": 8,
+   "saldo": -6
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -245,20 +259,6 @@
    "golsPro": 6,
    "golsContra": 8,
    "saldo": -2
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Málaga",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "pontos": 2,
-   "jogos": 4,
-   "vitorias": 0,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 1,
-   "golsContra": 7,
-   "saldo": -6
   },
   {
    "posicao": 19,
@@ -1187,10 +1187,10 @@
    "visitante": "Málaga",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1207,10 +1207,10 @@
    "visitante": "Barcelona",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1230,7 +1230,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

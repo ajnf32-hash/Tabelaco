@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-13T12:58:37.873Z",
+ "atualizado": "2026-09-13T16:50:57.523Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "RB Leipzig",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "pontos": 6,
+   "jogos": 3,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 3,
+   "saldo": 6
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Elversberg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
    "pontos": 6,
@@ -65,7 +79,7 @@
    "saldo": 2
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Bayern de Munique",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
@@ -79,7 +93,7 @@
    "saldo": 4
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Bayer Leverkusen",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
@@ -93,7 +107,7 @@
    "saldo": 3
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Mainz",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -107,7 +121,7 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Eintracht Frankfurt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
@@ -121,7 +135,7 @@
    "saldo": -1
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Werder Bremen",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -135,7 +149,7 @@
    "saldo": -1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Schalke 04",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
@@ -149,7 +163,7 @@
    "saldo": -1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Colônia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
@@ -161,20 +175,6 @@
    "golsPro": 5,
    "golsContra": 7,
    "saldo": -2
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "RB Leipzig",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 3,
-   "saldo": 1
   },
   {
    "posicao": 13,
@@ -235,20 +235,6 @@
   {
    "posicao": 17,
    "grupo": "",
-   "time": "Hamburgo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-   "pontos": 0,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 0,
-   "golsContra": 7,
-   "saldo": -7
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
    "time": "Borussia Mönchengladbach",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
    "pontos": 0,
@@ -259,6 +245,20 @@
    "golsPro": 3,
    "golsContra": 12,
    "saldo": -9
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
+   "time": "Hamburgo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "pontos": 0,
+   "jogos": 3,
+   "vitorias": 0,
+   "empates": 0,
+   "derrotas": 3,
+   "golsPro": 0,
+   "golsContra": 12,
+   "saldo": -12
   }
  ],
  "jogos": [
@@ -761,10 +761,10 @@
    "visitante": "Hamburgo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 5,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -784,7 +784,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
