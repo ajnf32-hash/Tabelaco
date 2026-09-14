@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-14T19:53:35.478Z",
+ "atualizado": "2026-09-14T22:52:45.760Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Inter de Milão",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "pontos": 12,
+   "jogos": 4,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 13,
+   "golsContra": 6,
+   "saldo": 7
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "pontos": 10,
@@ -37,7 +51,7 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
@@ -49,20 +63,6 @@
    "golsPro": 6,
    "golsContra": 3,
    "saldo": 3
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Inter de Milão",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-   "pontos": 9,
-   "jogos": 3,
-   "vitorias": 3,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 8,
-   "golsContra": 3,
-   "saldo": 5
   },
   {
    "posicao": 5,
@@ -182,13 +182,13 @@
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "pontos": 4,
-   "jogos": 3,
+   "jogos": 4,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 5,
-   "saldo": 0
+   "derrotas": 2,
+   "golsPro": 8,
+   "golsContra": 10,
+   "saldo": -2
   },
   {
    "posicao": 14,
@@ -1064,7 +1064,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-18",

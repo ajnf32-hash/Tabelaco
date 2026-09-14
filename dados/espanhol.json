@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-14T19:53:34.779Z",
+ "atualizado": "2026-09-14T22:52:45.150Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Real Betis",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "pontos": 12,
+   "jogos": 5,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 7,
+   "golsContra": 6,
+   "saldo": 1
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "pontos": 10,
@@ -51,7 +65,7 @@
    "saldo": 6
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
@@ -65,7 +79,7 @@
    "saldo": 4
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
@@ -77,20 +91,6 @@
    "golsPro": 8,
    "golsContra": 6,
    "saldo": 2
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Real Betis",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "pontos": 9,
-   "jogos": 4,
-   "vitorias": 3,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 5,
-   "golsContra": 5,
-   "saldo": 0
   },
   {
    "posicao": 7,
@@ -252,13 +252,13 @@
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "pontos": 2,
-   "jogos": 4,
+   "jogos": 5,
    "vitorias": 0,
    "empates": 2,
-   "derrotas": 2,
-   "golsPro": 6,
-   "golsContra": 8,
-   "saldo": -2
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 10,
+   "saldo": -3
   },
   {
    "posicao": 19,
@@ -1272,7 +1272,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-15",
