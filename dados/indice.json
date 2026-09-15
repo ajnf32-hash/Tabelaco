@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-09-15T19:45:19.326Z",
+ "atualizado": "2026-09-15T22:36:09.709Z",
  "temporada": 2026,
  "locais": {
   "escudos": [],
@@ -108,7 +108,7 @@
     11,
     12
    ],
-   "jogos": 243,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -128,7 +128,7 @@
     10,
     11
    ],
-   "jogos": 300,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -149,7 +149,7 @@
     10,
     11
    ],
-   "jogos": 150,
+   "jogos": 0,
    "temTabela": false
   },
   {
@@ -170,7 +170,7 @@
     10,
     11
    ],
-   "jogos": 150,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -190,8 +190,8 @@
     4,
     5
    ],
-   "jogos": 18,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "ingles",
@@ -310,7 +310,7 @@
     3,
     4
    ],
-   "jogos": 62,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -325,7 +325,7 @@
     3,
     4
    ],
-   "jogos": 72,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -340,7 +340,7 @@
     3,
     4
    ],
-   "jogos": 59,
+   "jogos": 0,
    "temTabela": true
   },
   {
@@ -355,8 +355,8 @@
     3,
     4
    ],
-   "jogos": 64,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   }
  ]
 }

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-15T19:45:10.654Z",
+ "atualizado": "2026-09-15T22:35:18.654Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 12,
-   "jogos": 5,
-   "vitorias": 4,
+   "pontos": 15,
+   "jogos": 6,
+   "vitorias": 5,
    "empates": 0,
    "derrotas": 1,
-   "golsPro": 14,
-   "golsContra": 4,
-   "saldo": 10
+   "golsPro": 17,
+   "golsContra": 6,
+   "saldo": 11
   },
   {
    "posicao": 3,
@@ -56,13 +56,13 @@
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "pontos": 10,
-   "jogos": 5,
+   "jogos": 6,
    "vitorias": 3,
    "empates": 1,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 11,
-   "golsContra": 5,
-   "saldo": 6
+   "golsContra": 6,
+   "saldo": 5
   },
   {
    "posicao": 5,
@@ -221,6 +221,20 @@
   {
    "posicao": 16,
    "grupo": "",
+   "time": "Valencia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+   "pontos": 4,
+   "jogos": 6,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 4,
+   "golsPro": 2,
+   "golsContra": 10,
+   "saldo": -8
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "pontos": 4,
@@ -233,7 +247,7 @@
    "saldo": -3
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Málaga",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
@@ -247,7 +261,7 @@
    "saldo": -6
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -261,32 +275,18 @@
    "saldo": -3
   },
   {
-   "posicao": 19,
+   "posicao": 20,
    "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "pontos": 2,
-   "jogos": 5,
+   "jogos": 6,
    "vitorias": 0,
    "empates": 2,
-   "derrotas": 3,
-   "golsPro": 6,
-   "golsContra": 13,
-   "saldo": -7
-  },
-  {
-   "posicao": 20,
-   "grupo": "",
-   "time": "Valencia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "pontos": 1,
-   "jogos": 5,
-   "vitorias": 0,
-   "empates": 1,
    "derrotas": 4,
-   "golsPro": 1,
-   "golsContra": 10,
-   "saldo": -9
+   "golsPro": 8,
+   "golsContra": 16,
+   "saldo": -8
   }
  ],
  "jogos": [
@@ -1283,7 +1283,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1303,12 +1303,12 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-15",
@@ -1328,7 +1328,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-16",
