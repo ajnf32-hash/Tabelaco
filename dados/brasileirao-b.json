@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-15T01:05:06.922Z",
+ "atualizado": "2026-09-15T06:19:20.244Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 48,
+   "jogos": 28,
+   "vitorias": 14,
+   "empates": 6,
+   "derrotas": 8,
+   "golsPro": 40,
+   "golsContra": 31,
+   "saldo": 9
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 48,
@@ -49,20 +63,6 @@
    "golsPro": 31,
    "golsContra": 23,
    "saldo": 8
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 47,
-   "jogos": 27,
-   "vitorias": 14,
-   "empates": 5,
-   "derrotas": 8,
-   "golsPro": 39,
-   "golsContra": 30,
-   "saldo": 9
   },
   {
    "posicao": 5,
@@ -237,13 +237,13 @@
    "grupo": "",
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 29,
-   "jogos": 27,
+   "pontos": 30,
+   "jogos": 28,
    "vitorias": 8,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 14,
-   "golsPro": 28,
-   "golsContra": 35,
+   "golsPro": 29,
+   "golsContra": 36,
    "saldo": -7
   },
   {
@@ -5558,10 +5558,10 @@
    "visitante": "Vila Nova",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
