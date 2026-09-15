@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-15T16:04:43.620Z",
+ "atualizado": "2026-09-15T19:45:10.654Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -112,13 +112,13 @@
    "time": "Espanyol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "pontos": 7,
-   "jogos": 5,
+   "jogos": 6,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 2,
-   "golsPro": 8,
-   "golsContra": 5,
-   "saldo": 3
+   "derrotas": 3,
+   "golsPro": 9,
+   "golsContra": 7,
+   "saldo": 2
   },
   {
    "posicao": 9,
@@ -165,6 +165,20 @@
   {
    "posicao": 12,
    "grupo": "",
+   "time": "Rayo Vallecano",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "pontos": 7,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 15,
+   "saldo": -5
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "pontos": 7,
@@ -177,7 +191,7 @@
    "saldo": -5
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
@@ -191,7 +205,7 @@
    "saldo": -2
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Getafe",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
@@ -203,20 +217,6 @@
    "golsPro": 3,
    "golsContra": 6,
    "saldo": -3
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Rayo Vallecano",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "pontos": 4,
-   "jogos": 5,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 8,
-   "golsContra": 14,
-   "saldo": -6
   },
   {
    "posicao": 16,
@@ -1288,7 +1288,7 @@
     "espn",
     "fotmob"
    ],
-   "conferencia": "confirmado"
+   "conferencia": "sozinho"
   },
   {
    "data": "2026-09-15",
