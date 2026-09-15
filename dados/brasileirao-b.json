@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-14T22:52:38.576Z",
+ "atualizado": "2026-09-15T01:05:06.922Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -165,6 +165,34 @@
   {
    "posicao": 12,
    "grupo": "",
+   "time": "Goiás",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "pontos": 39,
+   "jogos": 28,
+   "vitorias": 11,
+   "empates": 6,
+   "derrotas": 11,
+   "golsPro": 28,
+   "golsContra": 34,
+   "saldo": -6
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 38,
+   "jogos": 28,
+   "vitorias": 10,
+   "empates": 8,
+   "derrotas": 10,
+   "golsPro": 39,
+   "golsContra": 31,
+   "saldo": 8
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 37,
@@ -175,34 +203,6 @@
    "golsPro": 32,
    "golsContra": 30,
    "saldo": 2
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Goiás",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "pontos": 36,
-   "jogos": 27,
-   "vitorias": 10,
-   "empates": 6,
-   "derrotas": 11,
-   "golsPro": 25,
-   "golsContra": 33,
-   "saldo": -8
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 35,
-   "jogos": 27,
-   "vitorias": 9,
-   "empates": 8,
-   "derrotas": 10,
-   "golsPro": 37,
-   "golsContra": 31,
-   "saldo": 6
   },
   {
    "posicao": 15,
@@ -224,13 +224,13 @@
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "pontos": 31,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 8,
    "empates": 7,
-   "derrotas": 12,
-   "golsPro": 30,
-   "golsContra": 32,
-   "saldo": -2
+   "derrotas": 13,
+   "golsPro": 31,
+   "golsContra": 35,
+   "saldo": -4
   },
   {
    "posicao": 17,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 17,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 4,
    "empates": 5,
-   "derrotas": 18,
+   "derrotas": 19,
    "golsPro": 21,
-   "golsContra": 46,
-   "saldo": -25
+   "golsContra": 48,
+   "saldo": -27
   },
   {
    "posicao": 20,
@@ -5206,11 +5206,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -5226,11 +5225,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-08",
@@ -5520,10 +5518,10 @@
    "visitante": "São Bernardo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5540,10 +5538,10 @@
    "visitante": "Goiás",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5563,7 +5561,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

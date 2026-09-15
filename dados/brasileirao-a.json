@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-14T22:52:28.080Z",
+ "atualizado": "2026-09-15T01:04:59.050Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Bahia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "pontos": 46,
+   "jogos": 27,
+   "vitorias": 12,
+   "empates": 10,
+   "derrotas": 5,
+   "golsPro": 42,
+   "golsContra": 33,
+   "saldo": 9
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 45,
@@ -63,20 +77,6 @@
    "golsPro": 41,
    "golsContra": 35,
    "saldo": 6
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Bahia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 43,
-   "jogos": 26,
-   "vitorias": 11,
-   "empates": 10,
-   "derrotas": 5,
-   "golsPro": 40,
-   "golsContra": 32,
-   "saldo": 8
   },
   {
    "posicao": 6,
@@ -266,13 +266,13 @@
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "pontos": 23,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 5,
    "empates": 8,
-   "derrotas": 13,
-   "golsPro": 30,
-   "golsContra": 43,
-   "saldo": -13
+   "derrotas": 14,
+   "golsPro": 31,
+   "golsContra": 45,
+   "saldo": -14
   },
   {
    "posicao": 20,
@@ -4370,11 +4370,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4390,11 +4389,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4410,11 +4408,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4430,11 +4427,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4450,11 +4446,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4470,11 +4465,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-06",
@@ -4490,11 +4484,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-09-07",
@@ -4705,10 +4698,10 @@
    "visitante": "Remo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
