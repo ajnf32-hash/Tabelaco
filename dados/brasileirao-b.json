@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-15T22:34:25.637Z",
+ "atualizado": "2026-09-16T00:54:50.490Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 43,
-   "jogos": 27,
+   "pontos": 44,
+   "jogos": 28,
    "vitorias": 12,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 8,
-   "golsPro": 36,
-   "golsContra": 33,
+   "golsPro": 39,
+   "golsContra": 36,
    "saldo": 3
   },
   {
@@ -195,13 +195,13 @@
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 37,
-   "jogos": 27,
+   "pontos": 38,
+   "jogos": 28,
    "vitorias": 10,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 10,
-   "golsPro": 32,
-   "golsContra": 30,
+   "golsPro": 35,
+   "golsContra": 33,
    "saldo": 2
   },
   {
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 25,
-   "jogos": 27,
-   "vitorias": 6,
+   "pontos": 28,
+   "jogos": 28,
+   "vitorias": 7,
    "empates": 7,
    "derrotas": 14,
-   "golsPro": 32,
+   "golsPro": 38,
    "golsContra": 39,
-   "saldo": -7
+   "saldo": -1
   },
   {
    "posicao": 19,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 10,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 21,
+   "derrotas": 22,
    "golsPro": 16,
-   "golsContra": 56,
-   "saldo": -40
+   "golsContra": 62,
+   "saldo": -46
   }
  ],
  "jogos": [],

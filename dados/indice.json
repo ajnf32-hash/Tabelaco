@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-09-15T22:36:09.709Z",
+ "atualizado": "2026-09-16T00:56:49.769Z",
  "temporada": 2026,
  "locais": {
   "escudos": [],
@@ -211,8 +211,8 @@
     4,
     5
    ],
-   "jogos": 50,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "espanhol",
@@ -232,8 +232,8 @@
     4,
     5
    ],
-   "jogos": 70,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "italiano",
@@ -253,8 +253,8 @@
     4,
     5
    ],
-   "jogos": 50,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "alemao",
@@ -274,8 +274,8 @@
     4,
     5
    ],
-   "jogos": 36,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "frances",
@@ -295,8 +295,8 @@
     4,
     5
    ],
-   "jogos": 45,
-   "temTabela": true
+   "jogos": 0,
+   "temTabela": false
   },
   {
    "id": "carioca",
