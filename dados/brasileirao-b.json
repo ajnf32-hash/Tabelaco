@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-16T00:54:50.490Z",
+ "atualizado": "2026-09-16T05:31:00.516Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 45,
+   "jogos": 28,
+   "vitorias": 13,
+   "empates": 6,
+   "derrotas": 9,
+   "golsPro": 42,
+   "golsContra": 40,
+   "saldo": 2
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 44,
@@ -107,32 +121,18 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 42,
-   "jogos": 27,
-   "vitorias": 12,
-   "empates": 6,
-   "derrotas": 9,
-   "golsPro": 40,
-   "golsContra": 39,
-   "saldo": 1
-  },
-  {
    "posicao": 9,
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 41,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 10,
    "empates": 11,
-   "derrotas": 6,
-   "golsPro": 36,
-   "golsContra": 26,
-   "saldo": 10
+   "derrotas": 7,
+   "golsPro": 37,
+   "golsContra": 28,
+   "saldo": 9
   },
   {
    "posicao": 10,
