@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-19T21:33:18.608Z",
+ "atualizado": "2026-09-19T23:47:43.895Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Santos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "pontos": 38,
+   "jogos": 27,
+   "vitorias": 10,
+   "empates": 8,
+   "derrotas": 9,
+   "golsPro": 41,
+   "golsContra": 40,
+   "saldo": 1
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 38,
@@ -121,7 +135,7 @@
    "saldo": -1
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
@@ -135,32 +149,18 @@
    "saldo": 3
   },
   {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Santos",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 35,
-   "jogos": 26,
-   "vitorias": 9,
-   "empates": 8,
-   "derrotas": 9,
-   "golsPro": 39,
-   "golsContra": 39,
-   "saldo": 0
-  },
-  {
    "posicao": 11,
    "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "pontos": 35,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 9,
    "empates": 8,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 41,
-   "golsContra": 43,
-   "saldo": -2
+   "golsContra": 45,
+   "saldo": -4
   },
   {
    "posicao": 12,
@@ -209,14 +209,14 @@
    "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "pontos": 29,
-   "jogos": 27,
-   "vitorias": 7,
+   "pontos": 32,
+   "jogos": 28,
+   "vitorias": 8,
    "empates": 8,
    "derrotas": 12,
-   "golsPro": 31,
+   "golsPro": 33,
    "golsContra": 42,
-   "saldo": -11
+   "saldo": -9
   },
   {
    "posicao": 16,
@@ -266,13 +266,13 @@
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "pontos": 23,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 5,
    "empates": 8,
-   "derrotas": 14,
-   "golsPro": 31,
-   "golsContra": 45,
-   "saldo": -14
+   "derrotas": 15,
+   "golsPro": 32,
+   "golsContra": 47,
+   "saldo": -15
   },
   {
    "posicao": 20,

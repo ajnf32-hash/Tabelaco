@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-19T21:33:36.056Z",
+ "atualizado": "2026-09-19T23:48:02.075Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -42,13 +42,13 @@
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "pontos": 50,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 14,
    "empates": 8,
-   "derrotas": 6,
-   "golsPro": 30,
-   "golsContra": 17,
-   "saldo": 13
+   "derrotas": 7,
+   "golsPro": 31,
+   "golsContra": 19,
+   "saldo": 12
   },
   {
    "posicao": 4,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 44,
+   "jogos": 29,
+   "vitorias": 11,
+   "empates": 11,
+   "derrotas": 7,
+   "golsPro": 39,
+   "golsContra": 29,
+   "saldo": 10
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 41,
@@ -135,31 +149,17 @@
    "saldo": 9
   },
   {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 41,
-   "jogos": 28,
-   "vitorias": 10,
-   "empates": 11,
-   "derrotas": 7,
-   "golsPro": 37,
-   "golsContra": 28,
-   "saldo": 9
-  },
-  {
    "posicao": 11,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 40,
-   "jogos": 28,
+   "pontos": 41,
+   "jogos": 29,
    "vitorias": 10,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 8,
-   "golsPro": 33,
-   "golsContra": 30,
+   "golsPro": 34,
+   "golsContra": 31,
    "saldo": 3
   },
   {
@@ -223,13 +223,13 @@
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 31,
-   "jogos": 28,
+   "pontos": 32,
+   "jogos": 29,
    "vitorias": 8,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 13,
-   "golsPro": 31,
-   "golsContra": 35,
+   "golsPro": 32,
+   "golsContra": 36,
    "saldo": -4
   },
   {
