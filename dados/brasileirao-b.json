@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-19T00:49:20.624Z",
+ "atualizado": "2026-09-19T05:19:36.251Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -28,13 +28,13 @@
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "pontos": 50,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 14,
    "empates": 8,
-   "derrotas": 6,
-   "golsPro": 48,
-   "golsContra": 25,
-   "saldo": 23
+   "derrotas": 7,
+   "golsPro": 49,
+   "golsContra": 27,
+   "saldo": 22
   },
   {
    "posicao": 3,
@@ -84,13 +84,13 @@
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 46,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 12,
    "empates": 10,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 36,
-   "golsContra": 26,
-   "saldo": 10
+   "golsContra": 27,
+   "saldo": 9
   },
   {
    "posicao": 7,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 41,
+   "jogos": 29,
+   "vitorias": 11,
+   "empates": 8,
+   "derrotas": 10,
+   "golsPro": 40,
+   "golsContra": 31,
+   "saldo": 9
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 41,
@@ -135,7 +149,7 @@
    "saldo": 9
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -149,7 +163,7 @@
    "saldo": 3
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
@@ -163,7 +177,7 @@
    "saldo": 5
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -175,20 +189,6 @@
    "golsPro": 28,
    "golsContra": 34,
    "saldo": -6
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 38,
-   "jogos": 28,
-   "vitorias": 10,
-   "empates": 8,
-   "derrotas": 10,
-   "golsPro": 39,
-   "golsContra": 31,
-   "saldo": 8
   },
   {
    "posicao": 14,
@@ -209,14 +209,14 @@
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "pontos": 32,
-   "jogos": 28,
-   "vitorias": 8,
+   "pontos": 35,
+   "jogos": 29,
+   "vitorias": 9,
    "empates": 8,
    "derrotas": 12,
-   "golsPro": 29,
-   "golsContra": 36,
-   "saldo": -7
+   "golsPro": 31,
+   "golsContra": 37,
+   "saldo": -6
   },
   {
    "posicao": 16,
