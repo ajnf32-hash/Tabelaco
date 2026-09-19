@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-18T22:42:23.999Z",
+ "atualizado": "2026-09-19T00:49:20.624Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 51,
+   "jogos": 29,
+   "vitorias": 15,
+   "empates": 6,
+   "derrotas": 8,
+   "golsPro": 41,
+   "golsContra": 31,
+   "saldo": 10
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
@@ -23,7 +37,7 @@
    "saldo": 23
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
@@ -35,20 +49,6 @@
    "golsPro": 30,
    "golsContra": 17,
    "saldo": 13
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 48,
-   "jogos": 28,
-   "vitorias": 14,
-   "empates": 6,
-   "derrotas": 8,
-   "golsPro": 40,
-   "golsContra": 31,
-   "saldo": 9
   },
   {
    "posicao": 4,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 17,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 4,
    "empates": 5,
-   "derrotas": 19,
+   "derrotas": 20,
    "golsPro": 21,
-   "golsContra": 48,
-   "saldo": -27
+   "golsContra": 49,
+   "saldo": -28
   },
   {
    "posicao": 20,
