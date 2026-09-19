@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-19T19:06:34.904Z",
+ "atualizado": "2026-09-19T21:33:18.608Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 39,
-   "jogos": 26,
+   "pontos": 40,
+   "jogos": 27,
    "vitorias": 11,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 9,
-   "golsPro": 35,
-   "golsContra": 31,
+   "golsPro": 36,
+   "golsContra": 32,
    "saldo": 4
   },
   {
@@ -279,13 +279,13 @@
    "grupo": "",
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "pontos": 17,
-   "jogos": 26,
+   "pontos": 18,
+   "jogos": 27,
    "vitorias": 3,
-   "empates": 8,
+   "empates": 9,
    "derrotas": 15,
-   "golsPro": 28,
-   "golsContra": 52,
+   "golsPro": 29,
+   "golsContra": 53,
    "saldo": -24
   }
  ],
