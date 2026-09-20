@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-20T13:07:29.592Z",
+ "atualizado": "2026-09-20T16:54:15.203Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -98,13 +98,13 @@
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 45,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 13,
    "empates": 6,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 42,
-   "golsContra": 40,
-   "saldo": 2
+   "golsContra": 41,
+   "saldo": 1
   },
   {
    "posicao": 8,
@@ -279,14 +279,14 @@
    "grupo": "",
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "pontos": 10,
-   "jogos": 28,
-   "vitorias": 2,
+   "pontos": 13,
+   "jogos": 29,
+   "vitorias": 3,
    "empates": 4,
    "derrotas": 22,
-   "golsPro": 16,
+   "golsPro": 17,
    "golsContra": 62,
-   "saldo": -46
+   "saldo": -45
   }
  ],
  "jogos": [],
