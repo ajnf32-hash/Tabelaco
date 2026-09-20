@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-20T19:11:34.485Z",
+ "atualizado": "2026-09-20T21:42:28.822Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Fluminense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "pontos": 48,
+   "jogos": 28,
+   "vitorias": 13,
+   "empates": 9,
+   "derrotas": 6,
+   "golsPro": 44,
+   "golsContra": 36,
+   "saldo": 8
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "pontos": 46,
@@ -51,7 +65,7 @@
    "saldo": 10
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
@@ -65,32 +79,18 @@
    "saldo": 9
   },
   {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Fluminense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 45,
-   "jogos": 27,
-   "vitorias": 12,
-   "empates": 9,
-   "derrotas": 6,
-   "golsPro": 41,
-   "golsContra": 35,
-   "saldo": 6
-  },
-  {
    "posicao": 6,
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 42,
-   "jogos": 27,
-   "vitorias": 12,
+   "pontos": 45,
+   "jogos": 28,
+   "vitorias": 13,
    "empates": 6,
    "derrotas": 9,
-   "golsPro": 39,
-   "golsContra": 39,
-   "saldo": 0
+   "golsPro": 42,
+   "golsContra": 40,
+   "saldo": 2
   },
   {
    "posicao": 7,
@@ -182,13 +182,13 @@
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "pontos": 33,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 9,
    "empates": 6,
-   "derrotas": 12,
-   "golsPro": 27,
-   "golsContra": 39,
-   "saldo": -12
+   "derrotas": 13,
+   "golsPro": 28,
+   "golsContra": 42,
+   "saldo": -14
   },
   {
    "posicao": 14,
@@ -196,13 +196,13 @@
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 11,
-   "golsPro": 28,
-   "golsContra": 29,
-   "saldo": -1
+   "derrotas": 12,
+   "golsPro": 29,
+   "golsContra": 32,
+   "saldo": -3
   },
   {
    "posicao": 15,
