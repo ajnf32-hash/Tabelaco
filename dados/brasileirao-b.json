@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-20T21:42:45.867Z",
+ "atualizado": "2026-09-20T23:44:02.322Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Fortaleza",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "pontos": 51,
+   "jogos": 29,
+   "vitorias": 14,
+   "empates": 9,
+   "derrotas": 6,
+   "golsPro": 33,
+   "golsContra": 24,
+   "saldo": 9
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "pontos": 50,
@@ -37,7 +51,7 @@
    "saldo": 22
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
@@ -49,20 +63,6 @@
    "golsPro": 31,
    "golsContra": 19,
    "saldo": 12
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Fortaleza",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 48,
-   "jogos": 28,
-   "vitorias": 13,
-   "empates": 9,
-   "derrotas": 6,
-   "golsPro": 31,
-   "golsContra": 23,
-   "saldo": 8
   },
   {
    "posicao": 5,
@@ -252,13 +252,13 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 28,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 7,
    "empates": 7,
-   "derrotas": 14,
-   "golsPro": 38,
-   "golsContra": 39,
-   "saldo": -1
+   "derrotas": 15,
+   "golsPro": 39,
+   "golsContra": 41,
+   "saldo": -2
   },
   {
    "posicao": 19,

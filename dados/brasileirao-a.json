@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-20T21:42:28.822Z",
+ "atualizado": "2026-09-20T23:43:44.446Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 57,
-   "jogos": 27,
-   "vitorias": 17,
+   "pontos": 60,
+   "jogos": 28,
+   "vitorias": 18,
    "empates": 6,
    "derrotas": 4,
-   "golsPro": 53,
-   "golsContra": 22,
-   "saldo": 31
+   "golsPro": 55,
+   "golsContra": 23,
+   "saldo": 32
   },
   {
    "posicao": 2,
@@ -140,13 +140,13 @@
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "pontos": 36,
-   "jogos": 26,
+   "jogos": 27,
    "vitorias": 10,
    "empates": 6,
-   "derrotas": 10,
-   "golsPro": 32,
-   "golsContra": 29,
-   "saldo": 3
+   "derrotas": 11,
+   "golsPro": 33,
+   "golsContra": 31,
+   "saldo": 2
   },
   {
    "posicao": 11,
