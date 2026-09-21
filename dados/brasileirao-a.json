@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-20T23:43:44.446Z",
+ "atualizado": "2026-09-21T02:30:06.609Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Athletico Paranaense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "pontos": 49,
+   "jogos": 28,
+   "vitorias": 14,
+   "empates": 7,
+   "derrotas": 7,
+   "golsPro": 43,
+   "golsContra": 32,
+   "saldo": 11
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 48,
@@ -51,32 +65,18 @@
    "saldo": 8
   },
   {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Athletico Paranaense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 46,
-   "jogos": 27,
-   "vitorias": 13,
-   "empates": 7,
-   "derrotas": 7,
-   "golsPro": 41,
-   "golsContra": 31,
-   "saldo": 10
-  },
-  {
    "posicao": 5,
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 46,
-   "jogos": 27,
+   "jogos": 28,
    "vitorias": 12,
    "empates": 10,
-   "derrotas": 5,
-   "golsPro": 42,
-   "golsContra": 33,
-   "saldo": 9
+   "derrotas": 6,
+   "golsPro": 43,
+   "golsContra": 35,
+   "saldo": 8
   },
   {
    "posicao": 6,
