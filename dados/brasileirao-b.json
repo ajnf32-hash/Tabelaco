@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-22T01:41:41.955Z",
+ "atualizado": "2026-09-22T07:05:12.939Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 43,
+   "jogos": 29,
+   "vitorias": 10,
+   "empates": 13,
+   "derrotas": 6,
+   "golsPro": 30,
+   "golsContra": 22,
+   "saldo": 8
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 42,
@@ -149,7 +163,7 @@
    "saldo": -5
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
@@ -163,7 +177,7 @@
    "saldo": 9
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -177,32 +191,18 @@
    "saldo": 3
   },
   {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 40,
-   "jogos": 28,
-   "vitorias": 9,
-   "empates": 13,
-   "derrotas": 6,
-   "golsPro": 27,
-   "golsContra": 22,
-   "saldo": 5
-  },
-  {
    "posicao": 14,
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 38,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 10,
    "empates": 8,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 35,
-   "golsContra": 33,
-   "saldo": 2
+   "golsContra": 36,
+   "saldo": -1
   },
   {
    "posicao": 15,
