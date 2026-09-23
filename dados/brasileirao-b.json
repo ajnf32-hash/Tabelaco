@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-22T23:05:55.571Z",
+ "atualizado": "2026-09-23T01:36:14.646Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,19 +67,33 @@
   {
    "posicao": 5,
    "grupo": "",
-   "time": "Criciúma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "time": "Operário PR",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 47,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 13,
    "empates": 8,
-   "derrotas": 7,
-   "golsPro": 28,
-   "golsContra": 25,
-   "saldo": 3
+   "derrotas": 8,
+   "golsPro": 41,
+   "golsContra": 36,
+   "saldo": 5
   },
   {
    "posicao": 6,
+   "grupo": "",
+   "time": "Criciúma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "pontos": 47,
+   "jogos": 29,
+   "vitorias": 13,
+   "empates": 8,
+   "derrotas": 8,
+   "golsPro": 28,
+   "golsContra": 27,
+   "saldo": 1
+  },
+  {
+   "posicao": 7,
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
@@ -93,7 +107,7 @@
    "saldo": 9
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
@@ -105,20 +119,6 @@
    "golsPro": 42,
    "golsContra": 41,
    "saldo": 1
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Operário PR",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 44,
-   "jogos": 28,
-   "vitorias": 12,
-   "empates": 8,
-   "derrotas": 8,
-   "golsPro": 39,
-   "golsContra": 36,
-   "saldo": 3
   },
   {
    "posicao": 9,
