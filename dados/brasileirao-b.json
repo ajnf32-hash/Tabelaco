@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-27T18:34:01.395Z",
+ "atualizado": "2026-09-27T21:44:49.650Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 48,
+   "jogos": 30,
+   "vitorias": 14,
+   "empates": 6,
+   "derrotas": 10,
+   "golsPro": 45,
+   "golsContra": 41,
+   "saldo": 4
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 48,
@@ -105,20 +119,6 @@
    "golsPro": 43,
    "golsContra": 38,
    "saldo": 5
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 45,
-   "jogos": 29,
-   "vitorias": 13,
-   "empates": 6,
-   "derrotas": 10,
-   "golsPro": 42,
-   "golsContra": 41,
-   "saldo": 1
   },
   {
    "posicao": 9,
@@ -140,13 +140,13 @@
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 43,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 10,
    "empates": 13,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 30,
-   "golsContra": 22,
-   "saldo": 8
+   "golsContra": 25,
+   "saldo": 5
   },
   {
    "posicao": 11,
