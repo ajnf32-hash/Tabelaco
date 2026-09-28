@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-27T21:44:49.650Z",
+ "atualizado": "2026-09-28T00:08:57.699Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Fortaleza",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "pontos": 52,
+   "jogos": 30,
+   "vitorias": 14,
+   "empates": 10,
+   "derrotas": 6,
+   "golsPro": 35,
+   "golsContra": 26,
+   "saldo": 9
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "pontos": 51,
@@ -35,20 +49,6 @@
    "golsPro": 49,
    "golsContra": 27,
    "saldo": 22
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Fortaleza",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 51,
-   "jogos": 29,
-   "vitorias": 14,
-   "empates": 9,
-   "derrotas": 6,
-   "golsPro": 33,
-   "golsContra": 24,
-   "saldo": 9
   },
   {
    "posicao": 4,
@@ -179,6 +179,20 @@
   {
    "posicao": 13,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 42,
+   "jogos": 30,
+   "vitorias": 10,
+   "empates": 12,
+   "derrotas": 8,
+   "golsPro": 36,
+   "golsContra": 33,
+   "saldo": 3
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 41,
@@ -189,20 +203,6 @@
    "golsPro": 38,
    "golsContra": 37,
    "saldo": 1
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 41,
-   "jogos": 29,
-   "vitorias": 10,
-   "empates": 11,
-   "derrotas": 8,
-   "golsPro": 34,
-   "golsContra": 31,
-   "saldo": 3
   },
   {
    "posicao": 15,
