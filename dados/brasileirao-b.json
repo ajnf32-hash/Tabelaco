@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-09-29T21:29:04.728Z",
+ "atualizado": "2026-09-30T00:40:50.473Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -223,14 +223,14 @@
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 32,
-   "jogos": 29,
-   "vitorias": 8,
+   "pontos": 35,
+   "jogos": 30,
+   "vitorias": 9,
    "empates": 8,
    "derrotas": 13,
-   "golsPro": 32,
+   "golsPro": 34,
    "golsContra": 36,
-   "saldo": -4
+   "saldo": -2
   },
   {
    "posicao": 17,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 13,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 3,
    "empates": 4,
-   "derrotas": 22,
+   "derrotas": 23,
    "golsPro": 17,
-   "golsContra": 62,
-   "saldo": -45
+   "golsContra": 64,
+   "saldo": -47
   }
  ],
  "jogos": [],
