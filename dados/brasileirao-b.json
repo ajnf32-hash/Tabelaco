@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-03T18:36:14.420Z",
+ "atualizado": "2026-10-03T21:54:59.271Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -83,14 +83,14 @@
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 49,
-   "jogos": 30,
-   "vitorias": 13,
+   "pontos": 52,
+   "jogos": 31,
+   "vitorias": 14,
    "empates": 10,
    "derrotas": 7,
-   "golsPro": 37,
+   "golsPro": 39,
    "golsContra": 27,
-   "saldo": 10
+   "saldo": 12
   },
   {
    "posicao": 7,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 17,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 4,
    "empates": 5,
-   "derrotas": 21,
+   "derrotas": 22,
    "golsPro": 21,
-   "golsContra": 50,
-   "saldo": -29
+   "golsContra": 52,
+   "saldo": -31
   },
   {
    "posicao": 20,
