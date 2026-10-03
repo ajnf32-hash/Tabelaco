@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-03T00:04:45.705Z",
+ "atualizado": "2026-10-03T05:31:46.035Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Juventude",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "pontos": 56,
+   "jogos": 31,
+   "vitorias": 16,
+   "empates": 8,
+   "derrotas": 7,
+   "golsPro": 35,
+   "golsContra": 19,
+   "saldo": 16
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
@@ -23,7 +37,7 @@
    "saldo": 12
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
@@ -37,46 +51,32 @@
    "saldo": 25
   },
   {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Juventude",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 53,
-   "jogos": 30,
-   "vitorias": 15,
-   "empates": 8,
-   "derrotas": 7,
-   "golsPro": 32,
-   "golsContra": 19,
-   "saldo": 13
-  },
-  {
    "posicao": 4,
    "grupo": "",
-   "time": "Fortaleza",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 52,
-   "jogos": 30,
-   "vitorias": 14,
-   "empates": 10,
-   "derrotas": 6,
-   "golsPro": 35,
-   "golsContra": 26,
-   "saldo": 9
+   "time": "Criciúma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "pontos": 53,
+   "jogos": 31,
+   "vitorias": 15,
+   "empates": 8,
+   "derrotas": 8,
+   "golsPro": 33,
+   "golsContra": 27,
+   "saldo": 6
   },
   {
    "posicao": 5,
    "grupo": "",
-   "time": "Criciúma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 50,
-   "jogos": 30,
+   "time": "Fortaleza",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "pontos": 53,
+   "jogos": 31,
    "vitorias": 14,
-   "empates": 8,
-   "derrotas": 8,
-   "golsPro": 31,
+   "empates": 11,
+   "derrotas": 6,
+   "golsPro": 36,
    "golsContra": 27,
-   "saldo": 4
+   "saldo": 9
   },
   {
    "posicao": 6,
@@ -98,13 +98,13 @@
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 48,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 14,
    "empates": 6,
-   "derrotas": 10,
-   "golsPro": 45,
-   "golsContra": 41,
-   "saldo": 4
+   "derrotas": 11,
+   "golsPro": 46,
+   "golsContra": 44,
+   "saldo": 2
   },
   {
    "posicao": 8,
@@ -112,13 +112,13 @@
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 48,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 13,
    "empates": 9,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 43,
-   "golsContra": 38,
-   "saldo": 5
+   "golsContra": 41,
+   "saldo": 2
   },
   {
    "posicao": 9,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 45,
+   "jogos": 31,
+   "vitorias": 12,
+   "empates": 9,
+   "derrotas": 10,
+   "golsPro": 43,
+   "golsContra": 32,
+   "saldo": 11
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 43,
@@ -149,7 +163,7 @@
    "saldo": 5
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
@@ -163,21 +177,21 @@
    "saldo": -9
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "time": "Náutico",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 42,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 11,
    "empates": 9,
-   "derrotas": 10,
-   "golsPro": 40,
-   "golsContra": 31,
-   "saldo": 9
+   "derrotas": 11,
+   "golsPro": 39,
+   "golsContra": 38,
+   "saldo": 1
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
@@ -189,20 +203,6 @@
    "golsPro": 37,
    "golsContra": 35,
    "saldo": 2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Náutico",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 41,
-   "jogos": 30,
-   "vitorias": 11,
-   "empates": 8,
-   "derrotas": 11,
-   "golsPro": 38,
-   "golsContra": 37,
-   "saldo": 1
   },
   {
    "posicao": 15,
@@ -252,13 +252,13 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 28,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 7,
    "empates": 7,
-   "derrotas": 16,
+   "derrotas": 17,
    "golsPro": 39,
-   "golsContra": 43,
-   "saldo": -4
+   "golsContra": 45,
+   "saldo": -6
   },
   {
    "posicao": 19,
