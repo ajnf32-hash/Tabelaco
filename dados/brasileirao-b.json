@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-03T15:00:16.665Z",
+ "atualizado": "2026-10-03T18:36:14.420Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -209,14 +209,14 @@
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
-   "pontos": 36,
-   "jogos": 30,
-   "vitorias": 9,
+   "pontos": 39,
+   "jogos": 31,
+   "vitorias": 10,
    "empates": 9,
    "derrotas": 12,
-   "golsPro": 33,
+   "golsPro": 34,
    "golsContra": 39,
-   "saldo": -6
+   "saldo": -5
   },
   {
    "posicao": 16,
@@ -238,13 +238,13 @@
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "pontos": 30,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 8,
    "empates": 6,
-   "derrotas": 16,
+   "derrotas": 17,
    "golsPro": 30,
-   "golsContra": 41,
-   "saldo": -11
+   "golsContra": 42,
+   "saldo": -12
   },
   {
    "posicao": 18,
