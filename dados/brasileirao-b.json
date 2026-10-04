@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-03T21:54:59.271Z",
+ "atualizado": "2026-10-04T00:15:47.252Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 57,
+   "jogos": 31,
+   "vitorias": 17,
+   "empates": 6,
+   "derrotas": 8,
+   "golsPro": 44,
+   "golsContra": 31,
+   "saldo": 13
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
@@ -21,20 +35,6 @@
    "golsPro": 35,
    "golsContra": 19,
    "saldo": 16
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 54,
-   "jogos": 30,
-   "vitorias": 16,
-   "empates": 6,
-   "derrotas": 8,
-   "golsPro": 43,
-   "golsContra": 31,
-   "saldo": 12
   },
   {
    "posicao": 3,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Cuiabá",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "pontos": 46,
+   "jogos": 31,
+   "vitorias": 11,
+   "empates": 13,
+   "derrotas": 7,
+   "golsPro": 32,
+   "golsContra": 25,
+   "saldo": 7
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 45,
@@ -147,20 +161,6 @@
    "golsPro": 43,
    "golsContra": 32,
    "saldo": 11
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Cuiabá",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "pontos": 43,
-   "jogos": 30,
-   "vitorias": 10,
-   "empates": 13,
-   "derrotas": 7,
-   "golsPro": 30,
-   "golsContra": 25,
-   "saldo": 5
   },
   {
    "posicao": 12,
@@ -224,13 +224,13 @@
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "pontos": 35,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 9,
    "empates": 8,
-   "derrotas": 13,
+   "derrotas": 14,
    "golsPro": 34,
-   "golsContra": 36,
-   "saldo": -2
+   "golsContra": 37,
+   "saldo": -3
   },
   {
    "posicao": 17,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 13,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 3,
    "empates": 4,
-   "derrotas": 23,
+   "derrotas": 24,
    "golsPro": 17,
-   "golsContra": 64,
-   "saldo": -47
+   "golsContra": 66,
+   "saldo": -49
   }
  ],
  "jogos": [],
