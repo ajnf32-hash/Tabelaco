@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-07T02:33:39.657Z",
+ "atualizado": "2026-10-07T09:34:28.063Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Juventude",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "pontos": 59,
+   "jogos": 32,
+   "vitorias": 17,
+   "empates": 8,
+   "derrotas": 7,
+   "golsPro": 37,
+   "golsContra": 19,
+   "saldo": 18
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
@@ -21,20 +35,6 @@
    "golsPro": 44,
    "golsContra": 31,
    "saldo": 13
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Juventude",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 56,
-   "jogos": 31,
-   "vitorias": 16,
-   "empates": 8,
-   "derrotas": 7,
-   "golsPro": 35,
-   "golsContra": 19,
-   "saldo": 16
   },
   {
    "posicao": 3,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 13,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 3,
    "empates": 4,
-   "derrotas": 24,
+   "derrotas": 25,
    "golsPro": 17,
-   "golsContra": 66,
-   "saldo": -49
+   "golsContra": 68,
+   "saldo": -51
   }
  ],
  "jogos": [],
