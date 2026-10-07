@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-06T23:10:43.173Z",
+ "atualizado": "2026-10-07T02:33:39.657Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 50,
+   "jogos": 32,
+   "vitorias": 13,
+   "empates": 11,
+   "derrotas": 8,
+   "golsPro": 44,
+   "golsContra": 34,
+   "saldo": 10
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 48,
@@ -107,7 +121,7 @@
    "saldo": 2
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -119,20 +133,6 @@
    "golsPro": 43,
    "golsContra": 41,
    "saldo": 2
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 47,
-   "jogos": 31,
-   "vitorias": 12,
-   "empates": 11,
-   "derrotas": 8,
-   "golsPro": 42,
-   "golsContra": 33,
-   "saldo": 9
   },
   {
    "posicao": 10,
@@ -151,30 +151,30 @@
   {
    "posicao": 11,
    "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "time": "Goiás",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 45,
-   "jogos": 31,
-   "vitorias": 12,
-   "empates": 9,
-   "derrotas": 10,
-   "golsPro": 43,
-   "golsContra": 32,
-   "saldo": 11
+   "jogos": 32,
+   "vitorias": 13,
+   "empates": 6,
+   "derrotas": 13,
+   "golsPro": 32,
+   "golsContra": 40,
+   "saldo": -8
   },
   {
    "posicao": 12,
    "grupo": "",
-   "time": "Goiás",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "pontos": 42,
-   "jogos": 31,
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 45,
+   "jogos": 32,
    "vitorias": 12,
-   "empates": 6,
-   "derrotas": 13,
-   "golsPro": 30,
-   "golsContra": 39,
-   "saldo": -9
+   "empates": 9,
+   "derrotas": 11,
+   "golsPro": 44,
+   "golsContra": 34,
+   "saldo": 10
   },
   {
    "posicao": 13,
@@ -196,13 +196,13 @@
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 42,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 10,
    "empates": 12,
-   "derrotas": 9,
-   "golsPro": 37,
-   "golsContra": 35,
-   "saldo": 2
+   "derrotas": 10,
+   "golsPro": 38,
+   "golsContra": 37,
+   "saldo": 1
   },
   {
    "posicao": 15,
