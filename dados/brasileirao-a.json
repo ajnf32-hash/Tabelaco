@@ -6,35 +6,35 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-11T22:11:13.671Z",
+ "atualizado": "2026-10-12T01:27:25.439Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 61,
-   "jogos": 29,
-   "vitorias": 18,
+   "pontos": 64,
+   "jogos": 30,
+   "vitorias": 19,
    "empates": 7,
    "derrotas": 4,
-   "golsPro": 57,
+   "golsPro": 58,
    "golsContra": 25,
-   "saldo": 32
+   "saldo": 33
   },
   {
    "posicao": 2,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 60,
-   "jogos": 29,
-   "vitorias": 17,
+   "pontos": 63,
+   "jogos": 30,
+   "vitorias": 18,
    "empates": 9,
    "derrotas": 3,
-   "golsPro": 48,
-   "golsContra": 21,
-   "saldo": 27
+   "golsPro": 52,
+   "golsContra": 22,
+   "saldo": 30
   },
   {
    "posicao": 3,
@@ -42,13 +42,13 @@
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 51,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 14,
    "empates": 9,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 48,
-   "golsContra": 36,
-   "saldo": 12
+   "golsContra": 37,
+   "saldo": 11
   },
   {
    "posicao": 4,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Bahia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "pontos": 49,
+   "jogos": 30,
+   "vitorias": 13,
+   "empates": 10,
+   "derrotas": 7,
+   "golsPro": 44,
+   "golsContra": 36,
+   "saldo": 8
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 48,
@@ -79,7 +93,7 @@
    "saldo": 4
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
@@ -91,20 +105,6 @@
    "golsPro": 41,
    "golsContra": 35,
    "saldo": 6
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Bahia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 46,
-   "jogos": 29,
-   "vitorias": 12,
-   "empates": 10,
-   "derrotas": 7,
-   "golsPro": 43,
-   "golsContra": 36,
-   "saldo": 7
   },
   {
    "posicao": 8,
@@ -210,13 +210,13 @@
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 33,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 8,
    "empates": 9,
-   "derrotas": 12,
+   "derrotas": 13,
    "golsPro": 34,
-   "golsContra": 43,
-   "saldo": -9
+   "golsContra": 44,
+   "saldo": -10
   },
   {
    "posicao": 16,
@@ -224,26 +224,26 @@
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 32,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 13,
-   "golsPro": 30,
-   "golsContra": 34,
-   "saldo": -4
+   "derrotas": 14,
+   "golsPro": 31,
+   "golsContra": 38,
+   "saldo": -7
   },
   {
    "posicao": 17,
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "pontos": 31,
-   "jogos": 29,
+   "pontos": 32,
+   "jogos": 30,
    "vitorias": 7,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 12,
-   "golsPro": 32,
-   "golsContra": 37,
+   "golsPro": 33,
+   "golsContra": 38,
    "saldo": -5
   },
   {
@@ -251,13 +251,13 @@
    "grupo": "",
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "pontos": 30,
-   "jogos": 29,
+   "pontos": 31,
+   "jogos": 30,
    "vitorias": 7,
-   "empates": 9,
+   "empates": 10,
    "derrotas": 13,
-   "golsPro": 31,
-   "golsContra": 39,
+   "golsPro": 32,
+   "golsContra": 40,
    "saldo": -8
   },
   {
