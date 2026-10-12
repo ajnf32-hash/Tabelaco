@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-12T17:10:04.266Z",
+ "atualizado": "2026-10-12T23:41:14.067Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,13 +55,13 @@
    "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 56,
-   "jogos": 32,
+   "pontos": 57,
+   "jogos": 33,
    "vitorias": 15,
-   "empates": 11,
+   "empates": 12,
    "derrotas": 6,
-   "golsPro": 37,
-   "golsContra": 27,
+   "golsPro": 39,
+   "golsContra": 29,
    "saldo": 10
   },
   {
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 51,
-   "jogos": 32,
+   "pontos": 52,
+   "jogos": 33,
    "vitorias": 15,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 11,
-   "golsPro": 49,
-   "golsContra": 45,
+   "golsPro": 51,
+   "golsContra": 47,
    "saldo": 4
   },
   {
