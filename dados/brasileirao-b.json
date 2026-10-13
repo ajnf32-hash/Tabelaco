@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-12T23:41:14.067Z",
+ "atualizado": "2026-10-13T04:41:40.888Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Novorizontino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "pontos": 60,
+   "jogos": 33,
+   "vitorias": 17,
+   "empates": 9,
+   "derrotas": 7,
+   "golsPro": 59,
+   "golsContra": 28,
+   "saldo": 31
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "pontos": 60,
@@ -35,20 +49,6 @@
    "golsPro": 39,
    "golsContra": 21,
    "saldo": 18
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Novorizontino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 57,
-   "jogos": 32,
-   "vitorias": 16,
-   "empates": 9,
-   "derrotas": 7,
-   "golsPro": 54,
-   "golsContra": 27,
-   "saldo": 27
   },
   {
    "posicao": 4,
@@ -69,14 +69,14 @@
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 53,
-   "jogos": 32,
-   "vitorias": 15,
+   "pontos": 56,
+   "jogos": 33,
+   "vitorias": 16,
    "empates": 8,
    "derrotas": 9,
-   "golsPro": 33,
+   "golsPro": 34,
    "golsContra": 28,
-   "saldo": 5
+   "saldo": 6
   },
   {
    "posicao": 6,
@@ -196,13 +196,13 @@
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 42,
-   "jogos": 32,
+   "jogos": 33,
    "vitorias": 11,
    "empates": 9,
-   "derrotas": 12,
+   "derrotas": 13,
    "golsPro": 35,
-   "golsContra": 39,
-   "saldo": -4
+   "golsContra": 40,
+   "saldo": -5
   },
   {
    "posicao": 15,
@@ -223,14 +223,14 @@
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 38,
-   "jogos": 32,
-   "vitorias": 10,
+   "pontos": 41,
+   "jogos": 33,
+   "vitorias": 11,
    "empates": 8,
    "derrotas": 14,
-   "golsPro": 36,
+   "golsPro": 37,
    "golsContra": 38,
-   "saldo": -2
+   "saldo": -1
   },
   {
    "posicao": 17,
@@ -266,13 +266,13 @@
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "pontos": 17,
-   "jogos": 32,
+   "jogos": 33,
    "vitorias": 4,
    "empates": 5,
-   "derrotas": 23,
+   "derrotas": 24,
    "golsPro": 21,
-   "golsContra": 53,
-   "saldo": -32
+   "golsContra": 54,
+   "saldo": -33
   },
   {
    "posicao": 20,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 13,
-   "jogos": 32,
+   "jogos": 33,
    "vitorias": 3,
    "empates": 4,
-   "derrotas": 25,
-   "golsPro": 17,
-   "golsContra": 68,
-   "saldo": -51
+   "derrotas": 26,
+   "golsPro": 18,
+   "golsContra": 73,
+   "saldo": -55
   }
  ],
  "jogos": [],

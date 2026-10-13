@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-12T23:40:54.591Z",
+ "atualizado": "2026-10-13T04:41:22.339Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Athletico Paranaense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "pontos": 53,
+   "jogos": 30,
+   "vitorias": 15,
+   "empates": 8,
+   "derrotas": 7,
+   "golsPro": 49,
+   "golsContra": 35,
+   "saldo": 14
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 51,
@@ -48,20 +62,6 @@
    "derrotas": 7,
    "golsPro": 48,
    "golsContra": 37,
-   "saldo": 11
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Athletico Paranaense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 50,
-   "jogos": 29,
-   "vitorias": 14,
-   "empates": 8,
-   "derrotas": 7,
-   "golsPro": 45,
-   "golsContra": 34,
    "saldo": 11
   },
   {
@@ -84,13 +84,13 @@
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 48,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 14,
    "empates": 6,
-   "derrotas": 9,
-   "golsPro": 44,
-   "golsContra": 40,
-   "saldo": 4
+   "derrotas": 10,
+   "golsPro": 46,
+   "golsContra": 44,
+   "saldo": 2
   },
   {
    "posicao": 7,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Red Bull Bragantino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "pontos": 40,
+   "jogos": 30,
+   "vitorias": 11,
+   "empates": 7,
+   "derrotas": 12,
+   "golsPro": 38,
+   "golsContra": 35,
+   "saldo": 3
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
    "pontos": 39,
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
@@ -147,20 +161,6 @@
    "golsPro": 38,
    "golsContra": 48,
    "saldo": -10
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Red Bull Bragantino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 37,
-   "jogos": 29,
-   "vitorias": 10,
-   "empates": 7,
-   "derrotas": 12,
-   "golsPro": 34,
-   "golsContra": 33,
-   "saldo": 1
   },
   {
    "posicao": 12,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 18,
-   "jogos": 28,
+   "jogos": 29,
    "vitorias": 3,
    "empates": 9,
-   "derrotas": 16,
-   "golsPro": 29,
-   "golsContra": 57,
-   "saldo": -28
+   "derrotas": 17,
+   "golsPro": 30,
+   "golsContra": 61,
+   "saldo": -31
   }
  ],
  "jogos": [],
