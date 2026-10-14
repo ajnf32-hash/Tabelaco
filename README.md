@@ -51,44 +51,29 @@ há ainda um modo de **alto contraste** e três tamanhos de texto.
 | `dados/` | campeonatos, cores dos clubes e resultados |
 | `scripts/fetch-resultados.js` | o robô que busca e confere os placares |
 | `img/escudos/` | escudos desenhados, um arquivo por time |
-| `img/mascotes/` | mascotes desenhados, um arquivo por time |
-| `img/fundos/` | o mascote em versão marca d'água, para o fundo da tela de computador |
+| `img/fundo/tabelaco.jpg` | o fundo da tela de computador, igual para todos os times |
 | `DESIGN-STITCH.md` | as cores e fontes que deram origem ao visual |
 
-### Escudos e mascotes
+### Escudos
 
-Basta salvar o PNG em `img/escudos/` ou `img/mascotes/` com o nome do time em
-minúsculas e sem acento (`atletico-mg.png`). O app passa a usar o desenho no
-lugar da imagem que vem da fonte, e o mascote aparece na capa de quem torce por
-aquele clube.
+Basta salvar o PNG em `img/escudos/` com o nome do time em minúsculas e sem
+acento (`atletico-mg.png`). O app passa a usar o desenho no lugar da imagem que
+vem da fonte.
 
-Quem avisa o app de que o arquivo existe é o robô: a cada rodada ele lista as
-pastas e grava os nomes em `dados/indice.json`, no campo `locais`. Por isso
-um desenho novo entra no ar em até meia hora — ou na mesma hora, se você rodar
+Quem avisa o app de que o arquivo existe é o robô: a cada rodada ele lista a
+pasta e grava os nomes em `dados/indice.json`, no campo `locais`. Por isso
+um desenho novo entra no ar em até meia hora, ou na mesma hora, se você rodar
 `node scripts/fetch-resultados.js` depois de salvar.
 
 ### O fundo da tela de computador
 
-`img/fundos/<time>.jpg` é o mesmo mascote em outro traço, desenhado para ocupar
-a tela inteira. Ele entra como **marca d'água** atrás do conteúdo, a 7% de
-opacidade e desaparecendo antes do meio da tela — enfeite, nunca informação. Só
-aparece na versão de computador, e some no alto contraste, porque quem liga o
-alto contraste está pedindo que nada dispute com o texto.
-
-É a única pasta em `.jpg`: esses desenhos são opacos e de tela cheia. Em PNG
-pesavam 1,6 MB cada; em JPEG pesam 220 KB.
+`img/fundo/tabelaco.jpg` é o jogador de armadura do Tabelaço, o mesmo para
+todos os times. Ele entra como **marca d'água** atrás do conteúdo, só na versão
+de computador, e some no alto contraste, porque quem liga o alto contraste está
+pedindo que nada dispute com o texto.
 
 O mesmo arquivo alimenta o botão **Baixar wallpaper**, no rodapé da versão de
-computador — o torcedor leva para casa o papel de parede do time dele. Por isso a
-qualidade do JPEG é alta: ele não serve só de fundo desbotado, ele também é
-baixado e visto em tamanho real.
-
-Os três documentos que guiam esse trabalho, na ordem de uso:
-
-1. `TIMES-E-MASCOTES.md` — o censo: quais clubes têm mascote e quais não têm.
-2. `PROMPT-MESTRE-MASCOTES.md` — o texto que se cola **uma vez** no gerador de
-   imagem, para os 38 saírem com a mesma cara.
-3. `PEDIDOS-MASCOTES.md` — o pedido de cada time, um por um, para colar depois.
+computador. Por isso ele já traz as marcas do Tabelaço e da Cartago's.
 
 ## Contato
 

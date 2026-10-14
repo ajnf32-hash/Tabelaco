@@ -109,11 +109,9 @@ visual do Tabelaço. As quatro telas que o acompanham estão em `img/stitch/`:
 | `img/stitch/competition_hub.png` | escolha do campeonato |
 | `img/stitch/team_directory.png` | lista de clubes, com busca |
 | `img/stitch/team_profile.png` | página do time |
-| `img/stitch/mascot_spotlight.png` | galeria de mascotes |
 
-Das quatro, o app hoje segue o **estilo** de todas, mas só implementa a primeira
-ideia (a escolha do campeonato). A galeria de mascotes e a página do time ainda
-não existem — dependem de os mascotes ficarem prontos.
+Das três, o app hoje segue o **estilo** de todas, mas só implementa a primeira
+ideia (a escolha do campeonato). A página do time ainda não existe.
 
 Uma diferença combinada com o Annibal: o verde neon abaixo **não** é usado. O
 destaque do app é sempre a cor do time do coração, calculada em `pintar()`. O que

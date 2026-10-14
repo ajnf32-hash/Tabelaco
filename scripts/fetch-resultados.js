@@ -516,7 +516,7 @@ async function main() {
     resumo.push({ id: c.id, nome: c.nome, jogos: jogos.length, tabela: tabela.length, avisos: avisos.length });
   }
 
-  /* Quais escudos e mascotes o Annibal já desenhou.
+  /* Quais escudos o Annibal já desenhou.
 
      Sem esta lista o app tinha que adivinhar: pedia `img/escudos/<time>.png`
      para todo mundo e, quando não existia — que é o caso da quase totalidade —
@@ -535,11 +535,7 @@ async function main() {
           .sort();
       } catch { return []; }
     };
-    /* fundos: o mascote em versão marca d'água, que a tela de computador põe
-       atrás do conteúdo. É uma pasta à parte porque é outro desenho, feito para
-       ocupar a tela inteira — não a mesma imagem em outro tamanho. E em .jpg,
-       porque são opacos: em PNG pesavam dez vezes mais sem nenhum ganho. */
-    return { escudos: ler('escudos'), mascotes: ler('mascotes'), fundos: ler('fundos', '.jpg') };
+    return { escudos: ler('escudos') };
   }
 
   /* índice que o app lê primeiro, para montar o seletor sem baixar tudo */

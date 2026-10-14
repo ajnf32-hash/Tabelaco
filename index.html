@@ -91,8 +91,6 @@
         box-shadow:0 10px 30px rgba(0,0,0,.5);cursor:pointer;animation:pulso 2.2s infinite}
   #capa .entrar:active{transform:translateY(2px)}
   @keyframes pulso{0%,100%{transform:scale(1)}50%{transform:scale(1.04)}}
-  #mascote{position:absolute;left:-4px;bottom:-2px;width:46%;max-width:180px;z-index:1;
-        pointer-events:none;filter:drop-shadow(0 6px 14px rgba(0,0,0,.6))}
 
   /* ---------------- APP ---------------- */
   /* isolation cria o contexto de empilhamento que a marca d'água precisa: sem ele
@@ -100,7 +98,7 @@
   #app{height:100%;display:flex;flex-direction:column;background:var(--fundo);
        position:relative;isolation:isolate}
 
-  /* Marca d'água do mascote — o desenho do time do coração ao fundo da tela.
+  /* Marca d'água — o jogador de armadura do Tabelaço ao fundo da tela, igual para todos.
      Ela é enfeite, não informação: entra atrás de tudo (z-index negativo, que
      pinta acima do fundo do #app e abaixo do conteúdo) e não recebe clique.
 
@@ -112,7 +110,7 @@
 
      A máscara agora apenas suaviza a borda esquerda, em vez de apagar metade do
      desenho. */
-  #fundoMascote{
+  #fundo{
     position:absolute;inset:0;z-index:-1;pointer-events:none;display:none;
     background-repeat:no-repeat;
     background-position:right -4% center;
@@ -124,7 +122,7 @@
   /* Só na versão de computador, e nunca no alto contraste: quem liga o alto
      contraste está pedindo justamente que nada dispute com o texto. */
   @media (min-width: 920px){
-    html:not(.contraste-alto) #fundoMascote.tem{display:block}
+    html:not(.contraste-alto) #fundo.tem{display:block}
   }
 
   /* Faixa da marca. Ela é a única coisa da tela que NÃO troca de cor com o time:
@@ -420,7 +418,6 @@
     #capa .emblema{width:auto;max-width:none;height:min(320px,36vh)}
     #capa .host{font-size:19px;max-width:600px;margin-top:28px}
     #capa .entrar{font-size:26px;padding:18px 50px;margin-top:34px}
-    #mascote{width:auto;max-width:none;height:min(300px,34vh);left:5%;bottom:0}
 
     #marca{padding:12px 32px;gap:14px}
     #marca img{width:44px;height:44px;border-radius:11px}
@@ -541,11 +538,10 @@
     <img class="emblema" src="img/logo-capa.jpg" alt="Tabelaço">
     <div class="host">Todos os campeonatos que importam, o ano inteiro</div>
     <button class="entrar" id="entrar">Ver tabelas</button>
-    <img id="mascote" alt="" hidden>
   </div>
 
   <div id="app" hidden>
-    <div id="fundoMascote" aria-hidden="true"></div>
+    <div id="fundo" aria-hidden="true"></div>
     <div id="marca">
       <img src="icon-192.png" alt="Tabelaço">
       <span class="nome">Tabelaço</span>
@@ -583,8 +579,7 @@
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15.5 14h-.8l-.3-.3a6.5 6.5 0 10-.7.7l.3.3v.8l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 110-9 4.5 4.5 0 010 9zM7 9h2V7.5h1.2V9h2v1.2h-2v1.3H9v-1.3H7V9z"/></svg>
           Texto: <span id="txtTamanho">Padrão</span>
         </button>
-        <!-- Só existe quando o time do coração tem desenho de fundo; trocarFundo()
-             cuida disso. É um <a download> e não um botão porque baixar arquivo é
+        <!-- Só aparece depois que o fundo carregou; trocarFundo() cuida disso. É um <a download> e não um botão porque baixar arquivo é
              trabalho que o navegador já sabe fazer sozinho. -->
         <a class="acao" id="btWallpaper" hidden download>
           <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v10.6l3.3-3.3 1.4 1.4L12 17.4l-4.7-5.7 1.4-1.4L12 13.6V3h0zM5 19h14v2H5z"/></svg>
@@ -861,15 +856,13 @@ function aplicarAcessibilidade(redesenhar) {
    lista dentro do indice.json, em `locais`. Antes disso o app tentava adivinhar
    — pedia o arquivo para todos os times e tomava um 404 na cara em quase todos,
    dezenas de pedidos jogados fora a cada tela. Agora ele só pede o que existe. */
-const TEM_DESENHO = { escudos: null, mascotes: null, fundos: null };
+const TEM_DESENHO = { escudos: null };
 
 function anotarDesenhos(indice) {
   const l = indice && indice.locais;
   /* índice velho, ainda sem a lista: volta ao jeito antigo de tentar e ver no
      que dá. É o que mantém o app de pé se o robô ficar um tempo sem rodar. */
   TEM_DESENHO.escudos  = l && Array.isArray(l.escudos)  ? new Set(l.escudos)  : null;
-  TEM_DESENHO.mascotes = l && Array.isArray(l.mascotes) ? new Set(l.mascotes) : null;
-  TEM_DESENHO.fundos   = l && Array.isArray(l.fundos)   ? new Set(l.fundos)   : null;
 }
 
 const temDesenho = (tipo, nome) =>
@@ -883,62 +876,27 @@ function apelido(nome) {
   return String(nome || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '')
     .toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 }
-/* O mascote da capa é sempre o do time do coração. Não existe mascote genérico:
-   sem time escolhido, ou sem o desenho daquele clube, a capa fica limpa. */
-function trocarMascote() {
-  const img = $('#mascote');
-  if (!img) return;
-  img.hidden = true;
-  if (!S.time || !temDesenho('mascotes', S.time)) { img.removeAttribute('src'); return; }
-  img.onload  = () => { img.hidden = false; };
-  img.onerror = () => { img.onerror = null; img.hidden = true; };
-  img.src = `img/mascotes/${apelido(S.time)}.png`;
-}
-
-/* A marca d'água do fundo é o mesmo mascote em outro traço, desenhado para caber
-   atrás da tela inteira — por isso mora em img/fundos e não em img/mascotes.
-   Clube que ainda não tem o desenho dele cai no fundo do próprio Tabelaço, que é
-   o jogador de armadura. Antes a camada ficava vazia; para o torcedor de um clube
-   pequeno isso era o app dizendo que o time dele não conta. */
-const FUNDO_RESERVA = 'tabelaco';
-/* O time do coração está no campeonato que está na tela? Enquanto o campeonato
-   ainda não baixou, responde que sim: melhor não trocar o fundo à toa. */
-function jogaAqui(time) {
-  const d = S.dados[S.atual];
-  if (!d) return true;
-  return timesDoCampeonato(d).some(t => t.time === time);
-}
+/* O fundo é um só para todos os times: o jogador de armadura do próprio Tabelaço.
+   Desenho por clube saiu em 14/10/2026 — dava trabalho demais e arriscava
+   problema de direito de imagem. */
+const FUNDO = 'img/fundo/tabelaco.jpg';
 function trocarFundo() {
-  const camada = $('#fundoMascote');
+  const camada = $('#fundo');
   const baixar = $('#btWallpaper');
-  if (!camada) return;
-  /* Sem time escolhido o fundo tambem aparece: o do proprio Tabelaco, o jogador de
-     armadura. Antes a tela ficava limpa, e quem ainda nao escolheu clube via o app
-     mais pobre do que ele e. */
-  /* E tem que ser um time DESTE campeonato. Abrindo o Campeonato Inglês, o
-     escudo do time brasileiro do coração atrás da tabela não diz nada; ali o
-     fundo certo é o do próprio Tabelaço. */
-  const proprio = !!S.time && temDesenho('fundos', S.time) && jogaAqui(S.time);
+  if (!camada || camada.classList.contains('tem')) return;
   /* Só mostra depois que a imagem carregou. Ligar a camada antes deixaria um
      retângulo vazio no lugar durante o download, que numa marca d'água é pior
-     que não ter nenhuma. */
-  /* .jpg, e não .png como as outras pastas: estes desenhos são opacos e ocupam a
-     tela inteira. Em PNG davam 1,6 MB cada; em JPEG dão uns 300 KB a 1920x1080,
-     para uma camada que aparece a 7% de opacidade e onde ninguém distingue a
-     diferença. O tamanho é 1920x1080 porque o torcedor também BAIXA o arquivo e
-     põe na tela do computador dele. */
-  const url = `img/fundos/${proprio ? apelido(S.time) : FUNDO_RESERVA}.jpg`;
+     que não ter nenhuma. 1920x1080 em JPEG porque o torcedor também BAIXA o
+     arquivo e põe na tela do computador dele. */
+  const url = FUNDO;
   const teste = new Image();
   teste.onload = () => {
     camada.style.backgroundImage = `url("${url}")`;
     camada.classList.add('tem');
     if (baixar) {
       baixar.href = url;
-      /* o nome que o torcedor vê na pasta de downloads, não o apelido interno.
-         No fundo de reserva não entra o nome do clube: o desenho não é dele. */
-      baixar.setAttribute('download', proprio
-        ? `Tabelaço - ${S.time} (wallpaper).jpg`
-        : 'Tabelaço (wallpaper).jpg');
+      /* o nome que o torcedor vê na pasta de downloads */
+      baixar.setAttribute('download', 'Tabelaço (wallpaper).jpg');
       baixar.hidden = false;
     }
   };
@@ -1425,7 +1383,6 @@ function escolherTime(nome) {
   localStorage.setItem('tabelaco.time', nome);
   $('#gaveta').classList.remove('abre');
   pintar();
-  trocarMascote();
   trocarFundo();
   desenharTudo(true);
 }
@@ -1471,7 +1428,6 @@ async function iniciar() {
   /* as escolhas de contraste e tamanho de texto voltam antes de desenhar
      qualquer coisa, senão a tela pisca do jeito velho para o novo */
   aplicarAcessibilidade(false);
-  trocarMascote();
   trocarFundo();
 
   const salvo = localStorage.getItem('tabelaco.campeonato');
