@@ -91,7 +91,7 @@ async function usar(nomeTela, tamanho) {
   await pagina.waitForSelector('#carrossel table');
   confere(await pagina.$$eval('#carrossel table tbody tr', l => l.length) >= 20, 'Classificação mostra os 20 times');
   const abas = await pagina.$$('#pontos button');
-  confere(abas.length === 4, 'existem as 4 abas');
+  confere(abas.length === 5, 'existem as 5 abas');
   for (let i = 0; i < abas.length; i++) {
     /* as abas são redesenhadas a cada clique, por isso procura de novo */
     await pagina.click(`#pontos button:nth-child(${i + 1})`);
@@ -102,6 +102,8 @@ async function usar(nomeTela, tamanho) {
     confere(marcada, `aba ${i + 1} abre ao clicar`);
   }
   confere(await pagina.$$eval('#carrossel .jogo', l => l.length) > 0, 'aba Jogos mostra jogos');
+  confere(await pagina.$$eval('#carrossel .participantes .chip', l => l.length) >= 20, 'aba Times participantes mostra os times');
+  confere(await pagina.isVisible('header .escolha .rotulo'), 'texto "Selecione seu time" aparece');
 
   /* time do coração */
   await pagina.click('#btTorcida');
