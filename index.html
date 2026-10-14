@@ -213,6 +213,15 @@
         cursor:pointer;white-space:nowrap;transition:background .2s,color .2s,border-color .2s}
   #seletor button:hover{color:var(--txt)}
   #seletor button.on{background:var(--acc);color:var(--sobreAcc);border-color:var(--acc)}
+  /* Setas dos lados do seletor, só no celular: sem elas não dava para saber que
+     havia mais campeonatos escondidos à direita. Cada toque anda quase uma tela.
+     Na ponta, a seta daquele lado apaga. */
+  #faixaCamp{flex:0 0 auto;display:flex;align-items:center;background:var(--fundo)}
+  #faixaCamp #seletor{flex:1 1 auto;min-width:0}
+  .seta{flex:0 0 auto;width:34px;align-self:stretch;margin-top:8px;background:none;border:none;
+        color:var(--acc);font-size:24px;line-height:1;cursor:pointer;padding:0;
+        transition:opacity .2s}
+  .seta:disabled{opacity:.2;cursor:default}
 
   /* cabeçalho: o nome do campeonato em letra garrafal, como no desenho */
   header{padding:14px 14px 10px;flex:0 0 auto;
@@ -435,6 +444,7 @@
     #marca .assina{font-size:10px}
 
     /* barra dos campeonatos: todos visíveis, sem rolar de lado */
+    .seta{display:none}
     #seletor{flex-wrap:wrap;justify-content:center;overflow:visible;
              padding:18px 32px 12px;gap:8px}
     #seletor button{font-size:12px;padding:10px 18px}
@@ -448,7 +458,7 @@
        o lugar deles no celular; aqui a ordem é remontada para campeonatos, título,
        abas e conteúdo — de cima para baixo, do geral para o particular. */
     #marca{order:0}
-    #seletor{order:1}
+    #faixaCamp{order:1}
     header{order:2}
     #carrossel{order:4}
     #pontos{order:3;gap:4px;justify-content:center;padding:16px 32px 0;
@@ -562,7 +572,11 @@
         <span class="so-cel">Contato</span>
       </button>
     </div>
-    <div id="seletor"></div>
+    <div id="faixaCamp">
+      <button class="seta" id="setaEsq" aria-label="Campeonatos anteriores">‹</button>
+      <div id="seletor"></div>
+      <button class="seta" id="setaDir" aria-label="Mais campeonatos">›</button>
+    </div>
     <header>
       <h2 id="tituloCamp">—</h2>
       <div class="sub" id="subCamp"></div>
@@ -966,6 +980,7 @@ function desenharSeletor() {
     b.onclick = () => { abrirCampeonato(c.id); cx.scrollTo({ left: b.offsetLeft - 60, behavior:'smooth' }); };
     cx.appendChild(b);
   }
+  acenderSetas();
 }
 
 /* -------------------------------------------------- quantas colunas cabem */
@@ -1504,6 +1519,17 @@ addEventListener('resize', () => {
   clearTimeout(redesenho);
   redesenho = setTimeout(() => { if (S.atual) desenharTudo(true); }, 250);
 }, { passive: true });
+
+/* as setas do seletor de campeonatos */
+function acenderSetas() {
+  const cx = $('#seletor');
+  $('#setaEsq').disabled = cx.scrollLeft <= 2;
+  $('#setaDir').disabled = cx.scrollLeft + cx.clientWidth >= cx.scrollWidth - 2;
+}
+$('#setaEsq').onclick = () => $('#seletor').scrollBy({ left: -$('#seletor').clientWidth * .7, behavior: 'smooth' });
+$('#setaDir').onclick = () => $('#seletor').scrollBy({ left:  $('#seletor').clientWidth * .7, behavior: 'smooth' });
+$('#seletor').addEventListener('scroll', acenderSetas, { passive: true });
+addEventListener('resize', acenderSetas, { passive: true });
 
 $('#carrossel').addEventListener('scroll', () => {
   const cx = $('#carrossel');

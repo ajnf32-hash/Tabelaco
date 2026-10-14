@@ -86,7 +86,18 @@ async function usar(nomeTela, tamanho) {
     confere(!texto.includes('Não consegui'), `${c.curto} abre`);
   }
 
-  /* volta na Série A e passa pelas quatro abas */
+  /* no celular, as setas andam com a faixa de campeonatos */
+  if (tamanho.width < 920) {
+    await pagina.$eval('#seletor', c => c.scrollTo({ left: 0 }));
+    await pagina.waitForTimeout(300);
+    confere(await pagina.isDisabled('#setaEsq') && await pagina.isEnabled('#setaDir'), 'no começo só a seta da direita acende');
+    await pagina.click('#setaDir');
+    await pagina.waitForTimeout(700);
+    confere(await pagina.$eval('#seletor', c => c.scrollLeft) > 0, 'seta da direita mostra mais campeonatos');
+    confere(await pagina.isEnabled('#setaEsq'), 'depois disso a seta da esquerda acende');
+  }
+
+  /* volta na Série A e passa pelas abas */
   await pagina.click('#seletor button:text-is("Série A")');
   await pagina.waitForSelector('#carrossel table');
   confere(await pagina.$$eval('#carrossel table tbody tr', l => l.length) >= 20, 'Classificação mostra os 20 times');
