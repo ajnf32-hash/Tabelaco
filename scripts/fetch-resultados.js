@@ -113,10 +113,20 @@ function parecenca(a, b) {
 const ESPN = 'https://site.api.espn.com/apis/site/v2/sports/soccer';
 const ESPN_TABELA = 'https://site.api.espn.com/apis/v2/sports/soccer';
 
+/* Desde meados de setembro de 2026 a fonte recusa o pedido por intervalo
+   ("dates=20261010-20261020") com erro 400, e o robô passou a gravar os
+   campeonatos sem jogo nenhum. Pedido por mês inteiro ("dates=202610") continua
+   funcionando, então o robô pede mês a mês e recorta o intervalo aqui. */
 async function jogosESPN(slug, de, ate) {
-  const j = await pegaJSON(`${ESPN}/${slug}/scoreboard?dates=${compacta(de)}-${compacta(ate)}&limit=500`);
-  if (!j || !j.events) return [];
-  return j.events.map(e => {
+  const eventos = [];
+  const mes = new Date(Date.UTC(de.getUTCFullYear(), de.getUTCMonth(), 1));
+  while (mes <= ate) {
+    const j = await pegaJSON(`${ESPN}/${slug}/scoreboard?dates=${compacta(mes).slice(0, 6)}&limit=500`);
+    if (j && j.events) eventos.push(...j.events);
+    mes.setUTCMonth(mes.getUTCMonth() + 1);
+  }
+  const ini = iso(de), fim = iso(ate);
+  return eventos.filter(e => e.date.slice(0, 10) >= ini && e.date.slice(0, 10) <= fim).map(e => {
     const c = e.competitions[0];
     const mand = c.competitors.find(x => x.homeAway === 'home') || c.competitors[0];
     const vis = c.competitors.find(x => x.homeAway === 'away') || c.competitors[1];
