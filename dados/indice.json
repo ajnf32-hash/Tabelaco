@@ -1,93 +1,8 @@
 {
- "atualizado": "2026-10-14T07:53:17.666Z",
+ "atualizado": "2026-10-14T12:22:52.278Z",
  "temporada": 2026,
  "locais": {
-  "escudos": [],
-  "mascotes": [],
-  "fundos": [
-   "abc",
-   "ae-velo-clube",
-   "amazonas",
-   "america-mineiro",
-   "athletic",
-   "athletico-paranaense",
-   "atletico-goianiense",
-   "atletico-mg",
-   "avai",
-   "avenida",
-   "bahia",
-   "bangu",
-   "betim-fc",
-   "boavista",
-   "botafogo",
-   "botafogo-sp",
-   "capivariano",
-   "caxias-do-sul",
-   "ceara",
-   "chapecoense",
-   "confianca",
-   "corinthians",
-   "coritiba",
-   "crb",
-   "criciuma",
-   "cruzeiro",
-   "csa",
-   "cuiaba",
-   "democrata-gv",
-   "ec-noroeste",
-   "figueirense",
-   "flamengo",
-   "fluminense",
-   "fortaleza",
-   "goias",
-   "gremio",
-   "guarani",
-   "guarany-de-bage",
-   "inter-santa-maria",
-   "internacional",
-   "itabirito",
-   "joinville",
-   "juventude",
-   "londrina",
-   "madureira",
-   "manaus",
-   "marica",
-   "maringa",
-   "mirassol",
-   "monsoon",
-   "nautico",
-   "north-ec",
-   "nova-iguacu",
-   "novo-hamburgo",
-   "novorizontino",
-   "operario-pr",
-   "palmeiras",
-   "paysandu",
-   "ponte-preta",
-   "portuguesa",
-   "portuguesa-rj",
-   "pouso-alegre",
-   "primavera-sp",
-   "red-bull-bragantino",
-   "remo",
-   "sampaio-correa-rj",
-   "santa-cruz",
-   "santos",
-   "sao-bernardo",
-   "sao-jose-rs",
-   "sao-luiz-rs",
-   "sao-paulo",
-   "sport",
-   "tabelaco",
-   "tombense",
-   "uberlandia",
-   "urt",
-   "vasco-da-gama",
-   "vila-nova",
-   "vitoria",
-   "volta-redonda",
-   "ypiranga"
-  ]
+  "escudos": []
  },
  "campeonatos": [
   {
@@ -108,7 +23,7 @@
     11,
     12
    ],
-   "jogos": 0,
+   "jogos": 293,
    "temTabela": true
   },
   {
@@ -128,7 +43,7 @@
     10,
     11
    ],
-   "jogos": 0,
+   "jogos": 354,
    "temTabela": true
   },
   {
@@ -149,7 +64,7 @@
     10,
     11
    ],
-   "jogos": 0,
+   "jogos": 150,
    "temTabela": false
   },
   {
@@ -170,7 +85,7 @@
     10,
     11
    ],
-   "jogos": 0,
+   "jogos": 152,
    "temTabela": true
   },
   {
@@ -190,8 +105,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 54,
+   "temTabela": true
   },
   {
    "id": "ingles",
@@ -211,8 +126,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 88,
+   "temTabela": true
   },
   {
    "id": "espanhol",
@@ -232,8 +147,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 105,
+   "temTabela": true
   },
   {
    "id": "italiano",
@@ -253,8 +168,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 93,
+   "temTabela": true
   },
   {
    "id": "alemao",
@@ -274,8 +189,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 70,
+   "temTabela": true
   },
   {
    "id": "frances",
@@ -295,8 +210,8 @@
     4,
     5
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 78,
+   "temTabela": true
   },
   {
    "id": "carioca",
@@ -310,7 +225,7 @@
     3,
     4
    ],
-   "jogos": 0,
+   "jogos": 62,
    "temTabela": true
   },
   {
@@ -325,7 +240,7 @@
     3,
     4
    ],
-   "jogos": 0,
+   "jogos": 72,
    "temTabela": true
   },
   {
@@ -340,7 +255,7 @@
     3,
     4
    ],
-   "jogos": 0,
+   "jogos": 59,
    "temTabela": true
   },
   {
@@ -355,8 +270,8 @@
     3,
     4
    ],
-   "jogos": 0,
-   "temTabela": false
+   "jogos": 64,
+   "temTabela": true
   }
  ]
 }
