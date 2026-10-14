@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-13T23:21:23.519Z",
+ "atualizado": "2026-10-14T02:01:46.270Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -179,6 +179,20 @@
   {
    "posicao": 13,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 43,
+   "jogos": 33,
+   "vitorias": 10,
+   "empates": 13,
+   "derrotas": 10,
+   "golsPro": 40,
+   "golsContra": 39,
+   "saldo": 1
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 42,
@@ -191,7 +205,7 @@
    "saldo": -3
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
@@ -203,20 +217,6 @@
    "golsPro": 35,
    "golsContra": 40,
    "saldo": -5
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 42,
-   "jogos": 32,
-   "vitorias": 10,
-   "empates": 12,
-   "derrotas": 10,
-   "golsPro": 38,
-   "golsContra": 37,
-   "saldo": 1
   },
   {
    "posicao": 16,
@@ -251,13 +251,13 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 28,
-   "jogos": 32,
+   "pontos": 29,
+   "jogos": 33,
    "vitorias": 7,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 18,
-   "golsPro": 40,
-   "golsContra": 47,
+   "golsPro": 42,
+   "golsContra": 49,
    "saldo": -7
   },
   {
