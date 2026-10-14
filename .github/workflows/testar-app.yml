@@ -1,0 +1,27 @@
+name: Testar o app
+
+# Confere o Tabelaço no ar, do jeito que o torcedor usa: abre cada campeonato,
+# clica nas abas e nos botões, e vê se os dados estão em dia. Roda na infra do
+# GitHub, sem PC ligado e sem custo. Se falhar, o GitHub manda e-mail.
+on:
+  schedule:
+    - cron: '0 9 * * *'     # 6h da manhã em Brasília, antes do Annibal abrir
+    - cron: '0 21 * * *'    # 18h, para pegar o que quebrar durante o dia
+  workflow_dispatch:
+
+jobs:
+  testar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: testes
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: Testar
+        run: node testar-app.mjs
