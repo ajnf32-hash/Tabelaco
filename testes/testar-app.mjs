@@ -13,7 +13,7 @@
 import { chromium } from 'playwright';
 
 const SITE = (process.argv[2] || 'https://tabelaco.cartagossoftware.com').replace(/\/$/, '');
-const HORAS_SEM_ATUALIZAR = 3;   // o robô roda de meia em meia hora
+const HORAS_SEM_ATUALIZAR = 6;   // o robô roda de meia em meia hora, mas o GitHub às vezes atrasa horas
 const DIAS_SEM_JOGO = 45;        // campeonato em andamento sem jogo nesse raio está errado
 
 const falhas = [];
