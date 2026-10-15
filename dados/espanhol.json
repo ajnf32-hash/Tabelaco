@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-15T09:33:16.712Z",
+ "atualizado": "2026-10-15T14:33:35.392Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1861,7 +1861,7 @@
   },
   {
    "data": "2026-10-17",
-   "hora": "16:30",
+   "hora": "16:00",
    "rodada": "",
    "local": "Estadio La Cartuja",
    "cidade": "Sevilla",
