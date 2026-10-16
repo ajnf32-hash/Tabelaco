@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-16T20:18:04.261Z",
+ "atualizado": "2026-10-16T22:55:13.359Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Eintracht Frankfurt",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "pontos": 8,
+   "jogos": 6,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 10,
+   "golsContra": 16,
+   "saldo": -6
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Mainz",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
    "pontos": 7,
@@ -121,7 +135,7 @@
    "saldo": 3
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Elversberg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
@@ -135,21 +149,21 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Colônia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
    "pontos": 7,
-   "jogos": 5,
+   "jogos": 6,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 8,
-   "golsContra": 10,
-   "saldo": -2
+   "golsContra": 11,
+   "saldo": -3
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Stuttgart",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -163,7 +177,7 @@
    "saldo": -1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Hamburgo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
@@ -177,7 +191,7 @@
    "saldo": -10
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Schalke 04",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
@@ -189,20 +203,6 @@
    "golsPro": 4,
    "golsContra": 6,
    "saldo": -2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Eintracht Frankfurt",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
-   "pontos": 5,
-   "jogos": 5,
-   "vitorias": 1,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 9,
-   "golsContra": 16,
-   "saldo": -7
   },
   {
    "posicao": 15,
@@ -1135,10 +1135,10 @@
    "visitante": "Colônia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

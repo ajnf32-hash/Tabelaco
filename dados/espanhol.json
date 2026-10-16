@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-16T20:18:01.985Z",
+ "atualizado": "2026-10-16T22:55:11.478Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -111,13 +111,13 @@
    "grupo": "",
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-   "pontos": 10,
-   "jogos": 8,
+   "pontos": 11,
+   "jogos": 9,
    "vitorias": 2,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 2,
-   "golsPro": 12,
-   "golsContra": 11,
+   "golsPro": 13,
+   "golsContra": 12,
    "saldo": 1
   },
   {
@@ -237,13 +237,13 @@
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "pontos": 6,
-   "jogos": 7,
+   "pontos": 7,
+   "jogos": 8,
    "vitorias": 1,
-   "empates": 3,
+   "empates": 4,
    "derrotas": 3,
-   "golsPro": 11,
-   "golsContra": 15,
+   "golsPro": 12,
+   "golsContra": 16,
    "saldo": -4
   },
   {
@@ -1810,10 +1810,10 @@
    "visitante": "Levante",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
