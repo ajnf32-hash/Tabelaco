@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T00:54:47.477Z",
+ "atualizado": "2026-10-17T05:12:23.066Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -193,6 +193,20 @@
   {
    "posicao": 14,
    "grupo": "",
+   "time": "Mirassol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "pontos": 36,
+   "jogos": 31,
+   "vitorias": 9,
+   "empates": 9,
+   "derrotas": 13,
+   "golsPro": 36,
+   "golsContra": 44,
+   "saldo": -8
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 35,
@@ -203,20 +217,6 @@
    "golsPro": 36,
    "golsContra": 42,
    "saldo": -6
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Mirassol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "pontos": 33,
-   "jogos": 30,
-   "vitorias": 8,
-   "empates": 9,
-   "derrotas": 13,
-   "golsPro": 34,
-   "golsContra": 44,
-   "saldo": -10
   },
   {
    "posicao": 16,
@@ -238,13 +238,13 @@
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "pontos": 32,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 7,
    "empates": 11,
-   "derrotas": 12,
+   "derrotas": 13,
    "golsPro": 33,
-   "golsContra": 38,
-   "saldo": -5
+   "golsContra": 40,
+   "saldo": -7
   },
   {
    "posicao": 18,
@@ -5308,10 +5308,10 @@
    "visitante": "Internacional",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

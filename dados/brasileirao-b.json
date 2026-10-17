@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T00:54:50.786Z",
+ "atualizado": "2026-10-17T05:12:26.664Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,14 +55,14 @@
    "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 57,
-   "jogos": 33,
-   "vitorias": 15,
+   "pontos": 60,
+   "jogos": 34,
+   "vitorias": 16,
    "empates": 12,
    "derrotas": 6,
-   "golsPro": 39,
+   "golsPro": 41,
    "golsContra": 29,
-   "saldo": 10
+   "saldo": 12
   },
   {
    "posicao": 5,
@@ -112,13 +112,13 @@
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 51,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 13,
    "empates": 12,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 45,
-   "golsContra": 35,
-   "saldo": 10
+   "golsContra": 37,
+   "saldo": 8
   },
   {
    "posicao": 9,
@@ -6598,10 +6598,10 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
