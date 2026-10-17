@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T18:57:25.657Z",
+ "atualizado": "2026-10-17T21:12:57.810Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Lille",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "pontos": 14,
+   "jogos": 7,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 10,
+   "golsContra": 5,
+   "saldo": 5
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Monaco",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "pontos": 14,
@@ -34,20 +48,6 @@
    "derrotas": 0,
    "golsPro": 10,
    "golsContra": 5,
-   "saldo": 5
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Lille",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-   "pontos": 13,
-   "jogos": 6,
-   "vitorias": 4,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 9,
-   "golsContra": 4,
    "saldo": 5
   },
   {
@@ -95,6 +95,34 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Lens",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "pontos": 10,
+   "jogos": 7,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 11,
+   "saldo": 3
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
+   "time": "Brest",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+   "pontos": 9,
+   "jogos": 7,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 13,
+   "golsContra": 10,
+   "saldo": 3
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Toulouse",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
    "pontos": 9,
@@ -107,21 +135,7 @@
    "saldo": 1
   },
   {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Brest",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "pontos": 8,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 12,
-   "golsContra": 9,
-   "saldo": 3
-  },
-  {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Lorient",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Nice",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
@@ -147,20 +161,6 @@
    "golsPro": 5,
    "golsContra": 7,
    "saldo": -2
-  },
-  {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Lens",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "pontos": 7,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 11,
-   "golsContra": 10,
-   "saldo": 1
   },
   {
    "posicao": 12,
@@ -238,13 +238,13 @@
    "time": "Troyes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "pontos": 4,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 4,
-   "golsPro": 4,
-   "golsContra": 13,
-   "saldo": -9
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 16,
+   "saldo": -11
   },
   {
    "posicao": 18,
@@ -1346,10 +1346,10 @@
    "visitante": "Brest",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1366,10 +1366,10 @@
    "visitante": "Lens",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

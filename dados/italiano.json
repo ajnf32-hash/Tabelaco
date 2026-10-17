@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T18:57:23.782Z",
+ "atualizado": "2026-10-17T21:12:56.338Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Roma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "pontos": 17,
+   "jogos": 7,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 0,
+   "golsPro": 16,
+   "golsContra": 3,
+   "saldo": 13
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "pontos": 16,
@@ -35,20 +49,6 @@
    "golsPro": 11,
    "golsContra": 4,
    "saldo": 7
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Roma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
-   "pontos": 14,
-   "jogos": 6,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 0,
-   "golsPro": 14,
-   "golsContra": 3,
-   "saldo": 11
   },
   {
    "posicao": 4,
@@ -235,20 +235,6 @@
   {
    "posicao": 17,
    "grupo": "",
-   "time": "Genoa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-   "pontos": 4,
-   "jogos": 6,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 4,
-   "golsPro": 5,
-   "golsContra": 11,
-   "saldo": -6
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "pontos": 4,
@@ -261,7 +247,7 @@
    "saldo": -6
   },
   {
-   "posicao": 19,
+   "posicao": 18,
    "grupo": "",
    "time": "Fiorentina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
@@ -273,6 +259,20 @@
    "golsPro": 7,
    "golsContra": 14,
    "saldo": -7
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Genoa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "pontos": 4,
+   "jogos": 7,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 13,
+   "saldo": -8
   },
   {
    "posicao": 20,
@@ -1510,10 +1510,10 @@
    "visitante": "Genoa",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T18:57:22.808Z",
+ "atualizado": "2026-10-17T21:12:55.557Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Athletic Bilbao",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "pontos": 9,
+   "jogos": 7,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 6,
+   "saldo": 1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "pontos": 9,
@@ -133,20 +147,6 @@
    "golsPro": 13,
    "golsContra": 13,
    "saldo": 0
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Athletic Bilbao",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "pontos": 8,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 7,
-   "golsContra": 6,
-   "saldo": 1
   },
   {
    "posicao": 11,
@@ -265,10 +265,10 @@
    "grupo": "",
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "pontos": 5,
-   "jogos": 8,
+   "pontos": 6,
+   "jogos": 9,
    "vitorias": 1,
-   "empates": 2,
+   "empates": 3,
    "derrotas": 5,
    "golsPro": 6,
    "golsContra": 15,
@@ -1889,10 +1889,10 @@
    "visitante": "Athletic Bilbao",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
