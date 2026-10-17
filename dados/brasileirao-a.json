@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T21:12:43.539Z",
+ "atualizado": "2026-10-17T23:15:13.201Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Botafogo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "pontos": 39,
+   "jogos": 31,
+   "vitorias": 10,
+   "empates": 9,
+   "derrotas": 12,
+   "golsPro": 44,
+   "golsContra": 48,
+   "saldo": -4
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 39,
@@ -163,7 +177,7 @@
    "saldo": -10
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
@@ -175,20 +189,6 @@
    "golsPro": 33,
    "golsContra": 44,
    "saldo": -11
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Botafogo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
-   "pontos": 36,
-   "jogos": 30,
-   "vitorias": 9,
-   "empates": 9,
-   "derrotas": 12,
-   "golsPro": 43,
-   "golsContra": 48,
-   "saldo": -5
   },
   {
    "posicao": 14,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 18,
-   "jogos": 29,
+   "jogos": 30,
    "vitorias": 3,
    "empates": 9,
-   "derrotas": 17,
+   "derrotas": 18,
    "golsPro": 30,
-   "golsContra": 61,
-   "saldo": -31
+   "golsContra": 62,
+   "saldo": -32
   }
  ],
  "jogos": [
@@ -5328,10 +5328,10 @@
    "visitante": "Chapecoense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5351,7 +5351,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -5371,7 +5371,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
