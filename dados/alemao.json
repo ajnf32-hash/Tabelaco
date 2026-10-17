@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T16:32:55.056Z",
+ "atualizado": "2026-10-17T18:57:24.748Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Bayern de Munique",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "pontos": 14,
+   "jogos": 6,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 0,
+   "golsPro": 22,
+   "golsContra": 5,
+   "saldo": 17
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Borussia Dortmund",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
@@ -23,7 +37,7 @@
    "saldo": 7
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Freiburg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
@@ -35,20 +49,6 @@
    "golsPro": 14,
    "golsContra": 4,
    "saldo": 10
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Bayern de Munique",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-   "pontos": 11,
-   "jogos": 5,
-   "vitorias": 3,
-   "empates": 2,
-   "derrotas": 0,
-   "golsPro": 16,
-   "golsContra": 4,
-   "saldo": 12
   },
   {
    "posicao": 4,
@@ -98,13 +98,13 @@
    "time": "RB Leipzig",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
    "pontos": 9,
-   "jogos": 5,
+   "jogos": 6,
    "vitorias": 3,
    "empates": 0,
-   "derrotas": 2,
-   "golsPro": 15,
-   "golsContra": 5,
-   "saldo": 10
+   "derrotas": 3,
+   "golsPro": 16,
+   "golsContra": 11,
+   "saldo": 5
   },
   {
    "posicao": 8,
@@ -1254,10 +1254,10 @@
    "visitante": "RB Leipzig",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 6,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

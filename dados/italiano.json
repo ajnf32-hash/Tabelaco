@@ -6,21 +6,21 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T16:32:54.265Z",
+ "atualizado": "2026-10-17T18:57:23.782Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Inter de Milão",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-   "pontos": 16,
-   "jogos": 6,
-   "vitorias": 5,
+   "pontos": 19,
+   "jogos": 7,
+   "vitorias": 6,
    "empates": 1,
    "derrotas": 0,
-   "golsPro": 18,
-   "golsContra": 8,
-   "saldo": 10
+   "golsPro": 21,
+   "golsContra": 9,
+   "saldo": 12
   },
   {
    "posicao": 2,
@@ -196,13 +196,13 @@
    "time": "Bologna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "pontos": 5,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 1,
    "empates": 2,
-   "derrotas": 3,
-   "golsPro": 5,
-   "golsContra": 7,
-   "saldo": -2
+   "derrotas": 4,
+   "golsPro": 6,
+   "golsContra": 10,
+   "saldo": -4
   },
   {
    "posicao": 15,
@@ -1490,10 +1490,10 @@
    "visitante": "Inter de Milão",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1513,7 +1513,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

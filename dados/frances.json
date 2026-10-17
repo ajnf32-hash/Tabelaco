@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T16:32:55.851Z",
+ "atualizado": "2026-10-17T18:57:25.657Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Paris Saint-Germain",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "pontos": 14,
+   "jogos": 7,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 14,
+   "golsContra": 9,
+   "saldo": 5
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Monaco",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
@@ -23,7 +37,7 @@
    "saldo": 5
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
@@ -37,7 +51,7 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
@@ -51,7 +65,7 @@
    "saldo": 2
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -65,7 +79,7 @@
    "saldo": 7
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Paris FC",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
@@ -77,20 +91,6 @@
    "golsPro": 8,
    "golsContra": 4,
    "saldo": 4
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Paris Saint-Germain",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-   "pontos": 11,
-   "jogos": 6,
-   "vitorias": 3,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 11,
-   "golsContra": 8,
-   "saldo": 3
   },
   {
    "posicao": 7,
@@ -168,13 +168,13 @@
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "pontos": 7,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 3,
-   "golsPro": 11,
-   "golsContra": 12,
-   "saldo": -1
+   "derrotas": 4,
+   "golsPro": 12,
+   "golsContra": 15,
+   "saldo": -3
   },
   {
    "posicao": 13,
@@ -1326,10 +1326,10 @@
    "visitante": "Paris Saint-Germain",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1349,7 +1349,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1369,7 +1369,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
