@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T13:22:31.461Z",
+ "atualizado": "2026-10-17T16:32:53.479Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "pontos": 19,
-   "jogos": 8,
-   "vitorias": 6,
+   "pontos": 22,
+   "jogos": 9,
+   "vitorias": 7,
    "empates": 1,
    "derrotas": 1,
-   "golsPro": 18,
+   "golsPro": 19,
    "golsContra": 8,
-   "saldo": 10
+   "saldo": 11
   },
   {
    "posicao": 3,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Villarreal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "pontos": 9,
+   "jogos": 9,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 4,
+   "golsPro": 13,
+   "golsContra": 13,
+   "saldo": 0
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "pontos": 8,
@@ -135,32 +149,18 @@
    "saldo": 1
   },
   {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Villarreal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-   "pontos": 8,
-   "jogos": 8,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 4,
-   "golsPro": 13,
-   "golsContra": 13,
-   "saldo": 0
-  },
-  {
    "posicao": 11,
    "grupo": "",
    "time": "Espanyol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "pontos": 8,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 2,
    "empates": 2,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 11,
-   "golsContra": 11,
-   "saldo": 0
+   "golsContra": 12,
+   "saldo": -1
   },
   {
    "posicao": 12,
@@ -251,10 +251,10 @@
    "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-   "pontos": 6,
-   "jogos": 8,
+   "pontos": 7,
+   "jogos": 9,
    "vitorias": 1,
-   "empates": 3,
+   "empates": 4,
    "derrotas": 4,
    "golsPro": 11,
    "golsContra": 17,
@@ -1829,10 +1829,10 @@
    "visitante": "Atlético de Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1849,10 +1849,10 @@
    "visitante": "Elche",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1861,7 +1861,7 @@
   },
   {
    "data": "2026-10-17",
-   "hora": "16:00",
+   "hora": "16:30",
    "rodada": "",
    "local": "Estadio La Cartuja",
    "cidade": "Sevilla",

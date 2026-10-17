@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T13:22:32.212Z",
+ "atualizado": "2026-10-17T16:32:54.265Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -126,13 +126,13 @@
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "pontos": 10,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 3,
    "empates": 1,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 10,
-   "golsContra": 6,
-   "saldo": 4
+   "golsContra": 7,
+   "saldo": 3
   },
   {
    "posicao": 10,
@@ -279,14 +279,14 @@
    "grupo": "",
    "time": "Venezia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-   "pontos": 0,
-   "jogos": 6,
-   "vitorias": 0,
+   "pontos": 3,
+   "jogos": 7,
+   "vitorias": 1,
    "empates": 0,
    "derrotas": 6,
-   "golsPro": 5,
+   "golsPro": 6,
    "golsContra": 16,
-   "saldo": -11
+   "saldo": -10
   }
  ],
  "jogos": [
@@ -1470,10 +1470,10 @@
    "visitante": "Napoli",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1493,7 +1493,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
