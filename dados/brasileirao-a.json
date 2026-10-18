@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T23:15:13.201Z",
+ "atualizado": "2026-10-18T01:18:00.778Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Palmeiras",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "pontos": 66,
+   "jogos": 31,
+   "vitorias": 19,
+   "empates": 9,
+   "derrotas": 3,
+   "golsPro": 54,
+   "golsContra": 22,
+   "saldo": 32
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
@@ -23,32 +37,18 @@
    "saldo": 33
   },
   {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Palmeiras",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 63,
-   "jogos": 30,
-   "vitorias": 18,
-   "empates": 9,
-   "derrotas": 3,
-   "golsPro": 52,
-   "golsContra": 22,
-   "saldo": 30
-  },
-  {
    "posicao": 3,
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "pontos": 53,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 15,
    "empates": 8,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 49,
-   "golsContra": 35,
-   "saldo": 14
+   "golsContra": 37,
+   "saldo": 12
   },
   {
    "posicao": 4,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Atlético-MG",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "pontos": 50,
+   "jogos": 31,
+   "vitorias": 14,
+   "empates": 8,
+   "derrotas": 9,
+   "golsPro": 42,
+   "golsContra": 35,
+   "saldo": 7
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 49,
@@ -79,7 +93,7 @@
    "saldo": 8
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
@@ -91,20 +105,6 @@
    "golsPro": 46,
    "golsContra": 44,
    "saldo": 2
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Atlético-MG",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 47,
-   "jogos": 30,
-   "vitorias": 13,
-   "empates": 8,
-   "derrotas": 9,
-   "golsPro": 41,
-   "golsContra": 35,
-   "saldo": 6
   },
   {
    "posicao": 8,
@@ -168,13 +168,13 @@
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 39,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 10,
    "empates": 9,
-   "derrotas": 11,
+   "derrotas": 12,
    "golsPro": 38,
-   "golsContra": 48,
-   "saldo": -10
+   "golsContra": 49,
+   "saldo": -11
   },
   {
    "posicao": 13,
@@ -5073,11 +5073,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-09",
@@ -5093,11 +5092,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-10",
@@ -5348,10 +5346,10 @@
    "visitante": "Coritiba",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5368,10 +5366,10 @@
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5391,7 +5389,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"

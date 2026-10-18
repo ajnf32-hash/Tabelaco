@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-17T23:15:17.590Z",
+ "atualizado": "2026-10-18T01:18:05.364Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -140,13 +140,13 @@
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "pontos": 48,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 13,
    "empates": 9,
-   "derrotas": 11,
+   "derrotas": 12,
    "golsPro": 44,
-   "golsContra": 45,
-   "saldo": -1
+   "golsContra": 46,
+   "saldo": -2
   },
   {
    "posicao": 11,
@@ -265,14 +265,14 @@
    "grupo": "",
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "pontos": 17,
-   "jogos": 33,
-   "vitorias": 4,
+   "pontos": 20,
+   "jogos": 34,
+   "vitorias": 5,
    "empates": 5,
    "derrotas": 24,
-   "golsPro": 21,
+   "golsPro": 22,
    "golsContra": 54,
-   "saldo": -33
+   "saldo": -32
   },
   {
    "posicao": 20,
@@ -6638,10 +6638,10 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
