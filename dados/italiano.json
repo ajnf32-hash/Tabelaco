@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T11:29:05.430Z",
+ "atualizado": "2026-10-18T14:44:41.768Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Lecce",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+   "pontos": 9,
+   "jogos": 7,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 4,
+   "golsPro": 9,
+   "golsContra": 12,
+   "saldo": -3
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
    "pontos": 8,
@@ -163,7 +177,7 @@
    "saldo": -2
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Torino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
@@ -175,20 +189,6 @@
    "golsPro": 7,
    "golsContra": 9,
    "saldo": -2
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Lecce",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "pontos": 6,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 4,
-   "golsPro": 6,
-   "golsContra": 12,
-   "saldo": -6
   },
   {
    "posicao": 14,
@@ -207,20 +207,6 @@
   {
    "posicao": 15,
    "grupo": "",
-   "time": "Udinese",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-   "pontos": 4,
-   "jogos": 6,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 4,
-   "golsPro": 9,
-   "golsContra": 13,
-   "saldo": -4
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
    "time": "Monza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "pontos": 4,
@@ -233,7 +219,7 @@
    "saldo": -6
   },
   {
-   "posicao": 17,
+   "posicao": 16,
    "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
@@ -245,6 +231,20 @@
    "golsPro": 4,
    "golsContra": 10,
    "saldo": -6
+  },
+  {
+   "posicao": 17,
+   "grupo": "",
+   "time": "Udinese",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+   "pontos": 4,
+   "jogos": 7,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 9,
+   "golsContra": 16,
+   "saldo": -7
   },
   {
    "posicao": 18,
@@ -1530,10 +1530,10 @@
    "visitante": "Lecce",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1553,7 +1553,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
