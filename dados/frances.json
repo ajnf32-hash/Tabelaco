@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T14:44:43.445Z",
+ "atualizado": "2026-10-18T17:41:22.735Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Paris FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "pontos": 14,
+   "jogos": 7,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 12,
+   "golsContra": 7,
+   "saldo": 5
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
    "pontos": 14,
@@ -37,35 +51,35 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Monaco",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "pontos": 14,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 4,
    "empates": 2,
-   "derrotas": 0,
+   "derrotas": 1,
    "golsPro": 10,
-   "golsContra": 5,
-   "saldo": 5
+   "golsContra": 6,
+   "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
    "pontos": 13,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 4,
    "empates": 1,
-   "derrotas": 1,
-   "golsPro": 12,
-   "golsContra": 10,
-   "saldo": 2
+   "derrotas": 2,
+   "golsPro": 15,
+   "golsContra": 14,
+   "saldo": 1
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -79,21 +93,21 @@
    "saldo": 7
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
-   "time": "Paris FC",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "time": "Lorient",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "pontos": 11,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 3,
    "empates": 2,
-   "derrotas": 1,
-   "golsPro": 8,
-   "golsContra": 4,
-   "saldo": 4
+   "derrotas": 2,
+   "golsPro": 7,
+   "golsContra": 6,
+   "saldo": 1
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Lens",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
@@ -107,7 +121,35 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
+   "grupo": "",
+   "time": "Marselha",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "pontos": 9,
+   "jogos": 7,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 4,
+   "golsPro": 14,
+   "golsContra": 10,
+   "saldo": 4
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
+   "time": "Auxerre",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "pontos": 9,
+   "jogos": 7,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 4,
+   "golsPro": 11,
+   "golsContra": 17,
+   "saldo": -6
+  },
+  {
+   "posicao": 11,
    "grupo": "",
    "time": "Brest",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
@@ -121,7 +163,7 @@
    "saldo": 3
   },
   {
-   "posicao": 9,
+   "posicao": 12,
    "grupo": "",
    "time": "Toulouse",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
@@ -135,21 +177,7 @@
    "saldo": 1
   },
   {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Lorient",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-   "pontos": 8,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 6,
-   "golsContra": 6,
-   "saldo": 0
-  },
-  {
-   "posicao": 11,
+   "posicao": 13,
    "grupo": "",
    "time": "Nice",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
@@ -163,7 +191,7 @@
    "saldo": -2
   },
   {
-   "posicao": 12,
+   "posicao": 14,
    "grupo": "",
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
@@ -177,46 +205,18 @@
    "saldo": -3
   },
   {
-   "posicao": 13,
+   "posicao": 15,
    "grupo": "",
    "time": "Angers",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "pontos": 7,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 3,
-   "golsPro": 7,
-   "golsContra": 10,
-   "saldo": -3
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Marselha",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "pontos": 6,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 0,
    "derrotas": 4,
    "golsPro": 9,
-   "golsContra": 8,
-   "saldo": 1
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Auxerre",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-   "pontos": 6,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 4,
-   "golsPro": 8,
-   "golsContra": 16,
-   "saldo": -8
+   "golsContra": 15,
+   "saldo": -6
   },
   {
    "posicao": 16,
@@ -252,13 +252,13 @@
    "time": "Le Havre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "pontos": 2,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 0,
    "empates": 2,
-   "derrotas": 4,
-   "golsPro": 4,
-   "golsContra": 8,
-   "saldo": -4
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 11,
+   "saldo": -6
   }
  ],
  "jogos": [
@@ -1385,10 +1385,10 @@
    "visitante": "Marselha",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 5,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1405,10 +1405,10 @@
    "visitante": "Auxerre",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1425,10 +1425,10 @@
    "visitante": "Monaco",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1445,10 +1445,10 @@
    "visitante": "Rennes",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
