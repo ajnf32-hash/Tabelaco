@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T19:53:19.941Z",
+ "atualizado": "2026-10-18T22:05:44.915Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Lazio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "pontos": 19,
+   "jogos": 7,
+   "vitorias": 6,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 14,
+   "golsContra": 4,
+   "saldo": 10
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Roma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
    "pontos": 17,
@@ -35,20 +49,6 @@
    "golsPro": 16,
    "golsContra": 3,
    "saldo": 13
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Lazio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "pontos": 16,
-   "jogos": 6,
-   "vitorias": 5,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 11,
-   "golsContra": 4,
-   "saldo": 7
   },
   {
    "posicao": 4,
@@ -112,13 +112,13 @@
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "pontos": 11,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 3,
    "empates": 2,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 9,
-   "golsContra": 5,
-   "saldo": 4
+   "golsContra": 8,
+   "saldo": 1
   },
   {
    "posicao": 9,
@@ -1590,10 +1590,10 @@
    "visitante": "Lazio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

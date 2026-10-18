@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T19:53:10.542Z",
+ "atualizado": "2026-10-18T22:05:31.255Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -69,14 +69,14 @@
    "grupo": "",
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 56,
-   "jogos": 33,
-   "vitorias": 16,
+   "pontos": 59,
+   "jogos": 34,
+   "vitorias": 17,
    "empates": 8,
    "derrotas": 9,
-   "golsPro": 34,
+   "golsPro": 35,
    "golsContra": 28,
-   "saldo": 6
+   "saldo": 7
   },
   {
    "posicao": 6,
@@ -98,13 +98,13 @@
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 52,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 15,
    "empates": 7,
-   "derrotas": 11,
+   "derrotas": 12,
    "golsPro": 51,
-   "golsContra": 47,
-   "saldo": 4
+   "golsContra": 48,
+   "saldo": 3
   },
   {
    "posicao": 8,
@@ -168,16 +168,44 @@
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 46,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 12,
    "empates": 10,
-   "derrotas": 11,
+   "derrotas": 12,
    "golsPro": 46,
-   "golsContra": 36,
-   "saldo": 10
+   "golsContra": 37,
+   "saldo": 9
   },
   {
    "posicao": 13,
+   "grupo": "",
+   "time": "Botafogo-SP",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+   "pontos": 44,
+   "jogos": 34,
+   "vitorias": 12,
+   "empates": 8,
+   "derrotas": 14,
+   "golsPro": 38,
+   "golsContra": 38,
+   "saldo": 0
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 44,
+   "jogos": 34,
+   "vitorias": 10,
+   "empates": 14,
+   "derrotas": 10,
+   "golsPro": 40,
+   "golsContra": 39,
+   "saldo": 1
+  },
+  {
+   "posicao": 15,
    "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
@@ -191,21 +219,7 @@
    "saldo": -5
   },
   {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 43,
-   "jogos": 33,
-   "vitorias": 10,
-   "empates": 13,
-   "derrotas": 10,
-   "golsPro": 40,
-   "golsContra": 39,
-   "saldo": 1
-  },
-  {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
@@ -219,28 +233,14 @@
    "saldo": -3
   },
   {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Botafogo-SP",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 41,
-   "jogos": 33,
-   "vitorias": 11,
-   "empates": 8,
-   "derrotas": 14,
-   "golsPro": 37,
-   "golsContra": 38,
-   "saldo": -1
-  },
-  {
    "posicao": 17,
    "grupo": "",
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 36,
-   "jogos": 33,
+   "pontos": 37,
+   "jogos": 34,
    "vitorias": 10,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 17,
    "golsPro": 33,
    "golsContra": 43,
@@ -6658,10 +6658,10 @@
    "visitante": "Athletic",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6678,10 +6678,10 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6698,10 +6698,10 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6721,7 +6721,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"

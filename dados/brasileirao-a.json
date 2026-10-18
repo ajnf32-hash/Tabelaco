@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T19:53:07.027Z",
+ "atualizado": "2026-10-18T22:05:25.243Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,19 +53,33 @@
   {
    "posicao": 4,
    "grupo": "",
-   "time": "Fluminense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "pontos": 51,
-   "jogos": 30,
-   "vitorias": 14,
-   "empates": 9,
-   "derrotas": 7,
-   "golsPro": 48,
-   "golsContra": 37,
-   "saldo": 11
+   "jogos": 31,
+   "vitorias": 15,
+   "empates": 6,
+   "derrotas": 10,
+   "golsPro": 50,
+   "golsContra": 46,
+   "saldo": 4
   },
   {
    "posicao": 5,
+   "grupo": "",
+   "time": "Fluminense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "pontos": 51,
+   "jogos": 31,
+   "vitorias": 14,
+   "empates": 9,
+   "derrotas": 8,
+   "golsPro": 49,
+   "golsContra": 39,
+   "saldo": 10
+  },
+  {
+   "posicao": 6,
    "grupo": "",
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
@@ -79,7 +93,7 @@
    "saldo": 7
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
@@ -93,21 +107,21 @@
    "saldo": 8
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
-   "time": "Cruzeiro",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 48,
-   "jogos": 30,
-   "vitorias": 14,
-   "empates": 6,
+   "time": "Santos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "pontos": 45,
+   "jogos": 31,
+   "vitorias": 12,
+   "empates": 9,
    "derrotas": 10,
-   "golsPro": 46,
-   "golsContra": 44,
+   "golsPro": 48,
+   "golsContra": 46,
    "saldo": 2
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
@@ -118,20 +132,6 @@
    "derrotas": 13,
    "golsPro": 36,
    "golsContra": 35,
-   "saldo": 1
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Santos",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 42,
-   "jogos": 30,
-   "vitorias": 11,
-   "empates": 9,
-   "derrotas": 10,
-   "golsPro": 46,
-   "golsContra": 45,
    "saldo": 1
   },
   {
@@ -252,13 +252,13 @@
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "pontos": 31,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 7,
    "empates": 10,
-   "derrotas": 13,
-   "golsPro": 32,
-   "golsContra": 40,
-   "saldo": -8
+   "derrotas": 14,
+   "golsPro": 34,
+   "golsContra": 44,
+   "saldo": -10
   },
   {
    "posicao": 19,
@@ -5406,10 +5406,10 @@
    "visitante": "Santos",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5426,10 +5426,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5449,7 +5449,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

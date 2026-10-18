@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T19:53:19.091Z",
+ "atualizado": "2026-10-18T22:05:43.482Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Real Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "pontos": 21,
+   "jogos": 9,
+   "vitorias": 7,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 23,
+   "golsContra": 9,
+   "saldo": 14
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Real Betis",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "pontos": 19,
@@ -49,20 +63,6 @@
    "golsPro": 16,
    "golsContra": 14,
    "saldo": 2
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Real Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 18,
-   "jogos": 8,
-   "vitorias": 6,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 19,
-   "golsContra": 8,
-   "saldo": 11
   },
   {
    "posicao": 5,
@@ -84,13 +84,13 @@
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "pontos": 14,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 4,
    "empates": 2,
-   "derrotas": 2,
-   "golsPro": 13,
-   "golsContra": 12,
-   "saldo": 1
+   "derrotas": 3,
+   "golsPro": 14,
+   "golsContra": 16,
+   "saldo": -2
   },
   {
    "posicao": 7,
@@ -1968,10 +1968,10 @@
    "visitante": "Sevilla",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
