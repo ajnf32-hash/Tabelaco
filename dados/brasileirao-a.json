@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-19T00:18:08.581Z",
+ "atualizado": "2026-10-19T04:59:41.037Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -139,13 +139,13 @@
    "grupo": "",
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 40,
-   "jogos": 30,
+   "pontos": 41,
+   "jogos": 31,
    "vitorias": 11,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 12,
-   "golsPro": 38,
-   "golsContra": 35,
+   "golsPro": 39,
+   "golsContra": 36,
    "saldo": 3
   },
   {
@@ -265,13 +265,13 @@
    "grupo": "",
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "pontos": 25,
-   "jogos": 30,
+   "pontos": 26,
+   "jogos": 31,
    "vitorias": 5,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 15,
-   "golsPro": 33,
-   "golsContra": 48,
+   "golsPro": 34,
+   "golsContra": 49,
    "saldo": -15
   },
   {
@@ -5465,10 +5465,10 @@
    "visitante": "Red Bull Bragantino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
