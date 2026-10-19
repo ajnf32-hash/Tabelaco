@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-18T22:05:25.243Z",
+ "atualizado": "2026-10-19T00:18:08.581Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Flamengo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "pontos": 67,
+   "jogos": 31,
+   "vitorias": 20,
+   "empates": 7,
+   "derrotas": 4,
+   "golsPro": 61,
+   "golsContra": 25,
+   "saldo": 36
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
@@ -21,20 +35,6 @@
    "golsPro": 54,
    "golsContra": 22,
    "saldo": 32
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Flamengo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 64,
-   "jogos": 30,
-   "vitorias": 19,
-   "empates": 7,
-   "derrotas": 4,
-   "golsPro": 58,
-   "golsContra": 25,
-   "saldo": 33
   },
   {
    "posicao": 3,
@@ -98,13 +98,13 @@
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 49,
-   "jogos": 30,
+   "jogos": 31,
    "vitorias": 13,
    "empates": 10,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 44,
-   "golsContra": 36,
-   "saldo": 8
+   "golsContra": 39,
+   "saldo": 5
   },
   {
    "posicao": 8,
@@ -5111,11 +5111,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-11",
@@ -5446,10 +5445,10 @@
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5469,7 +5468,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
