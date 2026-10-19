@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-19T17:16:30.600Z",
+ "atualizado": "2026-10-19T21:38:31.941Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -210,13 +210,13 @@
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
    "pontos": 6,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 4,
-   "golsPro": 5,
-   "golsContra": 11,
-   "saldo": -6
+   "derrotas": 5,
+   "golsPro": 6,
+   "golsContra": 14,
+   "saldo": -8
   },
   {
    "posicao": 16,
@@ -235,6 +235,20 @@
   {
    "posicao": 17,
    "grupo": "",
+   "time": "Tottenham",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "pontos": 6,
+   "jogos": 7,
+   "vitorias": 1,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 6,
+   "golsContra": 10,
+   "saldo": -4
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
    "time": "Fulham",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
    "pontos": 5,
@@ -247,7 +261,7 @@
    "saldo": -3
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Nottingham Forest",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
@@ -261,7 +275,7 @@
    "saldo": -4
   },
   {
-   "posicao": 19,
+   "posicao": 20,
    "grupo": "",
    "time": "Sunderland",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
@@ -273,20 +287,6 @@
    "golsPro": 6,
    "golsContra": 14,
    "saldo": -8
-  },
-  {
-   "posicao": 20,
-   "grupo": "",
-   "time": "Tottenham",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-   "pontos": 3,
-   "jogos": 6,
-   "vitorias": 0,
-   "empates": 3,
-   "derrotas": 3,
-   "golsPro": 3,
-   "golsContra": 9,
-   "saldo": -6
   }
  ],
  "jogos": [
@@ -1624,10 +1624,10 @@
    "visitante": "Coventry City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

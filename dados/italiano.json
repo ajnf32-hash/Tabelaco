@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-19T17:16:32.193Z",
+ "atualizado": "2026-10-19T21:38:33.860Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -98,13 +98,13 @@
    "time": "Cagliari",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "pontos": 13,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 4,
    "empates": 1,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 6,
-   "golsContra": 3,
-   "saldo": 3
+   "golsContra": 7,
+   "saldo": -1
   },
   {
    "posicao": 8,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Torino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "pontos": 10,
+   "jogos": 7,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 9,
+   "saldo": 1
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "pontos": 9,
@@ -149,7 +163,7 @@
    "saldo": -1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
@@ -163,7 +177,7 @@
    "saldo": -3
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
@@ -177,21 +191,21 @@
    "saldo": -2
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
-   "time": "Torino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "time": "Monza",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "pontos": 7,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 3,
-   "golsPro": 7,
-   "golsContra": 9,
+   "derrotas": 4,
+   "golsPro": 13,
+   "golsContra": 15,
    "saldo": -2
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Bologna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
@@ -205,35 +219,7 @@
    "saldo": -4
   },
   {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Monza",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-   "pontos": 4,
-   "jogos": 6,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 4,
-   "golsPro": 9,
-   "golsContra": 15,
-   "saldo": -6
-  },
-  {
    "posicao": 16,
-   "grupo": "",
-   "time": "Parma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "pontos": 4,
-   "jogos": 6,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 4,
-   "golsPro": 4,
-   "golsContra": 10,
-   "saldo": -6
-  },
-  {
-   "posicao": 17,
    "grupo": "",
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
@@ -247,7 +233,7 @@
    "saldo": -7
   },
   {
-   "posicao": 18,
+   "posicao": 17,
    "grupo": "",
    "time": "Genoa",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
@@ -261,7 +247,7 @@
    "saldo": -8
   },
   {
-   "posicao": 19,
+   "posicao": 18,
    "grupo": "",
    "time": "Fiorentina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
@@ -272,6 +258,20 @@
    "derrotas": 5,
    "golsPro": 8,
    "golsContra": 17,
+   "saldo": -9
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
+   "time": "Parma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "pontos": 4,
+   "jogos": 7,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 5,
+   "golsPro": 4,
+   "golsContra": 13,
    "saldo": -9
   },
   {
@@ -1607,10 +1607,10 @@
    "visitante": "Cagliari",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1627,10 +1627,10 @@
    "visitante": "Torino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
