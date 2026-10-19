@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-19T04:59:41.037Z",
+ "atualizado": "2026-10-19T10:35:27.204Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5814,26 +5814,6 @@
   },
   {
    "data": "2026-10-29",
-   "hora": "22:30",
-   "rodada": "",
-   "local": "Couto Pereira",
-   "cidade": "Curitiba",
-   "mandante": "Coritiba",
-   "visitante": "Vitória",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-10-29",
    "hora": "23:00",
    "rodada": "",
    "local": "",
@@ -5891,6 +5871,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-10-31",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Couto Pereira",
+   "cidade": "Curitiba",
+   "mandante": "Coritiba",
+   "visitante": "Vitória",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []
