@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-19T21:38:24.534Z",
+ "atualizado": "2026-10-20T00:50:31.790Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -125,10 +125,10 @@
    "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
-   "pontos": 48,
-   "jogos": 33,
+   "pontos": 49,
+   "jogos": 34,
    "vitorias": 14,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 13,
    "golsPro": 34,
    "golsContra": 40,
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Náutico",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "pontos": 43,
+   "jogos": 34,
+   "vitorias": 11,
+   "empates": 10,
+   "derrotas": 13,
+   "golsPro": 39,
+   "golsContra": 42,
+   "saldo": -3
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 43,
@@ -217,20 +231,6 @@
    "golsPro": 37,
    "golsContra": 42,
    "saldo": -5
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Náutico",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 42,
-   "jogos": 33,
-   "vitorias": 11,
-   "empates": 9,
-   "derrotas": 13,
-   "golsPro": 39,
-   "golsContra": 42,
-   "saldo": -3
   },
   {
    "posicao": 17,
@@ -6384,11 +6384,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-11",
@@ -6404,7 +6403,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -6423,11 +6422,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-11",
@@ -6443,11 +6441,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-11",
@@ -6463,11 +6460,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-12",
@@ -6738,10 +6734,10 @@
    "visitante": "Náutico",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
