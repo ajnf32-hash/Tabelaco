@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-20T00:50:29.276Z",
+ "atualizado": "2026-10-20T05:33:56.288Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -181,13 +181,13 @@
    "grupo": "",
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "pontos": 36,
-   "jogos": 30,
+   "pontos": 37,
+   "jogos": 31,
    "vitorias": 10,
-   "empates": 6,
+   "empates": 7,
    "derrotas": 14,
-   "golsPro": 33,
-   "golsContra": 44,
+   "golsPro": 34,
+   "golsContra": 45,
    "saldo": -11
   },
   {
@@ -223,13 +223,13 @@
    "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-   "pontos": 32,
-   "jogos": 30,
+   "pontos": 33,
+   "jogos": 31,
    "vitorias": 8,
-   "empates": 8,
+   "empates": 9,
    "derrotas": 14,
-   "golsPro": 31,
-   "golsContra": 38,
+   "golsPro": 32,
+   "golsContra": 39,
    "saldo": -7
   },
   {
@@ -5478,10 +5478,10 @@
    "visitante": "Vitória",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
