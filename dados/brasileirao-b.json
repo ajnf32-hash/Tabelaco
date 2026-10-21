@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-20T22:32:48.488Z",
+ "atualizado": "2026-10-21T01:09:00.295Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -154,13 +154,13 @@
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 47,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 11,
    "empates": 14,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 32,
-   "golsContra": 26,
-   "saldo": 6
+   "golsContra": 27,
+   "saldo": 5
   },
   {
    "posicao": 12,
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 29,
-   "jogos": 33,
-   "vitorias": 7,
+   "pontos": 32,
+   "jogos": 34,
+   "vitorias": 8,
    "empates": 8,
    "derrotas": 18,
-   "golsPro": 42,
+   "golsPro": 43,
    "golsContra": 49,
-   "saldo": -7
+   "saldo": -6
   },
   {
    "posicao": 19,
@@ -6479,11 +6479,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-12",
@@ -6499,11 +6498,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-12",
@@ -6519,11 +6517,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-13",
@@ -6754,10 +6751,10 @@
    "visitante": "Cuiabá",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
