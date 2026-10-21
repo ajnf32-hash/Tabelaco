@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T20:47:41.269Z",
+ "atualizado": "2026-10-21T23:49:31.145Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Aston Villa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 12,
+   "golsContra": 3,
+   "saldo": 9
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Liverpool",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "pontos": 9,
@@ -37,7 +51,35 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
+   "posicao": 4,
+   "grupo": "",
+   "time": "Real Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 10,
+   "golsContra": 5,
+   "saldo": 5
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
+   "time": "Real Betis",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "pontos": 9,
+   "jogos": 3,
+   "vitorias": 3,
+   "empates": 0,
+   "derrotas": 0,
+   "golsPro": 7,
+   "golsContra": 4,
+   "saldo": 3
+  },
+  {
+   "posicao": 6,
    "grupo": "",
    "time": "Stuttgart",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -51,21 +93,21 @@
    "saldo": 5
   },
   {
-   "posicao": 4,
+   "posicao": 7,
    "grupo": "",
-   "time": "Aston Villa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-   "pontos": 6,
-   "jogos": 2,
+   "time": "Arsenal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "pontos": 7,
+   "jogos": 3,
    "vitorias": 2,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 0,
-   "golsPro": 9,
+   "golsPro": 6,
    "golsContra": 2,
-   "saldo": 7
+   "saldo": 4
   },
   {
-   "posicao": 5,
+   "posicao": 8,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -79,7 +121,7 @@
    "saldo": 5
   },
   {
-   "posicao": 6,
+   "posicao": 9,
    "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
@@ -93,7 +135,7 @@
    "saldo": 5
   },
   {
-   "posicao": 7,
+   "posicao": 10,
    "grupo": "",
    "time": "Manchester City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
@@ -107,63 +149,35 @@
    "saldo": 4
   },
   {
-   "posicao": 8,
+   "posicao": 11,
+   "grupo": "",
+   "time": "Brugge",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "pontos": 6,
+   "jogos": 3,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 9,
+   "golsContra": 6,
+   "saldo": 3
+  },
+  {
+   "posicao": 12,
    "grupo": "",
    "time": "Sporting",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
    "pontos": 6,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 2,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 5,
-   "golsContra": 1,
-   "saldo": 4
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Arsenal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 0,
-   "saldo": 4
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Real Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 6,
+   "derrotas": 1,
+   "golsPro": 7,
    "golsContra": 4,
-   "saldo": 2
+   "saldo": 3
   },
   {
-   "posicao": 11,
-   "grupo": "",
-   "time": "Real Betis",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "pontos": 6,
-   "jogos": 2,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 0,
-   "golsPro": 6,
-   "golsContra": 4,
-   "saldo": 2
-  },
-  {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Borussia Dortmund",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
@@ -177,21 +191,21 @@
    "saldo": 1
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Bayern de Munique",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
-   "pontos": 4,
-   "jogos": 2,
+   "pontos": 5,
+   "jogos": 3,
    "vitorias": 1,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 0,
-   "golsPro": 8,
-   "golsContra": 3,
+   "golsPro": 10,
+   "golsContra": 5,
    "saldo": 5
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Roma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
@@ -203,20 +217,6 @@
    "golsPro": 8,
    "golsContra": 5,
    "saldo": 3
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Shakhtar Donetsk",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-   "pontos": 4,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 4,
-   "golsContra": 2,
-   "saldo": 2
   },
   {
    "posicao": 16,
@@ -235,6 +235,20 @@
   {
    "posicao": 17,
    "grupo": "",
+   "time": "Shakhtar Donetsk",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
+   "pontos": 4,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 4,
+   "golsContra": 3,
+   "saldo": 1
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
    "time": "PSV",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
    "pontos": 4,
@@ -247,7 +261,7 @@
    "saldo": 0
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
@@ -261,24 +275,10 @@
    "saldo": 0
   },
   {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Brugge",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 6,
-   "golsContra": 6,
-   "saldo": 0
-  },
-  {
    "posicao": 20,
    "grupo": "",
-   "time": "Manchester United",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "time": "Inter de Milão",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
    "pontos": 3,
    "jogos": 3,
    "vitorias": 1,
@@ -291,15 +291,15 @@
   {
    "posicao": 21,
    "grupo": "",
-   "time": "Lens",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "time": "Manchester United",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "pontos": 3,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 1,
    "empates": 0,
-   "derrotas": 1,
-   "golsPro": 3,
-   "golsContra": 4,
+   "derrotas": 2,
+   "golsPro": 5,
+   "golsContra": 6,
    "saldo": -1
   },
   {
@@ -319,20 +319,6 @@
   {
    "posicao": 23,
    "grupo": "",
-   "time": "RB Leipzig",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-   "pontos": 3,
-   "jogos": 2,
-   "vitorias": 1,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 2,
-   "golsContra": 4,
-   "saldo": -2
-  },
-  {
-   "posicao": 24,
-   "grupo": "",
    "time": "Galatasaray",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
    "pontos": 3,
@@ -345,21 +331,21 @@
    "saldo": -3
   },
   {
-   "posicao": 25,
+   "posicao": 24,
    "grupo": "",
-   "time": "Feyenoord Rotterdam",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "time": "LASK",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
    "pontos": 3,
-   "jogos": 2,
+   "jogos": 3,
    "vitorias": 1,
    "empates": 0,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 7,
+   "derrotas": 2,
+   "golsPro": 6,
+   "golsContra": 9,
    "saldo": -3
   },
   {
-   "posicao": 26,
+   "posicao": 25,
    "grupo": "",
    "time": "Sabah FK",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
@@ -373,7 +359,35 @@
    "saldo": -3
   },
   {
+   "posicao": 26,
+   "grupo": "",
+   "time": "Feyenoord Rotterdam",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 4,
+   "golsContra": 8,
+   "saldo": -4
+  },
+  {
    "posicao": 27,
+   "grupo": "",
+   "time": "Lens",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 7,
+   "saldo": -4
+  },
+  {
+   "posicao": 28,
    "grupo": "",
    "time": "Bodo/Glimt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2980.png",
@@ -387,7 +401,7 @@
    "saldo": -5
   },
   {
-   "posicao": 28,
+   "posicao": 29,
    "grupo": "",
    "time": "AEK Atenas",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
@@ -401,7 +415,21 @@
    "saldo": -5
   },
   {
-   "posicao": 29,
+   "posicao": 30,
+   "grupo": "",
+   "time": "RB Leipzig",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "pontos": 3,
+   "jogos": 3,
+   "vitorias": 1,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 3,
+   "golsContra": 8,
+   "saldo": -5
+  },
+  {
+   "posicao": 31,
    "grupo": "",
    "time": "Fenerbahce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
@@ -415,21 +443,7 @@
    "saldo": -6
   },
   {
-   "posicao": 30,
-   "grupo": "",
-   "time": "Viking FK",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
-   "pontos": 1,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 4,
-   "golsContra": 6,
-   "saldo": -2
-  },
-  {
-   "posicao": 31,
+   "posicao": 32,
    "grupo": "",
    "time": "Slavia Praga",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
@@ -443,31 +457,17 @@
    "saldo": -3
   },
   {
-   "posicao": 32,
-   "grupo": "",
-   "time": "Inter de Milão",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
-   "pontos": 0,
-   "jogos": 2,
-   "vitorias": 0,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 4,
-   "golsContra": 6,
-   "saldo": -2
-  },
-  {
    "posicao": 33,
    "grupo": "",
-   "time": "LASK",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-   "pontos": 0,
-   "jogos": 2,
+   "time": "Viking FK",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+   "pontos": 1,
+   "jogos": 3,
    "vitorias": 0,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 2,
-   "golsPro": 3,
-   "golsContra": 7,
+   "golsPro": 5,
+   "golsContra": 9,
    "saldo": -4
   },
   {
@@ -1446,10 +1446,10 @@
    "visitante": "Viking FK",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1466,10 +1466,10 @@
    "visitante": "Arsenal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1486,10 +1486,10 @@
    "visitante": "Lens",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1506,10 +1506,10 @@
    "visitante": "Shakhtar Donetsk",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/493.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1526,10 +1526,10 @@
    "visitante": "Feyenoord Rotterdam",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1546,10 +1546,10 @@
    "visitante": "RB Leipzig",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 4,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1566,10 +1566,10 @@
    "visitante": "LASK",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4411.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
