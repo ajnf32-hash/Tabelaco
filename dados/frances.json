@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T06:12:22.847Z",
+ "atualizado": "2026-10-21T12:07:34.362Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1489,26 +1489,6 @@
   },
   {
    "data": "2026-10-24",
-   "hora": "15:15",
-   "rodada": "",
-   "local": "Stadium Municipal de Toulouse",
-   "cidade": "Toulouse",
-   "mandante": "Toulouse",
-   "visitante": "Troyes",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-10-24",
    "hora": "18:45",
    "rodada": "",
    "local": "Stade Bollaert-Delelis",
@@ -1625,6 +1605,26 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-10-25",
+   "hora": "16:15",
+   "rodada": "",
+   "local": "Stadium Municipal de Toulouse",
+   "cidade": "Toulouse",
+   "mandante": "Toulouse",
+   "visitante": "Troyes",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-10-25",
