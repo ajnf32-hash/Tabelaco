@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:24.861Z",
+ "atualizado": "2026-10-22T02:35:36.610Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -6536,11 +6536,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-13",
@@ -6556,11 +6555,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-16",
@@ -7030,6 +7028,66 @@
    "visitante": "Avaí",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estadio VGD",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Arena Pantanal",
+   "cidade": "Cuiabá",
+   "mandante": "Cuiabá",
+   "visitante": "São Bernardo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "21:30",
+   "rodada": "",
+   "local": "Estádio Dr. Jorge Ismael de Biasi",
+   "cidade": "Novo Horizonte",
+   "mandante": "Novorizontino",
+   "visitante": "Operário PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

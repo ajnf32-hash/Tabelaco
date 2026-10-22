@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:34.463Z",
+ "atualizado": "2026-10-22T02:35:49.474Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1605,6 +1605,45 @@
    "visitante": "Borussia Dortmund",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "Stadion An der Alten Försterei",
+   "cidade": "Berlin",
+   "mandante": "Union Berlin",
+   "visitante": "Colônia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

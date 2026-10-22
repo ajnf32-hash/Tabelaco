@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-10-21T23:49:39.407Z",
+ "atualizado": "2026-10-22T02:35:54.909Z",
  "temporada": 2026,
  "locais": {
   "escudos": []
@@ -43,7 +43,7 @@
     10,
     11
    ],
-   "jogos": 354,
+   "jogos": 357,
    "temTabela": true
   },
   {
@@ -64,7 +64,7 @@
     10,
     11
    ],
-   "jogos": 150,
+   "jogos": 152,
    "temTabela": false
   },
   {
@@ -126,7 +126,7 @@
     4,
     5
    ],
-   "jogos": 88,
+   "jogos": 89,
    "temTabela": true
   },
   {
@@ -147,7 +147,7 @@
     4,
     5
    ],
-   "jogos": 105,
+   "jogos": 109,
    "temTabela": true
   },
   {
@@ -168,7 +168,7 @@
     4,
     5
    ],
-   "jogos": 93,
+   "jogos": 98,
    "temTabela": true
   },
   {
@@ -189,7 +189,7 @@
     4,
     5
    ],
-   "jogos": 70,
+   "jogos": 72,
    "temTabela": true
   },
   {
@@ -210,7 +210,7 @@
     4,
     5
    ],
-   "jogos": 78,
+   "jogos": 81,
    "temTabela": true
   },
   {

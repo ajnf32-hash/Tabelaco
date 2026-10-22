@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-10-21T23:49:27.015Z",
+ "atualizado": "2026-10-22T02:35:39.970Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2858,6 +2858,46 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "19:00",
+   "rodada": "1st Leg",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Vasco da Gama",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "21:30",
+   "rodada": "1st Leg",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []

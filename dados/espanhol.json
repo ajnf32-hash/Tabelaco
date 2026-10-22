@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:32.717Z",
+ "atualizado": "2026-10-22T02:35:47.435Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2299,6 +2299,86 @@
    "visitante": "Alavés",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Estadio Coliseum",
+   "cidade": "Getafe",
+   "mandante": "Getafe",
+   "visitante": "Sevilla",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "El Sardineros",
+   "cidade": "Santander",
+   "mandante": "Racing Santander",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Estadio Martínez Valero",
+   "cidade": "Elche",
+   "mandante": "Elche",
+   "visitante": "Valencia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Bilbao",
+   "visitante": "Real Sociedad",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

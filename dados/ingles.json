@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:31.899Z",
+ "atualizado": "2026-10-22T02:35:46.428Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1980,6 +1980,26 @@
    "visitante": "Fulham",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Anfield",
+   "cidade": "Liverpool",
+   "mandante": "Liverpool",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

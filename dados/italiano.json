@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:33.550Z",
+ "atualizado": "2026-10-22T02:35:48.549Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2080,6 +2080,106 @@
    "visitante": "Inter de Milão",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "11:30",
+   "rodada": "",
+   "local": "Giuseppe Sinigaglia",
+   "cidade": "Como",
+   "mandante": "Como",
+   "visitante": "Venezia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Stadio Benito Stirpe",
+   "cidade": "Frosinone",
+   "mandante": "Frosinone",
+   "visitante": "Torino",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Olimpico",
+   "cidade": "Roma",
+   "mandante": "Lazio",
+   "visitante": "Cagliari",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "17:00",
+   "rodada": "",
+   "local": "Via Del Mare",
+   "cidade": "Lecce",
+   "mandante": "Lecce",
+   "visitante": "Genoa",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Allianz Stadium",
+   "cidade": "Torino",
+   "mandante": "Juventus",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

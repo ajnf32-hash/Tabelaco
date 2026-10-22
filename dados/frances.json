@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-21T23:49:35.253Z",
+ "atualizado": "2026-10-22T02:35:50.632Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1755,6 +1755,66 @@
    "visitante": "Le Mans",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Stade de la Meinau",
+   "cidade": "Strasbourg",
+   "mandante": "Strasbourg",
+   "visitante": "Auxerre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "16:15",
+   "rodada": "",
+   "local": "Stade Jean Bouin",
+   "cidade": "Paris",
+   "mandante": "Paris FC",
+   "visitante": "Monaco",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marselha",
+   "visitante": "Toulouse",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
