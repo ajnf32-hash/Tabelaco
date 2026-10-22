@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T02:35:43.728Z",
+ "atualizado": "2026-10-22T08:08:37.623Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3312,17 +3312,17 @@
   {
    "data": "2026-10-22",
    "hora": "00:30",
-   "rodada": "2nd Leg - Tied on aggregate",
+   "rodada": "2nd Leg - Tied on aggregate - PAL win 5-3 on penalties",
    "local": "Allianz Parque",
    "cidade": "Sao Paulo",
    "mandante": "Palmeiras",
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Shootout",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
    "fontes": [
     "espn",
     "fotmob"
