@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-23T10:18:18.570Z",
+ "atualizado": "2026-10-23T15:16:20.255Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1627,8 +1627,8 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-10-25",
-   "hora": "19:45",
+   "data": "2026-10-26",
+   "hora": "19:30",
    "rodada": "",
    "local": "Parc des Princes",
    "cidade": "Paris",
