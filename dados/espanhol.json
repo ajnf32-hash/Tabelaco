@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-23T19:23:34.594Z",
+ "atualizado": "2026-10-23T22:26:10.505Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
-   "pontos": 11,
-   "jogos": 9,
+   "pontos": 12,
+   "jogos": 10,
    "vitorias": 3,
-   "empates": 2,
+   "empates": 3,
    "derrotas": 4,
-   "golsPro": 13,
-   "golsContra": 10,
+   "golsPro": 14,
+   "golsContra": 11,
    "saldo": 3
   },
   {
@@ -279,13 +279,13 @@
    "grupo": "",
    "time": "Málaga",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "pontos": 4,
-   "jogos": 9,
+   "pontos": 5,
+   "jogos": 10,
    "vitorias": 0,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 5,
-   "golsPro": 6,
-   "golsContra": 18,
+   "golsPro": 7,
+   "golsContra": 19,
    "saldo": -12
   }
  ],
@@ -2020,10 +2020,10 @@
    "visitante": "Málaga",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

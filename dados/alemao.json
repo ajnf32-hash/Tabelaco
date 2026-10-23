@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-23T19:23:36.541Z",
+ "atualizado": "2026-10-23T22:26:12.304Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -179,20 +179,6 @@
   {
    "posicao": 13,
    "grupo": "",
-   "time": "Stuttgart",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
-   "pontos": 6,
-   "jogos": 6,
-   "vitorias": 2,
-   "empates": 0,
-   "derrotas": 4,
-   "golsPro": 8,
-   "golsContra": 10,
-   "saldo": -2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
    "time": "Hoffenheim",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
    "pontos": 6,
@@ -202,6 +188,20 @@
    "derrotas": 4,
    "golsPro": 11,
    "golsContra": 14,
+   "saldo": -3
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
+   "time": "Stuttgart",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
+   "pontos": 6,
+   "jogos": 7,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 13,
    "saldo": -3
   },
   {
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Borussia Mönchengladbach",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "pontos": 0,
-   "jogos": 6,
-   "vitorias": 0,
+   "pontos": 3,
+   "jogos": 7,
+   "vitorias": 1,
    "empates": 0,
    "derrotas": 6,
-   "golsPro": 8,
-   "golsContra": 20,
-   "saldo": -12
+   "golsPro": 11,
+   "golsContra": 22,
+   "saldo": -11
   }
  ],
  "jogos": [
@@ -1306,10 +1306,10 @@
    "visitante": "Borussia Mönchengladbach",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

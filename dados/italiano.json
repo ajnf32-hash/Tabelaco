@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-23T19:23:35.627Z",
+ "atualizado": "2026-10-23T22:26:11.538Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Torino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 13,
+   "golsContra": 11,
+   "saldo": 2
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Cagliari",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "pontos": 13,
@@ -107,7 +121,7 @@
    "saldo": -1
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Juventus",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
@@ -121,7 +135,7 @@
    "saldo": 1
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
@@ -133,20 +147,6 @@
    "golsPro": 10,
    "golsContra": 7,
    "saldo": 3
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Torino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
-   "pontos": 10,
-   "jogos": 7,
-   "vitorias": 3,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 10,
-   "golsContra": 9,
-   "saldo": 1
   },
   {
    "posicao": 11,
@@ -196,13 +196,13 @@
    "time": "Monza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "pontos": 7,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 2,
    "empates": 1,
-   "derrotas": 4,
-   "golsPro": 13,
-   "golsContra": 15,
-   "saldo": -2
+   "derrotas": 5,
+   "golsPro": 15,
+   "golsContra": 18,
+   "saldo": -3
   },
   {
    "posicao": 15,
@@ -1640,10 +1640,10 @@
    "visitante": "Monza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/239.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
