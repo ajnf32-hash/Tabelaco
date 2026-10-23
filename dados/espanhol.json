@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T21:48:07.963Z",
+ "atualizado": "2026-10-23T00:15:57.430Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2388,6 +2388,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riazor",
+   "cidade": "La Coruña",
+   "mandante": "Deportivo",
+   "visitante": "Osasuna",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []

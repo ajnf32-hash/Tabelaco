@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T21:47:55.034Z",
+ "atualizado": "2026-10-23T00:15:45.280Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5883,6 +5883,25 @@
     "fotmob"
    ],
    "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Municipal Cicero de Souza Marques",
+   "cidade": "Bragança Paulista",
+   "mandante": "Red Bull Bragantino",
+   "visitante": "Santos",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   }
  ],
  "avisos": []

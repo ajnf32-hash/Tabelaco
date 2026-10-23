@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T21:47:58.726Z",
+ "atualizado": "2026-10-23T00:15:48.909Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -7088,6 +7088,65 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Fortaleza",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "21:00",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Ceará",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "23:30",
+   "rodada": "",
+   "local": "Estádio da Serrinha",
+   "cidade": "Goiãnia",
+   "mandante": "Goiás",
+   "visitante": "CRB",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

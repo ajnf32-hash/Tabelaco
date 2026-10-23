@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T21:48:08.914Z",
+ "atualizado": "2026-10-23T00:15:58.440Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2180,6 +2180,46 @@
    "visitante": "Napoli",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Mapei Stadium",
+   "cidade": "Reggio Emilia",
+   "mandante": "Sassuolo",
+   "visitante": "Fiorentina",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "New Balance Arena",
+   "cidade": "Bergamo",
+   "mandante": "Atalanta",
+   "visitante": "Parma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

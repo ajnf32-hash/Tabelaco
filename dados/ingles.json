@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-22T21:48:06.995Z",
+ "atualizado": "2026-10-23T00:15:56.444Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2000,6 +2000,26 @@
    "visitante": "Arsenal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle",
+   "visitante": "Everton",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
