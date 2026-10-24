@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T19:36:37.442Z",
+ "atualizado": "2026-10-24T22:08:33.811Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -27,14 +27,14 @@
    "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "pontos": 22,
-   "jogos": 9,
-   "vitorias": 7,
+   "pontos": 25,
+   "jogos": 10,
+   "vitorias": 8,
    "empates": 1,
    "derrotas": 1,
-   "golsPro": 19,
+   "golsPro": 20,
    "golsContra": 8,
-   "saldo": 11
+   "saldo": 12
   },
   {
    "posicao": 3,
@@ -168,13 +168,13 @@
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
    "pontos": 11,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 2,
    "empates": 5,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 13,
-   "golsContra": 12,
-   "saldo": 1
+   "golsContra": 13,
+   "saldo": 0
   },
   {
    "posicao": 13,
@@ -2100,10 +2100,10 @@
    "visitante": "Deportivo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

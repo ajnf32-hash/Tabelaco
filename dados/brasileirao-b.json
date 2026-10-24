@@ -6,35 +6,35 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T19:36:29.357Z",
+ "atualizado": "2026-10-24T22:08:24.538Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
-   "time": "Vila Nova",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "pontos": 62,
-   "jogos": 34,
+   "time": "Novorizontino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "pontos": 64,
+   "jogos": 35,
    "vitorias": 18,
-   "empates": 8,
-   "derrotas": 8,
-   "golsPro": 48,
-   "golsContra": 33,
-   "saldo": 15
+   "empates": 10,
+   "derrotas": 7,
+   "golsPro": 62,
+   "golsContra": 30,
+   "saldo": 32
   },
   {
    "posicao": 2,
    "grupo": "",
-   "time": "Novorizontino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 61,
-   "jogos": 34,
-   "vitorias": 17,
-   "empates": 10,
-   "derrotas": 7,
-   "golsPro": 61,
-   "golsContra": 30,
-   "saldo": 31
+   "time": "Vila Nova",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "pontos": 62,
+   "jogos": 35,
+   "vitorias": 18,
+   "empates": 8,
+   "derrotas": 9,
+   "golsPro": 50,
+   "golsContra": 36,
+   "saldo": 14
   },
   {
    "posicao": 3,
@@ -81,20 +81,6 @@
   {
    "posicao": 6,
    "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 54,
-   "jogos": 34,
-   "vitorias": 14,
-   "empates": 12,
-   "derrotas": 8,
-   "golsPro": 42,
-   "golsContra": 32,
-   "saldo": 10
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 54,
@@ -104,6 +90,20 @@
    "derrotas": 9,
    "golsPro": 47,
    "golsContra": 38,
+   "saldo": 9
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 54,
+   "jogos": 35,
+   "vitorias": 14,
+   "empates": 12,
+   "derrotas": 9,
+   "golsPro": 42,
+   "golsContra": 33,
    "saldo": 9
   },
   {
@@ -151,6 +151,34 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 49,
+   "jogos": 35,
+   "vitorias": 13,
+   "empates": 10,
+   "derrotas": 12,
+   "golsPro": 49,
+   "golsContra": 39,
+   "saldo": 10
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
+   "time": "Botafogo-SP",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+   "pontos": 47,
+   "jogos": 35,
+   "vitorias": 13,
+   "empates": 8,
+   "derrotas": 14,
+   "golsPro": 40,
+   "golsContra": 38,
+   "saldo": 2
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 47,
@@ -161,34 +189,6 @@
    "golsPro": 32,
    "golsContra": 27,
    "saldo": 5
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 46,
-   "jogos": 34,
-   "vitorias": 12,
-   "empates": 10,
-   "derrotas": 12,
-   "golsPro": 46,
-   "golsContra": 37,
-   "saldo": 9
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Botafogo-SP",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 44,
-   "jogos": 34,
-   "vitorias": 12,
-   "empates": 8,
-   "derrotas": 14,
-   "golsPro": 38,
-   "golsContra": 38,
-   "saldo": 0
   },
   {
    "posicao": 14,
@@ -238,13 +238,13 @@
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "pontos": 37,
-   "jogos": 34,
+   "jogos": 35,
    "vitorias": 10,
    "empates": 7,
-   "derrotas": 17,
+   "derrotas": 18,
    "golsPro": 33,
-   "golsContra": 43,
-   "saldo": -10
+   "golsContra": 45,
+   "saldo": -12
   },
   {
    "posicao": 18,
@@ -6809,10 +6809,10 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6829,10 +6829,10 @@
    "visitante": "Novorizontino",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -6848,10 +6848,10 @@
    "visitante": "Vila Nova",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6871,7 +6871,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -6891,7 +6891,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

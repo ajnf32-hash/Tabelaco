@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T19:36:39.883Z",
+ "atualizado": "2026-10-24T22:08:37.066Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,20 +39,6 @@
   {
    "posicao": 3,
    "grupo": "",
-   "time": "Paris FC",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-   "pontos": 14,
-   "jogos": 7,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 12,
-   "golsContra": 7,
-   "saldo": 5
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
    "pontos": 14,
@@ -63,6 +49,20 @@
    "golsPro": 10,
    "golsContra": 5,
    "saldo": 5
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
+   "time": "Paris FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "pontos": 14,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 13,
+   "golsContra": 9,
+   "saldo": 4
   },
   {
    "posicao": 5,
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "Lens",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "pontos": 13,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 16,
+   "golsContra": 12,
+   "saldo": 4
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
    "pontos": 13,
@@ -93,7 +107,7 @@
    "saldo": 1
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Lorient",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
@@ -107,7 +121,7 @@
    "saldo": 1
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Nice",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
@@ -119,20 +133,6 @@
    "golsPro": 8,
    "golsContra": 10,
    "saldo": -2
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Lens",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "pontos": 10,
-   "jogos": 7,
-   "vitorias": 3,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 14,
-   "golsContra": 11,
-   "saldo": 3
   },
   {
    "posicao": 10,
@@ -1497,10 +1497,10 @@
    "visitante": "Paris FC",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

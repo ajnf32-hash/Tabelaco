@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T19:36:38.255Z",
+ "atualizado": "2026-10-24T22:08:34.972Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Lazio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "pontos": 22,
+   "jogos": 8,
+   "vitorias": 7,
+   "empates": 1,
+   "derrotas": 0,
+   "golsPro": 16,
+   "golsContra": 5,
+   "saldo": 11
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Inter de Milão",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
@@ -21,20 +35,6 @@
    "golsPro": 21,
    "golsContra": 9,
    "saldo": 12
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Lazio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "pontos": 19,
-   "jogos": 7,
-   "vitorias": 6,
-   "empates": 1,
-   "derrotas": 0,
-   "golsPro": 14,
-   "golsContra": 4,
-   "saldo": 10
   },
   {
    "posicao": 3,
@@ -266,13 +266,13 @@
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "pontos": 4,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 5,
-   "golsPro": 4,
-   "golsContra": 13,
-   "saldo": -9
+   "derrotas": 6,
+   "golsPro": 5,
+   "golsContra": 15,
+   "saldo": -10
   },
   {
    "posicao": 20,
@@ -1720,10 +1720,10 @@
    "visitante": "Parma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
