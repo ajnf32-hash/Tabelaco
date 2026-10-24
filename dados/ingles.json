@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T09:40:01.633Z",
+ "atualizado": "2026-10-24T13:44:27.367Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -14,13 +14,13 @@
    "time": "Manchester City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
    "pontos": 21,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 7,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 19,
-   "golsContra": 7,
-   "saldo": 12
+   "derrotas": 1,
+   "golsPro": 20,
+   "golsContra": 9,
+   "saldo": 11
   },
   {
    "posicao": 2,
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "Aston Villa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "pontos": 11,
+   "jogos": 8,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 3,
+   "golsPro": 9,
+   "golsContra": 12,
+   "saldo": -3
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Ipswich Town",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
    "pontos": 10,
@@ -93,7 +107,7 @@
    "saldo": -4
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Brentford",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
@@ -107,7 +121,7 @@
    "saldo": 5
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Leeds",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
@@ -121,7 +135,7 @@
    "saldo": 3
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Everton",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
@@ -135,7 +149,7 @@
    "saldo": 1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Hull City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
@@ -149,7 +163,7 @@
    "saldo": 1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Newcastle",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
@@ -160,20 +174,6 @@
    "derrotas": 3,
    "golsPro": 10,
    "golsContra": 14,
-   "saldo": -4
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Aston Villa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-   "pontos": 8,
-   "jogos": 7,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 3,
-   "golsPro": 7,
-   "golsContra": 11,
    "saldo": -4
   },
   {
@@ -1660,10 +1660,10 @@
    "visitante": "Manchester City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
