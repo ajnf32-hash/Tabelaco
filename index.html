@@ -237,7 +237,16 @@
   header .torcida:active{background:var(--acc);color:var(--sobreAcc)}
   /* "Selecione seu time" em cima do botão, com a mesma largura dele: os dois
      moram numa caixa do tamanho do botão, e o texto se centraliza nela. */
-  header .escolha{display:inline-flex;flex-direction:column;align-items:stretch;margin-top:11px}
+  header .escolha{display:inline-flex;flex-direction:column;align-items:stretch}
+  /* o time de um lado, a leitura (contraste e letra) do outro, com folga no meio */
+  header .linha-escolha{display:flex;align-items:flex-end;justify-content:space-between;
+        gap:16px;margin-top:11px}
+  header .linha-escolha .torcida{min-height:40px}
+  header .acess-cel .botoes{display:flex;gap:8px}
+  header .acess-cel .torcida{width:44px;padding:0;display:inline-flex;align-items:center;
+        justify-content:center;letter-spacing:0;font-size:14px}
+  header .acess-cel svg{width:18px;height:18px;fill:currentColor}
+  header .acess-cel .torcida[aria-pressed="true"]{background:var(--acc);color:var(--sobreAcc)}
   header .escolha .torcida{margin-top:0}
   header .escolha .rotulo{font-family:var(--f-mono);font-size:10px;font-weight:500;
         letter-spacing:.06em;text-transform:uppercase;color:var(--mut);
@@ -272,9 +281,19 @@
      390px e numa coluna de 520px do computador, e em pixel fixo as colunas de
      número engoliriam o nome do time justamente na tela grande */
   th.n{width:7%}
-  th.n.pos{width:6%}
+  th.n.pos{width:max(6%,22px)}
   th.n.larga{width:9%}
   th.n.aprov{width:12%}
+  /* Letra ampliada num celular: o número cresce e não cabia mais na coluna, o SG
+     saía cortado. As colunas de número ganham largura, o respiro dos lados some,
+     e quem cede é o nome do time, que já sabe abreviar. */
+  @media (max-width: 919px){
+    html.letra-maior th, html.letra-maior td{padding-left:1px;padding-right:1px}
+    html.letra-maior th.esq, html.letra-maior td.esq{padding-left:6px;padding-right:6px}
+    html.letra-maior th.n{width:8%}
+    html.letra-maior th.n.larga{width:12%}
+    html.letra-maior th.n.aprov{width:16%}
+  }
   /* Legenda das abreviações. As colunas são letras soltas para caber na largura de
      um celular; sem esta linha ninguém sabe o que é SG nem A. Fica embaixo da
      tabela, e não ao lado: ao lado ela roubaria a largura do nome do time, que é
@@ -453,6 +472,10 @@
     header h2{font-size:56px}
     header .sub{font-size:11px;margin-top:10px}
     header .torcida{margin-top:14px;font-size:12px;padding:9px 20px}
+    /* no computador quem cuida disso é o rodapé */
+    header .linha-escolha{justify-content:center;margin-top:14px}
+    header .linha-escolha .torcida{min-height:0;margin-top:0}
+    header .acess-cel{display:none}
 
     /* as páginas viram abas. No HTML os pontinhos ficam por último, que é
        o lugar deles no celular; aqui a ordem é remontada para campeonatos, título,
@@ -580,9 +603,21 @@
     <header>
       <h2 id="tituloCamp">—</h2>
       <div class="sub" id="subCamp"></div>
-      <div class="escolha">
-        <div class="rotulo">Selecione seu time</div>
-        <button class="torcida" id="btTorcida">Escolher meu time</button>
+      <div class="linha-escolha">
+        <div class="escolha">
+          <div class="rotulo">Selecione seu time</div>
+          <button class="torcida" id="btTorcida">Escolher meu time</button>
+        </div>
+        <!-- no celular não existe rodapé; contraste e tamanho do texto moram aqui -->
+        <div class="escolha acess-cel">
+          <div class="rotulo">Leitura</div>
+          <div class="botoes">
+            <button class="torcida" id="btContrasteCel" aria-pressed="false" aria-label="Alto contraste" title="Alto contraste">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 100 20 10 10 0 000-20zm0 2v16a8 8 0 010-16z"/></svg>
+            </button>
+            <button class="torcida" id="btTextoCel" aria-label="Tamanho do texto: Padrão" title="Tamanho do texto">A</button>
+          </div>
+        </div>
       </div>
     </header>
     <div id="carrossel"></div>
@@ -861,13 +896,19 @@ function altoContraste() {
 function aplicarAcessibilidade(redesenhar) {
   const ligado = localStorage.getItem('tabelaco.contraste') === 'alto';
   document.documentElement.classList.toggle('contraste-alto', ligado);
-  const bt = $('#btContraste');
-  if (bt) bt.setAttribute('aria-pressed', String(ligado));
+  for (const bt of [$('#btContraste'), $('#btContrasteCel')])
+    if (bt) bt.setAttribute('aria-pressed', String(ligado));
 
   const i = Math.min(TAMANHOS.length - 1, Number(localStorage.getItem('tabelaco.texto')) || 0);
   document.documentElement.style.setProperty('--esc', TAMANHOS[i].esc);
+  document.documentElement.classList.toggle('letra-maior', i > 0);
   const rot = $('#txtTamanho');
   if (rot) rot.textContent = TAMANHOS[i].nome;
+  const btCel = $('#btTextoCel');
+  if (btCel) {
+    btCel.textContent = ['A', 'A+', 'A++'][i] || 'A';
+    btCel.setAttribute('aria-label', 'Tamanho do texto: ' + TAMANHOS[i].nome);
+  }
 
   pintar();
   /* mudou o tamanho da letra, mudou quanta coisa cabe na tela: as colunas
@@ -1493,11 +1534,11 @@ function abrirNoContato() {
 /* no celular este botão é o "Contato"; no computador é o ⓘ, que abre do começo */
 $('#btInfo').onclick = () => telaGrande() ? abrirSobre() : abrirNoContato();
 $('#btContato').onclick = abrirNoContato;
-$('#btContraste').onclick = () => {
+$('#btContraste').onclick = $('#btContrasteCel').onclick = () => {
   localStorage.setItem('tabelaco.contraste', altoContraste() ? 'normal' : 'alto');
   aplicarAcessibilidade(true);
 };
-$('#btTexto').onclick = () => {
+$('#btTexto').onclick = $('#btTextoCel').onclick = () => {
   const i = (Number(localStorage.getItem('tabelaco.texto')) || 0) + 1;
   localStorage.setItem('tabelaco.texto', String(i % TAMANHOS.length));
   aplicarAcessibilidade(true);

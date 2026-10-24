@@ -146,6 +146,25 @@ async function usar(nomeTela, tamanho) {
     if (href) confere((await pegar(href)).ok, 'wallpaper baixa');
   }
 
+  /* no celular o contraste e a letra moram ao lado do "Selecione seu time" */
+  if (!computador) {
+    await pagina.click('#btContrasteCel');
+    confere(await pagina.$eval('html', h => h.classList.contains('contraste-alto')), 'celular: alto contraste liga');
+    await pagina.click('#btContrasteCel');
+    confere(!(await pagina.$eval('html', h => h.classList.contains('contraste-alto'))), 'celular: alto contraste desliga');
+    await pagina.click('#btTextoCel');
+    await pagina.click('#btTextoCel');
+    await pagina.waitForTimeout(700);
+    confere((await pagina.textContent('#btTextoCel')) === 'A++', 'celular: botão de letra chega no maior');
+    /* com a letra maior, nenhum número da tabela pode sair cortado */
+    const cortados = await pagina.evaluate(() => [...document.querySelectorAll('#carrossel td:not(.esq), #carrossel th')]
+      .filter(td => { const g = document.createRange(); g.selectNodeContents(td);
+        const a = g.getBoundingClientRect(), c = td.getBoundingClientRect();
+        return a.width && (a.right > c.right + 0.5 || a.left < c.left - 0.5); }).length);
+    confere(cortados === 0, `celular: letra maior não corta número da tabela (${cortados} cortados)`);
+    await pagina.click('#btTextoCel');
+  }
+
   /* contato */
   await pagina.click(computador ? '#btContato' : '#btInfo');
   await pagina.waitForSelector('#sobre.abre');
