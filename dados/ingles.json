@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T17:06:55.405Z",
+ "atualizado": "2026-10-24T19:36:36.489Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -56,13 +56,13 @@
    "time": "Chelsea",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
    "pontos": 13,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 4,
    "empates": 1,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 17,
-   "golsContra": 13,
-   "saldo": 4
+   "golsContra": 15,
+   "saldo": 2
   },
   {
    "posicao": 5,
@@ -165,6 +165,20 @@
   {
    "posicao": 12,
    "grupo": "",
+   "time": "Tottenham",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "pontos": 9,
+   "jogos": 8,
+   "vitorias": 2,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 8,
+   "golsContra": 10,
+   "saldo": -2
+  },
+  {
+   "posicao": 13,
+   "grupo": "",
    "time": "Fulham",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
    "pontos": 8,
@@ -177,7 +191,7 @@
    "saldo": -2
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Newcastle",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
@@ -191,7 +205,7 @@
    "saldo": -4
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Crystal Palace",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
@@ -205,7 +219,7 @@
    "saldo": -8
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
@@ -219,7 +233,7 @@
    "saldo": 0
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
@@ -233,7 +247,7 @@
    "saldo": -9
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Bournemouth",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
@@ -247,7 +261,7 @@
    "saldo": -4
   },
   {
-   "posicao": 18,
+   "posicao": 19,
    "grupo": "",
    "time": "Nottingham Forest",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
@@ -256,20 +270,6 @@
    "vitorias": 1,
    "empates": 3,
    "derrotas": 4,
-   "golsPro": 6,
-   "golsContra": 10,
-   "saldo": -4
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Tottenham",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-   "pontos": 6,
-   "jogos": 7,
-   "vitorias": 1,
-   "empates": 3,
-   "derrotas": 3,
    "golsPro": 6,
    "golsContra": 10,
    "saldo": -4
@@ -1720,10 +1720,10 @@
    "visitante": "Tottenham",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

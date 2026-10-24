@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T17:06:57.838Z",
+ "atualizado": "2026-10-24T19:36:39.099Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Borussia Dortmund",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "pontos": 17,
+   "jogos": 7,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 0,
+   "golsPro": 12,
+   "golsContra": 4,
+   "saldo": 8
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Bayern de Munique",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
@@ -21,20 +35,6 @@
    "golsPro": 22,
    "golsContra": 5,
    "saldo": 17
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Borussia Dortmund",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
-   "pontos": 14,
-   "jogos": 6,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 0,
-   "golsPro": 11,
-   "golsContra": 4,
-   "saldo": 7
   },
   {
    "posicao": 3,
@@ -182,13 +182,13 @@
    "time": "Eintracht Frankfurt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "pontos": 8,
-   "jogos": 6,
+   "jogos": 7,
    "vitorias": 2,
    "empates": 2,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 10,
-   "golsContra": 16,
-   "saldo": -6
+   "golsContra": 17,
+   "saldo": -7
   },
   {
    "posicao": 14,
@@ -1425,10 +1425,10 @@
    "visitante": "Eintracht Frankfurt",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

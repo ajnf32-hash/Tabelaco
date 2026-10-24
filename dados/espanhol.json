@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T17:06:56.276Z",
+ "atualizado": "2026-10-24T19:36:37.442Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Villarreal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "pontos": 12,
+   "jogos": 10,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 4,
+   "golsPro": 15,
+   "golsContra": 14,
+   "saldo": 1
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Osasuna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "pontos": 11,
@@ -121,7 +135,7 @@
    "saldo": -8
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Racing Santander",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
@@ -135,7 +149,7 @@
    "saldo": -11
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
@@ -149,7 +163,7 @@
    "saldo": 3
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
@@ -163,7 +177,7 @@
    "saldo": 1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
@@ -177,7 +191,7 @@
    "saldo": -2
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
@@ -189,20 +203,6 @@
    "golsPro": 14,
    "golsContra": 17,
    "saldo": -3
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Villarreal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-   "pontos": 9,
-   "jogos": 9,
-   "vitorias": 2,
-   "empates": 3,
-   "derrotas": 4,
-   "golsPro": 13,
-   "golsContra": 13,
-   "saldo": 0
   },
   {
    "posicao": 15,
@@ -266,13 +266,13 @@
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "pontos": 6,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 1,
    "empates": 3,
-   "derrotas": 5,
-   "golsPro": 6,
-   "golsContra": 15,
-   "saldo": -9
+   "derrotas": 6,
+   "golsPro": 7,
+   "golsContra": 17,
+   "saldo": -10
   },
   {
    "posicao": 20,
@@ -2080,10 +2080,10 @@
    "visitante": "Villarreal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2103,7 +2103,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
