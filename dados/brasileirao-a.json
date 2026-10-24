@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T00:53:36.819Z",
+ "atualizado": "2026-10-24T05:14:43.730Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Cruzeiro",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "pontos": 54,
+   "jogos": 32,
+   "vitorias": 16,
+   "empates": 6,
+   "derrotas": 10,
+   "golsPro": 51,
+   "golsContra": 46,
+   "saldo": 5
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "pontos": 53,
@@ -49,20 +63,6 @@
    "golsPro": 49,
    "golsContra": 37,
    "saldo": 12
-  },
-  {
-   "posicao": 4,
-   "grupo": "",
-   "time": "Cruzeiro",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 51,
-   "jogos": 31,
-   "vitorias": 15,
-   "empates": 6,
-   "derrotas": 10,
-   "golsPro": 50,
-   "golsContra": 46,
-   "saldo": 4
   },
   {
    "posicao": 5,
@@ -266,13 +266,13 @@
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "pontos": 26,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 5,
    "empates": 11,
-   "derrotas": 15,
+   "derrotas": 16,
    "golsPro": 34,
-   "golsContra": 49,
-   "saldo": -15
+   "golsContra": 50,
+   "saldo": -16
   },
   {
    "posicao": 20,
@@ -5496,10 +5496,10 @@
    "visitante": "Remo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

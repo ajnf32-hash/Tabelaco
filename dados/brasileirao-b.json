@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T00:53:40.808Z",
+ "atualizado": "2026-10-24T05:14:47.872Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Criciúma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "pontos": 59,
-   "jogos": 34,
+   "jogos": 35,
    "vitorias": 17,
    "empates": 8,
-   "derrotas": 9,
-   "golsPro": 35,
-   "golsContra": 28,
-   "saldo": 7
+   "derrotas": 10,
+   "golsPro": 36,
+   "golsContra": 30,
+   "saldo": 6
   },
   {
    "posicao": 6,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 54,
+   "jogos": 35,
+   "vitorias": 14,
+   "empates": 12,
+   "derrotas": 9,
+   "golsPro": 47,
+   "golsContra": 38,
+   "saldo": 9
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "CRB",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "pontos": 52,
@@ -107,7 +121,7 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Operário PR",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
@@ -119,20 +133,6 @@
    "golsPro": 45,
    "golsContra": 46,
    "saldo": -1
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 51,
-   "jogos": 34,
-   "vitorias": 13,
-   "empates": 12,
-   "derrotas": 9,
-   "golsPro": 45,
-   "golsContra": 37,
-   "saldo": 8
   },
   {
    "posicao": 10,
@@ -6789,10 +6789,10 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
