@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-23T22:26:00.474Z",
+ "atualizado": "2026-10-24T00:53:36.819Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5499,7 +5499,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -5902,6 +5902,26 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-11-03",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Arena Condá",
+   "cidade": "Chapecó",
+   "mandante": "Chapecoense",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
