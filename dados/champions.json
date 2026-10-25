@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T22:08:31.311Z",
+ "atualizado": "2026-10-25T00:24:53.502Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1728,6 +1728,186 @@
    "visitante": "Paris Saint-Germain",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "OPAP Arena",
+   "cidade": "Athens",
+   "mandante": "AEK Atenas",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Şükrü Saracoğlu Stadium",
+   "cidade": "Istanbul",
+   "mandante": "Fenerbahce",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/436.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Signal Iduna Park",
+   "cidade": "Aue",
+   "mandante": "Borussia Dortmund",
+   "visitante": "Real Betis",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estádio do Dragão",
+   "cidade": "Porto",
+   "mandante": "Porto",
+   "visitante": "Napoli",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/437.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stade Bollaert-Delelis",
+   "cidade": "Lens",
+   "mandante": "Lens",
+   "visitante": "Como",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Philips Stadion",
+   "cidade": "Eindhoven",
+   "mandante": "PSV",
+   "visitante": "Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/148.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Red Bull Arena",
+   "cidade": "Leipzig",
+   "mandante": "RB Leipzig",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Fortuna Arena",
+   "cidade": "Prague",
+   "mandante": "Slavia Praga",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Viking Stadion",
+   "cidade": "Stavanger",
+   "mandante": "Viking FK",
+   "visitante": "Sabah FK",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

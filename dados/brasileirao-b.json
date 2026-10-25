@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-24T22:08:24.538Z",
+ "atualizado": "2026-10-25T00:24:47.000Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,13 +55,13 @@
    "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "pontos": 60,
-   "jogos": 34,
+   "pontos": 61,
+   "jogos": 35,
    "vitorias": 16,
-   "empates": 12,
+   "empates": 13,
    "derrotas": 6,
-   "golsPro": 41,
-   "golsContra": 29,
+   "golsPro": 43,
+   "golsContra": 31,
    "saldo": 12
   },
   {
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "CRB",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "pontos": 55,
+   "jogos": 35,
+   "vitorias": 16,
+   "empates": 7,
+   "derrotas": 12,
+   "golsPro": 53,
+   "golsContra": 49,
+   "saldo": 4
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 54,
@@ -93,7 +107,7 @@
    "saldo": 9
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
@@ -105,20 +119,6 @@
    "golsPro": 42,
    "golsContra": 33,
    "saldo": 9
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "CRB",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
-   "pontos": 52,
-   "jogos": 34,
-   "vitorias": 15,
-   "empates": 7,
-   "derrotas": 12,
-   "golsPro": 51,
-   "golsContra": 48,
-   "saldo": 3
   },
   {
    "posicao": 9,
@@ -252,13 +252,13 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 32,
-   "jogos": 34,
+   "jogos": 35,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 18,
-   "golsPro": 43,
-   "golsContra": 49,
-   "saldo": -6
+   "derrotas": 19,
+   "golsPro": 44,
+   "golsContra": 51,
+   "saldo": -7
   },
   {
    "posicao": 19,
@@ -279,13 +279,13 @@
    "grupo": "",
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "pontos": 14,
-   "jogos": 34,
+   "pontos": 15,
+   "jogos": 35,
    "vitorias": 3,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 26,
-   "golsPro": 19,
-   "golsContra": 74,
+   "golsPro": 21,
+   "golsContra": 76,
    "saldo": -55
   }
  ],
@@ -6574,7 +6574,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -6593,11 +6593,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-17",
@@ -6868,10 +6867,10 @@
    "visitante": "Londrina",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6888,10 +6887,10 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
