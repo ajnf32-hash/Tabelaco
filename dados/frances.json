@@ -6,10 +6,38 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T14:05:53.013Z",
+ "atualizado": "2026-10-25T17:43:50.919Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Lille",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 3,
+   "derrotas": 1,
+   "golsPro": 11,
+   "golsContra": 6,
+   "saldo": 5
+  },
+  {
+   "posicao": 2,
+   "grupo": "",
+   "time": "Monaco",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "pontos": 15,
+   "jogos": 8,
+   "vitorias": 4,
+   "empates": 3,
+   "derrotas": 1,
+   "golsPro": 11,
+   "golsContra": 7,
+   "saldo": 4
+  },
+  {
+   "posicao": 3,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
@@ -23,7 +51,7 @@
    "saldo": 8
   },
   {
-   "posicao": 2,
+   "posicao": 4,
    "grupo": "",
    "time": "Paris Saint-Germain",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
@@ -37,21 +65,7 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Lille",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-   "pontos": 14,
-   "jogos": 7,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 10,
-   "golsContra": 5,
-   "saldo": 5
-  },
-  {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Paris FC",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
@@ -62,20 +76,6 @@
    "derrotas": 2,
    "golsPro": 13,
    "golsContra": 9,
-   "saldo": 4
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Monaco",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
-   "pontos": 14,
-   "jogos": 7,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 10,
-   "golsContra": 6,
    "saldo": 4
   },
   {
@@ -1516,10 +1516,10 @@
    "visitante": "Lille",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1539,7 +1539,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1559,7 +1559,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1579,7 +1579,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1599,7 +1599,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -1618,7 +1618,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
