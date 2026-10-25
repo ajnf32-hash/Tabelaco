@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T05:01:03.052Z",
+ "atualizado": "2026-10-25T09:57:44.769Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -5807,8 +5807,8 @@
    "data": "2026-10-29",
    "hora": "23:00",
    "rodada": "",
-   "local": "",
-   "cidade": "",
+   "local": "Joao Havelange Stadium",
+   "cidade": "Rio de Janeiro",
    "mandante": "Vasco da Gama",
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
