@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T20:10:53.288Z",
+ "atualizado": "2026-10-25T22:41:54.488Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -14,13 +14,13 @@
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "pontos": 27,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 9,
    "empates": 0,
-   "derrotas": 0,
-   "golsPro": 39,
-   "golsContra": 9,
-   "saldo": 30
+   "derrotas": 1,
+   "golsPro": 40,
+   "golsContra": 11,
+   "saldo": 29
   },
   {
    "posicao": 2,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 21,
-   "jogos": 9,
-   "vitorias": 7,
+   "pontos": 24,
+   "jogos": 10,
+   "vitorias": 8,
    "empates": 0,
    "derrotas": 2,
-   "golsPro": 23,
-   "golsContra": 9,
-   "saldo": 14
+   "golsPro": 25,
+   "golsContra": 10,
+   "saldo": 15
   },
   {
    "posicao": 4,
@@ -2179,10 +2179,10 @@
    "visitante": "Real Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

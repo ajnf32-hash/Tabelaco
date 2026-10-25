@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T20:10:54.182Z",
+ "atualizado": "2026-10-25T22:41:55.252Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Milan",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "pontos": 18,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 3,
+   "derrotas": 0,
+   "golsPro": 16,
+   "golsContra": 7,
+   "saldo": 9
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Como",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "pontos": 17,
@@ -60,20 +74,6 @@
    "vitorias": 5,
    "empates": 2,
    "derrotas": 1,
-   "golsPro": 14,
-   "golsContra": 7,
-   "saldo": 7
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Milan",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-   "pontos": 15,
-   "jogos": 7,
-   "vitorias": 4,
-   "empates": 3,
-   "derrotas": 0,
    "golsPro": 14,
    "golsContra": 7,
    "saldo": 7
@@ -238,13 +238,13 @@
    "time": "Udinese",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "pontos": 4,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 9,
-   "golsContra": 16,
-   "saldo": -7
+   "golsContra": 18,
+   "saldo": -9
   },
   {
    "posicao": 18,
@@ -1819,10 +1819,10 @@
    "visitante": "Milan",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
