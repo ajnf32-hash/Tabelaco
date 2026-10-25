@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T00:24:43.207Z",
+ "atualizado": "2026-10-25T05:01:03.052Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 51,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 14,
    "empates": 9,
-   "derrotas": 8,
-   "golsPro": 49,
-   "golsContra": 39,
-   "saldo": 10
+   "derrotas": 9,
+   "golsPro": 50,
+   "golsContra": 41,
+   "saldo": 9
   },
   {
    "posicao": 6,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "pontos": 49,
-   "jogos": 31,
+   "pontos": 50,
+   "jogos": 32,
    "vitorias": 13,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 8,
-   "golsPro": 44,
-   "golsContra": 39,
+   "golsPro": 45,
+   "golsContra": 40,
    "saldo": 5
   },
   {
@@ -111,13 +111,13 @@
    "grupo": "",
    "time": "Santos",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 45,
-   "jogos": 31,
+   "pontos": 46,
+   "jogos": 32,
    "vitorias": 12,
-   "empates": 9,
+   "empates": 10,
    "derrotas": 10,
-   "golsPro": 48,
-   "golsContra": 46,
+   "golsPro": 49,
+   "golsContra": 47,
    "saldo": 2
   },
   {
@@ -279,14 +279,14 @@
    "grupo": "",
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "pontos": 18,
-   "jogos": 30,
-   "vitorias": 3,
+   "pontos": 21,
+   "jogos": 31,
+   "vitorias": 4,
    "empates": 9,
    "derrotas": 18,
-   "golsPro": 30,
-   "golsContra": 62,
-   "saldo": -32
+   "golsPro": 32,
+   "golsContra": 63,
+   "saldo": -31
   }
  ],
  "jogos": [
@@ -5614,10 +5614,10 @@
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5634,10 +5634,10 @@
    "visitante": "Bahia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
