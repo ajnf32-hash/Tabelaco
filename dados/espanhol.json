@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-25T17:43:47.934Z",
+ "atualizado": "2026-10-25T20:10:53.288Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -69,14 +69,14 @@
    "grupo": "",
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "pontos": 16,
-   "jogos": 9,
-   "vitorias": 5,
+   "pontos": 19,
+   "jogos": 10,
+   "vitorias": 6,
    "empates": 1,
    "derrotas": 3,
-   "golsPro": 17,
-   "golsContra": 17,
-   "saldo": 0
+   "golsPro": 19,
+   "golsContra": 18,
+   "saldo": 1
   },
   {
    "posicao": 6,
@@ -196,13 +196,13 @@
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "pontos": 10,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 3,
-   "golsPro": 15,
-   "golsContra": 17,
-   "saldo": -2
+   "derrotas": 4,
+   "golsPro": 16,
+   "golsContra": 19,
+   "saldo": -3
   },
   {
    "posicao": 15,
@@ -2159,10 +2159,10 @@
    "visitante": "Levante",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2182,7 +2182,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
