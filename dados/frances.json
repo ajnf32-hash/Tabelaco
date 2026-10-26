@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T18:01:11.626Z",
+ "atualizado": "2026-10-26T22:47:52.864Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Paris Saint-Germain",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "pontos": 17,
+   "jogos": 8,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 16,
+   "golsContra": 9,
+   "saldo": 7
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
@@ -23,7 +37,7 @@
    "saldo": 4
   },
   {
-   "posicao": 2,
+   "posicao": 3,
    "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
@@ -37,7 +51,7 @@
    "saldo": 5
   },
   {
-   "posicao": 3,
+   "posicao": 4,
    "grupo": "",
    "time": "Monaco",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
@@ -51,32 +65,18 @@
    "saldo": 4
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
    "pontos": 14,
-   "jogos": 7,
+   "jogos": 8,
    "vitorias": 4,
    "empates": 2,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 13,
-   "golsContra": 5,
-   "saldo": 8
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Paris Saint-Germain",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
-   "pontos": 14,
-   "jogos": 7,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 14,
-   "golsContra": 9,
-   "saldo": 5
+   "golsContra": 7,
+   "saldo": 6
   },
   {
    "posicao": 6,
@@ -1632,10 +1632,10 @@
    "visitante": "Lyon",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1715,11 +1715,10 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
+   "conferencia": "sozinho",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",

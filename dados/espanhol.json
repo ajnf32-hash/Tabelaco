@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T18:01:09.204Z",
+ "atualizado": "2026-10-26T22:47:50.303Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -83,14 +83,14 @@
    "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
-   "pontos": 14,
-   "jogos": 9,
-   "vitorias": 4,
+   "pontos": 17,
+   "jogos": 10,
+   "vitorias": 5,
    "empates": 2,
    "derrotas": 3,
-   "golsPro": 14,
+   "golsPro": 16,
    "golsContra": 16,
-   "saldo": -2
+   "saldo": 0
   },
   {
    "posicao": 7,
@@ -154,13 +154,13 @@
    "time": "Osasuna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "pontos": 11,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 3,
    "empates": 2,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 10,
-   "golsContra": 18,
-   "saldo": -8
+   "golsContra": 20,
+   "saldo": -10
   },
   {
    "posicao": 12,
@@ -2195,10 +2195,10 @@
    "visitante": "Osasuna",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
