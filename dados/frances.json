@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-27T07:05:15.936Z",
+ "atualizado": "2026-10-27T13:26:03.449Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1660,27 +1660,7 @@
   },
   {
    "data": "2026-10-30",
-   "hora": "20:05",
-   "rodada": "",
-   "local": "Decathlon Arena - Stade Pierre-Mauroy",
-   "cidade": "Lille",
-   "mandante": "Lille",
-   "visitante": "Lens",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-10-31",
-   "hora": "16:15",
+   "hora": "18:00",
    "rodada": "",
    "local": "Allianz Riviera",
    "cidade": "Nice",
@@ -1698,34 +1678,15 @@
    ]
   },
   {
-   "data": "2026-10-31",
-   "hora": "19:45",
+   "data": "2026-10-30",
+   "hora": "20:05",
    "rodada": "",
-   "local": "Stade du Moustoir - Yves Allainmat",
-   "cidade": "Lorient",
-   "mandante": "Lorient",
-   "visitante": "Brest",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-10-31",
-   "hora": "19:45",
-   "rodada": "",
-   "local": "Groupama Stadium",
-   "cidade": "Lyon",
-   "mandante": "Lyon",
-   "visitante": "Angers",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "local": "Decathlon Arena - Stade Pierre-Mauroy",
+   "cidade": "Lille",
+   "mandante": "Lille",
+   "visitante": "Lens",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
@@ -1780,6 +1741,25 @@
    "data": "2026-11-01",
    "hora": "16:15",
    "rodada": "",
+   "local": "Groupama Stadium",
+   "cidade": "Lyon",
+   "mandante": "Lyon",
+   "visitante": "Angers",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-01",
+   "hora": "16:15",
+   "rodada": "",
    "local": "Stade Jean Bouin",
    "cidade": "Paris",
    "mandante": "Paris FC",
@@ -1806,6 +1786,26 @@
    "visitante": "Toulouse",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-02",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade du Moustoir - Yves Allainmat",
+   "cidade": "Lorient",
+   "mandante": "Lorient",
+   "visitante": "Brest",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
