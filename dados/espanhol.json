@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T22:47:50.303Z",
+ "atualizado": "2026-10-27T01:44:52.952Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1900,11 +1900,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1920,11 +1919,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1940,11 +1938,10 @@
    "golsVisitante": 5,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1960,11 +1957,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-19",
@@ -2403,6 +2399,26 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Ramón Sánchez Pizjuán Stadium",
+   "cidade": "Sevilla",
+   "mandante": "Sevilla",
+   "visitante": "Alavés",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []

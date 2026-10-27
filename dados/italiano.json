@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T22:47:51.197Z",
+ "atualizado": "2026-10-27T01:44:54.006Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1520,11 +1520,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1540,11 +1539,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1560,11 +1558,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -1580,11 +1577,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-19",
@@ -2216,6 +2212,26 @@
    "visitante": "Parma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stadio Pier Luigi Penzo",
+   "cidade": "Venezia",
+   "mandante": "Venezia",
+   "visitante": "Udinese",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

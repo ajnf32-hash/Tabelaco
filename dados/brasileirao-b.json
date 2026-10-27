@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T22:47:43.257Z",
+ "atualizado": "2026-10-27T01:44:42.979Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Juventude",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
+   "pontos": 64,
+   "jogos": 35,
+   "vitorias": 18,
+   "empates": 10,
+   "derrotas": 7,
+   "golsPro": 45,
+   "golsContra": 23,
+   "saldo": 22
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Vila Nova",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "pontos": 62,
@@ -35,20 +49,6 @@
    "golsPro": 50,
    "golsContra": 36,
    "saldo": 14
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Juventude",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "pontos": 61,
-   "jogos": 34,
-   "vitorias": 17,
-   "empates": 10,
-   "derrotas": 7,
-   "golsPro": 41,
-   "golsContra": 23,
-   "saldo": 18
   },
   {
    "posicao": 4,
@@ -182,13 +182,13 @@
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 47,
-   "jogos": 34,
+   "jogos": 35,
    "vitorias": 11,
    "empates": 14,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 32,
-   "golsContra": 27,
-   "saldo": 5
+   "golsContra": 28,
+   "saldo": 4
   },
   {
    "posicao": 14,
@@ -207,20 +207,6 @@
   {
    "posicao": 15,
    "grupo": "",
-   "time": "Náutico",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "pontos": 43,
-   "jogos": 34,
-   "vitorias": 11,
-   "empates": 10,
-   "derrotas": 13,
-   "golsPro": 39,
-   "golsContra": 42,
-   "saldo": -3
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
    "time": "Ceará",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
    "pontos": 43,
@@ -231,6 +217,20 @@
    "golsPro": 37,
    "golsContra": 42,
    "saldo": -5
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
+   "time": "Náutico",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "pontos": 43,
+   "jogos": 35,
+   "vitorias": 11,
+   "empates": 10,
+   "derrotas": 14,
+   "golsPro": 39,
+   "golsContra": 46,
+   "saldo": -7
   },
   {
    "posicao": 17,
@@ -265,14 +265,14 @@
    "grupo": "",
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "pontos": 20,
-   "jogos": 34,
-   "vitorias": 5,
+   "pontos": 23,
+   "jogos": 35,
+   "vitorias": 6,
    "empates": 5,
    "derrotas": 24,
-   "golsPro": 22,
+   "golsPro": 23,
    "golsContra": 54,
-   "saldo": -32
+   "saldo": -31
   },
   {
    "posicao": 20,
@@ -6650,11 +6650,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -6670,11 +6669,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -6690,11 +6688,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -6710,11 +6707,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-19",
@@ -6905,10 +6901,10 @@
    "visitante": "Cuiabá",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6925,10 +6921,10 @@
    "visitante": "Náutico",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7144,6 +7140,46 @@
    "visitante": "CRB",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Estádio Santa Cruz",
+   "cidade": "Ribeirão Preto",
+   "mandante": "Botafogo-SP",
+   "visitante": "Londrina",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "22:30",
+   "rodada": "",
+   "local": "Germano Krüger",
+   "cidade": "Ponta Grossa",
+   "mandante": "Operário PR",
+   "visitante": "Sport",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-26T22:47:40.562Z",
+ "atualizado": "2026-10-27T01:44:38.871Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Flamengo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "pontos": 70,
+   "jogos": 32,
+   "vitorias": 21,
+   "empates": 7,
+   "derrotas": 4,
+   "golsPro": 64,
+   "golsContra": 27,
+   "saldo": 37
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
@@ -21,20 +35,6 @@
    "golsPro": 56,
    "golsContra": 22,
    "saldo": 34
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Flamengo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 67,
-   "jogos": 31,
-   "vitorias": 20,
-   "empates": 7,
-   "derrotas": 4,
-   "golsPro": 61,
-   "golsContra": 25,
-   "saldo": 36
   },
   {
    "posicao": 3,
@@ -84,13 +84,13 @@
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "pontos": 50,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 14,
    "empates": 8,
-   "derrotas": 9,
-   "golsPro": 42,
-   "golsContra": 35,
-   "saldo": 7
+   "derrotas": 10,
+   "golsPro": 44,
+   "golsContra": 38,
+   "saldo": 6
   },
   {
    "posicao": 7,
@@ -168,13 +168,13 @@
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 39,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 10,
    "empates": 9,
-   "derrotas": 12,
+   "derrotas": 13,
    "golsPro": 38,
-   "golsContra": 49,
-   "saldo": -11
+   "golsContra": 50,
+   "saldo": -12
   },
   {
    "posicao": 13,
@@ -235,6 +235,20 @@
   {
    "posicao": 17,
    "grupo": "",
+   "time": "Grêmio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "pontos": 34,
+   "jogos": 32,
+   "vitorias": 8,
+   "empates": 10,
+   "derrotas": 14,
+   "golsPro": 35,
+   "golsContra": 44,
+   "saldo": -9
+  },
+  {
+   "posicao": 18,
+   "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
    "pontos": 33,
@@ -245,20 +259,6 @@
    "golsPro": 34,
    "golsContra": 42,
    "saldo": -8
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Grêmio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "pontos": 31,
-   "jogos": 31,
-   "vitorias": 7,
-   "empates": 10,
-   "derrotas": 14,
-   "golsPro": 34,
-   "golsContra": 44,
-   "saldo": -10
   },
   {
    "posicao": 19,
@@ -5377,11 +5377,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -5397,11 +5396,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -5417,11 +5415,10 @@
    "golsVisitante": 4,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -5437,11 +5434,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-18",
@@ -5457,7 +5453,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -5651,10 +5647,10 @@
    "visitante": "Grêmio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5671,10 +5667,10 @@
    "visitante": "Atlético-MG",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6029,6 +6025,46 @@
    "visitante": "Remo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Bahia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-06",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estadio Manoel Barradas",
+   "cidade": "Salvador",
+   "mandante": "Vitória",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
