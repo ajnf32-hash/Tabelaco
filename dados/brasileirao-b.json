@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T07:47:15.479Z",
+ "atualizado": "2026-10-28T14:42:52.198Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -6992,7 +6992,7 @@
   },
   {
    "data": "2026-10-31",
-   "hora": "21:00",
+   "hora": "20:30",
    "rodada": "",
    "local": "Estádio Onésio Brasileiro Alvarenga",
    "cidade": "Goiãnia",
@@ -7150,7 +7150,7 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-11-06",
+   "data": "2026-11-05",
    "hora": "22:30",
    "rodada": "",
    "local": "Estádio Santa Cruz",
@@ -7163,11 +7163,10 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
+   "conferencia": "sozinho",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-06",
@@ -7179,26 +7178,6 @@
    "visitante": "Sport",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-07",
-   "hora": "00:30",
-   "rodada": "",
-   "local": "Arena Pantanal",
-   "cidade": "Cuiabá",
-   "mandante": "Cuiabá",
-   "visitante": "Juventude",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
@@ -7239,6 +7218,26 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Arena Pantanal",
+   "cidade": "Cuiabá",
+   "mandante": "Cuiabá",
+   "visitante": "Juventude",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
