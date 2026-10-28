@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-10-27T22:46:33.940Z",
+ "atualizado": "2026-10-28T01:55:48.822Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2889,6 +2889,26 @@
    "visitante": "Atlético-MG",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "21:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Arena MRV",
+   "cidade": "Belo Horizonte",
+   "mandante": "Atlético-MG",
+   "visitante": "Grêmio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

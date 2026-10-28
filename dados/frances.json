@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-27T22:46:41.351Z",
+ "atualizado": "2026-10-28T01:55:57.504Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1827,6 +1827,46 @@
    "visitante": "Strasbourg",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "16:15",
+   "rodada": "",
+   "local": "Stade de l'Abbé-Deschamps",
+   "cidade": "Auxerre",
+   "mandante": "Auxerre",
+   "visitante": "Paris FC",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Parc des Princes",
+   "cidade": "Paris",
+   "mandante": "Paris Saint-Germain",
+   "visitante": "Troyes",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

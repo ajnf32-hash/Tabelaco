@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-27T22:46:38.178Z",
+ "atualizado": "2026-10-28T01:55:53.976Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1615,11 +1615,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-23",
@@ -2031,6 +2030,86 @@
    "visitante": "Coventry City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "12:30",
+   "rodada": "",
+   "local": "Elland Road",
+   "cidade": "Leeds",
+   "mandante": "Leeds",
+   "visitante": "Tottenham",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Emirates Stadium",
+   "cidade": "London",
+   "mandante": "Arsenal",
+   "visitante": "Hull City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Craven Cottage",
+   "cidade": "London",
+   "mandante": "Fulham",
+   "visitante": "Newcastle",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-07",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "The City Ground",
+   "cidade": "Nottingham",
+   "mandante": "Nottingham Forest",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
