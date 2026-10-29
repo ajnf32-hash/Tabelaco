@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-29T17:12:45.141Z",
+ "atualizado": "2026-10-29T21:54:54.278Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "Frosinone",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "pontos": 17,
+   "jogos": 9,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 22,
+   "golsContra": 14,
+   "saldo": 8
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "pontos": 14,
@@ -91,20 +105,6 @@
    "golsPro": 17,
    "golsContra": 11,
    "saldo": 6
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Frosinone",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
-   "pontos": 14,
-   "jogos": 8,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 17,
-   "golsContra": 13,
-   "saldo": 4
   },
   {
    "posicao": 8,
@@ -167,13 +167,13 @@
    "grupo": "",
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-   "pontos": 10,
-   "jogos": 8,
+   "pontos": 11,
+   "jogos": 9,
    "vitorias": 3,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 4,
-   "golsPro": 14,
-   "golsContra": 15,
+   "golsPro": 16,
+   "golsContra": 17,
    "saldo": -1
   },
   {
@@ -196,13 +196,13 @@
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "pontos": 9,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 3,
    "empates": 0,
-   "derrotas": 5,
-   "golsPro": 9,
-   "golsContra": 14,
-   "saldo": -5
+   "derrotas": 6,
+   "golsPro": 10,
+   "golsContra": 19,
+   "saldo": -9
   },
   {
    "posicao": 15,
@@ -249,6 +249,20 @@
   {
    "posicao": 18,
    "grupo": "",
+   "time": "Fiorentina",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "pontos": 5,
+   "jogos": 9,
+   "vitorias": 1,
+   "empates": 2,
+   "derrotas": 6,
+   "golsPro": 11,
+   "golsContra": 21,
+   "saldo": -10
+  },
+  {
+   "posicao": 19,
+   "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
    "pontos": 5,
@@ -258,20 +272,6 @@
    "derrotas": 6,
    "golsPro": 5,
    "golsContra": 15,
-   "saldo": -10
-  },
-  {
-   "posicao": 19,
-   "grupo": "",
-   "time": "Fiorentina",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-   "pontos": 4,
-   "jogos": 8,
-   "vitorias": 1,
-   "empates": 1,
-   "derrotas": 6,
-   "golsPro": 9,
-   "golsContra": 19,
    "saldo": -10
   },
   {
@@ -1990,10 +1990,10 @@
    "visitante": "Lecce",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 5,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2010,10 +2010,10 @@
    "visitante": "Atalanta",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
