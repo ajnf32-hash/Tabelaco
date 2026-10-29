@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-10-28T23:55:19.004Z",
+ "atualizado": "2026-10-29T03:37:48.019Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2909,6 +2909,26 @@
    "visitante": "Grêmio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "20:00",
+   "rodada": "2nd Leg - Tied on aggregate",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

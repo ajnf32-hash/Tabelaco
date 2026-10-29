@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T23:55:26.317Z",
+ "atualizado": "2026-10-29T03:37:53.945Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2310,6 +2310,106 @@
    "visitante": "Sassuolo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "11:30",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Lazio",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Stadio Luigi Ferraris",
+   "cidade": "Genova",
+   "mandante": "Genoa",
+   "visitante": "Milan",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3263.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "U-Power Stadium",
+   "cidade": "Monza",
+   "mandante": "Monza",
+   "visitante": "Atalanta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "17:00",
+   "rodada": "",
+   "local": "San Siro",
+   "cidade": "Milano",
+   "mandante": "Inter de Milão",
+   "visitante": "Como",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stadio Artemio Franchi",
+   "cidade": "Firenze",
+   "mandante": "Fiorentina",
+   "visitante": "Juventus",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

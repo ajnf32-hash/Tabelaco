@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T23:55:24.254Z",
+ "atualizado": "2026-10-29T03:37:52.243Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2110,6 +2110,106 @@
    "visitante": "Manchester City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "American Express Stadium",
+   "cidade": "Falmer",
+   "mandante": "Brighton",
+   "visitante": "Brentford",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Selhurst Park",
+   "cidade": "London",
+   "mandante": "Crystal Palace",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Portman Road",
+   "cidade": "Ipswich",
+   "mandante": "Ipswich Town",
+   "visitante": "Bournemouth",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Stadium of Light",
+   "cidade": "Sunderland",
+   "mandante": "Sunderland",
+   "visitante": "Chelsea",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Old Trafford",
+   "cidade": "Manchester",
+   "mandante": "Manchester United",
+   "visitante": "Aston Villa",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

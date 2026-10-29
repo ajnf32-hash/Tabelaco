@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T23:55:27.352Z",
+ "atualizado": "2026-10-29T03:37:54.742Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1756,6 +1756,65 @@
    "visitante": "Werder Bremen",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "RheinEnergieStadion",
+   "cidade": "Cologne",
+   "mandante": "Colônia",
+   "visitante": "Bayer Leverkusen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Europa-Park Stadion",
+   "cidade": "Freiburg im Breisgau",
+   "mandante": "Freiburg",
+   "visitante": "Union Berlin",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "18:30",
+   "rodada": "",
+   "local": "PreZero Arena",
+   "cidade": "Sinsheim",
+   "mandante": "Hoffenheim",
+   "visitante": "Schalke 04",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

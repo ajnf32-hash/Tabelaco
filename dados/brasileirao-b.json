@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T23:55:16.259Z",
+ "atualizado": "2026-10-29T03:37:45.864Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -6745,11 +6745,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-23",
@@ -7259,6 +7258,85 @@
    "visitante": "Criciúma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio dos Aflitos",
+   "cidade": "Recife",
+   "mandante": "Náutico",
+   "visitante": "CRB",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9970.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Estádio Joaquim Portugal",
+   "cidade": "Sao Joao del Rei",
+   "mandante": "Athletic",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "22:15",
+   "rodada": "",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Ceará",
+   "visitante": "América Mineiro",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9969.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "22:15",
+   "rodada": "",
+   "local": "Estádio da Serrinha",
+   "cidade": "Goiãnia",
+   "mandante": "Goiás",
+   "visitante": "Ponte Preta",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

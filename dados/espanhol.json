@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-28T23:55:25.226Z",
+ "atualizado": "2026-10-29T03:37:53.130Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2488,6 +2488,106 @@
    "visitante": "Real Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Estadio Martínez Valero",
+   "cidade": "Elche",
+   "mandante": "Elche",
+   "visitante": "Real Betis",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "Reale Arena",
+   "cidade": "San Sebastian",
+   "mandante": "Real Sociedad",
+   "visitante": "Rayo Vallecano",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Balaidos",
+   "cidade": "Vigo",
+   "mandante": "Celta Vigo",
+   "visitante": "Levante",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Getafe",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-11-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético de Madrid",
+   "visitante": "Barcelona",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
