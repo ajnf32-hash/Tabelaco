@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-29T21:54:43.006Z",
+ "atualizado": "2026-10-30T01:27:34.355Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 70,
-   "jogos": 32,
-   "vitorias": 21,
+   "pontos": 73,
+   "jogos": 33,
+   "vitorias": 22,
    "empates": 7,
    "derrotas": 4,
-   "golsPro": 64,
-   "golsContra": 27,
-   "saldo": 37
+   "golsPro": 68,
+   "golsContra": 28,
+   "saldo": 40
   },
   {
    "posicao": 2,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 54,
-   "jogos": 32,
-   "vitorias": 16,
+   "pontos": 57,
+   "jogos": 33,
+   "vitorias": 17,
    "empates": 6,
    "derrotas": 10,
-   "golsPro": 51,
+   "golsPro": 52,
    "golsContra": 46,
-   "saldo": 5
+   "saldo": 6
   },
   {
    "posicao": 4,
@@ -98,13 +98,13 @@
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "pontos": 50,
-   "jogos": 32,
+   "jogos": 33,
    "vitorias": 14,
    "empates": 8,
-   "derrotas": 10,
+   "derrotas": 11,
    "golsPro": 44,
-   "golsContra": 38,
-   "saldo": 6
+   "golsContra": 39,
+   "saldo": 5
   },
   {
    "posicao": 8,
@@ -182,13 +182,13 @@
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 38,
-   "jogos": 31,
+   "jogos": 32,
    "vitorias": 10,
    "empates": 8,
-   "derrotas": 13,
-   "golsPro": 39,
-   "golsContra": 45,
-   "saldo": -6
+   "derrotas": 14,
+   "golsPro": 40,
+   "golsContra": 49,
+   "saldo": -9
   },
   {
    "posicao": 14,
@@ -5785,10 +5785,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5805,10 +5805,10 @@
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5828,7 +5828,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
