@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-30T01:27:34.355Z",
+ "atualizado": "2026-10-30T07:30:35.681Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,20 +53,6 @@
   {
    "posicao": 4,
    "grupo": "",
-   "time": "Athletico Paranaense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 54,
-   "jogos": 32,
-   "vitorias": 15,
-   "empates": 9,
-   "derrotas": 8,
-   "golsPro": 50,
-   "golsContra": 38,
-   "saldo": 12
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 54,
@@ -76,6 +62,20 @@
    "derrotas": 9,
    "golsPro": 52,
    "golsContra": 42,
+   "saldo": 10
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
+   "time": "Athletico Paranaense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "pontos": 54,
+   "jogos": 33,
+   "vitorias": 15,
+   "empates": 9,
+   "derrotas": 9,
+   "golsPro": 50,
+   "golsContra": 40,
    "saldo": 10
   },
   {
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Grêmio",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "pontos": 37,
+   "jogos": 33,
+   "vitorias": 9,
+   "empates": 10,
+   "derrotas": 14,
+   "golsPro": 37,
+   "golsContra": 44,
+   "saldo": -7
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 37,
@@ -219,7 +233,7 @@
    "saldo": -8
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Internacional",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
@@ -231,20 +245,6 @@
    "golsPro": 37,
    "golsContra": 42,
    "saldo": -5
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Grêmio",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
-   "pontos": 34,
-   "jogos": 32,
-   "vitorias": 8,
-   "empates": 10,
-   "derrotas": 14,
-   "golsPro": 35,
-   "golsContra": 44,
-   "saldo": -9
   },
   {
    "posicao": 18,
@@ -5825,10 +5825,10 @@
    "visitante": "Athletico-PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
