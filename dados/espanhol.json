@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-30T14:42:51.938Z",
+ "atualizado": "2026-10-30T19:46:56.075Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1615,25 +1615,6 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "historico",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-10-10",
-   "hora": "12:00",
-   "rodada": "",
-   "local": "Estadio de Vallecas",
-   "cidade": "Madrid",
-   "mandante": "Rayo Vallecano",
-   "visitante": "Athletic Bilbao",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Abandoned",
    "conferencia": "historico",
    "fontes": [
     "espn"
