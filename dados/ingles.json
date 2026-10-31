@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T19:25:00.174Z",
+ "atualizado": "2026-10-31T22:39:01.266Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Aston Villa",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "pontos": 12,
+   "jogos": 9,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 10,
+   "golsContra": 13,
+   "saldo": -3
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Newcastle",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
    "pontos": 11,
@@ -133,20 +147,6 @@
    "golsPro": 12,
    "golsContra": 14,
    "saldo": -2
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Aston Villa",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
-   "pontos": 11,
-   "jogos": 8,
-   "vitorias": 3,
-   "empates": 2,
-   "derrotas": 3,
-   "golsPro": 9,
-   "golsContra": 12,
-   "saldo": -3
   },
   {
    "posicao": 11,
@@ -223,13 +223,13 @@
    "grupo": "",
    "time": "Fulham",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-   "pontos": 8,
-   "jogos": 8,
+   "pontos": 9,
+   "jogos": 9,
    "vitorias": 2,
-   "empates": 2,
+   "empates": 3,
    "derrotas": 4,
-   "golsPro": 8,
-   "golsContra": 10,
+   "golsPro": 9,
+   "golsContra": 11,
    "saldo": -2
   },
   {
@@ -1970,10 +1970,10 @@
    "visitante": "Fulham",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T19:24:55.004Z",
+ "atualizado": "2026-10-31T22:38:54.988Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 54,
-   "jogos": 35,
+   "pontos": 55,
+   "jogos": 36,
    "vitorias": 14,
-   "empates": 12,
+   "empates": 13,
    "derrotas": 9,
-   "golsPro": 47,
-   "golsContra": 38,
+   "golsPro": 48,
+   "golsContra": 39,
    "saldo": 9
   },
   {
@@ -167,13 +167,13 @@
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "pontos": 47,
-   "jogos": 35,
+   "pontos": 48,
+   "jogos": 36,
    "vitorias": 13,
-   "empates": 8,
+   "empates": 9,
    "derrotas": 14,
-   "golsPro": 40,
-   "golsContra": 38,
+   "golsPro": 41,
+   "golsContra": 39,
    "saldo": 2
   },
   {
@@ -6979,10 +6979,10 @@
    "visitante": "Sport",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6999,10 +6999,10 @@
    "visitante": "Juventude",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7022,7 +7022,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

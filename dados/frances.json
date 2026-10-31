@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T19:25:03.735Z",
+ "atualizado": "2026-10-31T22:39:04.974Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Troyes",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "pontos": 8,
+   "jogos": 9,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 5,
+   "golsPro": 7,
+   "golsContra": 16,
+   "saldo": -9
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "pontos": 7,
@@ -219,32 +233,18 @@
    "saldo": -6
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Le Mans",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
    "pontos": 7,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 1,
    "empates": 4,
-   "derrotas": 3,
+   "derrotas": 4,
    "golsPro": 11,
-   "golsContra": 16,
-   "saldo": -5
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Troyes",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-   "pontos": 5,
-   "jogos": 8,
-   "vitorias": 1,
-   "empates": 2,
-   "derrotas": 5,
-   "golsPro": 5,
-   "golsContra": 16,
-   "saldo": -11
+   "golsContra": 18,
+   "saldo": -7
   },
   {
    "posicao": 18,
@@ -1707,10 +1707,10 @@
    "visitante": "Le Mans",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
