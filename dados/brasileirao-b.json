@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-30T23:23:04.583Z",
+ "atualizado": "2026-10-31T02:35:02.773Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Criciúma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "pontos": 62,
+   "jogos": 36,
+   "vitorias": 18,
+   "empates": 8,
+   "derrotas": 10,
+   "golsPro": 38,
+   "golsContra": 30,
+   "saldo": 8
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 61,
@@ -63,20 +77,6 @@
    "golsPro": 43,
    "golsContra": 31,
    "saldo": 12
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Criciúma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
-   "pontos": 59,
-   "jogos": 35,
-   "vitorias": 17,
-   "empates": 8,
-   "derrotas": 10,
-   "golsPro": 36,
-   "golsContra": 30,
-   "saldo": 6
   },
   {
    "posicao": 6,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 15,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 3,
    "empates": 6,
-   "derrotas": 26,
+   "derrotas": 27,
    "golsPro": 21,
-   "golsContra": 76,
-   "saldo": -55
+   "golsContra": 78,
+   "saldo": -57
   }
  ],
  "jogos": [
@@ -6959,10 +6959,10 @@
    "visitante": "Ponte Preta",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
