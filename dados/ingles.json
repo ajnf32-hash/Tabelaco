@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T09:06:17.481Z",
+ "atualizado": "2026-10-31T15:25:45.125Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Chelsea",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "pontos": 16,
+   "jogos": 9,
+   "vitorias": 5,
+   "empates": 1,
+   "derrotas": 3,
+   "golsPro": 19,
+   "golsContra": 15,
+   "saldo": 4
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Liverpool",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "pontos": 15,
@@ -63,20 +77,6 @@
    "golsPro": 11,
    "golsContra": 8,
    "saldo": 3
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Chelsea",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-   "pontos": 13,
-   "jogos": 8,
-   "vitorias": 4,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 17,
-   "golsContra": 15,
-   "saldo": 2
   },
   {
    "posicao": 6,
@@ -238,13 +238,13 @@
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "pontos": 7,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 1,
    "empates": 4,
-   "derrotas": 3,
+   "derrotas": 4,
    "golsPro": 10,
-   "golsContra": 13,
-   "saldo": -3
+   "golsContra": 15,
+   "saldo": -5
   },
   {
    "posicao": 18,
@@ -1830,10 +1830,10 @@
    "visitante": "Manchester United",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1853,7 +1853,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1873,7 +1873,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1893,7 +1893,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
@@ -1913,7 +1913,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -1933,7 +1933,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"

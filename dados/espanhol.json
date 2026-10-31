@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T09:06:18.796Z",
+ "atualizado": "2026-10-31T15:25:46.249Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Atlético de Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "pontos": 28,
+   "jogos": 11,
+   "vitorias": 9,
+   "empates": 1,
+   "derrotas": 1,
+   "golsPro": 22,
+   "golsContra": 8,
+   "saldo": 14
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
@@ -21,20 +35,6 @@
    "golsPro": 40,
    "golsContra": 11,
    "saldo": 29
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Atlético de Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "pontos": 25,
-   "jogos": 10,
-   "vitorias": 8,
-   "empates": 1,
-   "derrotas": 1,
-   "golsPro": 20,
-   "golsContra": 8,
-   "saldo": 12
   },
   {
    "posicao": 3,
@@ -207,20 +207,6 @@
   {
    "posicao": 15,
    "grupo": "",
-   "time": "Levante",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "pontos": 10,
-   "jogos": 10,
-   "vitorias": 2,
-   "empates": 4,
-   "derrotas": 4,
-   "golsPro": 16,
-   "golsContra": 19,
-   "saldo": -3
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "pontos": 10,
@@ -231,6 +217,20 @@
    "golsPro": 14,
    "golsContra": 17,
    "saldo": -3
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
+   "time": "Levante",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "pontos": 10,
+   "jogos": 11,
+   "vitorias": 2,
+   "empates": 4,
+   "derrotas": 5,
+   "golsPro": 16,
+   "golsContra": 21,
+   "saldo": -5
   },
   {
    "posicao": 17,
@@ -2210,10 +2210,10 @@
    "visitante": "Atlético de Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2233,7 +2233,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
