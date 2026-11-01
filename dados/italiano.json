@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T08:27:34.090Z",
+ "atualizado": "2026-11-01T15:22:58.881Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Como",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "pontos": 23,
+   "jogos": 10,
+   "vitorias": 7,
+   "empates": 2,
+   "derrotas": 1,
+   "golsPro": 18,
+   "golsContra": 8,
+   "saldo": 10
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "pontos": 21,
@@ -62,20 +76,6 @@
    "derrotas": 1,
    "golsPro": 21,
    "golsContra": 12,
-   "saldo": 9
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Como",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-   "pontos": 20,
-   "jogos": 9,
-   "vitorias": 6,
-   "empates": 2,
-   "derrotas": 1,
-   "golsPro": 17,
-   "golsContra": 8,
    "saldo": 9
   },
   {
@@ -280,13 +280,13 @@
    "time": "Venezia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "pontos": 3,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 1,
    "empates": 0,
-   "derrotas": 8,
+   "derrotas": 9,
    "golsPro": 6,
-   "golsContra": 19,
-   "saldo": -13
+   "golsContra": 20,
+   "saldo": -14
   }
  ],
  "jogos": [
@@ -2089,10 +2089,10 @@
    "visitante": "Venezia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2112,7 +2112,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -2132,7 +2132,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
