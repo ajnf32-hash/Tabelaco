@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-10-31T22:38:59.702Z",
+ "atualizado": "2026-11-01T01:42:10.632Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3341,6 +3341,25 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Estadio Centenario",
+   "cidade": "Montevideo",
+   "mandante": "Palmeiras",
+   "visitante": "Estudiantes de La Plata",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/8.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
