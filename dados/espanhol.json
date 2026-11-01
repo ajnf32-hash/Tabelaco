@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T15:22:57.020Z",
+ "atualizado": "2026-11-01T19:49:48.982Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Real Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 24,
-   "jogos": 10,
-   "vitorias": 8,
+   "pontos": 27,
+   "jogos": 11,
+   "vitorias": 9,
    "empates": 0,
    "derrotas": 2,
-   "golsPro": 25,
+   "golsPro": 28,
    "golsContra": 10,
-   "saldo": 15
+   "saldo": 18
   },
   {
    "posicao": 4,
@@ -210,13 +210,13 @@
    "time": "Racing Santander",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
    "pontos": 11,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 3,
    "empates": 2,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 15,
-   "golsContra": 26,
-   "saldo": -11
+   "golsContra": 29,
+   "saldo": -14
   },
   {
    "posicao": 16,
@@ -238,13 +238,13 @@
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "pontos": 10,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 2,
    "empates": 4,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 14,
-   "golsContra": 17,
-   "saldo": -3
+   "golsContra": 18,
+   "saldo": -4
   },
   {
    "posicao": 18,
@@ -265,14 +265,14 @@
    "grupo": "",
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "pontos": 6,
-   "jogos": 10,
-   "vitorias": 1,
+   "pontos": 9,
+   "jogos": 11,
+   "vitorias": 2,
    "empates": 3,
    "derrotas": 6,
-   "golsPro": 7,
+   "golsPro": 8,
    "golsContra": 17,
-   "saldo": -10
+   "saldo": -9
   },
   {
    "posicao": 20,
@@ -2309,10 +2309,10 @@
    "visitante": "Real Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2329,10 +2329,10 @@
    "visitante": "Valencia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

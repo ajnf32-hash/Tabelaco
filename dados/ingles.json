@@ -6,10 +6,24 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T15:22:55.599Z",
+ "atualizado": "2026-11-01T19:49:47.278Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Arsenal",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
+   "pontos": 24,
+   "jogos": 9,
+   "vitorias": 8,
+   "empates": 0,
+   "derrotas": 1,
+   "golsPro": 14,
+   "golsContra": 5,
+   "saldo": 9
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Manchester City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
@@ -21,20 +35,6 @@
    "golsPro": 20,
    "golsContra": 10,
    "saldo": 10
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Arsenal",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "pontos": 21,
-   "jogos": 8,
-   "vitorias": 7,
-   "empates": 0,
-   "derrotas": 1,
-   "golsPro": 13,
-   "golsContra": 5,
-   "saldo": 8
   },
   {
    "posicao": 3,
@@ -70,13 +70,13 @@
    "time": "Liverpool",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "pontos": 15,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 4,
    "empates": 3,
-   "derrotas": 1,
+   "derrotas": 2,
    "golsPro": 11,
-   "golsContra": 8,
-   "saldo": 3
+   "golsContra": 9,
+   "saldo": 2
   },
   {
    "posicao": 6,
@@ -1989,10 +1989,10 @@
    "visitante": "Arsenal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
