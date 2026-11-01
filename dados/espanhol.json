@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T19:49:48.982Z",
+ "atualizado": "2026-11-01T23:15:01.652Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -70,13 +70,13 @@
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "pontos": 19,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 6,
    "empates": 1,
-   "derrotas": 3,
-   "golsPro": 19,
-   "golsContra": 18,
-   "saldo": 1
+   "derrotas": 4,
+   "golsPro": 20,
+   "golsContra": 20,
+   "saldo": 0
   },
   {
    "posicao": 6,
@@ -97,14 +97,14 @@
    "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "pontos": 12,
-   "jogos": 9,
-   "vitorias": 3,
+   "pontos": 15,
+   "jogos": 10,
+   "vitorias": 4,
    "empates": 3,
    "derrotas": 3,
-   "golsPro": 12,
-   "golsContra": 9,
-   "saldo": 3
+   "golsPro": 14,
+   "golsContra": 10,
+   "saldo": 4
   },
   {
    "posicao": 8,
@@ -2349,10 +2349,10 @@
    "visitante": "Real Sociedad",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

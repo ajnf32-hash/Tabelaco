@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T19:49:50.543Z",
+ "atualizado": "2026-11-01T23:15:03.481Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,19 +95,33 @@
   {
    "posicao": 7,
    "grupo": "",
-   "time": "Napoli",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-   "pontos": 14,
-   "jogos": 9,
-   "vitorias": 4,
+   "time": "Juventus",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
+   "pontos": 17,
+   "jogos": 10,
+   "vitorias": 5,
    "empates": 2,
    "derrotas": 3,
-   "golsPro": 17,
-   "golsContra": 11,
-   "saldo": 6
+   "golsPro": 13,
+   "golsContra": 10,
+   "saldo": 3
   },
   {
    "posicao": 8,
+   "grupo": "",
+   "time": "Napoli",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "pontos": 14,
+   "jogos": 10,
+   "vitorias": 4,
+   "empates": 2,
+   "derrotas": 4,
+   "golsPro": 17,
+   "golsContra": 13,
+   "saldo": 4
+  },
+  {
+   "posicao": 9,
    "grupo": "",
    "time": "Bologna",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
@@ -118,20 +132,6 @@
    "derrotas": 4,
    "golsPro": 14,
    "golsContra": 13,
-   "saldo": 1
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Juventus",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
-   "pontos": 14,
-   "jogos": 9,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 3,
-   "golsPro": 11,
-   "golsContra": 10,
    "saldo": 1
   },
   {
@@ -2169,10 +2169,10 @@
    "visitante": "Napoli",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/111.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

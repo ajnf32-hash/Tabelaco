@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T19:49:39.304Z",
+ "atualizado": "2026-11-01T23:14:50.881Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -252,27 +252,27 @@
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "pontos": 32,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 8,
    "empates": 8,
-   "derrotas": 19,
-   "golsPro": 44,
-   "golsContra": 51,
-   "saldo": -7
+   "derrotas": 20,
+   "golsPro": 45,
+   "golsContra": 54,
+   "saldo": -9
   },
   {
    "posicao": 19,
    "grupo": "",
    "time": "América Mineiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "pontos": 23,
-   "jogos": 35,
-   "vitorias": 6,
+   "pontos": 26,
+   "jogos": 36,
+   "vitorias": 7,
    "empates": 5,
    "derrotas": 24,
-   "golsPro": 23,
-   "golsContra": 54,
-   "saldo": -31
+   "golsPro": 26,
+   "golsContra": 55,
+   "saldo": -29
   },
   {
    "posicao": 20,
@@ -7038,10 +7038,10 @@
    "visitante": "América Mineiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6154.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7061,7 +7061,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -7081,7 +7081,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
