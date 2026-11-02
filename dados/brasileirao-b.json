@@ -6,10 +6,24 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-01T23:14:50.881Z",
+ "atualizado": "2026-11-02T02:38:49.039Z",
  "classificacao": [
   {
    "posicao": 1,
+   "grupo": "",
+   "time": "Novorizontino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
+   "pontos": 67,
+   "jogos": 36,
+   "vitorias": 19,
+   "empates": 10,
+   "derrotas": 7,
+   "golsPro": 64,
+   "golsContra": 31,
+   "saldo": 33
+  },
+  {
+   "posicao": 2,
    "grupo": "",
    "time": "Juventude",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
@@ -21,20 +35,6 @@
    "golsPro": 47,
    "golsContra": 25,
    "saldo": 22
-  },
-  {
-   "posicao": 2,
-   "grupo": "",
-   "time": "Novorizontino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 64,
-   "jogos": 35,
-   "vitorias": 18,
-   "empates": 10,
-   "derrotas": 7,
-   "golsPro": 62,
-   "golsContra": 30,
-   "saldo": 32
   },
   {
    "posicao": 3,
@@ -137,30 +137,30 @@
   {
    "posicao": 10,
    "grupo": "",
-   "time": "Operário PR",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 51,
-   "jogos": 35,
+   "time": "São Bernardo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
+   "pontos": 52,
+   "jogos": 36,
    "vitorias": 14,
-   "empates": 9,
+   "empates": 10,
    "derrotas": 12,
-   "golsPro": 45,
-   "golsContra": 46,
-   "saldo": -1
+   "golsPro": 51,
+   "golsContra": 40,
+   "saldo": 11
   },
   {
    "posicao": 11,
    "grupo": "",
-   "time": "São Bernardo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 49,
-   "jogos": 35,
-   "vitorias": 13,
-   "empates": 10,
-   "derrotas": 12,
-   "golsPro": 49,
-   "golsContra": 39,
-   "saldo": 10
+   "time": "Operário PR",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "pontos": 51,
+   "jogos": 36,
+   "vitorias": 14,
+   "empates": 9,
+   "derrotas": 13,
+   "golsPro": 46,
+   "golsContra": 48,
+   "saldo": -2
   },
   {
    "posicao": 12,
@@ -182,13 +182,13 @@
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 47,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 11,
    "empates": 14,
-   "derrotas": 10,
-   "golsPro": 32,
-   "golsContra": 28,
-   "saldo": 4
+   "derrotas": 11,
+   "golsPro": 33,
+   "golsContra": 30,
+   "saldo": 3
   },
   {
    "posicao": 14,
@@ -6783,11 +6783,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-24",
@@ -6803,11 +6802,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-24",
@@ -6823,7 +6821,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -6842,11 +6840,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-24",
@@ -6862,11 +6859,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-24",
@@ -6882,11 +6878,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-26",
@@ -7058,10 +7053,10 @@
    "visitante": "São Bernardo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7078,10 +7073,10 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
