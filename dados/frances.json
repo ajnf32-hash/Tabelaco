@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-02T20:26:47.652Z",
+ "atualizado": "2026-11-03T02:30:46.405Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -137,19 +137,33 @@
   {
    "posicao": 10,
    "grupo": "",
-   "time": "Lorient",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+   "time": "Brest",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
    "pontos": 12,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 3,
    "empates": 3,
-   "derrotas": 2,
-   "golsPro": 7,
-   "golsContra": 6,
-   "saldo": 1
+   "derrotas": 3,
+   "golsPro": 16,
+   "golsContra": 12,
+   "saldo": 4
   },
   {
    "posicao": 11,
+   "grupo": "",
+   "time": "Lorient",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+   "pontos": 12,
+   "jogos": 9,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 3,
+   "golsPro": 7,
+   "golsContra": 8,
+   "saldo": -1
+  },
+  {
+   "posicao": 12,
    "grupo": "",
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
@@ -163,7 +177,7 @@
    "saldo": -2
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Auxerre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
@@ -177,7 +191,7 @@
    "saldo": -10
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Toulouse",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
@@ -189,20 +203,6 @@
    "golsPro": 12,
    "golsContra": 13,
    "saldo": -1
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Brest",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "pontos": 9,
-   "jogos": 8,
-   "vitorias": 2,
-   "empates": 3,
-   "derrotas": 3,
-   "golsPro": 14,
-   "golsContra": 12,
-   "saldo": 2
   },
   {
    "posicao": 15,
@@ -1511,11 +1511,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1531,11 +1530,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1551,11 +1549,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1571,11 +1568,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1591,7 +1587,7 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -1610,11 +1606,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-26",
@@ -1805,10 +1800,10 @@
    "visitante": "Brest",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

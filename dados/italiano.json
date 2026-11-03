@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-02T20:26:45.421Z",
+ "atualizado": "2026-11-03T02:30:43.376Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -182,13 +182,13 @@
    "time": "Atalanta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "pontos": 11,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 3,
    "empates": 2,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 16,
-   "golsContra": 17,
-   "saldo": -1
+   "golsContra": 20,
+   "saldo": -4
   },
   {
    "posicao": 14,
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Parma",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "pontos": 8,
+   "jogos": 10,
+   "vitorias": 2,
+   "empates": 2,
+   "derrotas": 6,
+   "golsPro": 8,
+   "golsContra": 15,
+   "saldo": -7
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Fiorentina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "pontos": 8,
@@ -219,7 +233,7 @@
    "saldo": -8
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
@@ -233,7 +247,7 @@
    "saldo": -10
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Monza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
@@ -245,20 +259,6 @@
    "golsPro": 17,
    "golsContra": 24,
    "saldo": -7
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Parma",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "pontos": 5,
-   "jogos": 9,
-   "vitorias": 1,
-   "empates": 2,
-   "derrotas": 6,
-   "golsPro": 5,
-   "golsContra": 15,
-   "saldo": -10
   },
   {
    "posicao": 19,
@@ -1729,11 +1729,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1749,11 +1748,10 @@
    "golsVisitante": 4,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1769,11 +1767,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1789,11 +1786,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-25",
@@ -1809,11 +1805,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-27",
@@ -2205,10 +2200,10 @@
    "visitante": "Parma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/105.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

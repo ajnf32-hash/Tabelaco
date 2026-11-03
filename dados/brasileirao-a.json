@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-02T20:26:30.973Z",
+ "atualizado": "2026-11-03T02:30:22.577Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,30 +109,30 @@
   {
    "posicao": 8,
    "grupo": "",
-   "time": "Santos",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "time": "Red Bull Bragantino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "pontos": 47,
-   "jogos": 33,
-   "vitorias": 12,
-   "empates": 11,
-   "derrotas": 10,
-   "golsPro": 49,
-   "golsContra": 47,
-   "saldo": 2
+   "jogos": 34,
+   "vitorias": 13,
+   "empates": 8,
+   "derrotas": 13,
+   "golsPro": 44,
+   "golsContra": 39,
+   "saldo": 5
   },
   {
    "posicao": 9,
    "grupo": "",
-   "time": "Red Bull Bragantino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 44,
-   "jogos": 33,
+   "time": "Santos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "pontos": 47,
+   "jogos": 34,
    "vitorias": 12,
-   "empates": 8,
-   "derrotas": 13,
-   "golsPro": 42,
-   "golsContra": 38,
-   "saldo": 4
+   "empates": 11,
+   "derrotas": 11,
+   "golsPro": 50,
+   "golsContra": 49,
+   "saldo": 1
   },
   {
    "posicao": 10,
@@ -5605,11 +5605,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-26",
@@ -5860,10 +5859,10 @@
    "visitante": "Santos",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
