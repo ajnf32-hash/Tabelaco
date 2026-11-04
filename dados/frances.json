@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-04T10:12:16.840Z",
+ "atualizado": "2026-11-04T18:07:45.772Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1831,7 +1831,7 @@
   },
   {
    "data": "2026-11-07",
-   "hora": "16:15",
+   "hora": "18:00",
    "rodada": "",
    "local": "Stade de l'Abbé-Deschamps",
    "cidade": "Auxerre",
@@ -1851,7 +1851,7 @@
   },
   {
    "data": "2026-11-07",
-   "hora": "19:45",
+   "hora": "20:05",
    "rodada": "",
    "local": "Parc des Princes",
    "cidade": "Paris",
