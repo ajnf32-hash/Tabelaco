@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-03T22:49:11.879Z",
+ "atualizado": "2026-11-04T02:49:50.343Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -154,16 +154,30 @@
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 42,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 11,
    "empates": 9,
-   "derrotas": 13,
+   "derrotas": 14,
    "golsPro": 40,
-   "golsContra": 50,
-   "saldo": -10
+   "golsContra": 51,
+   "saldo": -11
   },
   {
    "posicao": 12,
+   "grupo": "",
+   "time": "Mirassol",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "pontos": 40,
+   "jogos": 34,
+   "vitorias": 10,
+   "empates": 10,
+   "derrotas": 14,
+   "golsPro": 39,
+   "golsContra": 48,
+   "saldo": -9
+  },
+  {
+   "posicao": 13,
    "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
@@ -177,7 +191,7 @@
    "saldo": -8
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
@@ -191,7 +205,7 @@
    "saldo": -9
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
@@ -205,7 +219,21 @@
    "saldo": -13
   },
   {
-   "posicao": 15,
+   "posicao": 16,
+   "grupo": "",
+   "time": "Internacional",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "pontos": 38,
+   "jogos": 34,
+   "vitorias": 9,
+   "empates": 11,
+   "derrotas": 14,
+   "golsPro": 38,
+   "golsContra": 42,
+   "saldo": -4
+  },
+  {
+   "posicao": 17,
    "grupo": "",
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
@@ -219,21 +247,7 @@
    "saldo": -7
   },
   {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Mirassol",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "pontos": 37,
-   "jogos": 33,
-   "vitorias": 9,
-   "empates": 10,
-   "derrotas": 14,
-   "golsPro": 37,
-   "golsContra": 47,
-   "saldo": -10
-  },
-  {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Corinthians",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
@@ -245,20 +259,6 @@
    "golsPro": 36,
    "golsContra": 42,
    "saldo": -6
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Internacional",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
-   "pontos": 35,
-   "jogos": 33,
-   "vitorias": 8,
-   "empates": 11,
-   "derrotas": 14,
-   "golsPro": 37,
-   "golsContra": 42,
-   "saldo": -5
   },
   {
    "posicao": 19,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 21,
-   "jogos": 32,
+   "jogos": 33,
    "vitorias": 4,
    "empates": 9,
-   "derrotas": 19,
-   "golsPro": 32,
-   "golsContra": 66,
-   "saldo": -34
+   "derrotas": 20,
+   "golsPro": 33,
+   "golsContra": 68,
+   "saldo": -35
   }
  ],
  "jogos": [
@@ -5624,11 +5624,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-26",
@@ -5644,11 +5643,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-28",
@@ -5878,10 +5876,10 @@
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -5898,10 +5896,10 @@
    "visitante": "Coritiba",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
