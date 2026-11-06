@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T07:47:39.768Z",
+ "atualizado": "2026-11-06T15:29:25.561Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -7339,6 +7339,25 @@
    "conferencia": "confirmado"
   },
   {
+   "data": "2026-11-11",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estadio VGD",
+   "cidade": "Londrina",
+   "mandante": "Londrina",
+   "visitante": "Náutico",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
    "data": "2026-11-14",
    "hora": "19:30",
    "rodada": "",
@@ -7447,26 +7466,6 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-14",
-   "hora": "19:30",
-   "rodada": "",
-   "local": "Estadio VGD",
-   "cidade": "Londrina",
-   "mandante": "Londrina",
-   "visitante": "Náutico",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

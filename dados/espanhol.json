@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T07:47:48.608Z",
+ "atualizado": "2026-11-06T15:29:36.160Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2769,15 +2769,110 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-11-29",
+   "data": "2026-11-27",
    "hora": "20:00",
    "rodada": "",
-   "local": "Balaidos",
-   "cidade": "Vigo",
-   "mandante": "Celta Vigo",
-   "visitante": "Villarreal",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "local": "Estadi Ciutat de València",
+   "cidade": "Manises",
+   "mandante": "Levante",
+   "visitante": "Racing Santander",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Estadio La Cartuja",
+   "cidade": "Sevilla",
+   "mandante": "Real Betis",
+   "visitante": "Rayo Vallecano",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "La Rosaleda",
+   "cidade": "Malaga",
+   "mandante": "Málaga",
+   "visitante": "Athletic Bilbao",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Estadio Martínez Valero",
+   "cidade": "Elche",
+   "mandante": "Elche",
+   "visitante": "Atlético de Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-28",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Santiago Bernabéu",
+   "cidade": "Madrid",
+   "mandante": "Real Madrid",
+   "visitante": "Alavés",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-29",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "Mestalla Stadium",
+   "cidade": "Manises",
+   "mandante": "Valencia",
+   "visitante": "Osasuna",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
@@ -2790,7 +2885,7 @@
   },
   {
    "data": "2026-11-29",
-   "hora": "20:00",
+   "hora": "15:15",
    "rodada": "",
    "local": "Riazor",
    "cidade": "La Coruña",
@@ -2809,114 +2904,14 @@
   },
   {
    "data": "2026-11-29",
-   "hora": "20:00",
+   "hora": "17:30",
    "rodada": "",
-   "local": "Estadio Martínez Valero",
-   "cidade": "Elche",
-   "mandante": "Elche",
-   "visitante": "Atlético de Madrid",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-29",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "RCDE Stadium",
-   "cidade": "Barcelona",
-   "mandante": "Espanyol",
-   "visitante": "Getafe",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-29",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "Estadi Ciutat de València",
-   "cidade": "Manises",
-   "mandante": "Levante",
-   "visitante": "Racing Santander",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-29",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "La Rosaleda",
-   "cidade": "Malaga",
-   "mandante": "Málaga",
-   "visitante": "Athletic Bilbao",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-29",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "Estadio La Cartuja",
-   "cidade": "Sevilla",
-   "mandante": "Real Betis",
-   "visitante": "Rayo Vallecano",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-29",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "Santiago Bernabéu",
-   "cidade": "Madrid",
-   "mandante": "Real Madrid",
-   "visitante": "Alavés",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "local": "Balaidos",
+   "cidade": "Vigo",
+   "mandante": "Celta Vigo",
+   "visitante": "Villarreal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
@@ -2948,24 +2943,23 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-11-29",
+   "data": "2026-11-30",
    "hora": "20:00",
    "rodada": "",
-   "local": "Mestalla Stadium",
-   "cidade": "Manises",
-   "mandante": "Valencia",
-   "visitante": "Osasuna",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "local": "RCDE Stadium",
+   "cidade": "Barcelona",
+   "mandante": "Espanyol",
+   "visitante": "Getafe",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
+   "conferencia": "sozinho",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   }
  ],
  "avisos": []
