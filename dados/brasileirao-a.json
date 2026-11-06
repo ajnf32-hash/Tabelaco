@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T01:00:03.330Z",
+ "atualizado": "2026-11-06T07:47:35.252Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 57,
-   "jogos": 33,
-   "vitorias": 17,
+   "pontos": 60,
+   "jogos": 34,
+   "vitorias": 18,
    "empates": 6,
    "derrotas": 10,
-   "golsPro": 52,
-   "golsContra": 46,
-   "saldo": 6
+   "golsPro": 55,
+   "golsContra": 48,
+   "saldo": 7
   },
   {
    "posicao": 4,
@@ -84,13 +84,13 @@
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 53,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 14,
    "empates": 11,
-   "derrotas": 8,
-   "golsPro": 48,
-   "golsContra": 42,
-   "saldo": 6
+   "derrotas": 9,
+   "golsPro": 50,
+   "golsContra": 45,
+   "saldo": 5
   },
   {
    "posicao": 7,
@@ -6014,10 +6014,10 @@
    "visitante": "Bahia",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
