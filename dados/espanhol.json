@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T15:29:36.160Z",
+ "atualizado": "2026-11-06T20:59:36.065Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2383,7 +2383,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
@@ -2782,10 +2782,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -2801,10 +2802,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -2820,10 +2822,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -2839,10 +2842,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-11-28",
@@ -2858,10 +2862,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   },
   {
    "data": "2026-11-29",
@@ -2956,10 +2961,11 @@
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
