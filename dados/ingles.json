@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T20:59:34.288Z",
+ "atualizado": "2026-11-07T00:41:00.080Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,20 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Everton",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+   "pontos": 16,
+   "jogos": 10,
+   "vitorias": 4,
+   "empates": 4,
+   "derrotas": 2,
+   "golsPro": 12,
+   "golsContra": 10,
+   "saldo": 2
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
    "time": "Liverpool",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "pontos": 15,
@@ -79,7 +93,7 @@
    "saldo": 2
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Brentford",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
@@ -91,20 +105,6 @@
    "golsPro": 16,
    "golsContra": 9,
    "saldo": 7
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Everton",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-   "pontos": 13,
-   "jogos": 9,
-   "vitorias": 3,
-   "empates": 4,
-   "derrotas": 2,
-   "golsPro": 9,
-   "golsContra": 9,
-   "saldo": 0
   },
   {
    "posicao": 8,
@@ -210,13 +210,13 @@
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
    "pontos": 9,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 3,
    "empates": 0,
-   "derrotas": 6,
-   "golsPro": 9,
-   "golsContra": 16,
-   "saldo": -7
+   "derrotas": 7,
+   "golsPro": 10,
+   "golsContra": 19,
+   "saldo": -9
   },
   {
    "posicao": 16,
@@ -2020,10 +2020,10 @@
    "visitante": "Coventry City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

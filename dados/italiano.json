@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T20:59:37.402Z",
+ "atualizado": "2026-11-07T00:41:03.218Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -263,30 +263,30 @@
   {
    "posicao": 19,
    "grupo": "",
-   "time": "Udinese",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-   "pontos": 5,
-   "jogos": 10,
-   "vitorias": 1,
-   "empates": 2,
-   "derrotas": 7,
-   "golsPro": 11,
-   "golsContra": 23,
-   "saldo": -12
+   "time": "Venezia",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "pontos": 6,
+   "jogos": 11,
+   "vitorias": 2,
+   "empates": 0,
+   "derrotas": 9,
+   "golsPro": 8,
+   "golsContra": 21,
+   "saldo": -13
   },
   {
    "posicao": 20,
    "grupo": "",
-   "time": "Venezia",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-   "pontos": 3,
-   "jogos": 10,
+   "time": "Udinese",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
+   "pontos": 5,
+   "jogos": 11,
    "vitorias": 1,
-   "empates": 0,
-   "derrotas": 9,
-   "golsPro": 6,
-   "golsContra": 20,
-   "saldo": -14
+   "empates": 2,
+   "derrotas": 8,
+   "golsPro": 12,
+   "golsContra": 25,
+   "saldo": -13
   }
  ],
  "jogos": [
@@ -1976,11 +1976,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-29",
@@ -1996,11 +1995,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -2212,10 +2210,10 @@
    "visitante": "Udinese",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/118.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

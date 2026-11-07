@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T20:59:38.687Z",
+ "atualizado": "2026-11-07T00:41:04.519Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Hamburgo",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "pontos": 12,
+   "jogos": 9,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 10,
+   "golsContra": 20,
+   "saldo": -10
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Eintracht Frankfurt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "pontos": 11,
@@ -121,7 +135,7 @@
    "saldo": -5
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Mainz",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -135,7 +149,7 @@
    "saldo": 0
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Stuttgart",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
@@ -149,7 +163,7 @@
    "saldo": -1
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Hoffenheim",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
@@ -161,20 +175,6 @@
    "golsPro": 14,
    "golsContra": 16,
    "saldo": -2
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Hamburgo",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
-   "pontos": 9,
-   "jogos": 8,
-   "vitorias": 3,
-   "empates": 0,
-   "derrotas": 5,
-   "golsPro": 7,
-   "golsContra": 19,
-   "saldo": -12
   },
   {
    "posicao": 13,
@@ -252,13 +252,13 @@
    "time": "Borussia Mönchengladbach",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
    "pontos": 4,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 1,
    "empates": 1,
-   "derrotas": 6,
-   "golsPro": 11,
-   "golsContra": 22,
-   "saldo": -11
+   "derrotas": 7,
+   "golsPro": 12,
+   "golsContra": 25,
+   "saldo": -13
   }
  ],
  "jogos": [
@@ -1648,10 +1648,10 @@
    "visitante": "Borussia Mönchengladbach",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

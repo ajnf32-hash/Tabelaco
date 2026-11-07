@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-06T20:59:39.966Z",
+ "atualizado": "2026-11-07T00:41:05.618Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -137,6 +137,20 @@
   {
    "posicao": 10,
    "grupo": "",
+   "time": "Toulouse",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+   "pontos": 13,
+   "jogos": 10,
+   "vitorias": 3,
+   "empates": 4,
+   "derrotas": 3,
+   "golsPro": 15,
+   "golsContra": 14,
+   "saldo": 1
+  },
+  {
+   "posicao": 11,
+   "grupo": "",
    "time": "Brest",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
    "pontos": 12,
@@ -149,7 +163,7 @@
    "saldo": 4
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Lorient",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
@@ -163,21 +177,21 @@
    "saldo": -1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "pontos": 10,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 3,
    "empates": 1,
-   "derrotas": 5,
-   "golsPro": 17,
-   "golsContra": 19,
-   "saldo": -2
+   "derrotas": 6,
+   "golsPro": 18,
+   "golsContra": 22,
+   "saldo": -4
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Auxerre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
@@ -189,20 +203,6 @@
    "golsPro": 13,
    "golsContra": 23,
    "saldo": -10
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Toulouse",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
-   "pontos": 10,
-   "jogos": 9,
-   "vitorias": 2,
-   "empates": 4,
-   "derrotas": 3,
-   "golsPro": 12,
-   "golsContra": 13,
-   "saldo": -1
   },
   {
    "posicao": 15,
@@ -1819,10 +1819,10 @@
    "visitante": "Strasbourg",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
