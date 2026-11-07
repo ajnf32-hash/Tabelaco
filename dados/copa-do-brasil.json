@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-11-07T18:24:42.786Z",
+ "atualizado": "2026-11-07T22:07:50.028Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2902,7 +2902,7 @@
   {
    "data": "2026-11-07",
    "hora": "21:00",
-   "rodada": "2nd Leg - Grêmio lead 2-0 on aggregate",
+   "rodada": "2nd Leg - Grêmio lead 3-1 on aggregate",
    "local": "Arena MRV",
    "cidade": "Belo Horizonte",
    "mandante": "Atlético-MG",
@@ -2912,7 +2912,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"

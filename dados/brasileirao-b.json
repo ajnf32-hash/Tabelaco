@@ -6,21 +6,21 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-07T18:24:39.955Z",
+ "atualizado": "2026-11-07T22:07:47.179Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Novorizontino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
-   "pontos": 67,
-   "jogos": 36,
-   "vitorias": 19,
+   "pontos": 70,
+   "jogos": 37,
+   "vitorias": 20,
    "empates": 10,
    "derrotas": 7,
-   "golsPro": 64,
-   "golsContra": 31,
-   "saldo": 33
+   "golsPro": 66,
+   "golsContra": 32,
+   "saldo": 34
   },
   {
    "posicao": 2,
@@ -70,13 +70,13 @@
    "time": "Fortaleza",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
    "pontos": 62,
-   "jogos": 36,
+   "jogos": 37,
    "vitorias": 16,
    "empates": 14,
-   "derrotas": 6,
-   "golsPro": 43,
-   "golsContra": 31,
-   "saldo": 12
+   "derrotas": 7,
+   "golsPro": 44,
+   "golsContra": 33,
+   "saldo": 11
   },
   {
    "posicao": 6,
@@ -154,13 +154,13 @@
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "pontos": 52,
-   "jogos": 36,
+   "jogos": 37,
    "vitorias": 14,
    "empates": 10,
-   "derrotas": 12,
-   "golsPro": 51,
-   "golsContra": 40,
-   "saldo": 11
+   "derrotas": 13,
+   "golsPro": 52,
+   "golsContra": 42,
+   "saldo": 10
   },
   {
    "posicao": 12,
@@ -237,14 +237,14 @@
    "grupo": "",
    "time": "Avaí",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
-   "pontos": 37,
-   "jogos": 36,
-   "vitorias": 10,
+   "pontos": 40,
+   "jogos": 37,
+   "vitorias": 11,
    "empates": 7,
    "derrotas": 19,
-   "golsPro": 33,
-   "golsContra": 46,
-   "saldo": -13
+   "golsPro": 35,
+   "golsContra": 47,
+   "saldo": -12
   },
   {
    "posicao": 18,
@@ -7189,10 +7189,10 @@
    "visitante": "São Bernardo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9966.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7209,10 +7209,10 @@
    "visitante": "Fortaleza",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/18127.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

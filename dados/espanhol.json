@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-07T18:24:50.159Z",
+ "atualizado": "2026-11-07T22:07:58.513Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Real Madrid",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "pontos": 30,
+   "jogos": 12,
+   "vitorias": 10,
+   "empates": 0,
+   "derrotas": 2,
+   "golsPro": 31,
+   "golsContra": 10,
+   "saldo": 21
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "pontos": 28,
@@ -35,20 +49,6 @@
    "golsPro": 22,
    "golsContra": 8,
    "saldo": 14
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Real Madrid",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "pontos": 27,
-   "jogos": 11,
-   "vitorias": 9,
-   "empates": 0,
-   "derrotas": 2,
-   "golsPro": 28,
-   "golsContra": 10,
-   "saldo": 18
   },
   {
    "posicao": 4,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "pontos": 15,
-   "jogos": 10,
+   "pontos": 16,
+   "jogos": 11,
    "vitorias": 4,
-   "empates": 3,
+   "empates": 4,
    "derrotas": 3,
-   "golsPro": 14,
-   "golsContra": 10,
+   "golsPro": 15,
+   "golsContra": 11,
    "saldo": 4
   },
   {
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Osasuna",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "pontos": 12,
+   "jogos": 12,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 6,
+   "golsPro": 12,
+   "golsContra": 23,
+   "saldo": -11
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Celta Vigo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "pontos": 12,
@@ -217,20 +231,6 @@
    "golsPro": 10,
    "golsContra": 10,
    "saldo": 0
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Osasuna",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
-   "pontos": 11,
-   "jogos": 11,
-   "vitorias": 3,
-   "empates": 2,
-   "derrotas": 6,
-   "golsPro": 11,
-   "golsContra": 22,
-   "saldo": -11
   },
   {
    "posicao": 17,
@@ -266,13 +266,13 @@
    "time": "Valencia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "pontos": 9,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 2,
    "empates": 3,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 8,
-   "golsContra": 17,
-   "saldo": -9
+   "golsContra": 20,
+   "saldo": -12
   },
   {
    "posicao": 20,
@@ -2439,10 +2439,10 @@
    "visitante": "Athletic Bilbao",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2459,10 +2459,10 @@
    "visitante": "Real Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
