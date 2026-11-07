@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-07T00:40:51.206Z",
+ "atualizado": "2026-11-07T06:43:38.990Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,20 +109,6 @@
   {
    "posicao": 8,
    "grupo": "",
-   "time": "Sport",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
-   "pontos": 55,
-   "jogos": 36,
-   "vitorias": 14,
-   "empates": 13,
-   "derrotas": 9,
-   "golsPro": 48,
-   "golsContra": 39,
-   "saldo": 9
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
    "time": "Atlético Goianiense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
    "pontos": 55,
@@ -135,7 +121,35 @@
    "saldo": 9
   },
   {
+   "posicao": 9,
+   "grupo": "",
+   "time": "Sport",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
+   "pontos": 55,
+   "jogos": 37,
+   "vitorias": 14,
+   "empates": 13,
+   "derrotas": 10,
+   "golsPro": 50,
+   "golsContra": 42,
+   "saldo": 8
+  },
+  {
    "posicao": 10,
+   "grupo": "",
+   "time": "Operário PR",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "pontos": 54,
+   "jogos": 37,
+   "vitorias": 15,
+   "empates": 9,
+   "derrotas": 13,
+   "golsPro": 49,
+   "golsContra": 50,
+   "saldo": -1
+  },
+  {
+   "posicao": 11,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
@@ -149,7 +163,7 @@
    "saldo": 11
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Botafogo-SP",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
@@ -161,20 +175,6 @@
    "golsPro": 45,
    "golsContra": 39,
    "saldo": 6
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Operário PR",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 51,
-   "jogos": 36,
-   "vitorias": 14,
-   "empates": 9,
-   "derrotas": 13,
-   "golsPro": 46,
-   "golsContra": 48,
-   "saldo": -2
   },
   {
    "posicao": 13,

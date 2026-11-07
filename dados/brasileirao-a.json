@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-07T00:40:44.966Z",
+ "atualizado": "2026-11-07T06:43:34.423Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,14 +55,14 @@
    "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 54,
-   "jogos": 33,
-   "vitorias": 15,
+   "pontos": 57,
+   "jogos": 34,
+   "vitorias": 16,
    "empates": 9,
    "derrotas": 9,
-   "golsPro": 52,
+   "golsPro": 55,
    "golsContra": 42,
-   "saldo": 10
+   "saldo": 13
   },
   {
    "posicao": 5,
@@ -210,13 +210,13 @@
    "time": "Vitória",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "pontos": 38,
-   "jogos": 33,
+   "jogos": 34,
    "vitorias": 10,
    "empates": 8,
-   "derrotas": 15,
+   "derrotas": 16,
    "golsPro": 35,
-   "golsContra": 48,
-   "saldo": -13
+   "golsContra": 51,
+   "saldo": -16
   },
   {
    "posicao": 16,
@@ -6030,10 +6030,10 @@
    "visitante": "Fluminense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
