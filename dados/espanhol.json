@@ -6,21 +6,21 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T19:51:41.941Z",
+ "atualizado": "2026-11-08T23:19:17.074Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "pontos": 30,
-   "jogos": 11,
-   "vitorias": 10,
+   "pontos": 33,
+   "jogos": 12,
+   "vitorias": 11,
    "empates": 0,
    "derrotas": 1,
-   "golsPro": 46,
-   "golsContra": 12,
-   "saldo": 34
+   "golsPro": 48,
+   "golsContra": 13,
+   "saldo": 35
   },
   {
    "posicao": 2,
@@ -42,13 +42,13 @@
    "time": "Atlético de Madrid",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "pontos": 28,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 9,
    "empates": 1,
-   "derrotas": 1,
-   "golsPro": 22,
-   "golsContra": 8,
-   "saldo": 14
+   "derrotas": 2,
+   "golsPro": 23,
+   "golsContra": 10,
+   "saldo": 13
   },
   {
    "posicao": 4,
@@ -2558,10 +2558,10 @@
    "visitante": "Barcelona",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

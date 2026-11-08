@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T19:51:44.424Z",
+ "atualizado": "2026-11-08T23:19:19.536Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Hoffenheim",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+   "pontos": 12,
+   "jogos": 9,
+   "vitorias": 4,
+   "empates": 0,
+   "derrotas": 5,
+   "golsPro": 16,
+   "golsContra": 17,
+   "saldo": -1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Hamburgo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
    "pontos": 12,
@@ -135,7 +149,7 @@
    "saldo": -10
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Eintracht Frankfurt",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
@@ -149,7 +163,7 @@
    "saldo": -5
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Mainz",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
@@ -163,7 +177,7 @@
    "saldo": -1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Paderborn",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
@@ -175,20 +189,6 @@
    "golsPro": 8,
    "golsContra": 11,
    "saldo": -3
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Hoffenheim",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
-   "pontos": 9,
-   "jogos": 8,
-   "vitorias": 3,
-   "empates": 0,
-   "derrotas": 5,
-   "golsPro": 14,
-   "golsContra": 16,
-   "saldo": -2
   },
   {
    "posicao": 14,
@@ -238,13 +238,13 @@
    "time": "Schalke 04",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
    "pontos": 6,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 1,
    "empates": 3,
-   "derrotas": 4,
-   "golsPro": 4,
-   "golsContra": 9,
-   "saldo": -5
+   "derrotas": 5,
+   "golsPro": 5,
+   "golsContra": 11,
+   "saldo": -6
   },
   {
    "posicao": 18,
@@ -1806,10 +1806,10 @@
    "visitante": "Schalke 04",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "In Progress",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

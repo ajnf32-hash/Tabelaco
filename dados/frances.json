@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T19:51:45.579Z",
+ "atualizado": "2026-11-08T23:19:20.678Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Marselha",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "pontos": 18,
+   "jogos": 10,
+   "vitorias": 6,
+   "empates": 0,
+   "derrotas": 4,
+   "golsPro": 22,
+   "golsContra": 14,
+   "saldo": 8
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Lyon",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
    "pontos": 17,
@@ -65,7 +79,7 @@
    "saldo": 6
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Nice",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
@@ -79,7 +93,7 @@
    "saldo": 3
   },
   {
-   "posicao": 6,
+   "posicao": 7,
    "grupo": "",
    "time": "Rennes",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
@@ -93,7 +107,7 @@
    "saldo": 0
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Monaco",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
@@ -105,20 +119,6 @@
    "golsPro": 13,
    "golsContra": 11,
    "saldo": 2
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Marselha",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "pontos": 15,
-   "jogos": 9,
-   "vitorias": 5,
-   "empates": 0,
-   "derrotas": 4,
-   "golsPro": 20,
-   "golsContra": 13,
-   "saldo": 7
   },
   {
    "posicao": 9,
@@ -154,13 +154,13 @@
    "time": "Lens",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "pontos": 13,
-   "jogos": 9,
+   "jogos": 10,
    "vitorias": 4,
    "empates": 1,
-   "derrotas": 4,
-   "golsPro": 16,
-   "golsContra": 13,
-   "saldo": 3
+   "derrotas": 5,
+   "golsPro": 17,
+   "golsContra": 15,
+   "saldo": 2
   },
   {
    "posicao": 12,
@@ -1976,10 +1976,10 @@
    "visitante": "Marselha",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

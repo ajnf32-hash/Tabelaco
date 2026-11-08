@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T19:51:32.101Z",
+ "atualizado": "2026-11-08T23:19:07.426Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Atlético Goianiense",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "pontos": 58,
+   "jogos": 37,
+   "vitorias": 15,
+   "empates": 13,
+   "derrotas": 9,
+   "golsPro": 45,
+   "golsContra": 35,
+   "saldo": 10
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Goiás",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3395.png",
    "pontos": 55,
@@ -105,20 +119,6 @@
    "golsPro": 38,
    "golsContra": 41,
    "saldo": -3
-  },
-  {
-   "posicao": 8,
-   "grupo": "",
-   "time": "Atlético Goianiense",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "pontos": 55,
-   "jogos": 36,
-   "vitorias": 14,
-   "empates": 13,
-   "derrotas": 9,
-   "golsPro": 42,
-   "golsContra": 33,
-   "saldo": 9
   },
   {
    "posicao": 9,
@@ -196,13 +196,13 @@
    "time": "Athletic",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "pontos": 47,
-   "jogos": 36,
+   "jogos": 37,
    "vitorias": 11,
    "empates": 14,
-   "derrotas": 11,
-   "golsPro": 42,
-   "golsContra": 41,
-   "saldo": 1
+   "derrotas": 12,
+   "golsPro": 44,
+   "golsContra": 44,
+   "saldo": 0
   },
   {
    "posicao": 15,
@@ -7288,10 +7288,10 @@
    "visitante": "Atlético Goianiense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 2,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -7310,7 +7310,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
@@ -7330,7 +7330,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"

@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-11-08T19:51:35.352Z",
+ "atualizado": "2026-11-08T23:19:10.231Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2922,17 +2922,17 @@
   {
    "data": "2026-11-08",
    "hora": "20:00",
-   "rodada": "2nd Leg - Palmeiras lead 1-0 on aggregate",
+   "rodada": "2nd Leg - Tied on aggregate - PAL win 5-4 on penalties",
    "local": "Estádio São Januário",
    "cidade": "Rio de Janeiro",
    "mandante": "Vasco da Gama",
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Final Score - After Penalties",
    "fontes": [
     "espn",
     "fotmob"
