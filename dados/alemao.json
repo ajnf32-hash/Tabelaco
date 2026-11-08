@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T15:27:19.221Z",
+ "atualizado": "2026-11-08T19:51:44.424Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -39,6 +39,20 @@
   {
    "posicao": 3,
    "grupo": "",
+   "time": "Freiburg",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "pontos": 19,
+   "jogos": 9,
+   "vitorias": 6,
+   "empates": 1,
+   "derrotas": 2,
+   "golsPro": 20,
+   "golsContra": 10,
+   "saldo": 10
+  },
+  {
+   "posicao": 4,
+   "grupo": "",
    "time": "RB Leipzig",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
    "pontos": 18,
@@ -51,21 +65,21 @@
    "saldo": 14
   },
   {
-   "posicao": 4,
+   "posicao": 5,
    "grupo": "",
-   "time": "Freiburg",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "time": "Bayer Leverkusen",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
    "pontos": 16,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 5,
    "empates": 1,
-   "derrotas": 2,
-   "golsPro": 18,
-   "golsContra": 10,
-   "saldo": 8
+   "derrotas": 3,
+   "golsPro": 20,
+   "golsContra": 17,
+   "saldo": 3
   },
   {
-   "posicao": 5,
+   "posicao": 6,
    "grupo": "",
    "time": "Werder Bremen",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
@@ -76,20 +90,6 @@
    "derrotas": 2,
    "golsPro": 17,
    "golsContra": 15,
-   "saldo": 2
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Bayer Leverkusen",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-   "pontos": 13,
-   "jogos": 8,
-   "vitorias": 4,
-   "empates": 1,
-   "derrotas": 3,
-   "golsPro": 18,
-   "golsContra": 16,
    "saldo": 2
   },
   {
@@ -210,13 +210,13 @@
    "time": "Colônia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
    "pontos": 9,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 2,
    "empates": 3,
-   "derrotas": 3,
-   "golsPro": 9,
-   "golsContra": 12,
-   "saldo": -3
+   "derrotas": 4,
+   "golsPro": 10,
+   "golsContra": 14,
+   "saldo": -4
   },
   {
    "posicao": 16,
@@ -224,13 +224,13 @@
    "time": "Union Berlin",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
    "pontos": 7,
-   "jogos": 8,
+   "jogos": 9,
    "vitorias": 1,
    "empates": 4,
-   "derrotas": 3,
+   "derrotas": 4,
    "golsPro": 7,
-   "golsContra": 19,
-   "saldo": -12
+   "golsContra": 21,
+   "saldo": -14
   },
   {
    "posicao": 17,
@@ -1767,10 +1767,10 @@
    "visitante": "Bayer Leverkusen",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Halftime",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -1786,10 +1786,10 @@
    "visitante": "Union Berlin",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1809,7 +1809,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "In Progress",
    "fontes": [
     "espn",
     "fotmob"
