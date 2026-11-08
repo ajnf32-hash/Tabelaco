@@ -6,20 +6,20 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T08:21:25.049Z",
+ "atualizado": "2026-11-08T15:27:18.258Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "pontos": 28,
-   "jogos": 10,
+   "pontos": 29,
+   "jogos": 11,
    "vitorias": 9,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 0,
-   "golsPro": 24,
-   "golsContra": 8,
+   "golsPro": 25,
+   "golsContra": 9,
    "saldo": 16
   },
   {
@@ -139,13 +139,13 @@
    "grupo": "",
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
-   "pontos": 14,
-   "jogos": 10,
+   "pontos": 15,
+   "jogos": 11,
    "vitorias": 4,
-   "empates": 2,
+   "empates": 3,
    "derrotas": 4,
-   "golsPro": 17,
-   "golsContra": 13,
+   "golsPro": 18,
+   "golsContra": 14,
    "saldo": 4
   },
   {
@@ -2310,10 +2310,10 @@
    "visitante": "Lazio",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2333,7 +2333,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -2353,7 +2353,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
