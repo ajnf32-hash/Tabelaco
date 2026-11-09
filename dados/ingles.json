@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-08T23:19:15.316Z",
+ "atualizado": "2026-11-09T02:50:03.558Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -1824,11 +1824,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1844,11 +1843,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1864,11 +1862,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1884,11 +1881,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1904,11 +1900,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1924,11 +1919,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1944,11 +1938,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-10-31",
@@ -1964,11 +1957,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-01",
