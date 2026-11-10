@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-09T21:12:46.391Z",
+ "atualizado": "2026-11-10T03:40:40.484Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -7030,11 +7030,10 @@
    "golsVisitante": 3,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-01",
@@ -7050,11 +7049,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-01",
@@ -7070,11 +7068,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-02",
@@ -7355,6 +7352,25 @@
    "conferencia": "confirmado"
   },
   {
+   "data": "2026-11-12",
+   "hora": "22:00",
+   "rodada": "",
+   "local": "Estádio Italo Mário Limongi",
+   "cidade": "Indaiatuba",
+   "mandante": "Ponte Preta",
+   "visitante": "Operário PR",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
    "data": "2026-11-14",
    "hora": "19:30",
    "rodada": "",
@@ -7463,26 +7479,6 @@
    "visitante": "Botafogo-SP",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6270.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10281.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
-  },
-  {
-   "data": "2026-11-14",
-   "hora": "19:30",
-   "rodada": "",
-   "local": "Moisés Lucarelli",
-   "cidade": "Ponte Preta",
-   "mandante": "Ponte Preta",
-   "visitante": "Operário PR",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
