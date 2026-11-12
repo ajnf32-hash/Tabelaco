@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-11T21:40:12.090Z",
+ "atualizado": "2026-11-12T02:36:40.898Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -210,13 +210,13 @@
    "time": "Náutico",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
    "pontos": 46,
-   "jogos": 37,
+   "jogos": 38,
    "vitorias": 12,
    "empates": 10,
-   "derrotas": 15,
-   "golsPro": 40,
-   "golsContra": 49,
-   "saldo": -9
+   "derrotas": 16,
+   "golsPro": 41,
+   "golsContra": 51,
+   "saldo": -10
   },
   {
    "posicao": 16,
@@ -251,14 +251,14 @@
    "grupo": "",
    "time": "Londrina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
-   "pontos": 32,
-   "jogos": 37,
-   "vitorias": 8,
+   "pontos": 35,
+   "jogos": 38,
+   "vitorias": 9,
    "empates": 8,
    "derrotas": 21,
-   "golsPro": 45,
-   "golsContra": 58,
-   "saldo": -13
+   "golsPro": 47,
+   "golsContra": 59,
+   "saldo": -12
   },
   {
    "posicao": 19,
@@ -7339,10 +7339,10 @@
    "visitante": "Náutico",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17333.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7633.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
