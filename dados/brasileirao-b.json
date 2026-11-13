@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-12T23:47:46.492Z",
+ "atualizado": "2026-11-13T04:16:00.333Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -123,6 +123,20 @@
   {
    "posicao": 9,
    "grupo": "",
+   "time": "Operário PR",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
+   "pontos": 57,
+   "jogos": 38,
+   "vitorias": 16,
+   "empates": 9,
+   "derrotas": 13,
+   "golsPro": 51,
+   "golsContra": 50,
+   "saldo": 1
+  },
+  {
+   "posicao": 10,
+   "grupo": "",
    "time": "Sport",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7635.png",
    "pontos": 55,
@@ -135,31 +149,17 @@
    "saldo": 8
   },
   {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Operário PR",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "pontos": 54,
-   "jogos": 37,
-   "vitorias": 15,
-   "empates": 9,
-   "derrotas": 13,
-   "golsPro": 49,
-   "golsContra": 50,
-   "saldo": -1
-  },
-  {
    "posicao": 11,
    "grupo": "",
    "time": "São Bernardo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
-   "pontos": 52,
-   "jogos": 37,
+   "pontos": 53,
+   "jogos": 38,
    "vitorias": 14,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 13,
-   "golsPro": 52,
-   "golsContra": 42,
+   "golsPro": 54,
+   "golsContra": 44,
    "saldo": 10
   },
   {
@@ -179,6 +179,20 @@
   {
    "posicao": 13,
    "grupo": "",
+   "time": "Athletic",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
+   "pontos": 48,
+   "jogos": 38,
+   "vitorias": 11,
+   "empates": 15,
+   "derrotas": 12,
+   "golsPro": 46,
+   "golsContra": 46,
+   "saldo": 0
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
    "time": "Cuiabá",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17313.png",
    "pontos": 47,
@@ -189,20 +203,6 @@
    "golsPro": 34,
    "golsContra": 32,
    "saldo": 2
-  },
-  {
-   "posicao": 14,
-   "grupo": "",
-   "time": "Athletic",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "pontos": 47,
-   "jogos": 37,
-   "vitorias": 11,
-   "empates": 14,
-   "derrotas": 12,
-   "golsPro": 44,
-   "golsContra": 44,
-   "saldo": 0
   },
   {
    "posicao": 15,
@@ -280,13 +280,13 @@
    "time": "Ponte Preta",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "pontos": 15,
-   "jogos": 37,
+   "jogos": 38,
    "vitorias": 3,
    "empates": 6,
-   "derrotas": 28,
+   "derrotas": 29,
    "golsPro": 21,
-   "golsContra": 79,
-   "saldo": -58
+   "golsContra": 81,
+   "saldo": -60
   }
  ],
  "jogos": [
@@ -7359,10 +7359,10 @@
    "visitante": "Operário PR",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3459.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/18187.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 0,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -7379,10 +7379,10 @@
    "visitante": "Athletic",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11268.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/20851.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 2,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
