@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-16T08:48:14.081Z",
+ "atualizado": "2026-11-16T19:04:55.247Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -7523,27 +7523,8 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-11-21",
-   "hora": "20:00",
-   "rodada": "",
-   "local": "Estádio Antônio Accioly",
-   "cidade": "Goiãnia",
-   "mandante": "Atlético Goianiense",
-   "visitante": "Vila Nova",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
-   "conferencia": "sozinho",
-   "fontes": [
-    "espn"
-   ]
-  },
-  {
-   "data": "2026-11-21",
-   "hora": "20:00",
+   "data": "2026-11-22",
+   "hora": "19:00",
    "rodada": "",
    "local": "Heriberto Hülse",
    "cidade": "Criciúma",
@@ -7562,24 +7543,42 @@
    "conferencia": "confirmado"
   },
   {
-   "data": "2026-11-28",
-   "hora": "20:00",
+   "data": "2026-11-22",
+   "hora": "21:30",
    "rodada": "",
-   "local": "Arena Castelão",
-   "cidade": "Fortaleza",
-   "mandante": "Fortaleza",
-   "visitante": "Criciúma",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
+   "local": "Estádio Antônio Accioly",
+   "cidade": "Goiãnia",
+   "mandante": "Atlético Goianiense",
+   "visitante": "Vila Nova",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
+   "conferencia": "sozinho",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-11-27",
+   "hora": "23:00",
+   "rodada": "",
+   "local": "Estádio Onésio Brasileiro Alvarenga",
+   "cidade": "Goiãnia",
+   "mandante": "Vila Nova",
+   "visitante": "Atlético Goianiense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
   },
   {
    "data": "2026-11-28",
@@ -7602,22 +7601,23 @@
   },
   {
    "data": "2026-11-28",
-   "hora": "20:00",
+   "hora": "23:00",
    "rodada": "",
-   "local": "Estádio Onésio Brasileiro Alvarenga",
-   "cidade": "Goiãnia",
-   "mandante": "Vila Nova",
-   "visitante": "Atlético Goianiense",
-   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
-   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
+   "local": "Arena Castelão",
+   "cidade": "Fortaleza",
+   "mandante": "Fortaleza",
+   "visitante": "Criciúma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6272.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9971.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
    "situacao": "Scheduled",
-   "conferencia": "sozinho",
    "fontes": [
-    "espn"
-   ]
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []
