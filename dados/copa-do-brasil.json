@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-11-16T19:04:57.717Z",
+ "atualizado": "2026-11-17T02:31:42.068Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2930,11 +2930,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Final Score - After Penalties",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   }
  ],
  "avisos": []
