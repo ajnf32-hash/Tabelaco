@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-18T18:56:21.972Z",
+ "atualizado": "2026-11-19T00:55:46.866Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Santos",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "pontos": 50,
+   "jogos": 35,
+   "vitorias": 13,
+   "empates": 11,
+   "derrotas": 11,
+   "golsPro": 51,
+   "golsContra": 49,
+   "saldo": 2
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Red Bull Bragantino",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "pontos": 47,
@@ -119,20 +133,6 @@
    "golsPro": 44,
    "golsContra": 39,
    "saldo": 5
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Santos",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "pontos": 47,
-   "jogos": 34,
-   "vitorias": 12,
-   "empates": 11,
-   "derrotas": 11,
-   "golsPro": 50,
-   "golsContra": 49,
-   "saldo": 1
   },
   {
    "posicao": 10,
@@ -182,13 +182,13 @@
    "time": "Coritiba",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "pontos": 42,
-   "jogos": 34,
+   "jogos": 35,
    "vitorias": 11,
    "empates": 9,
-   "derrotas": 14,
+   "derrotas": 15,
    "golsPro": 40,
-   "golsContra": 51,
-   "saldo": -11
+   "golsContra": 52,
+   "saldo": -12
   },
   {
    "posicao": 14,
@@ -6078,10 +6078,10 @@
    "visitante": "Santos",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6101,7 +6101,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -6121,7 +6121,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -6141,7 +6141,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -6161,7 +6161,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
@@ -6181,7 +6181,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
