@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-20T21:38:17.168Z",
+ "atualizado": "2026-11-21T02:56:00.689Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -179,6 +179,20 @@
   {
    "posicao": 13,
    "grupo": "",
+   "time": "Troyes",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "pontos": 11,
+   "jogos": 11,
+   "vitorias": 3,
+   "empates": 2,
+   "derrotas": 6,
+   "golsPro": 10,
+   "golsContra": 18,
+   "saldo": -8
+  },
+  {
+   "posicao": 14,
+   "grupo": "",
    "time": "Strasbourg",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "pontos": 10,
@@ -191,7 +205,7 @@
    "saldo": -4
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Auxerre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
@@ -205,7 +219,7 @@
    "saldo": -11
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Angers",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
@@ -216,20 +230,6 @@
    "derrotas": 6,
    "golsPro": 9,
    "golsContra": 19,
-   "saldo": -10
-  },
-  {
-   "posicao": 16,
-   "grupo": "",
-   "time": "Troyes",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
-   "pontos": 8,
-   "jogos": 10,
-   "vitorias": 2,
-   "empates": 2,
-   "derrotas": 6,
-   "golsPro": 7,
-   "golsContra": 17,
    "saldo": -10
   },
   {
@@ -252,13 +252,13 @@
    "time": "Le Havre",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
    "pontos": 2,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 0,
    "empates": 2,
-   "derrotas": 8,
-   "golsPro": 9,
-   "golsContra": 22,
-   "saldo": -13
+   "derrotas": 9,
+   "golsPro": 10,
+   "golsContra": 25,
+   "saldo": -15
   }
  ],
  "jogos": [
@@ -1982,10 +1982,10 @@
    "visitante": "Le Havre",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

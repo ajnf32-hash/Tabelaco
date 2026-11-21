@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-20T21:38:13.030Z",
+ "atualizado": "2026-11-21T02:55:55.443Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2580,6 +2580,26 @@
    "visitante": "Manchester City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-01",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Coventry Building Society Arena",
+   "cidade": "Coventry",
+   "mandante": "Coventry City",
+   "visitante": "Ipswich Town",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
