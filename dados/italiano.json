@@ -6,21 +6,21 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-21T10:30:51.309Z",
+ "atualizado": "2026-11-21T17:50:01.751Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Lazio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
-   "pontos": 29,
-   "jogos": 11,
-   "vitorias": 9,
+   "pontos": 32,
+   "jogos": 12,
+   "vitorias": 10,
    "empates": 2,
    "derrotas": 0,
-   "golsPro": 25,
+   "golsPro": 28,
    "golsContra": 9,
-   "saldo": 16
+   "saldo": 19
   },
   {
    "posicao": 2,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Como",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "pontos": 26,
+   "jogos": 12,
+   "vitorias": 8,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 20,
+   "golsContra": 10,
+   "saldo": 10
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Milan",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "pontos": 24,
@@ -63,20 +77,6 @@
    "golsPro": 23,
    "golsContra": 13,
    "saldo": 10
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Como",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
-   "pontos": 23,
-   "jogos": 11,
-   "vitorias": 7,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 18,
-   "golsContra": 10,
-   "saldo": 8
   },
   {
    "posicao": 6,
@@ -126,13 +126,13 @@
    "time": "Cagliari",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "pontos": 16,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 5,
    "empates": 1,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 10,
-   "golsContra": 15,
-   "saldo": -5
+   "golsContra": 17,
+   "saldo": -7
   },
   {
    "posicao": 10,
@@ -196,13 +196,13 @@
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "pontos": 10,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 3,
    "empates": 1,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 12,
-   "golsContra": 22,
-   "saldo": -10
+   "golsContra": 25,
+   "saldo": -13
   },
   {
    "posicao": 15,
@@ -2390,10 +2390,10 @@
    "visitante": "Cagliari",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2410,10 +2410,10 @@
    "visitante": "Lecce",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/112.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2433,7 +2433,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Halftime",
    "fontes": [
     "espn",
     "fotmob"
