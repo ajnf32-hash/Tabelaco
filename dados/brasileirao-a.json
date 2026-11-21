@@ -6,20 +6,20 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-21T17:49:47.258Z",
+ "atualizado": "2026-11-21T22:37:10.676Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Flamengo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "pontos": 79,
-   "jogos": 35,
+   "pontos": 80,
+   "jogos": 36,
    "vitorias": 24,
-   "empates": 7,
+   "empates": 8,
    "derrotas": 4,
-   "golsPro": 73,
-   "golsContra": 30,
+   "golsPro": 74,
+   "golsContra": 31,
    "saldo": 43
   },
   {
@@ -27,13 +27,13 @@
    "grupo": "",
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "pontos": 73,
-   "jogos": 35,
+   "pontos": 74,
+   "jogos": 36,
    "vitorias": 21,
-   "empates": 10,
+   "empates": 11,
    "derrotas": 4,
-   "golsPro": 63,
-   "golsContra": 25,
+   "golsPro": 64,
+   "golsContra": 26,
    "saldo": 38
   },
   {
@@ -84,13 +84,13 @@
    "time": "Bahia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "pontos": 54,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 14,
    "empates": 12,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 50,
-   "golsContra": 45,
-   "saldo": 5
+   "golsContra": 46,
+   "saldo": 4
   },
   {
    "posicao": 7,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Coritiba",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "pontos": 45,
+   "jogos": 36,
+   "vitorias": 12,
+   "empates": 9,
+   "derrotas": 15,
+   "golsPro": 41,
+   "golsContra": 52,
+   "saldo": -11
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "São Paulo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
    "pontos": 44,
@@ -163,7 +177,7 @@
    "saldo": -1
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Botafogo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
@@ -175,20 +189,6 @@
    "golsPro": 46,
    "golsContra": 57,
    "saldo": -11
-  },
-  {
-   "posicao": 13,
-   "grupo": "",
-   "time": "Coritiba",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "pontos": 42,
-   "jogos": 35,
-   "vitorias": 11,
-   "empates": 9,
-   "derrotas": 15,
-   "golsPro": 40,
-   "golsContra": 52,
-   "saldo": -12
   },
   {
    "posicao": 14,
@@ -6257,10 +6257,10 @@
    "visitante": "Flamengo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6277,10 +6277,10 @@
    "visitante": "Coritiba",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
