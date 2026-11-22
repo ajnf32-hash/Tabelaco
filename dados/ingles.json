@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T18:09:23.346Z",
+ "atualizado": "2026-11-22T23:42:11.648Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -53,6 +53,20 @@
   {
    "posicao": 4,
    "grupo": "",
+   "time": "Liverpool",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "pontos": 21,
+   "jogos": 11,
+   "vitorias": 6,
+   "empates": 3,
+   "derrotas": 2,
+   "golsPro": 18,
+   "golsContra": 10,
+   "saldo": 8
+  },
+  {
+   "posicao": 5,
+   "grupo": "",
    "time": "Bournemouth",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
    "pontos": 18,
@@ -62,20 +76,6 @@
    "derrotas": 3,
    "golsPro": 18,
    "golsContra": 14,
-   "saldo": 4
-  },
-  {
-   "posicao": 5,
-   "grupo": "",
-   "time": "Liverpool",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
-   "pontos": 18,
-   "jogos": 10,
-   "vitorias": 5,
-   "empates": 3,
-   "derrotas": 2,
-   "golsPro": 14,
-   "golsContra": 10,
    "saldo": 4
   },
   {
@@ -266,13 +266,13 @@
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "pontos": 8,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 1,
    "empates": 5,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 14,
-   "golsContra": 19,
-   "saldo": -5
+   "golsContra": 23,
+   "saldo": -9
   },
   {
    "posicao": 20,
@@ -2360,10 +2360,10 @@
    "visitante": "Manchester United",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

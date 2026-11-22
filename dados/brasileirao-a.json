@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T18:09:14.749Z",
+ "atualizado": "2026-11-22T23:41:54.544Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -55,28 +55,28 @@
    "grupo": "",
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
-   "pontos": 60,
-   "jogos": 35,
-   "vitorias": 17,
+   "pontos": 63,
+   "jogos": 36,
+   "vitorias": 18,
    "empates": 9,
    "derrotas": 9,
-   "golsPro": 56,
+   "golsPro": 57,
    "golsContra": 42,
-   "saldo": 14
+   "saldo": 15
   },
   {
    "posicao": 5,
    "grupo": "",
    "time": "Athletico Paranaense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
-   "pontos": 54,
-   "jogos": 35,
-   "vitorias": 15,
+   "pontos": 57,
+   "jogos": 36,
+   "vitorias": 16,
    "empates": 9,
    "derrotas": 11,
-   "golsPro": 52,
-   "golsContra": 45,
-   "saldo": 7
+   "golsPro": 56,
+   "golsContra": 47,
+   "saldo": 9
   },
   {
    "posicao": 6,
@@ -210,13 +210,13 @@
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
    "pontos": 41,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 10,
    "empates": 11,
-   "derrotas": 14,
+   "derrotas": 15,
    "golsPro": 39,
-   "golsContra": 48,
-   "saldo": -9
+   "golsContra": 49,
+   "saldo": -10
   },
   {
    "posicao": 16,
@@ -266,13 +266,13 @@
    "time": "Remo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
    "pontos": 32,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 7,
    "empates": 11,
-   "derrotas": 17,
-   "golsPro": 39,
-   "golsContra": 57,
-   "saldo": -18
+   "derrotas": 18,
+   "golsPro": 41,
+   "golsContra": 61,
+   "saldo": -20
   },
   {
    "posicao": 20,
@@ -6317,10 +6317,10 @@
    "visitante": "Remo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6337,10 +6337,10 @@
    "visitante": "Mirassol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -6360,7 +6360,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
