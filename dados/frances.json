@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T10:31:58.063Z",
+ "atualizado": "2026-11-22T18:09:27.417Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -25,6 +25,20 @@
   {
    "posicao": 2,
    "grupo": "",
+   "time": "Paris FC",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "pontos": 23,
+   "jogos": 11,
+   "vitorias": 7,
+   "empates": 2,
+   "derrotas": 2,
+   "golsPro": 21,
+   "golsContra": 10,
+   "saldo": 11
+  },
+  {
+   "posicao": 3,
+   "grupo": "",
    "time": "Lille",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
    "pontos": 21,
@@ -35,20 +49,6 @@
    "golsPro": 14,
    "golsContra": 8,
    "saldo": 6
-  },
-  {
-   "posicao": 3,
-   "grupo": "",
-   "time": "Paris FC",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
-   "pontos": 20,
-   "jogos": 10,
-   "vitorias": 6,
-   "empates": 2,
-   "derrotas": 2,
-   "golsPro": 17,
-   "golsContra": 10,
-   "saldo": 7
   },
   {
    "posicao": 4,
@@ -224,13 +224,13 @@
    "time": "Angers",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
    "pontos": 8,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 2,
    "empates": 2,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 9,
-   "golsContra": 19,
-   "saldo": -10
+   "golsContra": 23,
+   "saldo": -14
   },
   {
    "posicao": 17,
@@ -2102,10 +2102,10 @@
    "visitante": "Angers",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2122,10 +2122,10 @@
    "visitante": "Rennes",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"

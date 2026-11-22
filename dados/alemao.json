@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T10:31:56.828Z",
+ "atualizado": "2026-11-22T18:09:26.553Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -165,19 +165,33 @@
   {
    "posicao": 12,
    "grupo": "",
-   "time": "Mainz",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-   "pontos": 10,
-   "jogos": 9,
+   "time": "Augsburg",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+   "pontos": 12,
+   "jogos": 10,
    "vitorias": 3,
-   "empates": 1,
-   "derrotas": 5,
-   "golsPro": 18,
-   "golsContra": 19,
-   "saldo": -1
+   "empates": 3,
+   "derrotas": 4,
+   "golsPro": 23,
+   "golsContra": 21,
+   "saldo": 2
   },
   {
    "posicao": 13,
+   "grupo": "",
+   "time": "Mainz",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+   "pontos": 10,
+   "jogos": 10,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 6,
+   "golsPro": 19,
+   "golsContra": 22,
+   "saldo": -3
+  },
+  {
+   "posicao": 14,
    "grupo": "",
    "time": "Colônia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
@@ -191,7 +205,7 @@
    "saldo": -4
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Paderborn",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
@@ -203,20 +217,6 @@
    "golsPro": 8,
    "golsContra": 15,
    "saldo": -7
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Augsburg",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
-   "pontos": 9,
-   "jogos": 9,
-   "vitorias": 2,
-   "empates": 3,
-   "derrotas": 4,
-   "golsPro": 20,
-   "golsContra": 20,
-   "saldo": 0
   },
   {
    "posicao": 16,
@@ -1950,10 +1950,10 @@
    "visitante": "Mainz",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -1973,7 +1973,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"

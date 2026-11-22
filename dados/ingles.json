@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T10:31:53.220Z",
+ "atualizado": "2026-11-22T18:09:23.346Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -28,13 +28,13 @@
    "time": "Brighton",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
    "pontos": 22,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 7,
    "empates": 1,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 26,
-   "golsContra": 7,
-   "saldo": 19
+   "golsContra": 9,
+   "saldo": 17
   },
   {
    "posicao": 3,
@@ -151,6 +151,20 @@
   {
    "posicao": 11,
    "grupo": "",
+   "time": "Hull City",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+   "pontos": 14,
+   "jogos": 11,
+   "vitorias": 3,
+   "empates": 5,
+   "derrotas": 3,
+   "golsPro": 13,
+   "golsContra": 11,
+   "saldo": 2
+  },
+  {
+   "posicao": 12,
+   "grupo": "",
    "time": "Aston Villa",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
    "pontos": 14,
@@ -163,7 +177,7 @@
    "saldo": -3
   },
   {
-   "posicao": 12,
+   "posicao": 13,
    "grupo": "",
    "time": "Newcastle",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
@@ -177,7 +191,7 @@
    "saldo": -3
   },
   {
-   "posicao": 13,
+   "posicao": 14,
    "grupo": "",
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
@@ -191,7 +205,7 @@
    "saldo": -8
   },
   {
-   "posicao": 14,
+   "posicao": 15,
    "grupo": "",
    "time": "Ipswich Town",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
@@ -203,20 +217,6 @@
    "golsPro": 15,
    "golsContra": 22,
    "saldo": -7
-  },
-  {
-   "posicao": 15,
-   "grupo": "",
-   "time": "Hull City",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
-   "pontos": 11,
-   "jogos": 10,
-   "vitorias": 2,
-   "empates": 5,
-   "derrotas": 3,
-   "golsPro": 11,
-   "golsContra": 11,
-   "saldo": 0
   },
   {
    "posicao": 16,
@@ -2340,10 +2340,10 @@
    "visitante": "Brighton",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2363,7 +2363,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"

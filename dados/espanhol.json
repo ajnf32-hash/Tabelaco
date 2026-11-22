@@ -6,21 +6,21 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T10:31:54.885Z",
+ "atualizado": "2026-11-22T18:09:24.852Z",
  "classificacao": [
   {
    "posicao": 1,
    "grupo": "",
    "time": "Barcelona",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
-   "pontos": 33,
-   "jogos": 12,
-   "vitorias": 11,
+   "pontos": 36,
+   "jogos": 13,
+   "vitorias": 12,
    "empates": 0,
    "derrotas": 1,
-   "golsPro": 48,
-   "golsContra": 13,
-   "saldo": 35
+   "golsPro": 51,
+   "golsContra": 15,
+   "saldo": 36
   },
   {
    "posicao": 2,
@@ -70,13 +70,13 @@
    "time": "Real Sociedad",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
    "pontos": 22,
-   "jogos": 12,
+   "jogos": 13,
    "vitorias": 7,
    "empates": 1,
-   "derrotas": 4,
-   "golsPro": 21,
-   "golsContra": 20,
-   "saldo": 1
+   "derrotas": 5,
+   "golsPro": 23,
+   "golsContra": 23,
+   "saldo": 0
   },
   {
    "posicao": 6,
@@ -95,6 +95,20 @@
   {
    "posicao": 7,
    "grupo": "",
+   "time": "Racing Santander",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "pontos": 17,
+   "jogos": 13,
+   "vitorias": 5,
+   "empates": 2,
+   "derrotas": 6,
+   "golsPro": 20,
+   "golsContra": 32,
+   "saldo": -12
+  },
+  {
+   "posicao": 8,
+   "grupo": "",
    "time": "Athletic Bilbao",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
    "pontos": 16,
@@ -107,7 +121,7 @@
    "saldo": 3
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Alavés",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
@@ -121,21 +135,21 @@
    "saldo": 0
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Villarreal",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
    "pontos": 15,
-   "jogos": 12,
+   "jogos": 13,
    "vitorias": 4,
    "empates": 3,
-   "derrotas": 5,
-   "golsPro": 17,
-   "golsContra": 15,
-   "saldo": 2
+   "derrotas": 6,
+   "golsPro": 19,
+   "golsContra": 18,
+   "saldo": 1
   },
   {
-   "posicao": 10,
+   "posicao": 11,
    "grupo": "",
    "time": "Espanyol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
@@ -149,7 +163,7 @@
    "saldo": 0
   },
   {
-   "posicao": 11,
+   "posicao": 12,
    "grupo": "",
    "time": "Deportivo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
@@ -161,20 +175,6 @@
    "golsPro": 16,
    "golsContra": 17,
    "saldo": -1
-  },
-  {
-   "posicao": 12,
-   "grupo": "",
-   "time": "Racing Santander",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-   "pontos": 14,
-   "jogos": 12,
-   "vitorias": 4,
-   "empates": 2,
-   "derrotas": 6,
-   "golsPro": 17,
-   "golsContra": 30,
-   "saldo": -13
   },
   {
    "posicao": 13,
@@ -2660,10 +2660,10 @@
    "visitante": "Villarreal",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2680,10 +2680,10 @@
    "visitante": "Real Sociedad",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2703,7 +2703,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "First Half",
    "fontes": [
     "espn",
     "fotmob"
