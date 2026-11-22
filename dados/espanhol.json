@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-21T22:37:28.267Z",
+ "atualizado": "2026-11-22T02:45:21.757Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2939,6 +2939,46 @@
    "visitante": "Getafe",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-02",
+   "hora": "18:00",
+   "rodada": "",
+   "local": "Reale Arena",
+   "cidade": "San Sebastian",
+   "mandante": "Real Sociedad",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-02",
+   "hora": "20:30",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Atlético de Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

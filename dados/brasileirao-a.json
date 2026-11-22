@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-21T22:37:10.676Z",
+ "atualizado": "2026-11-22T02:45:08.170Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 63,
-   "jogos": 35,
-   "vitorias": 19,
+   "pontos": 66,
+   "jogos": 36,
+   "vitorias": 20,
    "empates": 6,
    "derrotas": 10,
-   "golsPro": 57,
-   "golsContra": 49,
-   "saldo": 8
+   "golsPro": 59,
+   "golsContra": 50,
+   "saldo": 9
   },
   {
    "posicao": 4,
@@ -280,13 +280,13 @@
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "pontos": 21,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 4,
    "empates": 9,
-   "derrotas": 22,
-   "golsPro": 33,
-   "golsContra": 72,
-   "saldo": -39
+   "derrotas": 23,
+   "golsPro": 34,
+   "golsContra": 74,
+   "saldo": -40
   }
  ],
  "jogos": [
@@ -6297,10 +6297,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
