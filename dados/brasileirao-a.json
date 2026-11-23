@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T23:41:54.544Z",
+ "atualizado": "2026-11-23T04:52:59.574Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Red Bull Bragantino",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "pontos": 50,
+   "jogos": 36,
+   "vitorias": 14,
+   "empates": 8,
+   "derrotas": 14,
+   "golsPro": 46,
+   "golsContra": 41,
+   "saldo": 5
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Santos",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
    "pontos": 50,
@@ -121,32 +135,18 @@
    "saldo": 2
   },
   {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Red Bull Bragantino",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
-   "pontos": 47,
-   "jogos": 35,
-   "vitorias": 13,
-   "empates": 8,
-   "derrotas": 14,
-   "golsPro": 45,
-   "golsContra": 41,
-   "saldo": 4
-  },
-  {
    "posicao": 10,
    "grupo": "",
    "time": "Vasco da Gama",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
    "pontos": 47,
-   "jogos": 35,
+   "jogos": 36,
    "vitorias": 13,
    "empates": 8,
-   "derrotas": 14,
+   "derrotas": 15,
    "golsPro": 47,
-   "golsContra": 51,
-   "saldo": -4
+   "golsContra": 52,
+   "saldo": -5
   },
   {
    "posicao": 11,
@@ -6042,11 +6042,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-14",
@@ -6062,11 +6061,10 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-18",
@@ -6357,10 +6355,10 @@
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -6635,6 +6633,205 @@
    "visitante": "Vasco da Gama",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena da Baixada",
+   "cidade": "Curitiba",
+   "mandante": "Athletico-PR",
+   "visitante": "São Paulo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3458.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2026.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena Fonte Nova",
+   "cidade": "Salvador",
+   "mandante": "Bahia",
+   "visitante": "Atlético-MG",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9967.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio Mineirão",
+   "cidade": "Belo Horizonte",
+   "mandante": "Cruzeiro",
+   "visitante": "Internacional",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1936.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estadio do Maracana",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Flamengo",
+   "visitante": "Chapecoense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/819.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Arena do Grêmio",
+   "cidade": "Porto Alegre",
+   "mandante": "Grêmio",
+   "visitante": "Mirassol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Allianz Parque",
+   "cidade": "Sao Paulo",
+   "mandante": "Palmeiras",
+   "visitante": "Coritiba",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3456.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Municipal Cicero de Souza Marques",
+   "cidade": "Bragança Paulista",
+   "mandante": "Red Bull Bragantino",
+   "visitante": "Fluminense",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6079.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Mangueirão",
+   "cidade": "Belém",
+   "mandante": "Remo",
+   "visitante": "Corinthians",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4936.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio Vila Belmiro (Urbano Caldeira)",
+   "cidade": "Santos",
+   "mandante": "Santos",
+   "visitante": "Botafogo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2674.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6086.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "00:30",
+   "rodada": "",
+   "local": "Estádio São Januário",
+   "cidade": "Rio de Janeiro",
+   "mandante": "Vasco da Gama",
+   "visitante": "Vitória",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3454.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3457.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

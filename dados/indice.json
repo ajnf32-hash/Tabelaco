@@ -1,5 +1,5 @@
 {
- "atualizado": "2026-11-22T23:42:26.906Z",
+ "atualizado": "2026-11-23T04:53:21.147Z",
  "temporada": 2026,
  "locais": {
   "escudos": []
@@ -23,7 +23,7 @@
     11,
     12
    ],
-   "jogos": 333,
+   "jogos": 343,
    "temTabela": true
   },
   {
@@ -43,7 +43,7 @@
     10,
     11
    ],
-   "jogos": 385,
+   "jogos": 384,
    "temTabela": true
   },
   {
@@ -126,7 +126,7 @@
     4,
     5
    ],
-   "jogos": 129,
+   "jogos": 130,
    "temTabela": true
   },
   {

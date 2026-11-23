@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-22T23:42:11.648Z",
+ "atualizado": "2026-11-23T04:53:10.998Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2760,6 +2760,26 @@
    "visitante": "Manchester United",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-03",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham",
+   "visitante": "Fulham",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
