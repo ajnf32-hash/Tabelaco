@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-23T15:33:25.843Z",
+ "atualizado": "2026-11-24T02:41:30.093Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2320,6 +2320,26 @@
    "visitante": "Monaco",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-04",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stadium Municipal de Toulouse",
+   "cidade": "Toulouse",
+   "mandante": "Toulouse",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

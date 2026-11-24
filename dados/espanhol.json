@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-23T15:33:22.405Z",
+ "atualizado": "2026-11-24T02:41:26.377Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -251,13 +251,13 @@
    "grupo": "",
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
-   "pontos": 11,
-   "jogos": 12,
+   "pontos": 12,
+   "jogos": 13,
    "vitorias": 2,
-   "empates": 5,
+   "empates": 6,
    "derrotas": 5,
-   "golsPro": 16,
-   "golsContra": 21,
+   "golsPro": 17,
+   "golsContra": 22,
    "saldo": -5
   },
   {
@@ -265,13 +265,13 @@
    "grupo": "",
    "time": "Elche",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-   "pontos": 10,
-   "jogos": 12,
+   "pontos": 11,
+   "jogos": 13,
    "vitorias": 2,
-   "empates": 4,
+   "empates": 5,
    "derrotas": 6,
-   "golsPro": 14,
-   "golsContra": 20,
+   "golsPro": 15,
+   "golsContra": 21,
    "saldo": -6
   },
   {
@@ -2740,10 +2740,10 @@
    "visitante": "Elche",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2979,6 +2979,26 @@
    "visitante": "Atlético de Madrid",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-04",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Mendizorrotza",
+   "cidade": "Vitoria-Gasteiz",
+   "mandante": "Alavés",
+   "visitante": "Espanyol",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

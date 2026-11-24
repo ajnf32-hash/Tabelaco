@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-23T15:33:24.784Z",
+ "atualizado": "2026-11-24T02:41:28.871Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2149,6 +2149,26 @@
    "visitante": "Bayer Leverkusen",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-04",
+   "hora": "19:30",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern de Munique",
+   "visitante": "Paderborn",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

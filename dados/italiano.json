@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-23T15:33:23.584Z",
+ "atualizado": "2026-11-24T02:41:27.587Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -193,6 +193,20 @@
   {
    "posicao": 14,
    "grupo": "",
+   "time": "Monza",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "pontos": 10,
+   "jogos": 12,
+   "vitorias": 3,
+   "empates": 1,
+   "derrotas": 8,
+   "golsPro": 20,
+   "golsContra": 25,
+   "saldo": -5
+  },
+  {
+   "posicao": 15,
+   "grupo": "",
    "time": "Lecce",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "pontos": 10,
@@ -205,21 +219,21 @@
    "saldo": -13
   },
   {
-   "posicao": 15,
+   "posicao": 16,
    "grupo": "",
    "time": "Fiorentina",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
    "pontos": 9,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 2,
    "empates": 3,
-   "derrotas": 6,
+   "derrotas": 7,
    "golsPro": 17,
-   "golsContra": 25,
-   "saldo": -8
+   "golsContra": 28,
+   "saldo": -11
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Parma",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
@@ -233,7 +247,7 @@
    "saldo": -12
   },
   {
-   "posicao": 17,
+   "posicao": 18,
    "grupo": "",
    "time": "Sassuolo",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
@@ -245,20 +259,6 @@
    "golsPro": 16,
    "golsContra": 31,
    "saldo": -15
-  },
-  {
-   "posicao": 18,
-   "grupo": "",
-   "time": "Monza",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
-   "pontos": 7,
-   "jogos": 11,
-   "vitorias": 2,
-   "empates": 1,
-   "derrotas": 8,
-   "golsPro": 17,
-   "golsContra": 25,
-   "saldo": -8
   },
   {
    "posicao": 19,
@@ -2570,10 +2570,10 @@
    "visitante": "Fiorentina",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2770,6 +2770,26 @@
    "visitante": "Milan",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-04",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Renato Dall'Ara",
+   "cidade": "Bologna",
+   "mandante": "Bologna",
+   "visitante": "Roma",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

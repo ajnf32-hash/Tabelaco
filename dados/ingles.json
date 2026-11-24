@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-23T15:33:20.988Z",
+ "atualizado": "2026-11-24T02:41:24.316Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "Brentford",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+   "pontos": 17,
+   "jogos": 11,
+   "vitorias": 4,
+   "empates": 5,
+   "derrotas": 2,
+   "golsPro": 20,
+   "golsContra": 11,
+   "saldo": 9
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Leeds",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
    "pontos": 17,
@@ -93,7 +107,7 @@
    "saldo": 5
   },
   {
-   "posicao": 7,
+   "posicao": 8,
    "grupo": "",
    "time": "Chelsea",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
@@ -107,21 +121,21 @@
    "saldo": 0
   },
   {
-   "posicao": 8,
+   "posicao": 9,
    "grupo": "",
    "time": "Everton",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
    "pontos": 16,
-   "jogos": 10,
+   "jogos": 11,
    "vitorias": 4,
    "empates": 4,
-   "derrotas": 2,
+   "derrotas": 3,
    "golsPro": 12,
-   "golsContra": 10,
-   "saldo": 2
+   "golsContra": 14,
+   "saldo": -2
   },
   {
-   "posicao": 9,
+   "posicao": 10,
    "grupo": "",
    "time": "Tottenham",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
@@ -133,20 +147,6 @@
    "golsPro": 12,
    "golsContra": 11,
    "saldo": 1
-  },
-  {
-   "posicao": 10,
-   "grupo": "",
-   "time": "Brentford",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-   "pontos": 14,
-   "jogos": 10,
-   "vitorias": 3,
-   "empates": 5,
-   "derrotas": 2,
-   "golsPro": 16,
-   "golsContra": 11,
-   "saldo": 5
   },
   {
    "posicao": 11,
@@ -2380,10 +2380,10 @@
    "visitante": "Everton",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 4,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
