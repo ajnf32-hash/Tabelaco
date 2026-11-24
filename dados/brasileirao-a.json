@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T13:06:25.139Z",
+ "atualizado": "2026-11-24T23:09:30.801Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -28,13 +28,13 @@
    "time": "Palmeiras",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
    "pontos": 74,
-   "jogos": 36,
+   "jogos": 37,
    "vitorias": 21,
    "empates": 11,
-   "derrotas": 4,
+   "derrotas": 5,
    "golsPro": 64,
-   "golsContra": 26,
-   "saldo": 38
+   "golsContra": 29,
+   "saldo": 35
   },
   {
    "posicao": 3,
@@ -279,14 +279,14 @@
    "grupo": "",
    "time": "Chapecoense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
-   "pontos": 21,
-   "jogos": 36,
-   "vitorias": 4,
+   "pontos": 24,
+   "jogos": 37,
+   "vitorias": 5,
    "empates": 9,
    "derrotas": 23,
-   "golsPro": 34,
+   "golsPro": 37,
    "golsContra": 74,
-   "saldo": -40
+   "saldo": -37
   }
  ],
  "jogos": [
@@ -6434,10 +6434,10 @@
    "visitante": "Palmeiras",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9318.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
