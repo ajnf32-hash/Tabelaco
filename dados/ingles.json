@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T23:09:44.030Z",
+ "atualizado": "2026-11-25T05:33:01.228Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2780,6 +2780,146 @@
    "visitante": "Fulham",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "12:30",
+   "rodada": "",
+   "local": "Stamford Bridge",
+   "cidade": "London",
+   "mandante": "Chelsea",
+   "visitante": "Liverpool",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/364.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Vitality Stadium",
+   "cidade": "Bournemouth",
+   "mandante": "Bournemouth",
+   "visitante": "Hull City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/306.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Villa Park",
+   "cidade": "Birmingham",
+   "mandante": "Aston Villa",
+   "visitante": "Crystal Palace",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/384.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Elland Road",
+   "cidade": "Leeds",
+   "mandante": "Leeds",
+   "visitante": "Ipswich Town",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "15:00",
+   "rodada": "",
+   "local": "Old Trafford",
+   "cidade": "Manchester",
+   "mandante": "Manchester United",
+   "visitante": "Coventry City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "The City Ground",
+   "cidade": "Nottingham",
+   "mandante": "Nottingham Forest",
+   "visitante": "Brighton",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/331.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Gtech Community Stadium",
+   "cidade": "Brentford",
+   "mandante": "Brentford",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T23:09:49.043Z",
+ "atualizado": "2026-11-25T05:33:05.335Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2169,6 +2169,125 @@
    "visitante": "Paderborn",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3307.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "Stadion An der Alten Försterei",
+   "cidade": "Berlin",
+   "mandante": "Union Berlin",
+   "visitante": "Hamburgo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/598.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/127.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "BayArena",
+   "cidade": "Leverkusen",
+   "mandante": "Bayer Leverkusen",
+   "visitante": "Borussia Mönchengladbach",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/131.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "WWK Arena",
+   "cidade": "Augsburg",
+   "mandante": "Augsburg",
+   "visitante": "Colônia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3841.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/122.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "Red Bull Arena",
+   "cidade": "Leipzig",
+   "mandante": "RB Leipzig",
+   "visitante": "Mainz",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2950.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "Europa-Park Stadion",
+   "cidade": "Freiburg im Breisgau",
+   "mandante": "Freiburg",
+   "visitante": "Hoffenheim",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/126.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7911.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Deutsche Bank Park",
+   "cidade": "Frankfurt",
+   "mandante": "Eintracht Frankfurt",
+   "visitante": "Werder Bremen",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

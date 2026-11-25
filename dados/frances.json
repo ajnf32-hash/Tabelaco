@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T23:09:50.248Z",
+ "atualizado": "2026-11-25T05:33:06.412Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2340,6 +2340,106 @@
    "visitante": "Paris Saint-Germain",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/179.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "16:15",
+   "rodada": "",
+   "local": "Decathlon Arena - Stade Pierre-Mauroy",
+   "cidade": "Lille",
+   "mandante": "Lille",
+   "visitante": "Auxerre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/166.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/172.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade Louis II",
+   "cidade": "Monaco",
+   "mandante": "Monaco",
+   "visitante": "Angers",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/174.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/7868.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade Bollaert-Delelis",
+   "cidade": "Lens",
+   "mandante": "Lens",
+   "visitante": "Le Havre",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/175.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3236.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade Jean Bouin",
+   "cidade": "Paris",
+   "mandante": "Paris FC",
+   "visitante": "Le Mans",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6851.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2697.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade de la Meinau",
+   "cidade": "Strasbourg",
+   "mandante": "Strasbourg",
+   "visitante": "Lorient",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

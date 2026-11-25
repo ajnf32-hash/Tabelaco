@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T23:09:47.878Z",
+ "atualizado": "2026-11-25T05:33:04.200Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2790,6 +2790,66 @@
    "visitante": "Roma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "U-Power Stadium",
+   "cidade": "Monza",
+   "mandante": "Monza",
+   "visitante": "Como",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4007.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2572.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "17:00",
+   "rodada": "",
+   "local": "Stadio Benito Stirpe",
+   "cidade": "Frosinone",
+   "mandante": "Frosinone",
+   "visitante": "Inter de Milão",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/4057.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/110.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Lecce",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/113.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

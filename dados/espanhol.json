@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-24T23:09:46.619Z",
+ "atualizado": "2026-11-25T05:33:03.136Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2999,6 +2999,85 @@
    "visitante": "Espanyol",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/96.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/88.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "El Sardineros",
+   "cidade": "Santander",
+   "mandante": "Racing Santander",
+   "visitante": "Deportivo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/90.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "Estadio de Vallecas",
+   "cidade": "Madrid",
+   "mandante": "Rayo Vallecano",
+   "visitante": "Levante",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/101.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Real Sociedad",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/89.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-05",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Celta Vigo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
