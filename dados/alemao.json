@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-25T16:30:59.527Z",
+ "atualizado": "2026-11-26T00:46:54.045Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2288,6 +2288,46 @@
    "visitante": "Werder Bremen",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/125.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "14:30",
+   "rodada": "",
+   "local": "Veltins Arena",
+   "cidade": "Gelsenkirchen",
+   "mandante": "Schalke 04",
+   "visitante": "Borussia Dortmund",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/133.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/124.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "URSAPHARM-Arena an der Kaiserlinde",
+   "cidade": "Spiesen-Elversberg",
+   "mandante": "Elversberg",
+   "visitante": "Stuttgart",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/10388.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/134.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

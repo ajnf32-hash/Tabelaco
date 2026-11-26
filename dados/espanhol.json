@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-25T16:30:57.391Z",
+ "atualizado": "2026-11-26T00:46:51.417Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3078,6 +3078,86 @@
    "visitante": "Celta Vigo",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/85.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "13:00",
+   "rodada": "",
+   "local": "El Sadar",
+   "cidade": "Pamplona",
+   "mandante": "Osasuna",
+   "visitante": "Elche",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/97.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3751.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "15:15",
+   "rodada": "",
+   "local": "San Mamés",
+   "cidade": "Bilbao",
+   "mandante": "Athletic Bilbao",
+   "visitante": "Real Madrid",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/93.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/86.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Estadio Coliseum",
+   "cidade": "Getafe",
+   "mandante": "Getafe",
+   "visitante": "Valencia",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/2922.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/94.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Riyadh Air Metropolitano",
+   "cidade": "Madrid",
+   "mandante": "Atlético de Madrid",
+   "visitante": "Real Betis",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

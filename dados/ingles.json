@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-25T16:30:55.800Z",
+ "atualizado": "2026-11-26T00:46:49.121Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2920,6 +2920,66 @@
    "visitante": "Manchester City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Hill Dickinson Stadium",
+   "cidade": "Liverpool",
+   "mandante": "Everton",
+   "visitante": "Fulham",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/368.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "St. James' Park",
+   "cidade": "Newcastle-upon-Tyne",
+   "mandante": "Newcastle",
+   "visitante": "Sunderland",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/361.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/366.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "16:30",
+   "rodada": "",
+   "local": "Tottenham Hotspur Stadium",
+   "cidade": "London",
+   "mandante": "Tottenham",
+   "visitante": "Arsenal",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/367.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/359.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

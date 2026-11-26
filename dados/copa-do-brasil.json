@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "nenhuma",
- "atualizado": "2026-11-25T16:30:50.272Z",
+ "atualizado": "2026-11-26T00:46:42.647Z",
  "classificacao": [],
  "jogos": [
   {
@@ -2934,6 +2934,26 @@
    "fontes": [
     "espn"
    ]
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "19:00",
+   "rodada": "",
+   "local": "Arena BRB Mané Garrincha",
+   "cidade": "Brasília",
+   "mandante": "Grêmio",
+   "visitante": "Palmeiras",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2029.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
   }
  ],
  "avisos": []

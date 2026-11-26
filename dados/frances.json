@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-25T16:31:00.485Z",
+ "atualizado": "2026-11-26T00:46:55.333Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2440,6 +2440,65 @@
    "visitante": "Lorient",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/180.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/273.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "14:00",
+   "rodada": "",
+   "local": "Stade de l'Aube",
+   "cidade": "Paris",
+   "mandante": "Troyes",
+   "visitante": "Lyon",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/170.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/167.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "16:15",
+   "rodada": "",
+   "local": "Roazhon Park",
+   "cidade": "Rennes",
+   "mandante": "Rennes",
+   "visitante": "Brest",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/169.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/6997.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "conferencia": "sozinho",
+   "fontes": [
+    "espn"
+   ]
+  },
+  {
+   "data": "2026-12-06",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stade Vélodrome",
+   "cidade": "Marseille",
+   "mandante": "Marselha",
+   "visitante": "Nice",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/176.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2502.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
