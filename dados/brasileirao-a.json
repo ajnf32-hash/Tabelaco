@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-26T00:46:36.064Z",
+ "atualizado": "2026-11-26T09:01:47.720Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -97,13 +97,13 @@
    "grupo": "",
    "time": "Atlético-MG",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
-   "pontos": 51,
-   "jogos": 35,
+   "pontos": 52,
+   "jogos": 36,
    "vitorias": 14,
-   "empates": 9,
+   "empates": 10,
    "derrotas": 12,
-   "golsPro": 44,
-   "golsContra": 40,
+   "golsPro": 45,
+   "golsContra": 41,
    "saldo": 4
   },
   {
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Corinthians",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
+   "pontos": 41,
+   "jogos": 36,
+   "vitorias": 10,
+   "empates": 11,
+   "derrotas": 15,
+   "golsPro": 41,
+   "golsContra": 43,
+   "saldo": -2
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Grêmio",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/6273.png",
    "pontos": 41,
@@ -219,7 +233,7 @@
    "saldo": -7
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Mirassol",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/9169.png",
@@ -231,20 +245,6 @@
    "golsPro": 39,
    "golsContra": 49,
    "saldo": -10
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Corinthians",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-   "pontos": 40,
-   "jogos": 35,
-   "vitorias": 10,
-   "empates": 10,
-   "derrotas": 15,
-   "golsPro": 40,
-   "golsContra": 42,
-   "saldo": -2
   },
   {
    "posicao": 18,
@@ -6454,10 +6454,10 @@
    "visitante": "Corinthians",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/7632.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/874.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Second Half",
+   "golsMandante": 1,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
