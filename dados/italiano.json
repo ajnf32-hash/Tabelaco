@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-26T19:11:17.708Z",
+ "atualizado": "2026-11-27T02:19:48.268Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2930,6 +2930,46 @@
    "visitante": "Parma",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/103.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/115.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-07",
+   "hora": "17:30",
+   "rodada": "",
+   "local": "Stadio Pier Luigi Penzo",
+   "cidade": "Venezia",
+   "mandante": "Venezia",
+   "visitante": "Sassuolo",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/3997.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-07",
+   "hora": "19:45",
+   "rodada": "",
+   "local": "Stadio Artemio Franchi",
+   "cidade": "Firenze",
+   "mandante": "Fiorentina",
+   "visitante": "Cagliari",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/109.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2925.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,

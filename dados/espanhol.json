@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-26T19:11:16.707Z",
+ "atualizado": "2026-11-27T02:19:47.140Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -3158,6 +3158,26 @@
    "visitante": "Real Betis",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1068.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/244.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-07",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Ramón Sánchez Pizjuán Stadium",
+   "cidade": "Sevilla",
+   "mandante": "Sevilla",
+   "visitante": "Málaga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/99.png",
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
