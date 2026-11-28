@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:21.179Z",
+ "atualizado": "2026-11-28T02:51:08.886Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -7513,7 +7513,7 @@
   {
    "data": "2026-11-22",
    "hora": "19:00",
-   "rodada": "",
+   "rodada": "1st Leg",
    "local": "Heriberto Hülse",
    "cidade": "Criciúma",
    "mandante": "Criciúma",
@@ -7533,7 +7533,7 @@
   {
    "data": "2026-11-22",
    "hora": "21:30",
-   "rodada": "",
+   "rodada": "1st Leg",
    "local": "Estádio Antônio Accioly",
    "cidade": "Goiãnia",
    "mandante": "Atlético Goianiense",
@@ -7552,17 +7552,17 @@
   {
    "data": "2026-11-27",
    "hora": "23:00",
-   "rodada": "",
+   "rodada": "2nd Leg - Vila Nova win 3-1 on aggregate",
    "local": "Estádio Onésio Brasileiro Alvarenga",
    "cidade": "Goiãnia",
    "mandante": "Vila Nova",
    "visitante": "Atlético Goianiense",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/9973.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/10357.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 2,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "conferencia": "sozinho",
    "fontes": [
     "espn"
@@ -7571,7 +7571,7 @@
   {
    "data": "2026-11-28",
    "hora": "23:00",
-   "rodada": "",
+   "rodada": "2nd Leg - Criciúma lead 1-0 on aggregate",
    "local": "Arena Castelão",
    "cidade": "Fortaleza",
    "mandante": "Fortaleza",

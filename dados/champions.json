@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:26.520Z",
+ "atualizado": "2026-11-28T02:51:17.400Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -2236,6 +2236,186 @@
    "golsVisitante": 2,
    "encerrado": true,
    "situacao": "Full Time",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Viking Stadion",
+   "cidade": "Stavanger",
+   "mandante": "Viking FK",
+   "visitante": "Feyenoord Rotterdam",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/510.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/142.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "17:45",
+   "rodada": "",
+   "local": "Estadio de la Cerámica",
+   "cidade": "Villarreal",
+   "mandante": "Villarreal",
+   "visitante": "Sabah FK",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/102.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/21922.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "OPAP Arena",
+   "cidade": "Athens",
+   "mandante": "AEK Atenas",
+   "visitante": "Galatasaray",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/887.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/432.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Olimpico",
+   "cidade": "Roma",
+   "mandante": "Roma",
+   "visitante": "Sporting",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/104.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2250.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Villa Park",
+   "cidade": "Birmingham",
+   "mandante": "Aston Villa",
+   "visitante": "Paris Saint-Germain",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/362.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/160.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Spotify Camp Nou",
+   "cidade": "Barcelona",
+   "mandante": "Barcelona",
+   "visitante": "Manchester City",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/83.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/382.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Allianz Arena",
+   "cidade": "München",
+   "mandante": "Bayern de Munique",
+   "visitante": "Slavia Praga",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/132.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/494.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Old Trafford",
+   "cidade": "Manchester",
+   "mandante": "Manchester United",
+   "visitante": "RB Leipzig",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/11420.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
+   "fontes": [
+    "espn",
+    "fotmob"
+   ],
+   "conferencia": "confirmado"
+  },
+  {
+   "data": "2026-12-08",
+   "hora": "20:00",
+   "rodada": "",
+   "local": "Stadio Diego Armando Maradona",
+   "cidade": "Napoli",
+   "mandante": "Napoli",
+   "visitante": "Brugge",
+   "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
+   "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/570.png",
+   "golsMandante": null,
+   "golsVisitante": null,
+   "encerrado": false,
+   "situacao": "Scheduled",
    "fontes": [
     "espn",
     "fotmob"

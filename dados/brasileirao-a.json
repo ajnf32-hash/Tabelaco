@@ -6,7 +6,7 @@
  "temporada": 2026,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:18.602Z",
+ "atualizado": "2026-11-28T02:51:05.767Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -41,14 +41,14 @@
    "grupo": "",
    "time": "Cruzeiro",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "pontos": 66,
-   "jogos": 36,
-   "vitorias": 20,
+   "pontos": 69,
+   "jogos": 37,
+   "vitorias": 21,
    "empates": 6,
    "derrotas": 10,
-   "golsPro": 59,
+   "golsPro": 60,
    "golsContra": 50,
-   "saldo": 9
+   "saldo": 10
   },
   {
    "posicao": 4,
@@ -56,13 +56,13 @@
    "time": "Fluminense",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "pontos": 63,
-   "jogos": 36,
+   "jogos": 37,
    "vitorias": 18,
    "empates": 9,
-   "derrotas": 9,
+   "derrotas": 10,
    "golsPro": 57,
-   "golsContra": 42,
-   "saldo": 15
+   "golsContra": 43,
+   "saldo": 14
   },
   {
    "posicao": 5,
@@ -6156,11 +6156,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-19",
@@ -6176,11 +6175,10 @@
    "golsVisitante": 0,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-19",
@@ -6196,11 +6194,10 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
+   "conferencia": "historico",
    "fontes": [
-    "espn",
-    "fotmob"
-   ],
-   "conferencia": "confirmado"
+    "espn"
+   ]
   },
   {
    "data": "2026-11-19",
@@ -6216,7 +6213,7 @@
    "golsVisitante": 1,
    "encerrado": true,
    "situacao": "Full Time",
-   "conferencia": "sozinho",
+   "conferencia": "historico",
    "fontes": [
     "espn"
    ]
@@ -6490,10 +6487,10 @@
    "visitante": "Cruzeiro",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/3445.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/2022.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 1,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

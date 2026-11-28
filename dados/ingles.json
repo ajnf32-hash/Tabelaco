@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:28.402Z",
+ "atualizado": "2026-11-28T02:51:20.054Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -112,13 +112,13 @@
    "time": "Chelsea",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
    "pontos": 16,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 5,
    "empates": 1,
-   "derrotas": 5,
-   "golsPro": 20,
-   "golsContra": 20,
-   "saldo": 0
+   "derrotas": 6,
+   "golsPro": 22,
+   "golsContra": 23,
+   "saldo": -1
   },
   {
    "posicao": 9,
@@ -207,6 +207,20 @@
   {
    "posicao": 15,
    "grupo": "",
+   "time": "Nottingham Forest",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
+   "pontos": 12,
+   "jogos": 12,
+   "vitorias": 3,
+   "empates": 3,
+   "derrotas": 6,
+   "golsPro": 12,
+   "golsContra": 17,
+   "saldo": -5
+  },
+  {
+   "posicao": 16,
+   "grupo": "",
    "time": "Ipswich Town",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/373.png",
    "pontos": 11,
@@ -219,7 +233,7 @@
    "saldo": -7
   },
   {
-   "posicao": 16,
+   "posicao": 17,
    "grupo": "",
    "time": "Fulham",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/370.png",
@@ -231,20 +245,6 @@
    "golsPro": 11,
    "golsContra": 13,
    "saldo": -2
-  },
-  {
-   "posicao": 17,
-   "grupo": "",
-   "time": "Nottingham Forest",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
-   "pontos": 9,
-   "jogos": 11,
-   "vitorias": 2,
-   "empates": 3,
-   "derrotas": 6,
-   "golsPro": 9,
-   "golsContra": 15,
-   "saldo": -6
   },
   {
    "posicao": 18,
@@ -2400,10 +2400,10 @@
    "visitante": "Chelsea",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/393.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/363.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 2,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

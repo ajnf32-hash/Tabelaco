@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:32.351Z",
+ "atualizado": "2026-11-28T02:51:25.261Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -83,13 +83,13 @@
    "grupo": "",
    "time": "Werder Bremen",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
-   "pontos": 18,
-   "jogos": 10,
+   "pontos": 19,
+   "jogos": 11,
    "vitorias": 5,
-   "empates": 3,
+   "empates": 4,
    "derrotas": 2,
-   "golsPro": 21,
-   "golsContra": 15,
+   "golsPro": 24,
+   "golsContra": 18,
    "saldo": 6
   },
   {
@@ -251,13 +251,13 @@
    "grupo": "",
    "time": "Borussia Mönchengladbach",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "pontos": 4,
-   "jogos": 10,
+   "pontos": 5,
+   "jogos": 11,
    "vitorias": 1,
-   "empates": 1,
+   "empates": 2,
    "derrotas": 8,
-   "golsPro": 12,
-   "golsContra": 26,
+   "golsPro": 15,
+   "golsContra": 29,
    "saldo": -14
   }
  ],
@@ -1990,10 +1990,10 @@
    "visitante": "Borussia Mönchengladbach",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/137.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/268.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 3,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

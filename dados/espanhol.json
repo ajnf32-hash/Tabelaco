@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:30.337Z",
+ "atualizado": "2026-11-28T02:51:22.579Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -81,6 +81,20 @@
   {
    "posicao": 6,
    "grupo": "",
+   "time": "Racing Santander",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
+   "pontos": 20,
+   "jogos": 14,
+   "vitorias": 6,
+   "empates": 2,
+   "derrotas": 6,
+   "golsPro": 23,
+   "golsContra": 33,
+   "saldo": -10
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Sevilla",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/243.png",
    "pontos": 19,
@@ -91,20 +105,6 @@
    "golsPro": 18,
    "golsContra": 20,
    "saldo": -2
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Racing Santander",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-   "pontos": 17,
-   "jogos": 13,
-   "vitorias": 5,
-   "empates": 2,
-   "derrotas": 6,
-   "golsPro": 20,
-   "golsContra": 32,
-   "saldo": -12
   },
   {
    "posicao": 8,
@@ -252,13 +252,13 @@
    "time": "Levante",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "pontos": 12,
-   "jogos": 13,
+   "jogos": 14,
    "vitorias": 2,
    "empates": 6,
-   "derrotas": 5,
-   "golsPro": 17,
-   "golsContra": 22,
-   "saldo": -5
+   "derrotas": 6,
+   "golsPro": 18,
+   "golsContra": 25,
+   "saldo": -7
   },
   {
    "posicao": 19,
@@ -2760,10 +2760,10 @@
    "visitante": "Racing Santander",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/1538.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/87.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 1,
+   "golsVisitante": 3,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"

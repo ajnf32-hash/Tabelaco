@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-27T20:06:31.312Z",
+ "atualizado": "2026-11-28T02:51:23.872Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -109,6 +109,20 @@
   {
    "posicao": 8,
    "grupo": "",
+   "time": "Bologna",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
+   "pontos": 19,
+   "jogos": 13,
+   "vitorias": 5,
+   "empates": 4,
+   "derrotas": 4,
+   "golsPro": 17,
+   "golsContra": 15,
+   "saldo": 2
+  },
+  {
+   "posicao": 9,
+   "grupo": "",
    "time": "Napoli",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/114.png",
    "pontos": 18,
@@ -119,20 +133,6 @@
    "golsPro": 19,
    "golsContra": 14,
    "saldo": 5
-  },
-  {
-   "posicao": 9,
-   "grupo": "",
-   "time": "Bologna",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-   "pontos": 18,
-   "jogos": 12,
-   "vitorias": 5,
-   "empates": 3,
-   "derrotas": 4,
-   "golsPro": 17,
-   "golsContra": 15,
-   "saldo": 2
   },
   {
    "posicao": 10,
@@ -265,10 +265,10 @@
    "grupo": "",
    "time": "Venezia",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
-   "pontos": 6,
-   "jogos": 12,
+   "pontos": 7,
+   "jogos": 13,
    "vitorias": 2,
-   "empates": 0,
+   "empates": 1,
    "derrotas": 10,
    "golsPro": 8,
    "golsContra": 25,
@@ -2590,10 +2590,10 @@
    "visitante": "Bologna",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/17530.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/107.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "First Half",
+   "golsMandante": 0,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
