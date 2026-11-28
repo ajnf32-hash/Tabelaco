@@ -6,7 +6,7 @@
  "temporada": 2027,
  "temporadaTabela": 2026,
  "origemTabela": "fonte",
- "atualizado": "2026-11-28T11:10:53.425Z",
+ "atualizado": "2026-11-28T19:01:37.641Z",
  "classificacao": [
   {
    "posicao": 1,
@@ -67,6 +67,34 @@
   {
    "posicao": 5,
    "grupo": "",
+   "time": "Brentford",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
+   "pontos": 20,
+   "jogos": 12,
+   "vitorias": 5,
+   "empates": 5,
+   "derrotas": 2,
+   "golsPro": 24,
+   "golsContra": 11,
+   "saldo": 13
+  },
+  {
+   "posicao": 6,
+   "grupo": "",
+   "time": "Leeds",
+   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
+   "pontos": 20,
+   "jogos": 12,
+   "vitorias": 5,
+   "empates": 5,
+   "derrotas": 2,
+   "golsPro": 17,
+   "golsContra": 9,
+   "saldo": 8
+  },
+  {
+   "posicao": 7,
+   "grupo": "",
    "time": "Bournemouth",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/349.png",
    "pontos": 18,
@@ -77,34 +105,6 @@
    "golsPro": 18,
    "golsContra": 14,
    "saldo": 4
-  },
-  {
-   "posicao": 6,
-   "grupo": "",
-   "time": "Brentford",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-   "pontos": 17,
-   "jogos": 11,
-   "vitorias": 4,
-   "empates": 5,
-   "derrotas": 2,
-   "golsPro": 20,
-   "golsContra": 11,
-   "saldo": 9
-  },
-  {
-   "posicao": 7,
-   "grupo": "",
-   "time": "Leeds",
-   "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
-   "pontos": 17,
-   "jogos": 11,
-   "vitorias": 4,
-   "empates": 5,
-   "derrotas": 2,
-   "golsPro": 14,
-   "golsContra": 9,
-   "saldo": 5
   },
   {
    "posicao": 8,
@@ -196,13 +196,13 @@
    "time": "Coventry City",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
    "pontos": 12,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 4,
    "empates": 0,
-   "derrotas": 7,
+   "derrotas": 8,
    "golsPro": 13,
-   "golsContra": 21,
-   "saldo": -8
+   "golsContra": 24,
+   "saldo": -11
   },
   {
    "posicao": 15,
@@ -266,13 +266,13 @@
    "time": "Manchester United",
    "escudo": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "pontos": 8,
-   "jogos": 11,
+   "jogos": 12,
    "vitorias": 1,
    "empates": 5,
-   "derrotas": 5,
+   "derrotas": 6,
    "golsPro": 14,
-   "golsContra": 23,
-   "saldo": -9
+   "golsContra": 27,
+   "saldo": -13
   },
   {
    "posicao": 20,
@@ -2420,10 +2420,10 @@
    "visitante": "Coventry City",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/357.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/388.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 3,
+   "golsVisitante": 0,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2440,10 +2440,10 @@
    "visitante": "Brentford",
    "escudoMandante": "https://a.espncdn.com/i/teamlogos/soccer/500/360.png",
    "escudoVisitante": "https://a.espncdn.com/i/teamlogos/soccer/500/337.png",
-   "golsMandante": null,
-   "golsVisitante": null,
-   "encerrado": false,
-   "situacao": "Scheduled",
+   "golsMandante": 0,
+   "golsVisitante": 4,
+   "encerrado": true,
+   "situacao": "Full Time",
    "fontes": [
     "espn",
     "fotmob"
@@ -2463,7 +2463,7 @@
    "golsMandante": null,
    "golsVisitante": null,
    "encerrado": false,
-   "situacao": "Scheduled",
+   "situacao": "Second Half",
    "fontes": [
     "espn",
     "fotmob"
